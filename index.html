@@ -74,7 +74,7 @@ button{font-family:inherit}
 /* Hero */
 .hero{padding-block:clamp(48px,9vw,104px) 40px}
 .hero h1{font-size:clamp(2.5rem,8.2vw,5.2rem);line-height:1.04;margin-top:18px;max-width:16ch}
-.hero h1 em{font-style:normal;color:var(--on-sun);background:var(--sun);padding:0 .14em;border-radius:.12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hero h1 em{font-style:normal;color:var(--hl)}
 .hero p.lead{font-size:clamp(1.02rem,2.2vw,1.2rem);color:var(--muted);max-width:46ch;margin:22px 0 0}
 .hero .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .hero .cta .bt{min-height:48px;padding:0 20px;font-size:.95rem}
@@ -239,9 +239,9 @@ footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-
 
 
 /* Globo */
-:root{--globe:#F1F1EE;--dot:#1B1B19;--rim:#E2E2DD}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--globe:#121211;--dot:#EDEDE8;--rim:#2A2A27}}
-:root[data-theme="dark"]{--globe:#121211;--dot:#EDEDE8;--rim:#2A2A27}
+:root{--globe:#F1F1EE;--dot:#1B1B19;--rim:#E2E2DD;--hl:#B06F00}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--globe:#121211;--dot:#EDEDE8;--rim:#2A2A27;--hl:#FFC21A}}
+:root[data-theme="dark"]{--globe:#121211;--dot:#EDEDE8;--rim:#2A2A27;--hl:#FFC21A}
 .gsec{border-top:1px solid var(--line);padding-block:clamp(48px,7vw,88px)}
 .gwrap{display:grid;gap:28px;align-items:center}
 @media (min-width:900px){.gwrap{grid-template-columns:1fr 1.15fr;gap:48px}}
@@ -280,6 +280,17 @@ footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-
 .gitem .acts .bt{min-height:44px}
 .feat{display:block;padding:4px 0 48px;margin-bottom:48px;border-bottom:1px solid var(--line)}
 .feat h3{font-size:clamp(1.9rem,4.6vw,3.2rem);max-width:22ch}
+.ph{position:relative;display:block;aspect-ratio:16/10;border-radius:var(--radius);overflow:hidden;background:var(--band)}
+.ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}
+.ph:hover img{transform:scale(1.03)}
+.ph .cr{position:absolute;right:8px;bottom:8px;font:500 .62rem var(--mono);color:#fff;background:rgba(0,0,0,.45);padding:3px 7px;border-radius:999px;letter-spacing:.02em}
+.feat.hasimg{display:grid;gap:22px}
+.feat.hasimg .ph{aspect-ratio:16/9}
+@media (min-width:860px){.feat.hasimg{grid-template-columns:1.15fr 1fr;align-items:center;gap:44px}.feat.hasimg h3{font-size:clamp(1.8rem,3.4vw,2.7rem)}}
+.gitem .ph{aspect-ratio:16/8;margin-bottom:12px}
+.sframe .sbg{position:absolute;inset:0;z-index:1;background-size:cover;background-position:center}
+.sframe .sbg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.05) 30%,rgba(0,0,0,.35) 55%,rgba(0,0,0,.88) 100%)}
+.sframe.himg::before,.sframe.himg::after{display:none}
 </style>
 </head>
 <body>
@@ -452,14 +463,14 @@ const D={
   copyFail:"Não consegui copiar. Segure o título para selecionar.",soon:"O envio diário ainda está em preparação. Em breve!",n1:"notícia",nN:"notícias",
   fin1:"Dose de hoje tomada",fin2:"Pronto! Seu dia já começou bem.",fin3:"Você viu {a} notícias boas em um minuto. Tem mais {b} na lista e no mapa.",
   seeAll:"Ver todas",expMap:"Explorar o mapa",loadErr:"Não consegui carregar as notícias agora. Recarregue a página em instantes.",email:"Seu e-mail",
-  title:"Dose do Bem · Notícias boas, todo dia",wd:"neste domingo|nesta segunda|nesta terça|nesta quarta|nesta quinta|nesta sexta|neste sábado",h1b_m:"para começar o dia.",h1b_l:"para a sua pausa do almoço.",h1b_a:"para respirar um pouco.",h1b_e:"para fechar o dia bem.",mo_m:"Café da manhã",mo_l:"Almoço",mo_a:"Tarde",mo_e:"Noite",tIntro:"{g}! Esta é a {b} de {d}. São {n} notícias boas.",tOrd:"Primeira|Segunda|Terceira|Quarta|Quinta|Sexta|Sétima|Oitava",tOutro:"Essa foi a sua dose de hoje. Tem mais notícias boas no site da {b}. Até a próxima!",tNow:"Começando…",tEnd:"Fim da dose de hoje",pPlay:"Continuar",pPause:"Pausar",noTTS:"Este navegador não consegue ler em voz alta.",instDone:"O app já está instalado neste aparelho.",instIOS:"No iPhone: toque em Compartilhar (o quadrado com a seta) e depois em \"Adicionar à Tela de Início\".",instOther:"Abra o menu do navegador (⋮) e toque em \"Instalar app\" ou \"Adicionar à tela inicial\"."},
+  title:"Dose do Bem · Notícias boas, todo dia",photo:"Foto",wd:"neste domingo|nesta segunda|nesta terça|nesta quarta|nesta quinta|nesta sexta|neste sábado",h1b_m:"para começar o dia.",h1b_l:"para a sua pausa do almoço.",h1b_a:"para respirar um pouco.",h1b_e:"para fechar o dia bem.",mo_m:"Café da manhã",mo_l:"Almoço",mo_a:"Tarde",mo_e:"Noite",tIntro:"{g}! Esta é a {b} de {d}. São {n} notícias boas.",tOrd:"Primeira|Segunda|Terceira|Quarta|Quinta|Sexta|Sétima|Oitava",tOutro:"Essa foi a sua dose de hoje. Tem mais notícias boas no site da {b}. Até a próxima!",tNow:"Começando…",tEnd:"Fim da dose de hoje",pPlay:"Continuar",pPause:"Pausar",noTTS:"Este navegador não consegue ler em voz alta.",instDone:"O app já está instalado neste aparelho.",instIOS:"No iPhone: toque em Compartilhar (o quadrado com a seta) e depois em \"Adicionar à Tela de Início\".",instOther:"Abra o menu do navegador (⋮) e toque em \"Instalar app\" ou \"Adicionar à tela inicial\"."},
  es:{brand:"Dosis de Bien",gm:"Buenos días",ga:"Buenas tardes",ge:"Buenas noches",day1:"1 día",days:"{n} días",streakT:"Días seguidos que abriste Dosis de Bien",
   ed:"Edición del {d}",themes:"Temas",pick:"Elegida por la redacción",readOn:"Leer en",copyL:"Copiar para compartir",emptyCat:"No hay noticias de este tema en la edición de hoy.",
   read:"leídas",done:"Edición de hoy completa",shareT:"Lo vi en Dosis de Bien, solo noticias buenas.",copied:"¡Copiado! Pégalo en WhatsApp o donde quieras.",
   copyFail:"No pude copiar. Mantén pulsado el título para seleccionarlo.",soon:"El envío diario aún está en preparación. ¡Muy pronto!",n1:"noticia",nN:"noticias",
   fin1:"Dosis de hoy tomada",fin2:"¡Listo! Tu día ya empezó bien.",fin3:"Viste {a} noticias buenas en un minuto. Hay {b} más en la lista y en el mapa.",
   seeAll:"Ver todas",expMap:"Explorar el mapa",loadErr:"No pude cargar las noticias ahora. Recarga la página en unos instantes.",email:"Tu correo",
-  title:"Dosis de Bien · Noticias buenas, todos los días",wd:"este domingo|este lunes|este martes|este miércoles|este jueves|este viernes|este sábado",h1b_m:"para empezar el día.",h1b_l:"para tu pausa del almuerzo.",h1b_a:"para respirar un poco.",h1b_e:"para cerrar bien el día.",mo_m:"Desayuno",mo_l:"Almuerzo",mo_a:"Tarde",mo_e:"Noche",tIntro:"{g}! Esta es la {b} del {d}. Son {n} noticias buenas.",tOrd:"Primera|Segunda|Tercera|Cuarta|Quinta|Sexta|Séptima|Octava",tOutro:"Esa fue tu dosis de hoy. Hay más noticias buenas en el sitio de {b}. ¡Hasta la próxima!",tNow:"Empezando…",tEnd:"Fin de la dosis de hoy",pPlay:"Continuar",pPause:"Pausar",noTTS:"Este navegador no puede leer en voz alta.",instDone:"La app ya está instalada en este dispositivo.",instIOS:"En iPhone: toca Compartir (el cuadrado con la flecha) y luego \"Agregar a pantalla de inicio\".",instOther:"Abre el menú del navegador (⋮) y toca \"Instalar app\" o \"Agregar a la pantalla principal\".",listen:"Escuchar · 2 min",awE:"En tu día",awH:"Tu dosis en cualquier lugar.",awP:"En el desayuno, camino al trabajo, en el almuerzo o antes de dormir. Lee, escucha o pídeselo a Alexa.",aw1H:"En el móvil, como app",aw1P:"Pon Dosis de Bien en tu pantalla de inicio. Se abre con un toque y funciona incluso sin internet.",aw1B:"Instalar la app",aw2H:"Para escuchar en el camino",aw2P:"En el bus, en el coche o preparando el café: el móvil te lee las cinco noticias del día.",aw2B:"Escuchar ahora",aw3H:"En Alexa",aw3P:"Activa Dosis de Bien en tu Resumen de Noticias y pregunta: \"Alexa, ¿cuáles son las noticias?\"",aw3B:"Muy pronto",
+  title:"Dosis de Bien · Noticias buenas, todos los días",photo:"Foto",wd:"este domingo|este lunes|este martes|este miércoles|este jueves|este viernes|este sábado",h1b_m:"para empezar el día.",h1b_l:"para tu pausa del almuerzo.",h1b_a:"para respirar un poco.",h1b_e:"para cerrar bien el día.",mo_m:"Desayuno",mo_l:"Almuerzo",mo_a:"Tarde",mo_e:"Noche",tIntro:"{g}! Esta es la {b} del {d}. Son {n} noticias buenas.",tOrd:"Primera|Segunda|Tercera|Cuarta|Quinta|Sexta|Séptima|Octava",tOutro:"Esa fue tu dosis de hoy. Hay más noticias buenas en el sitio de {b}. ¡Hasta la próxima!",tNow:"Empezando…",tEnd:"Fin de la dosis de hoy",pPlay:"Continuar",pPause:"Pausar",noTTS:"Este navegador no puede leer en voz alta.",instDone:"La app ya está instalada en este dispositivo.",instIOS:"En iPhone: toca Compartir (el cuadrado con la flecha) y luego \"Agregar a pantalla de inicio\".",instOther:"Abre el menú del navegador (⋮) y toca \"Instalar app\" o \"Agregar a la pantalla principal\".",listen:"Escuchar · 2 min",awE:"En tu día",awH:"Tu dosis en cualquier lugar.",awP:"En el desayuno, camino al trabajo, en el almuerzo o antes de dormir. Lee, escucha o pídeselo a Alexa.",aw1H:"En el móvil, como app",aw1P:"Pon Dosis de Bien en tu pantalla de inicio. Se abre con un toque y funciona incluso sin internet.",aw1B:"Instalar la app",aw2H:"Para escuchar en el camino",aw2P:"En el bus, en el coche o preparando el café: el móvil te lee las cinco noticias del día.",aw2B:"Escuchar ahora",aw3H:"En Alexa",aw3P:"Activa Dosis de Bien en tu Resumen de Noticias y pregunta: \"Alexa, ¿cuáles son las noticias?\"",aw3B:"Muy pronto",
   langL:"Idioma",explore:"Explorar",today:"Dosis de hoy",h1a:"noticias buenas",h1b:"para empezar.",
   lead:"Una selección diaria de lo que está saliendo bien en Brasil y en el mundo. Cada noticia trae el enlace a la fuente original.",
   seeDose:"Ver la dosis de hoy · 1 min",readAll:"Leer todas",seeMap:"Ver en el mapa",back:"← Volver",mapE:"Mapa",mapH:"De dónde vienen las buenas noticias.",
@@ -479,7 +490,7 @@ const D={
   copyFail:"Couldn't copy. Press and hold the title to select it.",soon:"The daily email is still in the works. Coming soon!",n1:"story",nN:"stories",
   fin1:"Today's dose taken",fin2:"Done! Your day is off to a good start.",fin3:"You saw {a} good news stories in a minute. There are {b} more in the list and on the map.",
   seeAll:"See all",expMap:"Explore the map",loadErr:"Couldn't load the news right now. Reload the page in a moment.",email:"Your email",
-  title:"Dose of Good · Good news, every day",wd:"this Sunday|this Monday|this Tuesday|this Wednesday|this Thursday|this Friday|this Saturday",h1b_m:"to start your day.",h1b_l:"for your lunch break.",h1b_a:"to take a breather.",h1b_e:"to end the day well.",mo_m:"Breakfast",mo_l:"Lunch",mo_a:"Afternoon",mo_e:"Evening",tIntro:"{g}! This is {b} for {d}. Here are {n} good news stories.",tOrd:"First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth",tOutro:"That was your dose for today. There's more good news on the {b} website. See you next time!",tNow:"Starting…",tEnd:"End of today's dose",pPlay:"Resume",pPause:"Pause",noTTS:"This browser can't read aloud.",instDone:"The app is already installed on this device.",instIOS:"On iPhone: tap Share (the square with the arrow), then \"Add to Home Screen\".",instOther:"Open the browser menu (⋮) and tap \"Install app\" or \"Add to Home screen\".",listen:"Listen · 2 min",awE:"In your day",awH:"Your dose, anywhere.",awP:"At breakfast, on the way to work, at lunch or before bed. Read it, listen to it or ask Alexa.",aw1H:"On your phone, as an app",aw1P:"Add Dose of Good to your home screen. It opens in one tap and works even offline.",aw1B:"Install the app",aw2H:"Listen on the go",aw2P:"On the bus, in the car or making coffee: your phone reads you the day's five stories.",aw2B:"Listen now",aw3H:"On Alexa",aw3P:"Enable Dose of Good in your Flash Briefing and ask: \"Alexa, what's the news?\"",aw3B:"Coming soon",
+  title:"Dose of Good · Good news, every day",photo:"Photo",wd:"this Sunday|this Monday|this Tuesday|this Wednesday|this Thursday|this Friday|this Saturday",h1b_m:"to start your day.",h1b_l:"for your lunch break.",h1b_a:"to take a breather.",h1b_e:"to end the day well.",mo_m:"Breakfast",mo_l:"Lunch",mo_a:"Afternoon",mo_e:"Evening",tIntro:"{g}! This is {b} for {d}. Here are {n} good news stories.",tOrd:"First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth",tOutro:"That was your dose for today. There's more good news on the {b} website. See you next time!",tNow:"Starting…",tEnd:"End of today's dose",pPlay:"Resume",pPause:"Pause",noTTS:"This browser can't read aloud.",instDone:"The app is already installed on this device.",instIOS:"On iPhone: tap Share (the square with the arrow), then \"Add to Home Screen\".",instOther:"Open the browser menu (⋮) and tap \"Install app\" or \"Add to Home screen\".",listen:"Listen · 2 min",awE:"In your day",awH:"Your dose, anywhere.",awP:"At breakfast, on the way to work, at lunch or before bed. Read it, listen to it or ask Alexa.",aw1H:"On your phone, as an app",aw1P:"Add Dose of Good to your home screen. It opens in one tap and works even offline.",aw1B:"Install the app",aw2H:"Listen on the go",aw2P:"On the bus, in the car or making coffee: your phone reads you the day's five stories.",aw2B:"Listen now",aw3H:"On Alexa",aw3P:"Enable Dose of Good in your Flash Briefing and ask: \"Alexa, what's the news?\"",aw3B:"Coming soon",
   langL:"Language",explore:"Explore",today:"Today's dose",h1a:"good news stories",h1b:"to start your day.",
   lead:"A daily selection of what's going right in Brazil and around the world. Every story links to the original source.",
   seeDose:"See today's dose · 1 min",readAll:"Read all",seeMap:"See on the map",back:"← Back",mapE:"Map",mapH:"Where the good news comes from.",
@@ -566,6 +577,7 @@ function pickDose(list){
   for(const n of sorted){if(out.length>=5)break;if(!out.includes(n))out.push(n);}
   return out;
 }
+const photo=(n,link)=>n.img?`<${link?`a href="${esc(n.url)}" target="_blank" rel="noopener" data-read="${n.id}" tabindex="-1" aria-hidden="true"`:"div"} class="ph"><img src="${esc(n.img)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"><span class="cr">${esc(n.credito||(t("photo")+": "+n.fonte))}</span></${link?"a":"div"}>`:"";
 const meta=n=>`<div class="meta"><span class="c">${CATS[n.categoria]}</span><span>${esc(L(n,"regiao"))}</span><span>${readMin(n)} min</span></div>`;
 
 function render(){
@@ -581,14 +593,14 @@ function render(){
   $("fTemas").innerHTML=`<h4>${t("themes")}</h4>`+keys.filter(k=>k!=="todas").map(k=>`<button type="button" data-k="${k}" class="ftema">${CATS[k]}</button>`).join("");
   const items=N.filter(n=>current==="todas"||n.categoria===current).sort((a,b)=>(b.destaque?1:0)-(a.destaque?1:0)||b.data.localeCompare(a.data));
   const f=items[0], rest=items.slice(1).sort((a,b)=>b.data.localeCompare(a.data));
-  $("featured").innerHTML=f?`<article class="feat" data-id="${f.id}" style="${cc(f.categoria)}">
-      
+  $("featured").innerHTML=f?`<article class="feat${f.img?" hasimg":""}" data-id="${f.id}" style="${cc(f.categoria)}">
+      ${photo(f,true)}
       <div><div class="eyebrow">${t("pick")}</div><h3>${esc(L(f,"titulo"))}</h3><p>${esc(L(f,"resumo"))}</p>
       <div style="margin-top:16px">${meta(f)}</div>
       <a class="more" href="${esc(f.url)}" target="_blank" rel="noopener" data-read="${f.id}">${t("readOn")} ${esc(f.fonte)} ${ico("out")}</a></div></article>`:"";
   const vis=rest.slice(0,shown);
   $("feed").innerHTML=vis.length?vis.map(n=>`<article class="post" data-id="${n.id}" style="${cc(n.categoria)}">
-      ${meta(n)}
+      ${photo(n,true)}${meta(n)}
       <h3><a href="${esc(n.url)}" target="_blank" rel="noopener" data-read="${n.id}">${esc(L(n,"titulo"))}</a></h3>
       <p>${esc(L(n,"resumo"))}</p>
       <div class="pfoot"><span class="src">${esc(n.fonte)} · ${fmtS(n.data)}</span><button class="icob" data-share="${n.id}" aria-label="${t("copyL")}">${ico("share")}</button></div>
@@ -670,7 +682,7 @@ function gLoop(ts){
 const reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
 function flyTo(lon,lat){let d=((lon-G.lam)%360+540)%360-180;G.anim={t0:performance.now(),l0:G.lam,l1:G.lam+d,p0:G.phi,p1:Math.max(-60,Math.min(60,lat))};G.auto=false;}
 function gOpen(items,where){
-  $("gsBody").innerHTML=`<div class="where">${esc(where)} · ${items.length} ${items.length>1?t("nN"):t("n1")}</div>`+items.map(n=>`<div class="gitem" data-id="${n.id}" style="${cc(n.categoria)}">${meta(n)}<h3 id="gs-t">${esc(L(n,"titulo"))}</h3><p>${esc(L(n,"resumo"))}</p><div class="acts"><a class="bt dark" href="${esc(n.url)}" target="_blank" rel="noopener" data-read="${n.id}">${t("readOn")} ${esc(n.fonte)} ${ico("out")}</a><button class="icob" data-share="${n.id}" aria-label="${t("copyL")}">${ico("share")}</button></div></div>`).join("");
+  $("gsBody").innerHTML=`<div class="where">${esc(where)} · ${items.length} ${items.length>1?t("nN"):t("n1")}</div>`+items.map(n=>`<div class="gitem" data-id="${n.id}" style="${cc(n.categoria)}">${photo(n,false)}${meta(n)}<h3 id="gs-t">${esc(L(n,"titulo"))}</h3><p>${esc(L(n,"resumo"))}</p><div class="acts"><a class="bt dark" href="${esc(n.url)}" target="_blank" rel="noopener" data-read="${n.id}">${t("readOn")} ${esc(n.fonte)} ${ico("out")}</a><button class="icob" data-share="${n.id}" aria-label="${t("copyL")}">${ico("share")}</button></div></div>`).join("");
   $("gsheet").classList.add("open"); paint();
 }
 function gCloseSheet(){$("gsheet").classList.remove("open");G.sel=null;}
@@ -723,7 +735,7 @@ function sGo(i){
   fr.className="sframe"+(fin?" sfinal":"");
   $("sbars").innerHTML=Array.from({length:total},(_,k)=>`<b><i style="width:${k<SI?100:0}%"></i></b>`).join("");
   if(fin){
-    fr.style.removeProperty("--cc");
+    fr.style.removeProperty("--cc"); const ob=fr.querySelector(".sbg"); if(ob) ob.remove();
     const r=readSet(), n=data.noticias.filter(x=>r.has(x.id)).length;
     $("swho").textContent=t("brand");
     $("sbody").innerHTML=`<div class="tg">${t("fin1")}</div><h2>${t("fin2")}</h2>
@@ -731,6 +743,8 @@ function sGo(i){
       <div class="sacts"><button class="r" id="sList">${t("seeAll")}</button><button class="s" id="sMap">${t("expMap")}</button></div>`;
   } else {
     const n=DOSE[SI]; fr.style.setProperty("--cc",`var(--c-${n.categoria})`);
+    const old=fr.querySelector(".sbg"); if(old) old.remove();
+    if(n.img){const bg=document.createElement("div");bg.className="sbg";bg.style.backgroundImage=`url("${n.img.replace(/"/g,"%22")}")`;fr.insertBefore(bg,fr.firstChild);fr.classList.add("himg");}
     markRead(n.id);
     $("swho").textContent=CATS[n.categoria];
     $("sbody").innerHTML=`<div class="tg">${esc(L(n,"regiao"))} · ${fmtS(n.data)}</div>
@@ -752,9 +766,19 @@ $("openS").onclick=()=>sOpen(0);
 let MOMENT="m";
 const TTS=("speechSynthesis" in window)&&("SpeechSynthesisUtterance" in window);
 const P={q:[],i:0,on:false,paused:false,item:-1};
+function vScore(v){const n=v.name;let s=0;
+  if(/natural|neural|online/i.test(n)) s+=60;          // Edge / Windows: vozes neurais
+  if(/premium|enhanced|aprimorad|mejorad|siri/i.test(n)) s+=50; // iPhone/Mac: vozes baixadas
+  if(/google/i.test(n)) s+=35;                          // Chrome / Android
+  if(/compact|espeak|eloquence|grandma|grandpa|albert|bad news|bells|boing|bubbles|cellos|jester|organ|superstar|trinoids|whisper|wobble|zarvox|bahh|fred|junior|ralph|kathy/i.test(n)) s-=80;
+  if(v.localService===false) s+=5; return s;}
 function pickVoice(){const vs=speechSynthesis.getVoices(),want=LOC[LANG].toLowerCase(),base=want.slice(0,2);
-  return vs.find(v=>v.lang.toLowerCase().replace("_","-")===want&&/google|natural|premium|enhanced|luciana|felipe|francisca|thiago/i.test(v.name))||vs.find(v=>v.lang.toLowerCase().replace("_","-")===want)||vs.find(v=>v.lang.toLowerCase().startsWith(base))||null;}
-const chunks=txt=>txt.match(/[^.!?]+[.!?]+["”]?|[^.!?]+$/g).map(x=>x.trim()).filter(Boolean);
+  const norm=l=>(l||"").toLowerCase().replace("_","-");
+  const pool=vs.filter(v=>norm(v.lang)===want); const pool2=pool.length?pool:vs.filter(v=>norm(v.lang).startsWith(base));
+  return pool2.sort((a,b)=>vScore(b)-vScore(a))[0]||null;}
+// Frases agrupadas em blocos de ~220 caracteres: menos pausas, fala mais corrida.
+const chunks=txt=>{const ss=(txt.match(/[^.!?]+[.!?]+["”]?|[^.!?]+$/g)||[txt]).map(x=>x.trim()).filter(Boolean);const out=[];let cur="";
+  ss.forEach(x=>{ if(cur&&(cur+" "+x).length>220){out.push(cur);cur=x;} else cur=cur?cur+" "+x:x; }); if(cur) out.push(cur); return out;};
 function pBuild(){
   const q=[], add=(text,item)=>chunks(text).forEach(c=>q.push({c,item}));
   const d=new Date().toLocaleDateString(LOC[LANG],{weekday:"long",day:"numeric",month:"long"});
@@ -776,7 +800,7 @@ function pSpeak(){
   if(!P.on) return;
   if(P.i>=P.q.length){pStop();return;}
   const part=P.q[P.i]; if(part.item>=0&&part.item!==P.item){P.item=part.item;markRead(DOSE[part.item].id);}
-  const u=new SpeechSynthesisUtterance(part.c); u.lang=LOC[LANG]; const v=pickVoice(); if(v) u.voice=v; u.rate=1.02;
+  const u=new SpeechSynthesisUtterance(part.c); u.lang=LOC[LANG]; const v=pickVoice(); if(v) u.voice=v; u.rate=1; u.pitch=1;
   u.onend=()=>{ if(!P.on||P.paused) return; P.i++; pSpeak(); };
   u.onerror=e=>{ if(e.error==="interrupted"||e.error==="canceled") return; P.i++; pSpeak(); };
   pUI(); speechSynthesis.speak(u);

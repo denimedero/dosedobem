@@ -27,7 +27,9 @@
      "regiao": "United States",
      "pais": "United States"
     }
-   }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-03T103430.177.jpg",
+   "credito": "Foto: reprodução/Boston Globe"
   },
   {
    "id": "medula-alemanha",
@@ -55,7 +57,9 @@
      "regiao": "Curitiba, Brazil",
      "pais": "Brazil"
     }
-   }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/foto_rapazes_SNB_800x560.png",
+   "credito": "Fotos: reprodução/RPC TV"
   },
   {
    "id": "caes-hospital",
@@ -82,7 +86,9 @@
      "regiao": "Fortaleza, Brazil",
      "pais": "Brazil"
     }
-   }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-23.png",
+   "credito": "Foto: Ivina Sales/Ascom Helv"
   },
   {
    "id": "colar-calisto",
@@ -109,7 +115,9 @@
      "regiao": "Lauro de Freitas, Brazil",
      "pais": "Brazil"
     }
-   }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-24.png",
+   "credito": "Foto: Milena Monteiro/Ascom Secti"
   },
   {
    "id": "ema-poemas",
@@ -136,7 +144,9 @@
      "regiao": "Porto Alegre, Brazil",
      "pais": "Brazil"
     }
-   }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-04T114302.732.jpg",
+   "credito": "Foto: Regina Lemos"
   },
   {
    "id": "zeze-motta",
@@ -163,7 +173,9 @@
      "regiao": "Rio de Janeiro, Brazil",
      "pais": "Brazil"
     }
-   }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-02T122202.760.jpg",
+   "credito": "Fotos: reprodução/TV Cultura/GNT"
   },
   {
    "id": "foto-cerrado",
@@ -190,7 +202,9 @@
      "regiao": "Chapada dos Veadeiros, Brazil",
      "pais": "Brazil"
     }
-   }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-02T080456.449.jpg",
+   "credito": "Foto: Márcio Cabral"
   },
   {
    "id": "escola-marilyn",
@@ -217,7 +231,9 @@
      "regiao": "Texas, USA",
      "pais": "United States"
     }
-   }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-14.png",
+   "credito": "Foto: reprodução/Aubrey ISD"
   },
   {
    "id": "castores-ness",
@@ -244,7 +260,9 @@
      "regiao": "Scotland, UK",
      "pais": "Scotland"
     }
-   }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-NatureScot.jpg",
+   "credito": "NatureScot"
   },
   {
    "id": "pawcast",
@@ -271,7 +289,9 @@
      "regiao": "United States",
      "pais": "United States"
     }
-   }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-retrieved-from-Pawcast.jpg",
+   "credito": "Pawcast"
   },
   {
    "id": "kenli-herois",
@@ -298,7 +318,9 @@
      "regiao": "Texas, USA",
      "pais": "United States"
     }
-   }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/supplied-by-Marjohn-Riney.jpg",
+   "credito": "Marjohn Riney"
   },
   {
    "id": "mesquitas-punjab",
@@ -352,7 +374,9 @@
      "regiao": "Nanchang, China",
      "pais": "China"
     }
-   }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/YouTube-screengrab-credit-Xie-Junwu-.jpg",
+   "credito": "Xie Junwu/YouTube"
   },
   {
    "id": "chocolate-reading",
@@ -379,7 +403,9 @@
      "regiao": "Reading, England",
      "pais": "United Kingdom"
     }
-   }
+   },
+   "img": "https://www.positive.news/wp-content/uploads/2026/11/20260331_100216311_iOS-1800x0-c-center.jpg",
+   "credito": "University of Reading"
   }
  ]
 }
