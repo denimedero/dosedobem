@@ -1,0 +1,805 @@
+<title>Dose do Bem</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: editorial minimalista. Topo enxuto com nav, título grande, stories discretos; depois seção "Notícias" (eyebrow + título + filtros), destaque do editor, grade de artigos, "Mais recentes" em lista; FAQ; newsletter; rodapé em 4 colunas. */
+:root{
+  --bg:#FFFFFF; --band:#F5F5F3; --surface:#FFFFFF; --ink:#0B0B0A; --muted:#6B6B66; --line:#E6E6E2;
+  --sun:#FFC21A; --sun-deep:#E5A800; --on-sun:#1B1400;
+  --c-saude:#E2554A; --c-ciencia:#5560E6; --c-sociedade:#E97F22; --c-meio-ambiente:#1E9466; --c-animais:#A75AD6; --c-tecnologia:#1797A6;
+  --display:"Geist", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --body:"Geist", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --mono:"Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B0B0A; --band:#141413; --surface:#141413; --ink:#F3F3EF; --muted:#9A9A93; --line:#26262333; --line:#2A2A27; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0B0B0A; --band:#141413; --surface:#141413; --ink:#F3F3EF; --muted:#9A9A93; --line:#2A2A27; color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.gut{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.in{max-width:1120px;margin:0 auto}
+.eyebrow{font:500 .74rem var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--muted);display:flex;align-items:center;gap:8px}
+.eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--sun)}
+h1,h2,h3{font-family:var(--display);font-weight:600;letter-spacing:-.035em;text-wrap:balance;margin:0}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+button{font-family:inherit}
+
+/* Nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .in{display:flex;align-items:center;justify-content:space-between;gap:12px;height:60px}
+.logo{display:flex;align-items:center;gap:9px;font:600 1.05rem var(--display);letter-spacing:-.03em;color:var(--ink);text-decoration:none}
+.logo svg{width:24px;height:24px;flex:none;color:var(--ink)}
+.navr{display:flex;align-items:center;gap:6px}
+.streak{display:flex;align-items:center;gap:6px;font:500 .74rem var(--mono);color:var(--muted);padding:6px 10px;border:1px solid var(--line);border-radius:999px;white-space:nowrap}
+.streak i{width:7px;height:7px;border-radius:50%;background:var(--sun)}
+.bt{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:0 16px;border-radius:999px;border:0;font:500 .9rem var(--body);cursor:pointer;text-decoration:none;white-space:nowrap}
+.bt svg{width:16px;height:16px}
+.bt.dark{background:var(--ink);color:var(--bg)}
+.bt.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.bt.ghost:hover{box-shadow:inset 0 0 0 1px var(--ink)}
+.navr .bt.ghost{display:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.langsel select{appearance:none;-webkit-appearance:none;font:600 .74rem var(--mono);color:var(--ink);background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.4'/%3E%3C/svg%3E") no-repeat right 9px center/9px;border:1px solid var(--line);border-radius:999px;padding:6px 24px 6px 10px;cursor:pointer;letter-spacing:.04em}
+.langsel select:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.langsel option{color:#111;background:#fff}
+.flang{display:flex;gap:14px;flex-wrap:wrap}
+.flang button{all:unset;cursor:pointer;color:inherit}
+.flang button[aria-current="true"]{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+@media (max-width:400px){.streak{display:none}}
+@media (min-width:640px){.navr .bt.ghost{display:inline-flex}}
+
+/* Hero */
+.hero{padding-block:clamp(48px,9vw,104px) 40px}
+.hero h1{font-size:clamp(2.6rem,8.4vw,5.4rem);line-height:.98;margin-top:18px;max-width:14ch}
+.hero h1 em{font-style:normal;color:var(--muted)}
+.hero p.lead{font-size:clamp(1.02rem,2.2vw,1.2rem);color:var(--muted);max-width:46ch;margin:22px 0 0}
+.hero .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.hero .cta .bt{min-height:48px;padding:0 20px;font-size:.95rem}
+.bt svg{width:18px;height:18px;flex:none}
+.aw{display:grid;gap:14px}
+@media (min-width:760px){.aw{grid-template-columns:repeat(3,1fr);gap:18px}}
+.awc{border:1px solid var(--line);border-radius:20px;padding:24px;display:flex;flex-direction:column;align-items:flex-start;gap:10px;background:var(--surface)}
+.awc h3{margin:6px 0 0;font:600 1.15rem/1.25 var(--display);letter-spacing:-.01em}
+.awc p{margin:0;color:var(--muted);line-height:1.55;flex:1}
+.awc .bt{margin-top:8px}
+.awi{width:44px;height:44px;border-radius:12px;background:var(--sun);color:var(--on-sun);display:grid;place-items:center}
+.awi svg{width:24px;height:24px}
+.awtip{font-size:.88rem;color:var(--ink)!important;background:var(--band);border-radius:12px;padding:10px 12px;flex:none!important}
+.soonb{margin-top:8px;font:500 .74rem var(--mono);text-transform:uppercase;letter-spacing:.08em;border:1px dashed var(--line);border-radius:999px;padding:8px 12px;color:var(--muted)}
+.player{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:60;width:min(560px,calc(100% - 24px));display:flex;align-items:center;gap:8px;background:var(--ink);color:var(--bg);border-radius:999px;padding:7px;box-shadow:0 10px 30px rgba(0,0,0,.22)}
+.player .pb{width:42px;height:42px;flex:none;border-radius:50%;border:0;background:var(--sun);color:var(--on-sun);display:grid;place-items:center;cursor:pointer;font-size:15px}
+.player .pb svg{width:20px;height:20px}
+.player .pb.x{background:transparent;color:var(--bg);opacity:.75}
+.player .pt{flex:1;min-width:0;padding-left:4px}
+.player .pn{font:500 .68rem var(--mono);text-transform:uppercase;letter-spacing:.08em;opacity:.7}
+.player .ptt{font-weight:500;font-size:.9rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.playing .toast{bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+body.playing{padding-bottom:84px}
+.rings{display:flex;gap:16px;overflow-x:auto;scrollbar-width:none;margin-top:44px;padding-bottom:6px;margin-inline:calc(-1*max(20px,env(safe-area-inset-left,0px)));padding-inline:max(20px,env(safe-area-inset-left,0px))}
+.rings::-webkit-scrollbar{display:none}
+.ring{flex:none;width:78px;display:flex;flex-direction:column;align-items:center;gap:8px;background:none;border:0;padding:0;cursor:pointer;color:var(--ink);font:500 .72rem/1.25 var(--body);text-align:center}
+.ring .o{width:68px;height:68px;border-radius:50%;padding:2.5px;background:conic-gradient(var(--cc),var(--sun),var(--cc))}
+.ring .o i{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;background:var(--bg);color:var(--cc);box-shadow:inset 0 0 0 2px var(--bg)}
+.ring .o svg{width:26px;height:26px}
+.ring.read .o{background:var(--line)}
+.ring span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:var(--muted)}
+.prog{display:flex;align-items:center;gap:14px;margin-top:22px;font:500 .78rem var(--mono);color:var(--muted)}
+.bar{flex:1;max-width:260px;height:3px;background:var(--line);border-radius:9px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--ink);transition:width .5s}
+
+/* Seção artigos */
+.sec{border-top:1px solid var(--line);padding-block:clamp(56px,8vw,96px)}
+.sechead{display:grid;gap:18px;grid-template-columns:1fr;align-items:end;margin-bottom:36px}
+.sechead h2{font-size:clamp(2rem,5.2vw,3.4rem);line-height:1.02;max-width:16ch;margin-top:14px}
+.sechead p{color:var(--muted);max-width:42ch;margin:0}
+@media (min-width:860px){.sechead{grid-template-columns:1.4fr 1fr}.sechead .side{justify-self:end;text-align:right;display:grid;gap:16px;justify-items:end}}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 0 28px;margin-inline:calc(-1*max(20px,env(safe-area-inset-left,0px)));padding-inline:max(20px,env(safe-area-inset-left,0px))}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:500 .85rem var(--body);border:0;background:transparent;color:var(--muted);padding:8px 14px;border-radius:999px;cursor:pointer;box-shadow:inset 0 0 0 1px var(--line);min-height:38px}
+.chip:hover{color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);box-shadow:none}
+
+/* Arte por tema (capa abstrata) */
+.art{position:relative;aspect-ratio:16/10;border-radius:var(--radius);overflow:hidden;background:color-mix(in srgb,var(--cc) 14%,var(--band));max-width:100%}
+.art::before{content:"";position:absolute;width:62%;aspect-ratio:1;border-radius:50%;right:-12%;top:-18%;background:var(--cc);opacity:.88}
+.art::after{content:"";position:absolute;width:34%;aspect-ratio:1;border-radius:50%;left:10%;bottom:-14%;background:var(--sun);mix-blend-mode:multiply;opacity:.9}
+.art.v1::before{right:auto;left:-14%;top:auto;bottom:-30%;width:70%}
+.art.v1::after{left:auto;right:12%;top:14%;bottom:auto;width:24%}
+.art.v2::before{border-radius:26% 74% 30% 70%/60% 30% 70% 40%;right:8%;top:10%;width:46%}
+.art.v2::after{left:-6%;bottom:auto;top:-10%;width:40%}
+.art svg.g{position:absolute;left:16px;bottom:14px;width:26px;height:26px;color:var(--ink);opacity:.75;z-index:1}
+
+/* Destaque */
+.feat{display:grid;gap:22px;margin-bottom:56px;text-decoration:none;color:inherit}
+.feat .art{aspect-ratio:16/9}
+.feat h3{font-size:clamp(1.6rem,3.6vw,2.4rem);line-height:1.08;margin-top:12px}
+.feat p{color:var(--muted);margin:12px 0 0;max-width:52ch}
+@media (min-width:860px){.feat{grid-template-columns:1.25fr 1fr;align-items:center;gap:44px}}
+.meta{display:flex;flex-wrap:wrap;gap:4px 14px;font:500 .72rem var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.meta .c{color:var(--cc)}
+.more{display:inline-flex;align-items:center;gap:6px;margin-top:18px;font-weight:500;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--ink);padding-bottom:2px}
+.more svg{width:14px;height:14px}
+
+/* Grade */
+.grid{display:grid;gap:40px 28px;grid-template-columns:1fr}
+@media (min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+@media (min-width:980px){.grid{grid-template-columns:repeat(3,1fr)}}
+.post{display:flex;flex-direction:column;gap:14px;min-width:0}
+.post h3{font-size:1.22rem;line-height:1.22;letter-spacing:-.025em}
+.post h3 a{color:inherit;text-decoration:none}
+.post h3 a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.post p{margin:0;color:var(--muted);font-size:.94rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pfoot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:2px}
+.src{font:500 .78rem var(--mono);color:var(--muted)}
+.icob{width:38px;height:38px;border-radius:50%;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line);color:var(--ink);display:grid;place-items:center;cursor:pointer;flex:none}
+.icob svg{width:15px;height:15px}
+.post.read h3,.post.read p{opacity:.55}
+.post.read .meta::after{content:"· lida";color:var(--muted)}
+.loadm{display:flex;justify-content:center;margin-top:48px}
+.empty{color:var(--muted);padding:30px 0}
+
+/* FAQ */
+.faq{display:grid;gap:28px}
+@media (min-width:860px){.faq{grid-template-columns:1fr 1.4fr;gap:56px}}
+.faq h2{font-size:clamp(1.9rem,4.4vw,3rem);line-height:1.04;margin-top:14px}
+.qa{border-top:1px solid var(--line)}
+.qa details{border-bottom:1px solid var(--line)}
+.qa summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;padding:20px 0;font-weight:500;font-size:1.04rem}
+.qa summary::-webkit-details-marker{display:none}
+.qa summary::after{content:"+";font:400 1.4rem/1 var(--mono);color:var(--muted);transition:transform .2s}
+.qa details[open] summary::after{transform:rotate(45deg)}
+.qa details p{margin:0 0 20px;color:var(--muted);max-width:60ch}
+
+/* Newsletter */
+.news{background:var(--ink);color:var(--bg);border-radius:24px;padding:clamp(28px,6vw,64px);display:grid;gap:26px;position:relative;overflow:hidden}
+.news::after{content:"";position:absolute;right:-70px;top:-70px;width:220px;height:220px;border-radius:50%;background:var(--sun)}
+.news .eyebrow{color:color-mix(in srgb,var(--bg) 60%,transparent)}
+.news h2{font-size:clamp(1.9rem,5vw,3.2rem);line-height:1.02;max-width:14ch;position:relative;z-index:1}
+.news p{margin:0;opacity:.7;max-width:44ch}
+.nform{display:flex;flex-wrap:wrap;gap:10px;max-width:520px}
+.nform input{flex:1 1 220px;min-height:50px;border-radius:999px;border:0;padding:0 20px;font:400 1rem var(--body);background:color-mix(in srgb,var(--bg) 12%,transparent);color:var(--bg);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--bg) 22%,transparent)}
+.nform input::placeholder{color:color-mix(in srgb,var(--bg) 55%,transparent)}
+.nform button{min-height:50px;padding:0 22px;border-radius:999px;border:0;background:var(--sun);color:var(--on-sun);font:600 .95rem var(--body);cursor:pointer}
+.quotes{display:grid;gap:16px;grid-template-columns:1fr;margin-top:6px}
+@media (min-width:760px){.quotes{grid-template-columns:repeat(3,1fr)}}
+.quotes div{font-size:.9rem;opacity:.75;border-top:1px solid color-mix(in srgb,var(--bg) 18%,transparent);padding-top:12px}
+.quotes b{display:block;font:500 .7rem var(--mono);text-transform:uppercase;letter-spacing:.08em;margin-top:6px;opacity:.7}
+
+/* Rodapé */
+footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-block:48px calc(36px + env(safe-area-inset-bottom,0px))}
+.fgrid{display:grid;gap:32px;grid-template-columns:1fr 1fr}
+@media (min-width:860px){.fgrid{grid-template-columns:1.6fr repeat(3,1fr)}}
+.fbrand{grid-column:1/-1}
+@media (min-width:860px){.fbrand{grid-column:auto}}
+.fbrand p{color:var(--muted);max-width:30ch;margin:14px 0 0;font-size:.92rem}
+.fcol h4{font:500 .72rem var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 14px}
+.fcol a,.fcol button{display:block;background:none;border:0;padding:0;color:var(--ink);text-decoration:none;font:400 .95rem var(--body);margin-bottom:10px;cursor:pointer;text-align:left}
+.fcol a:hover,.fcol button:hover{text-decoration:underline;text-underline-offset:3px}
+.legal{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;border-top:1px solid var(--line);margin-top:44px;padding-top:20px;font:400 .78rem var(--mono);color:var(--muted)}
+.bigword{font:600 clamp(3.4rem,17vw,13rem)/.85 var(--display);letter-spacing:-.06em;color:var(--band);margin-top:40px;white-space:nowrap;overflow:hidden;user-select:none;padding:0 .04em .04em 0}
+.bigword span{display:inline-block}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,140px);background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:999px;font-weight:500;font-size:.9rem;transition:transform .3s;z-index:50;max-width:calc(100% - 32px)}
+.toast{visibility:hidden}
+.toast.show{transform:translate(-50%,0);visibility:visible}
+@media (prefers-reduced-motion:no-preference){.logo .rays{transform-origin:12px 12px;animation:spin 40s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}}
+
+.st{position:fixed;inset:0;z-index:40;background:#000;display:flex;justify-content:center;touch-action:none;user-select:none;-webkit-user-select:none}
+.sframe{position:relative;width:100%;max-width:480px;height:100%;background:var(--cc);color:#fff;overflow:hidden;transition:background .3s}
+.sframe::before{content:"";position:absolute;right:-120px;top:22%;width:340px;height:340px;border-radius:50%;background:rgba(255,255,255,.12)}
+.sframe::after{content:"";position:absolute;left:-80px;bottom:-60px;width:240px;height:240px;border-radius:50%;background:rgba(0,0,0,.08)}
+.sbars{position:absolute;left:0;right:0;top:0;display:flex;gap:4px;padding:calc(10px + env(safe-area-inset-top,0px)) 12px 0;z-index:3}
+.sbars b{flex:1;height:3.5px;border-radius:9px;background:rgba(255,255,255,.35);overflow:hidden}
+.sbars b i{display:block;height:100%;width:0;background:#fff}
+.shead{position:absolute;left:0;right:0;top:calc(22px + env(safe-area-inset-top,0px));display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 16px;z-index:3}
+.shead .who{display:flex;align-items:center;gap:8px;font:800 .95rem var(--display)}
+.shead .who svg{width:26px;height:26px}
+.shead button{width:44px;height:44px;border:0;background:none;color:#fff;font:600 1.5rem var(--body);cursor:pointer}
+.sbody{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;gap:14px;padding:90px 22px calc(28px + env(safe-area-inset-bottom,0px));z-index:2;pointer-events:none}
+.sbody .big{width:84px;height:84px;border-radius:26px;background:rgba(255,255,255,.2);display:grid;place-items:center}
+.sbody .big svg{width:46px;height:46px}
+.sbody .tg{font:700 .78rem var(--body);text-transform:uppercase;letter-spacing:.1em;opacity:.9}
+.sbody h2{font:800 clamp(1.8rem,8vw,2.4rem)/1.05 var(--display);letter-spacing:-.03em;margin:0;text-wrap:balance}
+.sbody p{margin:0;font-size:1.02rem;line-height:1.45;opacity:.95;max-width:40ch}
+.sacts{display:flex;gap:10px;margin-top:8px;position:relative;z-index:4;pointer-events:auto}
+.sacts a,.sacts button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;border-radius:16px;border:0;font:700 .95rem var(--body);text-decoration:none;cursor:pointer}
+.sacts .r{flex:1;background:#fff;color:#13201C}
+.sacts .s{width:54px;background:rgba(255,255,255,.22);color:#fff}
+.sacts svg{width:18px;height:18px}
+.stap{position:absolute;top:80px;bottom:150px;z-index:1;background:none;border:0}
+.stap.l{left:0;width:35%} .stap.r{right:0;width:65%}
+.sfinal{background:var(--sun);color:var(--on-sun)}
+.sfinal .sacts .r{background:var(--on-sun);color:var(--sun)}
+.sfinal .sacts .s{width:auto;flex:1;background:transparent;color:var(--on-sun);box-shadow:inset 0 0 0 2px var(--on-sun)}
+.sfinal .sbars b{background:rgba(27,20,0,.2)} .sfinal .sbars b i{background:var(--on-sun)}
+.sfinal .shead button{color:var(--on-sun)}
+@media (prefers-reduced-motion:reduce){.sframe{transition:none}}
+
+
+/* Globo */
+:root{--globe:#F1F1EE;--dot:#1B1B19;--rim:#E2E2DD}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--globe:#121211;--dot:#EDEDE8;--rim:#2A2A27}}
+:root[data-theme="dark"]{--globe:#121211;--dot:#EDEDE8;--rim:#2A2A27}
+.gsec{border-top:1px solid var(--line);padding-block:clamp(48px,7vw,88px)}
+.gwrap{display:grid;gap:28px;align-items:center}
+@media (min-width:900px){.gwrap{grid-template-columns:1fr 1.15fr;gap:48px}}
+.gtext h2{font-size:clamp(2rem,5.2vw,3.4rem);line-height:1.02;margin-top:14px;max-width:13ch}
+.gtext p{color:var(--muted);max-width:40ch;margin:16px 0 0}
+.places{display:flex;flex-wrap:wrap;gap:6px;margin-top:24px}
+.place{display:inline-flex;align-items:center;gap:8px;font:500 .85rem var(--body);border:0;background:transparent;color:var(--ink);padding:8px 12px;border-radius:999px;cursor:pointer;box-shadow:inset 0 0 0 1px var(--line);min-height:38px}
+.place b{font:500 .72rem var(--mono);color:var(--muted)}
+.place:hover,.place[aria-pressed="true"]{box-shadow:inset 0 0 0 1px var(--ink)}
+.gstage{position:relative;width:100%;max-width:620px;margin:0 auto;aspect-ratio:1;touch-action:none;user-select:none;-webkit-user-select:none;cursor:grab}
+.gstage.drag{cursor:grabbing}
+.gstage canvas{width:100%;height:100%;display:block}
+.ghint{position:absolute;left:50%;bottom:4px;transform:translateX(-50%);font:500 .72rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;pointer-events:none;transition:opacity .5s}
+.ghint.off{opacity:0}
+.gctl{position:absolute;right:0;top:0;display:flex;flex-direction:column;gap:6px}
+.gctl button{width:40px;height:40px;border-radius:50%;border:0;background:var(--bg);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line);font:500 1.1rem var(--body);cursor:pointer;display:grid;place-items:center}
+.gctl svg{width:16px;height:16px}
+.gfull{position:fixed;inset:0;z-index:35;background:var(--bg);padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:12px;overflow:auto}
+.gfull .gwrap{grid-template-columns:1fr;flex:1;align-content:center}
+.gfull .gtext h2,.gfull .gtext p,.gfull .gtext .eyebrow{display:none}
+.gfull .gstage{max-width:min(100%,82vh)}
+.gclose{display:none;align-self:flex-start}
+.gfull .gclose{display:inline-flex}
+/* Ficha da notícia (sem imagem) */
+.gsheet{position:fixed;left:0;right:0;bottom:0;z-index:45;max-width:620px;margin:0 auto;background:var(--bg);border-radius:22px 22px 0 0;box-shadow:0 -1px 0 var(--line),0 -24px 48px -24px rgba(0,0,0,.35);padding:10px max(22px,env(safe-area-inset-right,0px)) calc(22px + env(safe-area-inset-bottom,0px)) max(22px,env(safe-area-inset-left,0px));transform:translateY(105%);transition:transform .35s cubic-bezier(.2,.8,.2,1);max-height:72vh;overflow:auto}
+.gsheet{visibility:hidden}
+.gsheet.open{transform:none;visibility:visible}
+.gsheet .grab{width:40px;height:4px;border-radius:9px;background:var(--line);margin:0 auto 14px}
+.gsheet .x{position:absolute;right:14px;top:12px;width:36px;height:36px;border-radius:50%;border:0;background:transparent;box-shadow:inset 0 0 0 1px var(--line);color:var(--ink);cursor:pointer;font:500 1rem var(--body)}
+.gsheet .where{font:500 .72rem var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:6px}
+.gitem{padding:16px 0;border-top:1px solid var(--line)}
+.gitem:first-of-type{border-top:0}
+.gitem h3{font-size:1.3rem;line-height:1.18;letter-spacing:-.025em;margin:8px 0 6px}
+.gitem p{margin:0;color:var(--muted);font-size:.95rem}
+.gitem .acts{display:flex;align-items:center;gap:10px;margin-top:14px}
+.gitem .acts .bt{min-height:44px}
+.feat{display:block;padding:4px 0 48px;margin-bottom:48px;border-bottom:1px solid var(--line)}
+.feat h3{font-size:clamp(1.9rem,4.6vw,3.2rem);max-width:22ch}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-saude" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/><path d="M8.5 11h2l1-2 1.5 4 1-2h1.5"/></symbol>
+  <symbol id="i-ciencia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.7 3h10.6A2 2 0 0 0 19 18l-5-9V3"/><path d="M7.5 14h9"/></symbol>
+  <symbol id="i-sociedade" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0M14.5 15.2A4.5 4.5 0 0 1 21 19"/></symbol>
+  <symbol id="i-meio-ambiente" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-13 15-14-1 10-6 15-14 15"/><path d="M5 19l7-7"/></symbol>
+  <symbol id="i-animais" viewBox="0 0 24 24" fill="currentColor"><ellipse cx="7" cy="9" rx="1.9" ry="2.4"/><ellipse cx="11" cy="6" rx="1.9" ry="2.4"/><ellipse cx="15.5" cy="6.5" rx="1.9" ry="2.4"/><ellipse cx="18.5" cy="10.5" rx="1.8" ry="2.2"/><path d="M12.5 11c3 0 5.5 4 5.5 6.3 0 2.2-2 2.5-3.2 2-1.1-.4-1.6-.6-2.3-.6s-1.2.2-2.3.6c-1.2.5-3.2.2-3.2-2C7 15 9.5 11 12.5 11z"/></symbol>
+  <symbol id="i-tecnologia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2.5"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2.5V6M15 2.5V6M9 18v3.5M15 18v3.5M2.5 9H6M2.5 15H6M18 9h3.5M18 15h3.5"/></symbol>
+  <symbol id="i-todas" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M9 7h8v8"/></symbol>
+</svg>
+
+<nav class="nav gut" aria-label="Principal">
+  <div class="in">
+    <a class="logo" href="#" id="toTop" aria-label="Dose do Bem, início">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><g class="rays" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 1.5v2.6M12 19.9v2.6M1.5 12h2.6M19.9 12h2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></g><circle cx="12" cy="12" r="5" fill="var(--sun)"/></svg>
+      <span data-t="brand">Dose do Bem</span>
+    </a>
+    <div class="navr">
+      <span class="streak" title="Dias seguidos que você abriu o Dose do Bem"><i></i><span id="streakN">1 dia</span></span>
+      <label class="langsel"><span class="sr" data-t="langL">Idioma</span><select id="langSel"><option value="pt">PT</option><option value="es">ES</option><option value="en">EN</option></select></label>
+      <button type="button" class="bt ghost" id="openX" data-t="explore">Explorar</button>
+      <button type="button" class="bt dark" id="openS2" data-t="today">Dose de hoje</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <header class="hero gut">
+    <div class="in">
+      <div class="eyebrow" id="today">Hoje</div>
+      <h1><span id="gw">Bom dia</span>. <em><span id="gn">14</span> <span data-t="h1a">notícias boas</span></em> <span id="h1b">para começar o dia.</span></h1>
+      <p class="lead" data-t="lead">Uma curadoria diária do que está dando certo no Brasil e no mundo. Cada notícia vem com o link da fonte original.</p>
+      <div class="cta">
+        <button type="button" class="bt dark" id="openS" data-pri="dose"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-t="seeDose">Ver a dose de hoje · 1 min</span></button>
+        <button type="button" class="bt ghost" id="openL" data-pri="ouvir"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4.5" height="6.5" rx="1.6"/><rect x="16.5" y="14" width="4.5" height="6.5" rx="1.6"/></svg><span data-t="listen">Ouvir · 2 min</span></button>
+        <button type="button" class="bt ghost" data-goto="mapa" data-t="seeMap">Ver no mapa</button>
+      </div>
+      <div class="rings" id="rail" aria-label="Stories de hoje"></div>
+      <div class="prog" aria-live="polite"><div class="bar"><i id="barI"></i></div><span id="progN">0/14 lidas</span></div>
+    </div>
+  </header>
+
+
+  <section class="gsec gut" id="globo" aria-labelledby="g-t">
+    <div class="in" id="gbox">
+      <button type="button" class="bt ghost gclose" id="gClose" data-t="back">← Voltar</button>
+      <div class="gwrap">
+        <div class="gtext">
+          <div class="eyebrow" data-t="mapE">Mapa</div>
+          <h2 id="g-t" data-t="mapH">De onde vêm as boas notícias.</h2>
+          <p data-t="mapP">Gire o planeta e toque num ponto para ler o que aconteceu ali. Ou escolha um lugar.</p>
+          <div class="places" id="places"></div>
+        </div>
+        <div class="gstage" id="gstage">
+          <canvas id="gcv" aria-label="Globo com as notícias marcadas no lugar de origem" role="img"></canvas>
+          <div class="gctl"><button id="gIn" aria-label="Aproximar">+</button><button id="gOut" aria-label="Afastar">−</button><button id="gFull" aria-label="Tela cheia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></div>
+          <div class="ghint" id="ghint" data-t="hint">Arraste para girar · toque num ponto</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec gut" id="noticias" aria-labelledby="n-t">
+    <div class="in">
+      <div class="sechead">
+        <div><div class="eyebrow" data-t="newsE">Notícias</div><h2 id="n-t" data-t="newsH">O que deu certo esta semana.</h2></div>
+        <div class="side"><p data-t="newsP">Ciência, saúde, meio ambiente e gente fazendo a diferença. Sem alarme, sem clickbait.</p></div>
+      </div>
+      <nav class="chips" id="chips" aria-label="Filtrar por tema"></nav>
+      <div id="featured"></div>
+      <div class="eyebrow" style="margin-bottom:22px" data-t="latest">Mais recentes</div>
+      <div class="grid" id="feed"><p class="empty">Carregando as notícias boas…</p></div>
+      <div class="loadm"><button type="button" class="bt ghost" id="loadMore" hidden data-t="more">Carregar mais</button></div>
+    </div>
+  </section>
+
+  <section class="sec gut" aria-labelledby="a-t" id="anywhere">
+    <div class="in">
+      <div class="sechead">
+        <div><div class="eyebrow" data-t="awE">No seu dia</div><h2 id="a-t" data-t="awH">Sua dose em qualquer lugar.</h2></div>
+        <div class="side"><p data-t="awP">No café da manhã, no caminho do trabalho, no almoço ou antes de dormir. Leia, ouça ou peça para a Alexa.</p></div>
+      </div>
+      <div class="aw">
+        <div class="awc"><div class="awi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg></div>
+          <h3 data-t="aw1H">No celular, como app</h3><p data-t="aw1P">Coloque o Dose do Bem na tela inicial. Abre num toque e funciona até sem internet.</p>
+          <button type="button" class="bt dark" id="instBtn" data-t="aw1B">Instalar o app</button><p class="awtip" id="instTip" hidden></p></div>
+        <div class="awc"><div class="awi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4.5" height="6.5" rx="1.6"/><rect x="16.5" y="14" width="4.5" height="6.5" rx="1.6"/></svg></div>
+          <h3 data-t="aw2H">Para ouvir no caminho</h3><p data-t="aw2P">No ônibus, no carro ou fazendo o café: o celular lê as cinco notícias do dia para você.</p>
+          <button type="button" class="bt dark" id="openL2" data-t="aw2B">Ouvir agora</button></div>
+        <div class="awc"><div class="awi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5c1.2 1.6 2.6 2.4 4 2.4s2.8-.8 4-2.4"/></svg></div>
+          <h3 data-t="aw3H">Na Alexa</h3><p data-t="aw3P">Ative o Dose do Bem no Resumo de Notícias e pergunte: "Alexa, quais são as notícias?"</p>
+          <span class="soonb" data-t="aw3B">Em breve</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec gut" aria-labelledby="f-t">
+    <div class="in faq">
+      <div><div class="eyebrow" data-t="faqE">Perguntas</div><h2 id="f-t" data-t="faqH">Como o Dose do Bem funciona.</h2></div>
+      <div class="qa">
+        <details><summary data-t="q1">De onde vêm as notícias?</summary><p data-t="a1">De veículos e sites públicos que cobrem notícias positivas e ciência. Cada notícia mostra a fonte e leva ao texto original.</p></details>
+        <details><summary data-t="q2">Como vocês escolhem o que entra?</summary><p data-t="a2">Entram fatos verificáveis com impacto real: avanços em saúde e ciência, conquistas de pessoas, boas notícias de meio ambiente e sociedade. Ficam de fora boatos, promessas sem dado e propaganda.</p></details>
+        <details><summary data-t="q3">O que é a "dose de hoje"?</summary><p data-t="a3">São as cinco notícias mais marcantes do dia em formato de stories. Em um minuto você começa o dia por elas.</p></details>
+        <details><summary data-t="q4">Com que frequência o site é atualizado?</summary><p data-t="a4">A ideia é ter uma edição nova por dia. Esta é a edição de <span id="faqDate">hoje</span>.</p></details>
+        <details><summary data-t="q5">Posso compartilhar?</summary><p data-t="a5">Pode e deve. Cada notícia tem um botão que copia o título e o link, pronto para colar no WhatsApp.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="gut" aria-labelledby="nl-t">
+    <div class="in news">
+      <div class="eyebrow" data-t="nlE">Toda manhã</div>
+      <h2 id="nl-t" data-t="nlH">Receba a dose do dia no seu celular.</h2>
+      <p data-t="nlP">Cinco notícias boas, um minuto de leitura, antes do café esfriar.</p>
+      <form class="nform" id="nform"><input id="nemail" type="email" placeholder="Seu e-mail" aria-label="Seu e-mail" autocomplete="email"><button type="submit" data-t="nlB">Quero receber</button></form>
+    </div>
+  </section>
+</main>
+
+<footer class="gut">
+  <div class="in">
+    <div class="fgrid">
+      <div class="fbrand">
+        <a class="logo" href="#" aria-label="Dose do Bem"><svg viewBox="0 0 24 24" aria-hidden="true"><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 1.5v2.6M12 19.9v2.6M1.5 12h2.6M19.9 12h2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></g><circle cx="12" cy="12" r="5" fill="var(--sun)"/></svg><span data-t="brand">Dose do Bem</span></a>
+        <p data-t="fP">Notícias boas, checadas e com fonte. Uma dose por dia.</p>
+      </div>
+      <div class="fcol"><h4 data-t="fRead">Ler</h4><button type="button" data-goto="dose" data-t="today">Dose de hoje</button><a href="#noticias" data-t="fAll">Todas as notícias</a><button type="button" data-goto="mapa" data-t="fMap">Mapa do bem</button></div>
+      <div class="fcol" id="fTemas"><h4>Temas</h4></div>
+      <div class="fcol"><h4 data-t="fSrc">Fontes</h4><a href="https://www.sonoticiaboa.com.br" target="_blank" rel="noopener">Só Notícia Boa</a><a href="https://www.goodnewsnetwork.org" target="_blank" rel="noopener">Good News Network</a><a href="https://everythingscience.substack.com" target="_blank" rel="noopener">Everything Science</a></div>
+    </div>
+    <div class="legal"><span>© 2026 <span data-t="brand">Dose do Bem</span></span><span class="flang"><button type="button" data-lang="pt">Português</button><button type="button" data-lang="es">Español</button><button type="button" data-lang="en">English</button></span><span id="ed">Edição de hoje</span></div>
+    <div class="bigword" aria-hidden="true" id="bigword"><span data-t="brand">Dose do Bem</span></div>
+  </div>
+</footer>
+
+<section class="st" id="st" hidden aria-label="Dose do dia em stories">
+  <div class="sframe" id="sframe">
+    <div class="sbars" id="sbars"></div>
+    <div class="shead"><div class="who"><svg viewBox="0 0 34 34" aria-hidden="true"><g stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M17 2v4M17 28v4M2 17h4M28 17h4M6.4 6.4l2.8 2.8M24.8 24.8l2.8 2.8M6.4 27.6l2.8-2.8M24.8 9.2l2.8-2.8"/></g><circle cx="17" cy="17" r="7.5" fill="currentColor"/></svg><span id="swho">Dose do Bem</span></div><button id="sX" aria-label="Fechar">✕</button></div>
+    <button class="stap l" id="sPrev" aria-label="Anterior"></button><button class="stap r" id="sNext" aria-label="Próxima"></button>
+    <div class="sbody" id="sbody"></div>
+  </div>
+</section>
+<div class="gsheet" id="gsheet" role="dialog" aria-labelledby="gs-t"><div class="grab"></div><button class="x" id="gsX" aria-label="Fechar">✕</button><div id="gsBody"></div></div>
+<div class="player" id="player" role="region" aria-label="Player" hidden>
+  <button type="button" class="pb" id="pPlay" aria-label="Pausar"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path id="pIco" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></button>
+  <div class="pt"><div class="pn" id="pNum"></div><div class="ptt" id="pTitle"></div></div>
+  <button type="button" class="pb" id="pNext" aria-label="Próxima"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5.5v13l9-6.5zM16 5h2.5v14H16z"/></svg></button>
+  <button type="button" class="pb x" id="pStop" aria-label="Parar">✕</button>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+let CATS={todas:"Todas",saude:"Saúde",ciencia:"Ciência",sociedade:"Sociedade","meio-ambiente":"Meio ambiente",animais:"Animais",tecnologia:"Tecnologia"};
+const LOC={pt:"pt-BR",es:"es",en:"en-US"};
+const CATN={
+ pt:{todas:"Todas",saude:"Saúde",ciencia:"Ciência",sociedade:"Sociedade","meio-ambiente":"Meio ambiente",animais:"Animais",tecnologia:"Tecnologia"},
+ es:{todas:"Todas",saude:"Salud",ciencia:"Ciencia",sociedade:"Sociedad","meio-ambiente":"Medio ambiente",animais:"Animales",tecnologia:"Tecnología"},
+ en:{todas:"All",saude:"Health",ciencia:"Science",sociedade:"Society","meio-ambiente":"Environment",animais:"Animals",tecnologia:"Technology"}};
+const D={
+ pt:{brand:"Dose do Bem",gm:"Bom dia",ga:"Boa tarde",ge:"Boa noite",day1:"1 dia",days:"{n} dias",streakT:"Dias seguidos que você abriu o Dose do Bem",
+  ed:"Edição de {d}",themes:"Temas",pick:"Escolha do editor",readOn:"Ler em",copyL:"Copiar para compartilhar",emptyCat:"Nenhuma notícia deste tema na edição de hoje.",
+  read:"lidas",done:"Edição de hoje completa",shareT:"Vi no Dose do Bem, só notícias boas.",copied:"Copiado! Cole no WhatsApp ou onde quiser.",
+  copyFail:"Não consegui copiar. Segure o título para selecionar.",soon:"O envio diário ainda está em preparação. Em breve!",n1:"notícia",nN:"notícias",
+  fin1:"Dose de hoje tomada",fin2:"Pronto! Seu dia já começou bem.",fin3:"Você viu {a} notícias boas em um minuto. Tem mais {b} na lista e no mapa.",
+  seeAll:"Ver todas",expMap:"Explorar o mapa",loadErr:"Não consegui carregar as notícias agora. Recarregue a página em instantes.",email:"Seu e-mail",
+  title:"Dose do Bem · Notícias boas, todo dia",h1b_m:"para começar o dia.",h1b_l:"para a sua pausa do almoço.",h1b_a:"para respirar um pouco.",h1b_e:"para fechar o dia bem.",mo_m:"Café da manhã",mo_l:"Almoço",mo_a:"Tarde",mo_e:"Noite",tIntro:"{g}! Esta é a {b} de {d}. São {n} notícias boas.",tOrd:"Primeira|Segunda|Terceira|Quarta|Quinta|Sexta|Sétima|Oitava",tOutro:"Essa foi a sua dose de hoje. Tem mais notícias boas no site da {b}. Até a próxima!",tNow:"Começando…",tEnd:"Fim da dose de hoje",pPlay:"Continuar",pPause:"Pausar",noTTS:"Este navegador não consegue ler em voz alta.",instDone:"O app já está instalado neste aparelho.",instIOS:"No iPhone: toque em Compartilhar (o quadrado com a seta) e depois em \"Adicionar à Tela de Início\".",instOther:"Abra o menu do navegador (⋮) e toque em \"Instalar app\" ou \"Adicionar à tela inicial\"."},
+ es:{brand:"Dosis de Bien",gm:"Buenos días",ga:"Buenas tardes",ge:"Buenas noches",day1:"1 día",days:"{n} días",streakT:"Días seguidos que abriste Dosis de Bien",
+  ed:"Edición del {d}",themes:"Temas",pick:"Elegida por la redacción",readOn:"Leer en",copyL:"Copiar para compartir",emptyCat:"No hay noticias de este tema en la edición de hoy.",
+  read:"leídas",done:"Edición de hoy completa",shareT:"Lo vi en Dosis de Bien, solo noticias buenas.",copied:"¡Copiado! Pégalo en WhatsApp o donde quieras.",
+  copyFail:"No pude copiar. Mantén pulsado el título para seleccionarlo.",soon:"El envío diario aún está en preparación. ¡Muy pronto!",n1:"noticia",nN:"noticias",
+  fin1:"Dosis de hoy tomada",fin2:"¡Listo! Tu día ya empezó bien.",fin3:"Viste {a} noticias buenas en un minuto. Hay {b} más en la lista y en el mapa.",
+  seeAll:"Ver todas",expMap:"Explorar el mapa",loadErr:"No pude cargar las noticias ahora. Recarga la página en unos instantes.",email:"Tu correo",
+  title:"Dosis de Bien · Noticias buenas, todos los días",h1b_m:"para empezar el día.",h1b_l:"para tu pausa del almuerzo.",h1b_a:"para respirar un poco.",h1b_e:"para cerrar bien el día.",mo_m:"Desayuno",mo_l:"Almuerzo",mo_a:"Tarde",mo_e:"Noche",tIntro:"¡{g}! Esta es la {b} del {d}. Son {n} noticias buenas.",tOrd:"Primera|Segunda|Tercera|Cuarta|Quinta|Sexta|Séptima|Octava",tOutro:"Esa fue tu dosis de hoy. Hay más noticias buenas en el sitio de {b}. ¡Hasta la próxima!",tNow:"Empezando…",tEnd:"Fin de la dosis de hoy",pPlay:"Continuar",pPause:"Pausar",noTTS:"Este navegador no puede leer en voz alta.",instDone:"La app ya está instalada en este dispositivo.",instIOS:"En iPhone: toca Compartir (el cuadrado con la flecha) y luego \"Agregar a pantalla de inicio\".",instOther:"Abre el menú del navegador (⋮) y toca \"Instalar app\" o \"Agregar a la pantalla principal\".",listen:"Escuchar · 2 min",awE:"En tu día",awH:"Tu dosis en cualquier lugar.",awP:"En el desayuno, camino al trabajo, en el almuerzo o antes de dormir. Lee, escucha o pídeselo a Alexa.",aw1H:"En el móvil, como app",aw1P:"Pon Dosis de Bien en tu pantalla de inicio. Se abre con un toque y funciona incluso sin internet.",aw1B:"Instalar la app",aw2H:"Para escuchar en el camino",aw2P:"En el bus, en el coche o preparando el café: el móvil te lee las cinco noticias del día.",aw2B:"Escuchar ahora",aw3H:"En Alexa",aw3P:"Activa Dosis de Bien en tu Resumen de Noticias y pregunta: \"Alexa, ¿cuáles son las noticias?\"",aw3B:"Muy pronto",
+  langL:"Idioma",explore:"Explorar",today:"Dosis de hoy",h1a:"noticias buenas",h1b:"para empezar.",
+  lead:"Una selección diaria de lo que está saliendo bien en Brasil y en el mundo. Cada noticia trae el enlace a la fuente original.",
+  seeDose:"Ver la dosis de hoy · 1 min",readAll:"Leer todas",seeMap:"Ver en el mapa",back:"← Volver",mapE:"Mapa",mapH:"De dónde vienen las buenas noticias.",
+  mapP:"Gira el planeta y toca un punto para leer lo que pasó allí. O elige un lugar.",hint:"Arrastra para girar · toca un punto",
+  newsE:"Noticias",newsH:"Lo que salió bien esta semana.",newsP:"Ciencia, salud, medio ambiente y gente que marca la diferencia. Sin alarma, sin clickbait.",
+  latest:"Más recientes",more:"Cargar más",faqE:"Preguntas",faqH:"Cómo funciona Dosis de Bien.",
+  q1:"¿De dónde vienen las noticias?",a1:"De medios y sitios públicos que cubren noticias positivas y ciencia. Cada noticia muestra la fuente y lleva al texto original.",
+  q2:"¿Cómo eligen lo que entra?",a2:"Entran hechos verificables con impacto real: avances en salud y ciencia, logros de personas, buenas noticias de medio ambiente y sociedad. Quedan fuera rumores, promesas sin datos y publicidad.",
+  q3:"¿Qué es la \"dosis de hoy\"?",a3:"Son las cinco noticias más destacadas del día en formato de stories. En un minuto empiezas el día con ellas.",
+  q4:"¿Con qué frecuencia se actualiza?",a4:"La idea es tener una edición nueva cada día. Esta es la edición del <span id=\"faqDate\">día</span>.",
+  q5:"¿Puedo compartir?",a5:"Puedes y debes. Cada noticia tiene un botón que copia el título y el enlace, listo para pegar en WhatsApp.",
+  nlE:"Cada mañana",nlH:"Recibe la dosis del día en tu móvil.",nlP:"Cinco noticias buenas, un minuto de lectura, antes de que se enfríe el café.",nlB:"Quiero recibirla",
+  fP:"Noticias buenas, verificadas y con fuente. Una dosis al día.",fRead:"Leer",fAll:"Todas las noticias",fMap:"Mapa del bien",fSrc:"Fuentes"},
+ en:{brand:"Dose of Good",gm:"Good morning",ga:"Good afternoon",ge:"Good evening",day1:"1 day",days:"{n} days",streakT:"Days in a row you opened Dose of Good",
+  ed:"Edition of {d}",themes:"Topics",pick:"Editor's pick",readOn:"Read on",copyL:"Copy to share",emptyCat:"No stories on this topic in today's edition.",
+  read:"read",done:"Today's edition complete",shareT:"Seen on Dose of Good, only good news.",copied:"Copied! Paste it on WhatsApp or anywhere you like.",
+  copyFail:"Couldn't copy. Press and hold the title to select it.",soon:"The daily email is still in the works. Coming soon!",n1:"story",nN:"stories",
+  fin1:"Today's dose taken",fin2:"Done! Your day is off to a good start.",fin3:"You saw {a} good news stories in a minute. There are {b} more in the list and on the map.",
+  seeAll:"See all",expMap:"Explore the map",loadErr:"Couldn't load the news right now. Reload the page in a moment.",email:"Your email",
+  title:"Dose of Good · Good news, every day",h1b_m:"to start your day.",h1b_l:"for your lunch break.",h1b_a:"to take a breather.",h1b_e:"to end the day well.",mo_m:"Breakfast",mo_l:"Lunch",mo_a:"Afternoon",mo_e:"Evening",tIntro:"{g}! This is {b} for {d}. Here are {n} good news stories.",tOrd:"First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth",tOutro:"That was your dose for today. There's more good news on the {b} website. See you next time!",tNow:"Starting…",tEnd:"End of today's dose",pPlay:"Resume",pPause:"Pause",noTTS:"This browser can't read aloud.",instDone:"The app is already installed on this device.",instIOS:"On iPhone: tap Share (the square with the arrow), then \"Add to Home Screen\".",instOther:"Open the browser menu (⋮) and tap \"Install app\" or \"Add to Home screen\".",listen:"Listen · 2 min",awE:"In your day",awH:"Your dose, anywhere.",awP:"At breakfast, on the way to work, at lunch or before bed. Read it, listen to it or ask Alexa.",aw1H:"On your phone, as an app",aw1P:"Add Dose of Good to your home screen. It opens in one tap and works even offline.",aw1B:"Install the app",aw2H:"Listen on the go",aw2P:"On the bus, in the car or making coffee: your phone reads you the day's five stories.",aw2B:"Listen now",aw3H:"On Alexa",aw3P:"Enable Dose of Good in your Flash Briefing and ask: \"Alexa, what's the news?\"",aw3B:"Coming soon",
+  langL:"Language",explore:"Explore",today:"Today's dose",h1a:"good news stories",h1b:"to start your day.",
+  lead:"A daily selection of what's going right in Brazil and around the world. Every story links to the original source.",
+  seeDose:"See today's dose · 1 min",readAll:"Read all",seeMap:"See on the map",back:"← Back",mapE:"Map",mapH:"Where the good news comes from.",
+  mapP:"Spin the planet and tap a dot to read what happened there. Or pick a place.",hint:"Drag to spin · tap a dot",
+  newsE:"News",newsH:"What went right this week.",newsP:"Science, health, the environment and people making a difference. No alarm, no clickbait.",
+  latest:"Latest",more:"Load more",faqE:"Questions",faqH:"How Dose of Good works.",
+  q1:"Where does the news come from?",a1:"From public outlets and websites that cover positive news and science. Every story shows its source and links to the original article.",
+  q2:"How do you choose what goes in?",a2:"Verifiable facts with real impact: advances in health and science, people's achievements, good news for the environment and society. Rumors, promises without data and advertising stay out.",
+  q3:"What is \"today's dose\"?",a3:"The five standout stories of the day, in a stories format. Start your day with them in one minute.",
+  q4:"How often is it updated?",a4:"The plan is a new edition every day. This is the edition of <span id=\"faqDate\">today</span>.",
+  q5:"Can I share it?",a5:"Please do. Every story has a button that copies the title and link, ready to paste into WhatsApp.",
+  nlE:"Every morning",nlH:"Get the daily dose on your phone.",nlP:"Five good news stories, one minute of reading, before your coffee gets cold.",nlB:"Sign me up",
+  fP:"Good news, checked and sourced. One dose a day.",fRead:"Read",fAll:"All news",fMap:"Map of good",fSrc:"Sources"}};
+let STREAK=1, ORIG=null;
+let LANG=(function(){
+  try{const q=new URLSearchParams(location.search).get("lang"); if(q&&D[q]) return q;}catch(e){}
+  let v=null; try{v=JSON.parse(localStorage.getItem("lb-lang"))}catch(e){} if(v&&D[v]) return v;
+  const nl=(navigator.language||"pt").slice(0,2); return D[nl]?nl:"pt";
+})();
+const t=k=>(D[LANG][k]!=null?D[LANG][k]:D.pt[k]!=null?D.pt[k]:(ORIG&&ORIG[k])||k);
+const L=(n,k)=>(LANG!=="pt"&&n.i18n&&n.i18n[LANG]&&n.i18n[LANG][k])||n[k];
+function fitWord(){
+  const box=document.getElementById("bigword"); if(!box) return; const w=box.firstElementChild;
+  box.style.fontSize="100px"; const avail=box.clientWidth, cur=w.getBoundingClientRect().width;
+  if(cur>0) box.style.fontSize=Math.min(208,Math.floor(100*avail*.98/cur))+"px";
+}
+window.addEventListener("resize",()=>fitWord());
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>fitWord());
+function setLang(l,init){
+  if(!D[l]) l="pt"; LANG=l; if(!init) store.set("lb-lang",l);
+  const els=document.querySelectorAll("[data-t]");
+  if(!ORIG){ORIG={}; els.forEach(el=>{if(!(el.dataset.t in ORIG)) ORIG[el.dataset.t]=el.innerHTML;});}
+  els.forEach(el=>{const k=el.dataset.t; const v=l==="pt"?(D.pt[k]!=null&&k==="brand"?D.pt[k]:ORIG[k]):(D[l][k]!=null?D[l][k]:ORIG[k]); if(el.innerHTML!==v) el.innerHTML=v;});
+  CATS=CATN[l];
+  document.documentElement.lang=LOC[l]; document.title=t("title");
+  const em=document.getElementById("nemail"); if(em){em.placeholder=t("email");em.setAttribute("aria-label",t("email"));}
+  const sel=document.getElementById("langSel"); if(sel) sel.value=l;
+  document.querySelectorAll(".flang [data-lang]").forEach(b=>b.setAttribute("aria-current",b.dataset.lang===l?"true":"false"));
+  greet(); streakTxt(); fitWord(); if(typeof P!=="undefined"&&P.on) pStop();
+  const ib=document.getElementById("instTip"); if(ib) ib.hidden=true;
+  if(data){ render(); gBuild(); if(document.getElementById("gsheet").classList.contains("open")) gCloseSheet(); if(!document.getElementById("st").hidden) sGo(SI); }
+}
+document.addEventListener("change",e=>{ if(e.target.id==="langSel") setLang(e.target.value); });
+document.addEventListener("click",e=>{ const b=e.target.closest(".flang [data-lang]"); if(b){ setLang(b.dataset.lang); window.scrollTo({top:0,behavior:"smooth"}); } });
+
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=d=>{const [y,m,dd]=d.split("-");return LANG==="en"?`${m}/${dd}/${y}`:`${dd}/${m}/${y}`;};
+const fmtS=d=>{const [y,m,dd]=d.split("-");return LANG==="en"?`${m}/${dd}`:`${dd}/${m}`;};
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let data=null, current=store.get("lb-cat","todas"); if(!CATS[current]) current="todas";
+let shown=6;
+const ico=k=>`<svg aria-hidden="true"><use href="#i-${k}"/></svg>`;
+const cc=k=>`--cc:var(--c-${k})`;
+const readMin=n=>Math.max(1,Math.round((n.resumo.split(" ").length+n.titulo.split(" ").length)/40))+1;
+const artV=id=>["","v1","v2"][[...id].reduce((a,c)=>a+c.charCodeAt(0),0)%3];
+
+function greet(){
+  const now=new Date(), h=now.getHours();
+  $("gw").textContent=t(h<5?"ge":h<12?"gm":h<18?"ga":"ge");
+  const mo=h>=5&&h<11?"m":h>=11&&h<15?"l":h>=15&&h<18?"a":"e"; MOMENT=mo;
+  $("h1b").textContent=t("h1b_"+mo);
+  const pri=(mo==="m"||mo==="l")?"dose":"ouvir";
+  document.querySelectorAll("[data-pri]").forEach(b=>{const on=b.dataset.pri===pri;b.classList.toggle("dark",on);b.classList.toggle("ghost",!on);});
+  const cta=$("openS").parentNode; if(pri==="ouvir") cta.insertBefore($("openL"),cta.firstChild); else cta.insertBefore($("openS"),cta.firstChild);
+  $("today").textContent=now.toLocaleDateString(LOC[LANG],{weekday:"long",day:"numeric",month:"long"})+" · "+t("mo_"+(h>=5&&h<11?"m":h>=11&&h<15?"l":h>=15&&h<18?"a":"e"));
+}
+(function(){
+  const key=d=>d.toISOString().slice(0,10);
+  const today=new Date(), t=key(today), y=new Date(today); y.setDate(y.getDate()-1);
+  let s=store.get("lb-streak",{last:null,n:0});
+  if(s.last!==t){ s={last:t,n:s.last===key(y)?s.n+1:1}; store.set("lb-streak",s); }
+  STREAK=s.n;
+})();
+function streakTxt(){ $("streakN").textContent=STREAK===1?t("day1"):t("days").replace("{n}",STREAK); $("streakN").parentNode.title=t("streakT"); }
+
+function readSet(){return new Set(store.get("lb-read-"+data.atualizado,[]));}
+function markRead(id){const r=readSet();if(r.has(id))return;r.add(id);store.set("lb-read-"+data.atualizado,[...r]);paint();}
+function pickDose(list){
+  const sorted=[...list].sort((a,b)=>(b.destaque?1:0)-(a.destaque?1:0)||b.data.localeCompare(a.data));
+  const out=[],seen=new Set();
+  for(const n of sorted){if(!seen.has(n.categoria)){out.push(n);seen.add(n.categoria)} if(out.length===5)break;}
+  for(const n of sorted){if(out.length>=5)break;if(!out.includes(n))out.push(n);}
+  return out;
+}
+const meta=n=>`<div class="meta"><span class="c">${CATS[n.categoria]}</span><span>${esc(L(n,"regiao"))}</span><span>${readMin(n)} min</span></div>`;
+
+function render(){
+  const N=data.noticias;
+  $("gn").textContent=N.length;
+  $("ed").textContent=t("ed").replace("{d}",fmt(data.atualizado));
+  $("faqDate").textContent=fmt(data.atualizado);
+  DOSE=pickDose(N);
+  $("rail").innerHTML=DOSE.map((n,i)=>`<button class="ring" data-id="${n.id}" data-story="${i}" style="${cc(n.categoria)}"><span class="o"><i>${ico(n.categoria)}</i></span><span>${esc(CATS[n.categoria])}</span></button>`).join("");
+  const present=new Set(N.map(n=>n.categoria));
+  const keys=Object.keys(CATS).filter(k=>k==="todas"||present.has(k));
+  $("chips").innerHTML=keys.map(k=>`<button class="chip" id="f-${k}" data-k="${k}" aria-pressed="${k===current}">${CATS[k]}</button>`).join("");
+  $("fTemas").innerHTML=`<h4>${t("themes")}</h4>`+keys.filter(k=>k!=="todas").map(k=>`<button type="button" data-k="${k}" class="ftema">${CATS[k]}</button>`).join("");
+  const items=N.filter(n=>current==="todas"||n.categoria===current).sort((a,b)=>(b.destaque?1:0)-(a.destaque?1:0)||b.data.localeCompare(a.data));
+  const f=items[0], rest=items.slice(1).sort((a,b)=>b.data.localeCompare(a.data));
+  $("featured").innerHTML=f?`<article class="feat" data-id="${f.id}" style="${cc(f.categoria)}">
+      
+      <div><div class="eyebrow">${t("pick")}</div><h3>${esc(L(f,"titulo"))}</h3><p>${esc(L(f,"resumo"))}</p>
+      <div style="margin-top:16px">${meta(f)}</div>
+      <a class="more" href="${esc(f.url)}" target="_blank" rel="noopener" data-read="${f.id}">${t("readOn")} ${esc(f.fonte)} ${ico("out")}</a></div></article>`:"";
+  const vis=rest.slice(0,shown);
+  $("feed").innerHTML=vis.length?vis.map(n=>`<article class="post" data-id="${n.id}" style="${cc(n.categoria)}">
+      ${meta(n)}
+      <h3><a href="${esc(n.url)}" target="_blank" rel="noopener" data-read="${n.id}">${esc(L(n,"titulo"))}</a></h3>
+      <p>${esc(L(n,"resumo"))}</p>
+      <div class="pfoot"><span class="src">${esc(n.fonte)} · ${fmtS(n.data)}</span><button class="icob" data-share="${n.id}" aria-label="${t("copyL")}">${ico("share")}</button></div>
+    </article>`).join(""):(f?"":`<p class="empty">${t("emptyCat")}</p>`);
+  $("loadMore").hidden=rest.length<=shown;
+  paint();
+}
+function paint(){
+  const r=readSet(), total=data.noticias.length, n=data.noticias.filter(x=>r.has(x.id)).length;
+  document.querySelectorAll("[data-id]").forEach(el=>el.classList.toggle("read",r.has(el.dataset.id)));
+  $("barI").style.width=(n/total*100)+"%";
+  $("progN").textContent=n<total?`${n}/${total} ${t("read")}`:t("done");
+  const xc=$("xcount"); if(xc) xc.textContent=`${n}/${total} ${t("read")}`;
+}
+let tt;function toast(m){const t=$("toast");t.textContent=m;t.classList.add("show");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("show"),2600);}
+function goList(){const el=$("noticias");if(el)el.scrollIntoView({behavior:"smooth"});}
+
+document.addEventListener("click",e=>{
+  const c=e.target.closest(".chip,.ftema"); if(c){current=c.dataset.k;shown=6;store.set("lb-cat",current);render();if(c.classList.contains("ftema"))goList();return;}
+  const a=e.target.closest("[data-read]"); if(a){markRead(a.dataset.read);return;}
+  const g=e.target.closest("[data-goto]"); if(g){ if(g.dataset.goto==="dose") sOpen(0); else goGlobe(); return; }
+  const s=e.target.closest("[data-share]"); if(s){
+    const n=data.noticias.find(x=>x.id===s.dataset.share);
+    const txt=`☀️ ${L(n,"titulo")}\n${n.url}\n\n${t("shareT")}`;
+    try{navigator.clipboard.writeText(txt).then(()=>toast(t("copied")),()=>toast(t("copyFail")));}catch(err){toast(t("copyFail"));}
+  }
+});
+document.querySelectorAll('a[href="#noticias"]').forEach(a=>a.addEventListener("click",e=>{e.preventDefault();goList();}));
+document.querySelectorAll('.logo').forEach(a=>a.addEventListener("click",e=>{e.preventDefault();window.scrollTo({top:0,behavior:"smooth"});}));
+$("loadMore").onclick=()=>{shown+=6;render();};
+$("openS2").onclick=()=>sOpen(0);
+$("nform").addEventListener("submit",e=>{e.preventDefault();toast(t("soon"));});
+
+// ===== Globo =====
+const LAND=[-69.6,-55.2,-73.3,-53.8,-68.6,-53.8,-74.5,-52.4,-72.2,-52.4,-69.9,-52.4,-73.2,-51,-71,-51,-74.2,-49.6,-72,-49.6,-69.8,-49.6,-67.7,-49.6,-75,-48.2,-72.9,-48.2,-70.8,-48.2,-68.7,-48.2,-66.6,-48.2,-73.7,-46.8,-71.6,-46.8,-69.6,-46.8,-67.5,-46.8,-74.3,-45.4,-72.3,-45.4,-70.3,-45.4,-68.3,-45.4,166.9,-45.4,168.9,-45.4,-73,-44,-71,-44,-69.1,-44,-67.1,-44,170.3,-44,-71.6,-42.6,-69.7,-42.6,-67.8,-42.6,-65.9,-42.6,-64,-42.6,147.1,-42.6,171.9,-42.6,-72.1,-41.2,-70.2,-41.2,-68.4,-41.2,-66.5,-41.2,145.6,-41.2,147.5,-41.2,173.5,-41.2,175.4,-41.2,-72.5,-39.8,-70.7,-39.8,-68.8,-39.8,-67,-39.8,-65.2,-39.8,-63.4,-39.8,175.3,-39.8,-72.8,-38.4,-71,-38.4,-69.2,-38.4,-67.5,-38.4,-65.7,-38.4,-63.9,-38.4,-62.1,-38.4,-60.3,-38.4,-58.5,-38.4,143.3,-38.4,145.1,-38.4,146.9,-38.4,175.5,-38.4,177.3,-38.4,-73.1,-37,-71.3,-37,-69.6,-37,-67.8,-37,-66.1,-37,-64.3,-37,-62.5,-37,-60.8,-37,-59,-37,-57.3,-37,140.8,-37,142.6,-37,144.3,-37,146.1,-37,147.8,-37,149.6,-37,-71.5,-35.6,-69.8,-35.6,-68.1,-35.6,-66.4,-35.6,-64.6,-35.6,-62.9,-35.6,-61.2,-35.6,-59.5,-35.6,-57.8,-35.6,138.5,-35.6,140.3,-35.6,142,-35.6,143.7,-35.6,145.4,-35.6,147.1,-35.6,148.9,-35.6,-71.7,-34.2,-70,-34.2,-68.3,-34.2,-66.6,-34.2,-64.9,-34.2,-63.2,-34.2,-61.5,-34.2,-59.8,-34.2,-56.4,-34.2,-54.7,-34.2,19.7,-34.2,21.4,-34.2,116.2,-34.2,117.9,-34.2,119.6,-34.2,138.2,-34.2,139.9,-34.2,141.6,-34.2,143.3,-34.2,145,-34.2,146.7,-34.2,148.4,-34.2,150.1,-34.2,-70.1,-32.8,-68.4,-32.8,-66.7,-32.8,-65.1,-32.8,-63.4,-32.8,-61.7,-32.8,-60.1,-32.8,-58.4,-32.8,-56.7,-32.8,-55.1,-32.8,-53.4,-32.8,18.2,-32.8,19.9,-32.8,21.5,-32.8,23.2,-32.8,24.9,-32.8,26.5,-32.8,116.5,-32.8,118.1,-32.8,119.8,-32.8,121.5,-32.8,123.1,-32.8,124.8,-32.8,134.8,-32.8,136.5,-32.8,138.1,-32.8,139.8,-32.8,141.4,-32.8,143.1,-32.8,144.8,-32.8,146.4,-32.8,148.1,-32.8,149.8,-32.8,151.4,-32.8,-70.1,-31.4,-68.5,-31.4,-66.8,-31.4,-65.2,-31.4,-63.5,-31.4,-61.9,-31.4,-60.3,-31.4,-58.6,-31.4,-57,-31.4,-55.3,-31.4,-53.7,-31.4,-52.1,-31.4,18.5,-31.4,20.1,-31.4,21.7,-31.4,23.4,-31.4,25,-31.4,26.7,-31.4,28.3,-31.4,116.9,-31.4,118.5,-31.4,120.2,-31.4,121.8,-31.4,123.4,-31.4,125.1,-31.4,126.7,-31.4,128.4,-31.4,130,-31.4,131.6,-31.4,133.3,-31.4,134.9,-31.4,136.6,-31.4,138.2,-31.4,139.8,-31.4,141.5,-31.4,143.1,-31.4,144.8,-31.4,146.4,-31.4,148,-31.4,149.7,-31.4,151.3,-31.4,-70.1,-30,-68.5,-30,-66.8,-30,-65.2,-30,-63.6,-30,-62,-30,-60.4,-30,-58.8,-30,-57.1,-30,-55.5,-30,-53.9,-30,-52.3,-30,-50.7,-30,17.2,-30,18.8,-30,20.5,-30,22.1,-30,23.7,-30,25.3,-30,26.9,-30,28.5,-30,30.2,-30,115.8,-30,117.5,-30,119.1,-30,120.7,-30,122.3,-30,123.9,-30,125.5,-30,127.2,-30,128.8,-30,130.4,-30,132,-30,133.6,-30,135.2,-30,136.8,-30,138.5,-30,140.1,-30,141.7,-30,143.3,-30,144.9,-30,146.5,-30,148.2,-30,149.8,-30,151.4,-30,153,-30,-70,-28.6,-68.4,-28.6,-66.8,-28.6,-65.2,-28.6,-63.6,-28.6,-62,-28.6,-60.4,-28.6,-58.8,-28.6,-57.2,-28.6,-55.6,-28.6,-54,-28.6,-52.4,-28.6,-50.8,-28.6,-49.2,-28.6,17.7,-28.6,19.3,-28.6,20.9,-28.6,22.5,-28.6,24.1,-28.6,25.7,-28.6,27.3,-28.6,28.9,-28.6,30.5,-28.6,32.1,-28.6,115,-28.6,116.6,-28.6,118.2,-28.6,119.8,-28.6,121.4,-28.6,123,-28.6,124.6,-28.6,126.2,-28.6,127.8,-28.6,129.3,-28.6,130.9,-28.6,132.5,-28.6,134.1,-28.6,135.7,-28.6,137.3,-28.6,138.9,-28.6,140.5,-28.6,142.1,-28.6,143.7,-28.6,145.3,-28.6,146.9,-28.6,148.5,-28.6,150.1,-28.6,151.7,-28.6,153.3,-28.6,-69.8,-27.2,-68.2,-27.2,-66.7,-27.2,-65.1,-27.2,-63.5,-27.2,-61.9,-27.2,-60.4,-27.2,-58.8,-27.2,-57.2,-27.2,-55.6,-27.2,-54.1,-27.2,-52.5,-27.2,-50.9,-27.2,-49.4,-27.2,16.8,-27.2,18.3,-27.2,19.9,-27.2,21.5,-27.2,23.1,-27.2,24.6,-27.2,26.2,-27.2,27.8,-27.2,29.4,-27.2,30.9,-27.2,32.5,-27.2,114.4,-27.2,115.9,-27.2,117.5,-27.2,119.1,-27.2,120.6,-27.2,122.2,-27.2,123.8,-27.2,125.4,-27.2,126.9,-27.2,128.5,-27.2,130.1,-27.2,131.7,-27.2,133.2,-27.2,134.8,-27.2,136.4,-27.2,138,-27.2,139.5,-27.2,141.1,-27.2,142.7,-27.2,144.3,-27.2,145.8,-27.2,147.4,-27.2,149,-27.2,150.6,-27.2,152.1,-27.2,-69.6,-25.8,-68,-25.8,-66.5,-25.8,-64.9,-25.8,-63.4,-25.8,-61.8,-25.8,-60.3,-25.8,-58.7,-25.8,-57.2,-25.8,-55.6,-25.8,-54,-25.8,-52.5,-25.8,-50.9,-25.8,-49.4,-25.8,15.9,-25.8,17.5,-25.8,19,-25.8,20.6,-25.8,22.2,-25.8,23.7,-25.8,25.3,-25.8,26.8,-25.8,28.4,-25.8,29.9,-25.8,31.5,-25.8,115.5,-25.8,117,-25.8,118.6,-25.8,120.1,-25.8,121.7,-25.8,123.2,-25.8,124.8,-25.8,126.3,-25.8,127.9,-25.8,129.4,-25.8,131,-25.8,132.6,-25.8,134.1,-25.8,135.7,-25.8,137.2,-25.8,138.8,-25.8,140.3,-25.8,141.9,-25.8,143.4,-25.8,145,-25.8,146.6,-25.8,148.1,-25.8,149.7,-25.8,151.2,-25.8,152.8,-25.8,-69.3,-24.4,-67.8,-24.4,-66.2,-24.4,-64.7,-24.4,-63.2,-24.4,-61.6,-24.4,-60.1,-24.4,-58.6,-24.4,-57,-24.4,-55.5,-24.4,-53.9,-24.4,-52.4,-24.4,-50.9,-24.4,-49.3,-24.4,-47.8,-24.4,15.2,-24.4,16.8,-24.4,18.3,-24.4,19.8,-24.4,21.4,-24.4,22.9,-24.4,24.5,-24.4,26,-24.4,27.5,-24.4,29.1,-24.4,30.6,-24.4,32.1,-24.4,33.7,-24.4,44.4,-24.4,46,-24.4,113.6,-24.4,115.2,-24.4,116.7,-24.4,118.2,-24.4,119.8,-24.4,121.3,-24.4,122.8,-24.4,124.4,-24.4,125.9,-24.4,127.5,-24.4,129,-24.4,130.5,-24.4,132.1,-24.4,133.6,-24.4,135.1,-24.4,136.7,-24.4,138.2,-24.4,139.8,-24.4,141.3,-24.4,142.8,-24.4,144.4,-24.4,145.9,-24.4,147.4,-24.4,149,-24.4,150.5,-24.4,-69,-23,-67.5,-23,-65.9,-23,-64.4,-23,-62.9,-23,-61.4,-23,-59.8,-23,-58.3,-23,-56.8,-23,-55.3,-23,-53.8,-23,-52.2,-23,-50.7,-23,-49.2,-23,-47.7,-23,-46.2,-23,-44.6,-23,14.7,-23,16.2,-23,17.7,-23,19.2,-23,20.8,-23,22.3,-23,23.8,-23,25.3,-23,26.8,-23,28.4,-23,29.9,-23,31.4,-23,32.9,-23,34.4,-23,43.6,-23,45.1,-23,46.6,-23,115.1,-23,116.6,-23,118.1,-23,119.6,-23,121.1,-23,122.7,-23,124.2,-23,125.7,-23,127.2,-23,128.7,-23,130.3,-23,131.8,-23,133.3,-23,134.8,-23,136.3,-23,137.9,-23,139.4,-23,140.9,-23,142.4,-23,144,-23,145.5,-23,147,-23,148.5,-23,150,-23,-70.1,-21.6,-68.6,-21.6,-67.1,-21.6,-65.6,-21.6,-64.1,-21.6,-62.6,-21.6,-61,-21.6,-59.5,-21.6,-58,-21.6,-56.5,-21.6,-55,-21.6,-53.5,-21.6,-52,-21.6,-50.5,-21.6,-49,-21.6,-47.5,-21.6,-46,-21.6,-44.5,-21.6,-43,-21.6,-41.5,-21.6,14.2,-21.6,15.7,-21.6,17.3,-21.6,18.8,-21.6,20.3,-21.6,21.8,-21.6,23.3,-21.6,24.8,-21.6,26.3,-21.6,27.8,-21.6,29.3,-21.6,30.8,-21.6,32.3,-21.6,33.8,-21.6,44.4,-21.6,45.9,-21.6,47.4,-21.6,116.6,-21.6,118.1,-21.6,119.6,-21.6,121.1,-21.6,122.7,-21.6,124.2,-21.6,125.7,-21.6,127.2,-21.6,128.7,-21.6,130.2,-21.6,131.7,-21.6,133.2,-21.6,134.7,-21.6,136.2,-21.6,137.7,-21.6,139.2,-21.6,140.7,-21.6,142.2,-21.6,143.7,-21.6,145.2,-21.6,146.7,-21.6,148.3,-21.6,166.3,-21.6,-69.6,-20.2,-68.1,-20.2,-66.6,-20.2,-65.1,-20.2,-63.6,-20.2,-62.2,-20.2,-60.7,-20.2,-59.2,-20.2,-57.7,-20.2,-56.2,-20.2,-54.7,-20.2,-53.2,-20.2,-51.7,-20.2,-50.2,-20.2,-48.7,-20.2,-47.2,-20.2,-45.7,-20.2,-44.3,-20.2,-42.8,-20.2,-41.3,-20.2,13.9,-20.2,15.4,-20.2,16.9,-20.2,18.4,-20.2,19.9,-20.2,21.4,-20.2,22.9,-20.2,24.4,-20.2,25.9,-20.2,27.4,-20.2,28.8,-20.2,30.3,-20.2,31.8,-20.2,33.3,-20.2,45.3,-20.2,46.7,-20.2,48.2,-20.2,119.8,-20.2,121.3,-20.2,122.8,-20.2,124.3,-20.2,125.8,-20.2,127.3,-20.2,128.8,-20.2,130.3,-20.2,131.8,-20.2,133.3,-20.2,134.8,-20.2,136.3,-20.2,137.7,-20.2,139.2,-20.2,140.7,-20.2,142.2,-20.2,143.7,-20.2,145.2,-20.2,146.7,-20.2,148.2,-20.2,-69.1,-18.8,-67.6,-18.8,-66.1,-18.8,-64.6,-18.8,-63.2,-18.8,-61.7,-18.8,-60.2,-18.8,-58.7,-18.8,-57.3,-18.8,-55.8,-18.8,-54.3,-18.8,-52.8,-18.8,-51.3,-18.8,-49.9,-18.8,-48.4,-18.8,-46.9,-18.8,-45.4,-18.8,-43.9,-18.8,-42.5,-18.8,-41,-18.8,13.7,-18.8,15.2,-18.8,16.7,-18.8,18.2,-18.8,19.7,-18.8,21.1,-18.8,22.6,-18.8,24.1,-18.8,25.6,-18.8,27,-18.8,28.5,-18.8,30,-18.8,31.5,-18.8,33,-18.8,34.4,-18.8,35.9,-18.8,44.8,-18.8,46.3,-18.8,47.8,-18.8,121.7,-18.8,123.2,-18.8,124.7,-18.8,126.1,-18.8,127.6,-18.8,129.1,-18.8,130.6,-18.8,132,-18.8,133.5,-18.8,135,-18.8,136.5,-18.8,138,-18.8,139.4,-18.8,140.9,-18.8,142.4,-18.8,143.9,-18.8,145.4,-18.8,-71.4,-17.4,-70,-17.4,-68.5,-17.4,-67,-17.4,-65.6,-17.4,-64.1,-17.4,-62.6,-17.4,-61.2,-17.4,-59.7,-17.4,-58.2,-17.4,-56.8,-17.4,-55.3,-17.4,-53.8,-17.4,-52.4,-17.4,-50.9,-17.4,-49.4,-17.4,-48,-17.4,-46.5,-17.4,-45,-17.4,-43.6,-17.4,-42.1,-17.4,-40.6,-17.4,12.2,-17.4,13.7,-17.4,15.1,-17.4,16.6,-17.4,18.1,-17.4,19.5,-17.4,21,-17.4,22.5,-17.4,23.9,-17.4,25.4,-17.4,26.9,-17.4,28.3,-17.4,29.8,-17.4,31.3,-17.4,32.7,-17.4,34.2,-17.4,35.7,-17.4,37.1,-17.4,44.5,-17.4,45.9,-17.4,47.4,-17.4,48.9,-17.4,123.7,-17.4,125.2,-17.4,126.6,-17.4,128.1,-17.4,129.6,-17.4,131,-17.4,132.5,-17.4,134,-17.4,135.4,-17.4,136.9,-17.4,138.4,-17.4,141.3,-17.4,142.8,-17.4,144.2,-17.4,145.7,-17.4,-73.7,-16,-72.2,-16,-70.8,-16,-69.3,-16,-67.9,-16,-66.4,-16,-64.9,-16,-63.5,-16,-62,-16,-60.6,-16,-59.1,-16,-57.7,-16,-56.2,-16,-54.7,-16,-53.3,-16,-51.8,-16,-50.4,-16,-48.9,-16,-47.5,-16,-46,-16,-44.6,-16,-43.1,-16,-41.6,-16,-40.2,-16,12.2,-16,13.7,-16,15.2,-16,16.6,-16,18.1,-16,19.5,-16,21,-16,22.4,-16,23.9,-16,25.4,-16,26.8,-16,28.3,-16,29.7,-16,31.2,-16,32.6,-16,34.1,-16,35.6,-16,37,-16,38.5,-16,39.9,-16,45.7,-16,47.2,-16,48.7,-16,124.4,-16,125.8,-16,127.3,-16,128.8,-16,130.2,-16,131.7,-16,133.1,-16,134.6,-16,136,-16,141.9,-16,143.3,-16,144.8,-16,-75.8,-14.6,-74.4,-14.6,-72.9,-14.6,-71.5,-14.6,-70,-14.6,-68.6,-14.6,-67.2,-14.6,-65.7,-14.6,-64.3,-14.6,-62.8,-14.6,-61.4,-14.6,-59.9,-14.6,-58.5,-14.6,-57,-14.6,-55.6,-14.6,-54.1,-14.6,-52.7,-14.6,-51.2,-14.6,-49.8,-14.6,-48.3,-14.6,-46.9,-14.6,-45.5,-14.6,-44,-14.6,-42.6,-14.6,-41.1,-14.6,-39.7,-14.6,12.4,-14.6,13.9,-14.6,15.3,-14.6,16.8,-14.6,18.2,-14.6,19.6,-14.6,21.1,-14.6,22.5,-14.6,24,-14.6,25.4,-14.6,26.9,-14.6,28.3,-14.6,29.8,-14.6,31.2,-14.6,32.7,-14.6,34.1,-14.6,35.6,-14.6,37,-14.6,38.5,-14.6,39.9,-14.6,48.6,-14.6,50,-14.6,126.7,-14.6,129.6,-14.6,131,-14.6,132.5,-14.6,133.9,-14.6,135.4,-14.6,142.6,-14.6,144.1,-14.6,-76.5,-13.2,-75,-13.2,-73.6,-13.2,-72.2,-13.2,-70.7,-13.2,-69.3,-13.2,-67.8,-13.2,-66.4,-13.2,-65,-13.2,-63.5,-13.2,-62.1,-13.2,-60.6,-13.2,-59.2,-13.2,-57.8,-13.2,-56.3,-13.2,-54.9,-13.2,-53.5,-13.2,-52,-13.2,-50.6,-13.2,-49.1,-13.2,-47.7,-13.2,-46.3,-13.2,-44.8,-13.2,-43.4,-13.2,-42,-13.2,-40.5,-13.2,-39.1,-13.2,14.1,-13.2,15.6,-13.2,17,-13.2,18.4,-13.2,19.9,-13.2,21.3,-13.2,22.8,-13.2,24.2,-13.2,25.6,-13.2,27.1,-13.2,28.5,-13.2,29.9,-13.2,31.4,-13.2,32.8,-13.2,34.3,-13.2,35.7,-13.2,37.1,-13.2,38.6,-13.2,40,-13.2,130.6,-13.2,132,-13.2,133.5,-13.2,134.9,-13.2,136.4,-13.2,142.1,-13.2,143.5,-13.2,-77,-11.8,-75.6,-11.8,-74.2,-11.8,-72.7,-11.8,-71.3,-11.8,-69.9,-11.8,-68.4,-11.8,-67,-11.8,-65.6,-11.8,-64.2,-11.8,-62.7,-11.8,-61.3,-11.8,-59.9,-11.8,-58.4,-11.8,-57,-11.8,-55.6,-11.8,-54.1,-11.8,-52.7,-11.8,-51.3,-11.8,-49.8,-11.8,-48.4,-11.8,-47,-11.8,-45.6,-11.8,-44.1,-11.8,-42.7,-11.8,-41.3,-11.8,-39.8,-11.8,-38.4,-11.8,14.5,-11.8,15.9,-11.8,17.4,-11.8,18.8,-11.8,20.2,-11.8,21.7,-11.8,23.1,-11.8,24.5,-11.8,26,-11.8,27.4,-11.8,28.8,-11.8,30.2,-11.8,31.7,-11.8,33.1,-11.8,34.5,-11.8,36,-11.8,37.4,-11.8,38.8,-11.8,40.3,-11.8,133.2,-11.8,-77.5,-10.4,-76.1,-10.4,-74.7,-10.4,-73.2,-10.4,-71.8,-10.4,-70.4,-10.4,-69,-10.4,-67.6,-10.4,-66.1,-10.4,-64.7,-10.4,-63.3,-10.4,-61.9,-10.4,-60.4,-10.4,-59,-10.4,-57.6,-10.4,-56.2,-10.4,-54.7,-10.4,-53.3,-10.4,-51.9,-10.4,-50.5,-10.4,-49,-10.4,-47.6,-10.4,-46.2,-10.4,-44.8,-10.4,-43.4,-10.4,-41.9,-10.4,-40.5,-10.4,-39.1,-10.4,-37.7,-10.4,13.6,-10.4,15,-10.4,16.4,-10.4,17.9,-10.4,19.3,-10.4,20.7,-10.4,22.1,-10.4,23.5,-10.4,25,-10.4,26.4,-10.4,27.8,-10.4,29.2,-10.4,30.7,-10.4,32.1,-10.4,33.5,-10.4,34.9,-10.4,36.4,-10.4,37.8,-10.4,39.2,-10.4,150.2,-10.4,161.6,-10.4,-77.9,-9,-76.5,-9,-75.1,-9,-73.7,-9,-72.3,-9,-70.9,-9,-69.4,-9,-68,-9,-66.6,-9,-65.2,-9,-63.8,-9,-62.4,-9,-60.9,-9,-59.5,-9,-58.1,-9,-56.7,-9,-55.3,-9,-53.8,-9,-52.4,-9,-51,-9,-49.6,-9,-48.2,-9,-46.8,-9,-45.3,-9,-43.9,-9,-42.5,-9,-41.1,-9,-39.7,-9,-38.3,-9,-36.8,-9,-35.4,-9,14.2,-9,15.6,-9,17,-9,18.4,-9,19.9,-9,21.3,-9,22.7,-9,24.1,-9,25.5,-9,26.9,-9,28.4,-9,29.8,-9,31.2,-9,32.6,-9,34,-9,35.5,-9,36.9,-9,38.3,-9,124.8,-9,126.2,-9,141.8,-9,143.2,-9,147.4,-9,-78.3,-7.6,-76.9,-7.6,-75.5,-7.6,-74.1,-7.6,-72.7,-7.6,-71.2,-7.6,-69.8,-7.6,-68.4,-7.6,-67,-7.6,-65.6,-7.6,-64.2,-7.6,-62.8,-7.6,-61.4,-7.6,-59.9,-7.6,-58.5,-7.6,-57.1,-7.6,-55.7,-7.6,-54.3,-7.6,-52.9,-7.6,-51.5,-7.6,-50.1,-7.6,-48.6,-7.6,-47.2,-7.6,-45.8,-7.6,-44.4,-7.6,-43,-7.6,-41.6,-7.6,-40.2,-7.6,-38.8,-7.6,-37.3,-7.6,-35.9,-7.6,13.5,-7.6,14.9,-7.6,16.3,-7.6,17.7,-7.6,19.1,-7.6,20.6,-7.6,22,-7.6,23.4,-7.6,24.8,-7.6,26.2,-7.6,27.6,-7.6,29,-7.6,30.4,-7.6,31.9,-7.6,33.3,-7.6,34.7,-7.6,36.1,-7.6,37.5,-7.6,38.9,-7.6,108.1,-7.6,109.5,-7.6,111,-7.6,112.4,-7.6,139.2,-7.6,140.6,-7.6,142,-7.6,143.4,-7.6,144.9,-7.6,146.3,-7.6,-80,-6.2,-78.6,-6.2,-77.2,-6.2,-75.8,-6.2,-74.4,-6.2,-73,-6.2,-71.6,-6.2,-70.2,-6.2,-68.7,-6.2,-67.3,-6.2,-65.9,-6.2,-64.5,-6.2,-63.1,-6.2,-61.7,-6.2,-60.3,-6.2,-58.9,-6.2,-57.5,-6.2,-56.1,-6.2,-54.7,-6.2,-53.3,-6.2,-51.9,-6.2,-50.4,-6.2,-49,-6.2,-47.6,-6.2,-46.2,-6.2,-44.8,-6.2,-43.4,-6.2,-42,-6.2,-40.6,-6.2,-39.2,-6.2,-37.8,-6.2,-36.4,-6.2,12.9,-6.2,14.3,-6.2,15.7,-6.2,17.2,-6.2,18.6,-6.2,20,-6.2,21.4,-6.2,22.8,-6.2,24.2,-6.2,25.6,-6.2,27,-6.2,28.4,-6.2,29.8,-6.2,31.2,-6.2,32.6,-6.2,34.1,-6.2,35.5,-6.2,36.9,-6.2,38.3,-6.2,105.9,-6.2,107.3,-6.2,139.7,-6.2,141.1,-6.2,142.5,-6.2,143.9,-6.2,145.3,-6.2,146.7,-6.2,149.5,-6.2,155.2,-6.2,-80.3,-4.8,-78.8,-4.8,-77.4,-4.8,-76,-4.8,-74.6,-4.8,-73.2,-4.8,-71.8,-4.8,-70.4,-4.8,-69,-4.8,-67.6,-4.8,-66.2,-4.8,-64.8,-4.8,-63.4,-4.8,-62,-4.8,-60.6,-4.8,-59.2,-4.8,-57.8,-4.8,-56.4,-4.8,-55,-4.8,-53.6,-4.8,-52.2,-4.8,-50.7,-4.8,-49.3,-4.8,-47.9,-4.8,-46.5,-4.8,-45.1,-4.8,-43.7,-4.8,-42.3,-4.8,-40.9,-4.8,-39.5,-4.8,-38.1,-4.8,12.5,-4.8,13.9,-4.8,15.3,-4.8,16.7,-4.8,18.1,-4.8,19.5,-4.8,20.9,-4.8,22.3,-4.8,23.7,-4.8,25.1,-4.8,26.5,-4.8,27.9,-4.8,29.3,-4.8,30.7,-4.8,32.1,-4.8,33.5,-4.8,35,-4.8,36.4,-4.8,37.8,-4.8,103.8,-4.8,105.2,-4.8,137.5,-4.8,138.9,-4.8,140.3,-4.8,141.7,-4.8,143.1,-4.8,144.5,-4.8,-79,-3.4,-77.6,-3.4,-76.2,-3.4,-74.8,-3.4,-73.4,-3.4,-72,-3.4,-70.6,-3.4,-69.2,-3.4,-67.8,-3.4,-66.4,-3.4,-65,-3.4,-63.6,-3.4,-62.2,-3.4,-60.8,-3.4,-59.4,-3.4,-58,-3.4,-56.6,-3.4,-55.2,-3.4,-53.8,-3.4,-52.4,-3.4,-51,-3.4,-49.6,-3.4,-48.2,-3.4,-46.8,-3.4,-45.4,-3.4,-44,-3.4,-42.6,-3.4,-41.2,-3.4,-39.8,-3.4,10.7,-3.4,12.1,-3.4,13.5,-3.4,14.9,-3.4,16.3,-3.4,17.7,-3.4,19.2,-3.4,20.6,-3.4,22,-3.4,23.4,-3.4,24.8,-3.4,26.2,-3.4,27.6,-3.4,29,-3.4,30.4,-3.4,31.8,-3.4,33.2,-3.4,34.6,-3.4,36,-3.4,37.4,-3.4,38.8,-3.4,103.3,-3.4,104.7,-3.4,114.5,-3.4,115.9,-3.4,120.1,-3.4,121.5,-3.4,127.1,-3.4,128.5,-3.4,129.9,-3.4,134.2,-3.4,135.6,-3.4,137,-3.4,138.4,-3.4,139.8,-3.4,141.2,-3.4,142.6,-3.4,152.4,-3.4,-80.5,-2,-79.1,-2,-77.7,-2,-76.3,-2,-74.9,-2,-73.5,-2,-72.1,-2,-70.7,-2,-69.3,-2,-67.9,-2,-66.5,-2,-65.1,-2,-63.7,-2,-62.3,-2,-60.9,-2,-59.5,-2,-58.1,-2,-56.7,-2,-55.3,-2,-53.9,-2,-52.5,-2,-51.1,-2,-49.7,-2,-48.3,-2,-46.9,-2,-45.5,-2,10.5,-2,11.9,-2,13.3,-2,14.7,-2,16.1,-2,17.5,-2,18.9,-2,20.3,-2,21.7,-2,23.1,-2,24.5,-2,25.9,-2,27.3,-2,28.7,-2,30.1,-2,31.5,-2,32.9,-2,34.3,-2,35.7,-2,37.1,-2,38.5,-2,39.9,-2,101.6,-2,103,-2,104.4,-2,111.4,-2,112.8,-2,114.2,-2,115.6,-2,119.8,-2,121.2,-2,132.4,-2,133.8,-2,138,-2,-79.2,-0.6,-77.8,-0.6,-76.4,-0.6,-75,-0.6,-73.6,-0.6,-72.2,-0.6,-70.8,-0.6,-69.4,-0.6,-68,-0.6,-66.6,-0.6,-65.2,-0.6,-63.8,-0.6,-62.4,-0.6,-61,-0.6,-59.6,-0.6,-58.2,-0.6,-56.8,-0.6,-55.4,-0.6,-54,-0.6,-52.6,-0.6,-51.2,-0.6,-49.8,-0.6,9,-0.6,10.4,-0.6,11.8,-0.6,13.2,-0.6,14.6,-0.6,16,-0.6,17.4,-0.6,18.8,-0.6,20.2,-0.6,21.6,-0.6,23,-0.6,24.4,-0.6,25.8,-0.6,27.2,-0.6,28.6,-0.6,30,-0.6,31.4,-0.6,32.8,-0.6,34.2,-0.6,35.6,-0.6,37,-0.6,38.4,-0.6,39.8,-0.6,41.2,-0.6,101.4,-0.6,102.8,-0.6,109.8,-0.6,111.2,-0.6,112.6,-0.6,114,-0.6,115.4,-0.6,116.8,-0.6,119.6,-0.6,128,-0.6,132.2,-0.6,-79.2,0.8,-77.8,0.8,-76.4,0.8,-75,0.8,-73.6,0.8,-72.2,0.8,-70.8,0.8,-69.4,0.8,-68,0.8,-66.6,0.8,-65.2,0.8,-63.8,0.8,-62.4,0.8,-61,0.8,-59.6,0.8,-58.2,0.8,-56.8,0.8,-55.4,0.8,-54,0.8,-52.6,0.8,-51.2,0.8,10.4,0.8,11.8,0.8,13.2,0.8,14.6,0.8,16,0.8,17.4,0.8,18.8,0.8,20.2,0.8,21.6,0.8,23,0.8,24.4,0.8,25.8,0.8,27.2,0.8,28.6,0.8,30,0.8,31.4,0.8,32.8,0.8,34.2,0.8,35.6,0.8,37,0.8,38.4,0.8,39.8,0.8,41.2,0.8,42.6,0.8,100,0.8,101.4,0.8,102.8,0.8,109.8,0.8,111.2,0.8,112.6,0.8,114,0.8,115.4,0.8,116.8,0.8,121,0.8,122.4,0.8,123.8,0.8,128,0.8,-77.7,2.2,-76.3,2.2,-74.9,2.2,-73.5,2.2,-72.1,2.2,-70.7,2.2,-69.3,2.2,-67.9,2.2,-66.5,2.2,-65.1,2.2,-63.7,2.2,-62.3,2.2,-60.9,2.2,-59.5,2.2,-58.1,2.2,-56.7,2.2,-55.3,2.2,-53.9,2.2,-52.5,2.2,-51.1,2.2,10.5,2.2,11.9,2.2,13.3,2.2,14.7,2.2,16.1,2.2,17.5,2.2,18.9,2.2,20.3,2.2,21.7,2.2,23.1,2.2,24.6,2.2,26,2.2,27.4,2.2,28.8,2.2,30.2,2.2,31.6,2.2,33,2.2,34.4,2.2,35.8,2.2,37.2,2.2,38.6,2.2,40,2.2,41.4,2.2,42.8,2.2,44.2,2.2,45.6,2.2,98.8,2.2,100.2,2.2,103,2.2,111.4,2.2,112.8,2.2,114.2,2.2,115.6,2.2,117,2.2,-76.2,3.6,-74.8,3.6,-73.4,3.6,-72,3.6,-70.6,3.6,-69.2,3.6,-67.8,3.6,-66.4,3.6,-65,3.6,-63.6,3.6,-62.2,3.6,-60.8,3.6,-59.4,3.6,-58,3.6,-56.6,3.6,-55.2,3.6,-53.8,3.6,-52.3,3.6,10.8,3.6,12.2,3.6,13.6,3.6,15,3.6,16.4,3.6,17.8,3.6,19.2,3.6,20.6,3.6,22,3.6,23.4,3.6,24.8,3.6,26.2,3.6,27.6,3.6,29,3.6,30.4,3.6,31.8,3.6,33.2,3.6,34.6,3.6,36,3.6,37.4,3.6,38.8,3.6,40.2,3.6,41.6,3.6,43,3.6,44.4,3.6,45.8,3.6,97.7,3.6,102,3.6,103.4,3.6,114.6,3.6,116,3.6,117.4,3.6,-76,5,-74.6,5,-73.2,5,-71.8,5,-70.4,5,-69,5,-67.6,5,-66.2,5,-64.8,5,-63.4,5,-62,5,-60.5,5,-59.1,5,-57.7,5,-56.3,5,-54.9,5,-53.5,5,-8.5,5,-7.1,5,-2.9,5,-1.5,5,5.5,5,6.9,5,8.3,5,9.7,5,11.1,5,12.5,5,13.9,5,15.3,5,16.7,5,18.2,5,19.6,5,21,5,22.4,5,23.8,5,25.2,5,26.6,5,28,5,29.4,5,30.8,5,32.2,5,33.6,5,35,5,36.4,5,37.8,5,39.2,5,40.6,5,42,5,43.5,5,44.9,5,46.3,5,47.7,5,95.4,5,96.9,5,101.1,5,102.5,5,115.1,5,116.5,5,117.9,5,-77.2,6.4,-75.8,6.4,-74.3,6.4,-72.9,6.4,-71.5,6.4,-70.1,6.4,-68.7,6.4,-67.3,6.4,-65.9,6.4,-64.5,6.4,-63.1,6.4,-61.7,6.4,-60.3,6.4,-58.8,6.4,-10.9,6.4,-9.5,6.4,-8.1,6.4,-6.7,6.4,-5.3,6.4,-3.9,6.4,-2.5,6.4,-1.1,6.4,0.3,6.4,1.7,6.4,3.1,6.4,4.6,6.4,6,6.4,7.4,6.4,8.8,6.4,10.2,6.4,11.6,6.4,13,6.4,14.4,6.4,15.8,6.4,17.2,6.4,18.6,6.4,20,6.4,21.5,6.4,22.9,6.4,24.3,6.4,25.7,6.4,27.1,6.4,28.5,6.4,29.9,6.4,31.3,6.4,32.7,6.4,34.1,6.4,35.5,6.4,37,6.4,38.4,6.4,39.8,6.4,41.2,6.4,42.6,6.4,44,6.4,45.4,6.4,46.8,6.4,48.2,6.4,80.6,6.4,100.3,6.4,101.8,6.4,117.3,6.4,124.3,6.4,-81.1,7.8,-78.3,7.8,-76.8,7.8,-75.4,7.8,-74,7.8,-72.6,7.8,-71.2,7.8,-69.8,7.8,-68.4,7.8,-67,7.8,-65.5,7.8,-64.1,7.8,-62.7,7.8,-61.3,7.8,-59.9,7.8,-11.8,7.8,-10.4,7.8,-9,7.8,-7.6,7.8,-6.2,7.8,-4.8,7.8,-3.4,7.8,-2,7.8,-0.5,7.8,0.9,7.8,2.3,7.8,3.7,7.8,5.1,7.8,6.5,7.8,7.9,7.8,9.4,7.8,10.8,7.8,12.2,7.8,13.6,7.8,15,7.8,16.4,7.8,17.8,7.8,19.2,7.8,20.7,7.8,22.1,7.8,23.5,7.8,24.9,7.8,26.3,7.8,27.7,7.8,29.1,7.8,30.5,7.8,32,7.8,33.4,7.8,34.8,7.8,36.2,7.8,37.6,7.8,39,7.8,40.4,7.8,41.9,7.8,43.3,7.8,44.7,7.8,46.1,7.8,47.5,7.8,48.9,7.8,80,7.8,81.4,7.8,99.8,7.8,122.4,7.8,123.8,7.8,125.2,7.8,-83.6,9.2,-79.3,9.2,-75,9.2,-73.6,9.2,-72.2,9.2,-70.8,9.2,-69.4,9.2,-68,9.2,-66.5,9.2,-65.1,9.2,-63.7,9.2,-62.3,9.2,-60.9,9.2,-12.6,9.2,-11.2,9.2,-9.8,9.2,-8.4,9.2,-7,9.2,-5.6,9.2,-4.1,9.2,-2.7,9.2,-1.3,9.2,0.1,9.2,1.5,9.2,3,9.2,4.4,9.2,5.8,9.2,7.2,9.2,8.6,9.2,10,9.2,11.5,9.2,12.9,9.2,14.3,9.2,15.7,9.2,17.1,9.2,18.6,9.2,20,9.2,21.4,9.2,22.8,9.2,24.2,9.2,25.6,9.2,27.1,9.2,28.5,9.2,29.9,9.2,31.3,9.2,32.7,9.2,34.2,9.2,35.6,9.2,37,9.2,38.4,9.2,39.8,9.2,41.2,9.2,42.7,9.2,44.1,9.2,45.5,9.2,46.9,9.2,48.3,9.2,49.8,9.2,76.7,9.2,78.1,9.2,99.4,9.2,105.1,9.2,117.8,9.2,-84.6,10.6,-74.6,10.6,-73.2,10.6,-71.8,10.6,-70.3,10.6,-68.9,10.6,-63.2,10.6,-13.4,10.6,-11.9,10.6,-10.5,10.6,-9.1,10.6,-7.7,10.6,-6.2,10.6,-4.8,10.6,-3.4,10.6,-2,10.6,-0.5,10.6,0.9,10.6,2.3,10.6,3.7,10.6,5.2,10.6,6.6,10.6,8,10.6,9.4,10.6,10.9,10.6,12.3,10.6,13.7,10.6,15.1,10.6,16.6,10.6,18,10.6,19.4,10.6,20.8,10.6,22.3,10.6,23.7,10.6,25.1,10.6,26.5,10.6,27.9,10.6,29.4,10.6,30.8,10.6,32.2,10.6,33.6,10.6,35.1,10.6,36.5,10.6,37.9,10.6,39.3,10.6,40.8,10.6,42.2,10.6,43.6,10.6,46.5,10.6,47.9,10.6,49.3,10.6,50.7,10.6,76.4,10.6,77.8,10.6,79.2,10.6,99.2,10.6,104.9,10.6,106.3,10.6,123.4,10.6,124.8,10.6,-85.5,12,-84.1,12,-71.2,12,-15.4,12,-14,12,-12.5,12,-11.1,12,-9.7,12,-8.2,12,-6.8,12,-5.4,12,-4,12,-2.5,12,-1.1,12,0.3,12,1.8,12,3.2,12,4.6,12,6.1,12,7.5,12,8.9,12,10.4,12,11.8,12,13.2,12,14.7,12,16.1,12,17.5,12,18.9,12,20.4,12,21.8,12,23.2,12,24.7,12,26.1,12,27.5,12,29,12,30.4,12,31.8,12,33.3,12,34.7,12,36.1,12,37.6,12,39,12,40.4,12,41.8,12,43.3,12,76.2,12,77.6,12,79.1,12,99.1,12,103.4,12,104.8,12,106.3,12,107.7,12,109.1,12,124.9,12,-87.9,13.4,-86.5,13.4,-85,13.4,-83.6,13.4,-15.9,13.4,-14.5,13.4,-13.1,13.4,-11.6,13.4,-10.2,13.4,-8.7,13.4,-7.3,13.4,-5.9,13.4,-4.4,13.4,-3,13.4,-1.5,13.4,-0.1,13.4,1.3,13.4,2.8,13.4,4.2,13.4,5.7,13.4,7.1,13.4,8.5,13.4,10,13.4,11.4,13.4,12.9,13.4,14.3,13.4,15.7,13.4,17.2,13.4,18.6,13.4,20,13.4,21.5,13.4,22.9,13.4,24.4,13.4,25.8,13.4,27.2,13.4,28.7,13.4,30.1,13.4,31.6,13.4,33,13.4,34.4,13.4,35.9,13.4,37.3,13.4,38.8,13.4,40.2,13.4,41.6,13.4,44.5,13.4,46,13.4,74.7,13.4,76.2,13.4,77.6,13.4,79.1,13.4,99.2,13.4,102.1,13.4,103.5,13.4,105,13.4,106.4,13.4,107.8,13.4,109.3,13.4,120.8,13.4,123.7,13.4,-91.7,14.8,-90.2,14.8,-88.8,14.8,-87.3,14.8,-85.9,14.8,-84.4,14.8,-16.4,14.8,-14.9,14.8,-13.5,14.8,-12,14.8,-10.6,14.8,-9.1,14.8,-7.7,14.8,-6.2,14.8,-4.8,14.8,-3.3,14.8,-1.9,14.8,-0.4,14.8,1,14.8,2.5,14.8,3.9,14.8,5.3,14.8,6.8,14.8,8.2,14.8,9.7,14.8,11.1,14.8,12.6,14.8,14,14.8,15.5,14.8,16.9,14.8,18.4,14.8,19.8,14.8,21.3,14.8,22.7,14.8,24.2,14.8,25.6,14.8,27.1,14.8,28.5,14.8,30,14.8,31.4,14.8,32.9,14.8,34.3,14.8,35.8,14.8,37.2,14.8,38.7,14.8,40.1,14.8,43,14.8,44.4,14.8,45.9,14.8,47.3,14.8,48.8,14.8,74.9,14.8,76.3,14.8,77.8,14.8,79.2,14.8,98,14.8,99.5,14.8,100.9,14.8,102.4,14.8,103.8,14.8,105.3,14.8,106.7,14.8,108.2,14.8,121.2,14.8,-96.9,16.2,-95.4,16.2,-94,16.2,-92.5,16.2,-91.1,16.2,-89.6,16.2,-15.3,16.2,-13.8,16.2,-12.3,16.2,-10.9,16.2,-9.4,16.2,-8,16.2,-6.5,16.2,-5.1,16.2,-3.6,16.2,-2.1,16.2,-0.7,16.2,0.8,16.2,2.2,16.2,3.7,16.2,5.2,16.2,6.6,16.2,8.1,16.2,9.5,16.2,11,16.2,12.4,16.2,13.9,16.2,15.4,16.2,16.8,16.2,18.3,16.2,19.7,16.2,21.2,16.2,22.6,16.2,24.1,16.2,25.6,16.2,27,16.2,28.5,16.2,29.9,16.2,31.4,16.2,32.9,16.2,34.3,16.2,35.8,16.2,37.2,16.2,38.7,16.2,43.1,16.2,44.5,16.2,46,16.2,47.4,16.2,48.9,16.2,50.3,16.2,51.8,16.2,73.7,16.2,75.1,16.2,76.6,16.2,78,16.2,79.5,16.2,81,16.2,95.5,16.2,98.5,16.2,99.9,16.2,101.4,16.2,102.8,16.2,104.3,16.2,105.7,16.2,107.2,16.2,120.3,16.2,121.8,16.2,-100.7,17.6,-99.2,17.6,-97.7,17.6,-96.3,17.6,-94.8,17.6,-93.3,17.6,-91.9,17.6,-90.4,17.6,-88.9,17.6,-15.5,17.6,-14,17.6,-12.6,17.6,-11.1,17.6,-9.6,17.6,-8.2,17.6,-6.7,17.6,-5.2,17.6,-3.7,17.6,-2.3,17.6,-0.8,17.6,0.7,17.6,2.1,17.6,3.6,17.6,5.1,17.6,6.5,17.6,8,17.6,9.5,17.6,10.9,17.6,12.4,17.6,13.9,17.6,15.3,17.6,16.8,17.6,18.3,17.6,19.8,17.6,21.2,17.6,22.7,17.6,24.2,17.6,25.6,17.6,27.1,17.6,28.6,17.6,30,17.6,31.5,17.6,33,17.6,34.4,17.6,35.9,17.6,37.4,17.6,43.3,17.6,44.7,17.6,46.2,17.6,47.7,17.6,49.1,17.6,50.6,17.6,52.1,17.6,53.5,17.6,55,17.6,74.1,17.6,75.6,17.6,77,17.6,78.5,17.6,80,17.6,81.4,17.6,82.9,17.6,94.7,17.6,96.1,17.6,97.6,17.6,99.1,17.6,100.5,17.6,102,17.6,103.5,17.6,104.9,17.6,106.4,17.6,121.1,17.6,-103,19,-101.5,19,-100,19,-98.6,19,-97.1,19,-91.2,19,-89.7,19,-88.2,19,-71.9,19,-70.4,19,-15.6,19,-14.2,19,-12.7,19,-11.2,19,-9.7,19,-8.2,19,-6.8,19,-5.3,19,-3.8,19,-2.3,19,-0.8,19,0.6,19,2.1,19,3.6,19,5.1,19,6.6,19,8,19,9.5,19,11,19,12.5,19,14,19,15.4,19,16.9,19,18.4,19,19.9,19,21.4,19,22.9,19,24.3,19,25.8,19,27.3,19,28.8,19,30.3,19,31.7,19,33.2,19,34.7,19,36.2,19,42.1,19,43.6,19,45.1,19,46.5,19,48,19,49.5,19,51,19,52.5,19,53.9,19,55.4,19,56.9,19,73.2,19,74.7,19,76.2,19,77.6,19,79.1,19,80.6,19,82.1,19,83.6,19,93.9,19,95.4,19,96.9,19,98.4,19,99.8,19,101.3,19,102.8,19,104.3,19,108.7,19,110.2,19,-105.3,20.4,-103.8,20.4,-102.3,20.4,-100.8,20.4,-99.3,20.4,-97.8,20.4,-90.4,20.4,-88.9,20.4,-87.4,20.4,-76.9,20.4,-75.4,20.4,-15.7,20.4,-14.2,20.4,-12.7,20.4,-11.2,20.4,-9.7,20.4,-8.2,20.4,-6.7,20.4,-5.2,20.4,-3.7,20.4,-2.3,20.4,-0.8,20.4,0.7,20.4,2.2,20.4,3.7,20.4,5.2,20.4,6.7,20.4,8.2,20.4,9.7,20.4,11.2,20.4,12.7,20.4,14.2,20.4,15.7,20.4,17.2,20.4,18.7,20.4,20.2,20.4,21.6,20.4,23.1,20.4,24.6,20.4,26.1,20.4,27.6,20.4,29.1,20.4,30.6,20.4,32.1,20.4,33.6,20.4,35.1,20.4,36.6,20.4,41.1,20.4,42.6,20.4,44.1,20.4,45.5,20.4,47,20.4,48.5,20.4,50,20.4,51.5,20.4,53,20.4,54.5,20.4,56,20.4,57.5,20.4,73.9,20.4,75.4,20.4,76.9,20.4,78.4,20.4,79.9,20.4,81.4,20.4,82.9,20.4,84.4,20.4,85.9,20.4,93.3,20.4,94.8,20.4,96.3,20.4,97.8,20.4,99.3,20.4,100.8,20.4,102.3,20.4,103.8,20.4,105.3,20.4,-104.6,21.8,-103.1,21.8,-101.6,21.8,-100.1,21.8,-98.6,21.8,-79,21.8,-77.5,21.8,-15.6,21.8,-14.1,21.8,-12.6,21.8,-11.1,21.8,-9.6,21.8,-8.1,21.8,-6.6,21.8,-5.1,21.8,-3.6,21.8,-2.1,21.8,-0.6,21.8,0.9,21.8,2.4,21.8,4,21.8,5.5,21.8,7,21.8,8.5,21.8,10,21.8,11.5,21.8,13,21.8,14.5,21.8,16,21.8,17.5,21.8,19,21.8,20.5,21.8,22,21.8,23.6,21.8,25.1,21.8,26.6,21.8,28.1,21.8,29.6,21.8,31.1,21.8,32.6,21.8,34.1,21.8,35.6,21.8,40.1,21.8,41.7,21.8,43.2,21.8,44.7,21.8,46.2,21.8,47.7,21.8,49.2,21.8,50.7,21.8,52.2,21.8,53.7,21.8,55.2,21.8,56.7,21.8,58.2,21.8,70.3,21.8,71.8,21.8,73.3,21.8,74.8,21.8,76.3,21.8,77.8,21.8,79.3,21.8,80.9,21.8,82.4,21.8,83.9,21.8,85.4,21.8,86.9,21.8,88.4,21.8,92.9,21.8,94.4,21.8,95.9,21.8,97.4,21.8,98.9,21.8,100.5,21.8,102,21.8,103.5,21.8,105,21.8,106.5,21.8,108,21.8,109.5,21.8,111,21.8,112.5,21.8,-109.9,23.2,-105.4,23.2,-103.8,23.2,-102.3,23.2,-100.8,23.2,-99.3,23.2,-15.5,23.2,-14,23.2,-12.5,23.2,-10.9,23.2,-9.4,23.2,-7.9,23.2,-6.4,23.2,-4.8,23.2,-3.3,23.2,-1.8,23.2,-0.3,23.2,1.3,23.2,2.8,23.2,4.3,23.2,5.8,23.2,7.3,23.2,8.9,23.2,10.4,23.2,11.9,23.2,13.4,23.2,15,23.2,16.5,23.2,18,23.2,19.5,23.2,21.1,23.2,22.6,23.2,24.1,23.2,25.6,23.2,27.2,23.2,28.7,23.2,30.2,23.2,31.7,23.2,33.2,23.2,34.8,23.2,39.3,23.2,40.9,23.2,42.4,23.2,43.9,23.2,45.4,23.2,47,23.2,48.5,23.2,50,23.2,51.5,23.2,53,23.2,54.6,23.2,56.1,23.2,57.6,23.2,69.8,23.2,71.3,23.2,72.8,23.2,74.4,23.2,75.9,23.2,77.4,23.2,78.9,23.2,80.5,23.2,82,23.2,83.5,23.2,85,23.2,86.6,23.2,88.1,23.2,89.6,23.2,91.1,23.2,92.6,23.2,94.2,23.2,95.7,23.2,97.2,23.2,98.7,23.2,100.3,23.2,101.8,23.2,103.3,23.2,104.8,23.2,106.4,23.2,107.9,23.2,109.4,23.2,110.9,23.2,112.4,23.2,114,23.2,115.5,23.2,-110.7,24.6,-107.6,24.6,-106.1,24.6,-104.6,24.6,-103,24.6,-101.5,24.6,-99.9,24.6,-98.4,24.6,-78.4,24.6,-13.7,24.6,-12.2,24.6,-10.6,24.6,-9.1,24.6,-7.5,24.6,-6,24.6,-4.5,24.6,-2.9,24.6,-1.4,24.6,0.2,24.6,1.7,24.6,3.2,24.6,4.8,24.6,6.3,24.6,7.8,24.6,9.4,24.6,10.9,24.6,12.5,24.6,14,24.6,15.5,24.6,17.1,24.6,18.6,24.6,20.2,24.6,21.7,24.6,23.2,24.6,24.8,24.6,26.3,24.6,27.9,24.6,29.4,24.6,30.9,24.6,32.5,24.6,34,24.6,38.6,24.6,40.2,24.6,41.7,24.6,43.3,24.6,44.8,24.6,46.3,24.6,47.9,24.6,49.4,24.6,51,24.6,55.6,24.6,67.9,24.6,69.4,24.6,71,24.6,72.5,24.6,74.1,24.6,75.6,24.6,77.1,24.6,78.7,24.6,80.2,24.6,81.8,24.6,83.3,24.6,84.8,24.6,86.4,24.6,87.9,24.6,89.5,24.6,91,24.6,92.5,24.6,94.1,24.6,95.6,24.6,97.2,24.6,98.7,24.6,100.2,24.6,101.8,24.6,103.3,24.6,104.9,24.6,106.4,24.6,107.9,24.6,109.5,24.6,111,24.6,112.6,24.6,114.1,24.6,115.6,24.6,117.2,24.6,121.8,24.6,-111.5,26,-108.3,26,-106.8,26,-105.2,26,-103.7,26,-102.1,26,-100.6,26,-99,26,-97.4,26,-80.3,26,-77.2,26,-13.3,26,-11.8,26,-10.2,26,-8.7,26,-7.1,26,-5.5,26,-4,26,-2.4,26,-0.9,26,0.7,26,2.2,26,3.8,26,5.4,26,6.9,26,8.5,26,10,26,11.6,26,13.1,26,14.7,26,16.3,26,17.8,26,19.4,26,20.9,26,22.5,26,24.1,26,25.6,26,27.2,26,28.7,26,30.3,26,31.8,26,33.4,26,38.1,26,39.6,26,41.2,26,42.7,26,44.3,26,45.9,26,47.4,26,49,26,58.3,26,59.9,26,61.4,26,63,26,64.5,26,66.1,26,67.7,26,69.2,26,70.8,26,72.3,26,73.9,26,75.5,26,77,26,78.6,26,80.1,26,81.7,26,83.2,26,84.8,26,86.4,26,87.9,26,89.5,26,91,26,92.6,26,94.1,26,95.7,26,97.3,26,98.8,26,100.4,26,101.9,26,103.5,26,105,26,106.6,26,108.2,26,109.7,26,111.3,26,112.8,26,114.4,26,116,26,117.5,26,119.1,26,-113.8,27.4,-109,27.4,-107.5,27.4,-105.9,27.4,-104.3,27.4,-102.7,27.4,-101.2,27.4,-99.6,27.4,-98,27.4,-82.2,27.4,-80.7,27.4,-12.8,27.4,-11.3,27.4,-9.7,27.4,-8.1,27.4,-6.5,27.4,-5,27.4,-3.4,27.4,-1.8,27.4,-0.2,27.4,1.3,27.4,2.9,27.4,4.5,27.4,6.1,27.4,7.7,27.4,9.2,27.4,10.8,27.4,12.4,27.4,14,27.4,15.5,27.4,17.1,27.4,18.7,27.4,20.3,27.4,21.8,27.4,23.4,27.4,25,27.4,26.6,27.4,28.2,27.4,29.7,27.4,31.3,27.4,32.9,27.4,36,27.4,37.6,27.4,39.2,27.4,40.8,27.4,42.3,27.4,43.9,27.4,45.5,27.4,47.1,27.4,48.7,27.4,53.4,27.4,55,27.4,56.5,27.4,58.1,27.4,59.7,27.4,61.3,27.4,62.8,27.4,64.4,27.4,66,27.4,67.6,27.4,69.2,27.4,70.7,27.4,72.3,27.4,73.9,27.4,75.5,27.4,77,27.4,78.6,27.4,80.2,27.4,81.8,27.4,83.3,27.4,84.9,27.4,86.5,27.4,88.1,27.4,89.7,27.4,91.2,27.4,92.8,27.4,94.4,27.4,96,27.4,97.5,27.4,99.1,27.4,100.7,27.4,102.3,27.4,103.8,27.4,105.4,27.4,107,27.4,108.6,27.4,110.2,27.4,111.7,27.4,113.3,27.4,114.9,27.4,116.5,27.4,118,27.4,119.6,27.4,-111.3,28.8,-109.7,28.8,-108.1,28.8,-106.5,28.8,-104.9,28.8,-103.3,28.8,-101.7,28.8,-100.1,28.8,-98.5,28.8,-96.9,28.8,-82.5,28.8,-80.9,28.8,-10.7,28.8,-9.1,28.8,-7.5,28.8,-5.9,28.8,-4.3,28.8,-2.7,28.8,-1.1,28.8,0.5,28.8,2.1,28.8,3.7,28.8,5.3,28.8,6.9,28.8,8.5,28.8,10.1,28.8,11.7,28.8,13.3,28.8,14.9,28.8,16.5,28.8,18.1,28.8,19.7,28.8,21.3,28.8,22.9,28.8,24.5,28.8,26.1,28.8,27.7,28.8,29.3,28.8,30.9,28.8,32.5,28.8,34.1,28.8,35.7,28.8,37.3,28.8,38.9,28.8,40.5,28.8,42.1,28.8,43.7,28.8,45.3,28.8,46.9,28.8,51.7,28.8,53.3,28.8,54.8,28.8,56.4,28.8,58,28.8,59.6,28.8,61.2,28.8,62.8,28.8,64.4,28.8,66,28.8,67.6,28.8,69.2,28.8,70.8,28.8,72.4,28.8,74,28.8,75.6,28.8,77.2,28.8,78.8,28.8,80.4,28.8,82,28.8,83.6,28.8,85.2,28.8,86.8,28.8,88.4,28.8,90,28.8,91.6,28.8,93.2,28.8,94.8,28.8,96.4,28.8,98,28.8,99.6,28.8,101.2,28.8,102.8,28.8,104.4,28.8,106,28.8,107.6,28.8,109.2,28.8,110.8,28.8,112.4,28.8,114,28.8,115.6,28.8,117.2,28.8,118.8,28.8,120.4,28.8,-115.2,30.2,-112,30.2,-110.3,30.2,-108.7,30.2,-107.1,30.2,-105.5,30.2,-103.9,30.2,-102.2,30.2,-100.6,30.2,-99,30.2,-97.4,30.2,-95.8,30.2,-94.1,30.2,-92.5,30.2,-90.9,30.2,-84.4,30.2,-82.8,30.2,-8.3,30.2,-6.7,30.2,-5.1,30.2,-3.4,30.2,-1.8,30.2,-0.2,30.2,1.4,30.2,3,30.2,4.7,30.2,6.3,30.2,7.9,30.2,9.5,30.2,11.1,30.2,12.8,30.2,14.4,30.2,16,30.2,17.6,30.2,19.2,30.2,20.9,30.2,22.5,30.2,24.1,30.2,25.7,30.2,27.3,30.2,29,30.2,30.6,30.2,32.2,30.2,33.8,30.2,35.4,30.2,37.1,30.2,38.7,30.2,40.3,30.2,41.9,30.2,43.5,30.2,45.2,30.2,46.8,30.2,48.4,30.2,50,30.2,51.6,30.2,53.3,30.2,54.9,30.2,56.5,30.2,58.1,30.2,59.7,30.2,61.4,30.2,63,30.2,64.6,30.2,66.2,30.2,67.8,30.2,69.5,30.2,71.1,30.2,72.7,30.2,74.3,30.2,75.9,30.2,77.6,30.2,79.2,30.2,80.8,30.2,82.4,30.2,84,30.2,85.7,30.2,87.3,30.2,88.9,30.2,90.5,30.2,92.1,30.2,93.8,30.2,95.4,30.2,97,30.2,98.6,30.2,100.2,30.2,101.9,30.2,103.5,30.2,105.1,30.2,106.7,30.2,108.3,30.2,110,30.2,111.6,30.2,113.2,30.2,114.8,30.2,116.4,30.2,118.1,30.2,119.7,30.2,121.3,30.2,-115.9,31.6,-114.3,31.6,-112.6,31.6,-111,31.6,-109.3,31.6,-107.7,31.6,-106,31.6,-104.4,31.6,-102.7,31.6,-101.1,31.6,-99.5,31.6,-97.8,31.6,-96.2,31.6,-94.5,31.6,-92.9,31.6,-91.2,31.6,-89.6,31.6,-88,31.6,-86.3,31.6,-84.7,31.6,-83,31.6,-81.4,31.6,-9.1,31.6,-7.4,31.6,-5.8,31.6,-4.1,31.6,-2.5,31.6,-0.8,31.6,0.8,31.6,2.5,31.6,4.1,31.6,5.7,31.6,7.4,31.6,9,31.6,10.7,31.6,12.3,31.6,14,31.6,20.5,31.6,22.2,31.6,23.8,31.6,35.3,31.6,37,31.6,38.6,31.6,40.3,31.6,41.9,31.6,43.5,31.6,45.2,31.6,46.8,31.6,48.5,31.6,50.1,31.6,51.8,31.6,53.4,31.6,55.1,31.6,56.7,31.6,58.3,31.6,60,31.6,61.6,31.6,63.3,31.6,64.9,31.6,66.6,31.6,68.2,31.6,69.8,31.6,71.5,31.6,73.1,31.6,74.8,31.6,76.4,31.6,78.1,31.6,79.7,31.6,81.4,31.6,83,31.6,84.6,31.6,86.3,31.6,87.9,31.6,89.6,31.6,91.2,31.6,92.9,31.6,94.5,31.6,96.1,31.6,97.8,31.6,99.4,31.6,101.1,31.6,102.7,31.6,104.4,31.6,106,31.6,107.7,31.6,109.3,31.6,110.9,31.6,112.6,31.6,114.2,31.6,115.9,31.6,117.5,31.6,119.2,31.6,120.8,31.6,130.7,31.6,-116.6,33,-114.9,33,-113.2,33,-111.6,33,-109.9,33,-108.2,33,-106.6,33,-104.9,33,-103.2,33,-101.5,33,-99.9,33,-98.2,33,-96.5,33,-94.9,33,-93.2,33,-91.5,33,-89.9,33,-88.2,33,-86.5,33,-84.8,33,-83.2,33,-81.5,33,-79.8,33,-8.1,33,-6.4,33,-4.7,33,-3.1,33,-1.4,33,0.3,33,2,33,3.6,33,5.3,33,7,33,8.6,33,10.3,33,35.3,33,37,33,38.7,33,40.3,33,42,33,43.7,33,45.4,33,47,33,48.7,33,50.4,33,52,33,53.7,33,55.4,33,57,33,58.7,33,60.4,33,62,33,63.7,33,65.4,33,67.1,33,68.7,33,70.4,33,72.1,33,73.7,33,75.4,33,77.1,33,78.7,33,80.4,33,82.1,33,83.8,33,85.4,33,87.1,33,88.8,33,90.4,33,92.1,33,93.8,33,95.4,33,97.1,33,98.8,33,100.4,33,102.1,33,103.8,33,105.5,33,107.1,33,108.8,33,110.5,33,112.1,33,113.8,33,115.5,33,117.1,33,118.8,33,120.5,33,130.5,33,-118.9,34.4,-117.2,34.4,-115.5,34.4,-113.8,34.4,-112.1,34.4,-110.4,34.4,-108.7,34.4,-107,34.4,-105.3,34.4,-103.6,34.4,-102,34.4,-100.3,34.4,-98.6,34.4,-96.9,34.4,-95.2,34.4,-93.5,34.4,-91.8,34.4,-90.1,34.4,-88.4,34.4,-86.7,34.4,-85,34.4,-83.3,34.4,-81.6,34.4,-79.9,34.4,-78.2,34.4,-5.2,34.4,-3.5,34.4,-1.8,34.4,-0.1,34.4,1.6,34.4,3.2,34.4,4.9,34.4,6.6,34.4,8.3,34.4,10,34.4,37.2,34.4,38.9,34.4,40.6,34.4,42.3,34.4,44,34.4,45.7,34.4,47.4,34.4,49.1,34.4,50.8,34.4,52.5,34.4,54.1,34.4,55.8,34.4,57.5,34.4,59.2,34.4,60.9,34.4,62.6,34.4,64.3,34.4,66,34.4,67.7,34.4,69.4,34.4,71.1,34.4,72.8,34.4,74.5,34.4,76.2,34.4,77.9,34.4,79.6,34.4,81.3,34.4,83,34.4,84.7,34.4,86.4,34.4,88.1,34.4,89.8,34.4,91.5,34.4,93.2,34.4,94.9,34.4,96.6,34.4,98.3,34.4,100,34.4,101.7,34.4,103.4,34.4,105.1,34.4,106.7,34.4,108.4,34.4,110.1,34.4,111.8,34.4,113.5,34.4,115.2,34.4,116.9,34.4,118.6,34.4,132.2,34.4,135.6,34.4,-121.3,35.8,-119.6,35.8,-117.9,35.8,-116.1,35.8,-114.4,35.8,-112.7,35.8,-111,35.8,-109.2,35.8,-107.5,35.8,-105.8,35.8,-104.1,35.8,-102.3,35.8,-100.6,35.8,-98.9,35.8,-97.1,35.8,-95.4,35.8,-93.7,35.8,-92,35.8,-90.2,35.8,-88.5,35.8,-86.8,35.8,-85.1,35.8,-83.3,35.8,-81.6,35.8,-79.9,35.8,-78.2,35.8,-76.4,35.8,-0.5,35.8,1.2,35.8,3,35.8,4.7,35.8,6.4,35.8,8.1,35.8,9.9,35.8,37.5,35.8,39.2,35.8,40.9,35.8,42.7,35.8,44.4,35.8,46.1,35.8,47.8,35.8,49.6,35.8,51.3,35.8,53,35.8,54.8,35.8,56.5,35.8,58.2,35.8,59.9,35.8,61.7,35.8,63.4,35.8,65.1,35.8,66.8,35.8,68.6,35.8,70.3,35.8,72,35.8,73.7,35.8,75.5,35.8,77.2,35.8,78.9,35.8,80.6,35.8,82.4,35.8,84.1,35.8,85.8,35.8,87.5,35.8,89.3,35.8,91,35.8,92.7,35.8,94.5,35.8,96.2,35.8,97.9,35.8,99.6,35.8,101.4,35.8,103.1,35.8,104.8,35.8,106.5,35.8,108.3,35.8,110,35.8,111.7,35.8,113.4,35.8,115.2,35.8,116.9,35.8,118.6,35.8,127.3,35.8,129,35.8,135.9,35.8,137.6,35.8,139.3,35.8,-122,37.2,-120.2,37.2,-118.5,37.2,-116.7,37.2,-115,37.2,-113.2,37.2,-111.5,37.2,-109.7,37.2,-107.9,37.2,-106.2,37.2,-104.4,37.2,-102.7,37.2,-100.9,37.2,-99.1,37.2,-97.4,37.2,-95.6,37.2,-93.9,37.2,-92.1,37.2,-90.4,37.2,-88.6,37.2,-86.8,37.2,-85.1,37.2,-83.3,37.2,-81.6,37.2,-79.8,37.2,-78.1,37.2,-76.3,37.2,-7.8,37.2,-6,37.2,-4.2,37.2,-2.5,37.2,9.8,37.2,15.1,37.2,22.1,37.2,27.4,37.2,29.2,37.2,30.9,37.2,32.7,37.2,34.4,37.2,36.2,37.2,37.9,37.2,39.7,37.2,41.5,37.2,43.2,37.2,45,37.2,46.7,37.2,48.5,37.2,50.2,37.2,55.5,37.2,57.3,37.2,59,37.2,60.8,37.2,62.6,37.2,64.3,37.2,66.1,37.2,67.8,37.2,69.6,37.2,71.3,37.2,73.1,37.2,74.9,37.2,76.6,37.2,78.4,37.2,80.1,37.2,81.9,37.2,83.6,37.2,85.4,37.2,87.2,37.2,88.9,37.2,90.7,37.2,92.4,37.2,94.2,37.2,95.9,37.2,97.7,37.2,99.5,37.2,101.2,37.2,103,37.2,104.7,37.2,106.5,37.2,108.3,37.2,110,37.2,111.8,37.2,113.5,37.2,115.3,37.2,117,37.2,118.8,37.2,120.6,37.2,122.3,37.2,127.6,37.2,138.1,37.2,139.9,37.2,-122.7,38.6,-120.9,38.6,-119.1,38.6,-117.3,38.6,-115.5,38.6,-113.7,38.6,-111.9,38.6,-110.1,38.6,-108.3,38.6,-106.6,38.6,-104.8,38.6,-103,38.6,-101.2,38.6,-99.4,38.6,-97.6,38.6,-95.8,38.6,-94,38.6,-92.2,38.6,-90.4,38.6,-88.6,38.6,-86.8,38.6,-85.1,38.6,-83.3,38.6,-81.5,38.6,-79.7,38.6,-77.9,38.6,-76.1,38.6,-8,38.6,-6.2,38.6,-4.4,38.6,-2.7,38.6,-0.9,38.6,22.4,38.6,27.8,38.6,29.6,38.6,31.4,38.6,33.2,38.6,35,38.6,36.8,38.6,38.5,38.6,40.3,38.6,42.1,38.6,43.9,38.6,45.7,38.6,47.5,38.6,54.7,38.6,56.5,38.6,58.3,38.6,60,38.6,61.8,38.6,63.6,38.6,65.4,38.6,67.2,38.6,69,38.6,70.8,38.6,72.6,38.6,74.4,38.6,76.2,38.6,78,38.6,79.8,38.6,81.5,38.6,83.3,38.6,85.1,38.6,86.9,38.6,88.7,38.6,90.5,38.6,92.3,38.6,94.1,38.6,95.9,38.6,97.7,38.6,99.5,38.6,101.2,38.6,103,38.6,104.8,38.6,106.6,38.6,108.4,38.6,110.2,38.6,112,38.6,113.8,38.6,115.6,38.6,117.4,38.6,126.3,38.6,128.1,38.6,140.7,38.6,-123.3,40,-121.5,40,-119.7,40,-117.9,40,-116,40,-114.2,40,-112.4,40,-110.6,40,-108.7,40,-106.9,40,-105.1,40,-103.2,40,-101.4,40,-99.6,40,-97.8,40,-95.9,40,-94.1,40,-92.3,40,-90.4,40,-88.6,40,-86.8,40,-85,40,-83.1,40,-81.3,40,-79.5,40,-77.7,40,-75.8,40,-8.2,40,-6.4,40,-4.6,40,-2.7,40,-0.9,40,15.6,40,21,40,28.3,40,30.2,40,32,40,33.8,40,35.7,40,37.5,40,39.3,40,41.1,40,43,40,44.8,40,46.6,40,48.4,40,53.9,40,55.8,40,57.6,40,59.4,40,61.2,40,63.1,40,64.9,40,66.7,40,68.5,40,70.4,40,72.2,40,74,40,75.9,40,77.7,40,79.5,40,81.3,40,83.2,40,85,40,86.8,40,88.7,40,90.5,40,92.3,40,94.1,40,96,40,97.8,40,99.6,40,101.4,40,103.3,40,105.1,40,106.9,40,108.8,40,110.6,40,112.4,40,114.2,40,116.1,40,117.9,40,119.7,40,123.4,40,125.2,40,127,40,141.7,40,-124,41.4,-122.1,41.4,-120.3,41.4,-118.4,41.4,-116.5,41.4,-114.7,41.4,-112.8,41.4,-110.9,41.4,-109.1,41.4,-107.2,41.4,-105.3,41.4,-103.5,41.4,-101.6,41.4,-99.7,41.4,-97.9,41.4,-96,41.4,-94.1,41.4,-92.3,41.4,-90.4,41.4,-88.5,41.4,-86.7,41.4,-84.8,41.4,-82.9,41.4,-81.1,41.4,-79.2,41.4,-77.3,41.4,-75.5,41.4,-73.6,41.4,-71.7,41.4,-8.3,41.4,-6.4,41.4,-4.6,41.4,-2.7,41.4,-0.8,41.4,1,41.4,14.1,41.4,16,41.4,19.7,41.4,21.6,41.4,23.4,41.4,25.3,41.4,27.2,41.4,32.8,41.4,34.6,41.4,36.5,41.4,42.1,41.4,44,41.4,45.8,41.4,47.7,41.4,55.2,41.4,57,41.4,58.9,41.4,60.8,41.4,62.6,41.4,64.5,41.4,66.4,41.4,68.2,41.4,70.1,41.4,72,41.4,73.8,41.4,75.7,41.4,77.6,41.4,79.4,41.4,81.3,41.4,83.2,41.4,85,41.4,86.9,41.4,88.8,41.4,90.6,41.4,92.5,41.4,94.4,41.4,96.2,41.4,98.1,41.4,100,41.4,101.8,41.4,103.7,41.4,105.6,41.4,107.4,41.4,109.3,41.4,111.2,41.4,113,41.4,114.9,41.4,116.8,41.4,118.6,41.4,120.5,41.4,122.4,41.4,124.2,41.4,126.1,41.4,128,41.4,-122.8,42.8,-120.9,42.8,-118.9,42.8,-117,42.8,-115.1,42.8,-113.2,42.8,-111.3,42.8,-109.4,42.8,-107.5,42.8,-105.6,42.8,-103.7,42.8,-101.8,42.8,-99.9,42.8,-98,42.8,-96,42.8,-94.1,42.8,-92.2,42.8,-90.3,42.8,-88.4,42.8,-86.5,42.8,-84.6,42.8,-82.7,42.8,-80.8,42.8,-78.9,42.8,-77,42.8,-75.1,42.8,-73.1,42.8,-71.2,42.8,-8.3,42.8,-6.4,42.8,-4.5,42.8,-2.6,42.8,-0.6,42.8,1.3,42.8,10.8,42.8,12.7,42.8,18.4,42.8,20.3,42.8,22.3,42.8,24.2,42.8,26.1,42.8,41.3,42.8,43.2,42.8,45.2,42.8,47.1,42.8,52.8,42.8,54.7,42.8,56.6,42.8,58.5,42.8,60.4,42.8,62.3,42.8,64.2,42.8,66.1,42.8,68,42.8,70,42.8,71.9,42.8,73.8,42.8,75.7,42.8,77.6,42.8,79.5,42.8,81.4,42.8,83.3,42.8,85.2,42.8,87.1,42.8,89,42.8,90.9,42.8,92.9,42.8,94.8,42.8,96.7,42.8,98.6,42.8,100.5,42.8,102.4,42.8,104.3,42.8,106.2,42.8,108.1,42.8,110,42.8,111.9,42.8,113.8,42.8,115.7,42.8,117.7,42.8,119.6,42.8,121.5,42.8,123.4,42.8,125.3,42.8,127.2,42.8,129.1,42.8,131,42.8,132.9,42.8,140.6,42.8,142.5,42.8,-123.4,44.2,-121.4,44.2,-119.5,44.2,-117.5,44.2,-115.6,44.2,-113.6,44.2,-111.7,44.2,-109.7,44.2,-107.7,44.2,-105.8,44.2,-103.8,44.2,-101.9,44.2,-99.9,44.2,-98,44.2,-96,44.2,-94.1,44.2,-92.1,44.2,-90.2,44.2,-88.2,44.2,-86.3,44.2,-84.3,44.2,-82.4,44.2,-80.4,44.2,-78.5,44.2,-76.5,44.2,-74.5,44.2,-72.6,44.2,-70.6,44.2,-68.7,44.2,-64.8,44.2,-0.3,44.2,1.6,44.2,3.6,44.2,5.5,44.2,7.5,44.2,9.4,44.2,11.4,44.2,15.3,44.2,17.2,44.2,19.2,44.2,21.1,44.2,23.1,44.2,25,44.2,27,44.2,40.7,44.2,42.6,44.2,44.6,44.2,46.5,44.2,52.4,44.2,54.3,44.2,56.3,44.2,58.2,44.2,60.2,44.2,62.2,44.2,64.1,44.2,66.1,44.2,68,44.2,70,44.2,71.9,44.2,73.9,44.2,75.8,44.2,77.8,44.2,79.7,44.2,81.7,44.2,83.6,44.2,85.6,44.2,87.5,44.2,89.5,44.2,91.4,44.2,93.4,44.2,95.3,44.2,97.3,44.2,99.3,44.2,101.2,44.2,103.2,44.2,105.1,44.2,107.1,44.2,109,44.2,111,44.2,112.9,44.2,114.9,44.2,116.8,44.2,118.8,44.2,120.7,44.2,122.7,44.2,124.6,44.2,126.6,44.2,128.5,44.2,130.5,44.2,132.5,44.2,134.4,44.2,142.2,44.2,-122,45.6,-120,45.6,-118,45.6,-116,45.6,-114,45.6,-112,45.6,-110,45.6,-108,45.6,-106,45.6,-104,45.6,-102,45.6,-100,45.6,-98,45.6,-96,45.6,-94,45.6,-92,45.6,-90,45.6,-88,45.6,-86,45.6,-84,45.6,-82,45.6,-80,45.6,-78,45.6,-75.9,45.6,-73.9,45.6,-71.9,45.6,-69.9,45.6,-67.9,45.6,-65.9,45.6,-63.9,45.6,-61.9,45.6,0.1,45.6,2.1,45.6,4.1,45.6,6.1,45.6,8.1,45.6,10.1,45.6,12.1,45.6,14.1,45.6,16.1,45.6,18.1,45.6,20.1,45.6,22.1,45.6,24.1,45.6,26.1,45.6,28.1,45.6,34.1,45.6,38.1,45.6,40.1,45.6,42.1,45.6,44.1,45.6,46.1,45.6,54.1,45.6,56.1,45.6,58.1,45.6,60.1,45.6,62.1,45.6,64.1,45.6,66.1,45.6,68.1,45.6,70.1,45.6,72.1,45.6,74.1,45.6,76.1,45.6,78.1,45.6,80.1,45.6,82.1,45.6,84.1,45.6,86.1,45.6,88.1,45.6,90.1,45.6,92.1,45.6,94.1,45.6,96.1,45.6,98.1,45.6,100.1,45.6,102.1,45.6,104.1,45.6,106.1,45.6,108.1,45.6,110.1,45.6,112.1,45.6,114.1,45.6,116.1,45.6,118.1,45.6,120.1,45.6,122.1,45.6,124.1,45.6,126.1,45.6,128.1,45.6,130.1,45.6,132.2,45.6,134.2,45.6,136.2,45.6,-122.5,47,-120.5,47,-118.4,47,-116.4,47,-114.3,47,-112.3,47,-110.2,47,-108.2,47,-106.1,47,-104,47,-102,47,-99.9,47,-97.9,47,-95.8,47,-93.8,47,-91.7,47,-89.7,47,-87.6,47,-85.6,47,-83.5,47,-81.5,47,-79.4,47,-77.4,47,-75.3,47,-73.3,47,-71.2,47,-69.1,47,-67.1,47,-65,47,-1.4,47,0.6,47,2.7,47,4.8,47,6.8,47,8.9,47,10.9,47,13,47,15,47,17.1,47,19.1,47,21.2,47,23.2,47,25.3,47,27.3,47,29.4,47,31.4,47,33.5,47,35.5,47,39.6,47,41.7,47,43.8,47,45.8,47,47.9,47,49.9,47,52,47,54,47,56.1,47,58.1,47,60.2,47,62.2,47,64.3,47,66.3,47,68.4,47,70.4,47,72.5,47,74.5,47,76.6,47,78.7,47,80.7,47,82.8,47,84.8,47,86.9,47,88.9,47,91,47,93,47,95.1,47,97.1,47,99.2,47,101.2,47,103.3,47,105.3,47,107.4,47,109.4,47,111.5,47,113.5,47,115.6,47,117.7,47,119.7,47,121.8,47,123.8,47,125.9,47,127.9,47,130,47,132,47,134.1,47,136.1,47,138.2,47,142.3,47,-121,48.4,-118.8,48.4,-116.7,48.4,-114.6,48.4,-112.5,48.4,-110.4,48.4,-108.3,48.4,-106.2,48.4,-104.1,48.4,-102,48.4,-99.9,48.4,-97.8,48.4,-95.7,48.4,-93.5,48.4,-91.4,48.4,-89.3,48.4,-87.2,48.4,-85.1,48.4,-83,48.4,-80.9,48.4,-78.8,48.4,-76.7,48.4,-74.6,48.4,-72.5,48.4,-70.3,48.4,-68.2,48.4,-66.1,48.4,-57.7,48.4,-55.6,48.4,-53.5,48.4,-2.9,48.4,-0.8,48.4,1.3,48.4,3.5,48.4,5.6,48.4,7.7,48.4,9.8,48.4,11.9,48.4,14,48.4,16.1,48.4,18.2,48.4,20.3,48.4,22.4,48.4,24.5,48.4,26.6,48.4,28.8,48.4,30.9,48.4,33,48.4,35.1,48.4,37.2,48.4,39.3,48.4,41.4,48.4,43.5,48.4,45.6,48.4,47.7,48.4,49.8,48.4,52,48.4,54.1,48.4,56.2,48.4,58.3,48.4,60.4,48.4,62.5,48.4,64.6,48.4,66.7,48.4,68.8,48.4,70.9,48.4,73,48.4,75.1,48.4,77.3,48.4,79.4,48.4,81.5,48.4,83.6,48.4,85.7,48.4,87.8,48.4,89.9,48.4,92,48.4,94.1,48.4,96.2,48.4,98.3,48.4,100.5,48.4,102.6,48.4,104.7,48.4,106.8,48.4,108.9,48.4,111,48.4,113.1,48.4,115.2,48.4,117.3,48.4,119.4,48.4,121.5,48.4,123.6,48.4,125.8,48.4,127.9,48.4,130,48.4,132.1,48.4,134.2,48.4,136.3,48.4,138.4,48.4,142.6,48.4,-125.8,49.8,-123.6,49.8,-121.4,49.8,-119.3,49.8,-117.1,49.8,-114.9,49.8,-112.8,49.8,-110.6,49.8,-108.4,49.8,-106.3,49.8,-104.1,49.8,-101.9,49.8,-99.7,49.8,-97.6,49.8,-95.4,49.8,-93.2,49.8,-91.1,49.8,-88.9,49.8,-86.7,49.8,-84.6,49.8,-82.4,49.8,-80.2,49.8,-78.1,49.8,-75.9,49.8,-73.7,49.8,-71.5,49.8,-69.4,49.8,-67.2,49.8,-56.4,49.8,2.2,49.8,4.4,49.8,6.5,49.8,8.7,49.8,10.9,49.8,13,49.8,15.2,49.8,17.4,49.8,19.5,49.8,21.7,49.8,23.9,49.8,26.1,49.8,28.2,49.8,30.4,49.8,32.6,49.8,34.7,49.8,36.9,49.8,39.1,49.8,41.2,49.8,43.4,49.8,45.6,49.8,47.7,49.8,49.9,49.8,52.1,49.8,54.3,49.8,56.4,49.8,58.6,49.8,60.8,49.8,62.9,49.8,65.1,49.8,67.3,49.8,69.4,49.8,71.6,49.8,73.8,49.8,75.9,49.8,78.1,49.8,80.3,49.8,82.4,49.8,84.6,49.8,86.8,49.8,89,49.8,91.1,49.8,93.3,49.8,95.5,49.8,97.6,49.8,99.8,49.8,102,49.8,104.1,49.8,106.3,49.8,108.5,49.8,110.6,49.8,112.8,49.8,115,49.8,117.2,49.8,119.3,49.8,121.5,49.8,123.7,49.8,125.8,49.8,128,49.8,130.2,49.8,132.3,49.8,134.5,49.8,136.7,49.8,138.8,49.8,143.2,49.8,-126.4,51.2,-124.1,51.2,-121.9,51.2,-119.7,51.2,-117.4,51.2,-115.2,51.2,-113,51.2,-110.7,51.2,-108.5,51.2,-106.3,51.2,-104,51.2,-101.8,51.2,-99.6,51.2,-97.3,51.2,-95.1,51.2,-92.9,51.2,-90.6,51.2,-88.4,51.2,-86.2,51.2,-83.9,51.2,-81.7,51.2,-79.5,51.2,-77.2,51.2,-75,51.2,-72.8,51.2,-70.5,51.2,-68.3,51.2,-66.1,51.2,-63.8,51.2,-61.6,51.2,-59.3,51.2,-3.5,51.2,-1.3,51.2,1,51.2,3.2,51.2,5.4,51.2,7.7,51.2,9.9,51.2,12.1,51.2,14.4,51.2,16.6,51.2,18.8,51.2,21.1,51.2,23.3,51.2,25.6,51.2,27.8,51.2,30,51.2,32.3,51.2,34.5,51.2,36.7,51.2,39,51.2,41.2,51.2,43.4,51.2,45.7,51.2,47.9,51.2,50.1,51.2,52.4,51.2,54.6,51.2,56.8,51.2,59.1,51.2,61.3,51.2,63.5,51.2,65.8,51.2,68,51.2,70.2,51.2,72.5,51.2,74.7,51.2,76.9,51.2,79.2,51.2,81.4,51.2,83.6,51.2,85.9,51.2,88.1,51.2,90.3,51.2,92.6,51.2,94.8,51.2,97,51.2,99.3,51.2,101.5,51.2,103.8,51.2,106,51.2,108.2,51.2,110.5,51.2,112.7,51.2,114.9,51.2,117.2,51.2,119.4,51.2,121.6,51.2,123.9,51.2,126.1,51.2,128.3,51.2,130.6,51.2,132.8,51.2,135,51.2,137.3,51.2,139.5,51.2,-127,52.6,-124.7,52.6,-122.4,52.6,-120.1,52.6,-117.8,52.6,-115.5,52.6,-113.2,52.6,-110.9,52.6,-108.5,52.6,-106.2,52.6,-103.9,52.6,-101.6,52.6,-99.3,52.6,-97,52.6,-94.7,52.6,-92.4,52.6,-90.1,52.6,-87.8,52.6,-85.5,52.6,-83.2,52.6,-78.6,52.6,-76.3,52.6,-74,52.6,-71.7,52.6,-69.4,52.6,-67.1,52.6,-64.8,52.6,-62.4,52.6,-60.1,52.6,-57.8,52.6,-7.1,52.6,-2.5,52.6,-0.2,52.6,6.7,52.6,9,52.6,11.3,52.6,13.6,52.6,15.9,52.6,18.2,52.6,20.5,52.6,22.8,52.6,25.1,52.6,27.4,52.6,29.8,52.6,32.1,52.6,34.4,52.6,36.7,52.6,39,52.6,41.3,52.6,43.6,52.6,45.9,52.6,48.2,52.6,50.5,52.6,52.8,52.6,55.1,52.6,57.4,52.6,59.7,52.6,62,52.6,64.3,52.6,66.6,52.6,68.9,52.6,71.2,52.6,73.5,52.6,75.9,52.6,78.2,52.6,80.5,52.6,82.8,52.6,85.1,52.6,87.4,52.6,89.7,52.6,92,52.6,94.3,52.6,96.6,52.6,98.9,52.6,101.2,52.6,103.5,52.6,105.8,52.6,108.1,52.6,110.4,52.6,112.7,52.6,115,52.6,117.3,52.6,119.6,52.6,122,52.6,124.3,52.6,126.6,52.6,128.9,52.6,131.2,52.6,133.5,52.6,135.8,52.6,138.1,52.6,140.4,52.6,142.7,52.6,156.5,52.6,-132.4,54,-130,54,-127.6,54,-125.2,54,-122.8,54,-120.5,54,-118.1,54,-115.7,54,-113.3,54,-110.9,54,-108.5,54,-106.2,54,-103.8,54,-101.4,54,-99,54,-96.6,54,-94.3,54,-91.9,54,-89.5,54,-87.1,54,-84.7,54,-77.6,54,-75.2,54,-72.8,54,-70.4,54,-68.1,54,-65.7,54,-63.3,54,-60.9,54,-58.5,54,-8.5,54,-6.1,54,-1.4,54,10.5,54,12.9,54,15.3,54,17.7,54,20.1,54,22.5,54,24.8,54,27.2,54,29.6,54,32,54,34.4,54,36.7,54,39.1,54,41.5,54,43.9,54,46.3,54,48.7,54,51,54,53.4,54,55.8,54,58.2,54,60.6,54,62.9,54,65.3,54,67.7,54,70.1,54,72.5,54,74.9,54,77.2,54,79.6,54,82,54,84.4,54,86.8,54,89.1,54,91.5,54,93.9,54,96.3,54,98.7,54,101.1,54,103.4,54,105.8,54,108.2,54,110.6,54,113,54,115.3,54,117.7,54,120.1,54,122.5,54,124.9,54,127.3,54,129.6,54,132,54,134.4,54,136.8,54,139.2,54,155.8,54,158.2,54,-162.7,55.4,-130.7,55.4,-128.2,55.4,-125.8,55.4,-123.3,55.4,-120.8,55.4,-118.4,55.4,-115.9,55.4,-113.4,55.4,-111,55.4,-108.5,55.4,-106,55.4,-103.6,55.4,-101.1,55.4,-98.6,55.4,-96.2,55.4,-93.7,55.4,-91.2,55.4,-88.8,55.4,-86.3,55.4,-76.5,55.4,-74,55.4,-71.5,55.4,-69.1,55.4,-66.6,55.4,-64.1,55.4,-61.7,55.4,-2.5,55.4,12.3,55.4,22.2,55.4,24.6,55.4,27.1,55.4,29.6,55.4,32,55.4,34.5,55.4,37,55.4,39.4,55.4,41.9,55.4,44.4,55.4,46.8,55.4,49.3,55.4,51.8,55.4,54.2,55.4,56.7,55.4,59.2,55.4,61.6,55.4,64.1,55.4,66.5,55.4,69,55.4,71.5,55.4,73.9,55.4,76.4,55.4,78.9,55.4,81.3,55.4,83.8,55.4,86.3,55.4,88.7,55.4,91.2,55.4,93.7,55.4,96.1,55.4,98.6,55.4,101.1,55.4,103.5,55.4,106,55.4,108.5,55.4,110.9,55.4,113.4,55.4,115.9,55.4,118.3,55.4,120.8,55.4,123.3,55.4,125.7,55.4,128.2,55.4,130.6,55.4,133.1,55.4,135.6,55.4,157.8,55.4,160.2,55.4,-131.4,56.8,-128.9,56.8,-126.3,56.8,-123.8,56.8,-121.2,56.8,-118.6,56.8,-116.1,56.8,-113.5,56.8,-111,56.8,-108.4,56.8,-105.9,56.8,-103.3,56.8,-100.7,56.8,-98.2,56.8,-95.6,56.8,-93.1,56.8,-90.5,56.8,-75.2,56.8,-72.6,56.8,-70.1,56.8,-67.5,56.8,-64.9,56.8,-62.4,56.8,-6.1,56.8,-3.6,56.8,9.2,56.8,14.3,56.8,22,56.8,24.5,56.8,27.1,56.8,29.7,56.8,32.2,56.8,34.8,56.8,37.3,56.8,39.9,56.8,42.4,56.8,45,56.8,47.6,56.8,50.1,56.8,52.7,56.8,55.2,56.8,57.8,56.8,60.3,56.8,62.9,56.8,65.5,56.8,68,56.8,70.6,56.8,73.1,56.8,75.7,56.8,78.2,56.8,80.8,56.8,83.3,56.8,85.9,56.8,88.5,56.8,91,56.8,93.6,56.8,96.1,56.8,98.7,56.8,101.2,56.8,103.8,56.8,106.4,56.8,108.9,56.8,111.5,56.8,114,56.8,116.6,56.8,119.1,56.8,121.7,56.8,124.3,56.8,126.8,56.8,129.4,56.8,131.9,56.8,134.5,56.8,137,56.8,157.5,56.8,160.1,56.8,162.6,56.8,-156.1,58.2,-134.8,58.2,-132.2,58.2,-129.5,58.2,-126.9,58.2,-124.2,58.2,-121.6,58.2,-118.9,58.2,-116.2,58.2,-113.6,58.2,-110.9,58.2,-108.3,58.2,-105.6,58.2,-103,58.2,-100.3,58.2,-97.6,58.2,-95,58.2,-76.4,58.2,-73.7,58.2,-71.1,58.2,-68.4,58.2,-65.8,58.2,-63.1,58.2,-4.7,58.2,13.9,58.2,16.6,58.2,24.6,58.2,27.2,58.2,29.9,58.2,32.5,58.2,35.2,58.2,37.9,58.2,40.5,58.2,43.2,58.2,45.8,58.2,48.5,58.2,51.1,58.2,53.8,58.2,56.5,58.2,59.1,58.2,61.8,58.2,64.4,58.2,67.1,58.2,69.7,58.2,72.4,58.2,75,58.2,77.7,58.2,80.4,58.2,83,58.2,85.7,58.2,88.3,58.2,91,58.2,93.6,58.2,96.3,58.2,99,58.2,101.6,58.2,104.3,58.2,106.9,58.2,109.6,58.2,112.2,58.2,114.9,58.2,117.6,58.2,120.2,58.2,122.9,58.2,125.5,58.2,128.2,58.2,130.8,58.2,133.5,58.2,136.2,58.2,138.8,58.2,160.1,58.2,-160.6,59.6,-157.9,59.6,-155.1,59.6,-138.5,59.6,-135.7,59.6,-133,59.6,-130.2,59.6,-127.4,59.6,-124.7,59.6,-121.9,59.6,-119.1,59.6,-116.4,59.6,-113.6,59.6,-110.8,59.6,-108.1,59.6,-105.3,59.6,-102.5,59.6,-99.8,59.6,-97,59.6,-74.9,59.6,-72.1,59.6,5.4,59.6,8.1,59.6,10.9,59.6,13.7,59.6,16.4,59.6,30.3,59.6,33,59.6,35.8,59.6,38.6,59.6,41.3,59.6,44.1,59.6,46.9,59.6,49.6,59.6,52.4,59.6,55.2,59.6,57.9,59.6,60.7,59.6,63.5,59.6,66.2,59.6,69,59.6,71.8,59.6,74.5,59.6,77.3,59.6,80.1,59.6,82.8,59.6,85.6,59.6,88.4,59.6,91.1,59.6,93.9,59.6,96.7,59.6,99.4,59.6,102.2,59.6,105,59.6,107.7,59.6,110.5,59.6,113.3,59.6,116,59.6,118.8,59.6,121.6,59.6,124.3,59.6,127.1,59.6,129.9,59.6,132.6,59.6,135.4,59.6,138.2,59.6,140.9,59.6,143.7,59.6,146.5,59.6,149.2,59.6,152,59.6,163.1,59.6,-162.7,61,-159.8,61,-156.9,61,-154,61,-148.2,61,-145.3,61,-142.5,61,-139.6,61,-136.7,61,-133.8,61,-130.9,61,-128,61,-125.1,61,-122.2,61,-119.4,61,-116.5,61,-113.6,61,-110.7,61,-107.8,61,-104.9,61,-102,61,-99.1,61,-96.3,61,-76,61,-73.2,61,-70.3,61,-47.2,61,-44.3,61,7.7,61,10.6,61,13.5,61,16.4,61,22.1,61,25,61,27.9,61,30.8,61,33.7,61,36.6,61,39.5,61,42.4,61,45.2,61,48.1,61,51,61,53.9,61,56.8,61,59.7,61,62.6,61,65.5,61,68.3,61,71.2,61,74.1,61,77,61,79.9,61,82.8,61,85.7,61,88.6,61,91.4,61,94.3,61,97.2,61,100.1,61,103,61,105.9,61,108.8,61,111.7,61,114.5,61,117.4,61,120.3,61,123.2,61,126.1,61,129,61,131.9,61,134.8,61,137.7,61,140.5,61,143.4,61,146.3,61,149.2,61,152.1,61,155,61,160.8,61,163.6,61,166.5,61,169.4,61,-164.9,62.4,-161.9,62.4,-158.8,62.4,-155.8,62.4,-152.8,62.4,-149.8,62.4,-146.8,62.4,-143.7,62.4,-140.7,62.4,-137.7,62.4,-134.7,62.4,-131.7,62.4,-128.6,62.4,-125.6,62.4,-122.6,62.4,-119.6,62.4,-116.5,62.4,-113.5,62.4,-110.5,62.4,-107.5,62.4,-104.5,62.4,-101.4,62.4,-98.4,62.4,-95.4,62.4,-83.3,62.4,-77.3,62.4,-68.2,62.4,-47,62.4,-44,62.4,7.4,62.4,10.4,62.4,13.4,62.4,16.4,62.4,22.5,62.4,25.5,62.4,28.5,62.4,31.5,62.4,34.5,62.4,37.6,62.4,40.6,62.4,43.6,62.4,46.6,62.4,49.7,62.4,52.7,62.4,55.7,62.4,58.7,62.4,61.7,62.4,64.8,62.4,67.8,62.4,70.8,62.4,73.8,62.4,76.9,62.4,79.9,62.4,82.9,62.4,85.9,62.4,88.9,62.4,92,62.4,95,62.4,98,62.4,101,62.4,104.1,62.4,107.1,62.4,110.1,62.4,113.1,62.4,116.1,62.4,119.2,62.4,122.2,62.4,125.2,62.4,128.2,62.4,131.2,62.4,134.3,62.4,137.3,62.4,140.3,62.4,143.3,62.4,146.4,62.4,149.4,62.4,152.4,62.4,155.4,62.4,158.4,62.4,161.5,62.4,164.5,62.4,167.5,62.4,170.5,62.4,173.6,62.4,176.6,62.4,-157.8,63.8,-154.6,63.8,-151.5,63.8,-148.3,63.8,-145.1,63.8,-141.9,63.8,-138.8,63.8,-135.6,63.8,-132.4,63.8,-129.3,63.8,-126.1,63.8,-122.9,63.8,-119.8,63.8,-116.6,63.8,-113.4,63.8,-110.2,63.8,-107.1,63.8,-103.9,63.8,-100.7,63.8,-97.6,63.8,-94.4,63.8,-91.2,63.8,-84.9,63.8,-81.7,63.8,-72.2,63.8,-69,63.8,-65.8,63.8,-50,63.8,-46.8,63.8,-43.6,63.8,-18.3,63.8,10.3,63.8,13.4,63.8,16.6,63.8,19.8,63.8,22.9,63.8,26.1,63.8,29.3,63.8,32.5,63.8,35.6,63.8,38.8,63.8,42,63.8,45.1,63.8,48.3,63.8,51.5,63.8,54.7,63.8,57.8,63.8,61,63.8,64.2,63.8,67.3,63.8,70.5,63.8,73.7,63.8,76.8,63.8,80,63.8,83.2,63.8,86.4,63.8,89.5,63.8,92.7,63.8,95.9,63.8,99,63.8,102.2,63.8,105.4,63.8,108.6,63.8,111.7,63.8,114.9,63.8,118.1,63.8,121.2,63.8,124.4,63.8,127.6,63.8,130.8,63.8,133.9,63.8,137.1,63.8,140.3,63.8,143.4,63.8,146.6,63.8,149.8,63.8,153,63.8,156.1,63.8,159.3,63.8,162.5,63.8,165.6,63.8,168.8,63.8,172,63.8,175.1,63.8,178.3,63.8,-180,65.2,-173.3,65.2,-166.6,65.2,-163.3,65.2,-160,65.2,-156.6,65.2,-153.3,65.2,-150,65.2,-146.6,65.2,-143.3,65.2,-139.9,65.2,-136.6,65.2,-133.3,65.2,-129.9,65.2,-126.6,65.2,-123.3,65.2,-119.9,65.2,-116.6,65.2,-113.2,65.2,-109.9,65.2,-106.6,65.2,-103.2,65.2,-99.9,65.2,-96.6,65.2,-93.2,65.2,-89.9,65.2,-76.5,65.2,-73.2,65.2,-69.9,65.2,-49.8,65.2,-46.5,65.2,-43.2,65.2,-19.8,65.2,-16.5,65.2,13.6,65.2,16.9,65.2,20.3,65.2,26.9,65.2,30.3,65.2,33.6,65.2,40.3,65.2,43.6,65.2,47,65.2,50.3,65.2,53.6,65.2,57,65.2,60.3,65.2,63.7,65.2,67,65.2,70.3,65.2,73.7,65.2,77,65.2,80.3,65.2,83.7,65.2,87,65.2,90.4,65.2,93.7,65.2,97,65.2,100.4,65.2,103.7,65.2,107,65.2,110.4,65.2,113.7,65.2,117.1,65.2,120.4,65.2,123.7,65.2,127.1,65.2,130.4,65.2,133.7,65.2,137.1,65.2,140.4,65.2,143.8,65.2,147.1,65.2,150.4,65.2,153.8,65.2,157.1,65.2,160.4,65.2,163.8,65.2,167.1,65.2,170.5,65.2,173.8,65.2,177.1,65.2,-180,66.6,-176.5,66.6,-172.9,66.6,-158.8,66.6,-155.3,66.6,-151.8,66.6,-148.3,66.6,-144.7,66.6,-141.2,66.6,-137.7,66.6,-134.2,66.6,-130.6,66.6,-127.1,66.6,-123.6,66.6,-120.1,66.6,-116.5,66.6,-113,66.6,-109.5,66.6,-106,66.6,-102.4,66.6,-98.9,66.6,-95.4,66.6,-91.9,66.6,-88.3,66.6,-84.8,66.6,-70.7,66.6,-67.2,66.6,-63.7,66.6,-53.1,66.6,-49.6,66.6,-46,66.6,-42.5,66.6,-39,66.6,-35.5,66.6,13.9,66.6,17.4,66.6,20.9,66.6,24.5,66.6,28,66.6,31.5,66.6,35,66.6,38.6,66.6,45.6,66.6,49.1,66.6,52.7,66.6,56.2,66.6,59.7,66.6,63.2,66.6,66.8,66.6,70.3,66.6,73.8,66.6,77.3,66.6,80.9,66.6,84.4,66.6,87.9,66.6,91.4,66.6,95,66.6,98.5,66.6,102,66.6,105.5,66.6,109.1,66.6,112.6,66.6,116.1,66.6,119.6,66.6,123.2,66.6,126.7,66.6,130.2,66.6,133.7,66.6,137.3,66.6,140.8,66.6,144.3,66.6,147.8,66.6,151.4,66.6,154.9,66.6,158.4,66.6,161.9,66.6,165.5,66.6,169,66.6,172.5,66.6,176,66.6,179.6,66.6,-180,68,-165.1,68,-161.3,68,-157.6,68,-153.8,68,-150.1,68,-146.4,68,-142.6,68,-138.9,68,-135.2,68,-131.4,68,-127.7,68,-123.9,68,-120.2,68,-116.5,68,-105.3,68,-97.8,68,-94,68,-90.3,68,-82.8,68,-75.4,68,-71.6,68,-67.9,68,-52.9,68,-49.2,68,-45.5,68,-41.7,68,-38,68,-34.2,68,18.1,68,21.8,68,25.5,68,29.3,68,33,68,36.8,68,44.2,68,51.7,68,55.4,68,59.2,68,62.9,68,66.7,68,70.4,68,77.9,68,81.6,68,85.3,68,89.1,68,92.8,68,96.6,68,100.3,68,104,68,107.8,68,111.5,68,115.2,68,119,68,122.7,68,126.5,68,130.2,68,133.9,68,137.7,68,141.4,68,145.1,68,148.9,68,152.6,68,156.4,68,160.1,68,163.8,68,167.6,68,171.3,68,175,68,178.8,68,-160.1,69.4,-156.1,69.4,-152.1,69.4,-148.2,69.4,-144.2,69.4,-140.2,69.4,-132.3,69.4,-128.3,69.4,-124.3,69.4,-120.3,69.4,-116.3,69.4,-112.4,69.4,-108.4,69.4,-104.4,69.4,-96.4,69.4,-92.5,69.4,-84.5,69.4,-76.5,69.4,-72.6,69.4,-68.6,69.4,-48.7,69.4,-44.7,69.4,-40.7,69.4,-36.8,69.4,-32.8,69.4,-28.8,69.4,-24.8,69.4,19,69.4,22.9,69.4,26.9,69.4,30.9,69.4,62.7,69.4,70.7,69.4,74.7,69.4,78.6,69.4,82.6,69.4,86.6,69.4,90.6,69.4,94.6,69.4,98.5,69.4,102.5,69.4,106.5,69.4,110.5,69.4,114.5,69.4,118.4,69.4,122.4,69.4,126.4,69.4,130.4,69.4,134.3,69.4,138.3,69.4,142.3,69.4,146.3,69.4,150.3,69.4,154.2,69.4,158.2,69.4,162.2,69.4,166.2,69.4,174.1,69.4,178.1,69.4,-158.7,70.8,-116.1,70.8,-111.9,70.8,-107.6,70.8,-94.9,70.8,-86.3,70.8,-82.1,70.8,-77.8,70.8,-73.6,70.8,-48,70.8,-43.8,70.8,-39.5,70.8,-35.3,70.8,-31,70.8,-26.7,70.8,-22.5,70.8,24.3,70.8,28.6,70.8,54.1,70.8,66.9,70.8,71.2,70.8,75.4,70.8,79.7,70.8,83.9,70.8,88.2,70.8,92.5,70.8,96.7,70.8,101,70.8,105.2,70.8,109.5,70.8,113.7,70.8,118,70.8,122.3,70.8,126.5,70.8,130.8,70.8,135,70.8,139.3,70.8,143.5,70.8,147.8,70.8,152,70.8,156.3,70.8,-125,72.2,-120.5,72.2,-115.9,72.2,-111.3,72.2,-106.7,72.2,-97.6,72.2,-88.4,72.2,-83.8,72.2,-79.2,72.2,-51.8,72.2,-47.2,72.2,-42.6,72.2,-38,72.2,-33.4,72.2,-28.9,72.2,-24.3,72.2,53.6,72.2,71.9,72.2,81,72.2,85.6,72.2,90.2,72.2,94.8,72.2,99.4,72.2,103.9,72.2,108.5,72.2,113.1,72.2,117.7,72.2,122.3,72.2,126.8,72.2,140.6,72.2,145.2,72.2,-120.5,73.6,-105.6,73.6,-100.7,73.6,-95.7,73.6,-80.8,73.6,-56,73.6,-51.1,73.6,-46.1,73.6,-41.2,73.6,-36.2,73.6,-31.2,73.6,-26.3,73.6,-21.3,73.6,82.8,73.6,87.8,73.6,92.7,73.6,97.7,73.6,102.6,73.6,107.6,73.6,112.6,73.6,117.5,73.6,142.3,73.6,-109.7,75,-98.9,75,-88,75,-82.6,75,-55.6,75,-50.2,75,-44.8,75,-39.4,75,-34,75,-28.5,75,-23.1,75,58,75,90.5,75,95.9,75,101.3,75,106.7,75,112.1,75,139.1,75,150,75,-120.5,76.4,-108.6,76.4,-84.7,76.4,-66.9,76.4,-60.9,76.4,-55,76.4,-49,76.4,-43.1,76.4,-37.1,76.4,-31.2,76.4,-25.2,76.4,64.1,76.4,99.8,76.4,105.8,76.4,111.7,76.4,-87.3,77.8,-80.6,77.8,-67.4,77.8,-60.8,77.8,-54.1,77.8,-47.5,77.8,-40.9,77.8,-34.3,77.8,-27.6,77.8,-21,77.8,-89,79.2,-82,79.2,-61,79.2,-54,79.2,-47,79.2,-40,79.2,-33,79.2,-26,79.2,16,79.2,100,79.2,-96,80.6,-82,80.6,-75,80.6,-61,80.6,-54,80.6,-47,80.6,-40,80.6,-33,80.6,-26,80.6,-19,80.6,23,80.6,51,80.6,93,80.6,-89,82,-82,82,-75,82,-68,82,-54,82,-47,82,-40,82,-33,82,-33,83.4];
+const G={lam:-30,phi:-8,z:1,auto:true,last:0,built:false,groups:[],sel:null,anim:null};
+const gcv=$("gcv"), gst=$("gstage"); let gctx=null, gW=0, gDpr=1;
+const rad=Math.PI/180;
+function gSize(){const r=gst.getBoundingClientRect();gDpr=Math.min(2,window.devicePixelRatio||1);gW=r.width;gcv.width=Math.round(r.width*gDpr);gcv.height=Math.round(r.width*gDpr);gctx=gcv.getContext("2d");}
+function proj(lon,lat){
+  const R=gW*.44*G.z, l=(lon-G.lam)*rad, p=lat*rad, p0=G.phi*rad;
+  const cosc=Math.sin(p0)*Math.sin(p)+Math.cos(p0)*Math.cos(p)*Math.cos(l);
+  const x=R*Math.cos(p)*Math.sin(l), y=R*(Math.cos(p0)*Math.sin(p)-Math.sin(p0)*Math.cos(p)*Math.cos(l));
+  return {x:gW/2+x,y:gW/2-y,v:cosc};
+}
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
+function gBuild(){
+  const by={};
+  data.noticias.forEach(n=>{ if(n.lat==null) return; const k=n.lat.toFixed(0)+","+n.lon.toFixed(0); (by[k]=by[k]||{lat:n.lat,lon:n.lon,items:[]}).items.push(n); });
+  G.groups=Object.values(by);
+  const pl={}; data.noticias.forEach(n=>{(pl[n.pais]=pl[n.pais]||[]).push(n)});
+  $("places").innerHTML=Object.entries(pl).sort((a,b)=>b[1].length-a[1].length).map(([k,v])=>`<button class="place" data-place="${esc(k)}">${esc(L(v[0],"pais"))} <b>${v.length}</b></button>`).join("");
+  G.built=true;
+}
+function gDraw(){
+  if(!gctx) return; const c=gctx, R=gW*.44*G.z;
+  c.setTransform(gDpr,0,0,gDpr,0,0); c.clearRect(0,0,gW,gW);
+  const glob=css("--globe"), dot=css("--dot"), rim=css("--rim");
+  c.beginPath(); c.arc(gW/2,gW/2,R,0,7); c.fillStyle=glob; c.fill(); c.lineWidth=1; c.strokeStyle=rim; c.stroke();
+  c.fillStyle=dot;
+  const ds=Math.max(.8,1.15*G.z*gW/520);
+  for(let i=0;i<LAND.length;i+=2){const p=proj(LAND[i],LAND[i+1]); if(p.v<=0) continue; c.globalAlpha=.18+.62*p.v; c.fillRect(p.x-ds/2,p.y-ds/2,ds,ds);}
+  c.globalAlpha=1;
+  const t=performance.now()/1000;
+  G.groups.forEach(g=>{
+    const p=proj(g.lon,g.lat); g.p=p; if(p.v<=.05) return;
+    const col=css("--c-"+g.items[0].categoria), sel=G.sel===g, r=(sel?9:6.5)+Math.min(4,g.items.length-1);
+    c.globalAlpha=.25*(1-((t*.8)%1)); c.beginPath(); c.arc(p.x,p.y,r+10*((t*.8)%1),0,7); c.fillStyle=col; c.fill();
+    c.globalAlpha=1; c.beginPath(); c.arc(p.x,p.y,r,0,7); c.fillStyle=col; c.fill(); c.lineWidth=2.5; c.strokeStyle=glob; c.stroke();
+    if(g.items.length>1){c.fillStyle="#fff"; c.font=`600 ${r>8?11:10}px Geist, Arial, sans-serif`; c.textAlign="center"; c.textBaseline="middle"; c.fillText(g.items.length,p.x,p.y+.5);}
+  });
+}
+function gLoop(ts){
+  const dt=G.last?Math.min(50,ts-G.last):16; G.last=ts;
+  if(G.anim){const a=G.anim,k=Math.min(1,(ts-a.t0)/700),e=1-Math.pow(1-k,3);G.lam=a.l0+(a.l1-a.l0)*e;G.phi=a.p0+(a.p1-a.p0)*e;if(k>=1)G.anim=null;}
+  else if(G.auto&&!reduce) G.lam-=dt*.006;
+  gDraw(); requestAnimationFrame(gLoop);
+}
+const reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+function flyTo(lon,lat){let d=((lon-G.lam)%360+540)%360-180;G.anim={t0:performance.now(),l0:G.lam,l1:G.lam+d,p0:G.phi,p1:Math.max(-60,Math.min(60,lat))};G.auto=false;}
+function gOpen(items,where){
+  $("gsBody").innerHTML=`<div class="where">${esc(where)} · ${items.length} ${items.length>1?t("nN"):t("n1")}</div>`+items.map(n=>`<div class="gitem" data-id="${n.id}" style="${cc(n.categoria)}">${meta(n)}<h3 id="gs-t">${esc(L(n,"titulo"))}</h3><p>${esc(L(n,"resumo"))}</p><div class="acts"><a class="bt dark" href="${esc(n.url)}" target="_blank" rel="noopener" data-read="${n.id}">${t("readOn")} ${esc(n.fonte)} ${ico("out")}</a><button class="icob" data-share="${n.id}" aria-label="${t("copyL")}">${ico("share")}</button></div></div>`).join("");
+  $("gsheet").classList.add("open"); paint();
+}
+function gCloseSheet(){$("gsheet").classList.remove("open");G.sel=null;}
+// arrastar, pinça, roda
+const GP=new Map(); let gs=null, gmoved=0, gpinch=null, idleT=null;
+function wake(){G.auto=false;clearTimeout(idleT);idleT=setTimeout(()=>{if(!G.sel)G.auto=true},7000);$("ghint").classList.add("off");}
+gst.addEventListener("pointerdown",e=>{ if(e.target.closest(".gctl")) return; gst.setPointerCapture(e.pointerId); GP.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(GP.size===1){gs={x:e.clientX,y:e.clientY,l:G.lam,p:G.phi};gmoved=0;gst.classList.add("drag");}
+  if(GP.size===2){const [a,b]=[...GP.values()];gpinch={d:Math.hypot(a.x-b.x,a.y-b.y),z:G.z};gmoved=99;} wake(); G.anim=null; });
+gst.addEventListener("pointermove",e=>{ if(!GP.has(e.pointerId)) return; GP.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(GP.size===2&&gpinch){const [a,b]=[...GP.values()];G.z=Math.max(.8,Math.min(3,gpinch.z*Math.hypot(a.x-b.x,a.y-b.y)/gpinch.d));return;}
+  if(gs){const dx=e.clientX-gs.x,dy=e.clientY-gs.y;gmoved=Math.max(gmoved,Math.hypot(dx,dy));const R=gW*.44*G.z;G.lam=gs.l-dx/R*57.3;G.phi=Math.max(-60,Math.min(60,gs.p+dy/R*57.3));}});
+function gUp(e){ if(!GP.has(e.pointerId)) return; GP.delete(e.pointerId); if(GP.size<2) gpinch=null;
+  if(GP.size===0){ gst.classList.remove("drag");
+    if(gmoved<7&&gs){ const r=gst.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top; let best=null,bd=24;
+      G.groups.forEach(g=>{ if(!g.p||g.p.v<=.05) return; const d=Math.hypot(g.p.x-x,g.p.y-y); if(d<bd){bd=d;best=g;} });
+      if(best){G.sel=best;flyTo(best.lon,best.lat);gOpen(best.items,L(best.items[0],best.items[0].pais==="Brasil"?"regiao":"pais"));} }
+    gs=null; } }
+gst.addEventListener("pointerup",gUp); gst.addEventListener("pointercancel",gUp);
+gst.addEventListener("wheel",e=>{ if(!$("gbox").classList.contains("gfull")&&!e.ctrlKey) return; e.preventDefault(); G.z=Math.max(.8,Math.min(3,G.z*Math.exp(-e.deltaY*.0015))); wake(); },{passive:false});
+$("gIn").onclick=()=>{G.z=Math.min(3,G.z*1.25);wake();};
+$("gOut").onclick=()=>{G.z=Math.max(.8,G.z/1.25);wake();};
+$("gFull").onclick=()=>setX(!$("gbox").classList.contains("gfull"));
+$("gClose").onclick=()=>setX(false);
+$("gsX").onclick=gCloseSheet;
+$("places").addEventListener("click",e=>{const b=e.target.closest("[data-place]");if(!b)return;const k=b.dataset.place;const items=data.noticias.filter(n=>n.pais===k);
+  const geo=items.filter(n=>n.lat!=null); if(geo.length){const lat=geo.reduce((a,n)=>a+n.lat,0)/geo.length, lon=geo.reduce((a,n)=>a+n.lon,0)/geo.length; flyTo(lon,lat); G.sel=G.groups.find(g=>g.items.includes(geo[0]))||null;}
+  else G.auto=true;
+  gOpen(items,L(items[0],"pais")); wake();});
+function setX(on){
+  const box=$("gbox");
+  if(on){ if(!box.classList.contains("gfull")){box.classList.add("gfull");document.documentElement.style.overflow="hidden";} }
+  else { box.classList.remove("gfull"); document.documentElement.style.overflow=""; }
+  requestAnimationFrame(gSize);
+}
+function goGlobe(){ $("globo").scrollIntoView({behavior:"smooth"}); }
+document.addEventListener("keydown",e=>{ if(e.key!=="Escape"||!$("st").hidden) return; if($("gsheet").classList.contains("open")) gCloseSheet(); else if($("gbox").classList.contains("gfull")) setX(false); });
+window.addEventListener("resize",()=>gSize());
+function gStart(){ gBuild(); gSize(); requestAnimationFrame(gLoop); }
+$("openX").onclick=goGlobe;
+
+// ===== Stories =====
+let DOSE=[], SI=0, sT=null, sStart=0, sPaused=false, sElapsed=0;
+const SDUR=8000;
+function sOpen(i){ if(!DOSE.length) return; $("st").hidden=false; document.documentElement.style.overflow="hidden"; sGo(i||0); }
+function sClose(){ clearInterval(sT); $("st").hidden=true; document.documentElement.style.overflow=""; paint(); }
+function sGo(i){
+  const total=DOSE.length+1; SI=Math.max(0,Math.min(total-1,i));
+  const fin=SI===DOSE.length, fr=$("sframe");
+  fr.className="sframe"+(fin?" sfinal":"");
+  $("sbars").innerHTML=Array.from({length:total},(_,k)=>`<b><i style="width:${k<SI?100:0}%"></i></b>`).join("");
+  if(fin){
+    fr.style.removeProperty("--cc");
+    const r=readSet(), n=data.noticias.filter(x=>r.has(x.id)).length;
+    $("swho").textContent=t("brand");
+    $("sbody").innerHTML=`<div class="tg">${t("fin1")}</div><h2>${t("fin2")}</h2>
+      <p>${t("fin3").replace("{a}",DOSE.length).replace("{b}",data.noticias.length-DOSE.length)}</p>
+      <div class="sacts"><button class="r" id="sList">${t("seeAll")}</button><button class="s" id="sMap">${t("expMap")}</button></div>`;
+  } else {
+    const n=DOSE[SI]; fr.style.setProperty("--cc",`var(--c-${n.categoria})`);
+    markRead(n.id);
+    $("swho").textContent=CATS[n.categoria];
+    $("sbody").innerHTML=`<div class="tg">${esc(L(n,"regiao"))} · ${fmtS(n.data)}</div>
+      <h2>${esc(L(n,"titulo"))}</h2><p>${esc(L(n,"resumo"))}</p>
+      <div class="sacts"><a class="r" href="${esc(n.url)}" target="_blank" rel="noopener">${t("readOn")} ${esc(n.fonte)} ${ico("out")}</a><button class="s" data-share="${n.id}" aria-label="${t("copyL")}">${ico("share")}</button></div>`;
+  }
+  clearInterval(sT); sElapsed=0; sStart=Date.now(); sPaused=false;
+  if(!fin) sT=setInterval(sTick,50);
+}
+function sTick(){
+  if(sPaused) return;
+  const e=sElapsed+(Date.now()-sStart), bar=$("sbars").children[SI];
+  if(bar) bar.firstChild.style.width=Math.min(100,e/SDUR*100)+"%";
+  if(e>=SDUR) sGo(SI+1);
+}
+function sPause(on){ if(on&&!sPaused){sElapsed+=Date.now()-sStart;sPaused=true;} else if(!on&&sPaused){sStart=Date.now();sPaused=false;} }
+$("openS").onclick=()=>sOpen(0);
+// ===== Ouvir =====
+let MOMENT="m";
+const TTS=("speechSynthesis" in window)&&("SpeechSynthesisUtterance" in window);
+const P={q:[],i:0,on:false,paused:false,item:-1};
+function pickVoice(){const vs=speechSynthesis.getVoices(),want=LOC[LANG].toLowerCase(),base=want.slice(0,2);
+  return vs.find(v=>v.lang.toLowerCase().replace("_","-")===want&&/google|natural|premium|enhanced|luciana|felipe|francisca|thiago/i.test(v.name))||vs.find(v=>v.lang.toLowerCase().replace("_","-")===want)||vs.find(v=>v.lang.toLowerCase().startsWith(base))||null;}
+const chunks=txt=>txt.match(/[^.!?]+[.!?]+["”]?|[^.!?]+$/g).map(x=>x.trim()).filter(Boolean);
+function pBuild(){
+  const q=[], add=(text,item)=>chunks(text).forEach(c=>q.push({c,item}));
+  const d=new Date().toLocaleDateString(LOC[LANG],{weekday:"long",day:"numeric",month:"long"});
+  add(t("tIntro").replace("{g}",$("gw").textContent).replace("{b}",t("brand")).replace("{d}",d).replace("{n}",DOSE.length),-1);
+  DOSE.forEach((n,i)=>add(t("tOrd").split("|")[i]+". "+L(n,"titulo")+". "+L(n,"resumo"),i));
+  add(t("tOutro").replace("{b}",t("brand")),-2);
+  return q;
+}
+function pUI(){
+  const pl=$("player"); pl.hidden=!P.on; document.body.classList.toggle("playing",P.on);
+  if(!P.on) return;
+  const it=P.q[P.i]?P.q[P.i].item:-2;
+  $("pNum").textContent=it>=0?`${it+1}/${DOSE.length} · ${CATS[DOSE[it].categoria]}`:t("brand");
+  $("pTitle").textContent=it>=0?L(DOSE[it],"titulo"):(it===-1?t("tNow"):t("tEnd"));
+  $("pIco").setAttribute("d",P.paused?"M8 5.5v13l11-6.5z":"M7 5h3.5v14H7zM13.5 5H17v14h-3.5z");
+  $("pPlay").setAttribute("aria-label",P.paused?t("pPlay"):t("pPause"));
+}
+function pSpeak(){
+  if(!P.on) return;
+  if(P.i>=P.q.length){pStop();return;}
+  const part=P.q[P.i]; if(part.item>=0&&part.item!==P.item){P.item=part.item;markRead(DOSE[part.item].id);}
+  const u=new SpeechSynthesisUtterance(part.c); u.lang=LOC[LANG]; const v=pickVoice(); if(v) u.voice=v; u.rate=1.02;
+  u.onend=()=>{ if(!P.on||P.paused) return; P.i++; pSpeak(); };
+  u.onerror=e=>{ if(e.error==="interrupted"||e.error==="canceled") return; P.i++; pSpeak(); };
+  pUI(); speechSynthesis.speak(u);
+}
+function pStart(){
+  if(!TTS){toast(t("noTTS"));return;}
+  if(!data) return; speechSynthesis.cancel();
+  Object.assign(P,{q:pBuild(),i:0,on:true,paused:false,item:-1}); pSpeak();
+}
+function pStop(){P.on=false;P.paused=false;try{speechSynthesis.cancel()}catch(e){} pUI();}
+function pToggle(){ if(!P.on) return; if(P.paused){P.paused=false;speechSynthesis.cancel();pSpeak();} else {P.paused=true;speechSynthesis.cancel();pUI();} }
+function pNext(){ if(!P.on) return; const cur=P.q[P.i]?P.q[P.i].item:-1; let j=P.i; while(j<P.q.length&&P.q[j].item===cur) j++; P.i=j; P.paused=false; speechSynthesis.cancel(); setTimeout(pSpeak,60); }
+$("openL").onclick=pStart; $("openL2").onclick=pStart;
+$("pPlay").onclick=pToggle; $("pNext").onclick=pNext; $("pStop").onclick=pStop;
+if(TTS){ try{speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged=()=>{};}catch(e){} }
+window.addEventListener("pagehide",()=>{try{speechSynthesis.cancel()}catch(e){}});
+// ===== App (PWA) =====
+let deferredInst=null;
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredInst=e;});
+const standalone=()=>matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+$("instBtn").onclick=async()=>{
+  if(standalone()){toast(t("instDone"));return;}
+  if(deferredInst){deferredInst.prompt();try{await deferredInst.userChoice}catch(e){} deferredInst=null;return;}
+  const ios=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+  const tip=$("instTip"); tip.textContent=ios?t("instIOS"):t("instOther"); tip.hidden=false;
+};
+if("serviceWorker" in navigator && location.protocol==="https:" && !/claude\.ai|claudeusercontent|anthropic/.test(location.hostname)){
+  window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{});});
+}
+$("rail").addEventListener("click",e=>{const b=e.target.closest("[data-story]");if(b)sOpen(+b.dataset.story);});
+$("sX").onclick=sClose;
+$("sNext").onclick=()=>sGo(SI+1);
+$("sPrev").onclick=()=>sGo(SI-1);
+$("sframe").addEventListener("pointerdown",e=>{ if(e.target.closest(".stap"))sPause(true); });
+["pointerup","pointercancel","pointerleave"].forEach(t=>$("sframe").addEventListener(t,()=>sPause(false)));
+$("sbody").addEventListener("click",e=>{
+  if(e.target.closest("#sList")){sClose();setTimeout(()=>$("chips").scrollIntoView({behavior:"smooth"}),50);}
+  if(e.target.closest("#sMap")){sClose();setTimeout(goGlobe,50);}
+});
+let sy=null; $("st").addEventListener("touchstart",e=>{sy=e.touches[0].clientY},{passive:true});
+$("st").addEventListener("touchend",e=>{if(sy!==null&&e.changedTouches[0].clientY-sy>90)sClose();sy=null;});
+document.addEventListener("keydown",e=>{if($("st").hidden)return;if(e.key==="Escape")sClose();if(e.key==="ArrowRight")sGo(SI+1);if(e.key==="ArrowLeft")sGo(SI-1);});
+
+setLang(LANG,true);
+fetch("noticias.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})
+  .then(j=>{data=j;render();gStart();})
+  .catch(()=>{$("feed").innerHTML=`<p class="empty">${t("loadErr")}</p>`;});
+</script>
