@@ -1,0 +1,378 @@
+{
+ "atualizado": "2026-11-05",
+ "noticias": [
+  {
+   "id": "pancreas",
+   "titulo": "Vacina contra câncer de pâncreas gera resposta imune em 89 de 90 pacientes",
+   "resumo": "Na fase 2 de um estudo nos EUA, citado a partir da Mayo Clinic, quase todos os pacientes avaliados desenvolveram resposta imunológica. O resultado abre caminho para novos testes.",
+   "categoria": "saude",
+   "regiao": "Estados Unidos",
+   "data": "2026-10-31",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/10/31/vacina-contra-cancer-de-pancreas-resposta-imunologica-99",
+   "destaque": true,
+   "pais": "Estados Unidos",
+   "lat": 44.02,
+   "lon": -92.47,
+   "i18n": {
+    "es": {
+     "titulo": "Vacuna contra el cáncer de páncreas genera respuesta inmune en 89 de 90 pacientes",
+     "resumo": "En la fase 2 de un estudio en EE. UU., citado a partir de la Mayo Clinic, casi todos los pacientes evaluados desarrollaron respuesta inmunológica. El resultado abre camino a nuevas pruebas.",
+     "regiao": "Estados Unidos",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Pancreatic cancer vaccine triggers immune response in 89 of 90 patients",
+     "resumo": "In a phase 2 study in the US, cited from Mayo Clinic, almost every patient evaluated developed an immune response. The result paves the way for further trials.",
+     "regiao": "United States",
+     "pais": "United States"
+    }
+   }
+  },
+  {
+   "id": "desemprego",
+   "titulo": "Desemprego cai para 5,2%, o menor nível da série histórica",
+   "resumo": "Segundo o IBGE, a construção civil puxou a queda. O Brasil chegou a 103,6 milhões de pessoas ocupadas, recorde desde 2012.",
+   "categoria": "sociedade",
+   "regiao": "Brasil",
+   "data": "2026-10-31",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/10/31/desemprego-cai-52-brasil-103-milhoes-trabalhadores",
+   "pais": "Brasil",
+   "lat": -15.79,
+   "lon": -47.88,
+   "i18n": {
+    "es": {
+     "titulo": "El desempleo en Brasil cae al 5,2%, el nivel más bajo de la serie histórica",
+     "resumo": "Según el IBGE, la construcción impulsó la caída. Brasil llegó a 103,6 millones de personas ocupadas, récord desde 2012.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil's unemployment falls to 5.2%, the lowest on record",
+     "resumo": "According to IBGE, construction drove the drop. Brazil reached 103.6 million employed people, a record since 2012.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "microplasticos",
+   "titulo": "Jovem de 18 anos usa IA para detectar microplásticos no Lago Paranoá",
+   "resumo": "Tom Silva Nunes criou um equipamento com inteligência artificial que identifica partículas de isopor na água, para ajudar a monitorar a poluição do lago.",
+   "categoria": "meio-ambiente",
+   "regiao": "Brasília, DF",
+   "data": "2026-11-04",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/jovem-metodo-detectar-microplasticos-agua",
+   "pais": "Brasil",
+   "lat": -15.8,
+   "lon": -47.87,
+   "i18n": {
+    "es": {
+     "titulo": "Joven de 18 años usa IA para detectar microplásticos en el Lago Paranoá",
+     "resumo": "Tom Silva Nunes creó un equipo con inteligencia artificial que identifica partículas de poliestireno en el agua, para ayudar a monitorear la contaminación del lago.",
+     "regiao": "Brasilia, DF",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "18-year-old uses AI to detect microplastics in Lake Paranoá",
+     "resumo": "Tom Silva Nunes built an AI-powered device that identifies polystyrene particles in the water, to help monitor pollution in the lake.",
+     "regiao": "Brasília, Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "menina-onibus",
+   "titulo": "Menina de 11 anos salva motorista de ônibus escolar que não conseguia respirar",
+   "resumo": "Bella percebeu que a motorista estava com dificuldade para respirar, chamou o pai e a ajuda médica foi acionada. A escola homenageou o gesto.",
+   "categoria": "sociedade",
+   "regiao": "Estados Unidos",
+   "data": "2026-11-04",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/menina-11-anos-salva-motorista-onibus-escolar-asma",
+   "pais": "Estados Unidos",
+   "lat": 39.5,
+   "lon": -98.35,
+   "i18n": {
+    "es": {
+     "titulo": "Niña de 11 años salva a la conductora del autobús escolar que no podía respirar",
+     "resumo": "Bella notó que la conductora tenía dificultad para respirar, llamó a su padre y se pidió ayuda médica. La escuela homenajeó su gesto.",
+     "regiao": "Estados Unidos",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "11-year-old girl saves school bus driver who couldn't breathe",
+     "resumo": "Bella noticed the driver was struggling to breathe, called her dad and medical help was sent. The school honored her quick thinking.",
+     "regiao": "United States",
+     "pais": "United States"
+    }
+   }
+  },
+  {
+   "id": "sangue-raro",
+   "titulo": "Doador de sangue ultrarraro completa 545 doações e visita os 85 bancos da Austrália",
+   "resumo": "Trevor Bergman, de 59 anos, tem um anticorpo raro que pode ajudar a proteger bebês durante a gestação. Ele doou em todos os centros de coleta do país.",
+   "categoria": "saude",
+   "regiao": "Austrália",
+   "data": "2026-11-03",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/ultra-rare-blood-carrier-finishes-grand-tour-around-australia-to-donate-at-all-85-blood-banks/",
+   "pais": "Austrália",
+   "lat": -25.27,
+   "lon": 133.78,
+   "i18n": {
+    "es": {
+     "titulo": "Donante de sangre ultrararo completa 545 donaciones y visita los 85 bancos de Australia",
+     "resumo": "Trevor Bergman, de 59 años, tiene un anticuerpo raro que puede ayudar a proteger a bebés durante la gestación. Donó en todos los centros de colecta del país.",
+     "regiao": "Australia",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Ultra-rare blood donor reaches 545 donations and visits all 85 blood banks in Australia",
+     "resumo": "Trevor Bergman, 59, carries a rare antibody that can help protect babies during pregnancy. He donated at every collection center in the country.",
+     "regiao": "Australia",
+     "pais": "Australia"
+    }
+   }
+  },
+  {
+   "id": "pitanga",
+   "titulo": "Fibras de pitanga e cambuci reduzem células de câncer colorretal em laboratório",
+   "resumo": "Pesquisadores da USP observaram queda na viabilidade das células cancerígenas em testes de bancada. Ainda não há aplicação clínica.",
+   "categoria": "ciencia",
+   "regiao": "Brasil",
+   "data": "2026-11-03",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/03/fibras-pitanga-cambuci-celulas-cancerigenas",
+   "pais": "Brasil",
+   "lat": -23.56,
+   "lon": -46.73,
+   "i18n": {
+    "es": {
+     "titulo": "Fibras de pitanga y cambuci reducen células de cáncer colorrectal en laboratorio",
+     "resumo": "Investigadores de la USP observaron una caída en la viabilidad de las células cancerosas en pruebas de laboratorio. Aún no hay aplicación clínica.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Pitanga and cambuci fibers reduce colorectal cancer cells in the lab",
+     "resumo": "Researchers at the University of São Paulo saw cancer cell viability drop in bench tests. There is no clinical use yet.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "arthur",
+   "titulo": "Estudante de 16 anos de Fortaleza conquista três medalhas internacionais",
+   "resumo": "Arthur Alencar Spuri ganhou ouro na China e pratas na Colômbia e no Vietnã, em Economia, Física e Astronomia.",
+   "categoria": "ciencia",
+   "regiao": "Brasil",
+   "data": "2026-11-03",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/03/brasileiro-16-anos-conquista-3-medalhas-internacionais",
+   "pais": "Brasil",
+   "lat": -3.73,
+   "lon": -38.52,
+   "i18n": {
+    "es": {
+     "titulo": "Estudiante de 16 años de Fortaleza gana tres medallas internacionales",
+     "resumo": "Arthur Alencar Spuri ganó oro en China y platas en Colombia y Vietnam, en Economía, Física y Astronomía.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "16-year-old student from Fortaleza wins three international medals",
+     "resumo": "Arthur Alencar Spuri won gold in China and silver in Colombia and Vietnam, in Economics, Physics and Astronomy.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "physics-cup",
+   "titulo": "Cearense de 24 anos leva ouro na Physics Cup 2026",
+   "resumo": "Vinícius Ferreira Rodrigues ficou em terceiro lugar na categoria universitária, um recorde brasileiro na competição.",
+   "categoria": "ciencia",
+   "regiao": "Ceará, Brasil",
+   "data": "2026-11-01",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/01/cearense-conquista-ouro-competicao-mundial-fisica",
+   "pais": "Brasil",
+   "lat": -3.73,
+   "lon": -38.52,
+   "i18n": {
+    "es": {
+     "titulo": "Joven de Ceará de 24 años gana oro en la Physics Cup 2026",
+     "resumo": "Vinícius Ferreira Rodrigues quedó en tercer lugar en la categoría universitaria, un récord brasileño en la competición.",
+     "regiao": "Ceará, Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "24-year-old from Ceará takes gold at the Physics Cup 2026",
+     "resumo": "Vinícius Ferreira Rodrigues placed third in the university category, a Brazilian record in the competition.",
+     "regiao": "Ceará, Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "worldskills",
+   "titulo": "Brasil fica em 2º lugar geral na WorldSkills Shanghai 2026",
+   "resumo": "Na maior competição de educação profissional do mundo, a delegação brasileira ganhou oito medalhas e outras 29 medalhas de excelência.",
+   "categoria": "sociedade",
+   "regiao": "Xangai, China",
+   "data": "2026-10-30",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/10/30/brasil-conquista-segundo-lugar-worldskills-2026",
+   "pais": "China",
+   "lat": 31.23,
+   "lon": 121.47,
+   "i18n": {
+    "es": {
+     "titulo": "Brasil queda 2.º en la clasificación general de WorldSkills Shanghai 2026",
+     "resumo": "En la mayor competición de educación profesional del mundo, la delegación brasileña ganó ocho medallas y otras 29 medallas de excelencia.",
+     "regiao": "Shanghái, China",
+     "pais": "China"
+    },
+    "en": {
+     "titulo": "Brazil finishes 2nd overall at WorldSkills Shanghai 2026",
+     "resumo": "At the world's largest vocational skills competition, the Brazilian team won eight medals plus 29 medallions of excellence.",
+     "regiao": "Shanghai, China",
+     "pais": "China"
+    }
+   }
+  },
+  {
+   "id": "prostata",
+   "titulo": "Brasileiro cria equação para prever câncer de próstata",
+   "resumo": "Matheus Farias, de 26 anos, nascido no interior de Alagoas, criou uma equação que simula nanopartículas de ouro sem custo de laboratório.",
+   "categoria": "saude",
+   "regiao": "Brasil",
+   "data": "2026-10-29",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/10/29/brasileiro-equacao-matematica-inedita-cancer-de-prostata",
+   "pais": "Brasil",
+   "lat": -23.55,
+   "lon": -46.63,
+   "i18n": {
+    "es": {
+     "titulo": "Brasileño crea una ecuación para predecir el cáncer de próstata",
+     "resumo": "Matheus Farias, de 26 años, nacido en el interior de Alagoas, creó una ecuación que simula nanopartículas de oro sin costo de laboratorio.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian creates an equation to predict prostate cancer",
+     "resumo": "Matheus Farias, 26, born in rural Alagoas, created an equation that simulates gold nanoparticles with no lab costs.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "perovskita",
+   "titulo": "Células solares de perovskita-silício ficam mais duráveis",
+   "resumo": "Células tandem bifaciais mantiveram 90% da eficiência após mais de 1.000 horas de teste acelerado. O desempenho ao ar livre por anos ainda precisa ser comprovado.",
+   "categoria": "tecnologia",
+   "regiao": "Mundo",
+   "data": "2026-10-29",
+   "fonte": "Everything Science",
+   "url": "https://everythingscience.substack.com/p/positive-science-news-november-1-2026",
+   "pais": "Global",
+   "i18n": {
+    "es": {
+     "titulo": "Las células solares de perovskita-silicio se vuelven más duraderas",
+     "resumo": "Células tándem bifaciales mantuvieron el 90% de su eficiencia tras más de 1.000 horas de prueba acelerada. Aún falta comprobar su rendimiento al aire libre durante años.",
+     "regiao": "Mundo",
+     "pais": "Global"
+    },
+    "en": {
+     "titulo": "Perovskite-silicon solar cells get more durable",
+     "resumo": "Bifacial tandem cells kept 90% of their efficiency after more than 1,000 hours of accelerated testing. Years of outdoor performance still need to be proven.",
+     "regiao": "World",
+     "pais": "Global"
+    }
+   }
+  },
+  {
+   "id": "hera",
+   "titulo": "Sonda Hera enxerga separados os dois asteroides do teste de desvio",
+   "resumo": "A espaçonave da ESA distinguiu Didymos e Dimorphos, atingido pela missão DART em 2022. Os dados devem melhorar a defesa planetária.",
+   "categoria": "ciencia",
+   "regiao": "Espaço",
+   "data": "2026-10-27",
+   "fonte": "Everything Science",
+   "url": "https://everythingscience.substack.com/p/positive-science-news-november-1-2026",
+   "pais": "Espaço",
+   "i18n": {
+    "es": {
+     "titulo": "La sonda Hera ve por separado los dos asteroides de la prueba de desvío",
+     "resumo": "La nave de la ESA distinguió Didymos y Dimorphos, impactado por la misión DART en 2022. Los datos deben mejorar la defensa planetaria.",
+     "regiao": "Espacio",
+     "pais": "Espacio"
+    },
+    "en": {
+     "titulo": "Hera probe sees the two asteroids from the deflection test separately",
+     "resumo": "The ESA spacecraft resolved Didymos and Dimorphos, which NASA's DART mission struck in 2022. The data should improve planetary defense.",
+     "regiao": "Space",
+     "pais": "Space"
+    }
+   }
+  },
+  {
+   "id": "mama",
+   "titulo": "Parte das pacientes com câncer de mama HER2+ pode evitar quimioterapia",
+   "resumo": "No estudo PHERGain, 86 pacientes com resposta completa sem quimio tiveram 92,4% de sobrevida livre de doença invasiva em cinco anos. É um subgrupo selecionado.",
+   "categoria": "saude",
+   "regiao": "Internacional",
+   "data": "2026-10-30",
+   "fonte": "Everything Science",
+   "url": "https://everythingscience.substack.com/p/positive-science-news-november-1-2026",
+   "pais": "Global",
+   "i18n": {
+    "es": {
+     "titulo": "Parte de las pacientes con cáncer de mama HER2+ puede evitar la quimioterapia",
+     "resumo": "En el estudio PHERGain, 86 pacientes con respuesta completa sin quimio tuvieron un 92,4% de supervivencia libre de enfermedad invasiva a cinco años. Es un subgrupo seleccionado.",
+     "regiao": "Internacional",
+     "pais": "Global"
+    },
+    "en": {
+     "titulo": "Some HER2+ breast cancer patients may be able to skip chemotherapy",
+     "resumo": "In the PHERGain trial, 86 patients with a complete response without chemo had 92.4% five-year invasive disease-free survival. It is a selected subgroup.",
+     "regiao": "International",
+     "pais": "Global"
+    }
+   }
+  },
+  {
+   "id": "fauna-i25",
+   "titulo": "Passagem de fauna no Colorado reduz atropelamentos de animais em 91%",
+   "resumo": "A ponte para animais sobre a Interestadual 25 diminuiu as colisões entre animais e veículos desde a inauguração.",
+   "categoria": "animais",
+   "regiao": "Colorado, EUA",
+   "data": "2026-11-01",
+   "fonte": "Global Positive News",
+   "url": "https://www.globalpositivenewsnetwork.com/good-news-this-week-november-1st/",
+   "pais": "Estados Unidos",
+   "lat": 39.37,
+   "lon": -104.86,
+   "i18n": {
+    "es": {
+     "titulo": "Paso de fauna en Colorado reduce un 91% los atropellos de animales",
+     "resumo": "El puente para animales sobre la Interestatal 25 disminuyó las colisiones entre animales y vehículos desde su inauguración.",
+     "regiao": "Colorado, EE. UU.",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Colorado wildlife crossing cuts animal-vehicle crashes by 91%",
+     "resumo": "The wildlife bridge over Interstate 25 has reduced collisions between animals and vehicles since it opened.",
+     "regiao": "Colorado, USA",
+     "pais": "United States"
+    }
+   }
+  }
+ ]
+}
