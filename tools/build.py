@@ -6,7 +6,7 @@ Uso: python3 tools/build.py   (rodar na raiz do repositório)
 import json, os, re, datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://denimedero.github.io/dosedobem/"
+SITE = "https://dosedobem.com.br/"
 
 HEAD = """<!doctype html>
 <html lang="pt-BR">

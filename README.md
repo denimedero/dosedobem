@@ -2,7 +2,7 @@
 
 Notícias boas, checadas e com fonte. Uma dose por dia, em português, español e English.
 
-Site: https://denimedero.github.io/dosedobem/ (`?lang=es`, `?lang=en`)
+Site: https://dosedobem.com.br/ (`?lang=es`, `?lang=en`)
 
 ## Arquivos
 - `src/page.html`: o código do site (é daqui que se edita).
