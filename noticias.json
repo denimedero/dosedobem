@@ -2,375 +2,382 @@
  "atualizado": "2026-11-05",
  "noticias": [
   {
-   "id": "pancreas",
-   "titulo": "Vacina contra câncer de pâncreas gera resposta imune em 89 de 90 pacientes",
-   "resumo": "Na fase 2 de um estudo nos EUA, citado a partir da Mayo Clinic, quase todos os pacientes avaliados desenvolveram resposta imunológica. O resultado abre caminho para novos testes.",
+   "id": "hiv-generico",
+   "titulo": "Injeção que previne o HIV ganha versão genérica de US$ 40 por ano",
+   "resumo": "A FDA deu aprovação preliminar ao primeiro lenacapavir genérico, da indiana Dr. Reddy's. O original custa US$ 28.218 por ano; o genérico deve chegar a 120 países de renda baixa e média.",
    "categoria": "saude",
    "regiao": "Estados Unidos",
-   "data": "2026-10-31",
+   "data": "2026-11-03",
    "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/10/31/vacina-contra-cancer-de-pancreas-resposta-imunologica-99",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/03/injecao-que-previne-hiv-generico-40-dolares",
+   "pais": "Estados Unidos",
    "destaque": true,
-   "pais": "Estados Unidos",
-   "lat": 44.02,
-   "lon": -92.47,
+   "lat": 38.9,
+   "lon": -77.04,
    "i18n": {
     "es": {
-     "titulo": "Vacuna contra el cáncer de páncreas genera respuesta inmune en 89 de 90 pacientes",
-     "resumo": "En la fase 2 de un estudio en EE. UU., citado a partir de la Mayo Clinic, casi todos los pacientes evaluados desarrollaron respuesta inmunológica. El resultado abre camino a nuevas pruebas.",
+     "titulo": "La inyección que previene el VIH tendrá una versión genérica de US$ 40 al año",
+     "resumo": "La FDA dio aprobación preliminar al primer lenacapavir genérico, de la india Dr. Reddy's. El original cuesta US$ 28.218 al año; el genérico debe llegar a 120 países de ingresos bajos y medios.",
      "regiao": "Estados Unidos",
      "pais": "Estados Unidos"
     },
     "en": {
-     "titulo": "Pancreatic cancer vaccine triggers immune response in 89 of 90 patients",
-     "resumo": "In a phase 2 study in the US, cited from Mayo Clinic, almost every patient evaluated developed an immune response. The result paves the way for further trials.",
+     "titulo": "HIV-prevention shot gets a US$40-a-year generic version",
+     "resumo": "The FDA gave preliminary approval to the first generic lenacapavir, made by India's Dr. Reddy's. The original costs US$28,218 a year; the generic is meant for 120 low- and middle-income countries.",
      "regiao": "United States",
      "pais": "United States"
     }
    }
   },
   {
-   "id": "desemprego",
-   "titulo": "Desemprego cai para 5,2%, o menor nível da série histórica",
-   "resumo": "Segundo o IBGE, a construção civil puxou a queda. O Brasil chegou a 103,6 milhões de pessoas ocupadas, recorde desde 2012.",
-   "categoria": "sociedade",
-   "regiao": "Brasil",
-   "data": "2026-10-31",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/10/31/desemprego-cai-52-brasil-103-milhoes-trabalhadores",
-   "pais": "Brasil",
-   "lat": -15.79,
-   "lon": -47.88,
-   "i18n": {
-    "es": {
-     "titulo": "El desempleo en Brasil cae al 5,2%, el nivel más bajo de la serie histórica",
-     "resumo": "Según el IBGE, la construcción impulsó la caída. Brasil llegó a 103,6 millones de personas ocupadas, récord desde 2012.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil's unemployment falls to 5.2%, the lowest on record",
-     "resumo": "According to IBGE, construction drove the drop. Brazil reached 103.6 million employed people, a record since 2012.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "microplasticos",
-   "titulo": "Jovem de 18 anos usa IA para detectar microplásticos no Lago Paranoá",
-   "resumo": "Tom Silva Nunes criou um equipamento com inteligência artificial que identifica partículas de isopor na água, para ajudar a monitorar a poluição do lago.",
-   "categoria": "meio-ambiente",
-   "regiao": "Brasília, DF",
-   "data": "2026-11-04",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/jovem-metodo-detectar-microplasticos-agua",
-   "pais": "Brasil",
-   "lat": -15.8,
-   "lon": -47.87,
-   "i18n": {
-    "es": {
-     "titulo": "Joven de 18 años usa IA para detectar microplásticos en el Lago Paranoá",
-     "resumo": "Tom Silva Nunes creó un equipo con inteligencia artificial que identifica partículas de poliestireno en el agua, para ayudar a monitorear la contaminación del lago.",
-     "regiao": "Brasilia, DF",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "18-year-old uses AI to detect microplastics in Lake Paranoá",
-     "resumo": "Tom Silva Nunes built an AI-powered device that identifies polystyrene particles in the water, to help monitor pollution in the lake.",
-     "regiao": "Brasília, Brazil",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "menina-onibus",
-   "titulo": "Menina de 11 anos salva motorista de ônibus escolar que não conseguia respirar",
-   "resumo": "Bella percebeu que a motorista estava com dificuldade para respirar, chamou o pai e a ajuda médica foi acionada. A escola homenageou o gesto.",
-   "categoria": "sociedade",
-   "regiao": "Estados Unidos",
-   "data": "2026-11-04",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/menina-11-anos-salva-motorista-onibus-escolar-asma",
-   "pais": "Estados Unidos",
-   "lat": 39.5,
-   "lon": -98.35,
-   "i18n": {
-    "es": {
-     "titulo": "Niña de 11 años salva a la conductora del autobús escolar que no podía respirar",
-     "resumo": "Bella notó que la conductora tenía dificultad para respirar, llamó a su padre y se pidió ayuda médica. La escuela homenajeó su gesto.",
-     "regiao": "Estados Unidos",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "11-year-old girl saves school bus driver who couldn't breathe",
-     "resumo": "Bella noticed the driver was struggling to breathe, called her dad and medical help was sent. The school honored her quick thinking.",
-     "regiao": "United States",
-     "pais": "United States"
-    }
-   }
-  },
-  {
-   "id": "sangue-raro",
-   "titulo": "Doador de sangue ultrarraro completa 545 doações e visita os 85 bancos da Austrália",
-   "resumo": "Trevor Bergman, de 59 anos, tem um anticorpo raro que pode ajudar a proteger bebês durante a gestação. Ele doou em todos os centros de coleta do país.",
+   "id": "medula-alemanha",
+   "titulo": "Menino de Curitiba é salvo por doador de medula da Alemanha e ganha um \"irmão alemão\"",
+   "resumo": "Arthur Barão Massan, de 9 anos, tinha anemia de Fanconi. As células do doador Florian Weiand, de 23 anos, viajaram cerca de 10 mil km e chegaram em menos de 24 horas. As famílias fizeram o primeiro contato em maio de 2026.",
    "categoria": "saude",
-   "regiao": "Austrália",
+   "regiao": "Curitiba, PR",
+   "data": "2026-11-02",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/02/menino-brasileiro-salvo-doador-medula-ossea-alemanha",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -25.43,
+   "lon": -49.27,
+   "i18n": {
+    "es": {
+     "titulo": "Niño de Curitiba es salvado por un donante de médula de Alemania y gana un \"hermano alemán\"",
+     "resumo": "Arthur Barão Massan, de 9 años, tenía anemia de Fanconi. Las células del donante Florian Weiand, de 23 años, viajaron unos 10.000 km y llegaron en menos de 24 horas. Las familias tuvieron su primer contacto en mayo de 2026.",
+     "regiao": "Curitiba, Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Boy from Curitiba saved by a German bone marrow donor gains a \"German brother\"",
+     "resumo": "Arthur Barão Massan, 9, had Fanconi anemia. Cells from donor Florian Weiand, 23, travelled about 10,000 km and arrived in under 24 hours. The families first made contact in May 2026.",
+     "regiao": "Curitiba, Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "caes-hospital",
+   "titulo": "Cães terapeutas visitam pacientes em hospital de Fortaleza",
+   "resumo": "O grupo Sexteto 4 Patas levou carinho aos pacientes do Hospital Estadual Leonardo da Vinci. Uma das visitadas foi Francisca Fábia Lopes, de 51 anos, internada havia 14 dias.",
+   "categoria": "animais",
+   "regiao": "Fortaleza, CE",
+   "data": "2026-11-04",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/caes-terapeutas-hospital-fortaleza-pacientes",
+   "pais": "Brasil",
+   "lat": -3.73,
+   "lon": -38.52,
+   "i18n": {
+    "es": {
+     "titulo": "Perros de terapia visitan a pacientes en un hospital de Fortaleza",
+     "resumo": "El grupo Sexteto 4 Patas llevó cariño a los pacientes del Hospital Estatal Leonardo da Vinci. Una de las visitadas fue Francisca Fábia Lopes, de 51 años, internada desde hacía 14 días.",
+     "regiao": "Fortaleza, Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Therapy dogs visit patients at a hospital in Fortaleza",
+     "resumo": "The Sexteto 4 Patas group brought comfort to patients at the Leonardo da Vinci State Hospital. One of them was Francisca Fábia Lopes, 51, who had been in hospital for 14 days.",
+     "regiao": "Fortaleza, Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "colar-calisto",
+   "titulo": "Alunas de escola pública criam colar que pede socorro para proteger mulheres",
+   "resumo": "Quatro estudantes do CEEPTIC, em Lauro de Freitas, criaram o colar Calisto: dois toques no botão enviam um alerta com a localização em tempo real. O protótipo custou cerca de R$ 80.",
+   "categoria": "tecnologia",
+   "regiao": "Lauro de Freitas, BA",
+   "data": "2026-11-04",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/colar-inteligente-proteger-mulheres-alunas-bahia",
+   "pais": "Brasil",
+   "lat": -12.9,
+   "lon": -38.33,
+   "i18n": {
+    "es": {
+     "titulo": "Alumnas de una escuela pública crean un collar que pide ayuda para proteger a las mujeres",
+     "resumo": "Cuatro estudiantes del CEEPTIC, en Lauro de Freitas, crearon el collar Calisto: dos toques en el botón envían una alerta con la ubicación en tiempo real. El prototipo costó unos R$ 80.",
+     "regiao": "Lauro de Freitas, Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Public school students build a necklace that calls for help to protect women",
+     "resumo": "Four students at CEEPTIC in Lauro de Freitas created the Calisto necklace: two presses of its button send an alert with real-time location. The prototype cost about R$80.",
+     "regiao": "Lauro de Freitas, Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "ema-poemas",
+   "titulo": "Professora de 96 anos lança o primeiro livro, com mais de 100 poemas escritos à mão",
+   "resumo": "Ema Vargas apresenta \"Eu Venho Oferecer Meu Coração\" na 72ª Feira do Livro de Porto Alegre, que vai até 15 de novembro na Praça da Alfândega.",
+   "categoria": "sociedade",
+   "regiao": "Porto Alegre, RS",
+   "data": "2026-11-04",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/professora-96-anos-lanca-primeiro-livro-poemas-escritos-a-mao-rs",
+   "pais": "Brasil",
+   "lat": -30.03,
+   "lon": -51.23,
+   "i18n": {
+    "es": {
+     "titulo": "Maestra de 96 años lanza su primer libro, con más de 100 poemas escritos a mano",
+     "resumo": "Ema Vargas presenta \"Eu Venho Oferecer Meu Coração\" en la 72.ª Feria del Libro de Porto Alegre, que sigue hasta el 15 de noviembre.",
+     "regiao": "Porto Alegre, Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "96-year-old teacher publishes her first book of 100+ handwritten poems",
+     "resumo": "Ema Vargas presents \"Eu Venho Oferecer Meu Coração\" at the 72nd Porto Alegre Book Fair, which runs until November 15.",
+     "regiao": "Porto Alegre, Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "zeze-motta",
+   "titulo": "Zezé Motta adotou um menino que vivia nas ruas; 30 anos depois, ele conta a história",
+   "resumo": "Robson viveu na Central do Brasil até os 13 anos. Hoje, aos 45, comanda a Rede Cultura Social, que já levou mais de 4.500 crianças e jovens a teatros, cinemas e museus.",
+   "categoria": "sociedade",
+   "regiao": "Rio de Janeiro, RJ",
+   "data": "2026-11-02",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/02/zeze-motta-adotou-garoto-ruas-30-anos",
+   "pais": "Brasil",
+   "lat": -22.9,
+   "lon": -43.19,
+   "i18n": {
+    "es": {
+     "titulo": "Zezé Motta adoptó a un niño que vivía en la calle; 30 años después, él cuenta la historia",
+     "resumo": "Robson vivió en la estación Central do Brasil hasta los 13 años. Hoy, a los 45, dirige la Rede Cultura Social, que ya llevó a más de 4.500 niños y jóvenes a teatros, cines y museos.",
+     "regiao": "Río de Janeiro, Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Actress Zezé Motta adopted a boy living on the streets; 30 years later he tells the story",
+     "resumo": "Robson lived at Rio's Central do Brasil station until he was 13. Now 45, he runs Rede Cultura Social, which has taken more than 4,500 children and teens to theatres, cinemas and museums.",
+     "regiao": "Rio de Janeiro, Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "foto-cerrado",
+   "titulo": "Foto do Cerrado vence prêmio mundial disputado por 177 países",
+   "resumo": "Márcio Cabral levou o grande prêmio do 17º Greenstorm Photography Festival com \"Pandora\", feita na Chapada dos Veadeiros. Foram 14.513 imagens inscritas.",
+   "categoria": "meio-ambiente",
+   "regiao": "Chapada dos Veadeiros, GO",
+   "data": "2026-11-02",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/02/brasileiro-ganha-1-lugar-mundial-fotografia-cerrado",
+   "pais": "Brasil",
+   "lat": -14.13,
+   "lon": -47.51,
+   "i18n": {
+    "es": {
+     "titulo": "Una foto del Cerrado gana un premio mundial con participantes de 177 países",
+     "resumo": "Márcio Cabral ganó el gran premio del 17.º Greenstorm Photography Festival con \"Pandora\", tomada en la Chapada dos Veadeiros. Hubo 14.513 imágenes inscritas.",
+     "regiao": "Chapada dos Veadeiros, Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Photo of Brazil's Cerrado wins a world prize against entries from 177 countries",
+     "resumo": "Márcio Cabral won the grand prize at the 17th Greenstorm Photography Festival with \"Pandora\", shot in Chapada dos Veadeiros. There were 14,513 entries.",
+     "regiao": "Chapada dos Veadeiros, Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "escola-marilyn",
+   "titulo": "Escola vai ganhar o nome de funcionária da limpeza que dedicou 39 anos aos alunos",
+   "resumo": "Marilyn Hampton, de 76 anos, trabalha nas escolas de Aubrey, no Texas, desde 1983. A Marilyn Hampton Elementary School deve abrir em agosto de 2027.",
+   "categoria": "sociedade",
+   "regiao": "Texas, EUA",
+   "data": "2026-11-03",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/03/funcionaria-limpeza-escola-texas",
+   "pais": "Estados Unidos",
+   "lat": 33.3,
+   "lon": -96.99,
+   "i18n": {
+    "es": {
+     "titulo": "Una escuela llevará el nombre de la conserje que dedicó 39 años a los alumnos",
+     "resumo": "Marilyn Hampton, de 76 años, trabaja en las escuelas de Aubrey, Texas, desde 1983. La Marilyn Hampton Elementary School debe abrir en agosto de 2027.",
+     "regiao": "Texas, EE. UU.",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "New school will be named after the janitor who gave 39 years to its students",
+     "resumo": "Marilyn Hampton, 76, has worked in the Aubrey, Texas school system since 1983. Marilyn Hampton Elementary School is due to open in August 2027.",
+     "regiao": "Texas, USA",
+     "pais": "United States"
+    }
+   }
+  },
+  {
+   "id": "castores-ness",
+   "titulo": "Castores voltam ao Lago Ness depois de 500 anos",
+   "resumo": "A Escócia autorizou soltar até 15 famílias de castores em três anos na bacia do rio Ness. O último registro na região é de 1526. Mais de 73% da consulta pública apoiou o plano.",
+   "categoria": "animais",
+   "regiao": "Escócia, Reino Unido",
    "data": "2026-11-03",
    "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/ultra-rare-blood-carrier-finishes-grand-tour-around-australia-to-donate-at-all-85-blood-banks/",
-   "pais": "Austrália",
-   "lat": -25.27,
-   "lon": 133.78,
+   "url": "https://www.goodnewsnetwork.org/loch-ness-is-about-to-welcome-a-new-monster-the-beaver-500-years-since-it-last-lived-there/",
+   "pais": "Escócia",
+   "lat": 57.3,
+   "lon": -4.45,
    "i18n": {
     "es": {
-     "titulo": "Donante de sangre ultrararo completa 545 donaciones y visita los 85 bancos de Australia",
-     "resumo": "Trevor Bergman, de 59 años, tiene un anticuerpo raro que puede ayudar a proteger a bebés durante la gestación. Donó en todos los centros de colecta del país.",
-     "regiao": "Australia",
-     "pais": "Australia"
+     "titulo": "Los castores vuelven al lago Ness después de 500 años",
+     "resumo": "Escocia autorizó liberar hasta 15 familias de castores en tres años en la cuenca del río Ness. El último registro en la zona es de 1526. Más del 73% de la consulta pública apoyó el plan.",
+     "regiao": "Escocia, Reino Unido",
+     "pais": "Escocia"
     },
     "en": {
-     "titulo": "Ultra-rare blood donor reaches 545 donations and visits all 85 blood banks in Australia",
-     "resumo": "Trevor Bergman, 59, carries a rare antibody that can help protect babies during pregnancy. He donated at every collection center in the country.",
-     "regiao": "Australia",
-     "pais": "Australia"
+     "titulo": "Beavers return to Loch Ness after 500 years",
+     "resumo": "Scotland licensed the release of up to 15 beaver families over three years in the River Ness catchment. They were last recorded there in 1526. Over 73% of consultation respondents backed the plan.",
+     "regiao": "Scotland, UK",
+     "pais": "Scotland"
     }
    }
   },
   {
-   "id": "pitanga",
-   "titulo": "Fibras de pitanga e cambuci reduzem células de câncer colorretal em laboratório",
-   "resumo": "Pesquisadores da USP observaram queda na viabilidade das células cancerígenas em testes de bancada. Ainda não há aplicação clínica.",
-   "categoria": "ciencia",
-   "regiao": "Brasil",
-   "data": "2026-11-03",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/03/fibras-pitanga-cambuci-celulas-cancerigenas",
-   "pais": "Brasil",
-   "lat": -23.56,
-   "lon": -46.73,
-   "i18n": {
-    "es": {
-     "titulo": "Fibras de pitanga y cambuci reducen células de cáncer colorrectal en laboratorio",
-     "resumo": "Investigadores de la USP observaron una caída en la viabilidad de las células cancerosas en pruebas de laboratorio. Aún no hay aplicación clínica.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Pitanga and cambuci fibers reduce colorectal cancer cells in the lab",
-     "resumo": "Researchers at the University of São Paulo saw cancer cell viability drop in bench tests. There is no clinical use yet.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "arthur",
-   "titulo": "Estudante de 16 anos de Fortaleza conquista três medalhas internacionais",
-   "resumo": "Arthur Alencar Spuri ganhou ouro na China e pratas na Colômbia e no Vietnã, em Economia, Física e Astronomia.",
-   "categoria": "ciencia",
-   "regiao": "Brasil",
-   "data": "2026-11-03",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/03/brasileiro-16-anos-conquista-3-medalhas-internacionais",
-   "pais": "Brasil",
-   "lat": -3.73,
-   "lon": -38.52,
-   "i18n": {
-    "es": {
-     "titulo": "Estudiante de 16 años de Fortaleza gana tres medallas internacionales",
-     "resumo": "Arthur Alencar Spuri ganó oro en China y platas en Colombia y Vietnam, en Economía, Física y Astronomía.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "16-year-old student from Fortaleza wins three international medals",
-     "resumo": "Arthur Alencar Spuri won gold in China and silver in Colombia and Vietnam, in Economics, Physics and Astronomy.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "physics-cup",
-   "titulo": "Cearense de 24 anos leva ouro na Physics Cup 2026",
-   "resumo": "Vinícius Ferreira Rodrigues ficou em terceiro lugar na categoria universitária, um recorde brasileiro na competição.",
-   "categoria": "ciencia",
-   "regiao": "Ceará, Brasil",
-   "data": "2026-11-01",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/01/cearense-conquista-ouro-competicao-mundial-fisica",
-   "pais": "Brasil",
-   "lat": -3.73,
-   "lon": -38.52,
-   "i18n": {
-    "es": {
-     "titulo": "Joven de Ceará de 24 años gana oro en la Physics Cup 2026",
-     "resumo": "Vinícius Ferreira Rodrigues quedó en tercer lugar en la categoría universitaria, un récord brasileño en la competición.",
-     "regiao": "Ceará, Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "24-year-old from Ceará takes gold at the Physics Cup 2026",
-     "resumo": "Vinícius Ferreira Rodrigues placed third in the university category, a Brazilian record in the competition.",
-     "regiao": "Ceará, Brazil",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "worldskills",
-   "titulo": "Brasil fica em 2º lugar geral na WorldSkills Shanghai 2026",
-   "resumo": "Na maior competição de educação profissional do mundo, a delegação brasileira ganhou oito medalhas e outras 29 medalhas de excelência.",
-   "categoria": "sociedade",
-   "regiao": "Xangai, China",
-   "data": "2026-10-30",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/10/30/brasil-conquista-segundo-lugar-worldskills-2026",
-   "pais": "China",
-   "lat": 31.23,
-   "lon": 121.47,
-   "i18n": {
-    "es": {
-     "titulo": "Brasil queda 2.º en la clasificación general de WorldSkills Shanghai 2026",
-     "resumo": "En la mayor competición de educación profesional del mundo, la delegación brasileña ganó ocho medallas y otras 29 medallas de excelencia.",
-     "regiao": "Shanghái, China",
-     "pais": "China"
-    },
-    "en": {
-     "titulo": "Brazil finishes 2nd overall at WorldSkills Shanghai 2026",
-     "resumo": "At the world's largest vocational skills competition, the Brazilian team won eight medals plus 29 medallions of excellence.",
-     "regiao": "Shanghai, China",
-     "pais": "China"
-    }
-   }
-  },
-  {
-   "id": "prostata",
-   "titulo": "Brasileiro cria equação para prever câncer de próstata",
-   "resumo": "Matheus Farias, de 26 anos, nascido no interior de Alagoas, criou uma equação que simula nanopartículas de ouro sem custo de laboratório.",
-   "categoria": "saude",
-   "regiao": "Brasil",
-   "data": "2026-10-29",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/10/29/brasileiro-equacao-matematica-inedita-cancer-de-prostata",
-   "pais": "Brasil",
-   "lat": -23.55,
-   "lon": -46.63,
-   "i18n": {
-    "es": {
-     "titulo": "Brasileño crea una ecuación para predecir el cáncer de próstata",
-     "resumo": "Matheus Farias, de 26 años, nacido en el interior de Alagoas, creó una ecuación que simula nanopartículas de oro sin costo de laboratorio.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian creates an equation to predict prostate cancer",
-     "resumo": "Matheus Farias, 26, born in rural Alagoas, created an equation that simulates gold nanoparticles with no lab costs.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "perovskita",
-   "titulo": "Células solares de perovskita-silício ficam mais duráveis",
-   "resumo": "Células tandem bifaciais mantiveram 90% da eficiência após mais de 1.000 horas de teste acelerado. O desempenho ao ar livre por anos ainda precisa ser comprovado.",
+   "id": "pawcast",
+   "titulo": "App de previsão do tempo avisa quando o chão está quente demais para as patas dos cães",
+   "resumo": "O Pawcast enviou 28 mil alertas a mais de 2 mil tutores nos EUA. Num teste em Fort Worth, o asfalto chegou a 55 °C com o ar a 37 °C.",
    "categoria": "tecnologia",
-   "regiao": "Mundo",
-   "data": "2026-10-29",
-   "fonte": "Everything Science",
-   "url": "https://everythingscience.substack.com/p/positive-science-news-november-1-2026",
-   "pais": "Global",
-   "i18n": {
-    "es": {
-     "titulo": "Las células solares de perovskita-silicio se vuelven más duraderas",
-     "resumo": "Células tándem bifaciales mantuvieron el 90% de su eficiencia tras más de 1.000 horas de prueba acelerada. Aún falta comprobar su rendimiento al aire libre durante años.",
-     "regiao": "Mundo",
-     "pais": "Global"
-    },
-    "en": {
-     "titulo": "Perovskite-silicon solar cells get more durable",
-     "resumo": "Bifacial tandem cells kept 90% of their efficiency after more than 1,000 hours of accelerated testing. Years of outdoor performance still need to be proven.",
-     "regiao": "World",
-     "pais": "Global"
-    }
-   }
-  },
-  {
-   "id": "hera",
-   "titulo": "Sonda Hera enxerga separados os dois asteroides do teste de desvio",
-   "resumo": "A espaçonave da ESA distinguiu Didymos e Dimorphos, atingido pela missão DART em 2022. Os dados devem melhorar a defesa planetária.",
-   "categoria": "ciencia",
-   "regiao": "Espaço",
-   "data": "2026-10-27",
-   "fonte": "Everything Science",
-   "url": "https://everythingscience.substack.com/p/positive-science-news-november-1-2026",
-   "pais": "Espaço",
-   "i18n": {
-    "es": {
-     "titulo": "La sonda Hera ve por separado los dos asteroides de la prueba de desvío",
-     "resumo": "La nave de la ESA distinguió Didymos y Dimorphos, impactado por la misión DART en 2022. Los datos deben mejorar la defensa planetaria.",
-     "regiao": "Espacio",
-     "pais": "Espacio"
-    },
-    "en": {
-     "titulo": "Hera probe sees the two asteroids from the deflection test separately",
-     "resumo": "The ESA spacecraft resolved Didymos and Dimorphos, which NASA's DART mission struck in 2022. The data should improve planetary defense.",
-     "regiao": "Space",
-     "pais": "Space"
-    }
-   }
-  },
-  {
-   "id": "mama",
-   "titulo": "Parte das pacientes com câncer de mama HER2+ pode evitar quimioterapia",
-   "resumo": "No estudo PHERGain, 86 pacientes com resposta completa sem quimio tiveram 92,4% de sobrevida livre de doença invasiva em cinco anos. É um subgrupo selecionado.",
-   "categoria": "saude",
-   "regiao": "Internacional",
-   "data": "2026-10-30",
-   "fonte": "Everything Science",
-   "url": "https://everythingscience.substack.com/p/positive-science-news-november-1-2026",
-   "pais": "Global",
-   "i18n": {
-    "es": {
-     "titulo": "Parte de las pacientes con cáncer de mama HER2+ puede evitar la quimioterapia",
-     "resumo": "En el estudio PHERGain, 86 pacientes con respuesta completa sin quimio tuvieron un 92,4% de supervivencia libre de enfermedad invasiva a cinco años. Es un subgrupo seleccionado.",
-     "regiao": "Internacional",
-     "pais": "Global"
-    },
-    "en": {
-     "titulo": "Some HER2+ breast cancer patients may be able to skip chemotherapy",
-     "resumo": "In the PHERGain trial, 86 patients with a complete response without chemo had 92.4% five-year invasive disease-free survival. It is a selected subgroup.",
-     "regiao": "International",
-     "pais": "Global"
-    }
-   }
-  },
-  {
-   "id": "fauna-i25",
-   "titulo": "Passagem de fauna no Colorado reduz atropelamentos de animais em 91%",
-   "resumo": "A ponte para animais sobre a Interestadual 25 diminuiu as colisões entre animais e veículos desde a inauguração.",
-   "categoria": "animais",
-   "regiao": "Colorado, EUA",
-   "data": "2026-11-01",
-   "fonte": "Global Positive News",
-   "url": "https://www.globalpositivenewsnetwork.com/good-news-this-week-november-1st/",
+   "regiao": "Estados Unidos",
+   "data": "2026-11-02",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/weather-pet-app-generates-forecasts-for-dogs-head-and-paws-based-on-ground-temps-and-more/",
    "pais": "Estados Unidos",
-   "lat": 39.37,
-   "lon": -104.86,
+   "lat": 32.76,
+   "lon": -97.33,
    "i18n": {
     "es": {
-     "titulo": "Paso de fauna en Colorado reduce un 91% los atropellos de animales",
-     "resumo": "El puente para animales sobre la Interestatal 25 disminuyó las colisiones entre animales y vehículos desde su inauguración.",
-     "regiao": "Colorado, EE. UU.",
+     "titulo": "Una app del tiempo avisa cuando el suelo está demasiado caliente para las patas de los perros",
+     "resumo": "Pawcast envió 28.000 alertas a más de 2.000 dueños en EE. UU. En una prueba en Fort Worth, el asfalto llegó a 55 °C con el aire a 37 °C.",
+     "regiao": "Estados Unidos",
      "pais": "Estados Unidos"
     },
     "en": {
-     "titulo": "Colorado wildlife crossing cuts animal-vehicle crashes by 91%",
-     "resumo": "The wildlife bridge over Interstate 25 has reduced collisions between animals and vehicles since it opened.",
-     "regiao": "Colorado, USA",
+     "titulo": "Weather app warns when the ground is too hot for dogs' paws",
+     "resumo": "Pawcast sent 28,000 alerts to more than 2,000 pet owners across the US. In one Fort Worth test, asphalt hit 131°F while the air was 98°F.",
+     "regiao": "United States",
      "pais": "United States"
+    }
+   }
+  },
+  {
+   "id": "kenli-herois",
+   "titulo": "Desconhecidos salvaram jovem de carro em chamas; hoje a mãe dela dá bolsas a heróis",
+   "resumo": "Kenli Riney, então com 18 anos, foi tirada do carro por quem passava. A fundação criada pela família já premiou 67 heróis com US$ 67 mil, e os pedidos subiram de 4 para 451.",
+   "categoria": "sociedade",
+   "regiao": "Texas, EUA",
+   "data": "2026-11-02",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/strangers-ran-toward-burning-car-to-save-teen-her-mom-now-funds-scholarships-for-heroes-like-them/",
+   "pais": "Estados Unidos",
+   "lat": 30.05,
+   "lon": -99.14,
+   "i18n": {
+    "es": {
+     "titulo": "Desconocidos salvaron a una joven de un coche en llamas; hoy su madre da becas a héroes",
+     "resumo": "Kenli Riney, entonces de 18 años, fue rescatada por personas que pasaban. La fundación de la familia ya premió a 67 héroes con US$ 67.000, y las solicitudes subieron de 4 a 451.",
+     "regiao": "Texas, EE. UU.",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Strangers saved a teen from a burning car; now her mom funds scholarships for heroes",
+     "resumo": "Kenli Riney, then 18, was pulled from her car by passersby. The family's foundation has funded 67 heroes with $67,000, and applications grew from 4 to 451.",
+     "regiao": "Texas, USA",
+     "pais": "United States"
+    }
+   }
+  },
+  {
+   "id": "mesquitas-punjab",
+   "titulo": "Sikhs e hindus ajudam a reconstruir mesquitas no Punjab",
+   "resumo": "Em vilarejos como Punawal e Jakhiwal, vizinhos sikhs e hindus doaram terrenos para erguer mesquitas destruídas na época da Partição da Índia.",
+   "categoria": "sociedade",
+   "regiao": "Punjab, Índia",
+   "data": "2026-11-03",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/rebuilding-mosques-brings-sikhs-hindus-and-muslims-together-after-punjab-violence/",
+   "pais": "Índia",
+   "lat": 31.15,
+   "lon": 75.34,
+   "i18n": {
+    "es": {
+     "titulo": "Sijs e hindúes ayudan a reconstruir mezquitas en el Punyab",
+     "resumo": "En aldeas como Punawal y Jakhiwal, vecinos sijs e hindúes donaron terrenos para levantar mezquitas destruidas en la época de la Partición de la India.",
+     "regiao": "Punyab, India",
+     "pais": "India"
+    },
+    "en": {
+     "titulo": "Sikhs and Hindus help rebuild mosques in Punjab",
+     "resumo": "In villages such as Punawal and Jakhiwal, Sikh and Hindu neighbours donated land to raise mosques destroyed around India's Partition.",
+     "regiao": "Punjab, India",
+     "pais": "India"
+    }
+   }
+  },
+  {
+   "id": "skate-cadeira",
+   "titulo": "Atleta cadeirante abre centro de treino de skate em cadeira de rodas na China",
+   "resumo": "Xie Junwu, recordista do Guinness e com 32 maratonas no currículo, comanda em Nanchang um centro de reabilitação que ensina skate para cadeirantes.",
+   "categoria": "saude",
+   "regiao": "Nanchang, China",
+   "data": "2026-11-03",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/he-conquered-mountains-and-marathons-now-he-teaches-wheelchair-skateboarding-watch/",
+   "pais": "China",
+   "lat": 28.68,
+   "lon": 115.86,
+   "i18n": {
+    "es": {
+     "titulo": "Atleta en silla de ruedas abre un centro de skate en silla de ruedas en China",
+     "resumo": "Xie Junwu, récord Guinness y con 32 maratones, dirige en Nanchang un centro de rehabilitación que enseña skate a personas en silla de ruedas.",
+     "regiao": "Nanchang, China",
+     "pais": "China"
+    },
+    "en": {
+     "titulo": "Wheelchair athlete opens a wheelchair skateboarding centre in China",
+     "resumo": "Xie Junwu, a Guinness record holder with 32 marathons behind him, runs a rehab centre in Nanchang that teaches wheelchair skateboarding.",
+     "regiao": "Nanchang, China",
+     "pais": "China"
+    }
+   }
+  },
+  {
+   "id": "chocolate-reading",
+   "titulo": "Chocolate feito com cacau cultivado na Inglaterra ajuda a proteger o futuro do cacau",
+   "resumo": "Uma estudante da Universidade de Reading produziu seis barras com cacau de estufa. O centro da universidade guarda mais de 300 tipos de cacaueiro.",
+   "categoria": "ciencia",
+   "regiao": "Reading, Inglaterra",
+   "data": "2026-11-04",
+   "fonte": "Positive News",
+   "url": "https://www.positive.news/society/who-needs-a-golden-ticket-the-race-to-future-proof-chocolate/",
+   "pais": "Reino Unido",
+   "lat": 51.44,
+   "lon": -0.94,
+   "i18n": {
+    "es": {
+     "titulo": "Chocolate hecho con cacao cultivado en Inglaterra ayuda a proteger el futuro del cacao",
+     "resumo": "Una estudiante de la Universidad de Reading produjo seis tabletas con cacao de invernadero. El centro de la universidad guarda más de 300 tipos de cacao.",
+     "regiao": "Reading, Inglaterra",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Chocolate made from cocoa grown in England helps future-proof the crop",
+     "resumo": "A University of Reading student made six bars from greenhouse-grown cocoa. The university's centre holds more than 300 types of cocoa plant.",
+     "regiao": "Reading, England",
+     "pais": "United Kingdom"
     }
    }
   }
