@@ -1,411 +1,461 @@
 {
- "atualizado": "2026-11-05",
+ "atualizado": "2026-11-06",
  "noticias": [
   {
-   "id": "hiv-generico",
-   "titulo": "Injeção que previne o HIV ganha versão genérica de US$ 40 por ano",
-   "resumo": "A FDA deu aprovação preliminar ao primeiro lenacapavir genérico, da indiana Dr. Reddy's. O original custa US$ 28.218 por ano; o genérico deve chegar a 120 países de renda baixa e média.",
-   "categoria": "saude",
-   "regiao": "Estados Unidos",
-   "data": "2026-11-03",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/03/injecao-que-previne-hiv-generico-40-dolares",
-   "pais": "Estados Unidos",
-   "destaque": true,
-   "lat": 38.9,
-   "lon": -77.04,
-   "i18n": {
-    "es": {
-     "titulo": "La inyección que previene el VIH tendrá una versión genérica de US$ 40 al año",
-     "resumo": "La FDA dio aprobación preliminar al primer lenacapavir genérico, de la india Dr. Reddy's. El original cuesta US$ 28.218 al año; el genérico debe llegar a 120 países de ingresos bajos y medios.",
-     "regiao": "Estados Unidos",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "HIV-prevention shot gets a US$40-a-year generic version",
-     "resumo": "The FDA gave preliminary approval to the first generic lenacapavir, made by India's Dr. Reddy's. The original costs US$28,218 a year; the generic is meant for 120 low- and middle-income countries.",
-     "regiao": "United States",
-     "pais": "United States"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-03T103430.177.jpg",
-   "credito": "Foto: reprodução/Boston Globe"
-  },
-  {
-   "id": "medula-alemanha",
-   "titulo": "Menino de Curitiba é salvo por doador de medula da Alemanha e ganha um \"irmão alemão\"",
-   "resumo": "Arthur Barão Massan, de 9 anos, tinha anemia de Fanconi. As células do doador Florian Weiand, de 23 anos, viajaram cerca de 10 mil km e chegaram em menos de 24 horas. As famílias fizeram o primeiro contato em maio de 2026.",
-   "categoria": "saude",
-   "regiao": "Curitiba, PR",
-   "data": "2026-11-02",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/02/menino-brasileiro-salvo-doador-medula-ossea-alemanha",
+   "id": "pantanal-parque",
+   "titulo": "Brasil amplia em mais de 25% o Parque Nacional do Pantanal",
+   "resumo": "O Parque Nacional do Pantanal Matogrossense, gerido pelo ICMBio, ganhou cerca de 480 km² a mais. A região abriga 463 espécies de aves e a maior concentração de onças-pintadas do planeta.",
+   "categoria": "meio-ambiente",
+   "regiao": "Mato Grosso",
+   "data": "2026-11-04",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/brazil-expands-protected-area-for-one-of-the-richest-and-most-sensitive-biomes-on-the-planet/",
    "pais": "Brasil",
    "destaque": true,
-   "lat": -25.43,
-   "lon": -49.27,
+   "lat": -17.75,
+   "lon": -57.4,
    "i18n": {
     "es": {
-     "titulo": "Niño de Curitiba es salvado por un donante de médula de Alemania y gana un \"hermano alemán\"",
-     "resumo": "Arthur Barão Massan, de 9 años, tenía anemia de Fanconi. Las células del donante Florian Weiand, de 23 años, viajaron unos 10.000 km y llegaron en menos de 24 horas. Las familias tuvieron su primer contacto en mayo de 2026.",
-     "regiao": "Curitiba, Brasil",
+     "titulo": "Brasil amplía en más del 25% el Parque Nacional del Pantanal",
+     "resumo": "El Parque Nacional del Pantanal Matogrossense, gestionado por el ICMBio, sumó unos 480 km². La región alberga 463 especies de aves y la mayor concentración de jaguares del planeta.",
+     "regiao": "Mato Grosso",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Boy from Curitiba saved by a German bone marrow donor gains a \"German brother\"",
-     "resumo": "Arthur Barão Massan, 9, had Fanconi anemia. Cells from donor Florian Weiand, 23, travelled about 10,000 km and arrived in under 24 hours. The families first made contact in May 2026.",
-     "regiao": "Curitiba, Brazil",
+     "titulo": "Brazil expands Pantanal National Park by more than 25%",
+     "resumo": "Pantanal Matogrossense National Park, managed by ICMBio, grew by 185 square miles. The region is home to 463 bird species and the largest concentration of jaguars on Earth.",
+     "regiao": "Mato Grosso",
      "pais": "Brazil"
     }
    },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/foto_rapazes_SNB_800x560.png",
-   "credito": "Fotos: reprodução/RPC TV"
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Pantanal-landscape-credit-Filipe-Frazao-CC-3.0-BY-SA-1.jpg",
+   "credito": "Foto: Filipe Frazão (CC BY-SA 3.0)"
   },
   {
-   "id": "caes-hospital",
-   "titulo": "Cães terapeutas visitam pacientes em hospital de Fortaleza",
-   "resumo": "O grupo Sexteto 4 Patas levou carinho aos pacientes do Hospital Estadual Leonardo da Vinci. Uma das visitadas foi Francisca Fábia Lopes, de 51 anos, internada havia 14 dias.",
-   "categoria": "animais",
-   "regiao": "Fortaleza, CE",
+   "id": "microplasticos-paranoa",
+   "titulo": "Jovem de 18 anos cria método com IA para detectar microplásticos na água",
+   "resumo": "Tom Silva Nunes montou um aparelho impresso em 3D, com LEDs e lentes, e treinou uma IA com mais de 2 mil micropartículas. O projeto mapeia o isopor no Lago Paranoá.",
+   "categoria": "meio-ambiente",
+   "regiao": "Brasília (DF)",
    "data": "2026-11-04",
    "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/caes-terapeutas-hospital-fortaleza-pacientes",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/jovem-metodo-detectar-microplasticos-agua",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -15.8,
+   "lon": -47.82,
+   "i18n": {
+    "es": {
+     "titulo": "Joven de 18 años crea un método con IA para detectar microplásticos en el agua",
+     "resumo": "Tom Silva Nunes armó un aparato impreso en 3D, con LED y lentes, y entrenó una IA con más de 2.000 micropartículas. El proyecto mapea el poliestireno en el Lago Paranoá.",
+     "regiao": "Brasilia (DF)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "18-year-old builds an AI method to detect microplastics in water",
+     "resumo": "Tom Silva Nunes built a 3D-printed device with LEDs and lenses and trained an AI on more than 2,000 microparticles. His project maps styrofoam in Lake Paranoá.",
+     "regiao": "Brasília (DF)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-21.png",
+   "credito": "Foto: Carlos Vieira/CB/D.A Press"
+  },
+  {
+   "id": "arthur-olimpiadas",
+   "titulo": "Brasileiro de 16 anos conquista 3 medalhas internacionais",
+   "resumo": "Arthur Alencar Spuri, de Fortaleza, levou ouro com pontuação recorde na Olimpíada Internacional de Economia, na China, e pratas em Física e em Astronomia.",
+   "categoria": "ciencia",
+   "regiao": "Fortaleza (CE)",
+   "data": "2026-11-03",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/03/brasileiro-16-anos-conquista-3-medalhas-internacionais",
    "pais": "Brasil",
    "lat": -3.73,
    "lon": -38.52,
    "i18n": {
     "es": {
-     "titulo": "Perros de terapia visitan a pacientes en un hospital de Fortaleza",
-     "resumo": "El grupo Sexteto 4 Patas llevó cariño a los pacientes del Hospital Estatal Leonardo da Vinci. Una de las visitadas fue Francisca Fábia Lopes, de 51 años, internada desde hacía 14 días.",
-     "regiao": "Fortaleza, Brasil",
+     "titulo": "Brasileño de 16 años gana 3 medallas internacionales",
+     "resumo": "Arthur Alencar Spuri, de Fortaleza, ganó oro con puntaje récord en la Olimpiada Internacional de Economía, en China, y platas en Física y Astronomía.",
+     "regiao": "Fortaleza (CE)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Therapy dogs visit patients at a hospital in Fortaleza",
-     "resumo": "The Sexteto 4 Patas group brought comfort to patients at the Leonardo da Vinci State Hospital. One of them was Francisca Fábia Lopes, 51, who had been in hospital for 14 days.",
-     "regiao": "Fortaleza, Brazil",
+     "titulo": "16-year-old Brazilian wins 3 international medals",
+     "resumo": "Arthur Alencar Spuri, from Fortaleza, took gold with a record score at the International Economics Olympiad in China, plus silvers in Physics and Astronomy.",
+     "regiao": "Fortaleza (CE)",
      "pais": "Brazil"
     }
    },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-23.png",
-   "credito": "Foto: Ivina Sales/Ascom Helv"
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-03T082317.577.jpg",
+   "credito": "Fotos: Arquivo pessoal"
   },
   {
-   "id": "colar-calisto",
-   "titulo": "Alunas de escola pública criam colar que pede socorro para proteger mulheres",
-   "resumo": "Quatro estudantes do CEEPTIC, em Lauro de Freitas, criaram o colar Calisto: dois toques no botão enviam um alerta com a localização em tempo real. O protótipo custou cerca de R$ 80.",
-   "categoria": "tecnologia",
-   "regiao": "Lauro de Freitas, BA",
-   "data": "2026-11-04",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/colar-inteligente-proteger-mulheres-alunas-bahia",
-   "pais": "Brasil",
-   "lat": -12.9,
-   "lon": -38.33,
-   "i18n": {
-    "es": {
-     "titulo": "Alumnas de una escuela pública crean un collar que pide ayuda para proteger a las mujeres",
-     "resumo": "Cuatro estudiantes del CEEPTIC, en Lauro de Freitas, crearon el collar Calisto: dos toques en el botón envían una alerta con la ubicación en tiempo real. El prototipo costó unos R$ 80.",
-     "regiao": "Lauro de Freitas, Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Public school students build a necklace that calls for help to protect women",
-     "resumo": "Four students at CEEPTIC in Lauro de Freitas created the Calisto necklace: two presses of its button send an alert with real-time location. The prototype cost about R$80.",
-     "regiao": "Lauro de Freitas, Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-24.png",
-   "credito": "Foto: Milena Monteiro/Ascom Secti"
-  },
-  {
-   "id": "ema-poemas",
-   "titulo": "Professora de 96 anos lança o primeiro livro, com mais de 100 poemas escritos à mão",
-   "resumo": "Ema Vargas apresenta \"Eu Venho Oferecer Meu Coração\" na 72ª Feira do Livro de Porto Alegre, que vai até 15 de novembro na Praça da Alfândega.",
-   "categoria": "sociedade",
-   "regiao": "Porto Alegre, RS",
-   "data": "2026-11-04",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/professora-96-anos-lanca-primeiro-livro-poemas-escritos-a-mao-rs",
-   "pais": "Brasil",
-   "lat": -30.03,
-   "lon": -51.23,
-   "i18n": {
-    "es": {
-     "titulo": "Maestra de 96 años lanza su primer libro, con más de 100 poemas escritos a mano",
-     "resumo": "Ema Vargas presenta \"Eu Venho Oferecer Meu Coração\" en la 72.ª Feria del Libro de Porto Alegre, que sigue hasta el 15 de noviembre.",
-     "regiao": "Porto Alegre, Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "96-year-old teacher publishes her first book of 100+ handwritten poems",
-     "resumo": "Ema Vargas presents \"Eu Venho Oferecer Meu Coração\" at the 72nd Porto Alegre Book Fair, which runs until November 15.",
-     "regiao": "Porto Alegre, Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-04T114302.732.jpg",
-   "credito": "Foto: Regina Lemos"
-  },
-  {
-   "id": "zeze-motta",
-   "titulo": "Zezé Motta adotou um menino que vivia nas ruas; 30 anos depois, ele conta a história",
-   "resumo": "Robson viveu na Central do Brasil até os 13 anos. Hoje, aos 45, comanda a Rede Cultura Social, que já levou mais de 4.500 crianças e jovens a teatros, cinemas e museus.",
-   "categoria": "sociedade",
-   "regiao": "Rio de Janeiro, RJ",
-   "data": "2026-11-02",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/02/zeze-motta-adotou-garoto-ruas-30-anos",
-   "pais": "Brasil",
-   "lat": -22.9,
-   "lon": -43.19,
-   "i18n": {
-    "es": {
-     "titulo": "Zezé Motta adoptó a un niño que vivía en la calle; 30 años después, él cuenta la historia",
-     "resumo": "Robson vivió en la estación Central do Brasil hasta los 13 años. Hoy, a los 45, dirige la Rede Cultura Social, que ya llevó a más de 4.500 niños y jóvenes a teatros, cines y museos.",
-     "regiao": "Río de Janeiro, Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Actress Zezé Motta adopted a boy living on the streets; 30 years later he tells the story",
-     "resumo": "Robson lived at Rio's Central do Brasil station until he was 13. Now 45, he runs Rede Cultura Social, which has taken more than 4,500 children and teens to theatres, cinemas and museums.",
-     "regiao": "Rio de Janeiro, Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-02T122202.760.jpg",
-   "credito": "Fotos: reprodução/TV Cultura/GNT"
-  },
-  {
-   "id": "foto-cerrado",
-   "titulo": "Foto do Cerrado vence prêmio mundial disputado por 177 países",
-   "resumo": "Márcio Cabral levou o grande prêmio do 17º Greenstorm Photography Festival com \"Pandora\", feita na Chapada dos Veadeiros. Foram 14.513 imagens inscritas.",
-   "categoria": "meio-ambiente",
-   "regiao": "Chapada dos Veadeiros, GO",
-   "data": "2026-11-02",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/02/brasileiro-ganha-1-lugar-mundial-fotografia-cerrado",
-   "pais": "Brasil",
-   "lat": -14.13,
-   "lon": -47.51,
-   "i18n": {
-    "es": {
-     "titulo": "Una foto del Cerrado gana un premio mundial con participantes de 177 países",
-     "resumo": "Márcio Cabral ganó el gran premio del 17.º Greenstorm Photography Festival con \"Pandora\", tomada en la Chapada dos Veadeiros. Hubo 14.513 imágenes inscritas.",
-     "regiao": "Chapada dos Veadeiros, Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Photo of Brazil's Cerrado wins a world prize against entries from 177 countries",
-     "resumo": "Márcio Cabral won the grand prize at the 17th Greenstorm Photography Festival with \"Pandora\", shot in Chapada dos Veadeiros. There were 14,513 entries.",
-     "regiao": "Chapada dos Veadeiros, Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-02T080456.449.jpg",
-   "credito": "Foto: Márcio Cabral"
-  },
-  {
-   "id": "escola-marilyn",
-   "titulo": "Escola vai ganhar o nome de funcionária da limpeza que dedicou 39 anos aos alunos",
-   "resumo": "Marilyn Hampton, de 76 anos, trabalha nas escolas de Aubrey, no Texas, desde 1983. A Marilyn Hampton Elementary School deve abrir em agosto de 2027.",
-   "categoria": "sociedade",
-   "regiao": "Texas, EUA",
-   "data": "2026-11-03",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/03/funcionaria-limpeza-escola-texas",
-   "pais": "Estados Unidos",
-   "lat": 33.3,
-   "lon": -96.99,
-   "i18n": {
-    "es": {
-     "titulo": "Una escuela llevará el nombre de la conserje que dedicó 39 años a los alumnos",
-     "resumo": "Marilyn Hampton, de 76 años, trabaja en las escuelas de Aubrey, Texas, desde 1983. La Marilyn Hampton Elementary School debe abrir en agosto de 2027.",
-     "regiao": "Texas, EE. UU.",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "New school will be named after the janitor who gave 39 years to its students",
-     "resumo": "Marilyn Hampton, 76, has worked in the Aubrey, Texas school system since 1983. Marilyn Hampton Elementary School is due to open in August 2027.",
-     "regiao": "Texas, USA",
-     "pais": "United States"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-14.png",
-   "credito": "Foto: reprodução/Aubrey ISD"
-  },
-  {
-   "id": "castores-ness",
-   "titulo": "Castores voltam ao Lago Ness depois de 500 anos",
-   "resumo": "A Escócia autorizou soltar até 15 famílias de castores em três anos na bacia do rio Ness. O último registro na região é de 1526. Mais de 73% da consulta pública apoiou o plano.",
+   "id": "chico-petshop",
+   "titulo": "Cachorro resgatado volta ao petshop onde foi adotado e faz a maior festa",
+   "resumo": "Chico, resgatado das ruas do Guarujá, reencontrou Juliana e Carolina no petshop onde foi cuidado e adotado. O vídeo da festa foi publicado pelo dono.",
    "categoria": "animais",
-   "regiao": "Escócia, Reino Unido",
+   "regiao": "Guarujá (SP)",
+   "data": "2026-11-05",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/05/cachorro-volta-petshop-onde-foi-adotado-faz-festa-video",
+   "pais": "Brasil",
+   "lat": -23.99,
+   "lon": -46.26,
+   "i18n": {
+    "es": {
+     "titulo": "Perro rescatado vuelve a la tienda de mascotas donde fue adoptado y hace fiesta",
+     "resumo": "Chico, rescatado de las calles de Guarujá, se reencontró con Juliana y Carolina en la tienda donde lo cuidaron y adoptaron. Su dueño publicó el video.",
+     "regiao": "Guarujá (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Rescued dog returns to the pet shop where he was adopted and throws a party",
+     "resumo": "Chico, rescued from the streets of Guarujá, reunited with Juliana and Carolina at the pet shop that cared for him. His owner posted the video.",
+     "regiao": "Guarujá (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-05T111809.599.jpg",
+   "credito": "Fotos: reprodução/Instagram @ochicoguedes"
+  },
+  {
+   "id": "pitanga-cambuci",
+   "titulo": "Fibras de pitanga e cambuci reduzem células de câncer em laboratório",
+   "resumo": "Estudo da USP liderado por João Paulo Fabi viu queda de 20% a 90% na viabilidade de células de câncer colorretal com fibras de pitanga. Ainda não houve testes em animais ou pessoas.",
+   "categoria": "saude",
+   "regiao": "São Paulo (SP)",
    "data": "2026-11-03",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/loch-ness-is-about-to-welcome-a-new-monster-the-beaver-500-years-since-it-last-lived-there/",
-   "pais": "Escócia",
-   "lat": 57.3,
-   "lon": -4.45,
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/03/fibras-pitanga-cambuci-celulas-cancerigenas",
+   "pais": "Brasil",
+   "lat": -23.56,
+   "lon": -46.73,
    "i18n": {
     "es": {
-     "titulo": "Los castores vuelven al lago Ness después de 500 años",
-     "resumo": "Escocia autorizó liberar hasta 15 familias de castores en tres años en la cuenca del río Ness. El último registro en la zona es de 1526. Más del 73% de la consulta pública apoyó el plan.",
-     "regiao": "Escocia, Reino Unido",
-     "pais": "Escocia"
+     "titulo": "Fibras de pitanga y cambuci reducen células de cáncer en laboratorio",
+     "resumo": "Un estudio de la USP dirigido por João Paulo Fabi vio una caída del 20% al 90% en la viabilidad de células de cáncer colorrectal con fibras de pitanga. Aún no se probó en animales ni personas.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
     },
     "en": {
-     "titulo": "Beavers return to Loch Ness after 500 years",
-     "resumo": "Scotland licensed the release of up to 15 beaver families over three years in the River Ness catchment. They were last recorded there in 1526. Over 73% of consultation respondents backed the plan.",
-     "regiao": "Scotland, UK",
-     "pais": "Scotland"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-NatureScot.jpg",
-   "credito": "NatureScot"
-  },
-  {
-   "id": "pawcast",
-   "titulo": "App de previsão do tempo avisa quando o chão está quente demais para as patas dos cães",
-   "resumo": "O Pawcast enviou 28 mil alertas a mais de 2 mil tutores nos EUA. Num teste em Fort Worth, o asfalto chegou a 55 °C com o ar a 37 °C.",
-   "categoria": "tecnologia",
-   "regiao": "Estados Unidos",
-   "data": "2026-11-02",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/weather-pet-app-generates-forecasts-for-dogs-head-and-paws-based-on-ground-temps-and-more/",
-   "pais": "Estados Unidos",
-   "lat": 32.76,
-   "lon": -97.33,
-   "i18n": {
-    "es": {
-     "titulo": "Una app del tiempo avisa cuando el suelo está demasiado caliente para las patas de los perros",
-     "resumo": "Pawcast envió 28.000 alertas a más de 2.000 dueños en EE. UU. En una prueba en Fort Worth, el asfalto llegó a 55 °C con el aire a 37 °C.",
-     "regiao": "Estados Unidos",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Weather app warns when the ground is too hot for dogs' paws",
-     "resumo": "Pawcast sent 28,000 alerts to more than 2,000 pet owners across the US. In one Fort Worth test, asphalt hit 131°F while the air was 98°F.",
-     "regiao": "United States",
-     "pais": "United States"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-retrieved-from-Pawcast.jpg",
-   "credito": "Pawcast"
-  },
-  {
-   "id": "kenli-herois",
-   "titulo": "Desconhecidos salvaram jovem de carro em chamas; hoje a mãe dela dá bolsas a heróis",
-   "resumo": "Kenli Riney, então com 18 anos, foi tirada do carro por quem passava. A fundação criada pela família já premiou 67 heróis com US$ 67 mil, e os pedidos subiram de 4 para 451.",
-   "categoria": "sociedade",
-   "regiao": "Texas, EUA",
-   "data": "2026-11-02",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/strangers-ran-toward-burning-car-to-save-teen-her-mom-now-funds-scholarships-for-heroes-like-them/",
-   "pais": "Estados Unidos",
-   "lat": 30.05,
-   "lon": -99.14,
-   "i18n": {
-    "es": {
-     "titulo": "Desconocidos salvaron a una joven de un coche en llamas; hoy su madre da becas a héroes",
-     "resumo": "Kenli Riney, entonces de 18 años, fue rescatada por personas que pasaban. La fundación de la familia ya premió a 67 héroes con US$ 67.000, y las solicitudes subieron de 4 a 451.",
-     "regiao": "Texas, EE. UU.",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Strangers saved a teen from a burning car; now her mom funds scholarships for heroes",
-     "resumo": "Kenli Riney, then 18, was pulled from her car by passersby. The family's foundation has funded 67 heroes with $67,000, and applications grew from 4 to 451.",
-     "regiao": "Texas, USA",
-     "pais": "United States"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/supplied-by-Marjohn-Riney.jpg",
-   "credito": "Marjohn Riney"
-  },
-  {
-   "id": "mesquitas-punjab",
-   "titulo": "Sikhs e hindus ajudam a reconstruir mesquitas no Punjab",
-   "resumo": "Em vilarejos como Punawal e Jakhiwal, vizinhos sikhs e hindus doaram terrenos para erguer mesquitas destruídas na época da Partição da Índia.",
-   "categoria": "sociedade",
-   "regiao": "Punjab, Índia",
-   "data": "2026-11-03",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/rebuilding-mosques-brings-sikhs-hindus-and-muslims-together-after-punjab-violence/",
-   "pais": "Índia",
-   "lat": 31.15,
-   "lon": 75.34,
-   "i18n": {
-    "es": {
-     "titulo": "Sijs e hindúes ayudan a reconstruir mezquitas en el Punyab",
-     "resumo": "En aldeas como Punawal y Jakhiwal, vecinos sijs e hindúes donaron terrenos para levantar mezquitas destruidas en la época de la Partición de la India.",
-     "regiao": "Punyab, India",
-     "pais": "India"
-    },
-    "en": {
-     "titulo": "Sikhs and Hindus help rebuild mosques in Punjab",
-     "resumo": "In villages such as Punawal and Jakhiwal, Sikh and Hindu neighbours donated land to raise mosques destroyed around India's Partition.",
-     "regiao": "Punjab, India",
-     "pais": "India"
+     "titulo": "Pitanga and cambuci fibres cut cancer cells in the lab",
+     "resumo": "A University of São Paulo study led by João Paulo Fabi saw pitanga fibres reduce colorectal cancer cell viability by 20% to 90%. It has not yet been tested in animals or people.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
     }
    }
   },
   {
-   "id": "skate-cadeira",
-   "titulo": "Atleta cadeirante abre centro de treino de skate em cadeira de rodas na China",
-   "resumo": "Xie Junwu, recordista do Guinness e com 32 maratonas no currículo, comanda em Nanchang um centro de reabilitação que ensina skate para cadeirantes.",
+   "id": "trevor-sangue",
+   "titulo": "Homem com sangue ultrarraro faz 545 doações e visita 85 bancos de sangue",
+   "resumo": "O policial Trevor Bergman, de 59 anos, doou em todos os 85 centros de coleta da Austrália. Ele é um dos cerca de 150 australianos com o anticorpo anti-D.",
    "categoria": "saude",
-   "regiao": "Nanchang, China",
-   "data": "2026-11-03",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/he-conquered-mountains-and-marathons-now-he-teaches-wheelchair-skateboarding-watch/",
-   "pais": "China",
-   "lat": 28.68,
-   "lon": 115.86,
+   "regiao": "Melbourne",
+   "data": "2026-11-04",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/homem-sangue-ultrarraro-545-doacoes",
+   "pais": "Austrália",
+   "lat": -37.81,
+   "lon": 144.96,
    "i18n": {
     "es": {
-     "titulo": "Atleta en silla de ruedas abre un centro de skate en silla de ruedas en China",
-     "resumo": "Xie Junwu, récord Guinness y con 32 maratones, dirige en Nanchang un centro de rehabilitación que enseña skate a personas en silla de ruedas.",
-     "regiao": "Nanchang, China",
-     "pais": "China"
+     "titulo": "Hombre con sangre ultrarrara hace 545 donaciones y visita 85 bancos de sangre",
+     "resumo": "El policía Trevor Bergman, de 59 años, donó en los 85 centros de colecta de Australia. Es uno de los cerca de 150 australianos con el anticuerpo anti-D.",
+     "regiao": "Melbourne",
+     "pais": "Australia"
     },
     "en": {
-     "titulo": "Wheelchair athlete opens a wheelchair skateboarding centre in China",
-     "resumo": "Xie Junwu, a Guinness record holder with 32 marathons behind him, runs a rehab centre in Nanchang that teaches wheelchair skateboarding.",
-     "regiao": "Nanchang, China",
-     "pais": "China"
+     "titulo": "Man with ultra-rare blood makes 545 donations across 85 blood banks",
+     "resumo": "Police officer Trevor Bergman, 59, has donated at all 85 collection centres in Australia. He is one of about 150 Australians with the anti-D antibody.",
+     "regiao": "Melbourne",
+     "pais": "Australia"
     }
    },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/YouTube-screengrab-credit-Xie-Junwu-.jpg",
-   "credito": "Xie Junwu/YouTube"
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-11.05.43.jpeg",
+   "credito": "Foto: Trevor Bergman/divulgação ABC News"
   },
   {
-   "id": "chocolate-reading",
-   "titulo": "Chocolate feito com cacau cultivado na Inglaterra ajuda a proteger o futuro do cacau",
-   "resumo": "Uma estudante da Universidade de Reading produziu seis barras com cacau de estufa. O centro da universidade guarda mais de 300 tipos de cacaueiro.",
-   "categoria": "ciencia",
-   "regiao": "Reading, Inglaterra",
-   "data": "2026-11-04",
-   "fonte": "Positive News",
-   "url": "https://www.positive.news/society/who-needs-a-golden-ticket-the-race-to-future-proof-chocolate/",
+   "id": "andorinhas-pagham",
+   "titulo": "Aves marinhas voltam a colônia que a gripe aviária tinha dizimado",
+   "resumo": "Na colônia de Pagham, na Inglaterra, os casais de trinta-réis-de-bico-amarelo passaram de zero para 756 em três anos, graças ao trabalho de conservação da RSPB.",
+   "categoria": "animais",
+   "regiao": "Pagham",
+   "data": "2026-11-05",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/miracle-recovery-sees-seabirds-reclaim-former-colony-after-avian-flu-wiped-them-out/",
    "pais": "Reino Unido",
-   "lat": 51.44,
-   "lon": -0.94,
+   "lat": 50.77,
+   "lon": -0.75,
    "i18n": {
     "es": {
-     "titulo": "Chocolate hecho con cacao cultivado en Inglaterra ayuda a proteger el futuro del cacao",
-     "resumo": "Una estudiante de la Universidad de Reading produjo seis tabletas con cacao de invernadero. El centro de la universidad guarda más de 300 tipos de cacao.",
-     "regiao": "Reading, Inglaterra",
+     "titulo": "Aves marinas vuelven a la colonia que la gripe aviar había diezmado",
+     "resumo": "En la colonia de Pagham, Inglaterra, las parejas de charrán patinegro pasaron de cero a 756 en tres años, gracias al trabajo de conservación de la RSPB.",
+     "regiao": "Pagham",
      "pais": "Reino Unido"
     },
     "en": {
-     "titulo": "Chocolate made from cocoa grown in England helps future-proof the crop",
-     "resumo": "A University of Reading student made six bars from greenhouse-grown cocoa. The university's centre holds more than 300 types of cocoa plant.",
-     "regiao": "Reading, England",
+     "titulo": "Seabirds reclaim a colony wiped out by avian flu",
+     "resumo": "At the Pagham colony in England, breeding sandwich tern pairs rose from zero to 756 in three years, thanks to RSPB conservation work.",
+     "regiao": "Pagham",
      "pais": "United Kingdom"
     }
    },
-   "img": "https://www.positive.news/wp-content/uploads/2026/11/20260331_100216311_iOS-1800x0-c-center.jpg",
-   "credito": "University of Reading"
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-David-Kinchin-Smith-RSPB.jpg",
+   "credito": "Foto: David Kinchin-Smith/RSPB"
+  },
+  {
+   "id": "fone-chatgpt",
+   "titulo": "Homem usa ChatGPT para achar fone perdido entre milhares de pedras",
+   "resumo": "A IA pediu fotos mais de perto e apontou o fone na terceira imagem. Segundo o relato no Reddit, tudo levou menos de cinco minutos.",
+   "categoria": "tecnologia",
+   "regiao": "Internet",
+   "data": "2026-11-05",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/05/homem-usa-chatgpt-para-encontrar-fone-de-ouvido-perdido-entre-milhares-de-pedras-veja-como-conseguiu",
+   "pais": "Global",
+   "i18n": {
+    "es": {
+     "titulo": "Hombre usa ChatGPT para encontrar un auricular perdido entre miles de piedras",
+     "resumo": "La IA pidió fotos más cercanas y señaló el auricular en la tercera imagen. Según el relato en Reddit, todo tomó menos de cinco minutos.",
+     "regiao": "Internet",
+     "pais": "Global"
+    },
+    "en": {
+     "titulo": "Man uses ChatGPT to find a lost earbud among thousands of pebbles",
+     "resumo": "The AI asked for closer photos and spotted the earbud in the third one. According to the Reddit post, it took under five minutes.",
+     "regiao": "Internet",
+     "pais": "Global"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-09.33.58.jpeg",
+   "credito": "Foto: reprodução/Reddit @Just_a_fungi893"
+  },
+  {
+   "id": "bella-onibus",
+   "titulo": "Menina de 11 anos salva motorista de ônibus escolar com crise de asma",
+   "resumo": "Bella Scott ligou para o pai quando o motorista, com pelo menos 20 alunos a bordo, não conseguia respirar. A escola reconheceu o ato heroico.",
+   "categoria": "sociedade",
+   "regiao": "Cedar Rapids",
+   "data": "2026-11-04",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/menina-11-anos-salva-motorista-onibus-escolar-asma",
+   "pais": "Estados Unidos",
+   "lat": 41.98,
+   "lon": -91.67,
+   "i18n": {
+    "es": {
+     "titulo": "Niña de 11 años salva al conductor del autobús escolar durante una crisis de asma",
+     "resumo": "Bella Scott llamó a su padre cuando el conductor, con al menos 20 alumnos a bordo, no podía respirar. La escuela reconoció su acto heroico.",
+     "regiao": "Cedar Rapids",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "11-year-old saves school bus driver during an asthma attack",
+     "resumo": "Bella Scott called her father when the driver, with at least 20 students aboard, could not breathe. Her school recognised the heroic act.",
+     "regiao": "Cedar Rapids",
+     "pais": "United States"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-04T102834.263.jpg",
+   "credito": "Fotos: reprodução/KCRG"
+  },
+  {
+   "id": "campo-alimentos",
+   "titulo": "Estudantes enchem campo de futebol com 113 toneladas de alimentos",
+   "resumo": "Na escola Howell, em Nova Jersey, a campanha da Dermer Dreams juntou mais de 113 toneladas de comida, doadas a 30 bancos de alimentos.",
+   "categoria": "sociedade",
+   "regiao": "Nova Jersey",
+   "data": "2026-11-05",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/05/113-toneladas-alimentos-estudantes-campo-futebol",
+   "pais": "Estados Unidos",
+   "lat": 40.18,
+   "lon": -74.19,
+   "i18n": {
+    "es": {
+     "titulo": "Estudiantes llenan una cancha de fútbol con 113 toneladas de alimentos",
+     "resumo": "En la escuela Howell, en Nueva Jersey, la campaña de Dermer Dreams reunió más de 113 toneladas de comida, donadas a 30 bancos de alimentos.",
+     "regiao": "Nueva Jersey",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Students fill a football field with 250,000 pounds of food",
+     "resumo": "At Howell High School in New Jersey, a Dermer Dreams drive collected more than 250,000 pounds of food, donated to 30 food banks.",
+     "regiao": "New Jersey",
+     "pais": "United States"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-27.png",
+   "credito": "Foto: Tommy Pantaleo/Dermer Dreams"
+  },
+  {
+   "id": "amigas-casamento",
+   "titulo": "Depois de 30 anos juntas como amigas, Cheryl e Lynn se casam",
+   "resumo": "Cheryl Henderson, de 65 anos, e Lynn Bisbee, de 78, se declararam em junho e casaram em setembro, numa garagem em Stowe, Vermont.",
+   "categoria": "sociedade",
+   "regiao": "Vermont",
+   "data": "2026-11-05",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/05/mulheres-viveram-30-anos-juntas-amigas-se-casam",
+   "pais": "Estados Unidos",
+   "lat": 44.47,
+   "lon": -72.68,
+   "i18n": {
+    "es": {
+     "titulo": "Tras 30 años juntas como amigas, Cheryl y Lynn se casan",
+     "resumo": "Cheryl Henderson, de 65 años, y Lynn Bisbee, de 78, se declararon en junio y se casaron en septiembre, en un garaje en Stowe, Vermont.",
+     "regiao": "Vermont",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "After 30 years together as friends, Cheryl and Lynn get married",
+     "resumo": "Cheryl Henderson, 65, and Lynn Bisbee, 78, declared their love in June and married in September in a garage in Stowe, Vermont.",
+     "regiao": "Vermont",
+     "pais": "United States"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-05T091521.459.jpg",
+   "credito": "Foto: Avery Wolff/SWNS"
+  },
+  {
+   "id": "oficina-houston",
+   "titulo": "Oficina mecânica de alunos abre ao público em Houston",
+   "resumo": "No Barbara Jordan Career Center, estudantes fazem troca de óleo, rodízio de pneus e revisões às sextas. O cliente paga só a mão de obra dos alunos.",
+   "categoria": "sociedade",
+   "regiao": "Houston",
+   "data": "2026-11-04",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/student-run-automotive-shop-opens-to-the-public-in-houston-where-every-oil-change-helps-the-next-generation/",
+   "pais": "Estados Unidos",
+   "lat": 29.78,
+   "lon": -95.34,
+   "i18n": {
+    "es": {
+     "titulo": "Taller mecánico de estudiantes abre al público en Houston",
+     "resumo": "En el Barbara Jordan Career Center, los estudiantes cambian aceite, rotan neumáticos y hacen revisiones los viernes. El cliente paga solo la mano de obra estudiantil.",
+     "regiao": "Houston",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Student-run auto shop opens to the public in Houston",
+     "resumo": "At the Barbara Jordan Career Center, students do oil changes, tire rotations and inspections on Fridays. Customers pay only for student labor.",
+     "regiao": "Houston",
+     "pais": "United States"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/YouTube-Screengrab-Houston-Independent-School-District.jpg",
+   "credito": "Foto: reprodução/Houston ISD"
+  },
+  {
+   "id": "italia-homicidios",
+   "titulo": "Itália tem a terceira menor taxa de homicídios da União Europeia",
+   "resumo": "A taxa caiu para 0,57 por 100 mil habitantes em 2023, contra 3,4 em 1991. Os homicídios ligados à máfia caíram 80% desde 1985, segundo o Eurispes.",
+   "categoria": "sociedade",
+   "regiao": "Itália",
+   "data": "2026-11-04",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/italy-sees-collapse-in-its-homicide-rate-to-3rd-lowest-in-the-eu/",
+   "pais": "Itália",
+   "lat": 41.9,
+   "lon": 12.5,
+   "i18n": {
+    "es": {
+     "titulo": "Italia tiene la tercera tasa de homicidios más baja de la Unión Europea",
+     "resumo": "La tasa bajó a 0,57 por cada 100.000 habitantes en 2023, frente a 3,4 en 1991. Los homicidios mafiosos cayeron un 80% desde 1985, según Eurispes.",
+     "regiao": "Italia",
+     "pais": "Italia"
+    },
+    "en": {
+     "titulo": "Italy's homicide rate falls to the third-lowest in the EU",
+     "resumo": "The rate dropped to 0.57 per 100,000 people in 2023, down from 3.4 in 1991. Mafia-related homicides fell 80% since 1985, according to Eurispes.",
+     "regiao": "Italy",
+     "pais": "Italy"
+    }
+   }
+  },
+  {
+   "id": "cadeado-naufragio",
+   "titulo": "Código de cadeado de naufrágio de 400 anos é finalmente decifrado",
+   "resumo": "Uma tomografia na Universidade de Cardiff revelou a senha \"ANCE\" do cadeado do navio Ann Francis, que naufragou em 1583 no País de Gales.",
+   "categoria": "ciencia",
+   "regiao": "País de Gales",
+   "data": "2026-11-05",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/400-yo-padlock-code-finally-cracked-more-than-20-years-after-being-found-in-shipwreck-treasure/",
+   "pais": "Reino Unido",
+   "lat": 51.59,
+   "lon": -3.78,
+   "i18n": {
+    "es": {
+     "titulo": "Descifran por fin el código de un candado de un naufragio de 400 años",
+     "resumo": "Una tomografía en la Universidad de Cardiff reveló la clave \"ANCE\" del candado del barco Ann Francis, que naufragó en 1583 en Gales.",
+     "regiao": "Gales",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Code of a 400-year-old shipwreck padlock is finally cracked",
+     "resumo": "A micro-CT scan at Cardiff University revealed the code \"ANCE\" on a padlock from the Ann Francis, wrecked off Wales in 1583.",
+     "regiao": "Wales",
+     "pais": "United Kingdom"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Museum-of-Wales.jpg",
+   "credito": "Foto: Museum of Wales"
+  },
+  {
+   "id": "borboleta-tinta",
+   "titulo": "Asas de borboleta inspiram tintas mais seguras",
+   "resumo": "A química Leila Deravi, da Northeastern University, estuda cristais das asas da borboleta-da-couve para criar pigmentos sem chumbo, cobalto ou arsênio.",
+   "categoria": "ciencia",
+   "regiao": "Boston",
+   "data": "2026-11-05",
+   "fonte": "Positive News",
+   "url": "https://www.positive.news/science/the-butterfly-effect-a-brighter-way-to-make-paint/",
+   "pais": "Estados Unidos",
+   "lat": 42.34,
+   "lon": -71.09,
+   "i18n": {
+    "es": {
+     "titulo": "Alas de mariposa inspiran pinturas más seguras",
+     "resumo": "La química Leila Deravi, de la Northeastern University, estudia cristales de las alas de la mariposa de la col para crear pigmentos sin plomo, cobalto ni arsénico.",
+     "regiao": "Boston",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Butterfly wings inspire safer paints",
+     "resumo": "Northeastern University chemist Leila Deravi studies crystals from cabbage white butterfly wings to make pigments without lead, cobalt or arsenic.",
+     "regiao": "Boston",
+     "pais": "United States"
+    }
+   }
+  },
+  {
+   "id": "vila-cuidado",
+   "titulo": "Vila inglesa mostra outro jeito de cuidar de pessoas com deficiência",
+   "resumo": "Em Botton Village, cerca de 120 moradores vivem em 19 casas compartilhadas. O modelo de acolhimento em família economiza cerca de £ 26 mil por pessoa ao ano.",
+   "categoria": "sociedade",
+   "regiao": "North York Moors",
+   "data": "2026-11-03",
+   "fonte": "Positive News",
+   "url": "https://www.positive.news/society/what-if-we-stopped-treating-social-care-like-a-service/",
+   "pais": "Reino Unido",
+   "lat": 54.43,
+   "lon": -0.93,
+   "i18n": {
+    "es": {
+     "titulo": "Un pueblo inglés muestra otra forma de cuidar a personas con discapacidad",
+     "resumo": "En Botton Village, unos 120 residentes viven en 19 hogares compartidos. El modelo de acogida en familia ahorra unas £26.000 por persona al año.",
+     "regiao": "North York Moors",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "English village shows a different way to do social care",
+     "resumo": "In Botton Village, about 120 residents live in 19 shared households. Its Shared Lives scheme saves about £26,000 per person per year.",
+     "regiao": "North York Moors",
+     "pais": "United Kingdom"
+    }
+   }
   }
  ]
 }
