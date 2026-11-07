@@ -1,459 +1,434 @@
 {
- "atualizado": "2026-11-06",
+ "atualizado": "2026-11-07",
  "noticias": [
   {
-   "id": "pantanal-parque",
-   "titulo": "Brasil amplia em mais de 25% o Parque Nacional do Pantanal",
-   "resumo": "O Parque Nacional do Pantanal Matogrossense, gerido pelo ICMBio, ganhou cerca de 480 km² a mais. A região abriga 463 espécies de aves e a maior concentração de onças-pintadas do planeta.",
-   "categoria": "meio-ambiente",
-   "regiao": "Mato Grosso",
-   "data": "2026-11-04",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/brazil-expands-protected-area-for-one-of-the-richest-and-most-sensitive-biomes-on-the-planet/",
+   "id": "luiza-salva-bebe",
+   "titulo": "Menina de 13 anos salva bebê que caiu em tanque de peixes",
+   "resumo": "Luiza Lemanski Colella fez os primeiros socorros num bebê de 1 ano e 3 meses, em Sorriso (MT). Ela aprendeu as técnicas no projeto Bombeiros do Futuro, e o bebê está fora de perigo.",
+   "categoria": "sociedade",
+   "regiao": "Sorriso (MT)",
+   "data": "2026-11-06",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/menina-13-anos-salva-bebe-mt",
    "pais": "Brasil",
    "destaque": true,
-   "lat": -17.75,
-   "lon": -57.4,
+   "lat": -12.55,
+   "lon": -55.71,
    "i18n": {
     "es": {
-     "titulo": "Brasil amplía en más del 25% el Parque Nacional del Pantanal",
-     "resumo": "El Parque Nacional del Pantanal Matogrossense, gestionado por el ICMBio, sumó unos 480 km². La región alberga 463 especies de aves y la mayor concentración de jaguares del planeta.",
-     "regiao": "Mato Grosso",
+     "titulo": "Niña de 13 años salva a un bebé que cayó en un tanque de peces",
+     "resumo": "Luiza Lemanski Colella dio primeros auxilios a un bebé de 1 año y 3 meses en Sorriso (MT). Aprendió las técnicas en el proyecto Bombeiros do Futuro, y el bebé está fuera de peligro.",
+     "regiao": "Sorriso (MT)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Brazil expands Pantanal National Park by more than 25%",
-     "resumo": "Pantanal Matogrossense National Park, managed by ICMBio, grew by 185 square miles. The region is home to 463 bird species and the largest concentration of jaguars on Earth.",
-     "regiao": "Mato Grosso",
+     "titulo": "13-year-old girl saves a baby who fell into a fish tank",
+     "resumo": "Luiza Lemanski Colella gave first aid to a 15-month-old in Sorriso, Mato Grosso. She learned the techniques in a firefighters' youth project, and the baby is out of danger.",
+     "regiao": "Sorriso (MT)",
      "pais": "Brazil"
     }
    },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Pantanal-landscape-credit-Filipe-Frazao-CC-3.0-BY-SA-1.jpg",
-   "credito": "Foto: Filipe Frazão (CC BY-SA 3.0)"
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-09.49.47.jpeg",
+   "credito": "Foto: reprodução/Instagram @portalestadao.mt"
   },
   {
-   "id": "microplasticos-paranoa",
-   "titulo": "Jovem de 18 anos cria método com IA para detectar microplásticos na água",
-   "resumo": "Tom Silva Nunes montou um aparelho impresso em 3D, com LEDs e lentes, e treinou uma IA com mais de 2 mil micropartículas. O projeto mapeia o isopor no Lago Paranoá.",
+   "id": "biocimento-bahia",
+   "titulo": "Estudante de escola pública da Bahia vence feira com cimento sustentável",
+   "resumo": "Thiago Santos Ferreira, de 18 anos, ganhou a Mostratec 2026 com um biocimento de papel reciclado e fibra de coco. Ele vai representar o Brasil numa feira de ciências nos EUA em 2027.",
    "categoria": "meio-ambiente",
-   "regiao": "Brasília (DF)",
-   "data": "2026-11-04",
+   "regiao": "Serrinha (BA)",
+   "data": "2026-11-06",
    "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/jovem-metodo-detectar-microplasticos-agua",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/estudante-bahia-vence-feira-cimento-sustentavel",
    "pais": "Brasil",
    "destaque": true,
-   "lat": -15.8,
-   "lon": -47.82,
+   "lat": -11.66,
+   "lon": -39.0,
    "i18n": {
     "es": {
-     "titulo": "Joven de 18 años crea un método con IA para detectar microplásticos en el agua",
-     "resumo": "Tom Silva Nunes armó un aparato impreso en 3D, con LED y lentes, y entrenó una IA con más de 2.000 micropartículas. El proyecto mapea el poliestireno en el Lago Paranoá.",
+     "titulo": "Estudiante de escuela pública de Bahía gana una feria con cemento sostenible",
+     "resumo": "Thiago Santos Ferreira, de 18 años, ganó la Mostratec 2026 con un biocemento de papel reciclado y fibra de coco. Representará a Brasil en una feria de ciencias en EE. UU. en 2027.",
+     "regiao": "Serrinha (BA)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Public-school student from Bahia wins science fair with sustainable cement",
+     "resumo": "Thiago Santos Ferreira, 18, won Mostratec 2026 with a biocement made from recycled paper and coconut fibre. He earned a spot at the Regeneron ISEF in Los Angeles in 2027.",
+     "regiao": "Serrinha (BA)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-12.33.14-1.jpeg",
+   "credito": "Foto: Thales Lima/SEC-BA"
+  },
+  {
+   "id": "cavalo-sancho",
+   "titulo": "Homem usa corda para salvar cavalo idoso levado pela correnteza",
+   "resumo": "Felipe Alves segurou o cavalo Sancho num rio cheio após a chuva em Santa Catarina. Outros três homens chegaram com cordas e ajudaram a tirá-lo. O cavalo passa bem.",
+   "categoria": "animais",
+   "regiao": "Santa Catarina",
+   "data": "2026-11-06",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/homem-salvar-cavalo-idoso-correnteza-rio-sc",
+   "pais": "Brasil",
+   "lat": -27.3,
+   "lon": -50.2,
+   "i18n": {
+    "es": {
+     "titulo": "Hombre usa una cuerda para salvar a un caballo anciano arrastrado por la corriente",
+     "resumo": "Felipe Alves sostuvo al caballo Sancho en un río crecido tras las lluvias en Santa Catarina. Otros tres hombres llegaron con cuerdas y ayudaron a sacarlo. El caballo está bien.",
+     "regiao": "Santa Catarina",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Man uses a rope to save an elderly horse swept away by a river",
+     "resumo": "Felipe Alves held on to his horse Sancho in a flooded river after heavy rain in Santa Catarina. Three other men came with ropes and pulled him out. The horse is fine.",
+     "regiao": "Santa Catarina",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-06T104254.039.jpg",
+   "credito": "Fotos: reprodução/Instagram @fealvessn"
+  },
+  {
+   "id": "supercentenarios-nordeste",
+   "titulo": "Brasil é o único país com 3 pessoas entre as 10 mais velhas do mundo",
+   "resumo": "Segundo a LongeviQuest, Yolanda Beltrão de Azevedo (115 anos, Maceió), Beatriz Ferreira Duarte (115, Jaboatão dos Guararapes) e João Marinho Neto (114, Ceará) estão no ranking. Todos são do Nordeste.",
+   "categoria": "saude",
+   "regiao": "Nordeste",
+   "data": "2026-11-06",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/brasil-unico-pais-ranking-mais-velhos-do-mundo-nordeste",
+   "pais": "Brasil",
+   "lat": -9.67,
+   "lon": -35.74,
+   "i18n": {
+    "es": {
+     "titulo": "Brasil es el único país con 3 personas entre las 10 más longevas del mundo",
+     "resumo": "Según LongeviQuest, Yolanda Beltrão de Azevedo (115 años, Maceió), Beatriz Ferreira Duarte (115, Jaboatão dos Guararapes) y João Marinho Neto (114, Ceará) están en la lista. Todos son del Nordeste.",
+     "regiao": "Nordeste",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil is the only country with 3 people among the world's 10 oldest",
+     "resumo": "According to LongeviQuest, Yolanda Beltrão de Azevedo (115, Maceió), Beatriz Ferreira Duarte (115, Jaboatão dos Guararapes) and João Marinho Neto (114, Ceará) are on the list. All are from the Northeast.",
+     "regiao": "Northeast",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-06T113608.835.jpg",
+   "credito": "Fotos: reprodução/LongeviQuest"
+  },
+  {
+   "id": "andorinha-bibi",
+   "titulo": "Andorinha se aconchega no ombro de artista enquanto ele pinta",
+   "resumo": "A andorinha Bibi, que provavelmente caiu do ninho, é cuidada pelos artistas Carla Vazarin e Ronaldo Mendes, em Bichinho (MG). Eles vão cuidar dela até que possa voar livre.",
+   "categoria": "animais",
+   "regiao": "Bichinho (MG)",
+   "data": "2026-11-06",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/andorinha-no-ombro-artista-minas-gerais",
+   "pais": "Brasil",
+   "lat": -21.07,
+   "lon": -44.2,
+   "i18n": {
+    "es": {
+     "titulo": "Una golondrina se acurruca en el hombro de un artista mientras pinta",
+     "resumo": "La golondrina Bibi, que probablemente se cayó del nido, es cuidada por los artistas Carla Vazarin y Ronaldo Mendes, en Bichinho (MG). La cuidarán hasta que pueda volar libre.",
+     "regiao": "Bichinho (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Swallow snuggles on an artist's shoulder while he paints",
+     "resumo": "Bibi, a swallow that probably fell from its nest, is being raised by artists Carla Vazarin and Ronaldo Mendes in Bichinho, Minas Gerais. They will care for her until she can fly free.",
+     "regiao": "Bichinho (MG)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-29.png",
+   "credito": "Foto: reprodução/Instagram @atelierdenosdois"
+  },
+  {
+   "id": "dinheiro-devolvido",
+   "titulo": "Homem passa 12 dias procurando o dono de um dinheiro perdido",
+   "resumo": "Pedro Moro achou o salário do mês de Matheus Reginaldo Celestino, de 24 anos, numa praça de Ibiraçu. Usou câmeras de segurança e redes sociais até devolver o dinheiro, que era para a filha dele.",
+   "categoria": "sociedade",
+   "regiao": "Ibiraçu (ES)",
+   "data": "2026-11-06",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
+   "pais": "Brasil",
+   "lat": -19.83,
+   "lon": -40.37,
+   "i18n": {
+    "es": {
+     "titulo": "Hombre pasa 12 días buscando al dueño de un dinero perdido",
+     "resumo": "Pedro Moro encontró el salario del mes de Matheus Reginaldo Celestino, de 24 años, en una plaza de Ibiraçu. Usó cámaras de seguridad y redes sociales hasta devolver el dinero, que era para su hija.",
+     "regiao": "Ibiraçu (ES)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Man spends 12 days returning lost cash a worker needed for his daughter",
+     "resumo": "Pedro Moro found the monthly salary of Matheus Reginaldo Celestino, 24, in a plaza in Ibiraçu. He used security footage and social media to track him down and return it.",
+     "regiao": "Ibiraçu (ES)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Pedro-Moro-shakes-hands-with-Matheus-Reginaldo-Celestino-whose-money-Moro-returned-credit-Pedro-Moro-supplied-to-the-media.jpg",
+   "credito": "Foto: Pedro Moro/divulgação"
+  },
+  {
+   "id": "berco-restaurante",
+   "titulo": "Restaurante leva berço para bebê dormir ao lado dos pais",
+   "resumo": "Um garçom do Jardim da Cerveja, em Foz do Iguaçu, levou um berço com manta para um pai que segurava o bebê dormindo. O vídeo passou de 1,1 milhão de visualizações.",
+   "categoria": "sociedade",
+   "regiao": "Foz do Iguaçu (PR)",
+   "data": "2026-11-05",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/05/restaurante-oferece-berco-bebe-surpreende-pai-parana",
+   "pais": "Brasil",
+   "lat": -25.55,
+   "lon": -54.58,
+   "i18n": {
+    "es": {
+     "titulo": "Restaurante lleva una cuna para que un bebé duerma junto a sus padres",
+     "resumo": "Un mesero del Jardim da Cerveja, en Foz do Iguaçu, llevó una cuna con manta a un padre que sostenía a su bebé dormido. El video superó 1,1 millones de vistas.",
+     "regiao": "Foz do Iguaçu (PR)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Restaurant brings a crib so a baby can sleep next to his parents",
+     "resumo": "A waiter at Jardim da Cerveja in Foz do Iguaçu brought a crib and blanket to a father holding his sleeping baby. The video passed 1.1 million views.",
+     "regiao": "Foz do Iguaçu (PR)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-05T103037.593.jpg",
+   "credito": "Fotos: reprodução/Instagram @luanacoradete"
+  },
+  {
+   "id": "glp1-oral",
+   "titulo": "Anvisa aprova o primeiro remédio GLP-1 em comprimido para obesidade",
+   "resumo": "A versão oral da semaglutida foi aprovada no dia 4. No estudo de fase 3, de 64 semanas, a perda de peso média passou de 13% na dose de 25 mg. Ainda não há data de venda nem preço.",
+   "categoria": "saude",
+   "regiao": "Brasília (DF)",
+   "data": "2026-11-05",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/05/glp-1-oral-obesidade-anvisa-aprova",
+   "pais": "Brasil",
+   "lat": -15.79,
+   "lon": -47.88,
+   "i18n": {
+    "es": {
+     "titulo": "Anvisa aprueba el primer GLP-1 en comprimido para la obesidad",
+     "resumo": "La versión oral de la semaglutida fue aprobada el día 4. En el estudio de fase 3, de 64 semanas, la pérdida de peso media superó el 13% con la dosis de 25 mg. Aún no hay fecha de venta ni precio.",
      "regiao": "Brasilia (DF)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "18-year-old builds an AI method to detect microplastics in water",
-     "resumo": "Tom Silva Nunes built a 3D-printed device with LEDs and lenses and trained an AI on more than 2,000 microparticles. His project maps styrofoam in Lake Paranoá.",
+     "titulo": "Brazil approves the first oral GLP-1 pill for obesity",
+     "resumo": "Anvisa approved oral semaglutide on 4 November. In the 64-week phase 3 trial, average weight loss was above 13% at the 25 mg dose. No launch date or price yet.",
      "regiao": "Brasília (DF)",
      "pais": "Brazil"
     }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-21.png",
-   "credito": "Foto: Carlos Vieira/CB/D.A Press"
-  },
-  {
-   "id": "arthur-olimpiadas",
-   "titulo": "Brasileiro de 16 anos conquista 3 medalhas internacionais",
-   "resumo": "Arthur Alencar Spuri, de Fortaleza, levou ouro com pontuação recorde na Olimpíada Internacional de Economia, na China, e pratas em Física e em Astronomia.",
-   "categoria": "ciencia",
-   "regiao": "Fortaleza (CE)",
-   "data": "2026-11-03",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/03/brasileiro-16-anos-conquista-3-medalhas-internacionais",
-   "pais": "Brasil",
-   "lat": -3.73,
-   "lon": -38.52,
-   "i18n": {
-    "es": {
-     "titulo": "Brasileño de 16 años gana 3 medallas internacionales",
-     "resumo": "Arthur Alencar Spuri, de Fortaleza, ganó oro con puntaje récord en la Olimpiada Internacional de Economía, en China, y platas en Física y Astronomía.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "16-year-old Brazilian wins 3 international medals",
-     "resumo": "Arthur Alencar Spuri, from Fortaleza, took gold with a record score at the International Economics Olympiad in China, plus silvers in Physics and Astronomy.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-03T082317.577.jpg",
-   "credito": "Fotos: Arquivo pessoal"
-  },
-  {
-   "id": "chico-petshop",
-   "titulo": "Cachorro resgatado volta ao petshop onde foi adotado e faz a maior festa",
-   "resumo": "Chico, resgatado das ruas do Guarujá, reencontrou Juliana e Carolina no petshop onde foi cuidado e adotado. O vídeo da festa foi publicado pelo dono.",
-   "categoria": "animais",
-   "regiao": "Guarujá (SP)",
-   "data": "2026-11-05",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/05/cachorro-volta-petshop-onde-foi-adotado-faz-festa-video",
-   "pais": "Brasil",
-   "lat": -23.99,
-   "lon": -46.26,
-   "i18n": {
-    "es": {
-     "titulo": "Perro rescatado vuelve a la tienda de mascotas donde fue adoptado y hace fiesta",
-     "resumo": "Chico, rescatado de las calles de Guarujá, se reencontró con Juliana y Carolina en la tienda donde lo cuidaron y adoptaron. Su dueño publicó el video.",
-     "regiao": "Guarujá (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Rescued dog returns to the pet shop where he was adopted and throws a party",
-     "resumo": "Chico, rescued from the streets of Guarujá, reunited with Juliana and Carolina at the pet shop that cared for him. His owner posted the video.",
-     "regiao": "Guarujá (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-05T111809.599.jpg",
-   "credito": "Fotos: reprodução/Instagram @ochicoguedes"
-  },
-  {
-   "id": "pitanga-cambuci",
-   "titulo": "Fibras de pitanga e cambuci reduzem células de câncer em laboratório",
-   "resumo": "Estudo da USP liderado por João Paulo Fabi viu queda de 20% a 90% na viabilidade de células de câncer colorretal com fibras de pitanga. Ainda não houve testes em animais ou pessoas.",
-   "categoria": "saude",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-03",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/03/fibras-pitanga-cambuci-celulas-cancerigenas",
-   "pais": "Brasil",
-   "lat": -23.56,
-   "lon": -46.73,
-   "i18n": {
-    "es": {
-     "titulo": "Fibras de pitanga y cambuci reducen células de cáncer en laboratorio",
-     "resumo": "Un estudio de la USP dirigido por João Paulo Fabi vio una caída del 20% al 90% en la viabilidad de células de cáncer colorrectal con fibras de pitanga. Aún no se probó en animales ni personas.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Pitanga and cambuci fibres cut cancer cells in the lab",
-     "resumo": "A University of São Paulo study led by João Paulo Fabi saw pitanga fibres reduce colorectal cancer cell viability by 20% to 90%. It has not yet been tested in animals or people.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
    }
   },
   {
-   "id": "trevor-sangue",
-   "titulo": "Homem com sangue ultrarraro faz 545 doações e visita 85 bancos de sangue",
-   "resumo": "O policial Trevor Bergman, de 59 anos, doou em todos os 85 centros de coleta da Austrália. Ele é um dos cerca de 150 australianos com o anticorpo anti-D.",
-   "categoria": "saude",
-   "regiao": "Melbourne",
+   "id": "rafael-camara-f1",
+   "titulo": "Rafael Câmara será o primeiro piloto do Nordeste na Fórmula 1",
+   "resumo": "O recifense de 21 anos estreia pela Haas no GP de São Paulo, em Interlagos, neste domingo (8). Será o 34º brasileiro na F1, e o Brasil volta a ter dois pilotos numa corrida pela primeira vez desde 2016.",
+   "categoria": "sociedade",
+   "regiao": "Recife (PE)",
    "data": "2026-11-04",
    "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/homem-sangue-ultrarraro-545-doacoes",
-   "pais": "Austrália",
-   "lat": -37.81,
-   "lon": 144.96,
+   "url": "https://www.sonoticiaboa.com.br/2026/11/04/rafael-camara-primeiro-piloto-nordeste-formula-1",
+   "pais": "Brasil",
+   "lat": -8.05,
+   "lon": -34.9,
    "i18n": {
     "es": {
-     "titulo": "Hombre con sangre ultrarrara hace 545 donaciones y visita 85 bancos de sangre",
-     "resumo": "El policía Trevor Bergman, de 59 años, donó en los 85 centros de colecta de Australia. Es uno de los cerca de 150 australianos con el anticuerpo anti-D.",
-     "regiao": "Melbourne",
-     "pais": "Australia"
+     "titulo": "Rafael Câmara será el primer piloto del Nordeste de Brasil en la Fórmula 1",
+     "resumo": "El piloto de Recife, de 21 años, debuta con Haas en el GP de São Paulo, en Interlagos, este domingo (8). Será el brasileño número 34 en la F1.",
+     "regiao": "Recife (PE)",
+     "pais": "Brasil"
     },
     "en": {
-     "titulo": "Man with ultra-rare blood makes 545 donations across 85 blood banks",
-     "resumo": "Police officer Trevor Bergman, 59, has donated at all 85 collection centres in Australia. He is one of about 150 Australians with the anti-D antibody.",
-     "regiao": "Melbourne",
-     "pais": "Australia"
+     "titulo": "Rafael Câmara becomes the first driver from Brazil's Northeast in Formula 1",
+     "resumo": "The 21-year-old from Recife debuts for Haas at the São Paulo GP at Interlagos on Sunday (8 Nov). He will be the 34th Brazilian in F1.",
+     "regiao": "Recife (PE)",
+     "pais": "Brazil"
     }
    },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-11.05.43.jpeg",
-   "credito": "Foto: Trevor Bergman/divulgação ABC News"
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-10.14.57.jpeg",
+   "credito": "Foto: reprodução/Instagram @trident_team"
   },
   {
-   "id": "andorinhas-pagham",
-   "titulo": "Aves marinhas voltam a colônia que a gripe aviária tinha dizimado",
-   "resumo": "Na colônia de Pagham, na Inglaterra, os casais de trinta-réis-de-bico-amarelo passaram de zero para 756 em três anos, graças ao trabalho de conservação da RSPB.",
-   "categoria": "animais",
-   "regiao": "Pagham",
-   "data": "2026-11-05",
+   "id": "rothbury-natureza",
+   "titulo": "25 mil pessoas de 50 países compram propriedade para virar reserva natural",
+   "resumo": "Doações somaram £ 30 milhões para a Wildlife Trusts comprar os 3.800 hectares da Rothbury Estate, na Inglaterra. A área fará parte de um corredor ecológico de 64 km.",
+   "categoria": "meio-ambiente",
+   "regiao": "Northumberland",
+   "data": "2026-11-06",
    "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/miracle-recovery-sees-seabirds-reclaim-former-colony-after-avian-flu-wiped-them-out/",
+   "url": "https://www.goodnewsnetwork.org/people-around-the-world-help-buy-royal-estate-for-wildlife-conservation/",
    "pais": "Reino Unido",
-   "lat": 50.77,
-   "lon": -0.75,
+   "lat": 55.31,
+   "lon": -1.91,
    "i18n": {
     "es": {
-     "titulo": "Aves marinas vuelven a la colonia que la gripe aviar había diezmado",
-     "resumo": "En la colonia de Pagham, Inglaterra, las parejas de charrán patinegro pasaron de cero a 756 en tres años, gracias al trabajo de conservación de la RSPB.",
-     "regiao": "Pagham",
+     "titulo": "25.000 personas de 50 países compran una finca para convertirla en reserva natural",
+     "resumo": "Las donaciones sumaron £30 millones para que Wildlife Trusts comprara las 3.800 hectáreas de Rothbury Estate, en Inglaterra. El área formará parte de un corredor ecológico de 64 km.",
+     "regiao": "Northumberland",
      "pais": "Reino Unido"
     },
     "en": {
-     "titulo": "Seabirds reclaim a colony wiped out by avian flu",
-     "resumo": "At the Pagham colony in England, breeding sandwich tern pairs rose from zero to 756 in three years, thanks to RSPB conservation work.",
-     "regiao": "Pagham",
+     "titulo": "25,000 people in 50 countries help buy an estate for wildlife",
+     "resumo": "Donations raised £30 million for the Wildlife Trusts to buy the 9,400-acre Rothbury Estate in England. It will be part of a 40-mile nature corridor.",
+     "regiao": "Northumberland",
      "pais": "United Kingdom"
     }
    },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-David-Kinchin-Smith-RSPB.jpg",
-   "credito": "Foto: David Kinchin-Smith/RSPB"
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-drone-image-of-the-site-of-the-Bronze-Age-Lordenshaw-Hill-Fort-credit-The-Wildlife-Trusts-©.jpg",
+   "credito": "Foto: The Wildlife Trusts"
   },
   {
-   "id": "fone-chatgpt",
-   "titulo": "Homem usa ChatGPT para achar fone perdido entre milhares de pedras",
-   "resumo": "A IA pediu fotos mais de perto e apontou o fone na terceira imagem. Segundo o relato no Reddit, tudo levou menos de cinco minutos.",
+   "id": "loris-bangka",
+   "titulo": "Primata considerado possivelmente extinto ainda vive na Indonésia",
+   "resumo": "O lóris-lento-de-Bangka constava como \"possivelmente extinto\" desde 2015. Um centro de resgate na ilha de Bangka acolheu mais de 90 deles em dez anos e soltou 86.",
+   "categoria": "animais",
+   "regiao": "Ilha de Bangka",
+   "data": "2026-11-06",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
+   "pais": "Indonésia",
+   "lat": -2.13,
+   "lon": 106.11,
+   "i18n": {
+    "es": {
+     "titulo": "Un primate considerado posiblemente extinto sigue viviendo en Indonesia",
+     "resumo": "El loris perezoso de Bangka figuraba como \"posiblemente extinto\" desde 2015. Un centro de rescate en la isla de Bangka recibió más de 90 en diez años y liberó 86.",
+     "regiao": "Isla de Bangka",
+     "pais": "Indonesia"
+    },
+    "en": {
+     "titulo": "Primate feared extinct is still living in Indonesia",
+     "resumo": "The Bangka slow loris was listed as \"possibly extinct\" in 2015. A rescue centre on Bangka Island took in more than 90 over ten years and released 86.",
+     "regiao": "Bangka Island",
+     "pais": "Indonesia"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Bangka-slow-loris-credit-Gunay-M.E.-CC-4.0.-BY-SA.jpg",
+   "credito": "Foto: Gunay M.E. (CC BY-SA 4.0)"
+  },
+  {
+   "id": "geotermia-vermont",
+   "titulo": "Moradias populares nos EUA vão ter aquecimento geotérmico",
+   "resumo": "Um conjunto de 44 apartamentos em Hinesburg, Vermont, terá aquecimento e resfriamento geotérmicos. Num caso estudado pelo governo, a tecnologia cortou 40% do gasto com energia.",
    "categoria": "tecnologia",
-   "regiao": "Internet",
+   "regiao": "Vermont",
+   "data": "2026-11-06",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/geothermal-utilities-power-wave-of-us-affordable-housing-with-40-energy-savings/",
+   "pais": "Estados Unidos",
+   "lat": 44.33,
+   "lon": -73.11,
+   "i18n": {
+    "es": {
+     "titulo": "Viviendas asequibles en EE. UU. tendrán calefacción geotérmica",
+     "resumo": "Un conjunto de 44 apartamentos en Hinesburg, Vermont, tendrá calefacción y refrigeración geotérmicas. En un caso estudiado por el gobierno, la tecnología redujo un 40% el gasto de energía.",
+     "regiao": "Vermont",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Geothermal heat comes to affordable housing in the US",
+     "resumo": "A 44-unit affordable housing project in Hinesburg, Vermont, will get geothermal heating and cooling. In a government case study, it cut energy costs by 40%.",
+     "regiao": "Vermont",
+     "pais": "United States"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Geothermal-boring-at-Riggs-Meadow-Housing-Development-credit-Dandelion-Energy-released.jpg",
+   "credito": "Foto: Dandelion Energy/divulgação"
+  },
+  {
+   "id": "loja-halito",
+   "titulo": "Loja em Estocolmo dá produtos de higiene bucal grátis para quem tem mau hálito",
+   "resumo": "Na Breath Boutique, um aparelho mede o hálito do cliente, e quem tem mau hálito leva os produtos de graça. Segundo a empresa, 1 em cada 3 pessoas tem mau hálito toda semana.",
+   "categoria": "saude",
+   "regiao": "Estocolmo",
    "data": "2026-11-05",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/got-bad-breath-get-free-dental-care-at-this-store/",
+   "pais": "Suécia",
+   "lat": 59.31,
+   "lon": 18.03,
+   "i18n": {
+    "es": {
+     "titulo": "Tienda en Estocolmo regala productos de higiene bucal a quien tiene mal aliento",
+     "resumo": "En la Breath Boutique, un aparato mide el aliento del cliente, y quien tiene mal aliento se lleva los productos gratis. Según la empresa, 1 de cada 3 personas lo tiene cada semana.",
+     "regiao": "Estocolmo",
+     "pais": "Suecia"
+    },
+    "en": {
+     "titulo": "Stockholm store gives free oral care to people with bad breath",
+     "resumo": "At the Breath Boutique, an analyser measures customers' breath, and bad breath earns free oral-care products. The company says 1 in 3 people has bad breath at least weekly.",
+     "regiao": "Stockholm",
+     "pais": "Sweden"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Breath-Boutique-credit-The-Humble-Co.-released.jpg",
+   "credito": "Foto: The Humble Co./divulgação"
+  },
+  {
+   "id": "anime-anatomia",
+   "titulo": "Médico usa personagens de anime para ensinar anatomia",
+   "resumo": "O médico peruano Axel Vélez desenha os músculos sobre poses de personagens de anime para ensinar músculos e articulações a estudantes.",
+   "categoria": "ciencia",
+   "regiao": "Peru",
+   "data": "2026-11-06",
    "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/05/homem-usa-chatgpt-para-encontrar-fone-de-ouvido-perdido-entre-milhares-de-pedras-veja-como-conseguiu",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/personagens-anime-ensinar-anatomia",
+   "pais": "Peru",
+   "lat": -12.05,
+   "lon": -77.04,
+   "i18n": {
+    "es": {
+     "titulo": "Médico usa personajes de anime para enseñar anatomía",
+     "resumo": "El médico peruano Axel Vélez dibuja los músculos sobre poses de personajes de anime para enseñar músculos y articulaciones a estudiantes.",
+     "regiao": "Perú",
+     "pais": "Perú"
+    },
+    "en": {
+     "titulo": "Doctor uses anime characters to teach anatomy",
+     "resumo": "Peruvian doctor Axel Vélez draws muscles over anime character poses to teach students about muscles and joints.",
+     "regiao": "Peru",
+     "pais": "Peru"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-30-2.png",
+   "credito": "Foto: reprodução/TikTok @axelvelezdurand"
+  },
+  {
+   "id": "bacteria-estresse",
+   "titulo": "Bactéria do solo protege contra efeitos do estresse em camundongos",
+   "resumo": "Cientistas da Alemanha e dos EUA viram que filhotes de camundongos tratados com Mycobacterium vaccae resistiram mais ao estresse crônico. É um estudo em animais, sem previsão de vacina para humanos.",
+   "categoria": "ciencia",
+   "regiao": "Alemanha e EUA",
+   "data": "2026-11-06",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/vacina-contra-ansiedade-pesquisa-2026",
    "pais": "Global",
    "i18n": {
     "es": {
-     "titulo": "Hombre usa ChatGPT para encontrar un auricular perdido entre miles de piedras",
-     "resumo": "La IA pidió fotos más cercanas y señaló el auricular en la tercera imagen. Según el relato en Reddit, todo tomó menos de cinco minutos.",
-     "regiao": "Internet",
+     "titulo": "Una bacteria del suelo protege contra los efectos del estrés en ratones",
+     "resumo": "Científicos de Alemania y EE. UU. vieron que crías de ratones tratados con Mycobacterium vaccae resistieron mejor el estrés crónico. Es un estudio en animales, sin vacuna prevista para humanos.",
+     "regiao": "Alemania y EE. UU.",
      "pais": "Global"
     },
     "en": {
-     "titulo": "Man uses ChatGPT to find a lost earbud among thousands of pebbles",
-     "resumo": "The AI asked for closer photos and spotted the earbud in the third one. According to the Reddit post, it took under five minutes.",
-     "regiao": "Internet",
+     "titulo": "Soil bacterium protects mice against effects of stress",
+     "resumo": "Scientists in Germany and the US found that offspring of mice given Mycobacterium vaccae resisted chronic stress better. It is animal research, with no human vaccine timeline.",
+     "regiao": "Germany and US",
      "pais": "Global"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-09.33.58.jpeg",
-   "credito": "Foto: reprodução/Reddit @Just_a_fungi893"
-  },
-  {
-   "id": "bella-onibus",
-   "titulo": "Menina de 11 anos salva motorista de ônibus escolar com crise de asma",
-   "resumo": "Bella Scott ligou para o pai quando o motorista, com pelo menos 20 alunos a bordo, não conseguia respirar. A escola reconheceu o ato heroico.",
-   "categoria": "sociedade",
-   "regiao": "Cedar Rapids",
-   "data": "2026-11-04",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/menina-11-anos-salva-motorista-onibus-escolar-asma",
-   "pais": "Estados Unidos",
-   "lat": 41.98,
-   "lon": -91.67,
-   "i18n": {
-    "es": {
-     "titulo": "Niña de 11 años salva al conductor del autobús escolar durante una crisis de asma",
-     "resumo": "Bella Scott llamó a su padre cuando el conductor, con al menos 20 alumnos a bordo, no podía respirar. La escuela reconoció su acto heroico.",
-     "regiao": "Cedar Rapids",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "11-year-old saves school bus driver during an asthma attack",
-     "resumo": "Bella Scott called her father when the driver, with at least 20 students aboard, could not breathe. Her school recognised the heroic act.",
-     "regiao": "Cedar Rapids",
-     "pais": "United States"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-04T102834.263.jpg",
-   "credito": "Fotos: reprodução/KCRG"
-  },
-  {
-   "id": "campo-alimentos",
-   "titulo": "Estudantes enchem campo de futebol com 113 toneladas de alimentos",
-   "resumo": "Na escola Howell, em Nova Jersey, a campanha da Dermer Dreams juntou mais de 113 toneladas de comida, doadas a 30 bancos de alimentos.",
-   "categoria": "sociedade",
-   "regiao": "Nova Jersey",
-   "data": "2026-11-05",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/05/113-toneladas-alimentos-estudantes-campo-futebol",
-   "pais": "Estados Unidos",
-   "lat": 40.18,
-   "lon": -74.19,
-   "i18n": {
-    "es": {
-     "titulo": "Estudiantes llenan una cancha de fútbol con 113 toneladas de alimentos",
-     "resumo": "En la escuela Howell, en Nueva Jersey, la campaña de Dermer Dreams reunió más de 113 toneladas de comida, donadas a 30 bancos de alimentos.",
-     "regiao": "Nueva Jersey",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Students fill a football field with 250,000 pounds of food",
-     "resumo": "At Howell High School in New Jersey, a Dermer Dreams drive collected more than 250,000 pounds of food, donated to 30 food banks.",
-     "regiao": "New Jersey",
-     "pais": "United States"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-27.png",
-   "credito": "Foto: Tommy Pantaleo/Dermer Dreams"
-  },
-  {
-   "id": "amigas-casamento",
-   "titulo": "Depois de 30 anos juntas como amigas, Cheryl e Lynn se casam",
-   "resumo": "Cheryl Henderson, de 65 anos, e Lynn Bisbee, de 78, se declararam em junho e casaram em setembro, numa garagem em Stowe, Vermont.",
-   "categoria": "sociedade",
-   "regiao": "Vermont",
-   "data": "2026-11-05",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/05/mulheres-viveram-30-anos-juntas-amigas-se-casam",
-   "pais": "Estados Unidos",
-   "lat": 44.47,
-   "lon": -72.68,
-   "i18n": {
-    "es": {
-     "titulo": "Tras 30 años juntas como amigas, Cheryl y Lynn se casan",
-     "resumo": "Cheryl Henderson, de 65 años, y Lynn Bisbee, de 78, se declararon en junio y se casaron en septiembre, en un garaje en Stowe, Vermont.",
-     "regiao": "Vermont",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "After 30 years together as friends, Cheryl and Lynn get married",
-     "resumo": "Cheryl Henderson, 65, and Lynn Bisbee, 78, declared their love in June and married in September in a garage in Stowe, Vermont.",
-     "regiao": "Vermont",
-     "pais": "United States"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-05T091521.459.jpg",
-   "credito": "Foto: Avery Wolff/SWNS"
-  },
-  {
-   "id": "oficina-houston",
-   "titulo": "Oficina mecânica de alunos abre ao público em Houston",
-   "resumo": "No Barbara Jordan Career Center, estudantes fazem troca de óleo, rodízio de pneus e revisões às sextas. O cliente paga só a mão de obra dos alunos.",
-   "categoria": "sociedade",
-   "regiao": "Houston",
-   "data": "2026-11-04",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/student-run-automotive-shop-opens-to-the-public-in-houston-where-every-oil-change-helps-the-next-generation/",
-   "pais": "Estados Unidos",
-   "lat": 29.78,
-   "lon": -95.34,
-   "i18n": {
-    "es": {
-     "titulo": "Taller mecánico de estudiantes abre al público en Houston",
-     "resumo": "En el Barbara Jordan Career Center, los estudiantes cambian aceite, rotan neumáticos y hacen revisiones los viernes. El cliente paga solo la mano de obra estudiantil.",
-     "regiao": "Houston",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Student-run auto shop opens to the public in Houston",
-     "resumo": "At the Barbara Jordan Career Center, students do oil changes, tire rotations and inspections on Fridays. Customers pay only for student labor.",
-     "regiao": "Houston",
-     "pais": "United States"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/YouTube-Screengrab-Houston-Independent-School-District.jpg",
-   "credito": "Foto: reprodução/Houston ISD"
-  },
-  {
-   "id": "italia-homicidios",
-   "titulo": "Itália tem a terceira menor taxa de homicídios da União Europeia",
-   "resumo": "A taxa caiu para 0,57 por 100 mil habitantes em 2023, contra 3,4 em 1991. Os homicídios ligados à máfia caíram 80% desde 1985, segundo o Eurispes.",
-   "categoria": "sociedade",
-   "regiao": "Itália",
-   "data": "2026-11-04",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/italy-sees-collapse-in-its-homicide-rate-to-3rd-lowest-in-the-eu/",
-   "pais": "Itália",
-   "lat": 41.9,
-   "lon": 12.5,
-   "i18n": {
-    "es": {
-     "titulo": "Italia tiene la tercera tasa de homicidios más baja de la Unión Europea",
-     "resumo": "La tasa bajó a 0,57 por cada 100.000 habitantes en 2023, frente a 3,4 en 1991. Los homicidios mafiosos cayeron un 80% desde 1985, según Eurispes.",
-     "regiao": "Italia",
-     "pais": "Italia"
-    },
-    "en": {
-     "titulo": "Italy's homicide rate falls to the third-lowest in the EU",
-     "resumo": "The rate dropped to 0.57 per 100,000 people in 2023, down from 3.4 in 1991. Mafia-related homicides fell 80% since 1985, according to Eurispes.",
-     "regiao": "Italy",
-     "pais": "Italy"
-    }
-   }
-  },
-  {
-   "id": "cadeado-naufragio",
-   "titulo": "Código de cadeado de naufrágio de 400 anos é finalmente decifrado",
-   "resumo": "Uma tomografia na Universidade de Cardiff revelou a senha \"ANCE\" do cadeado do navio Ann Francis, que naufragou em 1583 no País de Gales.",
-   "categoria": "ciencia",
-   "regiao": "País de Gales",
-   "data": "2026-11-05",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/400-yo-padlock-code-finally-cracked-more-than-20-years-after-being-found-in-shipwreck-treasure/",
-   "pais": "Reino Unido",
-   "lat": 51.59,
-   "lon": -3.78,
-   "i18n": {
-    "es": {
-     "titulo": "Descifran por fin el código de un candado de un naufragio de 400 años",
-     "resumo": "Una tomografía en la Universidad de Cardiff reveló la clave \"ANCE\" del candado del barco Ann Francis, que naufragó en 1583 en Gales.",
-     "regiao": "Gales",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "Code of a 400-year-old shipwreck padlock is finally cracked",
-     "resumo": "A micro-CT scan at Cardiff University revealed the code \"ANCE\" on a padlock from the Ann Francis, wrecked off Wales in 1583.",
-     "regiao": "Wales",
-     "pais": "United Kingdom"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/credit-Museum-of-Wales.jpg",
-   "credito": "Foto: Museum of Wales"
-  },
-  {
-   "id": "borboleta-tinta",
-   "titulo": "Asas de borboleta inspiram tintas mais seguras",
-   "resumo": "A química Leila Deravi, da Northeastern University, estuda cristais das asas da borboleta-da-couve para criar pigmentos sem chumbo, cobalto ou arsênio.",
-   "categoria": "ciencia",
-   "regiao": "Boston",
-   "data": "2026-11-05",
-   "fonte": "Positive News",
-   "url": "https://www.positive.news/science/the-butterfly-effect-a-brighter-way-to-make-paint/",
-   "pais": "Estados Unidos",
-   "lat": 42.34,
-   "lon": -71.09,
-   "i18n": {
-    "es": {
-     "titulo": "Alas de mariposa inspiran pinturas más seguras",
-     "resumo": "La química Leila Deravi, de la Northeastern University, estudia cristales de las alas de la mariposa de la col para crear pigmentos sin plomo, cobalto ni arsénico.",
-     "regiao": "Boston",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Butterfly wings inspire safer paints",
-     "resumo": "Northeastern University chemist Leila Deravi studies crystals from cabbage white butterfly wings to make pigments without lead, cobalt or arsenic.",
-     "regiao": "Boston",
-     "pais": "United States"
-    }
-   }
-  },
-  {
-   "id": "vila-cuidado",
-   "titulo": "Vila inglesa mostra outro jeito de cuidar de pessoas com deficiência",
-   "resumo": "Em Botton Village, cerca de 120 moradores vivem em 19 casas compartilhadas. O modelo de acolhimento em família economiza cerca de £ 26 mil por pessoa ao ano.",
-   "categoria": "sociedade",
-   "regiao": "North York Moors",
-   "data": "2026-11-03",
-   "fonte": "Positive News",
-   "url": "https://www.positive.news/society/what-if-we-stopped-treating-social-care-like-a-service/",
-   "pais": "Reino Unido",
-   "lat": 54.43,
-   "lon": -0.93,
-   "i18n": {
-    "es": {
-     "titulo": "Un pueblo inglés muestra otra forma de cuidar a personas con discapacidad",
-     "resumo": "En Botton Village, unos 120 residentes viven en 19 hogares compartidos. El modelo de acogida en familia ahorra unas £26.000 por persona al año.",
-     "regiao": "North York Moors",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "English village shows a different way to do social care",
-     "resumo": "In Botton Village, about 120 residents live in 19 shared households. Its Shared Lives scheme saves about £26,000 per person per year.",
-     "regiao": "North York Moors",
-     "pais": "United Kingdom"
     }
    }
   }
