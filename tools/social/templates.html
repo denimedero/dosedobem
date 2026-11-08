@@ -1,0 +1,81 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0}
+:root{--ink:#0B0B0A;--mut:#6B6B66;--line:#E6E6E2;--sun:#FFC21A;--hl:#B06F00;
+--saude:#E2554A;--ciencia:#5560E6;--sociedade:#E97F22;--meio-ambiente:#1E9466;--animais:#A75AD6;--tecnologia:#1797A6}
+body{font-family:Inter,sans-serif;color:var(--ink);background:#fff;width:1080px;height:var(--h);overflow:hidden}
+.sc{position:absolute;inset:0;padding:var(--pad);display:none;flex-direction:column}
+.sc.on{display:flex}
+.dark{background:#0B0B0A;color:#F3F3EF;--mut:#A3A29B;--line:#2A2A27;--hl:#FFC21A}
+.yel{background:var(--sun);color:#1B1400;--mut:#5C4A00;--hl:#1B1400;--line:rgba(27,20,0,.2)}
+.brand{display:flex;align-items:center;gap:20px;font-family:"Inter Display";font-weight:700;font-size:42px;letter-spacing:-.02em}
+.brand svg{width:76px;height:76px}
+.sp{flex:1}
+h1{font-family:"Inter Display";font-weight:700;font-size:var(--h1);line-height:1;letter-spacing:-.04em}
+h1 em{font-style:normal;color:var(--hl)}
+.hd{font-family:"Inter Display";font-weight:700;font-size:var(--hd);line-height:1.06;letter-spacing:-.03em}
+.lead{font-size:var(--lead);line-height:1.35;color:var(--mut);margin-top:34px}
+.eb{font-family:"JetBrains Mono";font-size:28px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut);display:flex;align-items:center;gap:14px;margin-bottom:30px}
+.eb:before{content:"";width:14px;height:14px;border-radius:50%;background:var(--sun)}
+.yel .eb:before{background:#1B1400}
+.chip{align-self:flex-start;font-family:"JetBrains Mono";font-size:26px;letter-spacing:.1em;text-transform:uppercase;color:#fff;padding:10px 22px;border-radius:999px;margin-bottom:34px}
+.num{font-family:"JetBrains Mono";font-size:30px;color:var(--mut);margin-bottom:22px}
+.place{font-family:"JetBrains Mono";font-size:28px;color:var(--mut);margin-top:36px;display:flex;gap:12px;align-items:center}
+.bars{position:absolute;top:70px;left:var(--padx);right:var(--padx);display:flex;gap:10px}
+.bars i{flex:1;height:7px;border-radius:4px;background:var(--line);overflow:hidden;position:relative}
+.bars i b{position:absolute;inset:0;background:var(--hl);transform-origin:left;transform:scaleX(var(--p,0))}
+.pill{display:inline-flex;align-items:center;gap:18px;background:#1B1400;color:var(--sun);border-radius:999px;padding:30px 48px;font-size:44px;font-weight:700;align-self:flex-start}
+.dark .pill{background:var(--sun);color:#1B1400}
+.glow{position:absolute;right:-260px;top:-260px;width:900px;height:900px;border-radius:50%;background:radial-gradient(circle,rgba(255,194,26,.42),rgba(255,194,26,0) 65%)}
+.bigsun{position:absolute;right:-170px;top:-170px;width:600px;height:600px}
+.src{font-size:26px;color:var(--mut);margin-top:16px}
+.it{display:flex;flex-direction:column;gap:12px;padding:24px 0;border-top:2px solid var(--line);font-size:34px;font-weight:600;line-height:1.22}
+.it s{text-decoration:none;font-family:"JetBrains Mono";font-size:19px;letter-spacing:.08em;text-transform:uppercase;color:#fff;padding:6px 14px;border-radius:999px;align-self:flex-start}
+.a{will-change:opacity,transform}
+.dots{position:absolute;bottom:60px;left:var(--padx);display:flex;gap:10px}
+.dots i{width:12px;height:12px;border-radius:50%;background:var(--line)}
+.dots i.a{background:var(--hl);width:36px;border-radius:6px}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><symbol id="sun" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#FFC21A"/><circle cx="32" cy="32" r="9.5" fill="#1B1400"/><g stroke="#1B1400" stroke-width="4" stroke-linecap="round"><path d="M32 10v7M32 47v7M10 32h7M47 32h7M16.4 16.4l5 5M42.6 42.6l5 5M16.4 47.6l5-5M42.6 21.4l5-5"/></g></symbol>
+<symbol id="sunk" viewBox="0 0 64 64"><circle cx="32" cy="32" r="31" fill="#1B1400"/><circle cx="32" cy="32" r="9.5" fill="#FFC21A"/><g stroke="#FFC21A" stroke-width="4" stroke-linecap="round"><path d="M32 10v7M32 47v7M10 32h7M47 32h7M16.4 16.4l5 5M42.6 42.6l5 5M16.4 47.6l5-5M42.6 21.4l5-5"/></g></symbol></svg>
+<div id="root"></div>
+<script>
+const Q=new URLSearchParams(location.search), FMT=Q.get("fmt")||"reel"; // reel|story|feed
+const D=window.DATA;
+const H=FMT==="feed"?1350:1920, V=FMT!=="feed";
+const R=document.documentElement.style;
+R.setProperty("--h",H+"px");R.setProperty("--pad",V?"230px 90px 260px":"110px 90px");R.setProperty("--padx","90px");
+R.setProperty("--h1",V?"128px":"112px");R.setProperty("--hd",V?"84px":"72px");R.setProperty("--lead",V?"42px":"36px");
+const CAT={saude:"Saúde",ciencia:"Ciência",sociedade:"Sociedade","meio-ambiente":"Meio ambiente",animais:"Animais",tecnologia:"Tecnologia"};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const brand=k=>`<div class="brand a" data-d="0"><svg><use href="#${k||"sun"}"/></svg>Dose do Bem</div>`;
+const bars=i=>FMT==="reel"?`<div class="bars">${D.dose.map((_,j)=>`<i><b data-bar="${j}"></b></i>`).join("")}</div>`:"";
+const dots=(i,n)=>FMT==="feed"?`<div class="dots">${Array.from({length:n},(_,j)=>`<i class="${j===i?"a":""}"></i>`).join("")}</div>`:"";
+const N=D.dose.length+2;
+let html=`<section class="sc dark" id="s0"><div class="glow"></div>${brand()}<div class="sp"></div>
+ <div class="eb a" data-d=".2">${esc(D.dataTxt)}</div>
+ <h1 class="a" data-d=".35">${esc(D.saud)}!<br><em>${D.dose.length} notícias boas</em> para começar ${esc(D.dia)}.</h1>
+ <p class="lead a" data-d=".9">${FMT==="feed"?"Arraste para o lado →":"Do Brasil e do mundo, em 30 segundos."}</p>${dots(0,N)}</section>`;
+D.dose.forEach((n,i)=>{html+=`<section class="sc" id="s${i+1}">${bars(i)}${brand()}<div class="sp"></div>
+ <div class="num a" data-d=".1">${String(i+1).padStart(2,"0")} / ${String(D.dose.length).padStart(2,"0")}</div>
+ <div class="chip a" data-d=".15" style="background:var(--${n.categoria})">${CAT[n.categoria]||n.categoria}</div>
+ <div class="hd a" data-d=".3">${esc(n.titulo)}</div>
+ ${V?`<p class="lead a" data-d=".8" style="font-size:36px">${esc(n.resumo)}</p>`:""}
+ <div class="place a" data-d="1.1">📍 ${esc(n.regiao)}${n.pais&&n.pais!==n.regiao&&n.pais!=="Global"?", "+esc(n.pais):""}</div>
+ <div class="src a" data-d="1.2">Fonte: ${esc(n.fonte)}</div>${dots(i+1,N)}</section>`;});
+html+=`<section class="sc yel" id="s${N-1}"><svg class="bigsun"><use href="#sunk"/></svg>${brand("sunk")}<div class="sp"></div>
+ <div class="eb a" data-d=".1">Todo dia de manhã</div>
+ <h1 class="a" data-d=".25">Leia todas no site.</h1>
+ <p class="lead a" data-d=".6" style="color:#1B1400;font-weight:600">dosedobem.com.br</p>
+ <div class="pill a" data-d=".9" style="margin-top:50px">${FMT==="feed"?"Link na bio ↗":"Siga para sua dose diária"}</div>${dots(N-1,N)}</section>`;
+root.innerHTML=html;
+const ease=p=>1-Math.pow(1-p,3), cl=x=>Math.max(0,Math.min(1,x));
+function show(k,t,op){document.querySelectorAll(".sc").forEach(s=>s.classList.toggle("on",s.id==="s"+k));
+ const s=document.getElementById("s"+k);s.style.opacity=op;
+ s.querySelectorAll(".a").forEach(e=>{const p=ease(cl((t-+e.dataset.d)/.5));e.style.opacity=p;e.style.transform=`translateY(${(1-p)*28}px)`;});}
+// reel timeline
+const TL=[3.2,...D.dose.map(()=>5),4.5];window.DUR=TL.reduce((a,b)=>a+b,0);window.NS=N;
+window.frame=T=>{let st=0;for(let k=0;k<TL.length;k++){if(T<st+TL[k]||k===TL.length-1){const t=T-st;
+ const fi=k===0?1:cl(t/.25), fo=k===TL.length-1?1:cl((st+TL[k]-T)/.25);show(k,t,Math.min(fi,fo));
+ document.querySelectorAll(`#s${k} [data-bar]`).forEach(b=>{const j=+b.dataset.bar;b.style.setProperty("--p",j<k-1?1:j===k-1?cl(t/TL[k]):0)});return}st+=TL[k];}};
+window.still=k=>{show(k,99,1);document.querySelectorAll(`#s${k} [data-bar]`).forEach(b=>b.style.setProperty("--p",+b.dataset.bar<k?1:0))};
+</script></body></html>

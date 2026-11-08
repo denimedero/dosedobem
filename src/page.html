@@ -273,6 +273,22 @@ footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-
 .sframe .sbg{position:absolute;inset:0;z-index:1;background-size:cover;background-position:center}
 .sframe .sbg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.05) 30%,rgba(0,0,0,.35) 55%,rgba(0,0,0,.88) 100%)}
 .sframe.himg::before,.sframe.himg::after{display:none}
+
+/* ===== Compartilhar ===== */
+.shr{position:fixed;inset:0;z-index:200;display:flex;align-items:flex-end;justify-content:center;background:rgba(0,0,0,.5)}
+.shr[hidden]{display:none}
+.shr .box{background:var(--bg);color:var(--ink);width:100%;max-width:520px;border-radius:24px 24px 0 0;padding:18px 18px calc(20px + env(safe-area-inset-bottom));max-height:92vh;overflow:auto}
+@media (min-width:700px){.shr{align-items:center}.shr .box{border-radius:24px}}
+.shh{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.shh b{font-family:var(--display);font-size:1.15rem;letter-spacing:-.02em}
+.shh button{border:0;background:var(--band);color:var(--ink);width:36px;height:36px;border-radius:50%;font-size:18px;cursor:pointer}
+.shp{display:block;width:44%;max-width:200px;margin:0 auto 16px;border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.18)}
+.shg{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.shg a,.shg button{display:flex;align-items:center;gap:10px;padding:13px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:.92rem;font-weight:500;text-decoration:none;cursor:pointer;text-align:left}
+.shg .wide{grid-column:1/-1;background:var(--sun);color:var(--on-sun);border-color:transparent;font-weight:600}
+.shg i{font-style:normal;width:26px;height:26px;flex:none;border-radius:8px;display:grid;place-items:center;font-size:14px;font-weight:700;color:#fff}
+.shg small{display:block;font-weight:400;opacity:.75;font-size:.78rem}
+.shdose{display:inline-flex;align-items:center;gap:8px}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -312,6 +328,7 @@ footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-
         <button type="button" class="bt dark" id="openS" data-pri="dose"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><span data-t="seeDose">Ver a dose de hoje · 1 min</span></button>
         <button type="button" class="bt ghost" id="openL" data-pri="ouvir"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4.5" height="6.5" rx="1.6"/><rect x="16.5" y="14" width="4.5" height="6.5" rx="1.6"/></svg><span data-t="listen">Ouvir · 2 min</span></button>
         <button type="button" class="bt ghost" data-goto="mapa" data-t="seeMap">Ver no mapa</button>
+        <button type="button" class="bt ghost shdose" data-sharedose="1"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg><span data-t="shDose">Compartilhar a dose</span></button>
       </div>
       <div class="rings" id="rail" aria-label="Stories de hoje"></div>
       <div class="prog" aria-live="polite"><div class="bar"><i id="barI"></i></div><span id="progN">0/14 lidas</span></div>
@@ -380,7 +397,7 @@ footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-
         <details><summary data-t="q2">Como vocês escolhem o que entra?</summary><p data-t="a2">Entram fatos verificáveis com impacto real: avanços em saúde e ciência, conquistas de pessoas, boas notícias de meio ambiente e sociedade. Ficam de fora boatos, promessas sem dado e propaganda.</p></details>
         <details><summary data-t="q3">O que é a "dose de hoje"?</summary><p data-t="a3">São as cinco notícias mais marcantes do dia em formato de stories. Em um minuto você começa o dia por elas.</p></details>
         <details><summary data-t="q4">Com que frequência o site é atualizado?</summary><p data-t="a4">A ideia é ter uma edição nova por dia. Esta é a edição de <span id="faqDate">hoje</span>.</p></details>
-        <details><summary data-t="q5">Posso compartilhar?</summary><p data-t="a5">Pode e deve. Cada notícia tem um botão que copia o título e o link, pronto para colar no WhatsApp.</p></details>
+        <details><summary data-t="q5">Posso compartilhar?</summary><p data-t="a5">Pode e deve. Cada notícia tem um botão de compartilhar: gera uma imagem pronta para os Stories e leva direto para WhatsApp, X e Facebook. A dose do dia também vem em vídeo para Reels.</p></details>
       </div>
     </div>
   </section>
@@ -426,6 +443,11 @@ footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-
   <button type="button" class="pb" id="pNext" aria-label="Próxima"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5.5v13l9-6.5zM16 5h2.5v14H16z"/></svg></button>
   <button type="button" class="pb x" id="pStop" aria-label="Parar">✕</button>
 </div>
+<div class="shr" id="shr" hidden role="dialog" aria-modal="true" aria-labelledby="shrT"><div class="box">
+  <div class="shh"><b id="shrT">Compartilhar</b><button type="button" id="shrX" aria-label="Fechar">✕</button></div>
+  <img class="shp" id="shrImg" alt="">
+  <div class="shg" id="shrG"></div>
+</div></div>
 <div class="toast" id="toast" role="status"></div>
 
 <script>
@@ -460,7 +482,7 @@ const D={
   q2:"¿Cómo eligen lo que entra?",a2:"Entran hechos verificables con impacto real: avances en salud y ciencia, logros de personas, buenas noticias de medio ambiente y sociedad. Quedan fuera rumores, promesas sin datos y publicidad.",
   q3:"¿Qué es la \"dosis de hoy\"?",a3:"Son las cinco noticias más destacadas del día en formato de stories. En un minuto empiezas el día con ellas.",
   q4:"¿Con qué frecuencia se actualiza?",a4:"La idea es tener una edición nueva cada día. Esta es la edición del <span id=\"faqDate\">día</span>.",
-  q5:"¿Puedo compartir?",a5:"Puedes y debes. Cada noticia tiene un botón que copia el título y el enlace, listo para pegar en WhatsApp.",
+  q5:"¿Puedo compartir?",a5:"Puedes y debes. Cada noticia tiene un botón para compartir: genera una imagen lista para Historias y lleva directo a WhatsApp, X y Facebook. La dosis del día también viene en video para Reels.",
   nlE:"Cada mañana",nlH:"Recibe la dosis del día en tu móvil.",nlP:"Cinco noticias buenas, un minuto de lectura, antes de que se enfríe el café.",nlB:"Quiero recibirla",
   fP:"Noticias buenas, verificadas y con fuente. Una dosis al día.",fRead:"Leer",fAll:"Todas las noticias",fMap:"Mapa del bien",fSrc:"Fuentes"},
  en:{brand:"Dose of Good",gm:"Good morning",ga:"Good afternoon",ge:"Good evening",day1:"1 day",days:"{n} days",streakT:"Days in a row you opened Dose of Good",
@@ -480,9 +502,14 @@ const D={
   q2:"How do you choose what goes in?",a2:"Verifiable facts with real impact: advances in health and science, people's achievements, good news for the environment and society. Rumors, promises without data and advertising stay out.",
   q3:"What is \"today's dose\"?",a3:"The five standout stories of the day, in a stories format. Start your day with them in one minute.",
   q4:"How often is it updated?",a4:"The plan is a new edition every day. This is the edition of <span id=\"faqDate\">today</span>.",
-  q5:"Can I share it?",a5:"Please do. Every story has a button that copies the title and link, ready to paste into WhatsApp.",
+  q5:"Can I share it?",a5:"Please do. Every story has a share button: it makes an image ready for Stories and goes straight to WhatsApp, X and Facebook. The daily dose also comes as a video for Reels.",
   nlE:"Every morning",nlH:"Get the daily dose on your phone.",nlP:"Five good news stories, one minute of reading, before your coffee gets cold.",nlB:"Sign me up",
   fP:"Good news, checked and sourced. One dose a day.",fRead:"Read",fAll:"All news",fMap:"Map of good",fSrc:"Sources"}};
+
+const SH={pt:{shr:"Compartilhar",shDose:"Compartilhar a dose",shImg:"Postar a imagem",shImgS:"Stories, Instagram, WhatsApp…",shReel:"Baixar o Reel do dia",shReelS:"Vídeo vertical para Reels e TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Baixar imagem",shCp:"Copiar link",shLine:"Notícias boas todo dia",shToday:"{n} notícias boas para começar o dia",shMsg:"Vi no Dose do Bem, só notícias boas ☀️",shDoseMsg:"☀️ Minha dose de notícias boas de hoje:"},
+es:{shr:"Compartir",shDose:"Compartir la dosis",shImg:"Publicar la imagen",shImgS:"Historias, Instagram, WhatsApp…",shReel:"Descargar el Reel del día",shReelS:"Video vertical para Reels y TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Descargar imagen",shCp:"Copiar enlace",shLine:"Noticias buenas cada día",shToday:"{n} noticias buenas para empezar el día",shMsg:"Lo vi en Dosis de Bien, solo noticias buenas ☀️",shDoseMsg:"☀️ Mi dosis de noticias buenas de hoy:"},
+en:{shr:"Share",shDose:"Share the dose",shImg:"Post the image",shImgS:"Stories, Instagram, WhatsApp…",shReel:"Download today's Reel",shReelS:"Vertical video for Reels and TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Download image",shCp:"Copy link",shLine:"Good news every day",shToday:"{n} good news stories to start your day",shMsg:"Seen on Dose of Good, only good news ☀️",shDoseMsg:"☀️ My dose of good news today:"}};
+Object.keys(SH).forEach(k=>{if(D[k])Object.assign(D[k],SH[k]);});
 let STREAK=1, ORIG=null;
 let LANG=(function(){
   try{const q=new URLSearchParams(location.search).get("lang"); if(q&&D[q]) return q;}catch(e){}
@@ -601,11 +628,8 @@ document.addEventListener("click",e=>{
   const c=e.target.closest(".chip,.ftema"); if(c){current=c.dataset.k;shown=6;store.set("lb-cat",current);render();if(c.classList.contains("ftema"))goList();return;}
   const a=e.target.closest("[data-read]"); if(a){markRead(a.dataset.read);return;}
   const g=e.target.closest("[data-goto]"); if(g){ if(g.dataset.goto==="dose") sOpen(0); else goGlobe(); return; }
-  const s=e.target.closest("[data-share]"); if(s){
-    const n=data.noticias.find(x=>x.id===s.dataset.share);
-    const txt=`☀️ ${L(n,"titulo")}\n${n.url}\n\n${t("shareT")}`;
-    try{navigator.clipboard.writeText(txt).then(()=>toast(t("copied")),()=>toast(t("copyFail")));}catch(err){toast(t("copyFail"));}
-  }
+  const s=e.target.closest("[data-share]"); if(s){ shOpen(data.noticias.find(x=>x.id===s.dataset.share)); return; }
+  const sd=e.target.closest("[data-sharedose]"); if(sd){ shOpen(null); return; }
 });
 document.querySelectorAll('a[href="#noticias"]').forEach(a=>a.addEventListener("click",e=>{e.preventDefault();goList();}));
 document.querySelectorAll('.logo').forEach(a=>a.addEventListener("click",e=>{e.preventDefault();window.scrollTo({top:0,behavior:"smooth"});}));
@@ -719,7 +743,7 @@ function sGo(i){
     $("swho").textContent=t("brand");
     $("sbody").innerHTML=`<div class="tg">${t("fin1")}</div><h2>${t("fin2")}</h2>
       <p>${t("fin3").replace("{a}",DOSE.length).replace("{b}",data.noticias.length-DOSE.length)}</p>
-      <div class="sacts"><button class="r" id="sList">${t("seeAll")}</button><button class="s" id="sMap">${t("expMap")}</button></div>`;
+      <div class="sacts" style="margin-bottom:10px"><button class="r" data-sharedose="1">${t("shDose")}</button></div><div class="sacts"><button class="r" id="sList">${t("seeAll")}</button><button class="s" id="sMap">${t("expMap")}</button></div>`;
   } else {
     const n=DOSE[SI]; fr.style.setProperty("--cc",`var(--c-${n.categoria})`);
     const old=fr.querySelector(".sbg"); if(old) old.remove();
@@ -847,7 +871,76 @@ $("st").addEventListener("touchend",e=>{if(sy!==null&&e.changedTouches[0].client
 document.addEventListener("keydown",e=>{if($("st").hidden)return;if(e.key==="Escape")sClose();if(e.key==="ArrowRight")sGo(SI+1);if(e.key==="ArrowLeft")sGo(SI-1);});
 
 setLang(LANG,true);
+
+// ===== Compartilhar =====
+const SITE_URL=location.origin.includes("claude")?"https://dosedobem.com.br/":location.origin+location.pathname;
+const SHR={blob:null,name:"",url:"",text:""};
+function shColor(c){return getComputedStyle(document.documentElement).getPropertyValue("--c-"+c).trim()||"#E97F22";}
+function shWrap(ctx,txt,max){const w=String(txt).split(/\s+/),L=[];let l="";for(const x of w){const tt=l?l+" "+x:x;if(ctx.measureText(tt).width>max&&l){L.push(l);l=x;}else l=tt;}if(l)L.push(l);return L;}
+function shSun(ctx,x,y,r,bg,fg){ctx.fillStyle=bg;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();ctx.fillStyle=fg;ctx.beginPath();ctx.arc(x,y,r*.3,0,7);ctx.fill();
+ ctx.strokeStyle=fg;ctx.lineWidth=r*.12;ctx.lineCap="round";for(let k=0;k<8;k++){const a=k*Math.PI/4,c=Math.cos(a),s2=Math.sin(a);ctx.beginPath();ctx.moveTo(x+c*r*.48,y+s2*r*.48);ctx.lineTo(x+c*r*.7,y+s2*r*.7);ctx.stroke();}}
+async function shCard(n){
+  try{await document.fonts.ready;}catch(e){}
+  const W=1080,H=1920,cv=document.createElement("canvas");cv.width=W;cv.height=H;const x=cv.getContext("2d");
+  const F='"Geist","Helvetica Neue",Arial,sans-serif', P=90;
+  x.fillStyle="#0B0B0A";x.fillRect(0,0,W,H);
+  const g=x.createRadialGradient(W+40,-40,0,W+40,-40,820);g.addColorStop(0,"rgba(255,194,26,.42)");g.addColorStop(1,"rgba(255,194,26,0)");x.fillStyle=g;x.fillRect(0,0,W,H);
+  shSun(x,P+38,190,38,"#FFC21A","#1B1400");x.fillStyle="#F3F3EF";x.font=`600 44px ${F}`;x.textBaseline="middle";x.fillText(t("brand"),P+96,192);
+  x.textBaseline="alphabetic";
+  if(n){
+    let y=560;
+    const cat=CATS[n.categoria]||n.categoria;x.font=`600 30px ${F}`;const cw=x.measureText(cat.toUpperCase()).width+48;
+    x.fillStyle=shColor(n.categoria);x.beginPath();x.roundRect(P,y-48,cw,64,32);x.fill();x.fillStyle="#fff";x.fillText(cat.toUpperCase(),P+24,y-5);
+    y+=110;x.fillStyle="#F3F3EF";let fs=86;x.font=`600 ${fs}px ${F}`;let tl=shWrap(x,L(n,"titulo"),W-2*P);if(tl.length>6){fs=70;x.font=`600 ${fs}px ${F}`;tl=shWrap(x,L(n,"titulo"),W-2*P);}
+    const lh=fs*1.08;tl.forEach(l=>{x.fillText(l,P,y);y+=lh;});
+    y+=40;x.fillStyle="#A3A29B";x.font=`400 40px ${F}`;shWrap(x,L(n,"resumo"),W-2*P).slice(0,Math.max(2,Math.floor((H-460-y)/56))).forEach(l=>{x.fillText(l,P,y);y+=56;});
+    y+=30;x.font=`500 32px ${F}`;x.fillText("📍 "+L(n,"regiao")+"  ·  "+n.fonte,P,y);
+  } else {
+    let y=380;x.fillStyle="#A3A29B";x.font=`500 30px ${F}`;x.fillText((($("today").textContent||"").split("·")[0]).trim().toUpperCase(),P,y);
+    y+=100;x.fillStyle="#FFC21A";x.font=`600 84px ${F}`;const h=shWrap(x,t("shToday").replace("{n}",DOSE.length),W-2*P);h.forEach(l=>{x.fillText(l,P,y);y+=90;});
+    y+=20;const room=(H-360-y)/DOSE.length;DOSE.forEach((m,i)=>{x.fillStyle="#2A2A27";x.fillRect(P,y,W-2*P,2);y+=58;x.fillStyle=shColor(m.categoria);x.beginPath();x.arc(P+12,y-12,12,0,7);x.fill();
+      x.fillStyle="#F3F3EF";x.font=`600 38px ${F}`;const ll=shWrap(x,L(m,"titulo"),W-2*P-50).slice(0,room>150?3:2);ll.forEach((l,k)=>{x.fillText(k===ll.length-1&&shWrap(x,L(m,"titulo"),W-2*P-50).length>ll.length?l+"…":l,P+50,y);y+=47;});y+=Math.max(10,room-58-47*ll.length);});
+  }
+  x.fillStyle="#FFC21A";x.beginPath();x.roundRect(P,H-300,W-2*P,170,40);x.fill();
+  x.fillStyle="#1B1400";x.font=`700 50px ${F}`;x.fillText("dosedobem.com.br",P+50,H-205);x.font=`500 32px ${F}`;x.fillText(t("shLine"),P+50,H-155);
+  shSun(x,W-P-95,H-215,55,"#1B1400","#FFC21A");
+  return new Promise(r=>cv.toBlob(r,"image/png"));
+}
+async function shOpen(n){
+  if(!data) return; if(typeof sPaused!=="undefined" && !$("st").hidden){sPaused=true;}
+  const u=SITE_URL+(n?"?n="+encodeURIComponent(n.id)+(LANG!=="pt"?"&lang="+LANG:""):(LANG!=="pt"?"?lang="+LANG:""));
+  const text=n?`☀️ ${L(n,"titulo")}\n\n${t("shMsg")}`:`${t("shDoseMsg")}\n\n`+DOSE.map((m,i)=>`${i+1}. ${L(m,"titulo")}`).join("\n");
+  Object.assign(SHR,{url:u,text,name:(n?n.id:"dose-de-hoje")+".png",blob:null});
+  $("shrT").textContent=n?t("shr"):t("shDose");$("shrImg").removeAttribute("src");
+  const canFiles=!!(navigator.canShare&&navigator.share);
+  const reel=!n?`<a href="social/reel.mp4" download="dose-do-bem-reel.mp4" class="wide" id="shReel" style="background:var(--surface);color:var(--ink);border-color:var(--line)"><i style="background:#0B0B0A">▶</i><span>${t("shReel")}<small>${t("shReelS")}</small></span></a>`:"";
+  $("shrG").innerHTML=`<button type="button" class="wide" id="shImgB"><i style="background:#1B1400;color:#FFC21A">☀</i><span>${t("shImg")}<small>${t("shImgS")}</small></span></button>${reel}
+   <a target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(text+"\n"+u)}"><i style="background:#25D366">W</i>${t("shWa")}</a>
+   <a target="_blank" rel="noopener" href="https://x.com/intent/post?text=${encodeURIComponent(n?"☀️ "+L(n,"titulo"):t("shDoseMsg"))}&url=${encodeURIComponent(u)}"><i style="background:#000">X</i>${t("shX")}</a>
+   <a target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(u)}"><i style="background:#1877F2">f</i>${t("shFb")}</a>
+   <button type="button" id="shCpB"><i style="background:#6B6B66">🔗</i>${t("shCp")}</button>
+   <button type="button" id="shDlB" style="grid-column:1/-1"><i style="background:#6B6B66">↓</i>${t("shDl")}</button>`;
+  $("shr").hidden=false;
+  SHR.blob=await shCard(n); if(SHR.blob){ $("shrImg").src=URL.createObjectURL(SHR.blob); }
+  $("shImgB").onclick=async()=>{
+    if(!SHR.blob) return; const f=new File([SHR.blob],SHR.name,{type:"image/png"});
+    if(canFiles&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f],text:SHR.text+"\n"+SHR.url});}catch(e){}}
+    else shDl();
+  };
+  $("shDlB").onclick=shDl;
+  $("shCpB").onclick=()=>{try{navigator.clipboard.writeText(SHR.text+"\n"+SHR.url).then(()=>toast(t("copied")),()=>toast(t("copyFail")));}catch(e){toast(t("copyFail"));}};
+  const rl=$("shReel"); if(rl&&canFiles) rl.onclick=async ev=>{ev.preventDefault();
+    try{const b=await (await fetch("social/reel.mp4")).blob();const f=new File([b],"dose-do-bem-reel.mp4",{type:"video/mp4"});
+      if(navigator.canShare({files:[f]})){await navigator.share({files:[f],text:SHR.text+"\n"+SHR.url});return;}}catch(e){if(e&&e.name==="AbortError")return;}
+    const a=document.createElement("a");a.href="social/reel.mp4";a.download="dose-do-bem-reel.mp4";a.click();};
+}
+function shDl(){if(!SHR.blob)return;const a=document.createElement("a");a.href=URL.createObjectURL(SHR.blob);a.download=SHR.name;a.click();}
+function shClose(){$("shr").hidden=true;if(!$("st").hidden){sPaused=false;sStart=Date.now()-sElapsed;}}
+$("shrX").onclick=shClose;$("shr").addEventListener("click",e=>{if(e.target.id==="shr")shClose();});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("shr").hidden)shClose();});
+function shDeep(){try{const id=new URLSearchParams(location.search).get("n");if(!id)return;const i=DOSE.findIndex(x=>x.id===id);
+  if(i>=0){sOpen(i);return;} const el=document.querySelector(`.post[data-id="${CSS.escape(id)}"],.feat[data-id="${CSS.escape(id)}"]`); if(el) el.scrollIntoView({behavior:"smooth",block:"center"});}catch(e){}}
 fetch("noticias.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();})
-  .then(j=>{data=j;render();gStart();})
+  .then(j=>{data=j;render();gStart();shDeep();})
   .catch(()=>{$("feed").innerHTML=`<p class="empty">${t("loadErr")}</p>`;});
 </script>
