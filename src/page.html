@@ -278,6 +278,7 @@ footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-
 .shr{position:fixed;inset:0;z-index:200;display:flex;align-items:flex-end;justify-content:center;background:rgba(0,0,0,.5)}
 .shr[hidden]{display:none}
 .shr .box{background:var(--bg);color:var(--ink);width:100%;max-width:520px;border-radius:24px 24px 0 0;padding:18px 18px calc(20px + env(safe-area-inset-bottom));max-height:92vh;overflow:auto}
+.shtip{margin:14px 2px 0;font-size:13px;line-height:1.45;color:var(--ink-2,#6B6B66)}.shtip b{color:var(--ink)}
 @media (min-width:700px){.shr{align-items:center}.shr .box{border-radius:24px}}
 .shh{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
 .shh b{font-family:var(--display);font-size:1.15rem;letter-spacing:-.02em}
@@ -447,6 +448,7 @@ footer{border-top:1px solid var(--line);margin-top:clamp(56px,8vw,96px);padding-
   <div class="shh"><b id="shrT">Compartilhar</b><button type="button" id="shrX" aria-label="Fechar">✕</button></div>
   <img class="shp" id="shrImg" alt="">
   <div class="shg" id="shrG"></div>
+  <p class="shtip" id="shrTip"></p>
 </div></div>
 <div class="toast" id="toast" role="status"></div>
 
@@ -506,9 +508,9 @@ const D={
   nlE:"Every morning",nlH:"Get the daily dose on your phone.",nlP:"Five good news stories, one minute of reading, before your coffee gets cold.",nlB:"Sign me up",
   fP:"Good news, checked and sourced. One dose a day.",fRead:"Read",fAll:"All news",fMap:"Map of good",fSrc:"Sources"}};
 
-const SH={pt:{shr:"Compartilhar",shDose:"Compartilhar a dose",shImg:"Postar a imagem",shImgS:"Stories, Instagram, WhatsApp…",shReel:"Baixar o Reel do dia",shReelS:"Vídeo vertical para Reels e TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Baixar imagem",shCp:"Copiar link",shLine:"Notícias boas todo dia",shToday:"{n} notícias boas para começar o dia",shMsg:"Vi no Dose do Bem, só notícias boas ☀️",shDoseMsg:"☀️ Minha dose de notícias boas de hoje:"},
-es:{shr:"Compartir",shDose:"Compartir la dosis",shImg:"Publicar la imagen",shImgS:"Historias, Instagram, WhatsApp…",shReel:"Descargar el Reel del día",shReelS:"Video vertical para Reels y TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Descargar imagen",shCp:"Copiar enlace",shLine:"Noticias buenas cada día",shToday:"{n} noticias buenas para empezar el día",shMsg:"Lo vi en Dosis de Bien, solo noticias buenas ☀️",shDoseMsg:"☀️ Mi dosis de noticias buenas de hoy:"},
-en:{shr:"Share",shDose:"Share the dose",shImg:"Post the image",shImgS:"Stories, Instagram, WhatsApp…",shReel:"Download today's Reel",shReelS:"Vertical video for Reels and TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Download image",shCp:"Copy link",shLine:"Good news every day",shToday:"{n} good news stories to start your day",shMsg:"Seen on Dose of Good, only good news ☀️",shDoseMsg:"☀️ My dose of good news today:"}};
+const SH={pt:{shr:"Compartilhar",shDose:"Compartilhar a dose",shImg:"Postar a imagem",shImgS:"Stories, Instagram, WhatsApp…",shReel:"Baixar o Reel do dia",shReelS:"Vídeo vertical para Reels e TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Baixar imagem",shCp:"Copiar link",shLine:"Notícias boas todo dia",shToday:"{n} notícias boas para começar o dia",shMsg:"Vi no Dose do Bem, só notícias boas ☀️",shDoseMsg:"☀️ Minha dose de notícias boas de hoje:",shTip:"<b>Para levar as pessoas ao site:</b> ao postar a imagem, o link já fica copiado. No Stories, toque no ícone de adesivos, escolha <b>Link</b> e cole. No feed do Instagram o link não fica clicável: cole no primeiro comentário ou escreva “link na bio”. WhatsApp, X e Facebook já levam o link clicável.",shLinkOk:"Link copiado! No Stories, use o adesivo Link e cole."},
+es:{shr:"Compartir",shDose:"Compartir la dosis",shImg:"Publicar la imagen",shImgS:"Historias, Instagram, WhatsApp…",shReel:"Descargar el Reel del día",shReelS:"Video vertical para Reels y TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Descargar imagen",shCp:"Copiar enlace",shLine:"Noticias buenas cada día",shToday:"{n} noticias buenas para empezar el día",shMsg:"Lo vi en Dosis de Bien, solo noticias buenas ☀️",shDoseMsg:"☀️ Mi dosis de noticias buenas de hoy:",shTip:"<b>Para llevar a la gente al sitio:</b> al publicar la imagen, el enlace ya queda copiado. En Historias, toca el ícono de stickers, elige <b>Enlace</b> y pega. En el feed de Instagram el enlace no es clicable: pégalo en el primer comentario o escribe “link en la bio”. WhatsApp, X y Facebook ya llevan el enlace clicable.",shLinkOk:"¡Enlace copiado! En Historias, usa el sticker Enlace y pega."},
+en:{shr:"Share",shDose:"Share the dose",shImg:"Post the image",shImgS:"Stories, Instagram, WhatsApp…",shReel:"Download today's Reel",shReelS:"Vertical video for Reels and TikTok",shWa:"WhatsApp",shX:"X",shFb:"Facebook",shDl:"Download image",shCp:"Copy link",shLine:"Good news every day",shToday:"{n} good news stories to start your day",shMsg:"Seen on Dose of Good, only good news ☀️",shDoseMsg:"☀️ My dose of good news today:",shTip:"<b>To bring people to the site:</b> when you post the image, the link is already copied. In Stories, tap the sticker icon, choose <b>Link</b> and paste. Instagram feed captions don’t make links clickable: paste it in the first comment or write “link in bio”. WhatsApp, X and Facebook already carry a clickable link.",shLinkOk:"Link copied! In Stories, use the Link sticker and paste."}};
 Object.keys(SH).forEach(k=>{if(D[k])Object.assign(D[k],SH[k]);});
 let STREAK=1, ORIG=null;
 let LANG=(function(){
@@ -873,7 +875,7 @@ document.addEventListener("keydown",e=>{if($("st").hidden)return;if(e.key==="Esc
 setLang(LANG,true);
 
 // ===== Compartilhar =====
-const SITE_URL=location.origin.includes("claude")?"https://dosedobem.com.br/":location.origin+location.pathname;
+const SITE_URL=location.origin.includes("claude")?"https://dosedobem.com.br/":location.origin+location.pathname.replace(/[^/]*$/,"");
 const SHR={blob:null,name:"",url:"",text:""};
 function shColor(c){return getComputedStyle(document.documentElement).getPropertyValue("--c-"+c).trim()||"#E97F22";}
 function shWrap(ctx,txt,max){const w=String(txt).split(/\s+/),L=[];let l="";for(const x of w){const tt=l?l+" "+x:x;if(ctx.measureText(tt).width>max&&l){L.push(l);l=x;}else l=tt;}if(l)L.push(l);return L;}
@@ -920,7 +922,7 @@ async function shCard(n){
 }
 async function shOpen(n){
   if(!data) return; if(typeof sPaused!=="undefined" && !$("st").hidden){sPaused=true;}
-  const u=SITE_URL+(n?"?n="+encodeURIComponent(n.id)+(LANG!=="pt"?"&lang="+LANG:""):(LANG!=="pt"?"?lang="+LANG:""));
+  const u=SITE_URL+(n?"n/"+encodeURIComponent(n.id)+"/"+(LANG!=="pt"?LANG+".html":""):(LANG!=="pt"?"?lang="+LANG:""));
   const text=n?`☀️ ${L(n,"titulo")}\n\n${t("shMsg")}`:`${t("shDoseMsg")}\n\n`+DOSE.map((m,i)=>`${i+1}. ${L(m,"titulo")}`).join("\n");
   Object.assign(SHR,{url:u,text,name:(n?n.id:"dose-de-hoje")+".png",blob:null});
   $("shrT").textContent=n?t("shr"):t("shDose");$("shrImg").removeAttribute("src");
@@ -932,20 +934,25 @@ async function shOpen(n){
    <a target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(u)}"><i style="background:#1877F2">f</i>${t("shFb")}</a>
    <button type="button" id="shCpB"><i style="background:#6B6B66">🔗</i>${t("shCp")}</button>
    <button type="button" id="shDlB" style="grid-column:1/-1"><i style="background:#6B6B66">↓</i>${t("shDl")}</button>`;
+  $("shrTip").innerHTML=t("shTip");
   $("shr").hidden=false;
   SHR.blob=await shCard(n); if(SHR.blob){ $("shrImg").src=URL.createObjectURL(SHR.blob); }
   $("shImgB").onclick=async()=>{
     if(!SHR.blob) return; const f=new File([SHR.blob],SHR.name,{type:"image/png"});
+    shCopyLink();
     if(canFiles&&navigator.canShare({files:[f]})){try{await navigator.share({files:[f],text:SHR.text+"\n"+SHR.url});}catch(e){}}
     else shDl();
+    toast(t("shLinkOk"));
   };
-  $("shDlB").onclick=shDl;
+  $("shDlB").onclick=()=>{shCopyLink();shDl();toast(t("shLinkOk"));};
   $("shCpB").onclick=()=>{try{navigator.clipboard.writeText(SHR.text+"\n"+SHR.url).then(()=>toast(t("copied")),()=>toast(t("copyFail")));}catch(e){toast(t("copyFail"));}};
-  const rl=$("shReel"); if(rl&&canFiles) rl.onclick=async ev=>{ev.preventDefault();
+  const rl=$("shReel"); if(rl) rl.addEventListener("click",()=>{shCopyLink();setTimeout(()=>toast(t("shLinkOk")),400);});
+  if(rl&&canFiles) rl.onclick=async ev=>{ev.preventDefault();
     try{const b=await (await fetch("social/reel.mp4")).blob();const f=new File([b],"dose-do-bem-reel.mp4",{type:"video/mp4"});
       if(navigator.canShare({files:[f]})){await navigator.share({files:[f],text:SHR.text+"\n"+SHR.url});return;}}catch(e){if(e&&e.name==="AbortError")return;}
     const a=document.createElement("a");a.href="social/reel.mp4";a.download="dose-do-bem-reel.mp4";a.click();};
 }
+function shCopyLink(){try{navigator.clipboard.writeText(SHR.url).catch(()=>{});}catch(e){}}
 function shDl(){if(!SHR.blob)return;const a=document.createElement("a");a.href=URL.createObjectURL(SHR.blob);a.download=SHR.name;a.click();}
 function shClose(){$("shr").hidden=true;if(!$("st").hidden){sPaused=false;sStart=Date.now()-sElapsed;}}
 $("shrX").onclick=shClose;$("shr").addEventListener("click",e=>{if(e.target.id==="shr")shClose();});

@@ -113,8 +113,56 @@ def build_page():
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 
 
+SHARE_TPL = """<!doctype html>
+<html lang="{hl}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title} | Dose do Bem</title>
+<meta name="description" content="{desc}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Dose do Bem">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{desc}">
+<meta property="og:image" content="{img}">
+<meta property="og:url" content="{self}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{img}">
+<link rel="canonical" href="{dest}">
+<meta http-equiv="refresh" content="0;url={dest}">
+<script>location.replace({dest_js});</script>
+<style>body{{font:16px system-ui,sans-serif;margin:40px 20px;color:#0B0B0A}}a{{color:#B45F06}}</style>
+</head>
+<body><p><a href="{dest}">{title}</a></p></body>
+</html>
+"""
+
+
+def build_share_pages(data):
+    """Uma página leve por notícia (n/<id>/), com prévia (título, resumo, foto) para WhatsApp, X e Facebook.
+    Ela redireciona na hora para o site com a notícia aberta. Páginas antigas ficam (links já compartilhados continuam funcionando)."""
+    from html import escape
+    for n in data["noticias"]:
+        nid = n["id"]
+        if not re.fullmatch(r"[a-z0-9-]+", nid):
+            continue
+        d = os.path.join(ROOT, "n", nid)
+        os.makedirs(d, exist_ok=True)
+        for lang, fname, hl in (("pt", "index.html", "pt-BR"), ("es", "es.html", "es"), ("en", "en.html", "en")):
+            dest = f"{SITE}?n={nid}" + ("" if lang == "pt" else f"&lang={lang}")
+            selfu = f"{SITE}n/{nid}/" + ("" if lang == "pt" else fname)
+            html = SHARE_TPL.format(
+                hl=hl, title=escape(field(n, lang, "titulo")), desc=escape(field(n, lang, "resumo")),
+                img=escape(n.get("img") or SITE + "icons/icon-512.png"), self=escape(selfu),
+                dest=escape(dest), dest_js=json.dumps(dest))
+            open(os.path.join(d, fname), "w", encoding="utf-8").write(html)
+
+
 if __name__ == "__main__":
     data = json.load(open(os.path.join(ROOT, "noticias.json"), encoding="utf-8"))
     build_page()
     build_alexa(data)
+    build_share_pages(data)
     print("ok:", data["atualizado"], len(data["noticias"]), "notícias")
