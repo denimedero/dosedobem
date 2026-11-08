@@ -1,6 +1,290 @@
 {
- "atualizado": "2026-11-07",
+ "atualizado": "2026-11-08",
  "noticias": [
+  {
+   "id": "diplomatas-indigenas",
+   "titulo": "Diplomatas indígenas e quilombola tomam posse no Itamaraty pela 1ª vez",
+   "resumo": "Marcelo Kariri Meneses, Idjahure Achkar Terena e a quilombola Helen Jaine Borgens, de 25 anos, estão na nova turma de 60 diplomatas, que tem 45% de mulheres.",
+   "categoria": "sociedade",
+   "regiao": "Brasília (DF)",
+   "data": "2026-11-07",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/07/diplomatas-indigenas-quilombola-assumiram-itamaraty",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -15.79,
+   "lon": -47.88,
+   "i18n": {
+    "es": {
+     "titulo": "Diplomáticos indígenas y quilombola asumen en Itamaraty por primera vez",
+     "resumo": "Marcelo Kariri Meneses, Idjahure Achkar Terena y la quilombola Helen Jaine Borgens, de 25 años, integran la nueva promoción de 60 diplomáticos, con un 45% de mujeres.",
+     "regiao": "Brasilia (DF)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Indigenous and quilombola diplomats join Brazil's foreign service for the first time",
+     "resumo": "Marcelo Kariri Meneses, Idjahure Achkar Terena and quilombola Helen Jaine Borgens, 25, are part of a new class of 60 diplomats, 45% of them women.",
+     "regiao": "Brasília (DF)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-07T131715.611.jpg",
+   "credito": "Foto: André Guajajara"
+  },
+  {
+   "id": "pietra-matematica",
+   "titulo": "Baiana de 5 anos ganha ouro em olimpíada internacional de matemática",
+   "resumo": "Pietra Garcia venceu na categoria K2 de uma olimpíada em Singapura. É a 14ª medalha dela, que já tinha ganhado bronze aos 4 anos.",
+   "categoria": "ciencia",
+   "regiao": "Bahia",
+   "data": "2026-11-07",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/07/brasileira-superdotada-5-anos-ouro-matematica",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -12.97,
+   "lon": -38.5,
+   "i18n": {
+    "es": {
+     "titulo": "Niña bahiana de 5 años gana oro en una olimpiada internacional de matemáticas",
+     "resumo": "Pietra Garcia ganó en la categoría K2 de una olimpiada en Singapur. Es su medalla número 14; a los 4 años ya había ganado un bronce.",
+     "regiao": "Bahía",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "5-year-old Brazilian girl wins gold at an international maths olympiad",
+     "resumo": "Pietra Garcia, from Bahia, won the K2 category at an olympiad in Singapore. It is her 14th medal; she won bronze at age 4.",
+     "regiao": "Bahia",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-07T102059.898.jpg",
+   "credito": "Foto: arquivo pessoal"
+  },
+  {
+   "id": "escala-5x2",
+   "titulo": "Teste da escala 5x2 no varejo reduz faltas e atrai candidatos",
+   "resumo": "A C&A testou a escala em cerca de 60 lojas e viu menos faltas. A rede Savegnago relatou 120% mais procura por vagas. A 5x2 passa a valer em 15 de dezembro.",
+   "categoria": "sociedade",
+   "regiao": "Brasil",
+   "data": "2026-11-07",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/07/teste-escala-5x2-reduz-faltas-melhora-produtividade",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "Prueba de la jornada 5x2 en el comercio reduce ausencias y atrae candidatos",
+     "resumo": "C&A probó la jornada en unas 60 tiendas y registró menos ausencias. La red Savegnago reportó un 120% más de postulaciones. La 5x2 rige desde el 15 de diciembre.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Trial of a five-day work week in Brazilian retail cuts absences",
+     "resumo": "C&A tested the 5x2 schedule in about 60 stores and saw fewer absences. Supermarket chain Savegnago reported 120% more job applicants. The rule takes effect on 15 December.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "whirlpool-rio-claro",
+   "titulo": "Dona da Brastemp traz produção para o Brasil e investe R$ 300 milhões",
+   "resumo": "A Whirlpool vai fabricar em Rio Claro (SP) as lavadoras que eram feitas na Argentina. A prefeitura fala em 200 empregos diretos; o governo federal estima 2.800 diretos e indiretos.",
+   "categoria": "sociedade",
+   "regiao": "Rio Claro (SP)",
+   "data": "2026-11-06",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/brastemp-consul-fecha-fabrica-argentina-producao-brasil",
+   "pais": "Brasil",
+   "lat": -22.41,
+   "lon": -47.56,
+   "i18n": {
+    "es": {
+     "titulo": "La dueña de Brastemp lleva su producción a Brasil e invierte R$ 300 millones",
+     "resumo": "Whirlpool fabricará en Rio Claro (SP) las lavadoras que se hacían en Argentina. La alcaldía habla de 200 empleos directos; el gobierno federal estima 2.800 entre directos e indirectos.",
+     "regiao": "Rio Claro (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Whirlpool moves washer production to Brazil with a R$300 million investment",
+     "resumo": "Whirlpool will make front-loading washers in Rio Claro, São Paulo, instead of Argentina. The city expects 200 direct jobs; the federal government estimates 2,800 direct and indirect jobs.",
+     "regiao": "Rio Claro (SP)",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "bebe-boneca",
+   "titulo": "Bebê idêntica à própria boneca viraliza e ganha presente da fabricante",
+   "resumo": "As fotos de Sara Heloísa, de 1 ano e 3 meses, com a boneca Titi passaram de 2 milhões de visualizações. A Bambola Brinquedos mandou novos brinquedos para ela.",
+   "categoria": "sociedade",
+   "regiao": "Maracanaú (CE)",
+   "data": "2026-11-05",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/05/bebe-brasileira-viraliza-semelhanca-boneca-brinquedo",
+   "pais": "Brasil",
+   "lat": -3.87,
+   "lon": -38.63,
+   "i18n": {
+    "es": {
+     "titulo": "Bebé idéntica a su muñeca se hace viral y recibe un regalo del fabricante",
+     "resumo": "Las fotos de Sara Heloísa, de 1 año y 3 meses, con la muñeca Titi superaron 2 millones de vistas. Bambola Brinquedos le envió nuevos juguetes.",
+     "regiao": "Maracanaú (CE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Baby who looks just like her doll goes viral and gets a gift from the maker",
+     "resumo": "Photos of 15-month-old Sara Heloísa with her Titi doll passed 2 million views. Toymaker Bambola Brinquedos sent her new toys.",
+     "regiao": "Maracanaú (CE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-10.15.24-1.jpeg",
+   "credito": "Foto: reprodução/@bonequinhasara.oficial"
+  },
+  {
+   "id": "restaurantes-50-melhores",
+   "titulo": "Dois restaurantes brasileiros entram na lista dos 50 melhores do mundo",
+   "resumo": "O Tuju, de São Paulo, subiu 54 posições e ficou em 16º. O Lasai, do Rio, foi para 25º. A cerimônia foi em Lima, no Peru.",
+   "categoria": "sociedade",
+   "regiao": "São Paulo e Rio de Janeiro",
+   "data": "2026-11-05",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/05/ranking-50-melhores-restaurantes-mundo-2026-brasileiros",
+   "pais": "Brasil",
+   "lat": -23.55,
+   "lon": -46.63,
+   "i18n": {
+    "es": {
+     "titulo": "Dos restaurantes brasileños entran en la lista de los 50 mejores del mundo",
+     "resumo": "Tuju, de São Paulo, subió 54 puestos y quedó 16º. Lasai, de Río, pasó al 25º. La ceremonia fue en Lima, Perú.",
+     "regiao": "São Paulo y Río de Janeiro",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Two Brazilian restaurants make the World's 50 Best list",
+     "resumo": "São Paulo's Tuju jumped 54 places to 16th, and Rio's Lasai rose to 25th. The ceremony was held in Lima, Peru.",
+     "regiao": "São Paulo and Rio de Janeiro",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-05T105632.867.jpg",
+   "credito": "Fotos: reprodução/Instagram @tuju_sp @restaurantelasai"
+  },
+  {
+   "id": "baleia-filhote",
+   "titulo": "Baleia e filhote se aproximam de mulher que cantava no mar",
+   "resumo": "A artista Demetra cantava na água quando uma baleia adulta e um filhote apareceram bem perto. O vídeo emocionou as redes; não há prova de que o canto atraiu os animais.",
+   "categoria": "animais",
+   "regiao": "Oceano",
+   "data": "2026-11-07",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/07/mulher-canta-baleias-frequencia-528-hz",
+   "pais": "Global",
+   "i18n": {
+    "es": {
+     "titulo": "Una ballena y su cría se acercan a una mujer que cantaba en el mar",
+     "resumo": "La artista Demetra cantaba en el agua cuando una ballena adulta y su cría aparecieron muy cerca. El video emocionó en redes; no hay prueba de que el canto atrajera a los animales.",
+     "regiao": "Océano",
+     "pais": "Global"
+    },
+    "en": {
+     "titulo": "Whale and calf swim up to a woman singing in the sea",
+     "resumo": "Artist Demetra was singing in the water when an adult whale and a calf appeared close by. The video moved many online; there is no proof the song drew them in.",
+     "regiao": "Ocean",
+     "pais": "Global"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-11.07.56-1.jpeg",
+   "credito": "Foto: reprodução/Instagram @soul.star.sanctuary"
+  },
+  {
+   "id": "airtag-pedras",
+   "titulo": "Vereador usa AirTag para pegar ladrão de pedras históricas",
+   "resumo": "Matt Smith escondeu um AirTag numa pedra de um muro do século 18 em Rufford, na Inglaterra. O ladrão foi preso e condenado, e parte das cerca de 30 pedras foi recuperada.",
+   "categoria": "tecnologia",
+   "regiao": "Lancashire",
+   "data": "2026-11-07",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
+   "pais": "Reino Unido",
+   "lat": 53.63,
+   "lon": -2.81,
+   "i18n": {
+    "es": {
+     "titulo": "Concejal usa un AirTag para atrapar a un ladrón de piedras históricas",
+     "resumo": "Matt Smith escondió un AirTag en una piedra de un muro del siglo XVIII en Rufford, Inglaterra. El ladrón fue detenido y condenado, y se recuperó parte de las cerca de 30 piedras.",
+     "regiao": "Lancashire",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Councillor uses an AirTag to catch a thief stealing 18th-century stones",
+     "resumo": "Matt Smith hid an AirTag in a capstone of an 18th-century wall in Rufford, England. The thief was arrested and convicted, and some of the roughly 30 stones were recovered.",
+     "regiao": "Lancashire",
+     "pais": "United Kingdom"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Councillor-Matt-Smith-with-GPS-AirTag-SWNS.jpeg",
+   "credito": "Foto: Charley Atkins/SWNS"
+  },
+  {
+   "id": "doberman-bebe",
+   "titulo": "Cadela dobermann percebe coração acelerado de bebê e ajuda a salvá-lo",
+   "resumo": "Saraya insistiu que algo estava errado com Alexander, de 6 meses, cujo coração batia a 280 por minuto. Ele foi diagnosticado com síndrome de Wolff-Parkinson-White e tratado.",
+   "categoria": "saude",
+   "regiao": "Somerset",
+   "data": "2026-11-07",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
+   "pais": "Reino Unido",
+   "lat": 51.1,
+   "lon": -2.9,
+   "i18n": {
+    "es": {
+     "titulo": "Una perra dóberman nota el corazón acelerado de un bebé y ayuda a salvarlo",
+     "resumo": "Saraya insistió en que algo andaba mal con Alexander, de 6 meses, cuyo corazón latía a 280 por minuto. Lo diagnosticaron con síndrome de Wolff-Parkinson-White y lo trataron.",
+     "regiao": "Somerset",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Family Doberman detects a baby's racing heartbeat and helps save him",
+     "resumo": "Saraya kept insisting something was wrong with 6-month-old Alexander, whose heart was beating at 280 bpm. He was diagnosed with Wolff-Parkinson-White syndrome and treated.",
+     "regiao": "Somerset",
+     "pais": "United Kingdom"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Alexander-with-doberman-who-saved-his-life-SWNS.jpeg",
+   "credito": "Foto: SWNS"
+  },
+  {
+   "id": "karl-bushby",
+   "titulo": "Aventureiro abraça a mãe depois de 28 anos dando a volta ao mundo a pé",
+   "resumo": "Karl Bushby saiu de Hull, na Inglaterra, em 1998 e caminhou mais de 50 mil km por 30 países. Ele reencontrou a mãe, Angela, em 2 de novembro.",
+   "categoria": "sociedade",
+   "regiao": "Hull",
+   "data": "2026-11-07",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/adventurer-finally-hugs-mom-after-28-year-walk-around-the-world-from-home-in-uk/",
+   "pais": "Reino Unido",
+   "lat": 53.74,
+   "lon": -0.33,
+   "i18n": {
+    "es": {
+     "titulo": "Aventurero abraza a su madre tras 28 años dando la vuelta al mundo a pie",
+     "resumo": "Karl Bushby salió de Hull, Inglaterra, en 1998 y caminó más de 50.000 km por 30 países. Se reencontró con su madre, Angela, el 2 de noviembre.",
+     "regiao": "Hull",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Adventurer hugs his mom after a 28-year walk around the world",
+     "resumo": "Karl Bushby left Hull, England, in 1998 and walked more than 31,000 miles through 30 countries. He reunited with his mother Angela on 2 November.",
+     "regiao": "Hull",
+     "pais": "United Kingdom"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Karl-Bushby-reunites-with-mom-after-walking-around-world-%E2%80%93-SWNS.jpeg",
+   "credito": "Foto: SWNS"
+  },
   {
    "id": "luiza-salva-bebe",
    "titulo": "Menina de 13 anos salva bebê que caiu em tanque de peixes",
@@ -11,7 +295,6 @@
    "fonte": "Só Notícia Boa",
    "url": "https://www.sonoticiaboa.com.br/2026/11/06/menina-13-anos-salva-bebe-mt",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -12.55,
    "lon": -55.71,
    "i18n": {
@@ -41,7 +324,6 @@
    "fonte": "Só Notícia Boa",
    "url": "https://www.sonoticiaboa.com.br/2026/11/06/estudante-bahia-vence-feira-cimento-sustentavel",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -11.66,
    "lon": -39.0,
    "i18n": {
@@ -60,207 +342,6 @@
    },
    "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-12.33.14-1.jpeg",
    "credito": "Foto: Thales Lima/SEC-BA"
-  },
-  {
-   "id": "cavalo-sancho",
-   "titulo": "Homem usa corda para salvar cavalo idoso levado pela correnteza",
-   "resumo": "Felipe Alves segurou o cavalo Sancho num rio cheio após a chuva em Santa Catarina. Outros três homens chegaram com cordas e ajudaram a tirá-lo. O cavalo passa bem.",
-   "categoria": "animais",
-   "regiao": "Santa Catarina",
-   "data": "2026-11-06",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/homem-salvar-cavalo-idoso-correnteza-rio-sc",
-   "pais": "Brasil",
-   "lat": -27.3,
-   "lon": -50.2,
-   "i18n": {
-    "es": {
-     "titulo": "Hombre usa una cuerda para salvar a un caballo anciano arrastrado por la corriente",
-     "resumo": "Felipe Alves sostuvo al caballo Sancho en un río crecido tras las lluvias en Santa Catarina. Otros tres hombres llegaron con cuerdas y ayudaron a sacarlo. El caballo está bien.",
-     "regiao": "Santa Catarina",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Man uses a rope to save an elderly horse swept away by a river",
-     "resumo": "Felipe Alves held on to his horse Sancho in a flooded river after heavy rain in Santa Catarina. Three other men came with ropes and pulled him out. The horse is fine.",
-     "regiao": "Santa Catarina",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-06T104254.039.jpg",
-   "credito": "Fotos: reprodução/Instagram @fealvessn"
-  },
-  {
-   "id": "supercentenarios-nordeste",
-   "titulo": "Brasil é o único país com 3 pessoas entre as 10 mais velhas do mundo",
-   "resumo": "Segundo a LongeviQuest, Yolanda Beltrão de Azevedo (115 anos, Maceió), Beatriz Ferreira Duarte (115, Jaboatão dos Guararapes) e João Marinho Neto (114, Ceará) estão no ranking. Todos são do Nordeste.",
-   "categoria": "saude",
-   "regiao": "Nordeste",
-   "data": "2026-11-06",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/brasil-unico-pais-ranking-mais-velhos-do-mundo-nordeste",
-   "pais": "Brasil",
-   "lat": -9.67,
-   "lon": -35.74,
-   "i18n": {
-    "es": {
-     "titulo": "Brasil es el único país con 3 personas entre las 10 más longevas del mundo",
-     "resumo": "Según LongeviQuest, Yolanda Beltrão de Azevedo (115 años, Maceió), Beatriz Ferreira Duarte (115, Jaboatão dos Guararapes) y João Marinho Neto (114, Ceará) están en la lista. Todos son del Nordeste.",
-     "regiao": "Nordeste",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil is the only country with 3 people among the world's 10 oldest",
-     "resumo": "According to LongeviQuest, Yolanda Beltrão de Azevedo (115, Maceió), Beatriz Ferreira Duarte (115, Jaboatão dos Guararapes) and João Marinho Neto (114, Ceará) are on the list. All are from the Northeast.",
-     "regiao": "Northeast",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-06T113608.835.jpg",
-   "credito": "Fotos: reprodução/LongeviQuest"
-  },
-  {
-   "id": "andorinha-bibi",
-   "titulo": "Andorinha se aconchega no ombro de artista enquanto ele pinta",
-   "resumo": "A andorinha Bibi, que provavelmente caiu do ninho, é cuidada pelos artistas Carla Vazarin e Ronaldo Mendes, em Bichinho (MG). Eles vão cuidar dela até que possa voar livre.",
-   "categoria": "animais",
-   "regiao": "Bichinho (MG)",
-   "data": "2026-11-06",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/andorinha-no-ombro-artista-minas-gerais",
-   "pais": "Brasil",
-   "lat": -21.07,
-   "lon": -44.2,
-   "i18n": {
-    "es": {
-     "titulo": "Una golondrina se acurruca en el hombro de un artista mientras pinta",
-     "resumo": "La golondrina Bibi, que probablemente se cayó del nido, es cuidada por los artistas Carla Vazarin y Ronaldo Mendes, en Bichinho (MG). La cuidarán hasta que pueda volar libre.",
-     "regiao": "Bichinho (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Swallow snuggles on an artist's shoulder while he paints",
-     "resumo": "Bibi, a swallow that probably fell from its nest, is being raised by artists Carla Vazarin and Ronaldo Mendes in Bichinho, Minas Gerais. They will care for her until she can fly free.",
-     "regiao": "Bichinho (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-29.png",
-   "credito": "Foto: reprodução/Instagram @atelierdenosdois"
-  },
-  {
-   "id": "dinheiro-devolvido",
-   "titulo": "Homem passa 12 dias procurando o dono de um dinheiro perdido",
-   "resumo": "Pedro Moro achou o salário do mês de Matheus Reginaldo Celestino, de 24 anos, numa praça de Ibiraçu. Usou câmeras de segurança e redes sociais até devolver o dinheiro, que era para a filha dele.",
-   "categoria": "sociedade",
-   "regiao": "Ibiraçu (ES)",
-   "data": "2026-11-06",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/man-spends-12-days-returning-lost-cash-a-laborer-needed-for-his-daughter/",
-   "pais": "Brasil",
-   "lat": -19.83,
-   "lon": -40.37,
-   "i18n": {
-    "es": {
-     "titulo": "Hombre pasa 12 días buscando al dueño de un dinero perdido",
-     "resumo": "Pedro Moro encontró el salario del mes de Matheus Reginaldo Celestino, de 24 años, en una plaza de Ibiraçu. Usó cámaras de seguridad y redes sociales hasta devolver el dinero, que era para su hija.",
-     "regiao": "Ibiraçu (ES)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Man spends 12 days returning lost cash a worker needed for his daughter",
-     "resumo": "Pedro Moro found the monthly salary of Matheus Reginaldo Celestino, 24, in a plaza in Ibiraçu. He used security footage and social media to track him down and return it.",
-     "regiao": "Ibiraçu (ES)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Pedro-Moro-shakes-hands-with-Matheus-Reginaldo-Celestino-whose-money-Moro-returned-credit-Pedro-Moro-supplied-to-the-media.jpg",
-   "credito": "Foto: Pedro Moro/divulgação"
-  },
-  {
-   "id": "berco-restaurante",
-   "titulo": "Restaurante leva berço para bebê dormir ao lado dos pais",
-   "resumo": "Um garçom do Jardim da Cerveja, em Foz do Iguaçu, levou um berço com manta para um pai que segurava o bebê dormindo. O vídeo passou de 1,1 milhão de visualizações.",
-   "categoria": "sociedade",
-   "regiao": "Foz do Iguaçu (PR)",
-   "data": "2026-11-05",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/05/restaurante-oferece-berco-bebe-surpreende-pai-parana",
-   "pais": "Brasil",
-   "lat": -25.55,
-   "lon": -54.58,
-   "i18n": {
-    "es": {
-     "titulo": "Restaurante lleva una cuna para que un bebé duerma junto a sus padres",
-     "resumo": "Un mesero del Jardim da Cerveja, en Foz do Iguaçu, llevó una cuna con manta a un padre que sostenía a su bebé dormido. El video superó 1,1 millones de vistas.",
-     "regiao": "Foz do Iguaçu (PR)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Restaurant brings a crib so a baby can sleep next to his parents",
-     "resumo": "A waiter at Jardim da Cerveja in Foz do Iguaçu brought a crib and blanket to a father holding his sleeping baby. The video passed 1.1 million views.",
-     "regiao": "Foz do Iguaçu (PR)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-05T103037.593.jpg",
-   "credito": "Fotos: reprodução/Instagram @luanacoradete"
-  },
-  {
-   "id": "glp1-oral",
-   "titulo": "Anvisa aprova o primeiro remédio GLP-1 em comprimido para obesidade",
-   "resumo": "A versão oral da semaglutida foi aprovada no dia 4. No estudo de fase 3, de 64 semanas, a perda de peso média passou de 13% na dose de 25 mg. Ainda não há data de venda nem preço.",
-   "categoria": "saude",
-   "regiao": "Brasília (DF)",
-   "data": "2026-11-05",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/05/glp-1-oral-obesidade-anvisa-aprova",
-   "pais": "Brasil",
-   "lat": -15.79,
-   "lon": -47.88,
-   "i18n": {
-    "es": {
-     "titulo": "Anvisa aprueba el primer GLP-1 en comprimido para la obesidad",
-     "resumo": "La versión oral de la semaglutida fue aprobada el día 4. En el estudio de fase 3, de 64 semanas, la pérdida de peso media superó el 13% con la dosis de 25 mg. Aún no hay fecha de venta ni precio.",
-     "regiao": "Brasilia (DF)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil approves the first oral GLP-1 pill for obesity",
-     "resumo": "Anvisa approved oral semaglutide on 4 November. In the 64-week phase 3 trial, average weight loss was above 13% at the 25 mg dose. No launch date or price yet.",
-     "regiao": "Brasília (DF)",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "rafael-camara-f1",
-   "titulo": "Rafael Câmara será o primeiro piloto do Nordeste na Fórmula 1",
-   "resumo": "O recifense de 21 anos estreia pela Haas no GP de São Paulo, em Interlagos, neste domingo (8). Será o 34º brasileiro na F1, e o Brasil volta a ter dois pilotos numa corrida pela primeira vez desde 2016.",
-   "categoria": "sociedade",
-   "regiao": "Recife (PE)",
-   "data": "2026-11-04",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/04/rafael-camara-primeiro-piloto-nordeste-formula-1",
-   "pais": "Brasil",
-   "lat": -8.05,
-   "lon": -34.9,
-   "i18n": {
-    "es": {
-     "titulo": "Rafael Câmara será el primer piloto del Nordeste de Brasil en la Fórmula 1",
-     "resumo": "El piloto de Recife, de 21 años, debuta con Haas en el GP de São Paulo, en Interlagos, este domingo (8). Será el brasileño número 34 en la F1.",
-     "regiao": "Recife (PE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Rafael Câmara becomes the first driver from Brazil's Northeast in Formula 1",
-     "resumo": "The 21-year-old from Recife debuts for Haas at the São Paulo GP at Interlagos on Sunday (8 Nov). He will be the 34th Brazilian in F1.",
-     "regiao": "Recife (PE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-04-at-10.14.57.jpeg",
-   "credito": "Foto: reprodução/Instagram @trident_team"
   },
   {
    "id": "rothbury-natureza",
@@ -319,118 +400,6 @@
    },
    "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Bangka-slow-loris-credit-Gunay-M.E.-CC-4.0.-BY-SA.jpg",
    "credito": "Foto: Gunay M.E. (CC BY-SA 4.0)"
-  },
-  {
-   "id": "geotermia-vermont",
-   "titulo": "Moradias populares nos EUA vão ter aquecimento geotérmico",
-   "resumo": "Um conjunto de 44 apartamentos em Hinesburg, Vermont, terá aquecimento e resfriamento geotérmicos. Num caso estudado pelo governo, a tecnologia cortou 40% do gasto com energia.",
-   "categoria": "tecnologia",
-   "regiao": "Vermont",
-   "data": "2026-11-06",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/geothermal-utilities-power-wave-of-us-affordable-housing-with-40-energy-savings/",
-   "pais": "Estados Unidos",
-   "lat": 44.33,
-   "lon": -73.11,
-   "i18n": {
-    "es": {
-     "titulo": "Viviendas asequibles en EE. UU. tendrán calefacción geotérmica",
-     "resumo": "Un conjunto de 44 apartamentos en Hinesburg, Vermont, tendrá calefacción y refrigeración geotérmicas. En un caso estudiado por el gobierno, la tecnología redujo un 40% el gasto de energía.",
-     "regiao": "Vermont",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Geothermal heat comes to affordable housing in the US",
-     "resumo": "A 44-unit affordable housing project in Hinesburg, Vermont, will get geothermal heating and cooling. In a government case study, it cut energy costs by 40%.",
-     "regiao": "Vermont",
-     "pais": "United States"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Geothermal-boring-at-Riggs-Meadow-Housing-Development-credit-Dandelion-Energy-released.jpg",
-   "credito": "Foto: Dandelion Energy/divulgação"
-  },
-  {
-   "id": "loja-halito",
-   "titulo": "Loja em Estocolmo dá produtos de higiene bucal grátis para quem tem mau hálito",
-   "resumo": "Na Breath Boutique, um aparelho mede o hálito do cliente, e quem tem mau hálito leva os produtos de graça. Segundo a empresa, 1 em cada 3 pessoas tem mau hálito toda semana.",
-   "categoria": "saude",
-   "regiao": "Estocolmo",
-   "data": "2026-11-05",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/got-bad-breath-get-free-dental-care-at-this-store/",
-   "pais": "Suécia",
-   "lat": 59.31,
-   "lon": 18.03,
-   "i18n": {
-    "es": {
-     "titulo": "Tienda en Estocolmo regala productos de higiene bucal a quien tiene mal aliento",
-     "resumo": "En la Breath Boutique, un aparato mide el aliento del cliente, y quien tiene mal aliento se lleva los productos gratis. Según la empresa, 1 de cada 3 personas lo tiene cada semana.",
-     "regiao": "Estocolmo",
-     "pais": "Suecia"
-    },
-    "en": {
-     "titulo": "Stockholm store gives free oral care to people with bad breath",
-     "resumo": "At the Breath Boutique, an analyser measures customers' breath, and bad breath earns free oral-care products. The company says 1 in 3 people has bad breath at least weekly.",
-     "regiao": "Stockholm",
-     "pais": "Sweden"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Breath-Boutique-credit-The-Humble-Co.-released.jpg",
-   "credito": "Foto: The Humble Co./divulgação"
-  },
-  {
-   "id": "anime-anatomia",
-   "titulo": "Médico usa personagens de anime para ensinar anatomia",
-   "resumo": "O médico peruano Axel Vélez desenha os músculos sobre poses de personagens de anime para ensinar músculos e articulações a estudantes.",
-   "categoria": "ciencia",
-   "regiao": "Peru",
-   "data": "2026-11-06",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/personagens-anime-ensinar-anatomia",
-   "pais": "Peru",
-   "lat": -12.05,
-   "lon": -77.04,
-   "i18n": {
-    "es": {
-     "titulo": "Médico usa personajes de anime para enseñar anatomía",
-     "resumo": "El médico peruano Axel Vélez dibuja los músculos sobre poses de personajes de anime para enseñar músculos y articulaciones a estudiantes.",
-     "regiao": "Perú",
-     "pais": "Perú"
-    },
-    "en": {
-     "titulo": "Doctor uses anime characters to teach anatomy",
-     "resumo": "Peruvian doctor Axel Vélez draws muscles over anime character poses to teach students about muscles and joints.",
-     "regiao": "Peru",
-     "pais": "Peru"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/so-noticia-boa-site-800x560-30-2.png",
-   "credito": "Foto: reprodução/TikTok @axelvelezdurand"
-  },
-  {
-   "id": "bacteria-estresse",
-   "titulo": "Bactéria do solo protege contra efeitos do estresse em camundongos",
-   "resumo": "Cientistas da Alemanha e dos EUA viram que filhotes de camundongos tratados com Mycobacterium vaccae resistiram mais ao estresse crônico. É um estudo em animais, sem previsão de vacina para humanos.",
-   "categoria": "ciencia",
-   "regiao": "Alemanha e EUA",
-   "data": "2026-11-06",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/vacina-contra-ansiedade-pesquisa-2026",
-   "pais": "Global",
-   "i18n": {
-    "es": {
-     "titulo": "Una bacteria del suelo protege contra los efectos del estrés en ratones",
-     "resumo": "Científicos de Alemania y EE. UU. vieron que crías de ratones tratados con Mycobacterium vaccae resistieron mejor el estrés crónico. Es un estudio en animales, sin vacuna prevista para humanos.",
-     "regiao": "Alemania y EE. UU.",
-     "pais": "Global"
-    },
-    "en": {
-     "titulo": "Soil bacterium protects mice against effects of stress",
-     "resumo": "Scientists in Germany and the US found that offspring of mice given Mycobacterium vaccae resisted chronic stress better. It is animal research, with no human vaccine timeline.",
-     "regiao": "Germany and US",
-     "pais": "Global"
-    }
-   }
   }
  ]
 }
