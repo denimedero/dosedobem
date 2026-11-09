@@ -1,405 +1,399 @@
 {
- "atualizado": "2026-11-08",
+ "atualizado": "2026-11-09",
  "noticias": [
   {
-   "id": "diplomatas-indigenas",
-   "titulo": "Diplomatas indígenas e quilombola tomam posse no Itamaraty pela 1ª vez",
-   "resumo": "Marcelo Kariri Meneses, Idjahure Achkar Terena e a quilombola Helen Jaine Borgens, de 25 anos, estão na nova turma de 60 diplomatas, que tem 45% de mulheres.",
-   "categoria": "sociedade",
-   "regiao": "Brasília (DF)",
-   "data": "2026-11-07",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/07/diplomatas-indigenas-quilombola-assumiram-itamaraty",
+   "id": "resina-coracao-3d",
+   "titulo": "Unicamp cria resina para imprimir em 3D peças do coração que não formam coágulos",
+   "resumo": "Testada num protótipo de coração artificial com menos de 4 cm, a resina não formou coágulos no laboratório, libera óxido nítrico e deixou células do vaso sanguíneo crescerem sobre ela. A equipe já tem patente.",
+   "categoria": "saude",
+   "regiao": "Campinas (SP)",
+   "data": "2026-11-09",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/nova-resina-para-impressao-3d-de-dispositivos-cardiovasculares-evita-formacao-de-coagulos/59569",
    "pais": "Brasil",
    "destaque": true,
-   "lat": -15.79,
-   "lon": -47.88,
+   "lat": -22.82,
+   "lon": -47.07,
    "i18n": {
     "es": {
-     "titulo": "Diplomáticos indígenas y quilombola asumen en Itamaraty por primera vez",
-     "resumo": "Marcelo Kariri Meneses, Idjahure Achkar Terena y la quilombola Helen Jaine Borgens, de 25 años, integran la nueva promoción de 60 diplomáticos, con un 45% de mujeres.",
-     "regiao": "Brasilia (DF)",
+     "titulo": "Unicamp crea una resina para imprimir en 3D piezas del corazón que no forman coágulos",
+     "resumo": "Probada en un prototipo de corazón artificial de menos de 4 cm, la resina no formó coágulos en laboratorio, libera óxido nítrico y permitió que células de los vasos crecieran sobre ella. El equipo ya tiene patente.",
+     "regiao": "Campinas (SP)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Indigenous and quilombola diplomats join Brazil's foreign service for the first time",
-     "resumo": "Marcelo Kariri Meneses, Idjahure Achkar Terena and quilombola Helen Jaine Borgens, 25, are part of a new class of 60 diplomats, 45% of them women.",
-     "regiao": "Brasília (DF)",
+     "titulo": "Brazilian university creates 3D-printing resin for heart devices that doesn't clot",
+     "resumo": "Tested on an artificial heart prototype under 4 cm, the Unicamp resin formed no clots in the lab, releases nitric oxide and let blood-vessel cells grow on it. The team has already patented it.",
+     "regiao": "Campinas (SP)",
      "pais": "Brazil"
     }
    },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-07T131715.611.jpg",
-   "credito": "Foto: André Guajajara"
+   "img": "https://agencia.fapesp.br/files/post/59569.jpg",
+   "credito": "Foto: Thalita Mydori Missano"
   },
   {
-   "id": "pietra-matematica",
-   "titulo": "Baiana de 5 anos ganha ouro em olimpíada internacional de matemática",
-   "resumo": "Pietra Garcia venceu na categoria K2 de uma olimpíada em Singapura. É a 14ª medalha dela, que já tinha ganhado bronze aos 4 anos.",
-   "categoria": "ciencia",
-   "regiao": "Bahia",
+   "id": "natureza-149-paises",
+   "titulo": "Natureza está sendo recuperada em 149 países, com mais de 1 milhão de empregos verdes",
+   "resumo": "Relatório da ONU mostra 252 milhões de hectares de ecossistemas em restauração. O Brasil tem 3,4 milhões de hectares, e as onças-pintadas estão voltando.",
+   "categoria": "meio-ambiente",
+   "regiao": "Global",
    "data": "2026-11-07",
    "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/07/brasileira-superdotada-5-anos-ouro-matematica",
-   "pais": "Brasil",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/07/natureza-esta-sendo-recuperada-149-paises",
+   "pais": "Global",
    "destaque": true,
-   "lat": -12.97,
-   "lon": -38.5,
    "i18n": {
     "es": {
-     "titulo": "Niña bahiana de 5 años gana oro en una olimpiada internacional de matemáticas",
-     "resumo": "Pietra Garcia ganó en la categoría K2 de una olimpiada en Singapur. Es su medalla número 14; a los 4 años ya había ganado un bronce.",
-     "regiao": "Bahía",
+     "titulo": "La naturaleza se recupera en 149 países, con más de 1 millón de empleos verdes",
+     "resumo": "Un informe de la ONU muestra 252 millones de hectáreas de ecosistemas en restauración. Brasil tiene 3,4 millones de hectáreas y los jaguares están volviendo.",
+     "regiao": "Global",
+     "pais": "Global"
+    },
+    "en": {
+     "titulo": "Nature is being restored in 149 countries, creating over 1 million green jobs",
+     "resumo": "A UN report counts 252 million hectares of ecosystems under restoration. Brazil has 3.4 million hectares, and jaguars are coming back.",
+     "regiao": "Global",
+     "pais": "Global"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/onu-nagturueza.jpeg",
+   "credito": "Foto: Todd Brown/Pnuma"
+  },
+  {
+   "id": "ubsi-wai-wai",
+   "titulo": "Povos Wai Wai, Arara e Tirió ganham unidade de saúde na própria terra, no Pará",
+   "resumo": "A nova unidade básica de saúde indígena fica na Terra Indígena Nhamundá-Mapuera, em Oriximiná, e vai atender cerca de 660 pessoas.",
+   "categoria": "saude",
+   "regiao": "Oriximiná (PA)",
+   "data": "2026-11-07",
+   "fonte": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/ministerio-da-saude-inaugura-unidade-de-saude-indigena-no-para",
+   "pais": "Brasil",
+   "lat": -1.77,
+   "lon": -55.87,
+   "i18n": {
+    "es": {
+     "titulo": "Los pueblos Wai Wai, Arara y Tirió reciben un centro de salud en su propia tierra, en Pará",
+     "resumo": "La nueva unidad básica de salud indígena está en la Tierra Indígena Nhamundá-Mapuera, en Oriximiná, y atenderá a unas 660 personas.",
+     "regiao": "Oriximiná (PA)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "5-year-old Brazilian girl wins gold at an international maths olympiad",
-     "resumo": "Pietra Garcia, from Bahia, won the K2 category at an olympiad in Singapore. It is her 14th medal; she won bronze at age 4.",
-     "regiao": "Bahia",
+     "titulo": "Wai Wai, Arara and Tirió peoples get a health clinic on their own land in the Amazon",
+     "resumo": "The new Indigenous primary care unit in the Nhamundá-Mapuera territory, in Oriximiná, Pará, will serve about 660 people.",
+     "regiao": "Oriximiná (PA)",
      "pais": "Brazil"
     }
    },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-07T102059.898.jpg",
-   "credito": "Foto: arquivo pessoal"
+   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/ministerio-da-saude-inaugura-unidade-de-saude-indigena-no-para/ubsi.jpg/@@images/2b4c08be-b3b2-442f-90f9-df56b71e9cec.jpeg",
+   "credito": "Foto: Divulgação/MS"
   },
   {
-   "id": "escala-5x2",
-   "titulo": "Teste da escala 5x2 no varejo reduz faltas e atrai candidatos",
-   "resumo": "A C&A testou a escala em cerca de 60 lojas e viu menos faltas. A rede Savegnago relatou 120% mais procura por vagas. A 5x2 passa a valer em 15 de dezembro.",
-   "categoria": "sociedade",
+   "id": "genomas-sus",
+   "titulo": "Plataforma aberta reúne 15,9 mil genomas de brasileiros para melhorar diagnósticos",
+   "resumo": "O programa Genomas SUS liberou dados de 15,9 mil genomas completos e 3,7 milhões de variantes genéticas, que ajudam médicos a diagnosticar doenças na população brasileira.",
+   "categoria": "tecnologia",
    "regiao": "Brasil",
-   "data": "2026-11-07",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/07/teste-escala-5x2-reduz-faltas-melhora-produtividade",
+   "data": "2026-11-06",
+   "fonte": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/pesquisa-financiada-pelo-ministerio-da-saude-disponibiliza-plataforma-com-dados-geneticos-nacionais-que-qualificam-diagnosticos-de-doencas",
    "pais": "Brasil",
    "i18n": {
     "es": {
-     "titulo": "Prueba de la jornada 5x2 en el comercio reduce ausencias y atrae candidatos",
-     "resumo": "C&A probó la jornada en unas 60 tiendas y registró menos ausencias. La red Savegnago reportó un 120% más de postulaciones. La 5x2 rige desde el 15 de diciembre.",
+     "titulo": "Una plataforma abierta reúne 15.900 genomas de brasileños para mejorar diagnósticos",
+     "resumo": "El programa Genomas SUS publicó datos de 15.900 genomas completos y 3,7 millones de variantes genéticas, que ayudan a diagnosticar enfermedades en la población brasileña.",
      "regiao": "Brasil",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Trial of a five-day work week in Brazilian retail cuts absences",
-     "resumo": "C&A tested the 5x2 schedule in about 60 stores and saw fewer absences. Supermarket chain Savegnago reported 120% more job applicants. The rule takes effect on 15 December.",
+     "titulo": "Open platform shares 15,900 Brazilian genomes to improve diagnoses",
+     "resumo": "Brazil's Genomas SUS program released data on 15,900 complete genomes and 3.7 million genetic variants, helping doctors diagnose diseases in the Brazilian population.",
      "regiao": "Brazil",
      "pais": "Brazil"
     }
    }
   },
   {
-   "id": "whirlpool-rio-claro",
-   "titulo": "Dona da Brastemp traz produção para o Brasil e investe R$ 300 milhões",
-   "resumo": "A Whirlpool vai fabricar em Rio Claro (SP) as lavadoras que eram feitas na Argentina. A prefeitura fala em 200 empregos diretos; o governo federal estima 2.800 diretos e indiretos.",
-   "categoria": "sociedade",
-   "regiao": "Rio Claro (SP)",
+   "id": "embrapa-banco-genetico",
+   "titulo": "Brasil guarda cópia de segurança de abacaxi e mandioca em cofre congelado no Peru",
+   "resumo": "A Embrapa depositou 14 parentes silvestres do abacaxi e 11 linhagens de mandioca num banco a -196 °C, em Lima, junto com Chile e Equador. É uma reserva para proteger essas plantas.",
+   "categoria": "ciencia",
+   "regiao": "Lima e Cruz das Almas (BA)",
    "data": "2026-11-06",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/brastemp-consul-fecha-fabrica-argentina-producao-brasil",
-   "pais": "Brasil",
-   "lat": -22.41,
-   "lon": -47.56,
+   "fonte": "Embrapa",
+   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/149739873/embrapa-faz-primeiro-deposito-de-amostras-da-biodiversidade-brasileira-em-banco-genetico-no-peru",
+   "pais": "Peru",
+   "lat": -12.05,
+   "lon": -77.04,
    "i18n": {
     "es": {
-     "titulo": "La dueña de Brastemp lleva su producción a Brasil e invierte R$ 300 millones",
-     "resumo": "Whirlpool fabricará en Rio Claro (SP) las lavadoras que se hacían en Argentina. La alcaldía habla de 200 empleos directos; el gobierno federal estima 2.800 entre directos e indirectos.",
-     "regiao": "Rio Claro (SP)",
+     "titulo": "Brasil guarda una copia de seguridad de piña y yuca en una bóveda congelada en Perú",
+     "resumo": "Embrapa depositó 14 parientes silvestres de la piña y 11 líneas de yuca en un banco a -196 °C en Lima, junto con Chile y Ecuador. Es una reserva para proteger estas plantas.",
+     "regiao": "Lima y Cruz das Almas (BA)",
+     "pais": "Perú"
+    },
+    "en": {
+     "titulo": "Brazil stores a frozen backup of pineapple and cassava in a vault in Peru",
+     "resumo": "Embrapa deposited 14 wild pineapple relatives and 11 cassava lines in a -196 °C vault in Lima, alongside Chile and Ecuador, to safeguard these crops.",
+     "regiao": "Lima and Cruz das Almas (BA)",
+     "pais": "Peru"
+    }
+   },
+   "img": "https://www.embrapa.br/documents/d/portal/261106_portal_deposito_peru_abstract3",
+   "credito": "Foto: Embrapa"
+  },
+  {
+   "id": "documentario-refugiados",
+   "titulo": "Refugiados filmam a própria história com celular em documentário brasileiro",
+   "resumo": "Migrantes em São Paulo e Paris, vindos de países como Síria, Ucrânia, Congo e Venezuela, gravaram seus relatos. O filme da Unicamp estreou em Dacar, no Senegal.",
+   "categoria": "sociedade",
+   "regiao": "Dacar",
+   "data": "2026-11-06",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/documentario-feito-com-imagens-de-celulares-da-a-imigrantes-e-refugiados-o-controle-das-proprias-narrativas/59565",
+   "pais": "Senegal",
+   "lat": 14.69,
+   "lon": -17.45,
+   "i18n": {
+    "es": {
+     "titulo": "Refugiados filman su propia historia con el celular en un documental brasileño",
+     "resumo": "Migrantes en São Paulo y París, de países como Siria, Ucrania, Congo y Venezuela, grabaron sus relatos. La película de Unicamp se estrenó en Dakar, Senegal.",
+     "regiao": "Dakar",
+     "pais": "Senegal"
+    },
+    "en": {
+     "titulo": "Refugees film their own stories on phones in a Brazilian documentary",
+     "resumo": "Migrants in São Paulo and Paris, from countries such as Syria, Ukraine, Congo and Venezuela, recorded their own accounts. The Unicamp film premiered in Dakar, Senegal.",
+     "regiao": "Dakar",
+     "pais": "Senegal"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59565.jpg",
+   "credito": "Imagem: divulgação"
+  },
+  {
+   "id": "uganda-lixo-eletronico",
+   "titulo": "Refugiados e jovens em Uganda consertam painéis solares e ganham renda",
+   "resumo": "Uma cooperativa apoiada pela OIM já recuperou mais de 9 mil painéis solares e milhares de células de bateria descartados, gerando trabalho para 30 jovens.",
+   "categoria": "meio-ambiente",
+   "regiao": "Nilo Ocidental",
+   "data": "2026-11-06",
+   "fonte": "ONU News",
+   "url": "https://news.un.org/pt/story/2026/11/1854852",
+   "pais": "Uganda",
+   "lat": 3.02,
+   "lon": 30.91,
+   "i18n": {
+    "es": {
+     "titulo": "Refugiados y jóvenes en Uganda reparan paneles solares y ganan ingresos",
+     "resumo": "Una cooperativa apoyada por la OIM ya recuperó más de 9.000 paneles solares y miles de celdas de batería desechados, y da trabajo a 30 jóvenes.",
+     "regiao": "Nilo Occidental",
+     "pais": "Uganda"
+    },
+    "en": {
+     "titulo": "Refugees and young people in Uganda repair solar panels and earn an income",
+     "resumo": "A cooperative backed by the IOM has repaired more than 9,000 discarded solar panels and thousands of battery cells, creating work for 30 young people.",
+     "regiao": "West Nile",
+     "pais": "Uganda"
+    }
+   }
+  },
+  {
+   "id": "cep-favelas",
+   "titulo": "12,3 mil favelas ganham CEP, e 16 milhões de pessoas passam a ter endereço reconhecido",
+   "resumo": "O programa CEP para Todos deu ao menos um CEP a cada favela mapeada pelo IBGE. A próxima etapa é ter CEP por rua.",
+   "categoria": "sociedade",
+   "regiao": "Brasil",
+   "data": "2026-11-08",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/08/cep-para-todos-favelas-brasileiras",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "12.300 favelas reciben código postal y 16 millones de personas tienen dirección reconocida",
+     "resumo": "El programa CEP para Todos dio al menos un código postal a cada favela mapeada por el IBGE. La próxima etapa es tener código por calle.",
+     "regiao": "Brasil",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Whirlpool moves washer production to Brazil with a R$300 million investment",
-     "resumo": "Whirlpool will make front-loading washers in Rio Claro, São Paulo, instead of Argentina. The city expects 200 direct jobs; the federal government estimates 2,800 direct and indirect jobs.",
-     "regiao": "Rio Claro (SP)",
+     "titulo": "12,300 favelas get postcodes, giving 16 million people a recognised address",
+     "resumo": "Brazil's CEP para Todos program gave at least one postcode to every favela mapped by the IBGE. Street-level codes come next.",
+     "regiao": "Brazil",
      "pais": "Brazil"
     }
    }
   },
   {
-   "id": "bebe-boneca",
-   "titulo": "Bebê idêntica à própria boneca viraliza e ganha presente da fabricante",
-   "resumo": "As fotos de Sara Heloísa, de 1 ano e 3 meses, com a boneca Titi passaram de 2 milhões de visualizações. A Bambola Brinquedos mandou novos brinquedos para ela.",
-   "categoria": "sociedade",
-   "regiao": "Maracanaú (CE)",
-   "data": "2026-11-05",
+   "id": "teleton-aacd",
+   "titulo": "Teleton bate a meta de R$ 30 milhões para a AACD",
+   "resumo": "Depois de mais de 26 horas no ar, as doações vão bancar cerca de 230 mil atendimentos pelo SUS para pessoas com deficiência.",
+   "categoria": "saude",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-08",
    "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/05/bebe-brasileira-viraliza-semelhanca-boneca-brinquedo",
-   "pais": "Brasil",
-   "lat": -3.87,
-   "lon": -38.63,
-   "i18n": {
-    "es": {
-     "titulo": "Bebé idéntica a su muñeca se hace viral y recibe un regalo del fabricante",
-     "resumo": "Las fotos de Sara Heloísa, de 1 año y 3 meses, con la muñeca Titi superaron 2 millones de vistas. Bambola Brinquedos le envió nuevos juguetes.",
-     "regiao": "Maracanaú (CE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Baby who looks just like her doll goes viral and gets a gift from the maker",
-     "resumo": "Photos of 15-month-old Sara Heloísa with her Titi doll passed 2 million views. Toymaker Bambola Brinquedos sent her new toys.",
-     "regiao": "Maracanaú (CE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-05-at-10.15.24-1.jpeg",
-   "credito": "Foto: reprodução/@bonequinhasara.oficial"
-  },
-  {
-   "id": "restaurantes-50-melhores",
-   "titulo": "Dois restaurantes brasileiros entram na lista dos 50 melhores do mundo",
-   "resumo": "O Tuju, de São Paulo, subiu 54 posições e ficou em 16º. O Lasai, do Rio, foi para 25º. A cerimônia foi em Lima, no Peru.",
-   "categoria": "sociedade",
-   "regiao": "São Paulo e Rio de Janeiro",
-   "data": "2026-11-05",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/05/ranking-50-melhores-restaurantes-mundo-2026-brasileiros",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/08/teleton-bate-meta-30-milhoes-aacd-2026",
    "pais": "Brasil",
    "lat": -23.55,
    "lon": -46.63,
    "i18n": {
     "es": {
-     "titulo": "Dos restaurantes brasileños entran en la lista de los 50 mejores del mundo",
-     "resumo": "Tuju, de São Paulo, subió 54 puestos y quedó 16º. Lasai, de Río, pasó al 25º. La ceremonia fue en Lima, Perú.",
-     "regiao": "São Paulo y Río de Janeiro",
+     "titulo": "Teletón alcanza la meta de R$ 30 millones para la AACD",
+     "resumo": "Tras más de 26 horas al aire, las donaciones financiarán unas 230.000 atenciones por el sistema público de salud a personas con discapacidad.",
+     "regiao": "São Paulo (SP)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Two Brazilian restaurants make the World's 50 Best list",
-     "resumo": "São Paulo's Tuju jumped 54 places to 16th, and Rio's Lasai rose to 25th. The ceremony was held in Lima, Peru.",
-     "regiao": "São Paulo and Rio de Janeiro",
+     "titulo": "Brazil's Teleton hits its R$30 million goal for disability care",
+     "resumo": "After more than 26 hours on air, donations will fund about 230,000 public-health treatments for people with disabilities at AACD.",
+     "regiao": "São Paulo (SP)",
      "pais": "Brazil"
     }
    },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-05T105632.867.jpg",
-   "credito": "Fotos: reprodução/Instagram @tuju_sp @restaurantelasai"
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-08T103316.014.jpg",
+   "credito": "Foto: reprodução/SBT"
   },
   {
-   "id": "baleia-filhote",
-   "titulo": "Baleia e filhote se aproximam de mulher que cantava no mar",
-   "resumo": "A artista Demetra cantava na água quando uma baleia adulta e um filhote apareceram bem perto. O vídeo emocionou as redes; não há prova de que o canto atraiu os animais.",
-   "categoria": "animais",
-   "regiao": "Oceano",
-   "data": "2026-11-07",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/07/mulher-canta-baleias-frequencia-528-hz",
-   "pais": "Global",
-   "i18n": {
-    "es": {
-     "titulo": "Una ballena y su cría se acercan a una mujer que cantaba en el mar",
-     "resumo": "La artista Demetra cantaba en el agua cuando una ballena adulta y su cría aparecieron muy cerca. El video emocionó en redes; no hay prueba de que el canto atrajera a los animales.",
-     "regiao": "Océano",
-     "pais": "Global"
-    },
-    "en": {
-     "titulo": "Whale and calf swim up to a woman singing in the sea",
-     "resumo": "Artist Demetra was singing in the water when an adult whale and a calf appeared close by. The video moved many online; there is no proof the song drew them in.",
-     "regiao": "Ocean",
-     "pais": "Global"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-07-at-11.07.56-1.jpeg",
-   "credito": "Foto: reprodução/Instagram @soul.star.sanctuary"
-  },
-  {
-   "id": "airtag-pedras",
-   "titulo": "Vereador usa AirTag para pegar ladrão de pedras históricas",
-   "resumo": "Matt Smith escondeu um AirTag numa pedra de um muro do século 18 em Rufford, na Inglaterra. O ladrão foi preso e condenado, e parte das cerca de 30 pedras foi recuperada.",
-   "categoria": "tecnologia",
-   "regiao": "Lancashire",
-   "data": "2026-11-07",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/mayor-uses-airtag-to-catch-capstone-thief/",
-   "pais": "Reino Unido",
-   "lat": 53.63,
-   "lon": -2.81,
-   "i18n": {
-    "es": {
-     "titulo": "Concejal usa un AirTag para atrapar a un ladrón de piedras históricas",
-     "resumo": "Matt Smith escondió un AirTag en una piedra de un muro del siglo XVIII en Rufford, Inglaterra. El ladrón fue detenido y condenado, y se recuperó parte de las cerca de 30 piedras.",
-     "regiao": "Lancashire",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "Councillor uses an AirTag to catch a thief stealing 18th-century stones",
-     "resumo": "Matt Smith hid an AirTag in a capstone of an 18th-century wall in Rufford, England. The thief was arrested and convicted, and some of the roughly 30 stones were recovered.",
-     "regiao": "Lancashire",
-     "pais": "United Kingdom"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Councillor-Matt-Smith-with-GPS-AirTag-SWNS.jpeg",
-   "credito": "Foto: Charley Atkins/SWNS"
-  },
-  {
-   "id": "doberman-bebe",
-   "titulo": "Cadela dobermann percebe coração acelerado de bebê e ajuda a salvá-lo",
-   "resumo": "Saraya insistiu que algo estava errado com Alexander, de 6 meses, cujo coração batia a 280 por minuto. Ele foi diagnosticado com síndrome de Wolff-Parkinson-White e tratado.",
-   "categoria": "saude",
-   "regiao": "Somerset",
-   "data": "2026-11-07",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/baby-saved-as-racing-heartbeat-detected-by-pet/",
-   "pais": "Reino Unido",
-   "lat": 51.1,
-   "lon": -2.9,
-   "i18n": {
-    "es": {
-     "titulo": "Una perra dóberman nota el corazón acelerado de un bebé y ayuda a salvarlo",
-     "resumo": "Saraya insistió en que algo andaba mal con Alexander, de 6 meses, cuyo corazón latía a 280 por minuto. Lo diagnosticaron con síndrome de Wolff-Parkinson-White y lo trataron.",
-     "regiao": "Somerset",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "Family Doberman detects a baby's racing heartbeat and helps save him",
-     "resumo": "Saraya kept insisting something was wrong with 6-month-old Alexander, whose heart was beating at 280 bpm. He was diagnosed with Wolff-Parkinson-White syndrome and treated.",
-     "regiao": "Somerset",
-     "pais": "United Kingdom"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Alexander-with-doberman-who-saved-his-life-SWNS.jpeg",
-   "credito": "Foto: SWNS"
-  },
-  {
-   "id": "karl-bushby",
-   "titulo": "Aventureiro abraça a mãe depois de 28 anos dando a volta ao mundo a pé",
-   "resumo": "Karl Bushby saiu de Hull, na Inglaterra, em 1998 e caminhou mais de 50 mil km por 30 países. Ele reencontrou a mãe, Angela, em 2 de novembro.",
+   "id": "porteiro-ganha-carro",
+   "titulo": "Pais e escola dão carro a porteiro que trabalha lá há mais de 30 anos",
+   "resumo": "Seu Batista, porteiro da Escola Espaço Vida, em Fortaleza, se emocionou até as lágrimas com o presente.",
    "categoria": "sociedade",
-   "regiao": "Hull",
-   "data": "2026-11-07",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/adventurer-finally-hugs-mom-after-28-year-walk-around-the-world-from-home-in-uk/",
-   "pais": "Reino Unido",
-   "lat": 53.74,
-   "lon": -0.33,
-   "i18n": {
-    "es": {
-     "titulo": "Aventurero abraza a su madre tras 28 años dando la vuelta al mundo a pie",
-     "resumo": "Karl Bushby salió de Hull, Inglaterra, en 1998 y caminó más de 50.000 km por 30 países. Se reencontró con su madre, Angela, el 2 de noviembre.",
-     "regiao": "Hull",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "Adventurer hugs his mom after a 28-year walk around the world",
-     "resumo": "Karl Bushby left Hull, England, in 1998 and walked more than 31,000 miles through 30 countries. He reunited with his mother Angela on 2 November.",
-     "regiao": "Hull",
-     "pais": "United Kingdom"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Karl-Bushby-reunites-with-mom-after-walking-around-world-%E2%80%93-SWNS.jpeg",
-   "credito": "Foto: SWNS"
-  },
-  {
-   "id": "luiza-salva-bebe",
-   "titulo": "Menina de 13 anos salva bebê que caiu em tanque de peixes",
-   "resumo": "Luiza Lemanski Colella fez os primeiros socorros num bebê de 1 ano e 3 meses, em Sorriso (MT). Ela aprendeu as técnicas no projeto Bombeiros do Futuro, e o bebê está fora de perigo.",
-   "categoria": "sociedade",
-   "regiao": "Sorriso (MT)",
-   "data": "2026-11-06",
+   "regiao": "Fortaleza (CE)",
+   "data": "2026-11-08",
    "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/menina-13-anos-salva-bebe-mt",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/08/porteiro-ganha-carro-30-anos-escola",
    "pais": "Brasil",
-   "lat": -12.55,
-   "lon": -55.71,
+   "lat": -3.73,
+   "lon": -38.52,
    "i18n": {
     "es": {
-     "titulo": "Niña de 13 años salva a un bebé que cayó en un tanque de peces",
-     "resumo": "Luiza Lemanski Colella dio primeros auxilios a un bebé de 1 año y 3 meses en Sorriso (MT). Aprendió las técnicas en el proyecto Bombeiros do Futuro, y el bebé está fuera de peligro.",
-     "regiao": "Sorriso (MT)",
+     "titulo": "Padres y escuela regalan un auto al portero que trabaja allí hace más de 30 años",
+     "resumo": "Batista, portero de la Escuela Espaço Vida en Fortaleza, se emocionó hasta las lágrimas con el regalo.",
+     "regiao": "Fortaleza (CE)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "13-year-old girl saves a baby who fell into a fish tank",
-     "resumo": "Luiza Lemanski Colella gave first aid to a 15-month-old in Sorriso, Mato Grosso. She learned the techniques in a firefighters' youth project, and the baby is out of danger.",
-     "regiao": "Sorriso (MT)",
+     "titulo": "Parents and school give a car to their doorman of more than 30 years",
+     "resumo": "Batista, the doorman at Escola Espaço Vida in Fortaleza, was moved to tears by the gift.",
+     "regiao": "Fortaleza (CE)",
      "pais": "Brazil"
     }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-09.49.47.jpeg",
-   "credito": "Foto: reprodução/Instagram @portalestadao.mt"
+   }
   },
   {
-   "id": "biocimento-bahia",
-   "titulo": "Estudante de escola pública da Bahia vence feira com cimento sustentável",
-   "resumo": "Thiago Santos Ferreira, de 18 anos, ganhou a Mostratec 2026 com um biocimento de papel reciclado e fibra de coco. Ele vai representar o Brasil numa feira de ciências nos EUA em 2027.",
-   "categoria": "meio-ambiente",
-   "regiao": "Serrinha (BA)",
-   "data": "2026-11-06",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/estudante-bahia-vence-feira-cimento-sustentavel",
-   "pais": "Brasil",
-   "lat": -11.66,
-   "lon": -39.0,
-   "i18n": {
-    "es": {
-     "titulo": "Estudiante de escuela pública de Bahía gana una feria con cemento sostenible",
-     "resumo": "Thiago Santos Ferreira, de 18 años, ganó la Mostratec 2026 con un biocemento de papel reciclado y fibra de coco. Representará a Brasil en una feria de ciencias en EE. UU. en 2027.",
-     "regiao": "Serrinha (BA)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Public-school student from Bahia wins science fair with sustainable cement",
-     "resumo": "Thiago Santos Ferreira, 18, won Mostratec 2026 with a biocement made from recycled paper and coconut fibre. He earned a spot at the Regeneron ISEF in Los Angeles in 2027.",
-     "regiao": "Serrinha (BA)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-06-at-12.33.14-1.jpeg",
-   "credito": "Foto: Thales Lima/SEC-BA"
-  },
-  {
-   "id": "rothbury-natureza",
-   "titulo": "25 mil pessoas de 50 países compram propriedade para virar reserva natural",
-   "resumo": "Doações somaram £ 30 milhões para a Wildlife Trusts comprar os 3.800 hectares da Rothbury Estate, na Inglaterra. A área fará parte de um corredor ecológico de 64 km.",
-   "categoria": "meio-ambiente",
-   "regiao": "Northumberland",
-   "data": "2026-11-06",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/people-around-the-world-help-buy-royal-estate-for-wildlife-conservation/",
-   "pais": "Reino Unido",
-   "lat": 55.31,
-   "lon": -1.91,
-   "i18n": {
-    "es": {
-     "titulo": "25.000 personas de 50 países compran una finca para convertirla en reserva natural",
-     "resumo": "Las donaciones sumaron £30 millones para que Wildlife Trusts comprara las 3.800 hectáreas de Rothbury Estate, en Inglaterra. El área formará parte de un corredor ecológico de 64 km.",
-     "regiao": "Northumberland",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "25,000 people in 50 countries help buy an estate for wildlife",
-     "resumo": "Donations raised £30 million for the Wildlife Trusts to buy the 9,400-acre Rothbury Estate in England. It will be part of a 40-mile nature corridor.",
-     "regiao": "Northumberland",
-     "pais": "United Kingdom"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/A-drone-image-of-the-site-of-the-Bronze-Age-Lordenshaw-Hill-Fort-credit-The-Wildlife-Trusts-©.jpg",
-   "credito": "Foto: The Wildlife Trusts"
-  },
-  {
-   "id": "loris-bangka",
-   "titulo": "Primata considerado possivelmente extinto ainda vive na Indonésia",
-   "resumo": "O lóris-lento-de-Bangka constava como \"possivelmente extinto\" desde 2015. Um centro de resgate na ilha de Bangka acolheu mais de 90 deles em dez anos e soltou 86.",
+   "id": "rottweiler-nevoeiro",
+   "titulo": "Rottweiler resgatado em estado crítico se recupera e ganha um lar",
+   "resumo": "Nevoeiro passou por reabilitação com a adestradora Marcela Barbieri e foi adotado por Carlos, que não desistiu dele.",
    "categoria": "animais",
-   "regiao": "Ilha de Bangka",
-   "data": "2026-11-06",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/venomous-primate-believed-extinct-for-100-years-was-hiding-in-plain-sight-all-along/",
-   "pais": "Indonésia",
-   "lat": -2.13,
-   "lon": 106.11,
+   "regiao": "Cruzeiro (SP)",
+   "data": "2026-11-08",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/08/rottweiler-nevoeiro-adotado-reabilitacao",
+   "pais": "Brasil",
+   "lat": -22.58,
+   "lon": -44.96,
    "i18n": {
     "es": {
-     "titulo": "Un primate considerado posiblemente extinto sigue viviendo en Indonesia",
-     "resumo": "El loris perezoso de Bangka figuraba como \"posiblemente extinto\" desde 2015. Un centro de rescate en la isla de Bangka recibió más de 90 en diez años y liberó 86.",
-     "regiao": "Isla de Bangka",
-     "pais": "Indonesia"
+     "titulo": "Un rottweiler rescatado en estado crítico se recupera y encuentra hogar",
+     "resumo": "Nevoeiro pasó por rehabilitación con la adiestradora Marcela Barbieri y fue adoptado por Carlos, que no se rindió con él.",
+     "regiao": "Cruzeiro (SP)",
+     "pais": "Brasil"
     },
     "en": {
-     "titulo": "Primate feared extinct is still living in Indonesia",
-     "resumo": "The Bangka slow loris was listed as \"possibly extinct\" in 2015. A rescue centre on Bangka Island took in more than 90 over ten years and released 86.",
-     "regiao": "Bangka Island",
-     "pais": "Indonesia"
+     "titulo": "Rottweiler rescued in critical condition recovers and finds a home",
+     "resumo": "Nevoeiro went through rehabilitation with trainer Marcela Barbieri and was adopted by Carlos, who never gave up on him.",
+     "regiao": "Cruzeiro (SP)",
+     "pais": "Brazil"
     }
    },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/The-Bangka-slow-loris-credit-Gunay-M.E.-CC-4.0.-BY-SA.jpg",
-   "credito": "Foto: Gunay M.E. (CC BY-SA 4.0)"
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-08-at-10.27.35.jpeg",
+   "credito": "Foto: Reprodução/Instagram @ceancrz e @marcela.barbieri"
+  },
+  {
+   "id": "cavalo-sancho",
+   "titulo": "Dono enfrenta correnteza e salva cavalo idoso arrastado por rio em SC",
+   "resumo": "Felipe Alves segurou Sancho com uma corda até três homens ajudarem a puxá-lo para a margem. O cavalo já está de pé e se recuperando.",
+   "categoria": "animais",
+   "regiao": "Santa Catarina",
+   "data": "2026-11-06",
+   "fonte": "Só Notícia Boa",
+   "url": "https://www.sonoticiaboa.com.br/2026/11/06/homem-salvar-cavalo-idoso-correnteza-rio-sc",
+   "pais": "Brasil",
+   "lat": -27.24,
+   "lon": -50.22,
+   "i18n": {
+    "es": {
+     "titulo": "Un hombre enfrenta la corriente y salva a su caballo anciano en Santa Catarina",
+     "resumo": "Felipe Alves sostuvo a Sancho con una cuerda hasta que tres hombres lo ayudaron a sacarlo a la orilla. El caballo ya está de pie y se recupera.",
+     "regiao": "Santa Catarina",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Owner fights a river current to save his elderly horse in southern Brazil",
+     "resumo": "Felipe Alves held Sancho with a rope until three men helped pull him to the bank. The horse is standing again and recovering.",
+     "regiao": "Santa Catarina",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-06T104254.039.jpg",
+   "credito": "Fotos: reprodução/Instagram @fealvessn"
+  },
+  {
+   "id": "caes-farejam-plantas",
+   "titulo": "Cães aprendem a farejar plantas invasoras e ajudam a proteger a natureza",
+   "resumo": "Na Alemanha, 31 cães foram treinados; 11 de 12 duplas de cão e tutor passaram no teste de campo, com cerca de 75% de acerto.",
+   "categoria": "meio-ambiente",
+   "regiao": "Leipzig",
+   "data": "2026-11-08",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/dogs-can-sniff-out-invasive-plant-species-with-75pt-accuracy/",
+   "pais": "Alemanha",
+   "lat": 51.34,
+   "lon": 12.37,
+   "i18n": {
+    "es": {
+     "titulo": "Perros aprenden a olfatear plantas invasoras y ayudan a proteger la naturaleza",
+     "resumo": "En Alemania se entrenaron 31 perros; 11 de 12 parejas de perro y guía aprobaron la prueba de campo, con cerca de 75% de acierto.",
+     "regiao": "Leipzig",
+     "pais": "Alemania"
+    },
+    "en": {
+     "titulo": "Dogs learn to sniff out invasive plants to help protect nature",
+     "resumo": "In Germany, 31 dogs were trained; 11 of 12 dog-handler teams passed the field test, with about 75% accuracy.",
+     "regiao": "Leipzig",
+     "pais": "Germany"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/sniffer-dog-with-owner-in-field-by-Anne-Zylinski-WPF-via-SWNS-.jpeg",
+   "credito": "Foto: Anne Zylinski/WPF/SWNS"
+  },
+  {
+   "id": "periquito-luna",
+   "titulo": "Periquita que fugiu na tempestade é achada num bueiro e volta para casa",
+   "resumo": "Um motorista viu Luna entrar num bueiro e chamou a RSPCA. Ela foi resgatada a 1,6 km de casa e voltou para a dona.",
+   "categoria": "animais",
+   "regiao": "Northampton",
+   "data": "2026-11-08",
+   "fonte": "Good News Network",
+   "url": "https://www.goodnewsnetwork.org/lucky-bird-found-in-storm-drain-a-mile-from-home/",
+   "pais": "Reino Unido",
+   "lat": 52.24,
+   "lon": -0.9,
+   "i18n": {
+    "es": {
+     "titulo": "Una periquita que escapó en la tormenta aparece en una alcantarilla y vuelve a casa",
+     "resumo": "Un conductor vio a Luna entrar en una alcantarilla y llamó a la RSPCA. Fue rescatada a 1,6 km de casa y volvió con su dueña.",
+     "regiao": "Northampton",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Budgie lost in a storm is found in a drain and returns home",
+     "resumo": "A driver saw Luna slip into a roadside drain and called the RSPCA. She was rescued a mile from home and reunited with her owner.",
+     "regiao": "Northampton",
+     "pais": "UK"
+    }
+   },
+   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Bird-rescued-from-sewer-pipe-RSPCA-and-SWNS.jpeg",
+   "credito": "Foto: RSPCA/SWNS"
   }
  ]
 }
