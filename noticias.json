@@ -62,6 +62,152 @@
    "credito": "Foto: Divulgação"
   },
   {
+   "id": "elefante-julie",
+   "titulo": "Última elefante de circo de Portugal ganha vida nova num santuário",
+   "resumo": "Julie, capturada na África há 40 anos, trocou o picadeiro por 400 hectares no Alentejo. Em pouco mais de três meses no santuário Pangea, ela ganhou cerca de 100 kg.",
+   "categoria": "animais",
+   "regiao": "Alentejo",
+   "data": "2026-11-10",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/10/portugals-last-circus-elephant-adapts-to-life-in-new-sanctuary-gaining-100kg",
+   "pais": "Portugal",
+   "destaque": true,
+   "lat": 38.57,
+   "lon": -7.91,
+   "i18n": {
+    "es": {
+     "titulo": "La última elefanta de circo de Portugal empieza una nueva vida en un santuario",
+     "resumo": "Julie, capturada en África hace 40 años, cambió la pista por 400 hectáreas en el Alentejo. En poco más de tres meses en el santuario Pangea, ganó unos 100 kg.",
+     "regiao": "Alentejo",
+     "pais": "Portugal"
+    },
+    "en": {
+     "titulo": "Portugal's last circus elephant starts a new life in a sanctuary",
+     "resumo": "Julie, captured in Africa 40 years ago, swapped the ring for 400 hectares in the Alentejo. In just over three months at the Pangea sanctuary she has gained about 100 kg.",
+     "regiao": "Alentejo",
+     "pais": "Portugal"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/97/39/64/1200x675_cmsv2_05c99a7f-12ca-5975-b789-81e0686a4429-9973964.jpg",
+   "credito": "Foto: Facebook/Pangea Elephant Sanctuary"
+  },
+  {
+   "id": "car-t-pessoa-rigida",
+   "titulo": "Terapia celular devolve rotina a pacientes com síndrome da pessoa rígida",
+   "resumo": "Estudo da Clínica Mayo com células CAR-T trouxe melhora clara: alguns pacientes voltaram a cuidar do dia a dia e até a trabalhar. É a doença rara que afeta Celine Dion; os médicos ainda acompanham se o efeito dura.",
+   "categoria": "saude",
+   "regiao": "Rochester (Minnesota)",
+   "data": "2026-11-10",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/salud/ciencia/2026/11/10/logran-un-avance-cientifico-contra-el-sindrome-de-la-persona-rigida-la-enfermedad-que-afecta-a-celine-dion/",
+   "pais": "Estados Unidos",
+   "lat": 44.02,
+   "lon": -92.47,
+   "i18n": {
+    "es": {
+     "titulo": "Una terapia celular devuelve la rutina a pacientes con síndrome de la persona rígida",
+     "resumo": "Un estudio de la Clínica Mayo con células CAR-T logró mejoras claras: algunos pacientes retomaron sus tareas diarias e incluso el trabajo. Es la enfermedad rara de Celine Dion; los médicos siguen evaluando si el efecto dura.",
+     "regiao": "Rochester (Minnesota)",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Cell therapy gives stiff person syndrome patients their lives back",
+     "resumo": "A Mayo Clinic study using CAR-T cells brought marked improvement: some patients regained daily independence and even returned to work. It is the rare disease Celine Dion has; doctors are still checking whether the gains last.",
+     "regiao": "Rochester (Minnesota)",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/BH7NVFZVG5BXXH2ZVQLKFOUINY.JPG?auth=eda4a3dd136afbc1a33ad63353bb64dc35e45d5efbad57f91abf6449384ae2d7&smart=true&width=1200&height=630&quality=85",
+   "credito": "Foto: Infobae"
+  },
+  {
+   "id": "doacao-conservacao-australia",
+   "titulo": "Casal doa US$ 120 milhões australianos para proteger a natureza da Austrália",
+   "resumo": "Alexandra e Julian Burt dividiram a doação entre 10 grupos de conservação. Com a ajuda, a Australian Wildlife Conservancy pode chegar a cuidar de 5% do território do país.",
+   "categoria": "meio-ambiente",
+   "regiao": "Território do Norte",
+   "data": "2026-11-10",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-10/nt-conservation-donation-makes-dream-of-managing-5-per-cent-land/107367198",
+   "pais": "Austrália",
+   "lat": -15.5,
+   "lon": 129.7,
+   "i18n": {
+    "es": {
+     "titulo": "Una pareja dona 120 millones de dólares australianos para proteger la naturaleza",
+     "resumo": "Alexandra y Julian Burt repartieron la donación entre 10 grupos de conservación. Con ella, la Australian Wildlife Conservancy podría llegar a gestionar el 5% del territorio del país.",
+     "regiao": "Territorio del Norte",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Couple gives A$120 million to protect Australia's wildlife",
+     "resumo": "Alexandra and Julian Burt split the gift among 10 conservation groups. It could let the Australian Wildlife Conservancy manage 5% of the country's land.",
+     "regiao": "Northern Territory",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/3813e8bcd170db3988861a0aee574171?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485&imformat=generic",
+   "credito": "Foto: Australian Wildlife Conservancy"
+  },
+  {
+   "id": "cohousing-mulheres",
+   "titulo": "Mulheres acima de 55 anos ganham moradia compartilhada pioneira na Austrália",
+   "resumo": "Cinco mulheres se mudaram para um projeto da ONG Sharing with Friends: cada uma tem seu estúdio e divide áreas comuns. O projeto, feito com doações, levou sete anos.",
+   "categoria": "sociedade",
+   "regiao": "Darra, Brisbane",
+   "data": "2026-11-09",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-09/queensland-sharing-friends-women-co-housing-project/107337800",
+   "pais": "Austrália",
+   "lat": -27.57,
+   "lon": 152.95,
+   "i18n": {
+    "es": {
+     "titulo": "Mujeres mayores de 55 estrenan una vivienda compartida pionera en Australia",
+     "resumo": "Cinco mujeres se mudaron a un proyecto de la ONG Sharing with Friends: cada una tiene su estudio y comparten áreas comunes. Financiado con donaciones, tardó siete años.",
+     "regiao": "Darra, Brisbane",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Women over 55 move into a pioneering shared-housing project in Australia",
+     "resumo": "Five women moved into a Sharing with Friends development, each with her own studio plus shared spaces. Built with philanthropy, it took seven years.",
+     "regiao": "Darra, Brisbane",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/41849d33ed9ffbfb6decd7aeb0cfbf1a?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+   "credito": "Foto: ABC News/Meghan Dansie"
+  },
+  {
+   "id": "vento-uzbequistao",
+   "titulo": "Primeiro parque eólico com grandes baterias da Ásia Central está quase pronto",
+   "resumo": "No Uzbequistão, 25 das 26 turbinas já mandam energia para a rede, e as baterias entram em operação até o fim de novembro. A usina pode atender mais de 300 mil pessoas.",
+   "categoria": "tecnologia",
+   "regiao": "Caracalpaquistão",
+   "data": "2026-11-10",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/10/central-asias-first-wind-farm-with-large-scale-batteries-nears-completion-in-uzbekistan",
+   "pais": "Uzbequistão",
+   "lat": 42.46,
+   "lon": 59.6,
+   "i18n": {
+    "es": {
+     "titulo": "El primer parque eólico con grandes baterías de Asia Central está casi listo",
+     "resumo": "En Uzbekistán, 25 de las 26 turbinas ya envían energía a la red y las baterías entrarán en operación a fines de noviembre. Podrá abastecer a más de 300.000 personas.",
+     "regiao": "Karakalpakistán",
+     "pais": "Uzbekistán"
+    },
+    "en": {
+     "titulo": "Central Asia's first wind farm with big batteries is nearly finished",
+     "resumo": "In Uzbekistan, 25 of 26 turbines already feed the grid and the batteries come online by the end of November. The plant could serve more than 300,000 people.",
+     "regiao": "Karakalpakstan",
+     "pais": "Uzbekistan"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/98/57/04/1200x675_cmsv2_c0c63883-4d30-5cf3-b6cc-fcc11823d6aa-9985704.jpg",
+   "credito": "Foto: Euronews"
+  },
+  {
    "id": "bacco-pmdf",
    "titulo": "Cão que fugiu da chuva e se escondeu num lava a jato é adotado pela PM do DF",
    "resumo": "Bacco foi achado dentro de um carro na Candangolândia e agora vive com o 25º Batalhão da PMDF, onde está se adaptando.",
@@ -144,7 +290,9 @@
      "regiao": "Belo Horizonte (MG)",
      "pais": "Brazil"
     }
-   }
+   },
+   "img": "https://www.ufmg.br//app/uploads/2026/06/cores-lgbt-2-1-864x445.png",
+   "credito": "Imagem: domínio público"
   },
   {
    "id": "papai-noel-correios",
@@ -169,7 +317,9 @@
      "regiao": "Brazil",
      "pais": "Brazil"
     }
-   }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/09/1211970630-papai-noel-dos-correios.jpg",
+   "credito": "Foto: Reprodução/Portal de Prefeitura"
   },
   {
    "id": "orquideas-kerala",
@@ -223,7 +373,9 @@
      "regiao": "Earth orbit",
      "pais": "Space"
     }
-   }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/darpa-nom4d-caltech-robotic-space-demo.webp",
+   "credito": "Ilustração: DARPA/Colie Wertz"
   },
   {
    "id": "resina-coracao-3d",
@@ -280,7 +432,7 @@
      "pais": "Peru"
     }
    },
-   "img": "https://www.embrapa.br/documents/d/portal/261106_portal_deposito_peru_abstract3",
+   "img": "https://www.embrapa.br/documents/10180/144908863/261106_portal_dep%C3%B3sito_Peru_capa+2.jpg/25436a9d-d959-678c-b6a7-be8294a5721d?t=1793997778177",
    "credito": "Foto: Embrapa"
   },
   {
@@ -311,31 +463,6 @@
    },
    "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/ministerio-da-saude-inaugura-unidade-de-saude-indigena-no-para/ubsi.jpg/@@images/2b4c08be-b3b2-442f-90f9-df56b71e9cec.jpeg",
    "credito": "Foto: Divulgação/MS"
-  },
-  {
-   "id": "genomas-sus",
-   "titulo": "Plataforma aberta reúne 15,9 mil genomas de brasileiros para melhorar diagnósticos",
-   "resumo": "O programa Genomas SUS liberou dados de 15,9 mil genomas completos e 3,7 milhões de variantes genéticas, que ajudam médicos a diagnosticar doenças na população brasileira.",
-   "categoria": "tecnologia",
-   "regiao": "Brasil",
-   "data": "2026-11-06",
-   "fonte": "Ministério da Saúde",
-   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/pesquisa-financiada-pelo-ministerio-da-saude-disponibiliza-plataforma-com-dados-geneticos-nacionais-que-qualificam-diagnosticos-de-doencas",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "Una plataforma abierta reúne 15.900 genomas de brasileños para mejorar diagnósticos",
-     "resumo": "El programa Genomas SUS publicó datos de 15.900 genomas completos y 3,7 millones de variantes genéticas, que ayudan a diagnosticar enfermedades en la población brasileña.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Open platform shares 15,900 Brazilian genomes to improve diagnoses",
-     "resumo": "Brazil's Genomas SUS program released data on 15,900 complete genomes and 3.7 million genetic variants, helping doctors diagnose diseases in the Brazilian population.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   }
   }
  ]
 }
