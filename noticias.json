@@ -1,6 +1,230 @@
 {
- "atualizado": "2026-11-09",
+ "atualizado": "2026-11-10",
  "noticias": [
+  {
+   "id": "chorume-fertilizante",
+   "titulo": "Unicamp transforma chorume de aterro em adubo que funciona tão bem quanto o comercial",
+   "resumo": "Pesquisadores extraíram minerais ricos em potássio, nitrogênio e fósforo do chorume de um aterro de Campinas. Em testes com alface, o adubo rendeu igual ou melhor que o NPK, sem metais pesados detectáveis.",
+   "categoria": "ciencia",
+   "regiao": "Campinas (SP)",
+   "data": "2026-11-10",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/pesquisa-transforma-chorume-em-fertilizante-seguro-para-a-agricultura/59577",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -22.82,
+   "lon": -47.07,
+   "i18n": {
+    "es": {
+     "titulo": "Unicamp convierte lixiviado de vertedero en abono tan eficaz como el comercial",
+     "resumo": "Investigadores extrajeron minerales ricos en potasio, nitrógeno y fósforo del lixiviado de un vertedero de Campinas. En pruebas con lechuga, el abono rindió igual o mejor que el NPK, sin metales pesados detectables.",
+     "regiao": "Campinas (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian scientists turn landfill leachate into fertiliser as good as the commercial kind",
+     "resumo": "Unicamp researchers recovered potassium, nitrogen and phosphorus-rich minerals from a Campinas landfill. In lettuce trials the fertiliser matched or beat commercial NPK, with no detectable heavy metals.",
+     "regiao": "Campinas (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59577.jpg",
+   "credito": "Foto: Jerusa Schneider"
+  },
+  {
+   "id": "bailarina-mare",
+   "titulo": "Bailarina de 12 anos da Maré ganha bolsa para estudar balé nos EUA",
+   "resumo": "Fernanda Rosa conquistou uma bolsa integral na Oklahoma Ballet School depois de se apresentar no YAGP Brasil. Ela treina no projeto ViDançar, que atende mais de 400 pessoas na Maré.",
+   "categoria": "sociedade",
+   "regiao": "Complexo da Maré, Rio de Janeiro (RJ)",
+   "data": "2026-11-08",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7535180-bailarina-de-12-anos-da-mare-conquista-bolsa-para-estudar-bale-nos-eua.html",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -22.86,
+   "lon": -43.24,
+   "i18n": {
+    "es": {
+     "titulo": "Bailarina de 12 años de la Maré gana una beca para estudiar ballet en EE. UU.",
+     "resumo": "Fernanda Rosa obtuvo una beca completa en la Oklahoma Ballet School tras presentarse en el YAGP Brasil. Entrena en el proyecto ViDançar, que atiende a más de 400 personas en la Maré.",
+     "regiao": "Complexo da Maré, Rio de Janeiro (RJ)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "12-year-old ballerina from a Rio favela wins a scholarship to dance in the US",
+     "resumo": "Fernanda Rosa won a full scholarship to the Oklahoma Ballet School after performing at YAGP Brazil. She trains at ViDançar, a project serving over 400 people in the Maré favelas.",
+     "regiao": "Complexo da Maré, Rio de Janeiro (RJ)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/08/675x450/1_76b84e49343044b4a319e1d7b68330fd-68172475.jpg",
+   "credito": "Foto: Divulgação"
+  },
+  {
+   "id": "bacco-pmdf",
+   "titulo": "Cão que fugiu da chuva e se escondeu num lava a jato é adotado pela PM do DF",
+   "resumo": "Bacco foi achado dentro de um carro na Candangolândia e agora vive com o 25º Batalhão da PMDF, onde está se adaptando.",
+   "categoria": "animais",
+   "regiao": "Candangolândia (DF)",
+   "data": "2026-11-09",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/distrito-federal/pit-bull-encontrado-em-lava-a-jato-apos-fugir-da-chuva-e-adotado-pela-pmdf",
+   "pais": "Brasil",
+   "lat": -15.85,
+   "lon": -47.95,
+   "i18n": {
+    "es": {
+     "titulo": "Un perro que huyó de la lluvia y se escondió en un lavadero es adoptado por la policía del DF",
+     "resumo": "Bacco fue hallado dentro de un auto en Candangolândia y ahora vive con el 25º Batallón de la Policía Militar del DF, donde se adapta.",
+     "regiao": "Candangolândia (DF)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Dog that fled a storm and hid in a car wash is adopted by Brasília's police",
+     "resumo": "Bacco was found inside a car in Candangolândia and now lives with the 25th Military Police Battalion, where he is settling in.",
+     "regiao": "Candangolândia (DF)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://i.metroimg.com/rUIlq0x1WjIV_9plPuieFzbT_LEZf58THlJbBmpWA18/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/bacco-pitbull-2.jpeg",
+   "credito": "Foto: Material cedido ao Metrópoles"
+  },
+  {
+   "id": "andre-volta-escola",
+   "titulo": "Depois de meses de recuperação, menino de 3 anos volta à escola sob festa dos colegas",
+   "resumo": "André Luiz teve um AVC após uma picada de escorpião em agosto. Hoje já fala frases completas, deu os primeiros passos sozinho e foi recebido pelos colegas em Igarassu.",
+   "categoria": "saude",
+   "regiao": "Igarassu (PE)",
+   "data": "2026-11-08",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7535195-menino-picado-por-escorpiao-volta-a-escola-apos-meses-de-recuperacao.html",
+   "pais": "Brasil",
+   "lat": -7.83,
+   "lon": -34.91,
+   "i18n": {
+    "es": {
+     "titulo": "Tras meses de recuperación, un niño de 3 años vuelve a la escuela entre aplausos",
+     "resumo": "André Luiz sufrió un ACV tras la picadura de un escorpión en agosto. Hoy ya dice frases completas, dio sus primeros pasos solo y sus compañeros lo recibieron en Igarassu.",
+     "regiao": "Igarassu (PE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "After months of recovery, a 3-year-old returns to school to cheers from classmates",
+     "resumo": "André Luiz had a stroke after a scorpion sting in August. He now speaks in full sentences, has taken his first steps unaided and was welcomed back by classmates in Igarassu.",
+     "regiao": "Igarassu (PE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/png/2026/11/08/675x450/1_andre-luiz-e-a-mae-leticia-souza-durante-recuperacao-do-menino-68173039.png",
+   "credito": "Foto: Reprodução/Instagram @lesouza03"
+  },
+  {
+   "id": "ufmg-vagas-trans",
+   "titulo": "UFMG abre 87 vagas extras de graduação para pessoas trans e travestis",
+   "resumo": "É a primeira seleção do tipo na universidade, com vagas em Belo Horizonte e Montes Claros para 2027. A inscrição é gratuita e vai até 11 de dezembro.",
+   "categoria": "sociedade",
+   "regiao": "Belo Horizonte (MG)",
+   "data": "2026-11-09",
+   "fonte": "UFMG",
+   "url": "https://www.ufmg.br/comunicacao/noticias/formas-de-ingresso/ufmg-recebe-inscricoes-para-a-primeira-selecao-de-pessoas-trans-e-travestis-na-graduacao/",
+   "pais": "Brasil",
+   "lat": -19.92,
+   "lon": -43.94,
+   "i18n": {
+    "es": {
+     "titulo": "La UFMG abre 87 plazas adicionales de grado para personas trans y travestis",
+     "resumo": "Es la primera selección de este tipo en la universidad, con plazas en Belo Horizonte y Montes Claros para 2027. La inscripción es gratuita y cierra el 11 de diciembre.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian university opens 87 extra degree places for trans people",
+     "resumo": "It is UFMG's first selection of its kind, with places in Belo Horizonte and Montes Claros for 2027. Registration is free and runs until December 11.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "papai-noel-correios",
+   "titulo": "Mais de 100 mil cartinhas ao Papai Noel dos Correios já foram adotadas",
+   "resumo": "As cartas são de crianças em situação vulnerável e de escolas públicas. A meta é atender todos os pedidos; em 2025 foram 305 mil. Dá para adotar até 30 de novembro.",
+   "categoria": "sociedade",
+   "regiao": "Brasil",
+   "data": "2026-11-09",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/papai-noel-dos-correios-campanha-ja-recebeu-mais-de-100-mil-cartinhas-em-todo-brasil-veja-como-enviar,dc710a65b29d8bb73de2e7cbc5d0c5cd5pccqsri.html",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "Ya se adoptaron más de 100.000 cartas a Papá Noel del correo brasileño",
+     "resumo": "Las cartas son de niños vulnerables y de escuelas públicas. La meta es atender todos los pedidos; en 2025 fueron 305.000. Se puede adoptar hasta el 30 de noviembre.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Over 100,000 children's letters to Santa adopted in Brazil's postal campaign",
+     "resumo": "The letters come from vulnerable children and public schools. The goal is to answer every one; 305,000 were answered in 2025. Adoptions run until November 30.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   }
+  },
+  {
+   "id": "orquideas-kerala",
+   "titulo": "Mais de 27 mil orquídeas são salvas de obra numa estrada da Índia",
+   "resumo": "Pesquisadores tiraram as orquídeas de árvores que seriam derrubadas em Kerala e as replantaram. Depois de um a dois anos, cerca de 71% estavam vivas, e algumas já deram sementes.",
+   "categoria": "meio-ambiente",
+   "regiao": "Kerala",
+   "data": "2026-11-10",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/short-article/2026/11/tens-of-thousands-of-orchids-saved-from-road-development-in-southern-india/",
+   "pais": "Índia",
+   "lat": 10.85,
+   "lon": 76.27,
+   "i18n": {
+    "es": {
+     "titulo": "Más de 27.000 orquídeas se salvan de una obra vial en la India",
+     "resumo": "Investigadores retiraron las orquídeas de árboles que iban a ser talados en Kerala y las replantaron. Tras uno o dos años, cerca del 71% seguía viva y algunas ya dieron semillas.",
+     "regiao": "Kerala",
+     "pais": "India"
+    },
+    "en": {
+     "titulo": "More than 27,000 orchids saved from a road project in India",
+     "resumo": "Researchers moved the orchids from trees due to be felled in Kerala and replanted them. After one to two years about 71% were alive, and some have produced seeds.",
+     "regiao": "Kerala",
+     "pais": "India"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/10054543/Aerides-crispa.jpg",
+   "credito": "Foto: tspkumar/iNaturalist (CC BY-NC 4.0)"
+  },
+  {
+   "id": "robo-monta-espaco",
+   "titulo": "Robô monta sozinho uma estrutura em órbita pela primeira vez",
+   "resumo": "Na missão ASTRA, da Caltech, um robô autônomo encaixou módulos de uma treliça no espaço sem ajuda de astronautas, um passo para construir antenas e estações em órbita.",
+   "categoria": "tecnologia",
+   "regiao": "Órbita terrestre",
+   "data": "2026-11-09",
+   "fonte": "ScienceDaily / Caltech",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
+   "pais": "Espaço",
+   "i18n": {
+    "es": {
+     "titulo": "Un robot ensambla por sí solo una estructura en órbita por primera vez",
+     "resumo": "En la misión ASTRA, de Caltech, un robot autónomo encajó módulos de una estructura en el espacio sin astronautas, un paso para construir antenas y estaciones en órbita.",
+     "regiao": "Órbita terrestre",
+     "pais": "Espacio"
+    },
+    "en": {
+     "titulo": "A robot assembles a structure in orbit on its own for the first time",
+     "resumo": "In Caltech's ASTRA mission, an autonomous robot fitted truss modules together in space without astronauts, a step toward building antennas and stations in orbit.",
+     "regiao": "Earth orbit",
+     "pais": "Space"
+    }
+   }
+  },
   {
    "id": "resina-coracao-3d",
    "titulo": "Unicamp cria resina para imprimir em 3D peças do coração que não formam coágulos",
@@ -11,7 +235,6 @@
    "fonte": "Agência FAPESP",
    "url": "https://agencia.fapesp.br/nova-resina-para-impressao-3d-de-dispositivos-cardiovasculares-evita-formacao-de-coagulos/59569",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -22.82,
    "lon": -47.07,
    "i18n": {
@@ -32,32 +255,33 @@
    "credito": "Foto: Thalita Mydori Missano"
   },
   {
-   "id": "natureza-149-paises",
-   "titulo": "Natureza está sendo recuperada em 149 países, com mais de 1 milhão de empregos verdes",
-   "resumo": "Relatório da ONU mostra 252 milhões de hectares de ecossistemas em restauração. O Brasil tem 3,4 milhões de hectares, e as onças-pintadas estão voltando.",
-   "categoria": "meio-ambiente",
-   "regiao": "Global",
-   "data": "2026-11-07",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/07/natureza-esta-sendo-recuperada-149-paises",
-   "pais": "Global",
-   "destaque": true,
+   "id": "embrapa-banco-genetico",
+   "titulo": "Brasil guarda cópia de segurança de abacaxi e mandioca em cofre congelado no Peru",
+   "resumo": "A Embrapa depositou 14 parentes silvestres do abacaxi e 11 linhagens de mandioca num banco a -196 °C, em Lima, junto com Chile e Equador. É uma reserva para proteger essas plantas.",
+   "categoria": "ciencia",
+   "regiao": "Lima e Cruz das Almas (BA)",
+   "data": "2026-11-06",
+   "fonte": "Embrapa",
+   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/149739873/embrapa-faz-primeiro-deposito-de-amostras-da-biodiversidade-brasileira-em-banco-genetico-no-peru",
+   "pais": "Peru",
+   "lat": -12.05,
+   "lon": -77.04,
    "i18n": {
     "es": {
-     "titulo": "La naturaleza se recupera en 149 países, con más de 1 millón de empleos verdes",
-     "resumo": "Un informe de la ONU muestra 252 millones de hectáreas de ecosistemas en restauración. Brasil tiene 3,4 millones de hectáreas y los jaguares están volviendo.",
-     "regiao": "Global",
-     "pais": "Global"
+     "titulo": "Brasil guarda una copia de seguridad de piña y yuca en una bóveda congelada en Perú",
+     "resumo": "Embrapa depositó 14 parientes silvestres de la piña y 11 líneas de yuca en un banco a -196 °C en Lima, junto con Chile y Ecuador. Es una reserva para proteger estas plantas.",
+     "regiao": "Lima y Cruz das Almas (BA)",
+     "pais": "Perú"
     },
     "en": {
-     "titulo": "Nature is being restored in 149 countries, creating over 1 million green jobs",
-     "resumo": "A UN report counts 252 million hectares of ecosystems under restoration. Brazil has 3.4 million hectares, and jaguars are coming back.",
-     "regiao": "Global",
-     "pais": "Global"
+     "titulo": "Brazil stores a frozen backup of pineapple and cassava in a vault in Peru",
+     "resumo": "Embrapa deposited 14 wild pineapple relatives and 11 cassava lines in a -196 °C vault in Lima, alongside Chile and Ecuador, to safeguard these crops.",
+     "regiao": "Lima and Cruz das Almas (BA)",
+     "pais": "Peru"
     }
    },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/onu-nagturueza.jpeg",
-   "credito": "Foto: Todd Brown/Pnuma"
+   "img": "https://www.embrapa.br/documents/d/portal/261106_portal_deposito_peru_abstract3",
+   "credito": "Foto: Embrapa"
   },
   {
    "id": "ubsi-wai-wai",
@@ -112,288 +336,6 @@
      "pais": "Brazil"
     }
    }
-  },
-  {
-   "id": "embrapa-banco-genetico",
-   "titulo": "Brasil guarda cópia de segurança de abacaxi e mandioca em cofre congelado no Peru",
-   "resumo": "A Embrapa depositou 14 parentes silvestres do abacaxi e 11 linhagens de mandioca num banco a -196 °C, em Lima, junto com Chile e Equador. É uma reserva para proteger essas plantas.",
-   "categoria": "ciencia",
-   "regiao": "Lima e Cruz das Almas (BA)",
-   "data": "2026-11-06",
-   "fonte": "Embrapa",
-   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/149739873/embrapa-faz-primeiro-deposito-de-amostras-da-biodiversidade-brasileira-em-banco-genetico-no-peru",
-   "pais": "Peru",
-   "lat": -12.05,
-   "lon": -77.04,
-   "i18n": {
-    "es": {
-     "titulo": "Brasil guarda una copia de seguridad de piña y yuca en una bóveda congelada en Perú",
-     "resumo": "Embrapa depositó 14 parientes silvestres de la piña y 11 líneas de yuca en un banco a -196 °C en Lima, junto con Chile y Ecuador. Es una reserva para proteger estas plantas.",
-     "regiao": "Lima y Cruz das Almas (BA)",
-     "pais": "Perú"
-    },
-    "en": {
-     "titulo": "Brazil stores a frozen backup of pineapple and cassava in a vault in Peru",
-     "resumo": "Embrapa deposited 14 wild pineapple relatives and 11 cassava lines in a -196 °C vault in Lima, alongside Chile and Ecuador, to safeguard these crops.",
-     "regiao": "Lima and Cruz das Almas (BA)",
-     "pais": "Peru"
-    }
-   },
-   "img": "https://www.embrapa.br/documents/d/portal/261106_portal_deposito_peru_abstract3",
-   "credito": "Foto: Embrapa"
-  },
-  {
-   "id": "documentario-refugiados",
-   "titulo": "Refugiados filmam a própria história com celular em documentário brasileiro",
-   "resumo": "Migrantes em São Paulo e Paris, vindos de países como Síria, Ucrânia, Congo e Venezuela, gravaram seus relatos. O filme da Unicamp estreou em Dacar, no Senegal.",
-   "categoria": "sociedade",
-   "regiao": "Dacar",
-   "data": "2026-11-06",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/documentario-feito-com-imagens-de-celulares-da-a-imigrantes-e-refugiados-o-controle-das-proprias-narrativas/59565",
-   "pais": "Senegal",
-   "lat": 14.69,
-   "lon": -17.45,
-   "i18n": {
-    "es": {
-     "titulo": "Refugiados filman su propia historia con el celular en un documental brasileño",
-     "resumo": "Migrantes en São Paulo y París, de países como Siria, Ucrania, Congo y Venezuela, grabaron sus relatos. La película de Unicamp se estrenó en Dakar, Senegal.",
-     "regiao": "Dakar",
-     "pais": "Senegal"
-    },
-    "en": {
-     "titulo": "Refugees film their own stories on phones in a Brazilian documentary",
-     "resumo": "Migrants in São Paulo and Paris, from countries such as Syria, Ukraine, Congo and Venezuela, recorded their own accounts. The Unicamp film premiered in Dakar, Senegal.",
-     "regiao": "Dakar",
-     "pais": "Senegal"
-    }
-   },
-   "img": "https://agencia.fapesp.br/files/post/59565.jpg",
-   "credito": "Imagem: divulgação"
-  },
-  {
-   "id": "uganda-lixo-eletronico",
-   "titulo": "Refugiados e jovens em Uganda consertam painéis solares e ganham renda",
-   "resumo": "Uma cooperativa apoiada pela OIM já recuperou mais de 9 mil painéis solares e milhares de células de bateria descartados, gerando trabalho para 30 jovens.",
-   "categoria": "meio-ambiente",
-   "regiao": "Nilo Ocidental",
-   "data": "2026-11-06",
-   "fonte": "ONU News",
-   "url": "https://news.un.org/pt/story/2026/11/1854852",
-   "pais": "Uganda",
-   "lat": 3.02,
-   "lon": 30.91,
-   "i18n": {
-    "es": {
-     "titulo": "Refugiados y jóvenes en Uganda reparan paneles solares y ganan ingresos",
-     "resumo": "Una cooperativa apoyada por la OIM ya recuperó más de 9.000 paneles solares y miles de celdas de batería desechados, y da trabajo a 30 jóvenes.",
-     "regiao": "Nilo Occidental",
-     "pais": "Uganda"
-    },
-    "en": {
-     "titulo": "Refugees and young people in Uganda repair solar panels and earn an income",
-     "resumo": "A cooperative backed by the IOM has repaired more than 9,000 discarded solar panels and thousands of battery cells, creating work for 30 young people.",
-     "regiao": "West Nile",
-     "pais": "Uganda"
-    }
-   }
-  },
-  {
-   "id": "cep-favelas",
-   "titulo": "12,3 mil favelas ganham CEP, e 16 milhões de pessoas passam a ter endereço reconhecido",
-   "resumo": "O programa CEP para Todos deu ao menos um CEP a cada favela mapeada pelo IBGE. A próxima etapa é ter CEP por rua.",
-   "categoria": "sociedade",
-   "regiao": "Brasil",
-   "data": "2026-11-08",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/08/cep-para-todos-favelas-brasileiras",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "12.300 favelas reciben código postal y 16 millones de personas tienen dirección reconocida",
-     "resumo": "El programa CEP para Todos dio al menos un código postal a cada favela mapeada por el IBGE. La próxima etapa es tener código por calle.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "12,300 favelas get postcodes, giving 16 million people a recognised address",
-     "resumo": "Brazil's CEP para Todos program gave at least one postcode to every favela mapped by the IBGE. Street-level codes come next.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "teleton-aacd",
-   "titulo": "Teleton bate a meta de R$ 30 milhões para a AACD",
-   "resumo": "Depois de mais de 26 horas no ar, as doações vão bancar cerca de 230 mil atendimentos pelo SUS para pessoas com deficiência.",
-   "categoria": "saude",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-08",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/08/teleton-bate-meta-30-milhoes-aacd-2026",
-   "pais": "Brasil",
-   "lat": -23.55,
-   "lon": -46.63,
-   "i18n": {
-    "es": {
-     "titulo": "Teletón alcanza la meta de R$ 30 millones para la AACD",
-     "resumo": "Tras más de 26 horas al aire, las donaciones financiarán unas 230.000 atenciones por el sistema público de salud a personas con discapacidad.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil's Teleton hits its R$30 million goal for disability care",
-     "resumo": "After more than 26 hours on air, donations will fund about 230,000 public-health treatments for people with disabilities at AACD.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-08T103316.014.jpg",
-   "credito": "Foto: reprodução/SBT"
-  },
-  {
-   "id": "porteiro-ganha-carro",
-   "titulo": "Pais e escola dão carro a porteiro que trabalha lá há mais de 30 anos",
-   "resumo": "Seu Batista, porteiro da Escola Espaço Vida, em Fortaleza, se emocionou até as lágrimas com o presente.",
-   "categoria": "sociedade",
-   "regiao": "Fortaleza (CE)",
-   "data": "2026-11-08",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/08/porteiro-ganha-carro-30-anos-escola",
-   "pais": "Brasil",
-   "lat": -3.73,
-   "lon": -38.52,
-   "i18n": {
-    "es": {
-     "titulo": "Padres y escuela regalan un auto al portero que trabaja allí hace más de 30 años",
-     "resumo": "Batista, portero de la Escuela Espaço Vida en Fortaleza, se emocionó hasta las lágrimas con el regalo.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Parents and school give a car to their doorman of more than 30 years",
-     "resumo": "Batista, the doorman at Escola Espaço Vida in Fortaleza, was moved to tears by the gift.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brazil"
-    }
-   }
-  },
-  {
-   "id": "rottweiler-nevoeiro",
-   "titulo": "Rottweiler resgatado em estado crítico se recupera e ganha um lar",
-   "resumo": "Nevoeiro passou por reabilitação com a adestradora Marcela Barbieri e foi adotado por Carlos, que não desistiu dele.",
-   "categoria": "animais",
-   "regiao": "Cruzeiro (SP)",
-   "data": "2026-11-08",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/08/rottweiler-nevoeiro-adotado-reabilitacao",
-   "pais": "Brasil",
-   "lat": -22.58,
-   "lon": -44.96,
-   "i18n": {
-    "es": {
-     "titulo": "Un rottweiler rescatado en estado crítico se recupera y encuentra hogar",
-     "resumo": "Nevoeiro pasó por rehabilitación con la adiestradora Marcela Barbieri y fue adoptado por Carlos, que no se rindió con él.",
-     "regiao": "Cruzeiro (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Rottweiler rescued in critical condition recovers and finds a home",
-     "resumo": "Nevoeiro went through rehabilitation with trainer Marcela Barbieri and was adopted by Carlos, who never gave up on him.",
-     "regiao": "Cruzeiro (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-08-at-10.27.35.jpeg",
-   "credito": "Foto: Reprodução/Instagram @ceancrz e @marcela.barbieri"
-  },
-  {
-   "id": "cavalo-sancho",
-   "titulo": "Dono enfrenta correnteza e salva cavalo idoso arrastado por rio em SC",
-   "resumo": "Felipe Alves segurou Sancho com uma corda até três homens ajudarem a puxá-lo para a margem. O cavalo já está de pé e se recuperando.",
-   "categoria": "animais",
-   "regiao": "Santa Catarina",
-   "data": "2026-11-06",
-   "fonte": "Só Notícia Boa",
-   "url": "https://www.sonoticiaboa.com.br/2026/11/06/homem-salvar-cavalo-idoso-correnteza-rio-sc",
-   "pais": "Brasil",
-   "lat": -27.24,
-   "lon": -50.22,
-   "i18n": {
-    "es": {
-     "titulo": "Un hombre enfrenta la corriente y salva a su caballo anciano en Santa Catarina",
-     "resumo": "Felipe Alves sostuvo a Sancho con una cuerda hasta que tres hombres lo ayudaron a sacarlo a la orilla. El caballo ya está de pie y se recupera.",
-     "regiao": "Santa Catarina",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Owner fights a river current to save his elderly horse in southern Brazil",
-     "resumo": "Felipe Alves held Sancho with a rope until three men helped pull him to the bank. The horse is standing again and recovering.",
-     "regiao": "Santa Catarina",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://d281e75zdqqlon.cloudfront.net/wp-content/uploads/2026/11/elke-2026-11-06T104254.039.jpg",
-   "credito": "Fotos: reprodução/Instagram @fealvessn"
-  },
-  {
-   "id": "caes-farejam-plantas",
-   "titulo": "Cães aprendem a farejar plantas invasoras e ajudam a proteger a natureza",
-   "resumo": "Na Alemanha, 31 cães foram treinados; 11 de 12 duplas de cão e tutor passaram no teste de campo, com cerca de 75% de acerto.",
-   "categoria": "meio-ambiente",
-   "regiao": "Leipzig",
-   "data": "2026-11-08",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/dogs-can-sniff-out-invasive-plant-species-with-75pt-accuracy/",
-   "pais": "Alemanha",
-   "lat": 51.34,
-   "lon": 12.37,
-   "i18n": {
-    "es": {
-     "titulo": "Perros aprenden a olfatear plantas invasoras y ayudan a proteger la naturaleza",
-     "resumo": "En Alemania se entrenaron 31 perros; 11 de 12 parejas de perro y guía aprobaron la prueba de campo, con cerca de 75% de acierto.",
-     "regiao": "Leipzig",
-     "pais": "Alemania"
-    },
-    "en": {
-     "titulo": "Dogs learn to sniff out invasive plants to help protect nature",
-     "resumo": "In Germany, 31 dogs were trained; 11 of 12 dog-handler teams passed the field test, with about 75% accuracy.",
-     "regiao": "Leipzig",
-     "pais": "Germany"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/sniffer-dog-with-owner-in-field-by-Anne-Zylinski-WPF-via-SWNS-.jpeg",
-   "credito": "Foto: Anne Zylinski/WPF/SWNS"
-  },
-  {
-   "id": "periquito-luna",
-   "titulo": "Periquita que fugiu na tempestade é achada num bueiro e volta para casa",
-   "resumo": "Um motorista viu Luna entrar num bueiro e chamou a RSPCA. Ela foi resgatada a 1,6 km de casa e voltou para a dona.",
-   "categoria": "animais",
-   "regiao": "Northampton",
-   "data": "2026-11-08",
-   "fonte": "Good News Network",
-   "url": "https://www.goodnewsnetwork.org/lucky-bird-found-in-storm-drain-a-mile-from-home/",
-   "pais": "Reino Unido",
-   "lat": 52.24,
-   "lon": -0.9,
-   "i18n": {
-    "es": {
-     "titulo": "Una periquita que escapó en la tormenta aparece en una alcantarilla y vuelve a casa",
-     "resumo": "Un conductor vio a Luna entrar en una alcantarilla y llamó a la RSPCA. Fue rescatada a 1,6 km de casa y volvió con su dueña.",
-     "regiao": "Northampton",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "Budgie lost in a storm is found in a drain and returns home",
-     "resumo": "A driver saw Luna slip into a roadside drain and called the RSPCA. She was rescued a mile from home and reunited with her owner.",
-     "regiao": "Northampton",
-     "pais": "UK"
-    }
-   },
-   "img": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/11/Bird-rescued-from-sewer-pipe-RSPCA-and-SWNS.jpeg",
-   "credito": "Foto: RSPCA/SWNS"
   }
  ]
 }
