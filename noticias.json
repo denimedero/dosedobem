@@ -1,35 +1,210 @@
 {
- "atualizado": "2026-11-10",
+ "atualizado": "2026-11-11",
  "noticias": [
   {
-   "id": "chorume-fertilizante",
-   "titulo": "Unicamp transforma chorume de aterro em adubo que funciona tão bem quanto o comercial",
-   "resumo": "Pesquisadores extraíram minerais ricos em potássio, nitrogênio e fósforo do chorume de um aterro de Campinas. Em testes com alface, o adubo rendeu igual ou melhor que o NPK, sem metais pesados detectáveis.",
-   "categoria": "ciencia",
-   "regiao": "Campinas (SP)",
-   "data": "2026-11-10",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/pesquisa-transforma-chorume-em-fertilizante-seguro-para-a-agricultura/59577",
+   "id": "escolas-hortas-sp",
+   "titulo": "Escolas da periferia de SP transformam terrenos com entulho em hortas e agroflorestas",
+   "resumo": "Pesquisa da USP acompanhou escolas que limparam terrenos baldios e plantaram hortas e agroflorestas no lugar, com antes e depois registrados em foto.",
+   "categoria": "meio-ambiente",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-09",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/diversidade/do-entulho-a-agrofloresta-pesquisa-da-usp-mostra-como-escolas-da-periferia-de-sp-transformaram-terrenos-baldios-em-hortas/",
    "pais": "Brasil",
    "destaque": true,
-   "lat": -22.82,
-   "lon": -47.07,
+   "lat": -23.55,
+   "lon": -46.63,
    "i18n": {
     "es": {
-     "titulo": "Unicamp convierte lixiviado de vertedero en abono tan eficaz como el comercial",
-     "resumo": "Investigadores extrajeron minerales ricos en potasio, nitrógeno y fósforo del lixiviado de un vertedero de Campinas. En pruebas con lechuga, el abono rindió igual o mejor que el NPK, sin metales pesados detectables.",
-     "regiao": "Campinas (SP)",
+     "titulo": "Escuelas de la periferia de São Paulo convierten terrenos con escombros en huertas",
+     "resumo": "Una investigación de la USP siguió a escuelas que limpiaron terrenos baldíos y plantaron huertas y sistemas agroforestales, con fotos del antes y el después.",
+     "regiao": "São Paulo (SP)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Brazilian scientists turn landfill leachate into fertiliser as good as the commercial kind",
-     "resumo": "Unicamp researchers recovered potassium, nitrogen and phosphorus-rich minerals from a Campinas landfill. In lettuce trials the fertiliser matched or beat commercial NPK, with no detectable heavy metals.",
-     "regiao": "Campinas (SP)",
+     "titulo": "São Paulo outskirts schools turn rubble-filled lots into gardens and food forests",
+     "resumo": "A University of São Paulo study followed schools that cleared vacant lots and planted vegetable gardens and agroforests, with before-and-after photos.",
+     "regiao": "São Paulo (SP)",
      "pais": "Brazil"
     }
    },
-   "img": "https://agencia.fapesp.br/files/post/59577.jpg",
-   "credito": "Foto: Jerusa Schneider"
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261109_entulho3.jpg",
+   "credito": "Foto: Arquivo da escola"
+  },
+  {
+   "id": "vacina-melanoma",
+   "titulo": "Vacina sob medida reduz em 42% o risco de o melanoma voltar",
+   "resumo": "Em estudo de fase 3, a vacina de mRNA personalizada, junto com imunoterapia, cortou em 42% o risco de retorno do câncer ou morte em dois anos. Ainda faltam acompanhamento mais longo e aprovação.",
+   "categoria": "saude",
+   "regiao": "Madri (congresso ESMO)",
+   "data": "2026-11-10",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/ciencia-e-saude/2026/11/7536020-vacina-sob-medida-reduz-em-42-risco-de-retorno-do-cancer-de-pele.html",
+   "pais": "Espanha",
+   "lat": 40.42,
+   "lon": -3.7,
+   "i18n": {
+    "es": {
+     "titulo": "Una vacuna a medida reduce un 42% el riesgo de que el melanoma vuelva",
+     "resumo": "En un estudio de fase 3, la vacuna de ARNm personalizada, junto con inmunoterapia, redujo un 42% el riesgo de recaída o muerte en dos años. Aún falta seguimiento más largo y aprobación.",
+     "regiao": "Madrid (congreso ESMO)",
+     "pais": "España"
+    },
+    "en": {
+     "titulo": "Personalised vaccine cuts melanoma's return risk by 42%",
+     "resumo": "In a phase 3 trial, a personalised mRNA vaccine given with immunotherapy cut the risk of relapse or death by 42% over two years. Longer follow-up and approval are still needed.",
+     "regiao": "Madrid (ESMO congress)",
+     "pais": "Spain"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/10/30/675x450/1_vacinax-68113748.jpg",
+   "credito": "Imagem: Reprodução/Freepik"
+  },
+  {
+   "id": "guardioes-sementes",
+   "titulo": "Guardiões de sementes protegem variedades tradicionais na Chapada dos Veadeiros",
+   "resumo": "A Embrapa está fortalecendo a rede de agricultores que guardam e trocam sementes crioulas na região, ajudando a manter vivas variedades locais.",
+   "categoria": "ciencia",
+   "regiao": "Chapada dos Veadeiros (GO)",
+   "data": "2026-11-10",
+   "fonte": "Embrapa",
+   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/149882266/embrapa-fortalece-rede-de-guardioes-de-sementes-na-chapada-dos-veadeiros",
+   "pais": "Brasil",
+   "lat": -14.13,
+   "lon": -47.51,
+   "i18n": {
+    "es": {
+     "titulo": "Guardianes de semillas protegen variedades tradicionales en la Chapada dos Veadeiros",
+     "resumo": "Embrapa fortalece la red de agricultores que guardan e intercambian semillas criollas en la región, ayudando a mantener vivas las variedades locales.",
+     "regiao": "Chapada dos Veadeiros (GO)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Seed guardians protect traditional crops in Brazil's Chapada dos Veadeiros",
+     "resumo": "Embrapa is strengthening a network of farmers who keep and swap heirloom seeds in the region, helping local crop varieties survive.",
+     "regiao": "Chapada dos Veadeiros (GO)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.embrapa.br/image/journal/article?img_id=149881469",
+   "credito": "Foto: Embrapa"
+  },
+  {
+   "id": "raia-grecia",
+   "titulo": "Raia recém-nascida dá os primeiros mergulhos e volta ao mar na Grécia",
+   "resumo": "O filhote foi cuidado até ganhar força e então devolvido à natureza no Golfo Termaico, ganhando uma segunda chance de sobreviver.",
+   "categoria": "animais",
+   "regiao": "Golfo Termaico",
+   "data": "2026-11-10",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/video/2026/11/10/second-chance-of-survival-newborn-stingray-takes-first-swim-before-being-released-back-int",
+   "pais": "Grécia",
+   "destaque": true,
+   "lat": 40.4,
+   "lon": 22.8,
+   "i18n": {
+    "es": {
+     "titulo": "Una raya recién nacida da sus primeros nados y vuelve al mar en Grecia",
+     "resumo": "La cría fue cuidada hasta ganar fuerza y luego devuelta a la naturaleza en el golfo Termaico, con una segunda oportunidad de sobrevivir.",
+     "regiao": "Golfo Termaico",
+     "pais": "Grecia"
+    },
+    "en": {
+     "titulo": "Newborn stingray takes its first swim and returns to the sea in Greece",
+     "resumo": "The pup was cared for until it was strong enough, then released into the Thermaic Gulf with a second chance at survival.",
+     "regiao": "Thermaic Gulf",
+     "pais": "Greece"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/89/77/01/1200x675_cmsv2_0a3adadf-c8dd-5206-ab91-8622cba51dc5-9897701.jpg",
+   "credito": "Foto: Euronews"
+  },
+  {
+   "id": "ripeye-praias",
+   "titulo": "Inteligência artificial ajuda a achar correntes perigosas em praias da Austrália",
+   "resumo": "A ferramenta RipEye, criada pela Universidade de Nova Gales do Sul, está sendo testada nas praias para identificar correntes de retorno e proteger banhistas.",
+   "categoria": "tecnologia",
+   "regiao": "Nova Gales do Sul",
+   "data": "2026-11-11",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-11/rip-detecting-ai-tool-being-trialled-nsw-beaches/107368710",
+   "pais": "Austrália",
+   "lat": -33.87,
+   "lon": 151.21,
+   "i18n": {
+    "es": {
+     "titulo": "Inteligencia artificial ayuda a detectar corrientes peligrosas en playas de Australia",
+     "resumo": "La herramienta RipEye, creada por la Universidad de Nueva Gales del Sur, se prueba en playas para identificar corrientes de resaca y proteger a los bañistas.",
+     "regiao": "Nueva Gales del Sur",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "AI helps spot dangerous rip currents on Australian beaches",
+     "resumo": "RipEye, a tool built by UNSW, is being trialled on New South Wales beaches to detect rip currents and keep swimmers safe.",
+     "regiao": "New South Wales",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/2d8a795fae5727cd07b3e8db6fd6c291",
+   "credito": "Foto: ABC News/Declan Bowring"
+  },
+  {
+   "id": "veterano-medalhas",
+   "titulo": "Veterano recebe suas medalhas com 80 anos de atraso",
+   "resumo": "Ian Hart finalmente foi homenageado numa cerimônia em Tamborine Mountain, na Austrália, oito décadas depois do serviço.",
+   "categoria": "sociedade",
+   "regiao": "Tamborine Mountain (Queensland)",
+   "data": "2026-11-11",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-11/qld-veteran-ian-hart-medals-80-years-late/107352094",
+   "pais": "Austrália",
+   "lat": -27.93,
+   "lon": 153.19,
+   "i18n": {
+    "es": {
+     "titulo": "Un veterano recibe sus medallas con 80 años de retraso",
+     "resumo": "Ian Hart fue finalmente homenajeado en una ceremonia en Tamborine Mountain, Australia, ocho décadas después de su servicio.",
+     "regiao": "Tamborine Mountain (Queensland)",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Veteran receives his medals 80 years late",
+     "resumo": "Ian Hart was finally honoured at a ceremony in Tamborine Mountain, Queensland, eight decades after his service.",
+     "regiao": "Tamborine Mountain (Queensland)",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/a73c335a7b37abf4c7f80784b960bbda",
+   "credito": "Foto: ABC Gold Coast/Emily Dobson"
+  },
+  {
+   "id": "irrigacao-solar-bangladesh",
+   "titulo": "Triciclo solar irriga lavouras em Bangladesh por uma fração do custo do diesel",
+   "resumo": "O Ponkhiraj, da ONG BRAC, irriga cerca de 1 hectare por dia. Segundo a BRAC, sai por uns US$ 0,80, contra US$ 8 com bomba a diesel, hoje usada em mais de 80% da região.",
+   "categoria": "meio-ambiente",
+   "regiao": "Bangladesh",
+   "data": "2026-11-10",
+   "fonte": "New Atlas",
+   "url": "https://newatlas.com/good-thinking/ponkhiraj-solar-powered-field-irrigation/",
+   "pais": "Bangladesh",
+   "lat": 23.68,
+   "lon": 90.36,
+   "i18n": {
+    "es": {
+     "titulo": "Un triciclo solar riega cultivos en Bangladés por una fracción del costo del diésel",
+     "resumo": "El Ponkhiraj, de la ONG BRAC, riega cerca de 1 hectárea por día. Según BRAC, cuesta unos US$ 0,80, frente a US$ 8 con bomba diésel, usada en más del 80% de la región.",
+     "regiao": "Bangladesh",
+     "pais": "Bangladés"
+    },
+    "en": {
+     "titulo": "Solar tricycle irrigates Bangladesh farms for a fraction of diesel's cost",
+     "resumo": "BRAC's Ponkhiraj irrigates about a hectare a day. BRAC says it costs around US$0.80 versus US$8 with the diesel pumps used by over 80% of the region.",
+     "regiao": "Bangladesh",
+     "pais": "Bangladesh"
+    }
+   },
+   "img": "https://assets.newatlas.com/dims4/default/cb417bf/2147483647/strip/true/crop/1600x840+0+113/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F11%2F6a%2Fcd24886647428908310087bd6483%2Fponkhiraj-3.jpeg",
+   "credito": "Foto: BRAC International"
   },
   {
    "id": "bailarina-mare",
@@ -41,7 +216,6 @@
    "fonte": "Correio Braziliense",
    "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7535180-bailarina-de-12-anos-da-mare-conquista-bolsa-para-estudar-bale-nos-eua.html",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -22.86,
    "lon": -43.24,
    "i18n": {
@@ -71,7 +245,6 @@
    "fonte": "Euronews",
    "url": "https://www.euronews.com/2026/11/10/portugals-last-circus-elephant-adapts-to-life-in-new-sanctuary-gaining-100kg",
    "pais": "Portugal",
-   "destaque": true,
    "lat": 38.57,
    "lon": -7.91,
    "i18n": {
@@ -92,62 +265,33 @@
    "credito": "Foto: Facebook/Pangea Elephant Sanctuary"
   },
   {
-   "id": "car-t-pessoa-rigida",
-   "titulo": "Terapia celular devolve rotina a pacientes com síndrome da pessoa rígida",
-   "resumo": "Estudo da Clínica Mayo com células CAR-T trouxe melhora clara: alguns pacientes voltaram a cuidar do dia a dia e até a trabalhar. É a doença rara que afeta Celine Dion; os médicos ainda acompanham se o efeito dura.",
-   "categoria": "saude",
-   "regiao": "Rochester (Minnesota)",
+   "id": "chorume-fertilizante",
+   "titulo": "Unicamp transforma chorume de aterro em adubo que funciona tão bem quanto o comercial",
+   "resumo": "Pesquisadores extraíram minerais ricos em potássio, nitrogênio e fósforo do chorume de um aterro de Campinas. Em testes com alface, o adubo rendeu igual ou melhor que o NPK, sem metais pesados detectáveis.",
+   "categoria": "ciencia",
+   "regiao": "Campinas (SP)",
    "data": "2026-11-10",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/salud/ciencia/2026/11/10/logran-un-avance-cientifico-contra-el-sindrome-de-la-persona-rigida-la-enfermedad-que-afecta-a-celine-dion/",
-   "pais": "Estados Unidos",
-   "lat": 44.02,
-   "lon": -92.47,
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/pesquisa-transforma-chorume-em-fertilizante-seguro-para-a-agricultura/59577",
+   "pais": "Brasil",
+   "lat": -22.82,
+   "lon": -47.07,
    "i18n": {
     "es": {
-     "titulo": "Una terapia celular devuelve la rutina a pacientes con síndrome de la persona rígida",
-     "resumo": "Un estudio de la Clínica Mayo con células CAR-T logró mejoras claras: algunos pacientes retomaron sus tareas diarias e incluso el trabajo. Es la enfermedad rara de Celine Dion; los médicos siguen evaluando si el efecto dura.",
-     "regiao": "Rochester (Minnesota)",
-     "pais": "Estados Unidos"
+     "titulo": "Unicamp convierte lixiviado de vertedero en abono tan eficaz como el comercial",
+     "resumo": "Investigadores extrajeron minerales ricos en potasio, nitrógeno y fósforo del lixiviado de un vertedero de Campinas. En pruebas con lechuga, el abono rindió igual o mejor que el NPK, sin metales pesados detectables.",
+     "regiao": "Campinas (SP)",
+     "pais": "Brasil"
     },
     "en": {
-     "titulo": "Cell therapy gives stiff person syndrome patients their lives back",
-     "resumo": "A Mayo Clinic study using CAR-T cells brought marked improvement: some patients regained daily independence and even returned to work. It is the rare disease Celine Dion has; doctors are still checking whether the gains last.",
-     "regiao": "Rochester (Minnesota)",
-     "pais": "USA"
+     "titulo": "Brazilian scientists turn landfill leachate into fertiliser as good as the commercial kind",
+     "resumo": "Unicamp researchers recovered potassium, nitrogen and phosphorus-rich minerals from a Campinas landfill. In lettuce trials the fertiliser matched or beat commercial NPK, with no detectable heavy metals.",
+     "regiao": "Campinas (SP)",
+     "pais": "Brazil"
     }
    },
-   "img": "https://www.infobae.com/resizer/v2/BH7NVFZVG5BXXH2ZVQLKFOUINY.JPG?auth=eda4a3dd136afbc1a33ad63353bb64dc35e45d5efbad57f91abf6449384ae2d7&smart=true&width=1200&height=630&quality=85",
-   "credito": "Foto: Infobae"
-  },
-  {
-   "id": "doacao-conservacao-australia",
-   "titulo": "Casal doa US$ 120 milhões australianos para proteger a natureza da Austrália",
-   "resumo": "Alexandra e Julian Burt dividiram a doação entre 10 grupos de conservação. Com a ajuda, a Australian Wildlife Conservancy pode chegar a cuidar de 5% do território do país.",
-   "categoria": "meio-ambiente",
-   "regiao": "Território do Norte",
-   "data": "2026-11-10",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-10/nt-conservation-donation-makes-dream-of-managing-5-per-cent-land/107367198",
-   "pais": "Austrália",
-   "lat": -15.5,
-   "lon": 129.7,
-   "i18n": {
-    "es": {
-     "titulo": "Una pareja dona 120 millones de dólares australianos para proteger la naturaleza",
-     "resumo": "Alexandra y Julian Burt repartieron la donación entre 10 grupos de conservación. Con ella, la Australian Wildlife Conservancy podría llegar a gestionar el 5% del territorio del país.",
-     "regiao": "Territorio del Norte",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Couple gives A$120 million to protect Australia's wildlife",
-     "resumo": "Alexandra and Julian Burt split the gift among 10 conservation groups. It could let the Australian Wildlife Conservancy manage 5% of the country's land.",
-     "regiao": "Northern Territory",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/3813e8bcd170db3988861a0aee574171?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485&imformat=generic",
-   "credito": "Foto: Australian Wildlife Conservancy"
+   "img": "https://agencia.fapesp.br/files/post/59577.jpg",
+   "credito": "Foto: Jerusa Schneider"
   },
   {
    "id": "cohousing-mulheres",
@@ -177,292 +321,6 @@
    },
    "img": "https://live-production.wcms.abc-cdn.net.au/41849d33ed9ffbfb6decd7aeb0cfbf1a?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
    "credito": "Foto: ABC News/Meghan Dansie"
-  },
-  {
-   "id": "vento-uzbequistao",
-   "titulo": "Primeiro parque eólico com grandes baterias da Ásia Central está quase pronto",
-   "resumo": "No Uzbequistão, 25 das 26 turbinas já mandam energia para a rede, e as baterias entram em operação até o fim de novembro. A usina pode atender mais de 300 mil pessoas.",
-   "categoria": "tecnologia",
-   "regiao": "Caracalpaquistão",
-   "data": "2026-11-10",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/10/central-asias-first-wind-farm-with-large-scale-batteries-nears-completion-in-uzbekistan",
-   "pais": "Uzbequistão",
-   "lat": 42.46,
-   "lon": 59.6,
-   "i18n": {
-    "es": {
-     "titulo": "El primer parque eólico con grandes baterías de Asia Central está casi listo",
-     "resumo": "En Uzbekistán, 25 de las 26 turbinas ya envían energía a la red y las baterías entrarán en operación a fines de noviembre. Podrá abastecer a más de 300.000 personas.",
-     "regiao": "Karakalpakistán",
-     "pais": "Uzbekistán"
-    },
-    "en": {
-     "titulo": "Central Asia's first wind farm with big batteries is nearly finished",
-     "resumo": "In Uzbekistan, 25 of 26 turbines already feed the grid and the batteries come online by the end of November. The plant could serve more than 300,000 people.",
-     "regiao": "Karakalpakstan",
-     "pais": "Uzbekistan"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/98/57/04/1200x675_cmsv2_c0c63883-4d30-5cf3-b6cc-fcc11823d6aa-9985704.jpg",
-   "credito": "Foto: Euronews"
-  },
-  {
-   "id": "bacco-pmdf",
-   "titulo": "Cão que fugiu da chuva e se escondeu num lava a jato é adotado pela PM do DF",
-   "resumo": "Bacco foi achado dentro de um carro na Candangolândia e agora vive com o 25º Batalhão da PMDF, onde está se adaptando.",
-   "categoria": "animais",
-   "regiao": "Candangolândia (DF)",
-   "data": "2026-11-09",
-   "fonte": "Metrópoles",
-   "url": "https://www.metropoles.com/distrito-federal/pit-bull-encontrado-em-lava-a-jato-apos-fugir-da-chuva-e-adotado-pela-pmdf",
-   "pais": "Brasil",
-   "lat": -15.85,
-   "lon": -47.95,
-   "i18n": {
-    "es": {
-     "titulo": "Un perro que huyó de la lluvia y se escondió en un lavadero es adoptado por la policía del DF",
-     "resumo": "Bacco fue hallado dentro de un auto en Candangolândia y ahora vive con el 25º Batallón de la Policía Militar del DF, donde se adapta.",
-     "regiao": "Candangolândia (DF)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Dog that fled a storm and hid in a car wash is adopted by Brasília's police",
-     "resumo": "Bacco was found inside a car in Candangolândia and now lives with the 25th Military Police Battalion, where he is settling in.",
-     "regiao": "Candangolândia (DF)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://i.metroimg.com/rUIlq0x1WjIV_9plPuieFzbT_LEZf58THlJbBmpWA18/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/bacco-pitbull-2.jpeg",
-   "credito": "Foto: Material cedido ao Metrópoles"
-  },
-  {
-   "id": "andre-volta-escola",
-   "titulo": "Depois de meses de recuperação, menino de 3 anos volta à escola sob festa dos colegas",
-   "resumo": "André Luiz teve um AVC após uma picada de escorpião em agosto. Hoje já fala frases completas, deu os primeiros passos sozinho e foi recebido pelos colegas em Igarassu.",
-   "categoria": "saude",
-   "regiao": "Igarassu (PE)",
-   "data": "2026-11-08",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7535195-menino-picado-por-escorpiao-volta-a-escola-apos-meses-de-recuperacao.html",
-   "pais": "Brasil",
-   "lat": -7.83,
-   "lon": -34.91,
-   "i18n": {
-    "es": {
-     "titulo": "Tras meses de recuperación, un niño de 3 años vuelve a la escuela entre aplausos",
-     "resumo": "André Luiz sufrió un ACV tras la picadura de un escorpión en agosto. Hoy ya dice frases completas, dio sus primeros pasos solo y sus compañeros lo recibieron en Igarassu.",
-     "regiao": "Igarassu (PE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "After months of recovery, a 3-year-old returns to school to cheers from classmates",
-     "resumo": "André Luiz had a stroke after a scorpion sting in August. He now speaks in full sentences, has taken his first steps unaided and was welcomed back by classmates in Igarassu.",
-     "regiao": "Igarassu (PE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/png/2026/11/08/675x450/1_andre-luiz-e-a-mae-leticia-souza-durante-recuperacao-do-menino-68173039.png",
-   "credito": "Foto: Reprodução/Instagram @lesouza03"
-  },
-  {
-   "id": "ufmg-vagas-trans",
-   "titulo": "UFMG abre 87 vagas extras de graduação para pessoas trans e travestis",
-   "resumo": "É a primeira seleção do tipo na universidade, com vagas em Belo Horizonte e Montes Claros para 2027. A inscrição é gratuita e vai até 11 de dezembro.",
-   "categoria": "sociedade",
-   "regiao": "Belo Horizonte (MG)",
-   "data": "2026-11-09",
-   "fonte": "UFMG",
-   "url": "https://www.ufmg.br/comunicacao/noticias/formas-de-ingresso/ufmg-recebe-inscricoes-para-a-primeira-selecao-de-pessoas-trans-e-travestis-na-graduacao/",
-   "pais": "Brasil",
-   "lat": -19.92,
-   "lon": -43.94,
-   "i18n": {
-    "es": {
-     "titulo": "La UFMG abre 87 plazas adicionales de grado para personas trans y travestis",
-     "resumo": "Es la primera selección de este tipo en la universidad, con plazas en Belo Horizonte y Montes Claros para 2027. La inscripción es gratuita y cierra el 11 de diciembre.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian university opens 87 extra degree places for trans people",
-     "resumo": "It is UFMG's first selection of its kind, with places in Belo Horizonte and Montes Claros for 2027. Registration is free and runs until December 11.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.ufmg.br//app/uploads/2026/06/cores-lgbt-2-1-864x445.png",
-   "credito": "Imagem: domínio público"
-  },
-  {
-   "id": "papai-noel-correios",
-   "titulo": "Mais de 100 mil cartinhas ao Papai Noel dos Correios já foram adotadas",
-   "resumo": "As cartas são de crianças em situação vulnerável e de escolas públicas. A meta é atender todos os pedidos; em 2025 foram 305 mil. Dá para adotar até 30 de novembro.",
-   "categoria": "sociedade",
-   "regiao": "Brasil",
-   "data": "2026-11-09",
-   "fonte": "Terra",
-   "url": "https://www.terra.com.br/noticias/papai-noel-dos-correios-campanha-ja-recebeu-mais-de-100-mil-cartinhas-em-todo-brasil-veja-como-enviar,dc710a65b29d8bb73de2e7cbc5d0c5cd5pccqsri.html",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "Ya se adoptaron más de 100.000 cartas a Papá Noel del correo brasileño",
-     "resumo": "Las cartas son de niños vulnerables y de escuelas públicas. La meta es atender todos los pedidos; en 2025 fueron 305.000. Se puede adoptar hasta el 30 de noviembre.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Over 100,000 children's letters to Santa adopted in Brazil's postal campaign",
-     "resumo": "The letters come from vulnerable children and public schools. The goal is to answer every one; 305,000 were answered in 2025. Adoptions run until November 30.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/09/1211970630-papai-noel-dos-correios.jpg",
-   "credito": "Foto: Reprodução/Portal de Prefeitura"
-  },
-  {
-   "id": "orquideas-kerala",
-   "titulo": "Mais de 27 mil orquídeas são salvas de obra numa estrada da Índia",
-   "resumo": "Pesquisadores tiraram as orquídeas de árvores que seriam derrubadas em Kerala e as replantaram. Depois de um a dois anos, cerca de 71% estavam vivas, e algumas já deram sementes.",
-   "categoria": "meio-ambiente",
-   "regiao": "Kerala",
-   "data": "2026-11-10",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/short-article/2026/11/tens-of-thousands-of-orchids-saved-from-road-development-in-southern-india/",
-   "pais": "Índia",
-   "lat": 10.85,
-   "lon": 76.27,
-   "i18n": {
-    "es": {
-     "titulo": "Más de 27.000 orquídeas se salvan de una obra vial en la India",
-     "resumo": "Investigadores retiraron las orquídeas de árboles que iban a ser talados en Kerala y las replantaron. Tras uno o dos años, cerca del 71% seguía viva y algunas ya dieron semillas.",
-     "regiao": "Kerala",
-     "pais": "India"
-    },
-    "en": {
-     "titulo": "More than 27,000 orchids saved from a road project in India",
-     "resumo": "Researchers moved the orchids from trees due to be felled in Kerala and replanted them. After one to two years about 71% were alive, and some have produced seeds.",
-     "regiao": "Kerala",
-     "pais": "India"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/10054543/Aerides-crispa.jpg",
-   "credito": "Foto: tspkumar/iNaturalist (CC BY-NC 4.0)"
-  },
-  {
-   "id": "robo-monta-espaco",
-   "titulo": "Robô monta sozinho uma estrutura em órbita pela primeira vez",
-   "resumo": "Na missão ASTRA, da Caltech, um robô autônomo encaixou módulos de uma treliça no espaço sem ajuda de astronautas, um passo para construir antenas e estações em órbita.",
-   "categoria": "tecnologia",
-   "regiao": "Órbita terrestre",
-   "data": "2026-11-09",
-   "fonte": "ScienceDaily / Caltech",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
-   "pais": "Espaço",
-   "i18n": {
-    "es": {
-     "titulo": "Un robot ensambla por sí solo una estructura en órbita por primera vez",
-     "resumo": "En la misión ASTRA, de Caltech, un robot autónomo encajó módulos de una estructura en el espacio sin astronautas, un paso para construir antenas y estaciones en órbita.",
-     "regiao": "Órbita terrestre",
-     "pais": "Espacio"
-    },
-    "en": {
-     "titulo": "A robot assembles a structure in orbit on its own for the first time",
-     "resumo": "In Caltech's ASTRA mission, an autonomous robot fitted truss modules together in space without astronauts, a step toward building antennas and stations in orbit.",
-     "regiao": "Earth orbit",
-     "pais": "Space"
-    }
-   },
-   "img": "https://www.sciencedaily.com/images/1920/darpa-nom4d-caltech-robotic-space-demo.webp",
-   "credito": "Ilustração: DARPA/Colie Wertz"
-  },
-  {
-   "id": "resina-coracao-3d",
-   "titulo": "Unicamp cria resina para imprimir em 3D peças do coração que não formam coágulos",
-   "resumo": "Testada num protótipo de coração artificial com menos de 4 cm, a resina não formou coágulos no laboratório, libera óxido nítrico e deixou células do vaso sanguíneo crescerem sobre ela. A equipe já tem patente.",
-   "categoria": "saude",
-   "regiao": "Campinas (SP)",
-   "data": "2026-11-09",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/nova-resina-para-impressao-3d-de-dispositivos-cardiovasculares-evita-formacao-de-coagulos/59569",
-   "pais": "Brasil",
-   "lat": -22.82,
-   "lon": -47.07,
-   "i18n": {
-    "es": {
-     "titulo": "Unicamp crea una resina para imprimir en 3D piezas del corazón que no forman coágulos",
-     "resumo": "Probada en un prototipo de corazón artificial de menos de 4 cm, la resina no formó coágulos en laboratorio, libera óxido nítrico y permitió que células de los vasos crecieran sobre ella. El equipo ya tiene patente.",
-     "regiao": "Campinas (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian university creates 3D-printing resin for heart devices that doesn't clot",
-     "resumo": "Tested on an artificial heart prototype under 4 cm, the Unicamp resin formed no clots in the lab, releases nitric oxide and let blood-vessel cells grow on it. The team has already patented it.",
-     "regiao": "Campinas (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agencia.fapesp.br/files/post/59569.jpg",
-   "credito": "Foto: Thalita Mydori Missano"
-  },
-  {
-   "id": "embrapa-banco-genetico",
-   "titulo": "Brasil guarda cópia de segurança de abacaxi e mandioca em cofre congelado no Peru",
-   "resumo": "A Embrapa depositou 14 parentes silvestres do abacaxi e 11 linhagens de mandioca num banco a -196 °C, em Lima, junto com Chile e Equador. É uma reserva para proteger essas plantas.",
-   "categoria": "ciencia",
-   "regiao": "Lima e Cruz das Almas (BA)",
-   "data": "2026-11-06",
-   "fonte": "Embrapa",
-   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/149739873/embrapa-faz-primeiro-deposito-de-amostras-da-biodiversidade-brasileira-em-banco-genetico-no-peru",
-   "pais": "Peru",
-   "lat": -12.05,
-   "lon": -77.04,
-   "i18n": {
-    "es": {
-     "titulo": "Brasil guarda una copia de seguridad de piña y yuca en una bóveda congelada en Perú",
-     "resumo": "Embrapa depositó 14 parientes silvestres de la piña y 11 líneas de yuca en un banco a -196 °C en Lima, junto con Chile y Ecuador. Es una reserva para proteger estas plantas.",
-     "regiao": "Lima y Cruz das Almas (BA)",
-     "pais": "Perú"
-    },
-    "en": {
-     "titulo": "Brazil stores a frozen backup of pineapple and cassava in a vault in Peru",
-     "resumo": "Embrapa deposited 14 wild pineapple relatives and 11 cassava lines in a -196 °C vault in Lima, alongside Chile and Ecuador, to safeguard these crops.",
-     "regiao": "Lima and Cruz das Almas (BA)",
-     "pais": "Peru"
-    }
-   },
-   "img": "https://www.embrapa.br/documents/10180/144908863/261106_portal_dep%C3%B3sito_Peru_capa+2.jpg/25436a9d-d959-678c-b6a7-be8294a5721d?t=1793997778177",
-   "credito": "Foto: Embrapa"
-  },
-  {
-   "id": "ubsi-wai-wai",
-   "titulo": "Povos Wai Wai, Arara e Tirió ganham unidade de saúde na própria terra, no Pará",
-   "resumo": "A nova unidade básica de saúde indígena fica na Terra Indígena Nhamundá-Mapuera, em Oriximiná, e vai atender cerca de 660 pessoas.",
-   "categoria": "saude",
-   "regiao": "Oriximiná (PA)",
-   "data": "2026-11-07",
-   "fonte": "Ministério da Saúde",
-   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/ministerio-da-saude-inaugura-unidade-de-saude-indigena-no-para",
-   "pais": "Brasil",
-   "lat": -1.77,
-   "lon": -55.87,
-   "i18n": {
-    "es": {
-     "titulo": "Los pueblos Wai Wai, Arara y Tirió reciben un centro de salud en su propia tierra, en Pará",
-     "resumo": "La nueva unidad básica de salud indígena está en la Tierra Indígena Nhamundá-Mapuera, en Oriximiná, y atenderá a unas 660 personas.",
-     "regiao": "Oriximiná (PA)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Wai Wai, Arara and Tirió peoples get a health clinic on their own land in the Amazon",
-     "resumo": "The new Indigenous primary care unit in the Nhamundá-Mapuera territory, in Oriximiná, Pará, will serve about 660 people.",
-     "regiao": "Oriximiná (PA)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/ministerio-da-saude-inaugura-unidade-de-saude-indigena-no-para/ubsi.jpg/@@images/2b4c08be-b3b2-442f-90f9-df56b71e9cec.jpeg",
-   "credito": "Foto: Divulgação/MS"
   }
  ]
 }
