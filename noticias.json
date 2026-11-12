@@ -1,6 +1,267 @@
 {
- "atualizado": "2026-11-11",
+ "atualizado": "2026-11-12",
  "noticias": [
+  {
+   "id": "bugios-novas-especies",
+   "titulo": "Ciência descreve duas novas espécies de bugio na Amazônia brasileira",
+   "resumo": "Com mais de 2 terabytes de dados genéticos, pesquisadores identificaram o Alouatta matogrossensis, no sul da Amazônia, e o Alouatta iroi, no noroeste. Em Alta Floresta (MT), uma ponte de dossel já é usada por fêmeas com filhotes.",
+   "categoria": "animais",
+   "regiao": "Amazônia (MT e AM)",
+   "data": "2026-11-11",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/short-article/2026/11/genetic-study-describes-two-new-species-of-amazonian-howler-monkeys/",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -9.87,
+   "lon": -56.09,
+   "i18n": {
+    "es": {
+     "titulo": "La ciencia describe dos nuevas especies de mono aullador en la Amazonía brasileña",
+     "resumo": "Con más de 2 terabytes de datos genéticos, investigadores identificaron Alouatta matogrossensis, en el sur de la Amazonía, y Alouatta iroi, en el noroeste. En Alta Floresta (MT), un puente de dosel ya es usado por hembras con crías.",
+     "regiao": "Amazonía (MT y AM)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Scientists describe two new howler monkey species in the Brazilian Amazon",
+     "resumo": "Using over 2 terabytes of genetic data, researchers named Alouatta matogrossensis in the southern Amazon and Alouatta iroi in the northwest. In Alta Floresta, a canopy bridge is already used by mothers with babies.",
+     "regiao": "Amazon (Mato Grosso and Amazonas)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/11172447/bugio-ruivo4-1200x800.jpg",
+   "credito": "Foto: Kakau Oliveira"
+  },
+  {
+   "id": "coral-gigante-cocos",
+   "titulo": "Colônia de coral de 1,5 km cresce saudável numa ilha remota da Austrália",
+   "resumo": "Pesquisadores mapearam, em 12 mergulhos, uma colônia de coral-rosa de 1,56 km nas Ilhas Cocos, uma das maiores já registradas. Recifes profundos assim podem servir de refúgio para corais afetados pelo branqueamento.",
+   "categoria": "meio-ambiente",
+   "regiao": "Ilhas Cocos (Keeling)",
+   "data": "2026-11-11",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-11/massive-coral-colony-found-off-the-cocos-keeling-islands/107367586",
+   "pais": "Austrália",
+   "destaque": true,
+   "lat": -12.19,
+   "lon": 96.83,
+   "i18n": {
+    "es": {
+     "titulo": "Una colonia de coral de 1,5 km crece sana en una isla remota de Australia",
+     "resumo": "En 12 inmersiones, investigadores mapearon una colonia de coral rosa de 1,56 km en las islas Cocos, una de las mayores registradas. Arrecifes profundos así pueden ser refugio para corales afectados por el blanqueamiento.",
+     "regiao": "Islas Cocos (Keeling)",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "A 1.5 km coral colony is thriving off a remote Australian island",
+     "resumo": "Over 12 dives, researchers mapped a 1.56 km rose coral colony off the Cocos Islands, one of the largest ever recorded. Deep reefs like this may shelter corals hit by bleaching.",
+     "regiao": "Cocos (Keeling) Islands",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/14b19783e878db6a9d53ab2f0bd5ee57?impolicy=wcms_watermark_news&cropH=1329&cropW=2362&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "Foto: Justin Gilligan"
+  },
+  {
+   "id": "exercicio-depressao",
+   "titulo": "Fazer exercício antes da terapia ajuda o cérebro de quem tem depressão",
+   "resumo": "Em estudo com pesquisadora da USP, 12 semanas de atividade física antes da terapia cognitivo-comportamental melhoraram o condicionamento e os ganhos de memória e aprendizado durante o tratamento.",
+   "categoria": "saude",
+   "regiao": "Berlim",
+   "data": "2026-11-11",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/index.php/atividade-fisica-prepara-o-cerebro-de-pacientes-com-depressao-para-a-psicoterapia/59590",
+   "pais": "Alemanha",
+   "lat": 52.52,
+   "lon": 13.4,
+   "i18n": {
+    "es": {
+     "titulo": "Hacer ejercicio antes de la terapia ayuda al cerebro de quien tiene depresión",
+     "resumo": "En un estudio con una investigadora de la USP, 12 semanas de actividad física antes de la terapia cognitivo-conductual mejoraron la forma física y los avances de memoria y aprendizaje durante el tratamiento.",
+     "regiao": "Berlín",
+     "pais": "Alemania"
+    },
+    "en": {
+     "titulo": "Exercising before therapy helps the brain in depression",
+     "resumo": "In a trial involving a University of São Paulo researcher, 12 weeks of exercise before CBT improved fitness and memory and learning gains during therapy.",
+     "regiao": "Berlin",
+     "pais": "Germany"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59590.jpeg",
+   "credito": "Foto: Shutterstock"
+  },
+  {
+   "id": "caozinho-spaike",
+   "titulo": "Cãozinho sobe na maca do Samu para não deixar o tutor sozinho",
+   "resumo": "Quando o dono, de 59 anos, caiu da cadeira de rodas em Ceilândia, Spaike subiu na maca e ficou ao lado dele durante todo o atendimento.",
+   "categoria": "animais",
+   "regiao": "Ceilândia (DF)",
+   "data": "2026-11-11",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/distrito-federal/caozinho-spaike-nao-abandona-tutor-e-sobe-em-maca-do-samu-durante-socorro",
+   "pais": "Brasil",
+   "lat": -15.82,
+   "lon": -48.11,
+   "i18n": {
+    "es": {
+     "titulo": "Un perrito sube a la camilla de la ambulancia para no dejar solo a su dueño",
+     "resumo": "Cuando su dueño, de 59 años, se cayó de la silla de ruedas en Ceilândia, Spaike subió a la camilla y lo acompañó durante toda la atención.",
+     "regiao": "Ceilândia (DF)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Little dog climbs onto the ambulance stretcher to stay with his owner",
+     "resumo": "When his 59-year-old owner fell from his wheelchair in Ceilândia, Spaike jumped onto the stretcher and stayed by his side throughout.",
+     "regiao": "Ceilândia (DF)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://i.metroimg.com/JuzzkwJpfUbggix5n3WvGvdb9eHiRi0e8F4OoETXYtE/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/caoacompanhatutorambulanciaceilandiasamu.jpg",
+   "credito": "Foto: Divulgação/Samu-DF"
+  },
+  {
+   "id": "tuberculose-usp",
+   "titulo": "Cientistas da USP acham novo ponto de ataque contra a bactéria da tuberculose",
+   "resumo": "Entre 600 moléculas testadas, 5 mostraram potencial de bloquear uma enzima da bactéria, e uma delas se liga a um local nunca explorado. É uma etapa inicial, mas abre caminho para novos remédios.",
+   "categoria": "ciencia",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-10",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/ciencias/ciencias-ft-cientistas-buscam-novos-caminhos-para-atacar-bacteria-causadora-da-tuberculose/",
+   "pais": "Brasil",
+   "lat": -23.56,
+   "lon": -46.73,
+   "i18n": {
+    "es": {
+     "titulo": "Científicos de la USP encuentran un nuevo punto de ataque contra la bacteria de la tuberculosis",
+     "resumo": "De 600 moléculas probadas, 5 mostraron potencial para bloquear una enzima de la bacteria, y una se une a un sitio nunca explorado. Es una etapa inicial, pero abre camino a nuevos fármacos.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian scientists find a new weak spot in the tuberculosis bacterium",
+     "resumo": "Of 600 molecules screened, 5 showed potential to block a key bacterial enzyme, and one binds a never-explored site. It's early-stage, but opens a path to new drugs.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261110_notebook.jpg",
+   "credito": "Foto: Nicolas Rossini/LBEA"
+  },
+  {
+   "id": "luz-para-todos-23",
+   "titulo": "Luz para Todos completa 23 anos levando energia a 3,8 milhões de famílias",
+   "resumo": "Desde 2023, cerca de 950 mil pessoas ganharam energia elétrica, 400 mil delas em áreas remotas da Amazônia.",
+   "categoria": "sociedade",
+   "regiao": "Brasil",
+   "data": "2026-11-11",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/luz-para-todos-completa-23-anos-com-18-milhoes-de-brasileiros-beneficiados",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "Luz para Todos cumple 23 años llevando electricidad a 3,8 millones de familias",
+     "resumo": "Desde 2023, unas 950.000 personas recibieron electricidad, 400.000 de ellas en zonas remotas de la Amazonía.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil's Light for All programme turns 23, having powered 3.8 million families",
+     "resumo": "Since 2023 about 950,000 people have gained electricity, 400,000 of them in remote parts of the Amazon.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/luz-para-todos-2.png/@@images/bf33a7e7-f284-4c6a-a080-1a9daf368004.png",
+   "credito": "Imagem: Divulgação"
+  },
+  {
+   "id": "diabo-tasmania-teste",
+   "titulo": "Teste rápido ajuda a salvar o diabo-da-tasmânia de um câncer contagioso",
+   "resumo": "Pesquisadores da Universidade da Tasmânia criaram um teste portátil com cotonete na boca que detecta a doença no próprio campo, em vez de esperar dias pelo laboratório.",
+   "categoria": "ciencia",
+   "regiao": "Tasmânia",
+   "data": "2026-11-12",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-12/new-early-detection-test-for-devil-facial-tumour-disease/107371830",
+   "pais": "Austrália",
+   "lat": -42.0,
+   "lon": 146.6,
+   "i18n": {
+    "es": {
+     "titulo": "Una prueba rápida ayuda a salvar al demonio de Tasmania de un cáncer contagioso",
+     "resumo": "Investigadores de la Universidad de Tasmania crearon una prueba portátil con hisopo bucal que detecta la enfermedad en el campo, en lugar de esperar días por el laboratorio.",
+     "regiao": "Tasmania",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Quick field test could help save Tasmanian devils from contagious cancer",
+     "resumo": "University of Tasmania researchers built a portable mouth-swab test that detects the disease in the field instead of waiting days for lab results.",
+     "regiao": "Tasmania",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/493959f275c13923ee78d696ffba4d96?impolicy=wcms_crop_resize&cropH=2800&cropW=4200&xPos=0&yPos=0&width=862&height=575",
+   "credito": "Foto: UTAS/Peter W Allen"
+  },
+  {
+   "id": "chimpanze-drone",
+   "titulo": "Drone leva banana para chimpanzé ilhado em santuário alagado",
+   "resumo": "Kaleb, de 38 anos, ficou isolado pela água num santuário na Flórida, e a equipe usou um drone para levar comida até ele.",
+   "categoria": "animais",
+   "regiao": "Flórida",
+   "data": "2026-11-11",
+   "fonte": "BBC News Brasil (via Terra)",
+   "url": "https://www.terra.com.br/noticias/videos/drone-entrega-banana-para-chimpanze-isolado-por-alagamento,50e6738e8981caceca57275a0f3a17fdg85bh9tq.html",
+   "pais": "Estados Unidos",
+   "lat": 27.99,
+   "lon": -81.76,
+   "i18n": {
+    "es": {
+     "titulo": "Un dron lleva una banana a un chimpancé aislado en un santuario inundado",
+     "resumo": "Kaleb, de 38 años, quedó aislado por el agua en un santuario de Florida, y el equipo usó un dron para llevarle comida.",
+     "regiao": "Florida",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Drone delivers a banana to a chimp stranded in a flooded sanctuary",
+     "resumo": "Kaleb, 38, was cut off by floodwater at a Florida sanctuary, so staff used a drone to get food to him.",
+     "regiao": "Florida",
+     "pais": "USA"
+    }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/950/534/images.terra.com/2026/11/11/190162272-p0pmhxyd.jpg",
+   "credito": "Imagem: BBC News Brasil"
+  },
+  {
+   "id": "cranios-repatriados",
+   "titulo": "Restos de dois escravizados levados aos EUA no século 19 voltam ao Brasil",
+   "resumo": "Os crânios estavam no Museu Peabody, de Harvard. Um veio do Cais do Valongo, no Rio; o outro, de um participante da Revolta dos Malês, em Salvador. Ficarão sob guarda da UFRJ e da UFBA.",
+   "categoria": "sociedade",
+   "regiao": "Rio de Janeiro e Salvador",
+   "data": "2026-11-11",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7536927-brasil-repatria-dois-cranios-de-escravizados-retirados-do-pais-no-seculo-19.html",
+   "pais": "Brasil",
+   "lat": -12.97,
+   "lon": -38.5,
+   "i18n": {
+    "es": {
+     "titulo": "Los restos de dos esclavizados llevados a EE. UU. en el siglo XIX vuelven a Brasil",
+     "resumo": "Los cráneos estaban en el Museo Peabody de Harvard. Uno vino del Cais do Valongo, en Río; el otro, de un participante de la Revuelta de los Malês, en Salvador. Quedarán bajo custodia de la UFRJ y la UFBA.",
+     "regiao": "Río de Janeiro y Salvador",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Remains of two enslaved people taken to the US in the 1800s return to Brazil",
+     "resumo": "The skulls were held at Harvard's Peabody Museum. One came from Rio's Valongo Wharf, the other from a participant in Salvador's 1835 Malê Revolt. Federal universities will care for them.",
+     "regiao": "Rio de Janeiro and Salvador",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/11/675x450/1_6fd61ba9-5ca2-4f69-aeac-a6a947b051e1-68200510.jpeg",
+   "credito": "Foto: Ludmila Duarte/MDHC"
+  },
   {
    "id": "escolas-hortas-sp",
    "titulo": "Escolas da periferia de SP transformam terrenos com entulho em hortas e agroflorestas",
@@ -11,7 +272,6 @@
    "fonte": "Jornal da USP",
    "url": "https://jornal.usp.br/diversidade/do-entulho-a-agrofloresta-pesquisa-da-usp-mostra-como-escolas-da-periferia-de-sp-transformaram-terrenos-baldios-em-hortas/",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -23.55,
    "lon": -46.63,
    "i18n": {
@@ -30,152 +290,6 @@
    },
    "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261109_entulho3.jpg",
    "credito": "Foto: Arquivo da escola"
-  },
-  {
-   "id": "vacina-melanoma",
-   "titulo": "Vacina sob medida reduz em 42% o risco de o melanoma voltar",
-   "resumo": "Em estudo de fase 3, a vacina de mRNA personalizada, junto com imunoterapia, cortou em 42% o risco de retorno do câncer ou morte em dois anos. Ainda faltam acompanhamento mais longo e aprovação.",
-   "categoria": "saude",
-   "regiao": "Madri (congresso ESMO)",
-   "data": "2026-11-10",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/ciencia-e-saude/2026/11/7536020-vacina-sob-medida-reduz-em-42-risco-de-retorno-do-cancer-de-pele.html",
-   "pais": "Espanha",
-   "lat": 40.42,
-   "lon": -3.7,
-   "i18n": {
-    "es": {
-     "titulo": "Una vacuna a medida reduce un 42% el riesgo de que el melanoma vuelva",
-     "resumo": "En un estudio de fase 3, la vacuna de ARNm personalizada, junto con inmunoterapia, redujo un 42% el riesgo de recaída o muerte en dos años. Aún falta seguimiento más largo y aprobación.",
-     "regiao": "Madrid (congreso ESMO)",
-     "pais": "España"
-    },
-    "en": {
-     "titulo": "Personalised vaccine cuts melanoma's return risk by 42%",
-     "resumo": "In a phase 3 trial, a personalised mRNA vaccine given with immunotherapy cut the risk of relapse or death by 42% over two years. Longer follow-up and approval are still needed.",
-     "regiao": "Madrid (ESMO congress)",
-     "pais": "Spain"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/10/30/675x450/1_vacinax-68113748.jpg",
-   "credito": "Imagem: Reprodução/Freepik"
-  },
-  {
-   "id": "guardioes-sementes",
-   "titulo": "Guardiões de sementes protegem variedades tradicionais na Chapada dos Veadeiros",
-   "resumo": "A Embrapa está fortalecendo a rede de agricultores que guardam e trocam sementes crioulas na região, ajudando a manter vivas variedades locais.",
-   "categoria": "ciencia",
-   "regiao": "Chapada dos Veadeiros (GO)",
-   "data": "2026-11-10",
-   "fonte": "Embrapa",
-   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/149882266/embrapa-fortalece-rede-de-guardioes-de-sementes-na-chapada-dos-veadeiros",
-   "pais": "Brasil",
-   "lat": -14.13,
-   "lon": -47.51,
-   "i18n": {
-    "es": {
-     "titulo": "Guardianes de semillas protegen variedades tradicionales en la Chapada dos Veadeiros",
-     "resumo": "Embrapa fortalece la red de agricultores que guardan e intercambian semillas criollas en la región, ayudando a mantener vivas las variedades locales.",
-     "regiao": "Chapada dos Veadeiros (GO)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Seed guardians protect traditional crops in Brazil's Chapada dos Veadeiros",
-     "resumo": "Embrapa is strengthening a network of farmers who keep and swap heirloom seeds in the region, helping local crop varieties survive.",
-     "regiao": "Chapada dos Veadeiros (GO)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.embrapa.br/image/journal/article?img_id=149881469",
-   "credito": "Foto: Embrapa"
-  },
-  {
-   "id": "raia-grecia",
-   "titulo": "Raia recém-nascida dá os primeiros mergulhos e volta ao mar na Grécia",
-   "resumo": "O filhote foi cuidado até ganhar força e então devolvido à natureza no Golfo Termaico, ganhando uma segunda chance de sobreviver.",
-   "categoria": "animais",
-   "regiao": "Golfo Termaico",
-   "data": "2026-11-10",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/video/2026/11/10/second-chance-of-survival-newborn-stingray-takes-first-swim-before-being-released-back-int",
-   "pais": "Grécia",
-   "destaque": true,
-   "lat": 40.4,
-   "lon": 22.8,
-   "i18n": {
-    "es": {
-     "titulo": "Una raya recién nacida da sus primeros nados y vuelve al mar en Grecia",
-     "resumo": "La cría fue cuidada hasta ganar fuerza y luego devuelta a la naturaleza en el golfo Termaico, con una segunda oportunidad de sobrevivir.",
-     "regiao": "Golfo Termaico",
-     "pais": "Grecia"
-    },
-    "en": {
-     "titulo": "Newborn stingray takes its first swim and returns to the sea in Greece",
-     "resumo": "The pup was cared for until it was strong enough, then released into the Thermaic Gulf with a second chance at survival.",
-     "regiao": "Thermaic Gulf",
-     "pais": "Greece"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/89/77/01/1200x675_cmsv2_0a3adadf-c8dd-5206-ab91-8622cba51dc5-9897701.jpg",
-   "credito": "Foto: Euronews"
-  },
-  {
-   "id": "ripeye-praias",
-   "titulo": "Inteligência artificial ajuda a achar correntes perigosas em praias da Austrália",
-   "resumo": "A ferramenta RipEye, criada pela Universidade de Nova Gales do Sul, está sendo testada nas praias para identificar correntes de retorno e proteger banhistas.",
-   "categoria": "tecnologia",
-   "regiao": "Nova Gales do Sul",
-   "data": "2026-11-11",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-11/rip-detecting-ai-tool-being-trialled-nsw-beaches/107368710",
-   "pais": "Austrália",
-   "lat": -33.87,
-   "lon": 151.21,
-   "i18n": {
-    "es": {
-     "titulo": "Inteligencia artificial ayuda a detectar corrientes peligrosas en playas de Australia",
-     "resumo": "La herramienta RipEye, creada por la Universidad de Nueva Gales del Sur, se prueba en playas para identificar corrientes de resaca y proteger a los bañistas.",
-     "regiao": "Nueva Gales del Sur",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "AI helps spot dangerous rip currents on Australian beaches",
-     "resumo": "RipEye, a tool built by UNSW, is being trialled on New South Wales beaches to detect rip currents and keep swimmers safe.",
-     "regiao": "New South Wales",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/2d8a795fae5727cd07b3e8db6fd6c291",
-   "credito": "Foto: ABC News/Declan Bowring"
-  },
-  {
-   "id": "veterano-medalhas",
-   "titulo": "Veterano recebe suas medalhas com 80 anos de atraso",
-   "resumo": "Ian Hart finalmente foi homenageado numa cerimônia em Tamborine Mountain, na Austrália, oito décadas depois do serviço.",
-   "categoria": "sociedade",
-   "regiao": "Tamborine Mountain (Queensland)",
-   "data": "2026-11-11",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-11/qld-veteran-ian-hart-medals-80-years-late/107352094",
-   "pais": "Austrália",
-   "lat": -27.93,
-   "lon": 153.19,
-   "i18n": {
-    "es": {
-     "titulo": "Un veterano recibe sus medallas con 80 años de retraso",
-     "resumo": "Ian Hart fue finalmente homenajeado en una ceremonia en Tamborine Mountain, Australia, ocho décadas después de su servicio.",
-     "regiao": "Tamborine Mountain (Queensland)",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Veteran receives his medals 80 years late",
-     "resumo": "Ian Hart was finally honoured at a ceremony in Tamborine Mountain, Queensland, eight decades after his service.",
-     "regiao": "Tamborine Mountain (Queensland)",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/a73c335a7b37abf4c7f80784b960bbda",
-   "credito": "Foto: ABC Gold Coast/Emily Dobson"
   },
   {
    "id": "irrigacao-solar-bangladesh",
@@ -207,120 +321,33 @@
    "credito": "Foto: BRAC International"
   },
   {
-   "id": "bailarina-mare",
-   "titulo": "Bailarina de 12 anos da Maré ganha bolsa para estudar balé nos EUA",
-   "resumo": "Fernanda Rosa conquistou uma bolsa integral na Oklahoma Ballet School depois de se apresentar no YAGP Brasil. Ela treina no projeto ViDançar, que atende mais de 400 pessoas na Maré.",
-   "categoria": "sociedade",
-   "regiao": "Complexo da Maré, Rio de Janeiro (RJ)",
-   "data": "2026-11-08",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7535180-bailarina-de-12-anos-da-mare-conquista-bolsa-para-estudar-bale-nos-eua.html",
-   "pais": "Brasil",
-   "lat": -22.86,
-   "lon": -43.24,
-   "i18n": {
-    "es": {
-     "titulo": "Bailarina de 12 años de la Maré gana una beca para estudiar ballet en EE. UU.",
-     "resumo": "Fernanda Rosa obtuvo una beca completa en la Oklahoma Ballet School tras presentarse en el YAGP Brasil. Entrena en el proyecto ViDançar, que atiende a más de 400 personas en la Maré.",
-     "regiao": "Complexo da Maré, Rio de Janeiro (RJ)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "12-year-old ballerina from a Rio favela wins a scholarship to dance in the US",
-     "resumo": "Fernanda Rosa won a full scholarship to the Oklahoma Ballet School after performing at YAGP Brazil. She trains at ViDançar, a project serving over 400 people in the Maré favelas.",
-     "regiao": "Complexo da Maré, Rio de Janeiro (RJ)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/08/675x450/1_76b84e49343044b4a319e1d7b68330fd-68172475.jpg",
-   "credito": "Foto: Divulgação"
-  },
-  {
-   "id": "elefante-julie",
-   "titulo": "Última elefante de circo de Portugal ganha vida nova num santuário",
-   "resumo": "Julie, capturada na África há 40 anos, trocou o picadeiro por 400 hectares no Alentejo. Em pouco mais de três meses no santuário Pangea, ela ganhou cerca de 100 kg.",
-   "categoria": "animais",
-   "regiao": "Alentejo",
-   "data": "2026-11-10",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/10/portugals-last-circus-elephant-adapts-to-life-in-new-sanctuary-gaining-100kg",
-   "pais": "Portugal",
-   "lat": 38.57,
-   "lon": -7.91,
-   "i18n": {
-    "es": {
-     "titulo": "La última elefanta de circo de Portugal empieza una nueva vida en un santuario",
-     "resumo": "Julie, capturada en África hace 40 años, cambió la pista por 400 hectáreas en el Alentejo. En poco más de tres meses en el santuario Pangea, ganó unos 100 kg.",
-     "regiao": "Alentejo",
-     "pais": "Portugal"
-    },
-    "en": {
-     "titulo": "Portugal's last circus elephant starts a new life in a sanctuary",
-     "resumo": "Julie, captured in Africa 40 years ago, swapped the ring for 400 hectares in the Alentejo. In just over three months at the Pangea sanctuary she has gained about 100 kg.",
-     "regiao": "Alentejo",
-     "pais": "Portugal"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/97/39/64/1200x675_cmsv2_05c99a7f-12ca-5975-b789-81e0686a4429-9973964.jpg",
-   "credito": "Foto: Facebook/Pangea Elephant Sanctuary"
-  },
-  {
-   "id": "chorume-fertilizante",
-   "titulo": "Unicamp transforma chorume de aterro em adubo que funciona tão bem quanto o comercial",
-   "resumo": "Pesquisadores extraíram minerais ricos em potássio, nitrogênio e fósforo do chorume de um aterro de Campinas. Em testes com alface, o adubo rendeu igual ou melhor que o NPK, sem metais pesados detectáveis.",
-   "categoria": "ciencia",
-   "regiao": "Campinas (SP)",
-   "data": "2026-11-10",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/pesquisa-transforma-chorume-em-fertilizante-seguro-para-a-agricultura/59577",
-   "pais": "Brasil",
-   "lat": -22.82,
-   "lon": -47.07,
-   "i18n": {
-    "es": {
-     "titulo": "Unicamp convierte lixiviado de vertedero en abono tan eficaz como el comercial",
-     "resumo": "Investigadores extrajeron minerales ricos en potasio, nitrógeno y fósforo del lixiviado de un vertedero de Campinas. En pruebas con lechuga, el abono rindió igual o mejor que el NPK, sin metales pesados detectables.",
-     "regiao": "Campinas (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian scientists turn landfill leachate into fertiliser as good as the commercial kind",
-     "resumo": "Unicamp researchers recovered potassium, nitrogen and phosphorus-rich minerals from a Campinas landfill. In lettuce trials the fertiliser matched or beat commercial NPK, with no detectable heavy metals.",
-     "regiao": "Campinas (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agencia.fapesp.br/files/post/59577.jpg",
-   "credito": "Foto: Jerusa Schneider"
-  },
-  {
-   "id": "cohousing-mulheres",
-   "titulo": "Mulheres acima de 55 anos ganham moradia compartilhada pioneira na Austrália",
-   "resumo": "Cinco mulheres se mudaram para um projeto da ONG Sharing with Friends: cada uma tem seu estúdio e divide áreas comuns. O projeto, feito com doações, levou sete anos.",
-   "categoria": "sociedade",
-   "regiao": "Darra, Brisbane",
-   "data": "2026-11-09",
+   "id": "ripeye-praias",
+   "titulo": "Inteligência artificial ajuda a achar correntes perigosas em praias da Austrália",
+   "resumo": "A ferramenta RipEye, criada pela Universidade de Nova Gales do Sul, está sendo testada nas praias para identificar correntes de retorno e proteger banhistas.",
+   "categoria": "tecnologia",
+   "regiao": "Nova Gales do Sul",
+   "data": "2026-11-11",
    "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-09/queensland-sharing-friends-women-co-housing-project/107337800",
+   "url": "https://www.abc.net.au/news/2026-11-11/rip-detecting-ai-tool-being-trialled-nsw-beaches/107368710",
    "pais": "Austrália",
-   "lat": -27.57,
-   "lon": 152.95,
+   "lat": -33.87,
+   "lon": 151.21,
    "i18n": {
     "es": {
-     "titulo": "Mujeres mayores de 55 estrenan una vivienda compartida pionera en Australia",
-     "resumo": "Cinco mujeres se mudaron a un proyecto de la ONG Sharing with Friends: cada una tiene su estudio y comparten áreas comunes. Financiado con donaciones, tardó siete años.",
-     "regiao": "Darra, Brisbane",
+     "titulo": "Inteligencia artificial ayuda a detectar corrientes peligrosas en playas de Australia",
+     "resumo": "La herramienta RipEye, creada por la Universidad de Nueva Gales del Sur, se prueba en playas para identificar corrientes de resaca y proteger a los bañistas.",
+     "regiao": "Nueva Gales del Sur",
      "pais": "Australia"
     },
     "en": {
-     "titulo": "Women over 55 move into a pioneering shared-housing project in Australia",
-     "resumo": "Five women moved into a Sharing with Friends development, each with her own studio plus shared spaces. Built with philanthropy, it took seven years.",
-     "regiao": "Darra, Brisbane",
+     "titulo": "AI helps spot dangerous rip currents on Australian beaches",
+     "resumo": "RipEye, a tool built by UNSW, is being trialled on New South Wales beaches to detect rip currents and keep swimmers safe.",
+     "regiao": "New South Wales",
      "pais": "Australia"
     }
    },
-   "img": "https://live-production.wcms.abc-cdn.net.au/41849d33ed9ffbfb6decd7aeb0cfbf1a?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
-   "credito": "Foto: ABC News/Meghan Dansie"
+   "img": "https://live-production.wcms.abc-cdn.net.au/2d8a795fae5727cd07b3e8db6fd6c291",
+   "credito": "Foto: ABC News/Declan Bowring"
   }
  ]
 }
