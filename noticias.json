@@ -1,6 +1,323 @@
 {
- "atualizado": "2026-11-12",
+ "atualizado": "2026-11-13",
  "noticias": [
+  {
+   "id": "william-resgatado",
+   "titulo": "Adolescente perdido há seis dias na mata é encontrado vivo na Austrália",
+   "resumo": "William, de 17 anos, sumiu na primeira viagem de acampamento sozinho. Depois de uma busca com centenas de pessoas, um helicóptero da polícia o achou dormindo num leito de rio seco. Ele está bem e reencontrou a mãe.",
+   "categoria": "sociedade",
+   "regiao": "Gippsland (Victoria)",
+   "data": "2026-11-12",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-12/missing-teenager-william-found-gippsland-bush/107372518",
+   "pais": "Austrália",
+   "destaque": true,
+   "lat": -37.94,
+   "lon": 146.45,
+   "i18n": {
+    "es": {
+     "titulo": "Encuentran con vida a un adolescente perdido seis días en el monte australiano",
+     "resumo": "William, de 17 años, desapareció en su primer campamento solo. Tras una búsqueda con cientos de personas, un helicóptero policial lo halló dormido en un cauce seco. Está bien y se reencontró con su madre.",
+     "regiao": "Gippsland (Victoria)",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Teenager lost in the bush for six days found alive in Australia",
+     "resumo": "William, 17, went missing on his first solo camping trip. After a search involving hundreds of people, a police helicopter spotted him asleep in a dry riverbed. He is well and back with his mum.",
+     "regiao": "Gippsland (Victoria)",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/b10e92a48e8b9a3d31dc7be27f7fc6fd?impolicy=wcms_watermark_news&cropH=689&cropW=1225&xPos=373&yPos=220&width=862&height=485&imformat=generic",
+   "credito": "Imagem: ABC News"
+  },
+  {
+   "id": "avc-pressao-optimal",
+   "titulo": "Estudo brasileiro mostra como evitar um novo AVC: controlar mais a pressão",
+   "resumo": "A pesquisa Optimal-Stroke acompanhou 4.368 pessoas por quatro anos em 30 centros do país. Manter a pressão máxima abaixo de 12 (120 mmHg) reduziu novos AVCs de 6,4% para 4,7%. O resultado saiu no New England Journal of Medicine.",
+   "categoria": "saude",
+   "regiao": "Brasil (30 centros)",
+   "data": "2026-11-11",
+   "fonte": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/pesquisa-apoiada-pelo-ministerio-da-saude-aponta-reducao-de-eventos-cardiovasculares-apos-avc-isquemico-com-controle-intensivo-da-pressao-arterial",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -15.79,
+   "lon": -47.88,
+   "i18n": {
+    "es": {
+     "titulo": "Un estudio brasileño muestra cómo evitar un nuevo ACV: controlar más la presión",
+     "resumo": "El estudio Optimal-Stroke siguió a 4.368 personas durante cuatro años en 30 centros del país. Mantener la presión sistólica por debajo de 120 mmHg redujo los nuevos ACV del 6,4% al 4,7%. Se publicó en el New England Journal of Medicine.",
+     "regiao": "Brasil (30 centros)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian trial shows tighter blood pressure control prevents repeat strokes",
+     "resumo": "The Optimal-Stroke trial followed 4,368 people for four years at 30 centres. Keeping systolic pressure under 120 cut new strokes from 6.4% to 4.7%. It was published in the New England Journal of Medicine.",
+     "regiao": "Brazil (30 centres)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/pesquisa-apoiada-pelo-ministerio-da-saude-aponta-reducao-de-eventos-cardiovasculares-apos-avc-isquemico-com-controle-intensivo-da-pressao-arterial/foto-pesquisa-clinica-internet-1.jpg/@@images/c037802c-6b2b-4666-b3a6-d493d39780a3.jpeg",
+   "credito": "Foto: reprodução/Ministério da Saúde"
+  },
+  {
+   "id": "manguezais-voltam",
+   "titulo": "Manguezais voltam a crescer no mundo depois de décadas de perda",
+   "resumo": "Imagens de satélite de 1984 a 2023 mostram que, após perder 3 mil km² até 2010, os manguezais ganharam quase 2 mil km² desde então. Um terço veio de restauração; em Mianmar, a área já cresceu 10%.",
+   "categoria": "meio-ambiente",
+   "regiao": "Mundo (ex.: Mianmar)",
+   "data": "2026-11-13",
+   "fonte": "NASA Earth Observatory",
+   "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+   "pais": "Global",
+   "lat": 12.44,
+   "lon": 98.6,
+   "i18n": {
+    "es": {
+     "titulo": "Los manglares vuelven a crecer en el mundo tras décadas de pérdida",
+     "resumo": "Imágenes satelitales de 1984 a 2023 muestran que, tras perder 3.000 km² hasta 2010, los manglares ganaron casi 2.000 km² desde entonces. Un tercio vino de la restauración; en Myanmar, el área ya creció un 10%.",
+     "regiao": "Mundo (ej.: Myanmar)",
+     "pais": "Global"
+    },
+    "en": {
+     "titulo": "Mangroves are growing back worldwide after decades of loss",
+     "resumo": "Satellite images from 1984 to 2023 show that after losing 3,000 km² by 2010, mangroves have gained almost 2,000 km² since. A third came from restoration; Myanmar's have grown 10%.",
+     "regiao": "Worldwide (e.g. Myanmar)",
+     "pais": "Global"
+    }
+   },
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credito": "Imagem: NASA Earth Observatory/Michala Garrison"
+  },
+  {
+   "id": "emissoes-caem-27",
+   "titulo": "Brasil corta 27% das emissões de gases de efeito estufa em dois anos",
+   "resumo": "Segundo o inventário nacional, as emissões líquidas caíram de 2,07 para 1,51 bilhão de toneladas entre 2022 e 2024, principalmente pela queda do desmatamento.",
+   "categoria": "meio-ambiente",
+   "regiao": "Brasil",
+   "data": "2026-11-11",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/brasil-reduz-em-27-as-emissoes-de-gases-de-efeito-estufa-entre-2022-e-2024",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "Brasil recorta un 27% sus emisiones de gases de efecto invernadero en dos años",
+     "resumo": "Según el inventario nacional, las emisiones netas bajaron de 2,07 a 1,51 mil millones de toneladas entre 2022 y 2024, sobre todo por la caída de la deforestación.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil cuts greenhouse gas emissions by 27% in two years",
+     "resumo": "The national inventory shows net emissions fell from 2.07 to 1.51 billion tonnes between 2022 and 2024, mainly thanks to lower deforestation.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/brasil-reduz-em-27-as-emissoes-de-gases-de-efeito-estufa-entre-2022-e-2024/@@download/image/floresta.webp",
+   "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil"
+  },
+  {
+   "id": "erva-bruxa-erradicada",
+   "titulo": "Plantação falsa engana praga e Austrália está perto de erradicá-la",
+   "resumo": "Para acabar com a erva-de-bruxa-vermelha, cientistas plantam soja que faz as sementes da praga brotarem sem ter onde se agarrar. A área afetada caiu de 110 para 4,3 hectares em 11 anos.",
+   "categoria": "ciencia",
+   "regiao": "Mackay (Queensland)",
+   "data": "2026-11-13",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/rural/2026-11-13/false-crops-trick-weed-into-killing-itself/107366184",
+   "pais": "Austrália",
+   "lat": -21.1,
+   "lon": 149.15,
+   "i18n": {
+    "es": {
+     "titulo": "Un cultivo falso engaña a una plaga y Australia está cerca de erradicarla",
+     "resumo": "Para eliminar la hierba bruja roja, los científicos siembran soja que hace germinar las semillas de la plaga sin un huésped al que aferrarse. El área afectada bajó de 110 a 4,3 hectáreas en 11 años.",
+     "regiao": "Mackay (Queensland)",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Decoy crops trick a weed into killing itself as Australia nears eradication",
+     "resumo": "To wipe out red witchweed, scientists plant soybeans that make its seeds sprout with no host to latch onto. The infested area shrank from 110 to 4.3 hectares in 11 years.",
+     "regiao": "Mackay (Queensland)",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/5adeadd48b2dc72a00f4395a60d62e17?impolicy=wcms_watermark_news&cropH=864&cropW=1536&xPos=0&yPos=592&width=862&height=485&imformat=generic",
+   "credito": "Foto: Biosecurity Queensland"
+  },
+  {
+   "id": "hipertensao-hormonal",
+   "titulo": "Tratamento curto pode reverter a causa hormonal de um tipo de pressão alta",
+   "resumo": "Em 14 pacientes, um remédio que bloqueia o excesso de aldosterona baixou a pressão em cerca de 25 pontos, e o efeito durou até dois anos após o fim do tratamento. Um estudo maior já está planejado.",
+   "categoria": "saude",
+   "regiao": "Londres",
+   "data": "2026-11-11",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/salud/ciencia/2026/11/11/descubren-como-un-tratamiento-breve-podria-revertir-el-origen-hormonal-de-un-tipo-de-hipertension/",
+   "pais": "Reino Unido",
+   "lat": 51.51,
+   "lon": -0.13,
+   "i18n": {
+    "es": {
+     "titulo": "Un tratamiento breve podría revertir el origen hormonal de un tipo de hipertensión",
+     "resumo": "En 14 pacientes, un fármaco que bloquea el exceso de aldosterona bajó la presión unos 25 puntos, y el efecto duró hasta dos años tras terminar. Ya se planea un estudio mayor.",
+     "regiao": "Londres",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Short treatment may reverse the hormonal cause of one type of high blood pressure",
+     "resumo": "In 14 patients, a drug blocking excess aldosterone lowered blood pressure by about 25 points, with effects lasting up to two years after stopping. A larger trial is planned.",
+     "regiao": "London",
+     "pais": "UK"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/IOB6NY5C4NCK3CWZFDC3URDJSM.jpg?auth=e65922e0004a1e80ec7f8edb215992eccbb0ae1ce552d97711bfd8bfef14c8e2&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem ilustrativa: Infobae"
+  },
+  {
+   "id": "ela-exame-sangue",
+   "titulo": "Exame de sangue com 10 proteínas pode acelerar o diagnóstico de ELA",
+   "resumo": "Pesquisadores da Universidade Emory acertaram cerca de 98% dos casos ao separar pacientes com ELA de pessoas saudáveis. A ideia é usar o teste como primeiro filtro para encaminhar ao especialista.",
+   "categoria": "saude",
+   "regiao": "Atlanta",
+   "data": "2026-11-12",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/salud/ciencia/2026/11/12/identificaron-10-proteinas-en-sangre-que-podrian-mejorar-la-deteccion-de-la-ela-y-acelerar-el-diagnostico/",
+   "pais": "Estados Unidos",
+   "lat": 33.75,
+   "lon": -84.39,
+   "i18n": {
+    "es": {
+     "titulo": "Un análisis de sangre con 10 proteínas podría acelerar el diagnóstico de ELA",
+     "resumo": "Investigadores de la Universidad Emory acertaron cerca del 98% al distinguir pacientes con ELA de personas sanas. La idea es usarlo como primer filtro para derivar al especialista.",
+     "regiao": "Atlanta",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Blood test with 10 proteins could speed up ALS diagnosis",
+     "resumo": "Emory University researchers told ALS patients apart from healthy people with about 98% accuracy. The aim is a first screen to refer people to specialists sooner.",
+     "regiao": "Atlanta",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/F4QRKT6HGNFNTOPU2HUX5SEAYQ.png?auth=6a0b4c8e544852d90c0caf23786050f6bd134ba9283c72ec21c251da2e1ebd80&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem ilustrativa: Infobae"
+  },
+  {
+   "id": "visao-bionica-ia",
+   "titulo": "Inteligência artificial ajusta implante que devolve flashes de visão a homem cego",
+   "resumo": "Um jovem de 27 anos que perdeu a visão recebeu um implante com 96 eletrodos no cérebro. A IA escolheu estímulos mais precisos e com menos corrente. Ainda é experimental: ele vê flashes e formas de luz.",
+   "categoria": "tecnologia",
+   "regiao": "Elche",
+   "data": "2026-11-12",
+   "fonte": "ScienceDaily / UC Santa Barbara",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
+   "pais": "Espanha",
+   "lat": 38.27,
+   "lon": -0.7,
+   "i18n": {
+    "es": {
+     "titulo": "La inteligencia artificial ajusta un implante que devuelve destellos de visión a un hombre ciego",
+     "resumo": "Un joven de 27 años que perdió la vista recibió un implante con 96 electrodos en el cerebro. La IA eligió estímulos más precisos y con menos corriente. Aún es experimental: ve destellos y formas de luz.",
+     "regiao": "Elche",
+     "pais": "España"
+    },
+    "en": {
+     "titulo": "AI fine-tunes a brain implant that gives a blind man flashes of sight",
+     "resumo": "A 27-year-old who lost his sight received a 96-electrode brain implant. AI picked more precise stimulation using less current. It's still experimental: he perceives flashes and shapes of light.",
+     "regiao": "Elche",
+     "pais": "Spain"
+    }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/beyeler-bionic-eye.webp",
+   "credito": "Foto: Matt Perko/UC Santa Barbara"
+  },
+  {
+   "id": "virgilio-premio",
+   "titulo": "Professor da UFMG é o primeiro latino-americano a ganhar prêmio alemão de tecnologia e sociedade",
+   "resumo": "Virgílio Almeida recebeu o Prêmio Friedrich Schiedel, da Universidade Técnica de Munique, por seu trabalho sobre governança de algoritmos. O prêmio inclui 30 mil euros.",
+   "categoria": "tecnologia",
+   "regiao": "Belo Horizonte (MG)",
+   "data": "2026-11-11",
+   "fonte": "UFMG",
+   "url": "https://www.ufmg.br/comunicacao/noticias/pessoas/virgilio-almeida-vence-premio-alemao-de-ciencias-sociais-e-tecnologia/",
+   "pais": "Brasil",
+   "lat": -19.92,
+   "lon": -43.94,
+   "i18n": {
+    "es": {
+     "titulo": "Profesor de la UFMG es el primer latinoamericano en ganar un premio alemán de tecnología y sociedad",
+     "resumo": "Virgílio Almeida recibió el Premio Friedrich Schiedel, de la Universidad Técnica de Múnich, por su trabajo sobre gobernanza algorítmica. Incluye 30.000 euros.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian professor is first Latin American to win German technology and society prize",
+     "resumo": "UFMG's Virgílio Almeida won TU Munich's Friedrich Schiedel Prize for his work on algorithmic governance. It comes with €30,000.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.ufmg.br//app/uploads/2025/11/virgilio-864x445.jpg",
+   "credito": "Foto: Raphaella Dias/UFMG"
+  },
+  {
+   "id": "catadoras-mangaba",
+   "titulo": "Tese sobre catadoras de mangaba de Aracaju ganha prêmio da USP",
+   "resumo": "O estudo de Raquel Rodrigues, da Embrapa, mostra a luta das catadoras do bairro Santa Maria pelo seu território. A autora diz que o prêmio é coletivo e divide o reconhecimento com a comunidade.",
+   "categoria": "sociedade",
+   "regiao": "Aracaju (SE)",
+   "data": "2026-11-12",
+   "fonte": "Embrapa",
+   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/150047529/tese-sobre-catadoras-de-mangaba-de-aracaju-vence-premio-da-usp",
+   "pais": "Brasil",
+   "lat": -10.91,
+   "lon": -37.07,
+   "i18n": {
+    "es": {
+     "titulo": "Una tesis sobre recolectoras de mangaba de Aracaju gana un premio de la USP",
+     "resumo": "El estudio de Raquel Rodrigues, de Embrapa, muestra la lucha de las recolectoras del barrio Santa Maria por su territorio. La autora dice que el premio es colectivo y lo comparte con la comunidad.",
+     "regiao": "Aracaju (SE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Thesis on Aracaju's mangaba fruit gatherers wins a University of São Paulo award",
+     "resumo": "Embrapa's Raquel Rodrigues studied how the women gatherers of Santa Maria defend their traditional land. She says the prize is shared with the community.",
+     "regiao": "Aracaju (SE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.embrapa.br/image/journal/article?img_id=150047530&t=1794513450611",
+   "credito": "Foto: Josué Francisco"
+  },
+  {
+   "id": "sus-prostata",
+   "titulo": "SUS passa de 1 milhão de tratamentos contra câncer de próstata por ano",
+   "resumo": "Quimioterapia, radioterapia e cirurgias pelo SUS cresceram 32,6% entre 2022 e 2025, segundo o Ministério da Saúde. A radioterapia foi a que mais aumentou: 44,9%.",
+   "categoria": "saude",
+   "regiao": "Brasil",
+   "data": "2026-11-12",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7537605-sus-ultrapassa-1-milhao-de-procedimentos-contra-cancer-de-prostata.html",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "El sistema público de salud supera 1 millón de tratamientos contra el cáncer de próstata al año",
+     "resumo": "Quimioterapia, radioterapia y cirugías crecieron un 32,6% entre 2022 y 2025, según el Ministerio de Salud. La radioterapia fue la que más aumentó: 44,9%.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil's public health system passes 1 million prostate cancer treatments a year",
+     "resumo": "Chemotherapy, radiotherapy and surgery rose 32.6% between 2022 and 2025, according to the Health Ministry. Radiotherapy grew most, by 44.9%.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/png/2026/04/16/675x450/1_image--18--66228058.png",
+   "credito": "Imagem: Ministério da Saúde"
+  },
   {
    "id": "bugios-novas-especies",
    "titulo": "Ciência descreve duas novas espécies de bugio na Amazônia brasileira",
@@ -11,7 +328,6 @@
    "fonte": "Mongabay",
    "url": "https://news.mongabay.com/short-article/2026/11/genetic-study-describes-two-new-species-of-amazonian-howler-monkeys/",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -9.87,
    "lon": -56.09,
    "i18n": {
@@ -30,324 +346,6 @@
    },
    "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/11172447/bugio-ruivo4-1200x800.jpg",
    "credito": "Foto: Kakau Oliveira"
-  },
-  {
-   "id": "coral-gigante-cocos",
-   "titulo": "Colônia de coral de 1,5 km cresce saudável numa ilha remota da Austrália",
-   "resumo": "Pesquisadores mapearam, em 12 mergulhos, uma colônia de coral-rosa de 1,56 km nas Ilhas Cocos, uma das maiores já registradas. Recifes profundos assim podem servir de refúgio para corais afetados pelo branqueamento.",
-   "categoria": "meio-ambiente",
-   "regiao": "Ilhas Cocos (Keeling)",
-   "data": "2026-11-11",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-11/massive-coral-colony-found-off-the-cocos-keeling-islands/107367586",
-   "pais": "Austrália",
-   "destaque": true,
-   "lat": -12.19,
-   "lon": 96.83,
-   "i18n": {
-    "es": {
-     "titulo": "Una colonia de coral de 1,5 km crece sana en una isla remota de Australia",
-     "resumo": "En 12 inmersiones, investigadores mapearon una colonia de coral rosa de 1,56 km en las islas Cocos, una de las mayores registradas. Arrecifes profundos así pueden ser refugio para corales afectados por el blanqueamiento.",
-     "regiao": "Islas Cocos (Keeling)",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "A 1.5 km coral colony is thriving off a remote Australian island",
-     "resumo": "Over 12 dives, researchers mapped a 1.56 km rose coral colony off the Cocos Islands, one of the largest ever recorded. Deep reefs like this may shelter corals hit by bleaching.",
-     "regiao": "Cocos (Keeling) Islands",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/14b19783e878db6a9d53ab2f0bd5ee57?impolicy=wcms_watermark_news&cropH=1329&cropW=2362&xPos=0&yPos=0&width=862&height=485&imformat=generic",
-   "credito": "Foto: Justin Gilligan"
-  },
-  {
-   "id": "exercicio-depressao",
-   "titulo": "Fazer exercício antes da terapia ajuda o cérebro de quem tem depressão",
-   "resumo": "Em estudo com pesquisadora da USP, 12 semanas de atividade física antes da terapia cognitivo-comportamental melhoraram o condicionamento e os ganhos de memória e aprendizado durante o tratamento.",
-   "categoria": "saude",
-   "regiao": "Berlim",
-   "data": "2026-11-11",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/index.php/atividade-fisica-prepara-o-cerebro-de-pacientes-com-depressao-para-a-psicoterapia/59590",
-   "pais": "Alemanha",
-   "lat": 52.52,
-   "lon": 13.4,
-   "i18n": {
-    "es": {
-     "titulo": "Hacer ejercicio antes de la terapia ayuda al cerebro de quien tiene depresión",
-     "resumo": "En un estudio con una investigadora de la USP, 12 semanas de actividad física antes de la terapia cognitivo-conductual mejoraron la forma física y los avances de memoria y aprendizaje durante el tratamiento.",
-     "regiao": "Berlín",
-     "pais": "Alemania"
-    },
-    "en": {
-     "titulo": "Exercising before therapy helps the brain in depression",
-     "resumo": "In a trial involving a University of São Paulo researcher, 12 weeks of exercise before CBT improved fitness and memory and learning gains during therapy.",
-     "regiao": "Berlin",
-     "pais": "Germany"
-    }
-   },
-   "img": "https://agencia.fapesp.br/files/post/59590.jpeg",
-   "credito": "Foto: Shutterstock"
-  },
-  {
-   "id": "caozinho-spaike",
-   "titulo": "Cãozinho sobe na maca do Samu para não deixar o tutor sozinho",
-   "resumo": "Quando o dono, de 59 anos, caiu da cadeira de rodas em Ceilândia, Spaike subiu na maca e ficou ao lado dele durante todo o atendimento.",
-   "categoria": "animais",
-   "regiao": "Ceilândia (DF)",
-   "data": "2026-11-11",
-   "fonte": "Metrópoles",
-   "url": "https://www.metropoles.com/distrito-federal/caozinho-spaike-nao-abandona-tutor-e-sobe-em-maca-do-samu-durante-socorro",
-   "pais": "Brasil",
-   "lat": -15.82,
-   "lon": -48.11,
-   "i18n": {
-    "es": {
-     "titulo": "Un perrito sube a la camilla de la ambulancia para no dejar solo a su dueño",
-     "resumo": "Cuando su dueño, de 59 años, se cayó de la silla de ruedas en Ceilândia, Spaike subió a la camilla y lo acompañó durante toda la atención.",
-     "regiao": "Ceilândia (DF)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Little dog climbs onto the ambulance stretcher to stay with his owner",
-     "resumo": "When his 59-year-old owner fell from his wheelchair in Ceilândia, Spaike jumped onto the stretcher and stayed by his side throughout.",
-     "regiao": "Ceilândia (DF)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://i.metroimg.com/JuzzkwJpfUbggix5n3WvGvdb9eHiRi0e8F4OoETXYtE/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/caoacompanhatutorambulanciaceilandiasamu.jpg",
-   "credito": "Foto: Divulgação/Samu-DF"
-  },
-  {
-   "id": "tuberculose-usp",
-   "titulo": "Cientistas da USP acham novo ponto de ataque contra a bactéria da tuberculose",
-   "resumo": "Entre 600 moléculas testadas, 5 mostraram potencial de bloquear uma enzima da bactéria, e uma delas se liga a um local nunca explorado. É uma etapa inicial, mas abre caminho para novos remédios.",
-   "categoria": "ciencia",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-10",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/ciencias/ciencias-ft-cientistas-buscam-novos-caminhos-para-atacar-bacteria-causadora-da-tuberculose/",
-   "pais": "Brasil",
-   "lat": -23.56,
-   "lon": -46.73,
-   "i18n": {
-    "es": {
-     "titulo": "Científicos de la USP encuentran un nuevo punto de ataque contra la bacteria de la tuberculosis",
-     "resumo": "De 600 moléculas probadas, 5 mostraron potencial para bloquear una enzima de la bacteria, y una se une a un sitio nunca explorado. Es una etapa inicial, pero abre camino a nuevos fármacos.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian scientists find a new weak spot in the tuberculosis bacterium",
-     "resumo": "Of 600 molecules screened, 5 showed potential to block a key bacterial enzyme, and one binds a never-explored site. It's early-stage, but opens a path to new drugs.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261110_notebook.jpg",
-   "credito": "Foto: Nicolas Rossini/LBEA"
-  },
-  {
-   "id": "luz-para-todos-23",
-   "titulo": "Luz para Todos completa 23 anos levando energia a 3,8 milhões de famílias",
-   "resumo": "Desde 2023, cerca de 950 mil pessoas ganharam energia elétrica, 400 mil delas em áreas remotas da Amazônia.",
-   "categoria": "sociedade",
-   "regiao": "Brasil",
-   "data": "2026-11-11",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/luz-para-todos-completa-23-anos-com-18-milhoes-de-brasileiros-beneficiados",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "Luz para Todos cumple 23 años llevando electricidad a 3,8 millones de familias",
-     "resumo": "Desde 2023, unas 950.000 personas recibieron electricidad, 400.000 de ellas en zonas remotas de la Amazonía.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil's Light for All programme turns 23, having powered 3.8 million families",
-     "resumo": "Since 2023 about 950,000 people have gained electricity, 400,000 of them in remote parts of the Amazon.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/luz-para-todos-2.png/@@images/bf33a7e7-f284-4c6a-a080-1a9daf368004.png",
-   "credito": "Imagem: Divulgação"
-  },
-  {
-   "id": "diabo-tasmania-teste",
-   "titulo": "Teste rápido ajuda a salvar o diabo-da-tasmânia de um câncer contagioso",
-   "resumo": "Pesquisadores da Universidade da Tasmânia criaram um teste portátil com cotonete na boca que detecta a doença no próprio campo, em vez de esperar dias pelo laboratório.",
-   "categoria": "ciencia",
-   "regiao": "Tasmânia",
-   "data": "2026-11-12",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-12/new-early-detection-test-for-devil-facial-tumour-disease/107371830",
-   "pais": "Austrália",
-   "lat": -42.0,
-   "lon": 146.6,
-   "i18n": {
-    "es": {
-     "titulo": "Una prueba rápida ayuda a salvar al demonio de Tasmania de un cáncer contagioso",
-     "resumo": "Investigadores de la Universidad de Tasmania crearon una prueba portátil con hisopo bucal que detecta la enfermedad en el campo, en lugar de esperar días por el laboratorio.",
-     "regiao": "Tasmania",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Quick field test could help save Tasmanian devils from contagious cancer",
-     "resumo": "University of Tasmania researchers built a portable mouth-swab test that detects the disease in the field instead of waiting days for lab results.",
-     "regiao": "Tasmania",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/493959f275c13923ee78d696ffba4d96?impolicy=wcms_crop_resize&cropH=2800&cropW=4200&xPos=0&yPos=0&width=862&height=575",
-   "credito": "Foto: UTAS/Peter W Allen"
-  },
-  {
-   "id": "chimpanze-drone",
-   "titulo": "Drone leva banana para chimpanzé ilhado em santuário alagado",
-   "resumo": "Kaleb, de 38 anos, ficou isolado pela água num santuário na Flórida, e a equipe usou um drone para levar comida até ele.",
-   "categoria": "animais",
-   "regiao": "Flórida",
-   "data": "2026-11-11",
-   "fonte": "BBC News Brasil (via Terra)",
-   "url": "https://www.terra.com.br/noticias/videos/drone-entrega-banana-para-chimpanze-isolado-por-alagamento,50e6738e8981caceca57275a0f3a17fdg85bh9tq.html",
-   "pais": "Estados Unidos",
-   "lat": 27.99,
-   "lon": -81.76,
-   "i18n": {
-    "es": {
-     "titulo": "Un dron lleva una banana a un chimpancé aislado en un santuario inundado",
-     "resumo": "Kaleb, de 38 años, quedó aislado por el agua en un santuario de Florida, y el equipo usó un dron para llevarle comida.",
-     "regiao": "Florida",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Drone delivers a banana to a chimp stranded in a flooded sanctuary",
-     "resumo": "Kaleb, 38, was cut off by floodwater at a Florida sanctuary, so staff used a drone to get food to him.",
-     "regiao": "Florida",
-     "pais": "USA"
-    }
-   },
-   "img": "https://p2.trrsf.com/image/fget/cf/950/534/images.terra.com/2026/11/11/190162272-p0pmhxyd.jpg",
-   "credito": "Imagem: BBC News Brasil"
-  },
-  {
-   "id": "cranios-repatriados",
-   "titulo": "Restos de dois escravizados levados aos EUA no século 19 voltam ao Brasil",
-   "resumo": "Os crânios estavam no Museu Peabody, de Harvard. Um veio do Cais do Valongo, no Rio; o outro, de um participante da Revolta dos Malês, em Salvador. Ficarão sob guarda da UFRJ e da UFBA.",
-   "categoria": "sociedade",
-   "regiao": "Rio de Janeiro e Salvador",
-   "data": "2026-11-11",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7536927-brasil-repatria-dois-cranios-de-escravizados-retirados-do-pais-no-seculo-19.html",
-   "pais": "Brasil",
-   "lat": -12.97,
-   "lon": -38.5,
-   "i18n": {
-    "es": {
-     "titulo": "Los restos de dos esclavizados llevados a EE. UU. en el siglo XIX vuelven a Brasil",
-     "resumo": "Los cráneos estaban en el Museo Peabody de Harvard. Uno vino del Cais do Valongo, en Río; el otro, de un participante de la Revuelta de los Malês, en Salvador. Quedarán bajo custodia de la UFRJ y la UFBA.",
-     "regiao": "Río de Janeiro y Salvador",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Remains of two enslaved people taken to the US in the 1800s return to Brazil",
-     "resumo": "The skulls were held at Harvard's Peabody Museum. One came from Rio's Valongo Wharf, the other from a participant in Salvador's 1835 Malê Revolt. Federal universities will care for them.",
-     "regiao": "Rio de Janeiro and Salvador",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/11/675x450/1_6fd61ba9-5ca2-4f69-aeac-a6a947b051e1-68200510.jpeg",
-   "credito": "Foto: Ludmila Duarte/MDHC"
-  },
-  {
-   "id": "escolas-hortas-sp",
-   "titulo": "Escolas da periferia de SP transformam terrenos com entulho em hortas e agroflorestas",
-   "resumo": "Pesquisa da USP acompanhou escolas que limparam terrenos baldios e plantaram hortas e agroflorestas no lugar, com antes e depois registrados em foto.",
-   "categoria": "meio-ambiente",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-09",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/diversidade/do-entulho-a-agrofloresta-pesquisa-da-usp-mostra-como-escolas-da-periferia-de-sp-transformaram-terrenos-baldios-em-hortas/",
-   "pais": "Brasil",
-   "lat": -23.55,
-   "lon": -46.63,
-   "i18n": {
-    "es": {
-     "titulo": "Escuelas de la periferia de São Paulo convierten terrenos con escombros en huertas",
-     "resumo": "Una investigación de la USP siguió a escuelas que limpiaron terrenos baldíos y plantaron huertas y sistemas agroforestales, con fotos del antes y el después.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "São Paulo outskirts schools turn rubble-filled lots into gardens and food forests",
-     "resumo": "A University of São Paulo study followed schools that cleared vacant lots and planted vegetable gardens and agroforests, with before-and-after photos.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261109_entulho3.jpg",
-   "credito": "Foto: Arquivo da escola"
-  },
-  {
-   "id": "irrigacao-solar-bangladesh",
-   "titulo": "Triciclo solar irriga lavouras em Bangladesh por uma fração do custo do diesel",
-   "resumo": "O Ponkhiraj, da ONG BRAC, irriga cerca de 1 hectare por dia. Segundo a BRAC, sai por uns US$ 0,80, contra US$ 8 com bomba a diesel, hoje usada em mais de 80% da região.",
-   "categoria": "meio-ambiente",
-   "regiao": "Bangladesh",
-   "data": "2026-11-10",
-   "fonte": "New Atlas",
-   "url": "https://newatlas.com/good-thinking/ponkhiraj-solar-powered-field-irrigation/",
-   "pais": "Bangladesh",
-   "lat": 23.68,
-   "lon": 90.36,
-   "i18n": {
-    "es": {
-     "titulo": "Un triciclo solar riega cultivos en Bangladés por una fracción del costo del diésel",
-     "resumo": "El Ponkhiraj, de la ONG BRAC, riega cerca de 1 hectárea por día. Según BRAC, cuesta unos US$ 0,80, frente a US$ 8 con bomba diésel, usada en más del 80% de la región.",
-     "regiao": "Bangladesh",
-     "pais": "Bangladés"
-    },
-    "en": {
-     "titulo": "Solar tricycle irrigates Bangladesh farms for a fraction of diesel's cost",
-     "resumo": "BRAC's Ponkhiraj irrigates about a hectare a day. BRAC says it costs around US$0.80 versus US$8 with the diesel pumps used by over 80% of the region.",
-     "regiao": "Bangladesh",
-     "pais": "Bangladesh"
-    }
-   },
-   "img": "https://assets.newatlas.com/dims4/default/cb417bf/2147483647/strip/true/crop/1600x840+0+113/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F11%2F6a%2Fcd24886647428908310087bd6483%2Fponkhiraj-3.jpeg",
-   "credito": "Foto: BRAC International"
-  },
-  {
-   "id": "ripeye-praias",
-   "titulo": "Inteligência artificial ajuda a achar correntes perigosas em praias da Austrália",
-   "resumo": "A ferramenta RipEye, criada pela Universidade de Nova Gales do Sul, está sendo testada nas praias para identificar correntes de retorno e proteger banhistas.",
-   "categoria": "tecnologia",
-   "regiao": "Nova Gales do Sul",
-   "data": "2026-11-11",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-11/rip-detecting-ai-tool-being-trialled-nsw-beaches/107368710",
-   "pais": "Austrália",
-   "lat": -33.87,
-   "lon": 151.21,
-   "i18n": {
-    "es": {
-     "titulo": "Inteligencia artificial ayuda a detectar corrientes peligrosas en playas de Australia",
-     "resumo": "La herramienta RipEye, creada por la Universidad de Nueva Gales del Sur, se prueba en playas para identificar corrientes de resaca y proteger a los bañistas.",
-     "regiao": "Nueva Gales del Sur",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "AI helps spot dangerous rip currents on Australian beaches",
-     "resumo": "RipEye, a tool built by UNSW, is being trialled on New South Wales beaches to detect rip currents and keep swimmers safe.",
-     "regiao": "New South Wales",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/2d8a795fae5727cd07b3e8db6fd6c291",
-   "credito": "Foto: ABC News/Declan Bowring"
   }
  ]
 }
