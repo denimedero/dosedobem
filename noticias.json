@@ -1,6 +1,298 @@
 {
- "atualizado": "2026-11-13",
+ "atualizado": "2026-11-14",
  "noticias": [
+  {
+   "id": "diabetes-visao-peptideo",
+   "titulo": "Molécula pode ajudar a evitar a perda de visão causada pelo diabetes",
+   "resumo": "Pesquisadores da Unifesp e da Unesp mostraram que o peptídeo Ac2-26 impediu a morte de neurônios em células e organoides de retina humana expostos a glicose alta e inflamação. A retinopatia atinge mais de 22% das pessoas com diabetes.",
+   "categoria": "saude",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-13",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/index.php/estudo-identifica-molecula-com-potencial-de-prevenir-a-perda-de-visao-associada-ao-diabetes/59606",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -23.55,
+   "lon": -46.64,
+   "i18n": {
+    "es": {
+     "titulo": "Una molécula podría ayudar a evitar la pérdida de visión causada por la diabetes",
+     "resumo": "Investigadores de Unifesp y Unesp mostraron que el péptido Ac2-26 evitó la muerte de neuronas en células y organoides de retina humana expuestos a glucosa alta e inflamación. La retinopatía afecta a más del 22% de las personas con diabetes.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Molecule may help prevent diabetes-related vision loss",
+     "resumo": "Researchers at Unifesp and Unesp showed the peptide Ac2-26 stopped neurons dying in human retinal cells and organoids exposed to high glucose and inflammation. Retinopathy affects more than 22% of people with diabetes.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59606.jpg",
+   "credito": "Foto: Shutterstock"
+  },
+  {
+   "id": "santuario-marshall",
+   "titulo": "Cientistas encontram vida exuberante em santuário marinho do Pacífico",
+   "resumo": "Protegidos desde 2025, os atóis Bikar e Bokak somam 48 mil km² de santuário. A expedição achou 15 espécies de aves marinhas, mais de 260 de peixes de recife e tartarugas-verdes fazendo ninho. Dois peixes podem ser novos para a ciência.",
+   "categoria": "meio-ambiente",
+   "regiao": "Atóis Bikar e Bokak",
+   "data": "2026-11-12",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/12/treasures-for-the-entire-planet-scientists-map-life-in-one-of-the-worlds-last-wild-ecosyst",
+   "pais": "Ilhas Marshall",
+   "destaque": true,
+   "lat": 12.0,
+   "lon": 169.0,
+   "i18n": {
+    "es": {
+     "titulo": "Científicos hallan una vida exuberante en un santuario marino del Pacífico",
+     "resumo": "Protegidos desde 2025, los atolones Bikar y Bokak suman 48.000 km² de santuario. La expedición halló 15 especies de aves marinas, más de 260 de peces de arrecife y tortugas verdes anidando. Dos peces podrían ser nuevos para la ciencia.",
+     "regiao": "Atolones Bikar y Bokak",
+     "pais": "Islas Marshall"
+    },
+    "en": {
+     "titulo": "Scientists find thriving wildlife in a Pacific marine sanctuary",
+     "resumo": "Protected since 2025, Bikar and Bokak atolls form a 48,000 km² sanctuary. The survey found 15 seabird species, more than 260 reef fish species and nesting green turtles. Two fish may be new to science.",
+     "regiao": "Bikar and Bokak atolls",
+     "pais": "Marshall Islands"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/98/85/25/1200x675_cmsv2_de1eb910-e0dd-51fa-a1a0-e52cbc8352e9-9988525.jpg",
+   "credito": "Foto: Manu San Félix"
+  },
+  {
+   "id": "mosaico-quilombola",
+   "titulo": "Mosaico da Mata Atlântica no Rio cresce e é o primeiro a incluir quilombos",
+   "resumo": "O Mosaico Central Fluminense foi ampliado de 22 para 86 áreas protegidas e se tornou o primeiro do país a reconhecer territórios quilombolas, como os de Petrópolis e Areal.",
+   "categoria": "meio-ambiente",
+   "regiao": "Rio de Janeiro (RJ)",
+   "data": "2026-11-11",
+   "fonte": "ICMBio",
+   "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/mosaico-mata-atlantica-central-fluminense-rj-e-ampliado-e-passa-a-ser-o-primeiro-do-pais-a-reconhecer-territorios-quilombolas",
+   "pais": "Brasil",
+   "lat": -22.5,
+   "lon": -43.18,
+   "i18n": {
+    "es": {
+     "titulo": "Un mosaico de Mata Atlántica en Río crece y es el primero en incluir quilombos",
+     "resumo": "El Mosaico Central Fluminense pasó de 22 a 86 áreas protegidas y se convirtió en el primero del país en reconocer territorios quilombolas, como los de Petrópolis y Areal.",
+     "regiao": "Rio de Janeiro (RJ)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Rio's Atlantic Forest mosaic grows and becomes first to include quilombo lands",
+     "resumo": "The Central Fluminense mosaic expanded from 22 to 86 protected areas and became Brazil's first to recognise quilombola territories, such as those in Petrópolis and Areal.",
+     "regiao": "Rio de Janeiro (RJ)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/mosaico-mata-atlantica-central-fluminense-rj-e-ampliado-e-passa-a-ser-o-primeiro-do-pais-a-reconhecer-territorios-quilombolas/copy_of_Site44.png/@@images/7a3b9622-c7c7-401c-8670-37ec5ee01e95.png",
+   "credito": "Foto: Ernesto Castro/ICMBio"
+  },
+  {
+   "id": "morcegos-mata-atlantica",
+   "titulo": "Morcegos frugívoros viram aliados para recuperar a Mata Atlântica",
+   "resumo": "Esses morcegos espalham sementes de mais de 140 plantas da floresta. Pesquisadores usaram aromas sintéticos de frutas para atraí-los a áreas degradadas, e 73,3% das sementes deixadas ali eram de espécies pioneiras.",
+   "categoria": "animais",
+   "regiao": "Paraná",
+   "data": "2026-11-13",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/fruit-bats-emerge-as-unlikely-allies-in-the-atlantic-forest-restoration/",
+   "pais": "Brasil",
+   "lat": -24.5,
+   "lon": -51.5,
+   "i18n": {
+    "es": {
+     "titulo": "Los murciélagos frugívoros se vuelven aliados para recuperar la Mata Atlántica",
+     "resumo": "Estos murciélagos dispersan semillas de más de 140 plantas del bosque. Los investigadores usaron aromas sintéticos de frutas para atraerlos a zonas degradadas, y el 73,3% de las semillas dejadas allí eran de especies pioneras.",
+     "regiao": "Paraná",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Fruit bats become allies in restoring Brazil's Atlantic Forest",
+     "resumo": "These bats spread seeds of more than 140 forest plants. Researchers used synthetic fruit scents to lure them to degraded land, and 73.3% of the seeds dropped there came from pioneer species.",
+     "regiao": "Paraná",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13100451/Artibeus_lituratus_Foto_Gledson-V.-Bianconi_PNG_REVISTA-1200x800.jpg",
+   "credito": "Foto: Gledson Vigiano Bianconi"
+  },
+  {
+   "id": "obesidade-estilo-vida",
+   "titulo": "Programa de estilo de vida melhora colesterol e fígado de pessoas com obesidade",
+   "resumo": "Num estudo com 200 adultos por 20 semanas no Hospital das Clínicas da USP, o programa reduziu o LDL e os triglicerídeos e melhorou o fígado. Entre quem completou, 25,4% perderam ao menos 5% do peso, contra 12,3%.",
+   "categoria": "saude",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-13",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/ciencias/mudanca-de-estilo-de-vida-melhora-colesterol-e-saude-do-figado-em-pessoas-com-obesidade/",
+   "pais": "Brasil",
+   "lat": -23.56,
+   "lon": -46.67,
+   "i18n": {
+    "es": {
+     "titulo": "Un programa de estilo de vida mejora el colesterol y el hígado de personas con obesidad",
+     "resumo": "En un estudio con 200 adultos durante 20 semanas en el Hospital das Clínicas de la USP, el programa redujo el LDL y los triglicéridos y mejoró el hígado. El 25,4% de quienes lo completaron perdió al menos un 5% del peso, frente al 12,3%.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Lifestyle programme improves cholesterol and liver health in people with obesity",
+     "resumo": "In a 20-week study of 200 adults at the University of São Paulo's hospital, the programme lowered LDL and triglycerides and improved liver health. Among completers, 25.4% lost at least 5% of their weight, versus 12.3%.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261111_garfo.jpg",
+   "credito": "Foto: Lisa Fotios/Pexels"
+  },
+  {
+   "id": "corvos-rapidos",
+   "titulo": "Corvos decidem duas vezes mais rápido que humanos, mostra estudo",
+   "resumo": "Em testes, gralhas-pretas levaram em média 235 milissegundos para decidir a direção de pontos em movimento, cerca de metade do tempo de humanos e macacos, sem perder precisão. O estudo saiu na revista Science.",
+   "categoria": "animais",
+   "regiao": "Tübingen",
+   "data": "2026-11-12",
+   "fonte": "ScienceDaily / Universidade de Tübingen",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
+   "pais": "Alemanha",
+   "lat": 48.52,
+   "lon": 9.06,
+   "i18n": {
+    "es": {
+     "titulo": "Los cuervos deciden el doble de rápido que los humanos, según un estudio",
+     "resumo": "En pruebas, cornejas negras tardaron de media 235 milisegundos en decidir la dirección de puntos en movimiento, cerca de la mitad que humanos y monos, sin perder precisión. El estudio salió en la revista Science.",
+     "regiao": "Tübingen",
+     "pais": "Alemania"
+    },
+    "en": {
+     "titulo": "Crows make decisions twice as fast as humans, study finds",
+     "resumo": "In tests, carrion crows took an average of 235 milliseconds to judge the direction of moving dots, about half the time of humans and monkeys, while staying accurate. The study was published in Science.",
+     "regiao": "Tübingen",
+     "pais": "Germany"
+    }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/carrion-crow-corvus-corone-close-up.webp",
+   "credito": "Foto: Shutterstock"
+  },
+  {
+   "id": "malaria-genomas",
+   "titulo": "Cientistas decifram o DNA de dois tipos esquecidos de malária",
+   "resumo": "Pesquisadores montaram genomas de referência do P. ovale e do P. malariae a partir do sangue de pacientes no Mali. O avanço ajuda a criar testes e tratamentos para uma doença que teve 282 milhões de casos em 2024.",
+   "categoria": "ciencia",
+   "regiao": "Mali",
+   "data": "2026-11-12",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/ciencia-e-saude/2026/11/7537757-cientistas-decifram-o-dna-de-especies-negligenciadas-da-malaria.html",
+   "pais": "Mali",
+   "lat": 12.64,
+   "lon": -8.0,
+   "i18n": {
+    "es": {
+     "titulo": "Científicos descifran el ADN de dos tipos olvidados de malaria",
+     "resumo": "Investigadores armaron genomas de referencia de P. ovale y P. malariae a partir de la sangre de pacientes en Malí. El avance ayuda a crear pruebas y tratamientos para una enfermedad con 282 millones de casos en 2024.",
+     "regiao": "Mali",
+     "pais": "Malí"
+    },
+    "en": {
+     "titulo": "Scientists decode the DNA of two neglected malaria parasites",
+     "resumo": "Researchers built reference genomes for P. ovale and P. malariae from patients' blood in Mali. It helps develop tests and treatments for a disease with 282 million cases in 2024.",
+     "regiao": "Mali",
+     "pais": "Mali"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/12/675x450/1_7537757-8463ede1135b430c9f4285c07391fcf4-68210147.jpg",
+   "credito": "Imagem: Flow"
+  },
+  {
+   "id": "avc-asundexiana",
+   "titulo": "Nova pílula diária para prevenir um segundo AVC é aprovada nos EUA",
+   "resumo": "A agência americana FDA aprovou a asundexiana, um anticoagulante de dose única diária para reduzir o risco de novo AVC, após resultados positivos num estudo global de fase 3. Cerca de 1 em 5 sobreviventes tem outro AVC em cinco anos.",
+   "categoria": "saude",
+   "regiao": "Estados Unidos",
+   "data": "2026-11-12",
+   "fonte": "New Atlas",
+   "url": "https://newatlas.com/stroke/stroke-prevention-approved-fda/",
+   "pais": "Estados Unidos",
+   "lat": 38.9,
+   "lon": -77.03,
+   "i18n": {
+    "es": {
+     "titulo": "Aprueban en EE. UU. una nueva píldora diaria para prevenir un segundo ACV",
+     "resumo": "La FDA aprobó la asundexiana, un anticoagulante de una toma diaria para reducir el riesgo de un nuevo ACV, tras resultados positivos en un estudio global de fase 3. Cerca de 1 de cada 5 sobrevivientes sufre otro en cinco años.",
+     "regiao": "Estados Unidos",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "New daily pill to prevent a second stroke approved in the US",
+     "resumo": "The FDA approved asundexian, a once-daily blood thinner to reduce the risk of another stroke, after positive results in a global Phase 3 trial. About one in five stroke survivors has another within five years.",
+     "regiao": "USA",
+     "pais": "USA"
+    }
+   },
+   "img": "https://assets.newatlas.com/dims4/default/22b3992/2147483647/strip/true/crop/2048x1075+0+145/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F5f%2Fbf%2F34b540d24769bcb10267b6a8a41b%2Fstroke.jpeg",
+   "credito": "Imagem: New Atlas"
+  },
+  {
+   "id": "chips-magnetismo",
+   "titulo": "Material ultrafino pode levar a chips de IA que gastam bem menos energia",
+   "resumo": "Pesquisadores da Brown criaram filmes de ferrita de bismuto com poucos ângstrons que mantêm propriedades elétricas e magnéticas. Ainda é pesquisa de laboratório, mas abre caminho para eletrônicos mais econômicos.",
+   "categoria": "tecnologia",
+   "regiao": "Providence (Rhode Island)",
+   "data": "2026-11-12",
+   "fonte": "ScienceDaily / Brown University",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
+   "pais": "Estados Unidos",
+   "lat": 41.83,
+   "lon": -71.4,
+   "i18n": {
+    "es": {
+     "titulo": "Un material ultrafino podría llevar a chips de IA que gasten mucha menos energía",
+     "resumo": "Investigadores de Brown crearon películas de ferrita de bismuto de pocos ángstroms que conservan propiedades eléctricas y magnéticas. Aún es investigación de laboratorio, pero abre el camino a electrónicos más eficientes.",
+     "regiao": "Providence (Rhode Island)",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Ultrathin material could lead to far more energy-efficient AI chips",
+     "resumo": "Brown researchers made bismuth ferrite films just a few ångströms thick that keep their electric and magnetic properties. It's still lab research, but it points to more efficient electronics.",
+     "regiao": "Providence (Rhode Island)",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/multiferroic-material-three-layer-system.webp",
+   "credito": "Imagem: Caretta Lab/Brown University"
+  },
+  {
+   "id": "revista-crooked",
+   "titulo": "Escritores criam revista para acolher a comunidade LGBTQIA+ de Townsville",
+   "resumo": "P. Eldridge e Michael Smith lançam a CROOKED, publicação independente feita pela comunidade queer da cidade australiana. Oficinas de escrita já trouxeram novos participantes, como Lij Bolden.",
+   "categoria": "sociedade",
+   "regiao": "Townsville (Queensland)",
+   "data": "2026-11-14",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-14/townsville-creatives-queer-community-writing/107106238",
+   "pais": "Austrália",
+   "lat": -19.26,
+   "lon": 146.82,
+   "i18n": {
+    "es": {
+     "titulo": "Escritores crean una revista para acoger a la comunidad LGBTQIA+ de Townsville",
+     "resumo": "P. Eldridge y Michael Smith lanzan CROOKED, una publicación independiente hecha por la comunidad queer de la ciudad australiana. Los talleres de escritura ya sumaron nuevos participantes, como Lij Bolden.",
+     "regiao": "Townsville (Queensland)",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Writers launch a magazine to bring Townsville's queer community together",
+     "resumo": "P. Eldridge and Michael Smith are launching CROOKED, an independent publication made by the Australian city's queer community. Writing workshops have already drawn in newcomers like Lij Bolden.",
+     "regiao": "Townsville (Queensland)",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/435f4f30880760a3778cdf12bfc7cb8d?impolicy=wcms_watermark_news&cropH=2484&cropW=4416&xPos=292&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "Foto: Emma Jones/ABC News"
+  },
   {
    "id": "william-resgatado",
    "titulo": "Adolescente perdido há seis dias na mata é encontrado vivo na Austrália",
@@ -11,7 +303,6 @@
    "fonte": "ABC News (Austrália)",
    "url": "https://www.abc.net.au/news/2026-11-12/missing-teenager-william-found-gippsland-bush/107372518",
    "pais": "Austrália",
-   "destaque": true,
    "lat": -37.94,
    "lon": 146.45,
    "i18n": {
@@ -30,237 +321,6 @@
    },
    "img": "https://live-production.wcms.abc-cdn.net.au/b10e92a48e8b9a3d31dc7be27f7fc6fd?impolicy=wcms_watermark_news&cropH=689&cropW=1225&xPos=373&yPos=220&width=862&height=485&imformat=generic",
    "credito": "Imagem: ABC News"
-  },
-  {
-   "id": "avc-pressao-optimal",
-   "titulo": "Estudo brasileiro mostra como evitar um novo AVC: controlar mais a pressão",
-   "resumo": "A pesquisa Optimal-Stroke acompanhou 4.368 pessoas por quatro anos em 30 centros do país. Manter a pressão máxima abaixo de 12 (120 mmHg) reduziu novos AVCs de 6,4% para 4,7%. O resultado saiu no New England Journal of Medicine.",
-   "categoria": "saude",
-   "regiao": "Brasil (30 centros)",
-   "data": "2026-11-11",
-   "fonte": "Ministério da Saúde",
-   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/pesquisa-apoiada-pelo-ministerio-da-saude-aponta-reducao-de-eventos-cardiovasculares-apos-avc-isquemico-com-controle-intensivo-da-pressao-arterial",
-   "pais": "Brasil",
-   "destaque": true,
-   "lat": -15.79,
-   "lon": -47.88,
-   "i18n": {
-    "es": {
-     "titulo": "Un estudio brasileño muestra cómo evitar un nuevo ACV: controlar más la presión",
-     "resumo": "El estudio Optimal-Stroke siguió a 4.368 personas durante cuatro años en 30 centros del país. Mantener la presión sistólica por debajo de 120 mmHg redujo los nuevos ACV del 6,4% al 4,7%. Se publicó en el New England Journal of Medicine.",
-     "regiao": "Brasil (30 centros)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian trial shows tighter blood pressure control prevents repeat strokes",
-     "resumo": "The Optimal-Stroke trial followed 4,368 people for four years at 30 centres. Keeping systolic pressure under 120 cut new strokes from 6.4% to 4.7%. It was published in the New England Journal of Medicine.",
-     "regiao": "Brazil (30 centres)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/pesquisa-apoiada-pelo-ministerio-da-saude-aponta-reducao-de-eventos-cardiovasculares-apos-avc-isquemico-com-controle-intensivo-da-pressao-arterial/foto-pesquisa-clinica-internet-1.jpg/@@images/c037802c-6b2b-4666-b3a6-d493d39780a3.jpeg",
-   "credito": "Foto: reprodução/Ministério da Saúde"
-  },
-  {
-   "id": "manguezais-voltam",
-   "titulo": "Manguezais voltam a crescer no mundo depois de décadas de perda",
-   "resumo": "Imagens de satélite de 1984 a 2023 mostram que, após perder 3 mil km² até 2010, os manguezais ganharam quase 2 mil km² desde então. Um terço veio de restauração; em Mianmar, a área já cresceu 10%.",
-   "categoria": "meio-ambiente",
-   "regiao": "Mundo (ex.: Mianmar)",
-   "data": "2026-11-13",
-   "fonte": "NASA Earth Observatory",
-   "url": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
-   "pais": "Global",
-   "lat": 12.44,
-   "lon": 98.6,
-   "i18n": {
-    "es": {
-     "titulo": "Los manglares vuelven a crecer en el mundo tras décadas de pérdida",
-     "resumo": "Imágenes satelitales de 1984 a 2023 muestran que, tras perder 3.000 km² hasta 2010, los manglares ganaron casi 2.000 km² desde entonces. Un tercio vino de la restauración; en Myanmar, el área ya creció un 10%.",
-     "regiao": "Mundo (ej.: Myanmar)",
-     "pais": "Global"
-    },
-    "en": {
-     "titulo": "Mangroves are growing back worldwide after decades of loss",
-     "resumo": "Satellite images from 1984 to 2023 show that after losing 3,000 km² by 2010, mangroves have gained almost 2,000 km² since. A third came from restoration; Myanmar's have grown 10%.",
-     "regiao": "Worldwide (e.g. Myanmar)",
-     "pais": "Global"
-    }
-   },
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credito": "Imagem: NASA Earth Observatory/Michala Garrison"
-  },
-  {
-   "id": "emissoes-caem-27",
-   "titulo": "Brasil corta 27% das emissões de gases de efeito estufa em dois anos",
-   "resumo": "Segundo o inventário nacional, as emissões líquidas caíram de 2,07 para 1,51 bilhão de toneladas entre 2022 e 2024, principalmente pela queda do desmatamento.",
-   "categoria": "meio-ambiente",
-   "regiao": "Brasil",
-   "data": "2026-11-11",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/brasil-reduz-em-27-as-emissoes-de-gases-de-efeito-estufa-entre-2022-e-2024",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "Brasil recorta un 27% sus emisiones de gases de efecto invernadero en dos años",
-     "resumo": "Según el inventario nacional, las emisiones netas bajaron de 2,07 a 1,51 mil millones de toneladas entre 2022 y 2024, sobre todo por la caída de la deforestación.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil cuts greenhouse gas emissions by 27% in two years",
-     "resumo": "The national inventory shows net emissions fell from 2.07 to 1.51 billion tonnes between 2022 and 2024, mainly thanks to lower deforestation.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/brasil-reduz-em-27-as-emissoes-de-gases-de-efeito-estufa-entre-2022-e-2024/@@download/image/floresta.webp",
-   "credito": "Foto: Fabio Rodrigues-Pozzebom/Agência Brasil"
-  },
-  {
-   "id": "erva-bruxa-erradicada",
-   "titulo": "Plantação falsa engana praga e Austrália está perto de erradicá-la",
-   "resumo": "Para acabar com a erva-de-bruxa-vermelha, cientistas plantam soja que faz as sementes da praga brotarem sem ter onde se agarrar. A área afetada caiu de 110 para 4,3 hectares em 11 anos.",
-   "categoria": "ciencia",
-   "regiao": "Mackay (Queensland)",
-   "data": "2026-11-13",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/rural/2026-11-13/false-crops-trick-weed-into-killing-itself/107366184",
-   "pais": "Austrália",
-   "lat": -21.1,
-   "lon": 149.15,
-   "i18n": {
-    "es": {
-     "titulo": "Un cultivo falso engaña a una plaga y Australia está cerca de erradicarla",
-     "resumo": "Para eliminar la hierba bruja roja, los científicos siembran soja que hace germinar las semillas de la plaga sin un huésped al que aferrarse. El área afectada bajó de 110 a 4,3 hectáreas en 11 años.",
-     "regiao": "Mackay (Queensland)",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Decoy crops trick a weed into killing itself as Australia nears eradication",
-     "resumo": "To wipe out red witchweed, scientists plant soybeans that make its seeds sprout with no host to latch onto. The infested area shrank from 110 to 4.3 hectares in 11 years.",
-     "regiao": "Mackay (Queensland)",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/5adeadd48b2dc72a00f4395a60d62e17?impolicy=wcms_watermark_news&cropH=864&cropW=1536&xPos=0&yPos=592&width=862&height=485&imformat=generic",
-   "credito": "Foto: Biosecurity Queensland"
-  },
-  {
-   "id": "hipertensao-hormonal",
-   "titulo": "Tratamento curto pode reverter a causa hormonal de um tipo de pressão alta",
-   "resumo": "Em 14 pacientes, um remédio que bloqueia o excesso de aldosterona baixou a pressão em cerca de 25 pontos, e o efeito durou até dois anos após o fim do tratamento. Um estudo maior já está planejado.",
-   "categoria": "saude",
-   "regiao": "Londres",
-   "data": "2026-11-11",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/salud/ciencia/2026/11/11/descubren-como-un-tratamiento-breve-podria-revertir-el-origen-hormonal-de-un-tipo-de-hipertension/",
-   "pais": "Reino Unido",
-   "lat": 51.51,
-   "lon": -0.13,
-   "i18n": {
-    "es": {
-     "titulo": "Un tratamiento breve podría revertir el origen hormonal de un tipo de hipertensión",
-     "resumo": "En 14 pacientes, un fármaco que bloquea el exceso de aldosterona bajó la presión unos 25 puntos, y el efecto duró hasta dos años tras terminar. Ya se planea un estudio mayor.",
-     "regiao": "Londres",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "Short treatment may reverse the hormonal cause of one type of high blood pressure",
-     "resumo": "In 14 patients, a drug blocking excess aldosterone lowered blood pressure by about 25 points, with effects lasting up to two years after stopping. A larger trial is planned.",
-     "regiao": "London",
-     "pais": "UK"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/IOB6NY5C4NCK3CWZFDC3URDJSM.jpg?auth=e65922e0004a1e80ec7f8edb215992eccbb0ae1ce552d97711bfd8bfef14c8e2&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem ilustrativa: Infobae"
-  },
-  {
-   "id": "ela-exame-sangue",
-   "titulo": "Exame de sangue com 10 proteínas pode acelerar o diagnóstico de ELA",
-   "resumo": "Pesquisadores da Universidade Emory acertaram cerca de 98% dos casos ao separar pacientes com ELA de pessoas saudáveis. A ideia é usar o teste como primeiro filtro para encaminhar ao especialista.",
-   "categoria": "saude",
-   "regiao": "Atlanta",
-   "data": "2026-11-12",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/salud/ciencia/2026/11/12/identificaron-10-proteinas-en-sangre-que-podrian-mejorar-la-deteccion-de-la-ela-y-acelerar-el-diagnostico/",
-   "pais": "Estados Unidos",
-   "lat": 33.75,
-   "lon": -84.39,
-   "i18n": {
-    "es": {
-     "titulo": "Un análisis de sangre con 10 proteínas podría acelerar el diagnóstico de ELA",
-     "resumo": "Investigadores de la Universidad Emory acertaron cerca del 98% al distinguir pacientes con ELA de personas sanas. La idea es usarlo como primer filtro para derivar al especialista.",
-     "regiao": "Atlanta",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Blood test with 10 proteins could speed up ALS diagnosis",
-     "resumo": "Emory University researchers told ALS patients apart from healthy people with about 98% accuracy. The aim is a first screen to refer people to specialists sooner.",
-     "regiao": "Atlanta",
-     "pais": "USA"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/F4QRKT6HGNFNTOPU2HUX5SEAYQ.png?auth=6a0b4c8e544852d90c0caf23786050f6bd134ba9283c72ec21c251da2e1ebd80&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem ilustrativa: Infobae"
-  },
-  {
-   "id": "visao-bionica-ia",
-   "titulo": "Inteligência artificial ajusta implante que devolve flashes de visão a homem cego",
-   "resumo": "Um jovem de 27 anos que perdeu a visão recebeu um implante com 96 eletrodos no cérebro. A IA escolheu estímulos mais precisos e com menos corrente. Ainda é experimental: ele vê flashes e formas de luz.",
-   "categoria": "tecnologia",
-   "regiao": "Elche",
-   "data": "2026-11-12",
-   "fonte": "ScienceDaily / UC Santa Barbara",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm",
-   "pais": "Espanha",
-   "lat": 38.27,
-   "lon": -0.7,
-   "i18n": {
-    "es": {
-     "titulo": "La inteligencia artificial ajusta un implante que devuelve destellos de visión a un hombre ciego",
-     "resumo": "Un joven de 27 años que perdió la vista recibió un implante con 96 electrodos en el cerebro. La IA eligió estímulos más precisos y con menos corriente. Aún es experimental: ve destellos y formas de luz.",
-     "regiao": "Elche",
-     "pais": "España"
-    },
-    "en": {
-     "titulo": "AI fine-tunes a brain implant that gives a blind man flashes of sight",
-     "resumo": "A 27-year-old who lost his sight received a 96-electrode brain implant. AI picked more precise stimulation using less current. It's still experimental: he perceives flashes and shapes of light.",
-     "regiao": "Elche",
-     "pais": "Spain"
-    }
-   },
-   "img": "https://www.sciencedaily.com/images/1920/beyeler-bionic-eye.webp",
-   "credito": "Foto: Matt Perko/UC Santa Barbara"
-  },
-  {
-   "id": "virgilio-premio",
-   "titulo": "Professor da UFMG é o primeiro latino-americano a ganhar prêmio alemão de tecnologia e sociedade",
-   "resumo": "Virgílio Almeida recebeu o Prêmio Friedrich Schiedel, da Universidade Técnica de Munique, por seu trabalho sobre governança de algoritmos. O prêmio inclui 30 mil euros.",
-   "categoria": "tecnologia",
-   "regiao": "Belo Horizonte (MG)",
-   "data": "2026-11-11",
-   "fonte": "UFMG",
-   "url": "https://www.ufmg.br/comunicacao/noticias/pessoas/virgilio-almeida-vence-premio-alemao-de-ciencias-sociais-e-tecnologia/",
-   "pais": "Brasil",
-   "lat": -19.92,
-   "lon": -43.94,
-   "i18n": {
-    "es": {
-     "titulo": "Profesor de la UFMG es el primer latinoamericano en ganar un premio alemán de tecnología y sociedad",
-     "resumo": "Virgílio Almeida recibió el Premio Friedrich Schiedel, de la Universidad Técnica de Múnich, por su trabajo sobre gobernanza algorítmica. Incluye 30.000 euros.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian professor is first Latin American to win German technology and society prize",
-     "resumo": "UFMG's Virgílio Almeida won TU Munich's Friedrich Schiedel Prize for his work on algorithmic governance. It comes with €30,000.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.ufmg.br//app/uploads/2025/11/virgilio-864x445.jpg",
-   "credito": "Foto: Raphaella Dias/UFMG"
   },
   {
    "id": "catadoras-mangaba",
@@ -290,62 +350,6 @@
    },
    "img": "https://www.embrapa.br/image/journal/article?img_id=150047530&t=1794513450611",
    "credito": "Foto: Josué Francisco"
-  },
-  {
-   "id": "sus-prostata",
-   "titulo": "SUS passa de 1 milhão de tratamentos contra câncer de próstata por ano",
-   "resumo": "Quimioterapia, radioterapia e cirurgias pelo SUS cresceram 32,6% entre 2022 e 2025, segundo o Ministério da Saúde. A radioterapia foi a que mais aumentou: 44,9%.",
-   "categoria": "saude",
-   "regiao": "Brasil",
-   "data": "2026-11-12",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7537605-sus-ultrapassa-1-milhao-de-procedimentos-contra-cancer-de-prostata.html",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "El sistema público de salud supera 1 millón de tratamientos contra el cáncer de próstata al año",
-     "resumo": "Quimioterapia, radioterapia y cirugías crecieron un 32,6% entre 2022 y 2025, según el Ministerio de Salud. La radioterapia fue la que más aumentó: 44,9%.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil's public health system passes 1 million prostate cancer treatments a year",
-     "resumo": "Chemotherapy, radiotherapy and surgery rose 32.6% between 2022 and 2025, according to the Health Ministry. Radiotherapy grew most, by 44.9%.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/png/2026/04/16/675x450/1_image--18--66228058.png",
-   "credito": "Imagem: Ministério da Saúde"
-  },
-  {
-   "id": "bugios-novas-especies",
-   "titulo": "Ciência descreve duas novas espécies de bugio na Amazônia brasileira",
-   "resumo": "Com mais de 2 terabytes de dados genéticos, pesquisadores identificaram o Alouatta matogrossensis, no sul da Amazônia, e o Alouatta iroi, no noroeste. Em Alta Floresta (MT), uma ponte de dossel já é usada por fêmeas com filhotes.",
-   "categoria": "animais",
-   "regiao": "Amazônia (MT e AM)",
-   "data": "2026-11-11",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/short-article/2026/11/genetic-study-describes-two-new-species-of-amazonian-howler-monkeys/",
-   "pais": "Brasil",
-   "lat": -9.87,
-   "lon": -56.09,
-   "i18n": {
-    "es": {
-     "titulo": "La ciencia describe dos nuevas especies de mono aullador en la Amazonía brasileña",
-     "resumo": "Con más de 2 terabytes de datos genéticos, investigadores identificaron Alouatta matogrossensis, en el sur de la Amazonía, y Alouatta iroi, en el noroeste. En Alta Floresta (MT), un puente de dosel ya es usado por hembras con crías.",
-     "regiao": "Amazonía (MT y AM)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Scientists describe two new howler monkey species in the Brazilian Amazon",
-     "resumo": "Using over 2 terabytes of genetic data, researchers named Alouatta matogrossensis in the southern Amazon and Alouatta iroi in the northwest. In Alta Floresta, a canopy bridge is already used by mothers with babies.",
-     "regiao": "Amazon (Mato Grosso and Amazonas)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/11172447/bugio-ruivo4-1200x800.jpg",
-   "credito": "Foto: Kakau Oliveira"
   }
  ]
 }
