@@ -1,6 +1,321 @@
 {
- "atualizado": "2026-11-14",
+ "atualizado": "2026-11-15",
  "noticias": [
+  {
+   "id": "gato-bombeiros-lagoa",
+   "titulo": "Bombeiros atravessam lagoa a nado para salvar gato preso em paredão",
+   "resumo": "O gato estava preso numa fenda de uma pedreira desativada em Pernambuco. Os bombeiros Heitor Tabosa e Aniele Gomes nadaram até o paredão e, com corda e caixa de transporte, tiraram o animal, que voltou bem para a tutora.",
+   "categoria": "animais",
+   "regiao": "Pernambuco",
+   "data": "2026-11-12",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/pe-bombeiros-mergulham-em-lagoa-para-salvar-gato-preso-em-paredao",
+   "pais": "Brasil",
+   "destaque": true,
+   "i18n": {
+    "es": {
+     "titulo": "Bomberos cruzan una laguna a nado para salvar a un gato atrapado en un paredón",
+     "resumo": "El gato estaba atrapado en una grieta de una cantera abandonada en Pernambuco. Los bomberos Heitor Tabosa y Aniele Gomes nadaron hasta el paredón y, con cuerda y una caja de transporte, lo rescataron. Volvió bien con su tutora.",
+     "regiao": "Pernambuco",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Firefighters swim across a lagoon to save a cat stuck in a quarry wall",
+     "resumo": "The cat was trapped in a crack in a disused quarry in Pernambuco, Brazil. Firefighters Heitor Tabosa and Aniele Gomes swam to the wall and used a rope and carrier to bring it out. It went home safe to its owner.",
+     "regiao": "Pernambuco",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://i.metroimg.com/AetYc366mHHPdyR-GNV7sduclVK9QIJe8BlAgG6HQ5o/w:600/q:85/f:webp/plain/https://images.metroimg.com/2026/11/momento-em-que-gato-e-resgatado-pelos-bombeiros-militares.jpg",
+   "credito": "Foto: reprodução/Instagram @heitortabosa"
+  },
+  {
+   "id": "feel-harvard-cegos",
+   "titulo": "Argentino de 20 anos vence maratona em Harvard com aparelho que guia pessoas cegas",
+   "resumo": "Martín Pulitano e sua equipe ganharam o HackHarvard, entre mais de 500 participantes, com o FEEL: um protótipo de US$ 70 que usa IA e toques na pele para mostrar o que está à frente e ao lado. Agora querem testá-lo com pessoas cegas.",
+   "categoria": "tecnologia",
+   "regiao": "Buenos Aires / Harvard",
+   "data": "2026-11-13",
+   "fonte": "La Nación",
+   "url": "https://www.lanacion.com.ar/sociedad/tiene-20-anos-es-argentino-y-lo-premiaron-en-harvard-por-crear-un-dispositivo-con-inteligencia-nid13112026/",
+   "pais": "Argentina",
+   "destaque": true,
+   "lat": -34.6,
+   "lon": -58.38,
+   "i18n": {
+    "es": {
+     "titulo": "Un argentino de 20 años gana en Harvard con un dispositivo que orienta a personas ciegas",
+     "resumo": "Martín Pulitano y su equipo ganaron HackHarvard, entre más de 500 participantes, con FEEL: un prototipo de US$ 70 que usa IA y estímulos táctiles para indicar qué hay delante y al costado. Ahora buscan probarlo con personas ciegas.",
+     "regiao": "Buenos Aires / Harvard",
+     "pais": "Argentina"
+    },
+    "en": {
+     "titulo": "20-year-old Argentine wins at Harvard with a device that guides blind people",
+     "resumo": "Martín Pulitano and his team won HackHarvard, out of 500+ participants, with FEEL: a US$70 prototype that uses AI and touch to signal what's ahead and alongside. They now want blind people to test it.",
+     "regiao": "Buenos Aires / Harvard",
+     "pais": "Argentina"
+    }
+   },
+   "img": "https://www.lanacion.com.ar/resizer/v2/de-buenos-aires-a-harvard-la-historia-del-joven-N3PWZ2HRTRF5LFIWASLRW7HZFI.jpg?auth=c812c586710923548027c81f1ffb68968b39796949a894eca82029727fdccdef&width=1200&height=800&quality=70&smart=true",
+   "credito": "Foto: cortesia Martín Pulitano"
+  },
+  {
+   "id": "cachorro-cano-bh",
+   "titulo": "Filhote cai em ralo, percorre 30 metros de cano e é salvo pelos bombeiros",
+   "resumo": "Em Belo Horizonte, os bombeiros quebraram parte do concreto e cortaram o cano no ponto exato para alcançar o cachorrinho. Ele foi devolvido sem ferimentos ao tutor.",
+   "categoria": "animais",
+   "regiao": "Belo Horizonte (MG)",
+   "data": "2026-11-14",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/minas-gerais/bombeiros-resgatam-cachorro-que-caiu-em-ralo-e-percorreu-30m-dentro-de-cano",
+   "pais": "Brasil",
+   "lat": -19.86,
+   "lon": -43.95,
+   "i18n": {
+    "es": {
+     "titulo": "Un cachorro cae en un desagüe, recorre 30 metros de tubería y lo salvan los bomberos",
+     "resumo": "En Belo Horizonte, los bomberos rompieron parte del concreto y cortaron el tubo en el punto exacto para llegar al perrito. Fue devuelto ileso a su tutor.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Puppy falls down a drain, travels 30 metres of pipe and is saved by firefighters",
+     "resumo": "In Belo Horizonte, firefighters broke through concrete and cut the pipe at just the right spot to reach the puppy. It was returned unharmed to its owner.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://i.metroimg.com/wo9ha5M_srzmQPK9rg7ESayzYqAh18W7riCroG3VVVo/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/5170492153501781246-3x2-1.jpg",
+   "credito": "Foto: divulgação/CBMMG"
+  },
+  {
+   "id": "trabalhadores-resgatados-ba",
+   "titulo": "45 trabalhadores são libertados de condições degradantes em garimpo na Bahia",
+   "resumo": "A fiscalização do trabalho resgatou 45 pessoas num garimpo de quartzo na Chapada Diamantina. O empregador terá de registrá-las e pagar R$ 254 mil em verbas, e cada uma recebe seguro-desemprego e encaminhamento de saúde.",
+   "categoria": "sociedade",
+   "regiao": "Seabra (BA)",
+   "data": "2026-11-13",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/mte-resgata-45-trabalhadores-submetidos-a-condicoes-degradantes-em-garimpo-de-quartzo-na-bahia",
+   "pais": "Brasil",
+   "lat": -12.42,
+   "lon": -41.77,
+   "i18n": {
+    "es": {
+     "titulo": "Liberan a 45 trabajadores de condiciones degradantes en una mina de Bahía",
+     "resumo": "La inspección laboral rescató a 45 personas en una mina de cuarzo en la Chapada Diamantina. El empleador deberá registrarlas y pagar R$ 254 mil, y cada una recibe seguro de desempleo y atención de salud.",
+     "regiao": "Seabra (BA)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "45 workers freed from degrading conditions at a quartz mine in Bahia",
+     "resumo": "Labour inspectors rescued 45 people from a quartz mine in Chapada Diamantina. The employer must register them and pay R$254,000, and each gets unemployment benefit and health referrals.",
+     "regiao": "Seabra (BA)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/mte-resgata-45-trabalhadores-submetidos-a-condicoes-degradantes-em-garimpo-de-quartzo-na-bahia/@@download/image/images%20(2).jpeg",
+   "credito": "Foto: Agência Brasil/arquivo"
+  },
+  {
+   "id": "croche-mulheres-fortaleza",
+   "titulo": "Projeto em Fortaleza une artesãs num grande painel de crochê",
+   "resumo": "O Artesanias em Rede – Mulheres do Mar oferece 140 horas de formação a 240 mulheres de vários bairros. Começou com mães que queriam trabalhar em casa, e muitas já tiraram a carteira de artesã.",
+   "categoria": "sociedade",
+   "regiao": "Fortaleza (CE)",
+   "data": "2026-11-14",
+   "fonte": "O POVO",
+   "url": "https://mais.opovo.com.br/jornal/vidaearte/2026/11/14/projeto-em-fortaleza-une-artesas-para-producao-especial-de-croche.html",
+   "pais": "Brasil",
+   "lat": -3.73,
+   "lon": -38.53,
+   "i18n": {
+    "es": {
+     "titulo": "Un proyecto en Fortaleza une a artesanas en un gran panel de crochet",
+     "resumo": "Artesanias em Rede – Mulheres do Mar ofrece 140 horas de formación a 240 mujeres de varios barrios. Empezó con madres que querían trabajar desde casa, y muchas ya obtuvieron su carné de artesana.",
+     "regiao": "Fortaleza (CE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Fortaleza project brings women artisans together on a giant crochet piece",
+     "resumo": "Artesanias em Rede – Mulheres do Mar offers 140 hours of training to 240 women from across the city. It began with mothers who wanted to work from home, and many are now registered artisans.",
+     "regiao": "Fortaleza (CE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/12/1320x990/1_projeto_artistico_croche_10-43107104.jpg",
+   "credito": "Foto: Fernanda Barros/O POVO"
+  },
+  {
+   "id": "natal-sem-fome-2026",
+   "titulo": "Natal Sem Fome 2026 começa a arrecadar alimentos pelo país",
+   "resumo": "A Ação da Cidadania lançou a campanha deste ano. Em 2025, ela distribuiu mais de 5 mil toneladas de comida e ajudou mais de 2 milhões de pessoas. Dá para doar pelo site natalsemfome.org.br.",
+   "categoria": "sociedade",
+   "regiao": "Brasil",
+   "data": "2026-11-13",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7538380-natal-sem-fome-2026-lanca-mobilizacao-para-arrecadar-alimentos.html",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "Natal Sem Fome 2026 empieza a recolectar alimentos en todo Brasil",
+     "resumo": "Ação da Cidadania lanzó la campaña de este año. En 2025 distribuyó más de 5.000 toneladas de comida y ayudó a más de 2 millones de personas. Se puede donar en natalsemfome.org.br.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil's 'Christmas Without Hunger' 2026 food drive begins",
+     "resumo": "Ação da Cidadania launched this year's campaign. In 2025 it handed out more than 5,000 tonnes of food, helping over 2 million people. Donations at natalsemfome.org.br.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/13/675x450/1_whatsapp-image-2026-11-13-at-15-14-19--1--68218714.jpeg",
+   "credito": "Foto: material cedido ao Correio"
+  },
+  {
+   "id": "ecoparque-mendoza",
+   "titulo": "Antigo zoológico de Mendoza vira ecoparque focado no bem-estar animal",
+   "resumo": "Em dez anos, 2.011 animais saíram do local: 1.454 adotados, 488 levados a santuários e 69 devolvidos à natureza. Agora o espaço acolhe bichos resgatados do tráfico e de maus-tratos para reabilitá-los.",
+   "categoria": "animais",
+   "regiao": "Mendoza",
+   "data": "2026-11-14",
+   "fonte": "La Nación",
+   "url": "https://www.lanacion.com.ar/sociedad/tras-10-anos-de-espera-el-exzoo-de-mendoza-se-convirtio-en-ecoparque-pero-aun-quedan-mas-de-900-nid14112026/",
+   "pais": "Argentina",
+   "lat": -32.89,
+   "lon": -68.85,
+   "i18n": {
+    "es": {
+     "titulo": "El exzoo de Mendoza se convierte en un ecoparque centrado en el bienestar animal",
+     "resumo": "En diez años salieron 2.011 animales: 1.454 adoptados, 488 llevados a santuarios y 69 devueltos a la naturaleza. Ahora recibe animales rescatados del tráfico y del maltrato para rehabilitarlos.",
+     "regiao": "Mendoza",
+     "pais": "Argentina"
+    },
+    "en": {
+     "titulo": "Mendoza's old zoo becomes an eco-park focused on animal welfare",
+     "resumo": "Over ten years, 2,011 animals left the site: 1,454 adopted, 488 sent to sanctuaries and 69 returned to the wild. It now takes in animals rescued from trafficking and abuse to rehabilitate them.",
+     "regiao": "Mendoza",
+     "pais": "Argentina"
+    }
+   },
+   "img": "https://www.lanacion.com.ar/resizer/v2/algunos-de-los-animales-que-permanecen-en-el-IMQX3WFJJJHLHN4S27RWETRWZU.jpg?auth=0d0ebb423f1f69b5a42308de5e4ffff2a7059cf1586934b0b23df31bac927fe8&width=1200&height=800&quality=70&smart=true",
+   "credito": "Foto: La Nación"
+  },
+  {
+   "id": "ras-himalaia",
+   "titulo": "Cientistas descobrem cinco novas espécies de rãs no Himalaia",
+   "resumo": "Depois de cinco anos de campo, pesquisadores das universidades de Délhi e Harvard descreveram cinco minúsculas rãs-de-chifre. Uma delas é a primeira da Índia que come caracóis, e vários nomes homenageiam povos indígenas que ajudaram.",
+   "categoria": "ciencia",
+   "regiao": "Arunachal Pradesh",
+   "data": "2026-11-12",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/12/descubrieron-5-nuevas-especies-de-ranas-en-el-himalaya-oriental-y-ampliaron-el-conocimiento-sobre-su-biodiversidad/",
+   "pais": "Índia",
+   "lat": 28.2,
+   "lon": 94.7,
+   "i18n": {
+    "es": {
+     "titulo": "Científicos descubren cinco nuevas especies de ranas en el Himalaya",
+     "resumo": "Tras cinco años de campo, investigadores de las universidades de Delhi y Harvard describieron cinco diminutas ranas cornudas. Una es la primera de la India que come caracoles, y varios nombres honran a pueblos indígenas que ayudaron.",
+     "regiao": "Arunachal Pradesh",
+     "pais": "India"
+    },
+    "en": {
+     "titulo": "Scientists discover five new frog species in the Himalayas",
+     "resumo": "After five years of fieldwork, researchers from Delhi and Harvard universities described five tiny horned frogs. One is India's first known snail-eating frog, and several names honour Indigenous communities who helped.",
+     "regiao": "Arunachal Pradesh",
+     "pais": "India"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/AHYNYMTHDRHHFMUR3TBWK6VFCI.png?auth=6f4d02ef88172c39cf8fac9ae9b5e483e6084be620b97e111f1738b935c3edf7&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem: Royal Society Open Science"
+  },
+  {
+   "id": "raabia-hawa-premio",
+   "titulo": "Queniana que protege elefantes e o mar ganha prêmio de conservação",
+   "resumo": "Raabia Hawa, fundadora da Ulinzi Africa, recebeu o Prêmio Tusk 2026. O grupo começou com patrulhas contra a caça de elefantes e hoje combate a pesca de arrasto ilegal, que vinha matando tartarugas. O prêmio garante três anos de verba.",
+   "categoria": "meio-ambiente",
+   "regiao": "Lamu",
+   "data": "2026-11-15",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/targeted-by-al-shabaab-for-defending-kenyas-ecosystems-foundation-founder-gets-award/",
+   "pais": "Quênia",
+   "lat": -2.27,
+   "lon": 40.9,
+   "i18n": {
+    "es": {
+     "titulo": "Una keniana que protege elefantes y el mar gana un premio de conservación",
+     "resumo": "Raabia Hawa, fundadora de Ulinzi Africa, recibió el Premio Tusk 2026. El grupo empezó con patrullas contra la caza de elefantes y hoy combate la pesca de arrastre ilegal, que mataba tortugas. El premio asegura tres años de fondos.",
+     "regiao": "Lamu",
+     "pais": "Kenia"
+    },
+    "en": {
+     "titulo": "Kenyan defender of elephants and the sea wins conservation award",
+     "resumo": "Raabia Hawa, founder of Ulinzi Africa, won the 2026 Tusk Award. Her group began with anti-poaching patrols for elephants and now fights illegal trawling that was killing turtles. The award brings three years of funding.",
+     "regiao": "Lamu",
+     "pais": "Kenya"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/15020457/2S3A4056_PuQCwKvR-1200x800.jpg",
+   "credito": "Foto: Chris Jackson/Getty Images for Tusk"
+  },
+  {
+   "id": "carvao-africa-sul",
+   "titulo": "Justiça da África do Sul mantém veto a novas usinas a carvão",
+   "resumo": "O tribunal de apelação rejeitou o recurso do governo, e segue derrubado o plano de 1.500 MW de energia a carvão. A ação foi movida por ONGs em nome do direito das crianças a um ambiente saudável.",
+   "categoria": "meio-ambiente",
+   "regiao": "África do Sul",
+   "data": "2026-11-13",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/short-article/south-african-court-dismisses-appeal-over-planned-coal-fired-power-plants/",
+   "pais": "África do Sul",
+   "lat": -25.75,
+   "lon": 28.19,
+   "i18n": {
+    "es": {
+     "titulo": "La justicia de Sudáfrica mantiene el freno a nuevas centrales de carbón",
+     "resumo": "El tribunal de apelación rechazó el recurso del gobierno, y sigue anulado el plan de 1.500 MW de energía a carbón. La causa la impulsaron ONG en nombre del derecho de los niños a un ambiente sano.",
+     "regiao": "Sudáfrica",
+     "pais": "Sudáfrica"
+    },
+    "en": {
+     "titulo": "South African court upholds block on new coal power plants",
+     "resumo": "The appeal court dismissed the government's appeal, so the plan for 1,500 MW of new coal power stays struck down. NGOs brought the case on behalf of children's right to a healthy environment.",
+     "regiao": "South Africa",
+     "pais": "South Africa"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13212055/Kusilekragsentrale_Mpumalanga_2019_a-1200x800.jpg",
+   "credito": "Foto: JMK/Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "id": "euclid-mapa-3d",
+   "titulo": "Telescópio Euclid libera dados de 900 milhões de galáxias",
+   "resumo": "A ESA divulgou o primeiro grande pacote do Euclid, com 13 meses de observações: mais de 900 milhões de galáxias e 60 milhões de possíveis quasares. É a base do maior mapa 3D do Universo, aberto a cientistas do mundo todo.",
+   "categoria": "ciencia",
+   "regiao": "Espaço",
+   "data": "2026-11-12",
+   "fonte": "ESA",
+   "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-lays-the-foundation-for-its-best-ever-3d-map-of-the-universe",
+   "pais": "Europa",
+   "i18n": {
+    "es": {
+     "titulo": "El telescopio Euclid publica datos de 900 millones de galaxias",
+     "resumo": "La ESA publicó el primer gran paquete de Euclid, con 13 meses de observaciones: más de 900 millones de galaxias y 60 millones de posibles cuásares. Es la base del mayor mapa 3D del Universo, abierto a científicos de todo el mundo.",
+     "regiao": "Espacio",
+     "pais": "Europa"
+    },
+    "en": {
+     "titulo": "Euclid telescope releases data on 900 million galaxies",
+     "resumo": "ESA published Euclid's first major data batch, 13 months of observations: over 900 million galaxies and 60 million quasar candidates. It lays the groundwork for the best 3D map of the Universe, open to scientists worldwide.",
+     "regiao": "Space",
+     "pais": "Europe"
+    }
+   },
+   "img": "https://media.esa.int/global/public/common/image/2026/11/402228/image-thumb__402228__fit_large/5-euclid-ews-dr1-northpr-m81disk-r4-equ-10k6k-4k.cd774474.webp",
+   "credito": "Imagem: ESA/Euclid"
+  },
   {
    "id": "diabetes-visao-peptideo",
    "titulo": "Molécula pode ajudar a evitar a perda de visão causada pelo diabetes",
@@ -11,7 +326,6 @@
    "fonte": "Agência FAPESP",
    "url": "https://agencia.fapesp.br/index.php/estudo-identifica-molecula-com-potencial-de-prevenir-a-perda-de-visao-associada-ao-diabetes/59606",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -23.55,
    "lon": -46.64,
    "i18n": {
@@ -41,7 +355,6 @@
    "fonte": "Euronews",
    "url": "https://www.euronews.com/2026/11/12/treasures-for-the-entire-planet-scientists-map-life-in-one-of-the-worlds-last-wild-ecosyst",
    "pais": "Ilhas Marshall",
-   "destaque": true,
    "lat": 12.0,
    "lon": 169.0,
    "i18n": {
@@ -60,296 +373,6 @@
    },
    "img": "https://images.euronews.com/articles/stories/09/98/85/25/1200x675_cmsv2_de1eb910-e0dd-51fa-a1a0-e52cbc8352e9-9988525.jpg",
    "credito": "Foto: Manu San Félix"
-  },
-  {
-   "id": "mosaico-quilombola",
-   "titulo": "Mosaico da Mata Atlântica no Rio cresce e é o primeiro a incluir quilombos",
-   "resumo": "O Mosaico Central Fluminense foi ampliado de 22 para 86 áreas protegidas e se tornou o primeiro do país a reconhecer territórios quilombolas, como os de Petrópolis e Areal.",
-   "categoria": "meio-ambiente",
-   "regiao": "Rio de Janeiro (RJ)",
-   "data": "2026-11-11",
-   "fonte": "ICMBio",
-   "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/mosaico-mata-atlantica-central-fluminense-rj-e-ampliado-e-passa-a-ser-o-primeiro-do-pais-a-reconhecer-territorios-quilombolas",
-   "pais": "Brasil",
-   "lat": -22.5,
-   "lon": -43.18,
-   "i18n": {
-    "es": {
-     "titulo": "Un mosaico de Mata Atlántica en Río crece y es el primero en incluir quilombos",
-     "resumo": "El Mosaico Central Fluminense pasó de 22 a 86 áreas protegidas y se convirtió en el primero del país en reconocer territorios quilombolas, como los de Petrópolis y Areal.",
-     "regiao": "Rio de Janeiro (RJ)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Rio's Atlantic Forest mosaic grows and becomes first to include quilombo lands",
-     "resumo": "The Central Fluminense mosaic expanded from 22 to 86 protected areas and became Brazil's first to recognise quilombola territories, such as those in Petrópolis and Areal.",
-     "regiao": "Rio de Janeiro (RJ)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/mosaico-mata-atlantica-central-fluminense-rj-e-ampliado-e-passa-a-ser-o-primeiro-do-pais-a-reconhecer-territorios-quilombolas/copy_of_Site44.png/@@images/7a3b9622-c7c7-401c-8670-37ec5ee01e95.png",
-   "credito": "Foto: Ernesto Castro/ICMBio"
-  },
-  {
-   "id": "morcegos-mata-atlantica",
-   "titulo": "Morcegos frugívoros viram aliados para recuperar a Mata Atlântica",
-   "resumo": "Esses morcegos espalham sementes de mais de 140 plantas da floresta. Pesquisadores usaram aromas sintéticos de frutas para atraí-los a áreas degradadas, e 73,3% das sementes deixadas ali eram de espécies pioneiras.",
-   "categoria": "animais",
-   "regiao": "Paraná",
-   "data": "2026-11-13",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/fruit-bats-emerge-as-unlikely-allies-in-the-atlantic-forest-restoration/",
-   "pais": "Brasil",
-   "lat": -24.5,
-   "lon": -51.5,
-   "i18n": {
-    "es": {
-     "titulo": "Los murciélagos frugívoros se vuelven aliados para recuperar la Mata Atlántica",
-     "resumo": "Estos murciélagos dispersan semillas de más de 140 plantas del bosque. Los investigadores usaron aromas sintéticos de frutas para atraerlos a zonas degradadas, y el 73,3% de las semillas dejadas allí eran de especies pioneras.",
-     "regiao": "Paraná",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Fruit bats become allies in restoring Brazil's Atlantic Forest",
-     "resumo": "These bats spread seeds of more than 140 forest plants. Researchers used synthetic fruit scents to lure them to degraded land, and 73.3% of the seeds dropped there came from pioneer species.",
-     "regiao": "Paraná",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13100451/Artibeus_lituratus_Foto_Gledson-V.-Bianconi_PNG_REVISTA-1200x800.jpg",
-   "credito": "Foto: Gledson Vigiano Bianconi"
-  },
-  {
-   "id": "obesidade-estilo-vida",
-   "titulo": "Programa de estilo de vida melhora colesterol e fígado de pessoas com obesidade",
-   "resumo": "Num estudo com 200 adultos por 20 semanas no Hospital das Clínicas da USP, o programa reduziu o LDL e os triglicerídeos e melhorou o fígado. Entre quem completou, 25,4% perderam ao menos 5% do peso, contra 12,3%.",
-   "categoria": "saude",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-13",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/ciencias/mudanca-de-estilo-de-vida-melhora-colesterol-e-saude-do-figado-em-pessoas-com-obesidade/",
-   "pais": "Brasil",
-   "lat": -23.56,
-   "lon": -46.67,
-   "i18n": {
-    "es": {
-     "titulo": "Un programa de estilo de vida mejora el colesterol y el hígado de personas con obesidad",
-     "resumo": "En un estudio con 200 adultos durante 20 semanas en el Hospital das Clínicas de la USP, el programa redujo el LDL y los triglicéridos y mejoró el hígado. El 25,4% de quienes lo completaron perdió al menos un 5% del peso, frente al 12,3%.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Lifestyle programme improves cholesterol and liver health in people with obesity",
-     "resumo": "In a 20-week study of 200 adults at the University of São Paulo's hospital, the programme lowered LDL and triglycerides and improved liver health. Among completers, 25.4% lost at least 5% of their weight, versus 12.3%.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261111_garfo.jpg",
-   "credito": "Foto: Lisa Fotios/Pexels"
-  },
-  {
-   "id": "corvos-rapidos",
-   "titulo": "Corvos decidem duas vezes mais rápido que humanos, mostra estudo",
-   "resumo": "Em testes, gralhas-pretas levaram em média 235 milissegundos para decidir a direção de pontos em movimento, cerca de metade do tempo de humanos e macacos, sem perder precisão. O estudo saiu na revista Science.",
-   "categoria": "animais",
-   "regiao": "Tübingen",
-   "data": "2026-11-12",
-   "fonte": "ScienceDaily / Universidade de Tübingen",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261111005850.htm",
-   "pais": "Alemanha",
-   "lat": 48.52,
-   "lon": 9.06,
-   "i18n": {
-    "es": {
-     "titulo": "Los cuervos deciden el doble de rápido que los humanos, según un estudio",
-     "resumo": "En pruebas, cornejas negras tardaron de media 235 milisegundos en decidir la dirección de puntos en movimiento, cerca de la mitad que humanos y monos, sin perder precisión. El estudio salió en la revista Science.",
-     "regiao": "Tübingen",
-     "pais": "Alemania"
-    },
-    "en": {
-     "titulo": "Crows make decisions twice as fast as humans, study finds",
-     "resumo": "In tests, carrion crows took an average of 235 milliseconds to judge the direction of moving dots, about half the time of humans and monkeys, while staying accurate. The study was published in Science.",
-     "regiao": "Tübingen",
-     "pais": "Germany"
-    }
-   },
-   "img": "https://www.sciencedaily.com/images/1920/carrion-crow-corvus-corone-close-up.webp",
-   "credito": "Foto: Shutterstock"
-  },
-  {
-   "id": "malaria-genomas",
-   "titulo": "Cientistas decifram o DNA de dois tipos esquecidos de malária",
-   "resumo": "Pesquisadores montaram genomas de referência do P. ovale e do P. malariae a partir do sangue de pacientes no Mali. O avanço ajuda a criar testes e tratamentos para uma doença que teve 282 milhões de casos em 2024.",
-   "categoria": "ciencia",
-   "regiao": "Mali",
-   "data": "2026-11-12",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/ciencia-e-saude/2026/11/7537757-cientistas-decifram-o-dna-de-especies-negligenciadas-da-malaria.html",
-   "pais": "Mali",
-   "lat": 12.64,
-   "lon": -8.0,
-   "i18n": {
-    "es": {
-     "titulo": "Científicos descifran el ADN de dos tipos olvidados de malaria",
-     "resumo": "Investigadores armaron genomas de referencia de P. ovale y P. malariae a partir de la sangre de pacientes en Malí. El avance ayuda a crear pruebas y tratamientos para una enfermedad con 282 millones de casos en 2024.",
-     "regiao": "Mali",
-     "pais": "Malí"
-    },
-    "en": {
-     "titulo": "Scientists decode the DNA of two neglected malaria parasites",
-     "resumo": "Researchers built reference genomes for P. ovale and P. malariae from patients' blood in Mali. It helps develop tests and treatments for a disease with 282 million cases in 2024.",
-     "regiao": "Mali",
-     "pais": "Mali"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/12/675x450/1_7537757-8463ede1135b430c9f4285c07391fcf4-68210147.jpg",
-   "credito": "Imagem: Flow"
-  },
-  {
-   "id": "avc-asundexiana",
-   "titulo": "Nova pílula diária para prevenir um segundo AVC é aprovada nos EUA",
-   "resumo": "A agência americana FDA aprovou a asundexiana, um anticoagulante de dose única diária para reduzir o risco de novo AVC, após resultados positivos num estudo global de fase 3. Cerca de 1 em 5 sobreviventes tem outro AVC em cinco anos.",
-   "categoria": "saude",
-   "regiao": "Estados Unidos",
-   "data": "2026-11-12",
-   "fonte": "New Atlas",
-   "url": "https://newatlas.com/stroke/stroke-prevention-approved-fda/",
-   "pais": "Estados Unidos",
-   "lat": 38.9,
-   "lon": -77.03,
-   "i18n": {
-    "es": {
-     "titulo": "Aprueban en EE. UU. una nueva píldora diaria para prevenir un segundo ACV",
-     "resumo": "La FDA aprobó la asundexiana, un anticoagulante de una toma diaria para reducir el riesgo de un nuevo ACV, tras resultados positivos en un estudio global de fase 3. Cerca de 1 de cada 5 sobrevivientes sufre otro en cinco años.",
-     "regiao": "Estados Unidos",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "New daily pill to prevent a second stroke approved in the US",
-     "resumo": "The FDA approved asundexian, a once-daily blood thinner to reduce the risk of another stroke, after positive results in a global Phase 3 trial. About one in five stroke survivors has another within five years.",
-     "regiao": "USA",
-     "pais": "USA"
-    }
-   },
-   "img": "https://assets.newatlas.com/dims4/default/22b3992/2147483647/strip/true/crop/2048x1075+0+145/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F5f%2Fbf%2F34b540d24769bcb10267b6a8a41b%2Fstroke.jpeg",
-   "credito": "Imagem: New Atlas"
-  },
-  {
-   "id": "chips-magnetismo",
-   "titulo": "Material ultrafino pode levar a chips de IA que gastam bem menos energia",
-   "resumo": "Pesquisadores da Brown criaram filmes de ferrita de bismuto com poucos ângstrons que mantêm propriedades elétricas e magnéticas. Ainda é pesquisa de laboratório, mas abre caminho para eletrônicos mais econômicos.",
-   "categoria": "tecnologia",
-   "regiao": "Providence (Rhode Island)",
-   "data": "2026-11-12",
-   "fonte": "ScienceDaily / Brown University",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
-   "pais": "Estados Unidos",
-   "lat": 41.83,
-   "lon": -71.4,
-   "i18n": {
-    "es": {
-     "titulo": "Un material ultrafino podría llevar a chips de IA que gasten mucha menos energía",
-     "resumo": "Investigadores de Brown crearon películas de ferrita de bismuto de pocos ángstroms que conservan propiedades eléctricas y magnéticas. Aún es investigación de laboratorio, pero abre el camino a electrónicos más eficientes.",
-     "regiao": "Providence (Rhode Island)",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Ultrathin material could lead to far more energy-efficient AI chips",
-     "resumo": "Brown researchers made bismuth ferrite films just a few ångströms thick that keep their electric and magnetic properties. It's still lab research, but it points to more efficient electronics.",
-     "regiao": "Providence (Rhode Island)",
-     "pais": "USA"
-    }
-   },
-   "img": "https://www.sciencedaily.com/images/1920/multiferroic-material-three-layer-system.webp",
-   "credito": "Imagem: Caretta Lab/Brown University"
-  },
-  {
-   "id": "revista-crooked",
-   "titulo": "Escritores criam revista para acolher a comunidade LGBTQIA+ de Townsville",
-   "resumo": "P. Eldridge e Michael Smith lançam a CROOKED, publicação independente feita pela comunidade queer da cidade australiana. Oficinas de escrita já trouxeram novos participantes, como Lij Bolden.",
-   "categoria": "sociedade",
-   "regiao": "Townsville (Queensland)",
-   "data": "2026-11-14",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-14/townsville-creatives-queer-community-writing/107106238",
-   "pais": "Austrália",
-   "lat": -19.26,
-   "lon": 146.82,
-   "i18n": {
-    "es": {
-     "titulo": "Escritores crean una revista para acoger a la comunidad LGBTQIA+ de Townsville",
-     "resumo": "P. Eldridge y Michael Smith lanzan CROOKED, una publicación independiente hecha por la comunidad queer de la ciudad australiana. Los talleres de escritura ya sumaron nuevos participantes, como Lij Bolden.",
-     "regiao": "Townsville (Queensland)",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Writers launch a magazine to bring Townsville's queer community together",
-     "resumo": "P. Eldridge and Michael Smith are launching CROOKED, an independent publication made by the Australian city's queer community. Writing workshops have already drawn in newcomers like Lij Bolden.",
-     "regiao": "Townsville (Queensland)",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/435f4f30880760a3778cdf12bfc7cb8d?impolicy=wcms_watermark_news&cropH=2484&cropW=4416&xPos=292&yPos=0&width=862&height=485&imformat=generic",
-   "credito": "Foto: Emma Jones/ABC News"
-  },
-  {
-   "id": "william-resgatado",
-   "titulo": "Adolescente perdido há seis dias na mata é encontrado vivo na Austrália",
-   "resumo": "William, de 17 anos, sumiu na primeira viagem de acampamento sozinho. Depois de uma busca com centenas de pessoas, um helicóptero da polícia o achou dormindo num leito de rio seco. Ele está bem e reencontrou a mãe.",
-   "categoria": "sociedade",
-   "regiao": "Gippsland (Victoria)",
-   "data": "2026-11-12",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-12/missing-teenager-william-found-gippsland-bush/107372518",
-   "pais": "Austrália",
-   "lat": -37.94,
-   "lon": 146.45,
-   "i18n": {
-    "es": {
-     "titulo": "Encuentran con vida a un adolescente perdido seis días en el monte australiano",
-     "resumo": "William, de 17 años, desapareció en su primer campamento solo. Tras una búsqueda con cientos de personas, un helicóptero policial lo halló dormido en un cauce seco. Está bien y se reencontró con su madre.",
-     "regiao": "Gippsland (Victoria)",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Teenager lost in the bush for six days found alive in Australia",
-     "resumo": "William, 17, went missing on his first solo camping trip. After a search involving hundreds of people, a police helicopter spotted him asleep in a dry riverbed. He is well and back with his mum.",
-     "regiao": "Gippsland (Victoria)",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/b10e92a48e8b9a3d31dc7be27f7fc6fd?impolicy=wcms_watermark_news&cropH=689&cropW=1225&xPos=373&yPos=220&width=862&height=485&imformat=generic",
-   "credito": "Imagem: ABC News"
-  },
-  {
-   "id": "catadoras-mangaba",
-   "titulo": "Tese sobre catadoras de mangaba de Aracaju ganha prêmio da USP",
-   "resumo": "O estudo de Raquel Rodrigues, da Embrapa, mostra a luta das catadoras do bairro Santa Maria pelo seu território. A autora diz que o prêmio é coletivo e divide o reconhecimento com a comunidade.",
-   "categoria": "sociedade",
-   "regiao": "Aracaju (SE)",
-   "data": "2026-11-12",
-   "fonte": "Embrapa",
-   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/150047529/tese-sobre-catadoras-de-mangaba-de-aracaju-vence-premio-da-usp",
-   "pais": "Brasil",
-   "lat": -10.91,
-   "lon": -37.07,
-   "i18n": {
-    "es": {
-     "titulo": "Una tesis sobre recolectoras de mangaba de Aracaju gana un premio de la USP",
-     "resumo": "El estudio de Raquel Rodrigues, de Embrapa, muestra la lucha de las recolectoras del barrio Santa Maria por su territorio. La autora dice que el premio es colectivo y lo comparte con la comunidad.",
-     "regiao": "Aracaju (SE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Thesis on Aracaju's mangaba fruit gatherers wins a University of São Paulo award",
-     "resumo": "Embrapa's Raquel Rodrigues studied how the women gatherers of Santa Maria defend their traditional land. She says the prize is shared with the community.",
-     "regiao": "Aracaju (SE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.embrapa.br/image/journal/article?img_id=150047530&t=1794513450611",
-   "credito": "Foto: Josué Francisco"
   }
  ]
 }
