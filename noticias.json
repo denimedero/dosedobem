@@ -1,6 +1,269 @@
 {
- "atualizado": "2026-11-15",
+ "atualizado": "2026-11-16",
  "noticias": [
+  {
+   "id": "fisica-vinicius-ouro",
+   "titulo": "Cearense ganha ouro em competição mundial de física com 104 países",
+   "resumo": "Vinícius Ferreira Rodrigues, de 24 anos, ficou em terceiro no mundo na categoria universitária da Physics Cup 2026, o melhor resultado de um brasileiro na prova. Ex-aluno da USP São Carlos, hoje faz doutorado com bolsa integral nos EUA.",
+   "categoria": "sociedade",
+   "regiao": "Fortaleza (CE)",
+   "data": "2026-11-15",
+   "fonte": "O POVO",
+   "url": "https://mais.opovo.com.br/jornal/farol/2026/11/15/vinicius-ferreira-da-turma-olimpica-no-ceara-ao-podio-mundial-da-fisica.html",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -3.73,
+   "lon": -38.52,
+   "i18n": {
+    "es": {
+     "titulo": "Un joven de Ceará gana oro en una competencia mundial de física con 104 países",
+     "resumo": "Vinícius Ferreira Rodrigues, de 24 años, quedó tercero del mundo en la categoría universitaria de la Physics Cup 2026, el mejor resultado de un brasileño. Exalumno de la USP São Carlos, hoy hace un doctorado con beca completa en EE. UU.",
+     "regiao": "Fortaleza (CE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian student wins gold in a world physics contest with 104 countries",
+     "resumo": "Vinícius Ferreira Rodrigues, 24, placed third worldwide in the university category of Physics Cup 2026, the best result ever by a Brazilian. A former USP São Carlos student, he is now on a fully funded PhD track in the US.",
+     "regiao": "Fortaleza (CE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.opovo.com.br/_midias/jpg/2026/10/29/vinicius_estudante_fisica_eua_ce-43012855.jpg",
+   "credito": "Foto: reprodução/arquivo pessoal"
+  },
+  {
+   "id": "tartaruga-shaggy",
+   "titulo": "Voluntária dirige 1.400 km para salvar filhote de tartaruga encalhado",
+   "resumo": "Coberta de algas, a tartaruga-cabeçuda Shaggy foi achada boiando em Esperance. A cuidadora Letesha Heslewood rodou quase 700 km em cada sentido para levá-la à reabilitação em Bunbury. Ela deve voltar ao mar em abril, em Ningaloo.",
+   "categoria": "animais",
+   "regiao": "Esperance (Austrália Ocidental)",
+   "data": "2026-11-16",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-16/wildlife-carer-road-trip-stranded-loggerhead-turtle-esperance/107384666",
+   "pais": "Austrália",
+   "destaque": true,
+   "lat": -33.86,
+   "lon": 121.89,
+   "i18n": {
+    "es": {
+     "titulo": "Una voluntaria maneja 1.400 km para salvar a una tortuga varada",
+     "resumo": "Cubierta de algas, la tortuga boba Shaggy apareció flotando en Esperance. La cuidadora Letesha Heslewood recorrió casi 700 km de ida y otros tantos de vuelta para llevarla a rehabilitación en Bunbury. Volverá al mar en abril, en Ningaloo.",
+     "regiao": "Esperance (Australia Occidental)",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Wildlife carer drives 1,400 km to save a stranded baby turtle",
+     "resumo": "Covered in algae, loggerhead turtle Shaggy was found floating off Esperance. Carer Letesha Heslewood drove nearly 700 km each way to take him to rehab in Bunbury. He's due to be released at Ningaloo in April.",
+     "regiao": "Esperance (Western Australia)",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/646c6e3524422f15dd403146267a783f?impolicy=wcms_watermark_news&cropH=659&cropW=1171&xPos=0&yPos=322&width=862&height=485&imformat=generic",
+   "credito": "Foto: Dolphin Discovery Centre"
+  },
+  {
+   "id": "boi-vala-varzelandia",
+   "titulo": "Bombeiros passam quatro horas para tirar boi de vala no norte de Minas",
+   "resumo": "O animal estava sumido havia um dia e caiu numa vala de 2 metros. Com uma pá carregadeira e cabos, os bombeiros de Januária o içaram vivo, e ele foi entregue ao dono para cuidados veterinários.",
+   "categoria": "animais",
+   "regiao": "Varzelândia (MG)",
+   "data": "2026-11-15",
+   "fonte": "Estado de Minas",
+   "url": "https://www.em.com.br/gerais/2026/11/7538850-boi-cai-em-vala-na-zona-rural-de-minas-e-e-resgatado-com-trator.html",
+   "pais": "Brasil",
+   "lat": -15.67,
+   "lon": -44.03,
+   "i18n": {
+    "es": {
+     "titulo": "Bomberos trabajan cuatro horas para sacar a un buey de una zanja en Minas Gerais",
+     "resumo": "El animal llevaba un día desaparecido y cayó en una zanja de 2 metros. Con una pala cargadora y cables, los bomberos de Januária lo sacaron con vida y lo entregaron a su dueño para atención veterinaria.",
+     "regiao": "Varzelândia (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Firefighters spend four hours lifting an ox out of a ditch in Brazil",
+     "resumo": "Missing for a day, the animal had fallen into a 2-metre ditch. Using a front loader and cables, firefighters from Januária lifted it out alive and handed it to its owner for vet care.",
+     "regiao": "Varzelândia (MG)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.em.com.br/_midias/jpg/2026/11/15/1000x1000/1_15-resgate-boi-ed-68225720.jpg",
+   "credito": "Foto: CBMMG"
+  },
+  {
+   "id": "vanuatu-luz-mulheres",
+   "titulo": "Mulheres de vilarejo em Vanuatu levam luz solar a 120 casas",
+   "resumo": "Lideradas por Dalila Laus Lalulu, as mulheres de Lawital trocaram velas por energia solar, instalaram postes e lanternas e passaram a se sentir mais seguras à noite. Muitas começaram a trabalhar, e Dalila será premiada na COP31.",
+   "categoria": "sociedade",
+   "regiao": "Ilha de Tanna",
+   "data": "2026-11-16",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-16/vanuatu-women-using-light-to-reduce-male-violence/107316976",
+   "pais": "Vanuatu",
+   "lat": -19.53,
+   "lon": 169.27,
+   "i18n": {
+    "es": {
+     "titulo": "Mujeres de una aldea de Vanuatu llevan luz solar a 120 casas",
+     "resumo": "Lideradas por Dalila Laus Lalulu, las mujeres de Lawital cambiaron velas por energía solar, instalaron farolas y linternas y ahora se sienten más seguras de noche. Muchas empezaron a trabajar, y Dalila será premiada en la COP31.",
+     "regiao": "Isla Tanna",
+     "pais": "Vanuatu"
+    },
+    "en": {
+     "titulo": "Village women in Vanuatu bring solar light to 120 homes",
+     "resumo": "Led by Dalila Laus Lalulu, Lawital's women swapped candles for solar power, installed street lights and lanterns and now feel safer at night. Many have taken up paid work, and Dalila will be honoured at COP31.",
+     "regiao": "Tanna Island",
+     "pais": "Vanuatu"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/7f1a7ad855dc9799117995d86444cb96?impolicy=wcms_watermark_news&cropH=900&cropW=1600&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "Foto: AIFFP"
+  },
+  {
+   "id": "queijo-coalho-recorde",
+   "titulo": "Produtores do Ceará fazem o maior queijo coalho do mundo: 4 toneladas",
+   "resumo": "Pequenos produtores de leite de Quixeramobim, reunidos na Unileite, criaram uma peça de 4.006 kg e bateram o recorde, superando os 3.519 kg de Jaguaribe.",
+   "categoria": "sociedade",
+   "regiao": "Quixeramobim (CE)",
+   "data": "2026-11-15",
+   "fonte": "O POVO",
+   "url": "https://www.opovo.com.br/noticias/ceara/quixeramobim/2026/11/15/quixeramobim-retoma-o-titulo-de-maior-queijo-coalho-do-mundo.html",
+   "pais": "Brasil",
+   "lat": -5.2,
+   "lon": -39.29,
+   "i18n": {
+    "es": {
+     "titulo": "Productores de Ceará hacen el queso coalho más grande del mundo: 4 toneladas",
+     "resumo": "Pequeños productores lecheros de Quixeramobim, unidos en Unileite, crearon una pieza de 4.006 kg y batieron el récord, superando los 3.519 kg de Jaguaribe.",
+     "regiao": "Quixeramobim (CE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian dairy farmers make the world's biggest coalho cheese: 4 tonnes",
+     "resumo": "Small dairy producers in Quixeramobim, Ceará, working together as Unileite, made a 4,006 kg cheese, beating the previous 3,519 kg record.",
+     "regiao": "Quixeramobim (CE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/15/856x642/1_maior_queijo-43130671.jpg",
+   "credito": "Foto: reprodução/RankBrasil"
+  },
+  {
+   "id": "alunos-arvores-asa-norte",
+   "titulo": "Alunos viram professores e ensinam sobre árvores numa praça de Brasília",
+   "resumo": "Estudantes do CEF 104 Norte pesquisaram as espécies da Praça da Harmonia Universal, como pau-brasil e jatobá, e deram uma aula aberta à comunidade. O projeto continua o cuidado de Mestre Woo, que zelou pela praça por 52 anos.",
+   "categoria": "meio-ambiente",
+   "regiao": "Brasília (DF)",
+   "data": "2026-11-14",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/11/7538078-alunos-viram-professores-e-ensinam-sobre-arvores-em-praca-da-asa-norte.html",
+   "pais": "Brasil",
+   "lat": -15.76,
+   "lon": -47.88,
+   "i18n": {
+    "es": {
+     "titulo": "Alumnos se vuelven maestros y enseñan sobre árboles en una plaza de Brasilia",
+     "resumo": "Estudiantes del CEF 104 Norte investigaron las especies de la Plaza de la Armonía Universal, como el palo brasil y el jatobá, y dieron una clase abierta. El proyecto continúa el cuidado del Maestro Woo, que cuidó la plaza 52 años.",
+     "regiao": "Brasília (DF)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Students become teachers, giving tree lessons in a Brasília square",
+     "resumo": "Pupils at CEF 104 Norte researched the square's species, such as brazilwood and jatobá, and led an open class for the community. The project carries on the work of Master Woo, who tended the square for 52 years.",
+     "regiao": "Brasília (DF)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/13/675x450/1_whatsapp-image-2026-11-13-at-10-40-47--1--68215229.jpeg",
+   "credito": "Foto: Davi Cruz/CB/D.A Press"
+  },
+  {
+   "id": "arte-kakadu",
+   "titulo": "Artista indígena de Kakadu vende obras antes mesmo de terminá-las",
+   "resumo": "Ivan Namarnyilk pinta no centro cultural Marrawuddi, onde turistas disputam seus quadros. As vendas sustentam a família e o centro, que em 25 anos já ajudou mais de 500 artistas indígenas. Ele diz que quer passar a cultura adiante.",
+   "categoria": "sociedade",
+   "regiao": "Jabiru (Kakadu)",
+   "data": "2026-11-16",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-16/nt-kakadu-artist-ivan-namarnyilk-solo-exhibition/107381784",
+   "pais": "Austrália",
+   "lat": -12.66,
+   "lon": 132.89,
+   "i18n": {
+    "es": {
+     "titulo": "Un artista indígena de Kakadu vende sus obras antes de terminarlas",
+     "resumo": "Ivan Namarnyilk pinta en el centro cultural Marrawuddi, donde los turistas se disputan sus cuadros. Las ventas sostienen a su familia y al centro, que en 25 años ayudó a más de 500 artistas indígenas. Quiere transmitir su cultura.",
+     "regiao": "Jabiru (Kakadu)",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Kakadu Indigenous artist sells paintings before they're even finished",
+     "resumo": "Ivan Namarnyilk paints at the Marrawuddi centre, where tourists snap up his work. Sales support his family and the centre, which has helped over 500 Indigenous artists in 25 years. He wants to pass his culture on.",
+     "regiao": "Jabiru (Kakadu)",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/10ee2edf34275c07309971b266577a45?impolicy=wcms_watermark_news&cropH=2592&cropW=4608&xPos=0&yPos=240&width=862&height=485&imformat=generic",
+   "credito": "Foto: Dane Hirst/ABC News"
+  },
+  {
+   "id": "china-carvao-cai",
+   "titulo": "Carvão cai para menos da metade da eletricidade da China",
+   "resumo": "No primeiro semestre de 2026, o carvão gerou 49,7% da energia elétrica chinesa, e as emissões de CO2 parecem ter estabilizado ou caído, graças a solar, eólica, carros elétricos e baterias. Novas usinas a carvão ainda são construídas.",
+   "categoria": "meio-ambiente",
+   "regiao": "China",
+   "data": "2026-11-15",
+   "fonte": "BBC News Brasil (via Terra)",
+   "url": "https://www.terra.com.br/noticias/mundo/como-china-finalmente-reduziu-emissao-de-poluentes-e-planeja-revolucao-de-energias-renovaveis,0634d9073b7acf7799ec2abfd40f8523a7uy2bmr.html",
+   "pais": "China",
+   "lat": 35.86,
+   "lon": 104.19,
+   "i18n": {
+    "es": {
+     "titulo": "El carbón cae a menos de la mitad de la electricidad de China",
+     "resumo": "En el primer semestre de 2026, el carbón generó el 49,7% de la electricidad china, y las emisiones de CO2 parecen haberse estabilizado o bajado gracias a la solar, la eólica, los autos eléctricos y las baterías. Aún se construyen centrales de carbón.",
+     "regiao": "China",
+     "pais": "China"
+    },
+    "en": {
+     "titulo": "Coal falls below half of China's electricity",
+     "resumo": "In the first half of 2026, coal produced 49.7% of China's power, and CO2 emissions appear to have plateaued or fallen thanks to solar, wind, EVs and batteries. New coal plants are still being built.",
+     "regiao": "China",
+     "pais": "China"
+    }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/15/879929861-0ece5030-e119-11f1-a7db-d90284d21c62.jpg",
+   "credito": "Foto: Getty Images/BBC News Brasil"
+  },
+  {
+   "id": "coluna-zebrafish",
+   "titulo": "Remédio para osteoporose bloqueia fusão da coluna em peixes",
+   "resumo": "Cientistas de Edimburgo e Bristol viram que um remédio já usado contra osteoporose impediu o acúmulo anormal de minerais que solda a coluna em peixes-zebra com um gene alterado. O resultado ainda precisa ser confirmado em pessoas.",
+   "categoria": "ciencia",
+   "regiao": "Edimburgo",
+   "data": "2026-11-15",
+   "fonte": "ScienceDaily / Universidade de Edimburgo",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
+   "pais": "Reino Unido",
+   "lat": 55.95,
+   "lon": -3.19,
+   "i18n": {
+    "es": {
+     "titulo": "Un fármaco para la osteoporosis bloquea la fusión de la columna en peces",
+     "resumo": "Científicos de Edimburgo y Bristol vieron que un fármaco ya usado contra la osteoporosis impidió la acumulación anormal de minerales que suelda la columna en peces cebra con un gen alterado. Aún debe confirmarse en personas.",
+     "regiao": "Edimburgo",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Osteoporosis drug stops spinal fusion in fish",
+     "resumo": "Edinburgh and Bristol scientists found an existing osteoporosis drug blocked the abnormal mineral build-up that fuses the spine in zebrafish with a faulty gene. It still needs confirming in people.",
+     "regiao": "Edinburgh",
+     "pais": "UK"
+    }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/radiograph-x-ray-back-bone-spinal-pain.webp",
+   "credito": "Imagem: Shutterstock"
+  },
   {
    "id": "gato-bombeiros-lagoa",
    "titulo": "Bombeiros atravessam lagoa a nado para salvar gato preso em paredão",
@@ -11,7 +274,6 @@
    "fonte": "Metrópoles",
    "url": "https://www.metropoles.com/brasil/pe-bombeiros-mergulham-em-lagoa-para-salvar-gato-preso-em-paredao",
    "pais": "Brasil",
-   "destaque": true,
    "i18n": {
     "es": {
      "titulo": "Bomberos cruzan una laguna a nado para salvar a un gato atrapado en un paredón",
@@ -39,7 +301,6 @@
    "fonte": "La Nación",
    "url": "https://www.lanacion.com.ar/sociedad/tiene-20-anos-es-argentino-y-lo-premiaron-en-harvard-por-crear-un-dispositivo-con-inteligencia-nid13112026/",
    "pais": "Argentina",
-   "destaque": true,
    "lat": -34.6,
    "lon": -58.38,
    "i18n": {
@@ -58,93 +319,6 @@
    },
    "img": "https://www.lanacion.com.ar/resizer/v2/de-buenos-aires-a-harvard-la-historia-del-joven-N3PWZ2HRTRF5LFIWASLRW7HZFI.jpg?auth=c812c586710923548027c81f1ffb68968b39796949a894eca82029727fdccdef&width=1200&height=800&quality=70&smart=true",
    "credito": "Foto: cortesia Martín Pulitano"
-  },
-  {
-   "id": "cachorro-cano-bh",
-   "titulo": "Filhote cai em ralo, percorre 30 metros de cano e é salvo pelos bombeiros",
-   "resumo": "Em Belo Horizonte, os bombeiros quebraram parte do concreto e cortaram o cano no ponto exato para alcançar o cachorrinho. Ele foi devolvido sem ferimentos ao tutor.",
-   "categoria": "animais",
-   "regiao": "Belo Horizonte (MG)",
-   "data": "2026-11-14",
-   "fonte": "Metrópoles",
-   "url": "https://www.metropoles.com/minas-gerais/bombeiros-resgatam-cachorro-que-caiu-em-ralo-e-percorreu-30m-dentro-de-cano",
-   "pais": "Brasil",
-   "lat": -19.86,
-   "lon": -43.95,
-   "i18n": {
-    "es": {
-     "titulo": "Un cachorro cae en un desagüe, recorre 30 metros de tubería y lo salvan los bomberos",
-     "resumo": "En Belo Horizonte, los bomberos rompieron parte del concreto y cortaron el tubo en el punto exacto para llegar al perrito. Fue devuelto ileso a su tutor.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Puppy falls down a drain, travels 30 metres of pipe and is saved by firefighters",
-     "resumo": "In Belo Horizonte, firefighters broke through concrete and cut the pipe at just the right spot to reach the puppy. It was returned unharmed to its owner.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://i.metroimg.com/wo9ha5M_srzmQPK9rg7ESayzYqAh18W7riCroG3VVVo/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/5170492153501781246-3x2-1.jpg",
-   "credito": "Foto: divulgação/CBMMG"
-  },
-  {
-   "id": "trabalhadores-resgatados-ba",
-   "titulo": "45 trabalhadores são libertados de condições degradantes em garimpo na Bahia",
-   "resumo": "A fiscalização do trabalho resgatou 45 pessoas num garimpo de quartzo na Chapada Diamantina. O empregador terá de registrá-las e pagar R$ 254 mil em verbas, e cada uma recebe seguro-desemprego e encaminhamento de saúde.",
-   "categoria": "sociedade",
-   "regiao": "Seabra (BA)",
-   "data": "2026-11-13",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/mte-resgata-45-trabalhadores-submetidos-a-condicoes-degradantes-em-garimpo-de-quartzo-na-bahia",
-   "pais": "Brasil",
-   "lat": -12.42,
-   "lon": -41.77,
-   "i18n": {
-    "es": {
-     "titulo": "Liberan a 45 trabajadores de condiciones degradantes en una mina de Bahía",
-     "resumo": "La inspección laboral rescató a 45 personas en una mina de cuarzo en la Chapada Diamantina. El empleador deberá registrarlas y pagar R$ 254 mil, y cada una recibe seguro de desempleo y atención de salud.",
-     "regiao": "Seabra (BA)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "45 workers freed from degrading conditions at a quartz mine in Bahia",
-     "resumo": "Labour inspectors rescued 45 people from a quartz mine in Chapada Diamantina. The employer must register them and pay R$254,000, and each gets unemployment benefit and health referrals.",
-     "regiao": "Seabra (BA)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/mte-resgata-45-trabalhadores-submetidos-a-condicoes-degradantes-em-garimpo-de-quartzo-na-bahia/@@download/image/images%20(2).jpeg",
-   "credito": "Foto: Agência Brasil/arquivo"
-  },
-  {
-   "id": "croche-mulheres-fortaleza",
-   "titulo": "Projeto em Fortaleza une artesãs num grande painel de crochê",
-   "resumo": "O Artesanias em Rede – Mulheres do Mar oferece 140 horas de formação a 240 mulheres de vários bairros. Começou com mães que queriam trabalhar em casa, e muitas já tiraram a carteira de artesã.",
-   "categoria": "sociedade",
-   "regiao": "Fortaleza (CE)",
-   "data": "2026-11-14",
-   "fonte": "O POVO",
-   "url": "https://mais.opovo.com.br/jornal/vidaearte/2026/11/14/projeto-em-fortaleza-une-artesas-para-producao-especial-de-croche.html",
-   "pais": "Brasil",
-   "lat": -3.73,
-   "lon": -38.53,
-   "i18n": {
-    "es": {
-     "titulo": "Un proyecto en Fortaleza une a artesanas en un gran panel de crochet",
-     "resumo": "Artesanias em Rede – Mulheres do Mar ofrece 140 horas de formación a 240 mujeres de varios barrios. Empezó con madres que querían trabajar desde casa, y muchas ya obtuvieron su carné de artesana.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Fortaleza project brings women artisans together on a giant crochet piece",
-     "resumo": "Artesanias em Rede – Mulheres do Mar offers 140 hours of training to 240 women from across the city. It began with mothers who wanted to work from home, and many are now registered artisans.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/12/1320x990/1_projeto_artistico_croche_10-43107104.jpg",
-   "credito": "Foto: Fernanda Barros/O POVO"
   },
   {
    "id": "natal-sem-fome-2026",
@@ -172,207 +346,6 @@
    },
    "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/13/675x450/1_whatsapp-image-2026-11-13-at-15-14-19--1--68218714.jpeg",
    "credito": "Foto: material cedido ao Correio"
-  },
-  {
-   "id": "ecoparque-mendoza",
-   "titulo": "Antigo zoológico de Mendoza vira ecoparque focado no bem-estar animal",
-   "resumo": "Em dez anos, 2.011 animais saíram do local: 1.454 adotados, 488 levados a santuários e 69 devolvidos à natureza. Agora o espaço acolhe bichos resgatados do tráfico e de maus-tratos para reabilitá-los.",
-   "categoria": "animais",
-   "regiao": "Mendoza",
-   "data": "2026-11-14",
-   "fonte": "La Nación",
-   "url": "https://www.lanacion.com.ar/sociedad/tras-10-anos-de-espera-el-exzoo-de-mendoza-se-convirtio-en-ecoparque-pero-aun-quedan-mas-de-900-nid14112026/",
-   "pais": "Argentina",
-   "lat": -32.89,
-   "lon": -68.85,
-   "i18n": {
-    "es": {
-     "titulo": "El exzoo de Mendoza se convierte en un ecoparque centrado en el bienestar animal",
-     "resumo": "En diez años salieron 2.011 animales: 1.454 adoptados, 488 llevados a santuarios y 69 devueltos a la naturaleza. Ahora recibe animales rescatados del tráfico y del maltrato para rehabilitarlos.",
-     "regiao": "Mendoza",
-     "pais": "Argentina"
-    },
-    "en": {
-     "titulo": "Mendoza's old zoo becomes an eco-park focused on animal welfare",
-     "resumo": "Over ten years, 2,011 animals left the site: 1,454 adopted, 488 sent to sanctuaries and 69 returned to the wild. It now takes in animals rescued from trafficking and abuse to rehabilitate them.",
-     "regiao": "Mendoza",
-     "pais": "Argentina"
-    }
-   },
-   "img": "https://www.lanacion.com.ar/resizer/v2/algunos-de-los-animales-que-permanecen-en-el-IMQX3WFJJJHLHN4S27RWETRWZU.jpg?auth=0d0ebb423f1f69b5a42308de5e4ffff2a7059cf1586934b0b23df31bac927fe8&width=1200&height=800&quality=70&smart=true",
-   "credito": "Foto: La Nación"
-  },
-  {
-   "id": "ras-himalaia",
-   "titulo": "Cientistas descobrem cinco novas espécies de rãs no Himalaia",
-   "resumo": "Depois de cinco anos de campo, pesquisadores das universidades de Délhi e Harvard descreveram cinco minúsculas rãs-de-chifre. Uma delas é a primeira da Índia que come caracóis, e vários nomes homenageiam povos indígenas que ajudaram.",
-   "categoria": "ciencia",
-   "regiao": "Arunachal Pradesh",
-   "data": "2026-11-12",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/12/descubrieron-5-nuevas-especies-de-ranas-en-el-himalaya-oriental-y-ampliaron-el-conocimiento-sobre-su-biodiversidad/",
-   "pais": "Índia",
-   "lat": 28.2,
-   "lon": 94.7,
-   "i18n": {
-    "es": {
-     "titulo": "Científicos descubren cinco nuevas especies de ranas en el Himalaya",
-     "resumo": "Tras cinco años de campo, investigadores de las universidades de Delhi y Harvard describieron cinco diminutas ranas cornudas. Una es la primera de la India que come caracoles, y varios nombres honran a pueblos indígenas que ayudaron.",
-     "regiao": "Arunachal Pradesh",
-     "pais": "India"
-    },
-    "en": {
-     "titulo": "Scientists discover five new frog species in the Himalayas",
-     "resumo": "After five years of fieldwork, researchers from Delhi and Harvard universities described five tiny horned frogs. One is India's first known snail-eating frog, and several names honour Indigenous communities who helped.",
-     "regiao": "Arunachal Pradesh",
-     "pais": "India"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/AHYNYMTHDRHHFMUR3TBWK6VFCI.png?auth=6f4d02ef88172c39cf8fac9ae9b5e483e6084be620b97e111f1738b935c3edf7&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem: Royal Society Open Science"
-  },
-  {
-   "id": "raabia-hawa-premio",
-   "titulo": "Queniana que protege elefantes e o mar ganha prêmio de conservação",
-   "resumo": "Raabia Hawa, fundadora da Ulinzi Africa, recebeu o Prêmio Tusk 2026. O grupo começou com patrulhas contra a caça de elefantes e hoje combate a pesca de arrasto ilegal, que vinha matando tartarugas. O prêmio garante três anos de verba.",
-   "categoria": "meio-ambiente",
-   "regiao": "Lamu",
-   "data": "2026-11-15",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/targeted-by-al-shabaab-for-defending-kenyas-ecosystems-foundation-founder-gets-award/",
-   "pais": "Quênia",
-   "lat": -2.27,
-   "lon": 40.9,
-   "i18n": {
-    "es": {
-     "titulo": "Una keniana que protege elefantes y el mar gana un premio de conservación",
-     "resumo": "Raabia Hawa, fundadora de Ulinzi Africa, recibió el Premio Tusk 2026. El grupo empezó con patrullas contra la caza de elefantes y hoy combate la pesca de arrastre ilegal, que mataba tortugas. El premio asegura tres años de fondos.",
-     "regiao": "Lamu",
-     "pais": "Kenia"
-    },
-    "en": {
-     "titulo": "Kenyan defender of elephants and the sea wins conservation award",
-     "resumo": "Raabia Hawa, founder of Ulinzi Africa, won the 2026 Tusk Award. Her group began with anti-poaching patrols for elephants and now fights illegal trawling that was killing turtles. The award brings three years of funding.",
-     "regiao": "Lamu",
-     "pais": "Kenya"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/15020457/2S3A4056_PuQCwKvR-1200x800.jpg",
-   "credito": "Foto: Chris Jackson/Getty Images for Tusk"
-  },
-  {
-   "id": "carvao-africa-sul",
-   "titulo": "Justiça da África do Sul mantém veto a novas usinas a carvão",
-   "resumo": "O tribunal de apelação rejeitou o recurso do governo, e segue derrubado o plano de 1.500 MW de energia a carvão. A ação foi movida por ONGs em nome do direito das crianças a um ambiente saudável.",
-   "categoria": "meio-ambiente",
-   "regiao": "África do Sul",
-   "data": "2026-11-13",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/short-article/south-african-court-dismisses-appeal-over-planned-coal-fired-power-plants/",
-   "pais": "África do Sul",
-   "lat": -25.75,
-   "lon": 28.19,
-   "i18n": {
-    "es": {
-     "titulo": "La justicia de Sudáfrica mantiene el freno a nuevas centrales de carbón",
-     "resumo": "El tribunal de apelación rechazó el recurso del gobierno, y sigue anulado el plan de 1.500 MW de energía a carbón. La causa la impulsaron ONG en nombre del derecho de los niños a un ambiente sano.",
-     "regiao": "Sudáfrica",
-     "pais": "Sudáfrica"
-    },
-    "en": {
-     "titulo": "South African court upholds block on new coal power plants",
-     "resumo": "The appeal court dismissed the government's appeal, so the plan for 1,500 MW of new coal power stays struck down. NGOs brought the case on behalf of children's right to a healthy environment.",
-     "regiao": "South Africa",
-     "pais": "South Africa"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13212055/Kusilekragsentrale_Mpumalanga_2019_a-1200x800.jpg",
-   "credito": "Foto: JMK/Wikimedia Commons (CC BY-SA 4.0)"
-  },
-  {
-   "id": "euclid-mapa-3d",
-   "titulo": "Telescópio Euclid libera dados de 900 milhões de galáxias",
-   "resumo": "A ESA divulgou o primeiro grande pacote do Euclid, com 13 meses de observações: mais de 900 milhões de galáxias e 60 milhões de possíveis quasares. É a base do maior mapa 3D do Universo, aberto a cientistas do mundo todo.",
-   "categoria": "ciencia",
-   "regiao": "Espaço",
-   "data": "2026-11-12",
-   "fonte": "ESA",
-   "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-lays-the-foundation-for-its-best-ever-3d-map-of-the-universe",
-   "pais": "Europa",
-   "i18n": {
-    "es": {
-     "titulo": "El telescopio Euclid publica datos de 900 millones de galaxias",
-     "resumo": "La ESA publicó el primer gran paquete de Euclid, con 13 meses de observaciones: más de 900 millones de galaxias y 60 millones de posibles cuásares. Es la base del mayor mapa 3D del Universo, abierto a científicos de todo el mundo.",
-     "regiao": "Espacio",
-     "pais": "Europa"
-    },
-    "en": {
-     "titulo": "Euclid telescope releases data on 900 million galaxies",
-     "resumo": "ESA published Euclid's first major data batch, 13 months of observations: over 900 million galaxies and 60 million quasar candidates. It lays the groundwork for the best 3D map of the Universe, open to scientists worldwide.",
-     "regiao": "Space",
-     "pais": "Europe"
-    }
-   },
-   "img": "https://media.esa.int/global/public/common/image/2026/11/402228/image-thumb__402228__fit_large/5-euclid-ews-dr1-northpr-m81disk-r4-equ-10k6k-4k.cd774474.webp",
-   "credito": "Imagem: ESA/Euclid"
-  },
-  {
-   "id": "diabetes-visao-peptideo",
-   "titulo": "Molécula pode ajudar a evitar a perda de visão causada pelo diabetes",
-   "resumo": "Pesquisadores da Unifesp e da Unesp mostraram que o peptídeo Ac2-26 impediu a morte de neurônios em células e organoides de retina humana expostos a glicose alta e inflamação. A retinopatia atinge mais de 22% das pessoas com diabetes.",
-   "categoria": "saude",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-13",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/index.php/estudo-identifica-molecula-com-potencial-de-prevenir-a-perda-de-visao-associada-ao-diabetes/59606",
-   "pais": "Brasil",
-   "lat": -23.55,
-   "lon": -46.64,
-   "i18n": {
-    "es": {
-     "titulo": "Una molécula podría ayudar a evitar la pérdida de visión causada por la diabetes",
-     "resumo": "Investigadores de Unifesp y Unesp mostraron que el péptido Ac2-26 evitó la muerte de neuronas en células y organoides de retina humana expuestos a glucosa alta e inflamación. La retinopatía afecta a más del 22% de las personas con diabetes.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Molecule may help prevent diabetes-related vision loss",
-     "resumo": "Researchers at Unifesp and Unesp showed the peptide Ac2-26 stopped neurons dying in human retinal cells and organoids exposed to high glucose and inflammation. Retinopathy affects more than 22% of people with diabetes.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agencia.fapesp.br/files/post/59606.jpg",
-   "credito": "Foto: Shutterstock"
-  },
-  {
-   "id": "santuario-marshall",
-   "titulo": "Cientistas encontram vida exuberante em santuário marinho do Pacífico",
-   "resumo": "Protegidos desde 2025, os atóis Bikar e Bokak somam 48 mil km² de santuário. A expedição achou 15 espécies de aves marinhas, mais de 260 de peixes de recife e tartarugas-verdes fazendo ninho. Dois peixes podem ser novos para a ciência.",
-   "categoria": "meio-ambiente",
-   "regiao": "Atóis Bikar e Bokak",
-   "data": "2026-11-12",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/12/treasures-for-the-entire-planet-scientists-map-life-in-one-of-the-worlds-last-wild-ecosyst",
-   "pais": "Ilhas Marshall",
-   "lat": 12.0,
-   "lon": 169.0,
-   "i18n": {
-    "es": {
-     "titulo": "Científicos hallan una vida exuberante en un santuario marino del Pacífico",
-     "resumo": "Protegidos desde 2025, los atolones Bikar y Bokak suman 48.000 km² de santuario. La expedición halló 15 especies de aves marinas, más de 260 de peces de arrecife y tortugas verdes anidando. Dos peces podrían ser nuevos para la ciencia.",
-     "regiao": "Atolones Bikar y Bokak",
-     "pais": "Islas Marshall"
-    },
-    "en": {
-     "titulo": "Scientists find thriving wildlife in a Pacific marine sanctuary",
-     "resumo": "Protected since 2025, Bikar and Bokak atolls form a 48,000 km² sanctuary. The survey found 15 seabird species, more than 260 reef fish species and nesting green turtles. Two fish may be new to science.",
-     "regiao": "Bikar and Bokak atolls",
-     "pais": "Marshall Islands"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/98/85/25/1200x675_cmsv2_de1eb910-e0dd-51fa-a1a0-e52cbc8352e9-9988525.jpg",
-   "credito": "Foto: Manu San Félix"
   }
  ]
 }
