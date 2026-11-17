@@ -1,351 +1,353 @@
 {
- "atualizado": "2026-11-16",
+ "atualizado": "2026-11-17",
  "noticias": [
   {
-   "id": "fisica-vinicius-ouro",
-   "titulo": "Cearense ganha ouro em competição mundial de física com 104 países",
-   "resumo": "Vinícius Ferreira Rodrigues, de 24 anos, ficou em terceiro no mundo na categoria universitária da Physics Cup 2026, o melhor resultado de um brasileiro na prova. Ex-aluno da USP São Carlos, hoje faz doutorado com bolsa integral nos EUA.",
+   "id": "paracanoista-encontrado",
+   "titulo": "Tetracampeão mundial de paracanoagem é encontrado vivo após 20 horas no mar",
+   "resumo": "Mario Queiroz desapareceu durante um treino em Praia Grande. Depois de uma busca com bombeiros, Marinha e amigos, foi achado numa ilha rochosa de São Vicente, consciente, só desidratado e com arranhões.",
    "categoria": "sociedade",
-   "regiao": "Fortaleza (CE)",
-   "data": "2026-11-15",
-   "fonte": "O POVO",
-   "url": "https://mais.opovo.com.br/jornal/farol/2026/11/15/vinicius-ferreira-da-turma-olimpica-no-ceara-ao-podio-mundial-da-fisica.html",
-   "pais": "Brasil",
-   "destaque": true,
-   "lat": -3.73,
-   "lon": -38.52,
-   "i18n": {
-    "es": {
-     "titulo": "Un joven de Ceará gana oro en una competencia mundial de física con 104 países",
-     "resumo": "Vinícius Ferreira Rodrigues, de 24 años, quedó tercero del mundo en la categoría universitaria de la Physics Cup 2026, el mejor resultado de un brasileño. Exalumno de la USP São Carlos, hoy hace un doctorado con beca completa en EE. UU.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian student wins gold in a world physics contest with 104 countries",
-     "resumo": "Vinícius Ferreira Rodrigues, 24, placed third worldwide in the university category of Physics Cup 2026, the best result ever by a Brazilian. A former USP São Carlos student, he is now on a fully funded PhD track in the US.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.opovo.com.br/_midias/jpg/2026/10/29/vinicius_estudante_fisica_eua_ce-43012855.jpg",
-   "credito": "Foto: reprodução/arquivo pessoal"
-  },
-  {
-   "id": "tartaruga-shaggy",
-   "titulo": "Voluntária dirige 1.400 km para salvar filhote de tartaruga encalhado",
-   "resumo": "Coberta de algas, a tartaruga-cabeçuda Shaggy foi achada boiando em Esperance. A cuidadora Letesha Heslewood rodou quase 700 km em cada sentido para levá-la à reabilitação em Bunbury. Ela deve voltar ao mar em abril, em Ningaloo.",
-   "categoria": "animais",
-   "regiao": "Esperance (Austrália Ocidental)",
+   "regiao": "São Vicente (SP)",
    "data": "2026-11-16",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-16/wildlife-carer-road-trip-stranded-loggerhead-turtle-esperance/107384666",
-   "pais": "Austrália",
-   "destaque": true,
-   "lat": -33.86,
-   "lon": 121.89,
-   "i18n": {
-    "es": {
-     "titulo": "Una voluntaria maneja 1.400 km para salvar a una tortuga varada",
-     "resumo": "Cubierta de algas, la tortuga boba Shaggy apareció flotando en Esperance. La cuidadora Letesha Heslewood recorrió casi 700 km de ida y otros tantos de vuelta para llevarla a rehabilitación en Bunbury. Volverá al mar en abril, en Ningaloo.",
-     "regiao": "Esperance (Australia Occidental)",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Wildlife carer drives 1,400 km to save a stranded baby turtle",
-     "resumo": "Covered in algae, loggerhead turtle Shaggy was found floating off Esperance. Carer Letesha Heslewood drove nearly 700 km each way to take him to rehab in Bunbury. He's due to be released at Ningaloo in April.",
-     "regiao": "Esperance (Western Australia)",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/646c6e3524422f15dd403146267a783f?impolicy=wcms_watermark_news&cropH=659&cropW=1171&xPos=0&yPos=322&width=862&height=485&imformat=generic",
-   "credito": "Foto: Dolphin Discovery Centre"
-  },
-  {
-   "id": "boi-vala-varzelandia",
-   "titulo": "Bombeiros passam quatro horas para tirar boi de vala no norte de Minas",
-   "resumo": "O animal estava sumido havia um dia e caiu numa vala de 2 metros. Com uma pá carregadeira e cabos, os bombeiros de Januária o içaram vivo, e ele foi entregue ao dono para cuidados veterinários.",
-   "categoria": "animais",
-   "regiao": "Varzelândia (MG)",
-   "data": "2026-11-15",
-   "fonte": "Estado de Minas",
-   "url": "https://www.em.com.br/gerais/2026/11/7538850-boi-cai-em-vala-na-zona-rural-de-minas-e-e-resgatado-com-trator.html",
-   "pais": "Brasil",
-   "lat": -15.67,
-   "lon": -44.03,
-   "i18n": {
-    "es": {
-     "titulo": "Bomberos trabajan cuatro horas para sacar a un buey de una zanja en Minas Gerais",
-     "resumo": "El animal llevaba un día desaparecido y cayó en una zanja de 2 metros. Con una pala cargadora y cables, los bomberos de Januária lo sacaron con vida y lo entregaron a su dueño para atención veterinaria.",
-     "regiao": "Varzelândia (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Firefighters spend four hours lifting an ox out of a ditch in Brazil",
-     "resumo": "Missing for a day, the animal had fallen into a 2-metre ditch. Using a front loader and cables, firefighters from Januária lifted it out alive and handed it to its owner for vet care.",
-     "regiao": "Varzelândia (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.em.com.br/_midias/jpg/2026/11/15/1000x1000/1_15-resgate-boi-ed-68225720.jpg",
-   "credito": "Foto: CBMMG"
-  },
-  {
-   "id": "vanuatu-luz-mulheres",
-   "titulo": "Mulheres de vilarejo em Vanuatu levam luz solar a 120 casas",
-   "resumo": "Lideradas por Dalila Laus Lalulu, as mulheres de Lawital trocaram velas por energia solar, instalaram postes e lanternas e passaram a se sentir mais seguras à noite. Muitas começaram a trabalhar, e Dalila será premiada na COP31.",
-   "categoria": "sociedade",
-   "regiao": "Ilha de Tanna",
-   "data": "2026-11-16",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-16/vanuatu-women-using-light-to-reduce-male-violence/107316976",
-   "pais": "Vanuatu",
-   "lat": -19.53,
-   "lon": 169.27,
-   "i18n": {
-    "es": {
-     "titulo": "Mujeres de una aldea de Vanuatu llevan luz solar a 120 casas",
-     "resumo": "Lideradas por Dalila Laus Lalulu, las mujeres de Lawital cambiaron velas por energía solar, instalaron farolas y linternas y ahora se sienten más seguras de noche. Muchas empezaron a trabajar, y Dalila será premiada en la COP31.",
-     "regiao": "Isla Tanna",
-     "pais": "Vanuatu"
-    },
-    "en": {
-     "titulo": "Village women in Vanuatu bring solar light to 120 homes",
-     "resumo": "Led by Dalila Laus Lalulu, Lawital's women swapped candles for solar power, installed street lights and lanterns and now feel safer at night. Many have taken up paid work, and Dalila will be honoured at COP31.",
-     "regiao": "Tanna Island",
-     "pais": "Vanuatu"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/7f1a7ad855dc9799117995d86444cb96?impolicy=wcms_watermark_news&cropH=900&cropW=1600&xPos=0&yPos=0&width=862&height=485&imformat=generic",
-   "credito": "Foto: AIFFP"
-  },
-  {
-   "id": "queijo-coalho-recorde",
-   "titulo": "Produtores do Ceará fazem o maior queijo coalho do mundo: 4 toneladas",
-   "resumo": "Pequenos produtores de leite de Quixeramobim, reunidos na Unileite, criaram uma peça de 4.006 kg e bateram o recorde, superando os 3.519 kg de Jaguaribe.",
-   "categoria": "sociedade",
-   "regiao": "Quixeramobim (CE)",
-   "data": "2026-11-15",
-   "fonte": "O POVO",
-   "url": "https://www.opovo.com.br/noticias/ceara/quixeramobim/2026/11/15/quixeramobim-retoma-o-titulo-de-maior-queijo-coalho-do-mundo.html",
-   "pais": "Brasil",
-   "lat": -5.2,
-   "lon": -39.29,
-   "i18n": {
-    "es": {
-     "titulo": "Productores de Ceará hacen el queso coalho más grande del mundo: 4 toneladas",
-     "resumo": "Pequeños productores lecheros de Quixeramobim, unidos en Unileite, crearon una pieza de 4.006 kg y batieron el récord, superando los 3.519 kg de Jaguaribe.",
-     "regiao": "Quixeramobim (CE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian dairy farmers make the world's biggest coalho cheese: 4 tonnes",
-     "resumo": "Small dairy producers in Quixeramobim, Ceará, working together as Unileite, made a 4,006 kg cheese, beating the previous 3,519 kg record.",
-     "regiao": "Quixeramobim (CE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/15/856x642/1_maior_queijo-43130671.jpg",
-   "credito": "Foto: reprodução/RankBrasil"
-  },
-  {
-   "id": "alunos-arvores-asa-norte",
-   "titulo": "Alunos viram professores e ensinam sobre árvores numa praça de Brasília",
-   "resumo": "Estudantes do CEF 104 Norte pesquisaram as espécies da Praça da Harmonia Universal, como pau-brasil e jatobá, e deram uma aula aberta à comunidade. O projeto continua o cuidado de Mestre Woo, que zelou pela praça por 52 anos.",
-   "categoria": "meio-ambiente",
-   "regiao": "Brasília (DF)",
-   "data": "2026-11-14",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/11/7538078-alunos-viram-professores-e-ensinam-sobre-arvores-em-praca-da-asa-norte.html",
-   "pais": "Brasil",
-   "lat": -15.76,
-   "lon": -47.88,
-   "i18n": {
-    "es": {
-     "titulo": "Alumnos se vuelven maestros y enseñan sobre árboles en una plaza de Brasilia",
-     "resumo": "Estudiantes del CEF 104 Norte investigaron las especies de la Plaza de la Armonía Universal, como el palo brasil y el jatobá, y dieron una clase abierta. El proyecto continúa el cuidado del Maestro Woo, que cuidó la plaza 52 años.",
-     "regiao": "Brasília (DF)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Students become teachers, giving tree lessons in a Brasília square",
-     "resumo": "Pupils at CEF 104 Norte researched the square's species, such as brazilwood and jatobá, and led an open class for the community. The project carries on the work of Master Woo, who tended the square for 52 years.",
-     "regiao": "Brasília (DF)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/13/675x450/1_whatsapp-image-2026-11-13-at-10-40-47--1--68215229.jpeg",
-   "credito": "Foto: Davi Cruz/CB/D.A Press"
-  },
-  {
-   "id": "arte-kakadu",
-   "titulo": "Artista indígena de Kakadu vende obras antes mesmo de terminá-las",
-   "resumo": "Ivan Namarnyilk pinta no centro cultural Marrawuddi, onde turistas disputam seus quadros. As vendas sustentam a família e o centro, que em 25 anos já ajudou mais de 500 artistas indígenas. Ele diz que quer passar a cultura adiante.",
-   "categoria": "sociedade",
-   "regiao": "Jabiru (Kakadu)",
-   "data": "2026-11-16",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-16/nt-kakadu-artist-ivan-namarnyilk-solo-exhibition/107381784",
-   "pais": "Austrália",
-   "lat": -12.66,
-   "lon": 132.89,
-   "i18n": {
-    "es": {
-     "titulo": "Un artista indígena de Kakadu vende sus obras antes de terminarlas",
-     "resumo": "Ivan Namarnyilk pinta en el centro cultural Marrawuddi, donde los turistas se disputan sus cuadros. Las ventas sostienen a su familia y al centro, que en 25 años ayudó a más de 500 artistas indígenas. Quiere transmitir su cultura.",
-     "regiao": "Jabiru (Kakadu)",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Kakadu Indigenous artist sells paintings before they're even finished",
-     "resumo": "Ivan Namarnyilk paints at the Marrawuddi centre, where tourists snap up his work. Sales support his family and the centre, which has helped over 500 Indigenous artists in 25 years. He wants to pass his culture on.",
-     "regiao": "Jabiru (Kakadu)",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/10ee2edf34275c07309971b266577a45?impolicy=wcms_watermark_news&cropH=2592&cropW=4608&xPos=0&yPos=240&width=862&height=485&imformat=generic",
-   "credito": "Foto: Dane Hirst/ABC News"
-  },
-  {
-   "id": "china-carvao-cai",
-   "titulo": "Carvão cai para menos da metade da eletricidade da China",
-   "resumo": "No primeiro semestre de 2026, o carvão gerou 49,7% da energia elétrica chinesa, e as emissões de CO2 parecem ter estabilizado ou caído, graças a solar, eólica, carros elétricos e baterias. Novas usinas a carvão ainda são construídas.",
-   "categoria": "meio-ambiente",
-   "regiao": "China",
-   "data": "2026-11-15",
-   "fonte": "BBC News Brasil (via Terra)",
-   "url": "https://www.terra.com.br/noticias/mundo/como-china-finalmente-reduziu-emissao-de-poluentes-e-planeja-revolucao-de-energias-renovaveis,0634d9073b7acf7799ec2abfd40f8523a7uy2bmr.html",
-   "pais": "China",
-   "lat": 35.86,
-   "lon": 104.19,
-   "i18n": {
-    "es": {
-     "titulo": "El carbón cae a menos de la mitad de la electricidad de China",
-     "resumo": "En el primer semestre de 2026, el carbón generó el 49,7% de la electricidad china, y las emisiones de CO2 parecen haberse estabilizado o bajado gracias a la solar, la eólica, los autos eléctricos y las baterías. Aún se construyen centrales de carbón.",
-     "regiao": "China",
-     "pais": "China"
-    },
-    "en": {
-     "titulo": "Coal falls below half of China's electricity",
-     "resumo": "In the first half of 2026, coal produced 49.7% of China's power, and CO2 emissions appear to have plateaued or fallen thanks to solar, wind, EVs and batteries. New coal plants are still being built.",
-     "regiao": "China",
-     "pais": "China"
-    }
-   },
-   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/15/879929861-0ece5030-e119-11f1-a7db-d90284d21c62.jpg",
-   "credito": "Foto: Getty Images/BBC News Brasil"
-  },
-  {
-   "id": "coluna-zebrafish",
-   "titulo": "Remédio para osteoporose bloqueia fusão da coluna em peixes",
-   "resumo": "Cientistas de Edimburgo e Bristol viram que um remédio já usado contra osteoporose impediu o acúmulo anormal de minerais que solda a coluna em peixes-zebra com um gene alterado. O resultado ainda precisa ser confirmado em pessoas.",
-   "categoria": "ciencia",
-   "regiao": "Edimburgo",
-   "data": "2026-11-15",
-   "fonte": "ScienceDaily / Universidade de Edimburgo",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261113232105.htm",
-   "pais": "Reino Unido",
-   "lat": 55.95,
-   "lon": -3.19,
-   "i18n": {
-    "es": {
-     "titulo": "Un fármaco para la osteoporosis bloquea la fusión de la columna en peces",
-     "resumo": "Científicos de Edimburgo y Bristol vieron que un fármaco ya usado contra la osteoporosis impidió la acumulación anormal de minerales que suelda la columna en peces cebra con un gen alterado. Aún debe confirmarse en personas.",
-     "regiao": "Edimburgo",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "Osteoporosis drug stops spinal fusion in fish",
-     "resumo": "Edinburgh and Bristol scientists found an existing osteoporosis drug blocked the abnormal mineral build-up that fuses the spine in zebrafish with a faulty gene. It still needs confirming in people.",
-     "regiao": "Edinburgh",
-     "pais": "UK"
-    }
-   },
-   "img": "https://www.sciencedaily.com/images/1920/radiograph-x-ray-back-bone-spinal-pain.webp",
-   "credito": "Imagem: Shutterstock"
-  },
-  {
-   "id": "gato-bombeiros-lagoa",
-   "titulo": "Bombeiros atravessam lagoa a nado para salvar gato preso em paredão",
-   "resumo": "O gato estava preso numa fenda de uma pedreira desativada em Pernambuco. Os bombeiros Heitor Tabosa e Aniele Gomes nadaram até o paredão e, com corda e caixa de transporte, tiraram o animal, que voltou bem para a tutora.",
-   "categoria": "animais",
-   "regiao": "Pernambuco",
-   "data": "2026-11-12",
    "fonte": "Metrópoles",
-   "url": "https://www.metropoles.com/brasil/pe-bombeiros-mergulham-em-lagoa-para-salvar-gato-preso-em-paredao",
+   "url": "https://www.metropoles.com/sao-paulo/tetracampeao-de-canoagem-paralimpica-e-achado-apos-sumir-em-treino-no-mar",
    "pais": "Brasil",
+   "destaque": true,
+   "lat": -23.96,
+   "lon": -46.39,
    "i18n": {
     "es": {
-     "titulo": "Bomberos cruzan una laguna a nado para salvar a un gato atrapado en un paredón",
-     "resumo": "El gato estaba atrapado en una grieta de una cantera abandonada en Pernambuco. Los bomberos Heitor Tabosa y Aniele Gomes nadaron hasta el paredón y, con cuerda y una caja de transporte, lo rescataron. Volvió bien con su tutora.",
-     "regiao": "Pernambuco",
+     "titulo": "Encuentran con vida a un tetracampeón mundial de paracanotaje tras 20 horas en el mar",
+     "resumo": "Mario Queiroz desapareció durante un entrenamiento en Praia Grande. Tras una búsqueda con bomberos, la Marina y amigos, lo hallaron en una isla rocosa de São Vicente, consciente, solo deshidratado y con rasguños.",
+     "regiao": "São Vicente (SP)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Firefighters swim across a lagoon to save a cat stuck in a quarry wall",
-     "resumo": "The cat was trapped in a crack in a disused quarry in Pernambuco, Brazil. Firefighters Heitor Tabosa and Aniele Gomes swam to the wall and used a rope and carrier to bring it out. It went home safe to its owner.",
-     "regiao": "Pernambuco",
+     "titulo": "Four-time para-canoe world champion found alive after 20 hours at sea",
+     "resumo": "Mario Queiroz went missing while training off Praia Grande, Brazil. After a search by firefighters, the Navy and friends, he was found on a rocky island in São Vicente, conscious, just dehydrated and scraped.",
+     "regiao": "São Vicente (SP)",
      "pais": "Brazil"
     }
    },
-   "img": "https://i.metroimg.com/AetYc366mHHPdyR-GNV7sduclVK9QIJe8BlAgG6HQ5o/w:600/q:85/f:webp/plain/https://images.metroimg.com/2026/11/momento-em-que-gato-e-resgatado-pelos-bombeiros-militares.jpg",
-   "credito": "Foto: reprodução/Instagram @heitortabosa"
+   "img": "https://i.metroimg.com/xcBmngGcfkb5KGw6x80pJqoe4XCj8vffRpgXGLkIl9c/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/paratleta.jpg",
+   "credito": "Foto: reprodução/redes sociais"
   },
   {
-   "id": "feel-harvard-cegos",
-   "titulo": "Argentino de 20 anos vence maratona em Harvard com aparelho que guia pessoas cegas",
-   "resumo": "Martín Pulitano e sua equipe ganharam o HackHarvard, entre mais de 500 participantes, com o FEEL: um protótipo de US$ 70 que usa IA e toques na pele para mostrar o que está à frente e ao lado. Agora querem testá-lo com pessoas cegas.",
-   "categoria": "tecnologia",
-   "regiao": "Buenos Aires / Harvard",
-   "data": "2026-11-13",
-   "fonte": "La Nación",
-   "url": "https://www.lanacion.com.ar/sociedad/tiene-20-anos-es-argentino-y-lo-premiaron-en-harvard-por-crear-un-dispositivo-con-inteligencia-nid13112026/",
-   "pais": "Argentina",
-   "lat": -34.6,
-   "lon": -58.38,
+   "id": "vagalume-reencontrado",
+   "titulo": "Vaga-lume sumido desde 1983 volta a brilhar nos Estados Unidos",
+   "resumo": "A espécie Pyractomena similis não era registrada havia mais de 40 anos. Nesta primavera, foi vista três vezes, em Virgínia e Delaware, reconhecida pelo pisca-pisca cor de âmbar. Nove vaga-lumes dados como perdidos já foram reencontrados.",
+   "categoria": "animais",
+   "regiao": "Delaware e Virgínia",
+   "data": "2026-11-16",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/a-lost-firefly-species-flashes-back-into-view-in-the-us/",
+   "pais": "Estados Unidos",
+   "destaque": true,
+   "lat": 39.8,
+   "lon": -75.6,
    "i18n": {
     "es": {
-     "titulo": "Un argentino de 20 años gana en Harvard con un dispositivo que orienta a personas ciegas",
-     "resumo": "Martín Pulitano y su equipo ganaron HackHarvard, entre más de 500 participantes, con FEEL: un prototipo de US$ 70 que usa IA y estímulos táctiles para indicar qué hay delante y al costado. Ahora buscan probarlo con personas ciegas.",
-     "regiao": "Buenos Aires / Harvard",
-     "pais": "Argentina"
+     "titulo": "Una luciérnaga desaparecida desde 1983 vuelve a brillar en EE. UU.",
+     "resumo": "La especie Pyractomena similis no se registraba desde hacía más de 40 años. Esta primavera fue vista tres veces, en Virginia y Delaware, reconocida por su destello ámbar. Nueve luciérnagas dadas por perdidas ya reaparecieron.",
+     "regiao": "Delaware y Virginia",
+     "pais": "Estados Unidos"
     },
     "en": {
-     "titulo": "20-year-old Argentine wins at Harvard with a device that guides blind people",
-     "resumo": "Martín Pulitano and his team won HackHarvard, out of 500+ participants, with FEEL: a US$70 prototype that uses AI and touch to signal what's ahead and alongside. They now want blind people to test it.",
-     "regiao": "Buenos Aires / Harvard",
-     "pais": "Argentina"
+     "titulo": "Firefly unseen since 1983 flashes back into view in the US",
+     "resumo": "Pyractomena similis hadn't been recorded in over 40 years. This spring it was spotted three times in Virginia and Delaware, identified by its amber flash. Nine 'lost' fireflies have now been found again.",
+     "regiao": "Delaware and Virginia",
+     "pais": "USA"
     }
    },
-   "img": "https://www.lanacion.com.ar/resizer/v2/de-buenos-aires-a-harvard-la-historia-del-joven-N3PWZ2HRTRF5LFIWASLRW7HZFI.jpg?auth=c812c586710923548027c81f1ffb68968b39796949a894eca82029727fdccdef&width=1200&height=800&quality=70&smart=true",
-   "credito": "Foto: cortesia Martín Pulitano"
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/03/26144116/fireflysync-1.jpeg",
+   "credito": "Foto ilustrativa: Fred Huang/Flickr (CC BY-NC 2.0)"
   },
   {
-   "id": "natal-sem-fome-2026",
-   "titulo": "Natal Sem Fome 2026 começa a arrecadar alimentos pelo país",
-   "resumo": "A Ação da Cidadania lançou a campanha deste ano. Em 2025, ela distribuiu mais de 5 mil toneladas de comida e ajudou mais de 2 milhões de pessoas. Dá para doar pelo site natalsemfome.org.br.",
-   "categoria": "sociedade",
+   "id": "butantan-arboviroses",
+   "titulo": "Butantan cria centro para tratar as dores que a dengue e a chikungunya deixam",
+   "resumo": "O novo Centro de Tecnologia em Arbovírus vai estudar sequelas como dores crônicas nas articulações. Com cinco anos de verba da FAPESP, quer achar novos alvos de tratamento e testar duas vacinas ou remédios, usando tecidos humanos 3D em vez de animais.",
+   "categoria": "saude",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-16",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/butantan-cria-centro-para-combater-sequelas-de-dengue-chikungunya-e-outras-arboviroses/59620",
+   "pais": "Brasil",
+   "lat": -23.57,
+   "lon": -46.72,
+   "i18n": {
+    "es": {
+     "titulo": "El Butantan crea un centro para tratar los dolores que dejan el dengue y la chikungunya",
+     "resumo": "El nuevo Centro de Tecnología en Arbovirus estudiará secuelas como el dolor crónico en las articulaciones. Con cinco años de fondos de FAPESP, busca nuevos blancos terapéuticos y probar dos vacunas o fármacos con tejidos humanos 3D en lugar de animales.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil's Butantan opens a centre to treat lasting pain from dengue and chikungunya",
+     "resumo": "The new Arbovirus Technology Centre will study after-effects such as chronic joint pain. With five years of FAPESP funding, it aims to find new treatment targets and test two vaccines or drugs using 3D human tissue instead of animals.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59620.jpeg",
+   "credito": "Foto: Rafael Porto"
+  },
+  {
+   "id": "mpox-cai-90",
+   "titulo": "Casos de mpox no Brasil estão 90% abaixo do pico de 2022",
+   "resumo": "O país teve 1.055 casos confirmados em 2026, contra 10.591 em 2022, e as mortes caíram de 14 para uma. O ministério garantiu 25 mil doses de vacina para os grupos de maior risco.",
+   "categoria": "saude",
    "regiao": "Brasil",
-   "data": "2026-11-13",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7538380-natal-sem-fome-2026-lanca-mobilizacao-para-arrecadar-alimentos.html",
+   "data": "2026-11-16",
+   "fonte": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/casos-e-obitos-por-mpox-no-brasil-estao-cerca-de-90-abaixo-dos-registrados-em-2022",
    "pais": "Brasil",
    "i18n": {
     "es": {
-     "titulo": "Natal Sem Fome 2026 empieza a recolectar alimentos en todo Brasil",
-     "resumo": "Ação da Cidadania lanzó la campaña de este año. En 2025 distribuyó más de 5.000 toneladas de comida y ayudó a más de 2 millones de personas. Se puede donar en natalsemfome.org.br.",
+     "titulo": "Los casos de mpox en Brasil están un 90% por debajo del pico de 2022",
+     "resumo": "El país tuvo 1.055 casos confirmados en 2026, frente a 10.591 en 2022, y las muertes bajaron de 14 a una. El ministerio aseguró 25.000 dosis de vacuna para los grupos de mayor riesgo.",
      "regiao": "Brasil",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Brazil's 'Christmas Without Hunger' 2026 food drive begins",
-     "resumo": "Ação da Cidadania launched this year's campaign. In 2025 it handed out more than 5,000 tonnes of food, helping over 2 million people. Donations at natalsemfome.org.br.",
+     "titulo": "Brazil's mpox cases are 90% below their 2022 peak",
+     "resumo": "Brazil confirmed 1,055 cases in 2026, versus 10,591 in 2022, and deaths fell from 14 to one. The ministry secured 25,000 vaccine doses for the highest-risk groups.",
      "regiao": "Brazil",
      "pais": "Brazil"
     }
    },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/13/675x450/1_whatsapp-image-2026-11-13-at-15-14-19--1--68218714.jpeg",
-   "credito": "Foto: material cedido ao Correio"
+   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/casos-e-obitos-por-mpox-no-brasil-estao-cerca-de-90-abaixo-dos-registrados-em-2022/vacina-mpox-foto-matheus-oliveira-_-agencia-saude-df.jpg/@@images/0eaef72e-e189-4d4f-a37d-a66fac73f74c.jpeg",
+   "credito": "Foto: Matheus Oliveira/Agência Saúde DF"
+  },
+  {
+   "id": "bale-santa-luzia",
+   "titulo": "Projeto de balé na periferia de Santa Luzia completa 20 anos",
+   "resumo": "A bailarina Ilma Silvério criou o Balé Passo a Passo em 2006 para ensinar balé clássico a crianças do bairro Palmital, com bolsas para quem precisa. Ela também mantém um ponto de cultura com biblioteca e oficinas.",
+   "categoria": "sociedade",
+   "regiao": "Santa Luzia (MG)",
+   "data": "2026-11-16",
+   "fonte": "Estado de Minas",
+   "url": "https://www.em.com.br/gerais/2026/11/7538990-onde-a-arte-muda-vidas.html",
+   "pais": "Brasil",
+   "lat": -19.77,
+   "lon": -43.85,
+   "i18n": {
+    "es": {
+     "titulo": "Un proyecto de ballet en la periferia de Santa Luzia cumple 20 años",
+     "resumo": "La bailarina Ilma Silvério creó Balé Passo a Passo en 2006 para enseñar ballet clásico a niños del barrio Palmital, con becas para quien lo necesite. También mantiene un centro cultural con biblioteca y talleres.",
+     "regiao": "Santa Luzia (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Ballet project in a Brazilian working-class suburb turns 20",
+     "resumo": "Dancer Ilma Silvério founded Balé Passo a Passo in 2006 to teach classical ballet to children in Palmital, Santa Luzia, with scholarships for those in need. She also runs a cultural centre with a library and workshops.",
+     "regiao": "Santa Luzia (MG)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.em.com.br/_midias/jpg/2026/11/15/1000x1000/1_il-68228665.jpg",
+   "credito": "Foto: Júlio Moreira/EM/D.A Press"
+  },
+  {
+   "id": "escola-piamarta",
+   "titulo": "Escola de tempo integral em Fortaleza quase dobra de tamanho",
+   "resumo": "A nova sede da EEMTI São João Piamarta passa de 280 para 540 vagas, com 12 salas, laboratórios de informática e quadra coberta.",
+   "categoria": "sociedade",
+   "regiao": "Fortaleza (CE)",
+   "data": "2026-11-16",
+   "fonte": "O POVO",
+   "url": "https://www.opovo.com.br/noticias/fortaleza/2026/11/16/nova-sede-da-eemti-sao-joao-piamarta-amplia-a-capacidade-para-540-estudantes.html",
+   "pais": "Brasil",
+   "lat": -3.73,
+   "lon": -38.53,
+   "i18n": {
+    "es": {
+     "titulo": "Una escuela de jornada completa en Fortaleza casi duplica su tamaño",
+     "resumo": "La nueva sede de la EEMTI São João Piamarta pasa de 280 a 540 plazas, con 12 aulas, laboratorios de informática y una cancha techada.",
+     "regiao": "Fortaleza (CE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Full-time school in Fortaleza nearly doubles in size",
+     "resumo": "The new building of the São João Piamarta school goes from 280 to 540 places, with 12 classrooms, computer labs and a covered sports court.",
+     "regiao": "Fortaleza (CE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/16/856x642/1_piamarta_2_thiago_gaspargoverno_do_ceara-43135325.jpg",
+   "credito": "Foto: Thiago Gaspar/Governo do Ceará"
+  },
+  {
+   "id": "celulas-til-utero",
+   "titulo": "Cientistas multiplicam células de defesa para combater câncer de colo de útero",
+   "resumo": "No Einstein, pesquisadores conseguiram multiplicar em laboratório linfócitos tirados de tumores de pacientes. É uma etapa inicial: ainda precisam provar eficácia e segurança antes de testes em pessoas.",
+   "categoria": "ciencia",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-14",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/saude/celulas-do-cancer-do-colo-de-utero-sao-estudadas-para-o-combate-da-doenca/",
+   "pais": "Brasil",
+   "lat": -23.6,
+   "lon": -46.72,
+   "i18n": {
+    "es": {
+     "titulo": "Científicos multiplican células de defensa para combatir el cáncer de cuello uterino",
+     "resumo": "En el Einstein, investigadores lograron multiplicar en laboratorio linfocitos extraídos de tumores de pacientes. Es una etapa inicial: aún deben probar eficacia y seguridad antes de ensayos en personas.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Scientists grow immune cells to fight cervical cancer",
+     "resumo": "At São Paulo's Einstein hospital, researchers multiplied lymphocytes taken from patients' tumours in the lab. It's early-stage: efficacy and safety must be shown before human trials.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/05/consulta_saude_mulher_ginecologia.jpg?w=1200&h=630&crop=1",
+   "credito": "Foto ilustrativa: Anchiy/Getty Images"
+  },
+  {
+   "id": "arrozais-enchentes-japao",
+   "titulo": "Cidade japonesa usa arrozais para conter enchentes",
+   "resumo": "Depois de três cheias, agricultores de Osaki instalaram mais de 5 mil pequenas barragens de terra nos arrozais, que seguram a água da chuva. Já cobrem 20% das plantações e também abrigam aves e outras espécies.",
+   "categoria": "meio-ambiente",
+   "regiao": "Osaki (Miyagi)",
+   "data": "2026-11-16",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/the-power-of-the-paddy-japan-looks-to-rice-fields-to-help-mitigate-flooding/",
+   "pais": "Japão",
+   "lat": 38.57,
+   "lon": 140.95,
+   "i18n": {
+    "es": {
+     "titulo": "Una ciudad japonesa usa los arrozales para frenar inundaciones",
+     "resumo": "Tras tres inundaciones, agricultores de Osaki instalaron más de 5.000 pequeñas presas de tierra en los arrozales, que retienen el agua de lluvia. Ya cubren el 20% de los cultivos y también dan refugio a aves y otras especies.",
+     "regiao": "Osaki (Miyagi)",
+     "pais": "Japón"
+    },
+    "en": {
+     "titulo": "Japanese city turns rice paddies into flood defences",
+     "resumo": "After three floods, Osaki's farmers installed more than 5,000 small earthen dams in rice paddies to hold back rainwater. They now cover 20% of the fields and also shelter birds and other wildlife.",
+     "regiao": "Osaki (Miyagi)",
+     "pais": "Japan"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13102718/Calidris_acuminata_flocks-rice-1200x800.jpg",
+   "credito": "Foto: Alpsdake/Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "id": "uti-neonatal-cameras",
+   "titulo": "Doação põe câmeras em UTI neonatal para pais verem os bebês 24 horas",
+   "resumo": "No Hospital de Camberra, cada um dos 39 berços ganhou uma câmera com transmissão segura para a família. Os equipamentos vieram de uma doação de 117,6 mil dólares australianos de uma fundação. Uma mãe de prematura diz que ganhou tranquilidade.",
+   "categoria": "saude",
+   "regiao": "Camberra",
+   "data": "2026-11-17",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-17/canberra-hospital-new-baby-cameras-intensive-care/107393286",
+   "pais": "Austrália",
+   "lat": -35.32,
+   "lon": 149.13,
+   "i18n": {
+    "es": {
+     "titulo": "Una donación pone cámaras en la UCI neonatal para que los padres vean a sus bebés 24 horas",
+     "resumo": "En el Hospital de Canberra, cada una de las 39 cunas tiene una cámara con transmisión segura para la familia. Los equipos vinieron de una donación de 117.600 dólares australianos. Una madre de una prematura dice que le da tranquilidad.",
+     "regiao": "Canberra",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Donation lets parents watch NICU babies around the clock",
+     "resumo": "At Canberra Hospital, each of the 39 cots now has a secure live-stream camera for families, funded by a A$117,600 donation. One mother of a premature baby says it gives her extra reassurance.",
+     "regiao": "Canberra",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/28ceb24095f7646cd974c17b4beeeb9f?impolicy=wcms_watermark_news&cropH=2592&cropW=4608&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "Foto: Mark Moore/ABC News"
+  },
+  {
+   "id": "trilhos-manta-termica",
+   "titulo": "Manta térmica esfria trilhos de trem em até 11 °C sem gastar água",
+   "resumo": "Cientistas coreanos criaram um tecido preso por ímãs que bloqueia mais de 85% do calor do sol nos trilhos. Em testes de 2024 e 2025, a temperatura caiu até 10,9 °C, o que ajuda a evitar deformações no calor.",
+   "categoria": "tecnologia",
+   "regiao": "Coreia do Sul",
+   "data": "2026-11-16",
+   "fonte": "New Atlas",
+   "url": "https://newatlas.com/transport/rail-textile-heat-shield/",
+   "pais": "Coreia do Sul",
+   "lat": 36.5,
+   "lon": 127.5,
+   "i18n": {
+    "es": {
+     "titulo": "Una manta térmica enfría las vías del tren hasta 11 °C sin gastar agua",
+     "resumo": "Científicos coreanos crearon un tejido sujeto con imanes que bloquea más del 85% del calor del sol en las vías. En pruebas de 2024 y 2025, la temperatura bajó hasta 10,9 °C, lo que ayuda a evitar deformaciones.",
+     "regiao": "Corea del Sur",
+     "pais": "Corea del Sur"
+    },
+    "en": {
+     "titulo": "Heat-shield textile cools rail tracks by up to 11 °C without water",
+     "resumo": "Korean researchers made a magnet-mounted fabric that blocks over 85% of solar heat on rails. In 2024 and 2025 tests, rail temperatures dropped by up to 10.9 °C, helping prevent heat buckling.",
+     "regiao": "South Korea",
+     "pais": "South Korea"
+    }
+   },
+   "img": "https://assets.newatlas.com/dims4/default/ba043ab/2147483647/strip/true/crop/1272x668+0+53/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Ff5%2F44%2Fb2ca7d38424480463d971d681b76%2Fhermal-locking20extile20echnology203.jpg&na.image_optimisation=0",
+   "credito": "Foto: National Research Council of Science & Technology"
+  },
+  {
+   "id": "fosseis-flinders",
+   "titulo": "Cânions submarinos antigos explicam fósseis da vida complexa mais antiga",
+   "resumo": "Um mapeamento da Universidade de Adelaide achou cânions de até 280 m de profundidade nas Flinders Ranges. As mudanças do mar ajudaram a preservar fósseis de 550 milhões de anos, e a região disputa o título de Patrimônio Mundial.",
+   "categoria": "ciencia",
+   "regiao": "Flinders Ranges",
+   "data": "2026-11-15",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-15/flinders-ranges-ocean-ediacaran-fossils-research-earth-life/107377008",
+   "pais": "Austrália",
+   "lat": -31.4,
+   "lon": 138.6,
+   "i18n": {
+    "es": {
+     "titulo": "Antiguos cañones submarinos explican los fósiles de la vida compleja más antigua",
+     "resumo": "Un mapeo de la Universidad de Adelaida halló cañones de hasta 280 m de profundidad en los Flinders Ranges. Los cambios del mar ayudaron a preservar fósiles de 550 millones de años, y la zona aspira a ser Patrimonio Mundial.",
+     "regiao": "Flinders Ranges",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Ancient undersea canyons explain how Earth's earliest complex life was preserved",
+     "resumo": "An Adelaide University mapping study found canyons up to 280 m deep in the Flinders Ranges. Sea-level changes helped preserve 550-million-year-old fossils, and the area is bidding for World Heritage status.",
+     "regiao": "Flinders Ranges",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/194365e2cd9506b077f55e2f555b9d21?impolicy=wcms_watermark_news&cropH=1076&cropW=1913&xPos=7&yPos=202&width=862&height=485&imformat=generic",
+   "credito": "Foto: Adelaide University"
+  },
+  {
+   "id": "menina-salva-esgoto",
+   "titulo": "Motociclista ouve gritos e salva menina que caiu em esgoto no Paquistão",
+   "resumo": "Uma criança tentou ajudar a amiga e correu atrás de socorro. Um motociclista que passava ouviu os gritos e tirou a menina do canal. O gesto foi muito elogiado nas redes.",
+   "categoria": "sociedade",
+   "regiao": "Sindh",
+   "data": "2026-11-16",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/videos/menina-e-resgatada-por-motociclista-apos-cair-em-esgoto-a-ceu-aberto-e-quase-se-afogar,052da25e3c5420c1adf48e09eaceda4ctbkpu3ui.html",
+   "pais": "Paquistão",
+   "lat": 25.4,
+   "lon": 68.4,
+   "i18n": {
+    "es": {
+     "titulo": "Un motociclista oye gritos y salva a una niña que cayó a una cloaca en Pakistán",
+     "resumo": "Otro niño intentó ayudar a su amiga y corrió a buscar auxilio. Un motociclista que pasaba oyó los gritos y sacó a la niña del canal. El gesto fue muy elogiado en redes.",
+     "regiao": "Sindh",
+     "pais": "Pakistán"
+    },
+    "en": {
+     "titulo": "Passing motorcyclist hears screams and saves a girl from a drain in Pakistan",
+     "resumo": "Another child tried to help, then ran for assistance. A motorcyclist riding by heard the screams and pulled the girl out of the open drain, earning wide praise online.",
+     "regiao": "Sindh",
+     "pais": "Pakistan"
+    }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/950/534/images.terra.com/2026/11/16/menina-sem-txt-1jecpnx6n60di.jpg",
+   "credito": "Imagem: reprodução/Instagram"
   }
  ]
 }
