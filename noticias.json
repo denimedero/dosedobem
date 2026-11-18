@@ -1,6 +1,265 @@
 {
- "atualizado": "2026-11-17",
+ "atualizado": "2026-11-18",
  "noticias": [
+  {
+   "id": "sarampo-eliminado",
+   "titulo": "Brasil segue livre do sarampo, enquanto vizinhos perdem o título",
+   "resumo": "O país mantém o status de eliminação reconhecido pela Opas. Em 2026 foram 70 casos, 99,7% a menos que o pico de 2019, e mais de 16 milhões de doses de vacina foram distribuídas aos estados.",
+   "categoria": "saude",
+   "regiao": "Brasil",
+   "data": "2026-11-17",
+   "fonte": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/brasil-mantem-eliminacao-do-sarampo-apos-avanco-da-doenca-em-paises-das-americas",
+   "pais": "Brasil",
+   "destaque": true,
+   "i18n": {
+    "es": {
+     "titulo": "Brasil sigue libre de sarampión, mientras otros países pierden el estatus",
+     "resumo": "El país mantiene el estatus de eliminación reconocido por la OPS. En 2026 hubo 70 casos, un 99,7% menos que el pico de 2019, y se distribuyeron más de 16 millones de dosis de vacuna.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil keeps its measles-free status as others lose theirs",
+     "resumo": "Brazil retains its PAHO-recognised elimination status. It has had 70 cases in 2026, 99.7% fewer than the 2019 peak, and distributed over 16 million vaccine doses to states.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/brasil-mantem-eliminacao-do-sarampo-apos-avanco-da-doenca-em-paises-das-americas/vacinacao-contra-sarampo-foto-sandro-araujo-1.jpg/@@images/9a273642-7d28-4d31-a226-293ac1139324.jpeg",
+   "credito": "Foto: Sandro Araújo/Agência Saúde DF"
+  },
+  {
+   "id": "guardioes-leoes-zimbabue",
+   "titulo": "Guardiões comunitários ajudam vilas do Zimbábue a conviver com leões",
+   "resumo": "Moradores treinados como guardiões avisam quando os leões se aproximam e ajudam a proteger o gado. Nas duas primeiras áreas, os conflitos caíram 98% em cerca de cinco anos; em Mbire e Binga, 53%.",
+   "categoria": "animais",
+   "regiao": "Nyaminyami (Lago Kariba)",
+   "data": "2026-11-17",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/podcast/2026/11/in-zimbabwe-trusted-local-guardians-help-communities-coexist-with-lions/",
+   "pais": "Zimbábue",
+   "destaque": true,
+   "lat": -16.5,
+   "lon": 28.7,
+   "i18n": {
+    "es": {
+     "titulo": "Guardianes comunitarios ayudan a aldeas de Zimbabue a convivir con leones",
+     "resumo": "Vecinos formados como guardianes avisan cuando se acercan los leones y ayudan a proteger el ganado. En las dos primeras zonas, los conflictos bajaron un 98% en unos cinco años; en Mbire y Binga, un 53%.",
+     "regiao": "Nyaminyami (lago Kariba)",
+     "pais": "Zimbabue"
+    },
+    "en": {
+     "titulo": "Community guardians help Zimbabwe villages live alongside lions",
+     "resumo": "Local people trained as guardians warn when lions approach and help protect livestock. In the first two wards, conflicts fell 98% in about five years; in Mbire and Binga, by 53%.",
+     "regiao": "Nyaminyami (Lake Kariba)",
+     "pais": "Zimbabwe"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/16040900/Community-Guardians-from-Nyaminyami-posing-with-their-moterbikes-1200x800.jpg",
+   "credito": "Foto: Wildlife Conservation Action"
+  },
+  {
+   "id": "assentamento-pirapora",
+   "titulo": "Acordo garante terra a 139 famílias após 23 anos de conflito em Minas",
+   "resumo": "As famílias do assentamento na antiga Fazenda da Prata receberam os contratos de uso de 2.937 hectares. Agora podem acessar crédito para produção e moradia, e contam que já não temem o despejo.",
+   "categoria": "sociedade",
+   "regiao": "Pirapora (MG)",
+   "data": "2026-11-16",
+   "fonte": "Estado de Minas",
+   "url": "https://www.em.com.br/gerais/2026/11/7539609-mg-conflito-agrario-envolvendo-139-familias-e-encerrado-apos-23-anos.html",
+   "pais": "Brasil",
+   "lat": -17.35,
+   "lon": -44.94,
+   "i18n": {
+    "es": {
+     "titulo": "Un acuerdo garantiza tierra a 139 familias tras 23 años de conflicto en Minas Gerais",
+     "resumo": "Las familias del asentamiento en la antigua Hacienda da Prata recibieron los contratos de uso de 2.937 hectáreas. Ahora pueden acceder a crédito para producción y vivienda, y dicen que ya no temen el desalojo.",
+     "regiao": "Pirapora (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Agreement secures land for 139 families after a 23-year dispute in Brazil",
+     "resumo": "Families at the former Fazenda da Prata settlement received use contracts for 2,937 hectares. They can now access credit for farming and housing, and say they no longer fear eviction.",
+     "regiao": "Pirapora (MG)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.em.com.br/_midias/jpg/2026/11/16/1000x1000/1_assentamento-68237474.jpg",
+   "credito": "Foto: Riva Moreira/TJMG/Divulgação"
+  },
+  {
+   "id": "calcula-enem-usp",
+   "titulo": "Estudante da USP cria ferramenta gratuita que calcula a nota do Enem",
+   "resumo": "Pedro Mantovani, de 20 anos, criou o Calcula ENEM, de código aberto, que estima a nota pela TRI. Testado com 500 mil provas, acerta a nota oficial com diferença menor que 0,01 ponto em 90% dos casos.",
+   "categoria": "tecnologia",
+   "regiao": "São Carlos (SP)",
+   "data": "2026-11-16",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/universidade/calcula-enem-estudante-da-usp-cria-plataforma-que-ajuda-a-entender-pontuacao-na-prova/",
+   "pais": "Brasil",
+   "lat": -22.01,
+   "lon": -47.89,
+   "i18n": {
+    "es": {
+     "titulo": "Un estudiante de la USP crea una herramienta gratuita que calcula la nota del Enem",
+     "resumo": "Pedro Mantovani, de 20 años, creó Calcula ENEM, de código abierto, que estima la nota del examen de ingreso. Probado con 500.000 exámenes, acierta la nota oficial con menos de 0,01 punto de diferencia en el 90% de los casos.",
+     "regiao": "São Carlos (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Student builds free tool that predicts Brazil's university entrance exam score",
+     "resumo": "Pedro Mantovani, 20, created Calcula ENEM, an open-source score estimator. Tested on 500,000 past exams, it matched the official score to within 0.01 points in 90% of cases.",
+     "regiao": "São Carlos (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261116_00_provas_enem_exame_nacional_ensino_medio.jpg",
+   "credito": "Foto: Bruna Araújo/MEC"
+  },
+  {
+   "id": "tambaqui-sem-espinha",
+   "titulo": "Embrapa avança para criar tambaqui sem espinhas",
+   "resumo": "Com edição genética, pesquisadores desligaram o gene das espinhas em Y do peixe amazônico. Os resultados são preliminares e os primeiros filhotes devem vir em 2027. Filé sem espinha seria mais seguro para crianças e idosos.",
+   "categoria": "ciencia",
+   "regiao": "Palmas (TO)",
+   "data": "2026-11-17",
+   "fonte": "Embrapa",
+   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/150191864/embrapa-usa-edicao-genica-para-desenvolver-tambaqui-sem-espinhas-intermusculares",
+   "pais": "Brasil",
+   "lat": -10.18,
+   "lon": -48.33,
+   "i18n": {
+    "es": {
+     "titulo": "Embrapa avanza hacia un tambaquí sin espinas",
+     "resumo": "Con edición genética, investigadores desactivaron el gen de las espinas en Y de este pez amazónico. Los resultados son preliminares y las primeras crías llegarían en 2027. Un filete sin espinas sería más seguro para niños y mayores.",
+     "regiao": "Palmas (TO)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil moves toward a boneless tambaqui fish",
+     "resumo": "Using gene editing, researchers switched off the gene behind the Amazon fish's Y-shaped bones. Results are preliminary, with first offspring due in 2027. Boneless fillets would be safer for children and older people.",
+     "regiao": "Palmas (TO)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.embrapa.br/documents/d/portal/261117_tambaquisemespinha_aliny_melo_abstract",
+   "credito": "Foto: Aliny Melo/Embrapa"
+  },
+  {
+   "id": "earthshot-2026",
+   "titulo": "Prêmio Earthshot celebra soluções para salvar o planeta",
+   "resumo": "Entre os vencedores estão a dinamarquesa Ørsted, que trocou o petróleo por mais de 11 GW de energia eólica no mar, a campanha PFAS-Free France, com 140 mil apoiadores, o Butão e um projeto de proteção do oceano em Niue.",
+   "categoria": "meio-ambiente",
+   "regiao": "Mumbai",
+   "data": "2026-11-17",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/17/change-is-possible-danish-offshore-wind-giant-wins-earthshot-prize-after-quitting-oil-and-",
+   "pais": "Índia",
+   "lat": 19.08,
+   "lon": 72.88,
+   "i18n": {
+    "es": {
+     "titulo": "El premio Earthshot celebra soluciones para salvar el planeta",
+     "resumo": "Entre los ganadores están la danesa Ørsted, que cambió el petróleo por más de 11 GW de eólica marina, la campaña PFAS-Free France, con 140.000 apoyos, Bután y un proyecto de protección del océano en Niue.",
+     "regiao": "Mumbai",
+     "pais": "India"
+    },
+    "en": {
+     "titulo": "Earthshot Prize celebrates solutions to repair the planet",
+     "resumo": "Winners include Denmark's Ørsted, which swapped oil for over 11 GW of offshore wind, the PFAS-Free France campaign with 140,000 supporters, Bhutan and an ocean-protection effort in Niue.",
+     "regiao": "Mumbai",
+     "pais": "India"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/99/61/98/1200x675_cmsv2_74cb5de3-86e1-5566-b6ba-9613e1cad656-9996198.jpg",
+   "credito": "Foto: The Earthshot Prize"
+  },
+  {
+   "id": "barreira-riachuelo",
+   "titulo": "Barreira flutuante segura o lixo antes que chegue ao Rio da Prata",
+   "resumo": "Uma barreira de 250 metros instalada no Riachuelo, em Buenos Aires, deve reter de 75% a 80% do lixo que flutua no rio, segundo a prefeitura.",
+   "categoria": "meio-ambiente",
+   "regiao": "Buenos Aires",
+   "data": "2026-11-16",
+   "fonte": "La Nación",
+   "url": "https://www.lanacion.com.ar/sociedad/instalaron-una-llave-de-paso-para-impedir-que-la-basura-llegue-al-rio-de-la-plata-nid16112026/",
+   "pais": "Argentina",
+   "lat": -34.66,
+   "lon": -58.37,
+   "i18n": {
+    "es": {
+     "titulo": "Una barrera flotante frena la basura antes de que llegue al Río de la Plata",
+     "resumo": "Una barrera de 250 metros instalada en el Riachuelo, en Buenos Aires, retendría entre el 75% y el 80% de la basura que flota en el río, según el gobierno porteño.",
+     "regiao": "Buenos Aires",
+     "pais": "Argentina"
+    },
+    "en": {
+     "titulo": "Floating barrier stops litter before it reaches the River Plate",
+     "resumo": "A 250-metre barrier on Buenos Aires' Riachuelo should catch 75–80% of the river's floating waste, according to the city government.",
+     "regiao": "Buenos Aires",
+     "pais": "Argentina"
+    }
+   },
+   "img": "https://www.lanacion.com.ar/resizer/v2/la-barrera-flotante-instalada-por-el-gobierno-J254EPQ47REXRGSYR532IYJX6Y.jpeg",
+   "credito": "Foto: Gobierno de la Ciudad de Buenos Aires"
+  },
+  {
+   "id": "fossil-jardim-australia",
+   "titulo": "Fóssil achado num jardim em 1996 é uma nova espécie de 240 milhões de anos",
+   "resumo": "O jardineiro David King encontrou a pedra ao lavar pedras de uma pedreira e a doou ao Museu Australiano. Agora, o pesquisador Lachlan Hart a identificou como um anfíbio antigo novo para a ciência, o Arenaerpeton supinatus.",
+   "categoria": "ciencia",
+   "regiao": "Nova Gales do Sul",
+   "data": "2026-11-17",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/17/encontro-un-fosil-de-240-millones-de-anos-en-su-jardin-y-recien-ahora-se-conocio-su-especie/",
+   "pais": "Austrália",
+   "lat": -33.0,
+   "lon": 150.0,
+   "i18n": {
+    "es": {
+     "titulo": "Un fósil hallado en un jardín en 1996 es una nueva especie de 240 millones de años",
+     "resumo": "El jardinero David King lo encontró al lavar piedras de una cantera y lo donó al Museo Australiano. Ahora, el investigador Lachlan Hart lo identificó como un anfibio antiguo nuevo para la ciencia, Arenaerpeton supinatus.",
+     "regiao": "Nueva Gales del Sur",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Fossil found in a garden in 1996 is a new 240-million-year-old species",
+     "resumo": "Gardener David King found it while washing quarry stones and gave it to the Australian Museum. Researcher Lachlan Hart has now identified it as an ancient amphibian new to science, Arenaerpeton supinatus.",
+     "regiao": "New South Wales",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/QMTEMAA36BD2PJ6VDSL65ABSLM.png?auth=1a2248ebd1045fe78fd3952f12d48c683b781f5ee748716524e443a8922f72f8&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem: UNSW (Universidade de Nova Gales do Sul)"
+  },
+  {
+   "id": "voyager-dia-luz",
+   "titulo": "Voyager 1 chega a um dia-luz da Terra, 49 anos após o lançamento",
+   "resumo": "Lançada em 1977, a sonda da NASA é o primeiro objeto humano a chegar a cerca de 25,9 bilhões de km de distância: a luz leva um dia inteiro para percorrer o caminho.",
+   "categoria": "ciencia",
+   "regiao": "Espaço interestelar",
+   "data": "2026-11-18",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/salud/ciencia/2026/11/18/la-nave-voyager-1-de-la-nasa-llega-hoy-a-un-dia-luz-de-distancia-de-la-tierra-como-opera-y-cuanta-energia-le-queda/",
+   "pais": "Estados Unidos",
+   "i18n": {
+    "es": {
+     "titulo": "La Voyager 1 llega a un día luz de la Tierra, 49 años después de su lanzamiento",
+     "resumo": "Lanzada en 1977, la sonda de la NASA es el primer objeto humano en alcanzar unos 25.900 millones de km: la luz tarda un día entero en recorrer ese camino.",
+     "regiao": "Espacio interestelar",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Voyager 1 reaches one light-day from Earth, 49 years after launch",
+     "resumo": "Launched in 1977, NASA's probe is the first human-made object to reach about 25.9 billion km away: light takes a full day to make the trip.",
+     "regiao": "Interstellar space",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/U2VLA6VUHBF2VAKYRC4DHF5E6Y.jpg?auth=31f0d3fb23be74fb688087f82307eaaaaa864e17391361cadb38ba2c7342128e&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem: NASA"
+  },
   {
    "id": "paracanoista-encontrado",
    "titulo": "Tetracampeão mundial de paracanoagem é encontrado vivo após 20 horas no mar",
@@ -11,7 +270,6 @@
    "fonte": "Metrópoles",
    "url": "https://www.metropoles.com/sao-paulo/tetracampeao-de-canoagem-paralimpica-e-achado-apos-sumir-em-treino-no-mar",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -23.96,
    "lon": -46.39,
    "i18n": {
@@ -41,7 +299,6 @@
    "fonte": "Mongabay",
    "url": "https://news.mongabay.com/2026/11/a-lost-firefly-species-flashes-back-into-view-in-the-us/",
    "pais": "Estados Unidos",
-   "destaque": true,
    "lat": 39.8,
    "lon": -75.6,
    "i18n": {
@@ -89,265 +346,6 @@
    },
    "img": "https://agencia.fapesp.br/files/post/59620.jpeg",
    "credito": "Foto: Rafael Porto"
-  },
-  {
-   "id": "mpox-cai-90",
-   "titulo": "Casos de mpox no Brasil estão 90% abaixo do pico de 2022",
-   "resumo": "O país teve 1.055 casos confirmados em 2026, contra 10.591 em 2022, e as mortes caíram de 14 para uma. O ministério garantiu 25 mil doses de vacina para os grupos de maior risco.",
-   "categoria": "saude",
-   "regiao": "Brasil",
-   "data": "2026-11-16",
-   "fonte": "Ministério da Saúde",
-   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/casos-e-obitos-por-mpox-no-brasil-estao-cerca-de-90-abaixo-dos-registrados-em-2022",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "Los casos de mpox en Brasil están un 90% por debajo del pico de 2022",
-     "resumo": "El país tuvo 1.055 casos confirmados en 2026, frente a 10.591 en 2022, y las muertes bajaron de 14 a una. El ministerio aseguró 25.000 dosis de vacuna para los grupos de mayor riesgo.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil's mpox cases are 90% below their 2022 peak",
-     "resumo": "Brazil confirmed 1,055 cases in 2026, versus 10,591 in 2022, and deaths fell from 14 to one. The ministry secured 25,000 vaccine doses for the highest-risk groups.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/casos-e-obitos-por-mpox-no-brasil-estao-cerca-de-90-abaixo-dos-registrados-em-2022/vacina-mpox-foto-matheus-oliveira-_-agencia-saude-df.jpg/@@images/0eaef72e-e189-4d4f-a37d-a66fac73f74c.jpeg",
-   "credito": "Foto: Matheus Oliveira/Agência Saúde DF"
-  },
-  {
-   "id": "bale-santa-luzia",
-   "titulo": "Projeto de balé na periferia de Santa Luzia completa 20 anos",
-   "resumo": "A bailarina Ilma Silvério criou o Balé Passo a Passo em 2006 para ensinar balé clássico a crianças do bairro Palmital, com bolsas para quem precisa. Ela também mantém um ponto de cultura com biblioteca e oficinas.",
-   "categoria": "sociedade",
-   "regiao": "Santa Luzia (MG)",
-   "data": "2026-11-16",
-   "fonte": "Estado de Minas",
-   "url": "https://www.em.com.br/gerais/2026/11/7538990-onde-a-arte-muda-vidas.html",
-   "pais": "Brasil",
-   "lat": -19.77,
-   "lon": -43.85,
-   "i18n": {
-    "es": {
-     "titulo": "Un proyecto de ballet en la periferia de Santa Luzia cumple 20 años",
-     "resumo": "La bailarina Ilma Silvério creó Balé Passo a Passo en 2006 para enseñar ballet clásico a niños del barrio Palmital, con becas para quien lo necesite. También mantiene un centro cultural con biblioteca y talleres.",
-     "regiao": "Santa Luzia (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Ballet project in a Brazilian working-class suburb turns 20",
-     "resumo": "Dancer Ilma Silvério founded Balé Passo a Passo in 2006 to teach classical ballet to children in Palmital, Santa Luzia, with scholarships for those in need. She also runs a cultural centre with a library and workshops.",
-     "regiao": "Santa Luzia (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.em.com.br/_midias/jpg/2026/11/15/1000x1000/1_il-68228665.jpg",
-   "credito": "Foto: Júlio Moreira/EM/D.A Press"
-  },
-  {
-   "id": "escola-piamarta",
-   "titulo": "Escola de tempo integral em Fortaleza quase dobra de tamanho",
-   "resumo": "A nova sede da EEMTI São João Piamarta passa de 280 para 540 vagas, com 12 salas, laboratórios de informática e quadra coberta.",
-   "categoria": "sociedade",
-   "regiao": "Fortaleza (CE)",
-   "data": "2026-11-16",
-   "fonte": "O POVO",
-   "url": "https://www.opovo.com.br/noticias/fortaleza/2026/11/16/nova-sede-da-eemti-sao-joao-piamarta-amplia-a-capacidade-para-540-estudantes.html",
-   "pais": "Brasil",
-   "lat": -3.73,
-   "lon": -38.53,
-   "i18n": {
-    "es": {
-     "titulo": "Una escuela de jornada completa en Fortaleza casi duplica su tamaño",
-     "resumo": "La nueva sede de la EEMTI São João Piamarta pasa de 280 a 540 plazas, con 12 aulas, laboratorios de informática y una cancha techada.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Full-time school in Fortaleza nearly doubles in size",
-     "resumo": "The new building of the São João Piamarta school goes from 280 to 540 places, with 12 classrooms, computer labs and a covered sports court.",
-     "regiao": "Fortaleza (CE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/16/856x642/1_piamarta_2_thiago_gaspargoverno_do_ceara-43135325.jpg",
-   "credito": "Foto: Thiago Gaspar/Governo do Ceará"
-  },
-  {
-   "id": "celulas-til-utero",
-   "titulo": "Cientistas multiplicam células de defesa para combater câncer de colo de útero",
-   "resumo": "No Einstein, pesquisadores conseguiram multiplicar em laboratório linfócitos tirados de tumores de pacientes. É uma etapa inicial: ainda precisam provar eficácia e segurança antes de testes em pessoas.",
-   "categoria": "ciencia",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-14",
-   "fonte": "CNN Brasil",
-   "url": "https://www.cnnbrasil.com.br/saude/celulas-do-cancer-do-colo-de-utero-sao-estudadas-para-o-combate-da-doenca/",
-   "pais": "Brasil",
-   "lat": -23.6,
-   "lon": -46.72,
-   "i18n": {
-    "es": {
-     "titulo": "Científicos multiplican células de defensa para combatir el cáncer de cuello uterino",
-     "resumo": "En el Einstein, investigadores lograron multiplicar en laboratorio linfocitos extraídos de tumores de pacientes. Es una etapa inicial: aún deben probar eficacia y seguridad antes de ensayos en personas.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Scientists grow immune cells to fight cervical cancer",
-     "resumo": "At São Paulo's Einstein hospital, researchers multiplied lymphocytes taken from patients' tumours in the lab. It's early-stage: efficacy and safety must be shown before human trials.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/05/consulta_saude_mulher_ginecologia.jpg?w=1200&h=630&crop=1",
-   "credito": "Foto ilustrativa: Anchiy/Getty Images"
-  },
-  {
-   "id": "arrozais-enchentes-japao",
-   "titulo": "Cidade japonesa usa arrozais para conter enchentes",
-   "resumo": "Depois de três cheias, agricultores de Osaki instalaram mais de 5 mil pequenas barragens de terra nos arrozais, que seguram a água da chuva. Já cobrem 20% das plantações e também abrigam aves e outras espécies.",
-   "categoria": "meio-ambiente",
-   "regiao": "Osaki (Miyagi)",
-   "data": "2026-11-16",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/the-power-of-the-paddy-japan-looks-to-rice-fields-to-help-mitigate-flooding/",
-   "pais": "Japão",
-   "lat": 38.57,
-   "lon": 140.95,
-   "i18n": {
-    "es": {
-     "titulo": "Una ciudad japonesa usa los arrozales para frenar inundaciones",
-     "resumo": "Tras tres inundaciones, agricultores de Osaki instalaron más de 5.000 pequeñas presas de tierra en los arrozales, que retienen el agua de lluvia. Ya cubren el 20% de los cultivos y también dan refugio a aves y otras especies.",
-     "regiao": "Osaki (Miyagi)",
-     "pais": "Japón"
-    },
-    "en": {
-     "titulo": "Japanese city turns rice paddies into flood defences",
-     "resumo": "After three floods, Osaki's farmers installed more than 5,000 small earthen dams in rice paddies to hold back rainwater. They now cover 20% of the fields and also shelter birds and other wildlife.",
-     "regiao": "Osaki (Miyagi)",
-     "pais": "Japan"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/13102718/Calidris_acuminata_flocks-rice-1200x800.jpg",
-   "credito": "Foto: Alpsdake/Wikimedia Commons (CC BY-SA 4.0)"
-  },
-  {
-   "id": "uti-neonatal-cameras",
-   "titulo": "Doação põe câmeras em UTI neonatal para pais verem os bebês 24 horas",
-   "resumo": "No Hospital de Camberra, cada um dos 39 berços ganhou uma câmera com transmissão segura para a família. Os equipamentos vieram de uma doação de 117,6 mil dólares australianos de uma fundação. Uma mãe de prematura diz que ganhou tranquilidade.",
-   "categoria": "saude",
-   "regiao": "Camberra",
-   "data": "2026-11-17",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-17/canberra-hospital-new-baby-cameras-intensive-care/107393286",
-   "pais": "Austrália",
-   "lat": -35.32,
-   "lon": 149.13,
-   "i18n": {
-    "es": {
-     "titulo": "Una donación pone cámaras en la UCI neonatal para que los padres vean a sus bebés 24 horas",
-     "resumo": "En el Hospital de Canberra, cada una de las 39 cunas tiene una cámara con transmisión segura para la familia. Los equipos vinieron de una donación de 117.600 dólares australianos. Una madre de una prematura dice que le da tranquilidad.",
-     "regiao": "Canberra",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Donation lets parents watch NICU babies around the clock",
-     "resumo": "At Canberra Hospital, each of the 39 cots now has a secure live-stream camera for families, funded by a A$117,600 donation. One mother of a premature baby says it gives her extra reassurance.",
-     "regiao": "Canberra",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/28ceb24095f7646cd974c17b4beeeb9f?impolicy=wcms_watermark_news&cropH=2592&cropW=4608&xPos=0&yPos=0&width=862&height=485&imformat=generic",
-   "credito": "Foto: Mark Moore/ABC News"
-  },
-  {
-   "id": "trilhos-manta-termica",
-   "titulo": "Manta térmica esfria trilhos de trem em até 11 °C sem gastar água",
-   "resumo": "Cientistas coreanos criaram um tecido preso por ímãs que bloqueia mais de 85% do calor do sol nos trilhos. Em testes de 2024 e 2025, a temperatura caiu até 10,9 °C, o que ajuda a evitar deformações no calor.",
-   "categoria": "tecnologia",
-   "regiao": "Coreia do Sul",
-   "data": "2026-11-16",
-   "fonte": "New Atlas",
-   "url": "https://newatlas.com/transport/rail-textile-heat-shield/",
-   "pais": "Coreia do Sul",
-   "lat": 36.5,
-   "lon": 127.5,
-   "i18n": {
-    "es": {
-     "titulo": "Una manta térmica enfría las vías del tren hasta 11 °C sin gastar agua",
-     "resumo": "Científicos coreanos crearon un tejido sujeto con imanes que bloquea más del 85% del calor del sol en las vías. En pruebas de 2024 y 2025, la temperatura bajó hasta 10,9 °C, lo que ayuda a evitar deformaciones.",
-     "regiao": "Corea del Sur",
-     "pais": "Corea del Sur"
-    },
-    "en": {
-     "titulo": "Heat-shield textile cools rail tracks by up to 11 °C without water",
-     "resumo": "Korean researchers made a magnet-mounted fabric that blocks over 85% of solar heat on rails. In 2024 and 2025 tests, rail temperatures dropped by up to 10.9 °C, helping prevent heat buckling.",
-     "regiao": "South Korea",
-     "pais": "South Korea"
-    }
-   },
-   "img": "https://assets.newatlas.com/dims4/default/ba043ab/2147483647/strip/true/crop/1272x668+0+53/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Ff5%2F44%2Fb2ca7d38424480463d971d681b76%2Fhermal-locking20extile20echnology203.jpg&na.image_optimisation=0",
-   "credito": "Foto: National Research Council of Science & Technology"
-  },
-  {
-   "id": "fosseis-flinders",
-   "titulo": "Cânions submarinos antigos explicam fósseis da vida complexa mais antiga",
-   "resumo": "Um mapeamento da Universidade de Adelaide achou cânions de até 280 m de profundidade nas Flinders Ranges. As mudanças do mar ajudaram a preservar fósseis de 550 milhões de anos, e a região disputa o título de Patrimônio Mundial.",
-   "categoria": "ciencia",
-   "regiao": "Flinders Ranges",
-   "data": "2026-11-15",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-15/flinders-ranges-ocean-ediacaran-fossils-research-earth-life/107377008",
-   "pais": "Austrália",
-   "lat": -31.4,
-   "lon": 138.6,
-   "i18n": {
-    "es": {
-     "titulo": "Antiguos cañones submarinos explican los fósiles de la vida compleja más antigua",
-     "resumo": "Un mapeo de la Universidad de Adelaida halló cañones de hasta 280 m de profundidad en los Flinders Ranges. Los cambios del mar ayudaron a preservar fósiles de 550 millones de años, y la zona aspira a ser Patrimonio Mundial.",
-     "regiao": "Flinders Ranges",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Ancient undersea canyons explain how Earth's earliest complex life was preserved",
-     "resumo": "An Adelaide University mapping study found canyons up to 280 m deep in the Flinders Ranges. Sea-level changes helped preserve 550-million-year-old fossils, and the area is bidding for World Heritage status.",
-     "regiao": "Flinders Ranges",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/194365e2cd9506b077f55e2f555b9d21?impolicy=wcms_watermark_news&cropH=1076&cropW=1913&xPos=7&yPos=202&width=862&height=485&imformat=generic",
-   "credito": "Foto: Adelaide University"
-  },
-  {
-   "id": "menina-salva-esgoto",
-   "titulo": "Motociclista ouve gritos e salva menina que caiu em esgoto no Paquistão",
-   "resumo": "Uma criança tentou ajudar a amiga e correu atrás de socorro. Um motociclista que passava ouviu os gritos e tirou a menina do canal. O gesto foi muito elogiado nas redes.",
-   "categoria": "sociedade",
-   "regiao": "Sindh",
-   "data": "2026-11-16",
-   "fonte": "Terra",
-   "url": "https://www.terra.com.br/noticias/videos/menina-e-resgatada-por-motociclista-apos-cair-em-esgoto-a-ceu-aberto-e-quase-se-afogar,052da25e3c5420c1adf48e09eaceda4ctbkpu3ui.html",
-   "pais": "Paquistão",
-   "lat": 25.4,
-   "lon": 68.4,
-   "i18n": {
-    "es": {
-     "titulo": "Un motociclista oye gritos y salva a una niña que cayó a una cloaca en Pakistán",
-     "resumo": "Otro niño intentó ayudar a su amiga y corrió a buscar auxilio. Un motociclista que pasaba oyó los gritos y sacó a la niña del canal. El gesto fue muy elogiado en redes.",
-     "regiao": "Sindh",
-     "pais": "Pakistán"
-    },
-    "en": {
-     "titulo": "Passing motorcyclist hears screams and saves a girl from a drain in Pakistan",
-     "resumo": "Another child tried to help, then ran for assistance. A motorcyclist riding by heard the screams and pulled the girl out of the open drain, earning wide praise online.",
-     "regiao": "Sindh",
-     "pais": "Pakistan"
-    }
-   },
-   "img": "https://p2.trrsf.com/image/fget/cf/950/534/images.terra.com/2026/11/16/menina-sem-txt-1jecpnx6n60di.jpg",
-   "credito": "Imagem: reprodução/Instagram"
   }
  ]
 }
