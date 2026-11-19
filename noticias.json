@@ -1,6 +1,296 @@
 {
- "atualizado": "2026-11-18",
+ "atualizado": "2026-11-19",
  "noticias": [
+  {
+   "id": "premio-ciencia-para-todos",
+   "titulo": "Alunos de escolas públicas são premiados por invenções que incluem",
+   "resumo": "No Prêmio Ciência para Todos, venceram estudantes que criaram uma órtese para quem tem atrofia nas mãos comer sozinho, uma bengala eletrônica para pessoas surdocegas e um biodigestor contra a pobreza energética, entre outros projetos.",
+   "categoria": "sociedade",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-19",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/premio-ciencia-para-todos-destaca-projetos-de-inclusao-saude-e-sustentabilidade/59653",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -23.55,
+   "lon": -46.63,
+   "i18n": {
+    "es": {
+     "titulo": "Alumnos de escuelas públicas premiados por inventos que incluyen",
+     "resumo": "En el Premio Ciencia para Todos ganaron estudiantes que crearon una órtesis para que personas con atrofia en las manos coman solas, un bastón electrónico para personas sordociegas y un biodigestor contra la pobreza energética, entre otros.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Public school students win awards for inclusive inventions",
+     "resumo": "Winners of Brazil's Science for All prize include students who built an orthosis that lets people with hand atrophy eat on their own, an electronic cane for deafblind users and a biodigester against energy poverty.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59653.jpg",
+   "credito": "Foto: Daniel Antônio/Agência FAPESP"
+  },
+  {
+   "id": "xadrez-bodhana-recorde",
+   "titulo": "Menina de 11 anos é a grande mestra de xadrez mais jovem da história",
+   "resumo": "Bodhana Sivanandan conquistou o título de Grande Mestre Feminina ao jogar pela Inglaterra na Olimpíada de Xadrez, com 8 pontos em 11 rodadas. Ela aprendeu sozinha na pandemia e bateu o recorde de Kateryna Lagno, que tinha 12 anos.",
+   "categoria": "sociedade",
+   "regiao": "Londres",
+   "data": "2026-11-17",
+   "fonte": "La Nación / BBC Mundo",
+   "url": "https://www.lanacion.com.ar/sociedad/tiene-11-anos-y-alcanzo-un-record-en-ajedrez-es-la-gran-maestra-femenina-mas-joven-nid17112026/",
+   "pais": "Reino Unido",
+   "destaque": true,
+   "lat": 51.58,
+   "lon": -0.34,
+   "i18n": {
+    "es": {
+     "titulo": "Una niña de 11 años es la gran maestra de ajedrez más joven de la historia",
+     "resumo": "Bodhana Sivanandan obtuvo el título de Gran Maestra Femenina jugando para Inglaterra en la Olimpíada de Ajedrez, con 8 puntos en 11 rondas. Aprendió sola en la pandemia y superó el récord de Kateryna Lagno, que tenía 12.",
+     "regiao": "Londres",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "11-year-old becomes the youngest ever Woman Grandmaster",
+     "resumo": "Bodhana Sivanandan earned the Woman Grandmaster title playing for England at the Chess Olympiad, scoring 8 from 11. She taught herself during lockdown and beat Kateryna Lagno's record, set at 12.",
+     "regiao": "London",
+     "pais": "UK"
+    }
+   },
+   "img": "https://www.lanacion.com.ar/resizer/v2/bodhana-empezo-a-jugar-al-ajedrez-durante-la-VLJ4DHDDXVC43DSFIZ7ZHQBCHM.JPG?auth=0bc553c5e4e1d56531bf305c102f9b7fc7af8a57d39bef862227ad1eab013220&width=1200&height=800&quality=70&smart=true",
+   "credito": "Foto: BBC Mundo"
+  },
+  {
+   "id": "exoesqueleto-ufes",
+   "titulo": "Exoesqueleto criado na Ufes leva reabilitação para dentro de casa",
+   "resumo": "O m-FLEX é vestível e ajuda na recuperação dos movimentos dos braços, permitindo parte do tratamento em casa. O projeto é o único brasileiro entre os 15 finalistas de uma competição na Medica 2026, na Alemanha.",
+   "categoria": "tecnologia",
+   "regiao": "Vitória (ES)",
+   "data": "2026-11-17",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/saude/exoesqueleto-portatil-criado-no-es-leva-reabilitacao-para-pacientes-em-casa/",
+   "pais": "Brasil",
+   "lat": -20.32,
+   "lon": -40.34,
+   "i18n": {
+    "es": {
+     "titulo": "Un exoesqueleto creado en Brasil lleva la rehabilitación al hogar",
+     "resumo": "El m-FLEX se viste y ayuda a recuperar los movimientos de los brazos, lo que permite parte del tratamiento en casa. Es el único proyecto brasileño entre los 15 finalistas de una competencia en Medica 2026, en Alemania.",
+     "regiao": "Vitória (ES)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian wearable exoskeleton brings rehab into patients' homes",
+     "resumo": "The m-FLEX, from the Federal University of Espírito Santo, helps patients regain arm movement and lets part of therapy happen at home. It's the only Brazilian entry among 15 finalists in a Medica 2026 competition in Germany.",
+     "regiao": "Vitória (ES)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/ROBO-PARA-VESTIR.png?w=1200&h=630&crop=1",
+   "credito": "Imagem: reprodução/Ufes"
+  },
+  {
+   "id": "pomada-glaucoma-ufmg",
+   "titulo": "Pomada noturna pode substituir colírios após cirurgia de glaucoma",
+   "resumo": "Num estudo da UFMG com 66 olhos, 85,4% dos tratados com a pomada controlaram a pressão sem outros remédios, contra 52% com os colírios comuns. Um ensaio maior está em andamento.",
+   "categoria": "saude",
+   "regiao": "Belo Horizonte (MG)",
+   "data": "2026-11-16",
+   "fonte": "UFMG",
+   "url": "https://www.ufmg.br/comunicacao/noticias/pesquisa-e-inovacao/pomada-pode-reduzir-ou-eliminar-uso-de-colirios-apos-cirurgia-de-glaucoma/",
+   "pais": "Brasil",
+   "lat": -19.92,
+   "lon": -43.94,
+   "i18n": {
+    "es": {
+     "titulo": "Una pomada nocturna podría sustituir los colirios tras la cirugía de glaucoma",
+     "resumo": "En un estudio de la UFMG con 66 ojos, el 85,4% de los tratados con la pomada controló la presión sin otros fármacos, frente al 52% con los colirios habituales. Hay un ensayo mayor en curso.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Night-time ointment may replace eye drops after glaucoma surgery",
+     "resumo": "In a UFMG study of 66 eyes, 85.4% treated with the ointment controlled eye pressure without other drugs, versus 52% on standard drops. A larger trial is under way.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.ufmg.br//app/uploads/2026/11/glaucoma-scaled-e1794835238942-864x445.jpg",
+   "credito": "Foto ilustrativa: James Heilman/Wikipedia (CC BY-SA 3.0)"
+  },
+  {
+   "id": "aerodesign-usp",
+   "titulo": "Equipe da USP é vice no AeroDesign com pouso de planador recorde",
+   "resumo": "A equipe da EESC-USP ficou em segundo lugar na classe avançada da competição SAE Brasil AeroDesign e ganhou menção de melhor projeto. Seu planador autônomo bateu o recorde de pouso perto do alvo.",
+   "categoria": "tecnologia",
+   "regiao": "São Carlos (SP)",
+   "data": "2026-11-17",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/universidade/equipe-da-usp-em-sao-carlos-e-destaque-em-competicao-nacional-de-aerodesign/",
+   "pais": "Brasil",
+   "lat": -22.0,
+   "lon": -47.89,
+   "i18n": {
+    "es": {
+     "titulo": "Un equipo de la USP es subcampeón de AeroDesign con un aterrizaje récord",
+     "resumo": "El equipo de la EESC-USP quedó segundo en la clase avanzada de la competencia SAE Brasil AeroDesign y obtuvo mención al mejor proyecto. Su planeador autónomo batió el récord de aterrizaje cerca del objetivo.",
+     "regiao": "São Carlos (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "University of São Paulo team takes second place in AeroDesign with record glider landing",
+     "resumo": "The EESC-USP team placed second in the advanced class of SAE Brasil AeroDesign and won a best-project mention. Its autonomous glider set the competition's landing-accuracy record.",
+     "regiao": "São Carlos (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261117_00_eesc_usp_aerodesign.jpg",
+   "credito": "Foto: arquivo pessoal"
+  },
+  {
+   "id": "forca-nacional-sus-15",
+   "titulo": "Força Nacional do SUS completa 15 anos com 10 milhões de pessoas ajudadas",
+   "resumo": "Criada após as enchentes na serra do Rio em 2011, a equipe fez mais de 170 missões, 80 mil atendimentos diretos e já treinou 20 mil pessoas para emergências, com cerca de 3 mil voluntários.",
+   "categoria": "saude",
+   "regiao": "Brasil",
+   "data": "2026-11-17",
+   "fonte": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/forca-nacional-do-sus-completa-15-anos-com-mais-de-10-milhoes-de-pessoas-beneficiadas-em-todo-o-brasil",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "La Fuerza Nacional del SUS cumple 15 años con 10 millones de personas ayudadas",
+     "resumo": "Creada tras las inundaciones en la sierra de Río en 2011, hizo más de 170 misiones y 80.000 atenciones directas, y ya capacitó a 20.000 personas para emergencias, con unos 3.000 voluntarios.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil's SUS emergency health force turns 15, having helped 10 million people",
+     "resumo": "Created after the 2011 Rio mountain floods, it has run 170+ missions and 80,000 direct consultations, and trained 20,000 people for emergencies, with about 3,000 volunteers.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/forca-nacional-do-sus-completa-15-anos-com-mais-de-10-milhoes-de-pessoas-beneficiadas-em-todo-o-brasil/forca-nacional-do-sus-fns-1.jpg/@@images/c3550cf5-272a-4095-90fc-e3ce93713e74.jpeg",
+   "credito": "Foto: divulgação/MS"
+  },
+  {
+   "id": "chinampas-premio",
+   "titulo": "Projeto que salva os jardins flutuantes do México ganha 'Nobel da gastronomia'",
+   "resumo": "Lucio Usobiaga recebeu 100 mil euros pela Arca Tierra, rede com 50 famílias agricultoras que mantém viva a agricultura das chinampas e abastece 60 restaurantes. O lugar é o último refúgio dos axolotes selvagens.",
+   "categoria": "meio-ambiente",
+   "regiao": "Xochimilco (Cidade do México)",
+   "data": "2026-11-18",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/short-article/2026/11/lucio-usobiaga-wins-2026-nobel-prize-of-gastronomy-for-protecting-mexicos-chinampas-ecosystem/",
+   "pais": "México",
+   "lat": 19.26,
+   "lon": -99.1,
+   "i18n": {
+    "es": {
+     "titulo": "Un proyecto que salva los jardines flotantes de México gana el 'Nobel de la gastronomía'",
+     "resumo": "Lucio Usobiaga recibió 100.000 euros por Arca Tierra, red de 50 familias agricultoras que mantiene viva la agricultura de chinampas y abastece a 60 restaurantes. Es el último refugio del ajolote silvestre.",
+     "regiao": "Xochimilco (Ciudad de México)",
+     "pais": "México"
+    },
+    "en": {
+     "titulo": "Project saving Mexico's floating farms wins the 'Nobel of gastronomy'",
+     "resumo": "Lucio Usobiaga won €100,000 for Arca Tierra, a network of 50 farming families keeping Xochimilco's chinampas alive and supplying 60 restaurants. It's the last refuge of wild axolotls.",
+     "regiao": "Xochimilco (Mexico City)",
+     "pais": "Mexico"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/18091426/Lucio-Usobiaga--1200x800.jpg",
+   "credito": "Foto: Pablo Antoli"
+  },
+  {
+   "id": "teste-genetico-infeccoes",
+   "titulo": "Teste genético que acha quase qualquer micróbio já salva vidas em hospitais",
+   "resumo": "O sequenciamento metagenômico identifica todos os micróbios de uma amostra. Num caso, livrou um paciente de um transplante de fígado; em Londres, achou causas que outros exames não viam em 30% dos casos.",
+   "categoria": "saude",
+   "regiao": "São Francisco e Londres",
+   "data": "2026-11-18",
+   "fonte": "La Nación / BBC Mundo",
+   "url": "https://www.lanacion.com.ar/sociedad/el-test-genetico-que-descubrio-el-covid-19-y-que-ahora-salva-vidas-al-detectar-casi-todas-las-nid18112026/",
+   "pais": "Estados Unidos",
+   "lat": 37.76,
+   "lon": -122.46,
+   "i18n": {
+    "es": {
+     "titulo": "Un test genético que detecta casi cualquier microbio ya salva vidas en hospitales",
+     "resumo": "La secuenciación metagenómica identifica todos los microbios de una muestra. En un caso evitó un trasplante de hígado; en Londres halló causas que otros análisis no veían en el 30% de los casos.",
+     "regiao": "San Francisco y Londres",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Genetic test that spots almost any microbe is now saving lives in hospitals",
+     "resumo": "Metagenomic sequencing identifies every microbe in a sample. In one case it spared a patient a liver transplant; in a London pilot it found causes other tests missed in 30% of cases.",
+     "regiao": "San Francisco and London",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.lanacion.com.ar/resizer/v2/cientos-de-patogenos-pueden-causar-enfermedades-ZXMHBLWQN5AKPIQCPUYBYQTQPI.jpg?auth=8159a53424768bd0143c4099cffde5846c2ba34db16c21c0451f9618e24da6f9&width=1200&height=800&quality=70&smart=true",
+   "credito": "Imagem: Getty Images"
+  },
+  {
+   "id": "oncas-corredores-americas",
+   "titulo": "Mapa de corredores ajuda onças-pintadas a se recuperarem nas Américas",
+   "resumo": "Com GPS de 172 onças em oito países, cientistas mapearam 307 áreas-chave e 176 corredores para a espécie. Em Foz do Iguaçu, a onça Tape'ỹ foi resgatada de um bairro e solta no Parque Nacional do Iguaçu.",
+   "categoria": "animais",
+   "regiao": "Américas (ex.: Foz do Iguaçu)",
+   "data": "2026-11-18",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/study-maps-jaguars-across-the-americas-to-help-their-populations-rebound/",
+   "pais": "Américas",
+   "lat": -25.69,
+   "lon": -54.44,
+   "i18n": {
+    "es": {
+     "titulo": "Un mapa de corredores ayuda a los jaguares a recuperarse en las Américas",
+     "resumo": "Con GPS de 172 jaguares en ocho países, científicos mapearon 307 áreas clave y 176 corredores. En Foz do Iguaçu, el jaguar Tape'ỹ fue rescatado de un barrio y liberado en el Parque Nacional do Iguaçu.",
+     "regiao": "Américas (ej.: Foz do Iguaçu)",
+     "pais": "Américas"
+    },
+    "en": {
+     "titulo": "Corridor map helps jaguars rebound across the Americas",
+     "resumo": "Using GPS data from 172 jaguars in eight countries, scientists mapped 307 core areas and 176 corridors. In Foz do Iguaçu, a jaguar named Tape'ỹ was rescued from a neighbourhood and released in Iguaçu National Park.",
+     "regiao": "The Americas (e.g. Foz do Iguaçu)",
+     "pais": "Americas"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/18090401/Aroeira_1female_jaguar_monitored_by_Oncafari_Brazilian_Pantanal_Lucas_Morgado-1200x800.jpg",
+   "credito": "Foto: Lucas Morgado/Onçafari"
+  },
+  {
+   "id": "inseto-raro-navarino",
+   "titulo": "Inseto raro, talvez nova espécie, é achado ao lado de geleira no fim do mundo",
+   "resumo": "Na Ilha Navarino, perto do Cabo Horn, cientistas encontraram uma mosca-de-pedra que não corresponde a nenhuma espécie conhecida. A descoberta ajuda a entender a vida ao redor de geleiras que estão encolhendo.",
+   "categoria": "ciencia",
+   "regiao": "Ilha Navarino",
+   "data": "2026-11-19",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/19/rare-stonefly-found-beside-vanishing-glacier-on-chiles-navarino-island",
+   "pais": "Chile",
+   "lat": -55.0,
+   "lon": -67.7,
+   "i18n": {
+    "es": {
+     "titulo": "Un insecto raro, quizá nueva especie, es hallado junto a un glaciar en el fin del mundo",
+     "resumo": "En la isla Navarino, cerca del Cabo de Hornos, científicos hallaron una mosca de las piedras que no coincide con ninguna especie conocida. El hallazgo ayuda a entender la vida junto a glaciares que se reducen.",
+     "regiao": "Isla Navarino",
+     "pais": "Chile"
+    },
+    "en": {
+     "titulo": "Rare insect, possibly a new species, found beside a glacier at the end of the world",
+     "resumo": "On Chile's Navarino Island near Cape Horn, scientists found a stonefly that matches no known species. The find sheds light on life around shrinking glaciers.",
+     "regiao": "Navarino Island",
+     "pais": "Chile"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/99/73/79/1200x675_cmsv2_2489be45-28a8-5cf4-bba9-2d0524868dff-9997379.jpg",
+   "credito": "Foto: Javier Rendoll/CHIC"
+  },
   {
    "id": "sarampo-eliminado",
    "titulo": "Brasil segue livre do sarampo, enquanto vizinhos perdem o título",
@@ -11,7 +301,6 @@
    "fonte": "Ministério da Saúde",
    "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/brasil-mantem-eliminacao-do-sarampo-apos-avanco-da-doenca-em-paises-das-americas",
    "pais": "Brasil",
-   "destaque": true,
    "i18n": {
     "es": {
      "titulo": "Brasil sigue libre de sarampión, mientras otros países pierden el estatus",
@@ -39,7 +328,6 @@
    "fonte": "Mongabay",
    "url": "https://news.mongabay.com/podcast/2026/11/in-zimbabwe-trusted-local-guardians-help-communities-coexist-with-lions/",
    "pais": "Zimbábue",
-   "destaque": true,
    "lat": -16.5,
    "lon": 28.7,
    "i18n": {
@@ -58,294 +346,6 @@
    },
    "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/16040900/Community-Guardians-from-Nyaminyami-posing-with-their-moterbikes-1200x800.jpg",
    "credito": "Foto: Wildlife Conservation Action"
-  },
-  {
-   "id": "assentamento-pirapora",
-   "titulo": "Acordo garante terra a 139 famílias após 23 anos de conflito em Minas",
-   "resumo": "As famílias do assentamento na antiga Fazenda da Prata receberam os contratos de uso de 2.937 hectares. Agora podem acessar crédito para produção e moradia, e contam que já não temem o despejo.",
-   "categoria": "sociedade",
-   "regiao": "Pirapora (MG)",
-   "data": "2026-11-16",
-   "fonte": "Estado de Minas",
-   "url": "https://www.em.com.br/gerais/2026/11/7539609-mg-conflito-agrario-envolvendo-139-familias-e-encerrado-apos-23-anos.html",
-   "pais": "Brasil",
-   "lat": -17.35,
-   "lon": -44.94,
-   "i18n": {
-    "es": {
-     "titulo": "Un acuerdo garantiza tierra a 139 familias tras 23 años de conflicto en Minas Gerais",
-     "resumo": "Las familias del asentamiento en la antigua Hacienda da Prata recibieron los contratos de uso de 2.937 hectáreas. Ahora pueden acceder a crédito para producción y vivienda, y dicen que ya no temen el desalojo.",
-     "regiao": "Pirapora (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Agreement secures land for 139 families after a 23-year dispute in Brazil",
-     "resumo": "Families at the former Fazenda da Prata settlement received use contracts for 2,937 hectares. They can now access credit for farming and housing, and say they no longer fear eviction.",
-     "regiao": "Pirapora (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.em.com.br/_midias/jpg/2026/11/16/1000x1000/1_assentamento-68237474.jpg",
-   "credito": "Foto: Riva Moreira/TJMG/Divulgação"
-  },
-  {
-   "id": "calcula-enem-usp",
-   "titulo": "Estudante da USP cria ferramenta gratuita que calcula a nota do Enem",
-   "resumo": "Pedro Mantovani, de 20 anos, criou o Calcula ENEM, de código aberto, que estima a nota pela TRI. Testado com 500 mil provas, acerta a nota oficial com diferença menor que 0,01 ponto em 90% dos casos.",
-   "categoria": "tecnologia",
-   "regiao": "São Carlos (SP)",
-   "data": "2026-11-16",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/universidade/calcula-enem-estudante-da-usp-cria-plataforma-que-ajuda-a-entender-pontuacao-na-prova/",
-   "pais": "Brasil",
-   "lat": -22.01,
-   "lon": -47.89,
-   "i18n": {
-    "es": {
-     "titulo": "Un estudiante de la USP crea una herramienta gratuita que calcula la nota del Enem",
-     "resumo": "Pedro Mantovani, de 20 años, creó Calcula ENEM, de código abierto, que estima la nota del examen de ingreso. Probado con 500.000 exámenes, acierta la nota oficial con menos de 0,01 punto de diferencia en el 90% de los casos.",
-     "regiao": "São Carlos (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Student builds free tool that predicts Brazil's university entrance exam score",
-     "resumo": "Pedro Mantovani, 20, created Calcula ENEM, an open-source score estimator. Tested on 500,000 past exams, it matched the official score to within 0.01 points in 90% of cases.",
-     "regiao": "São Carlos (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261116_00_provas_enem_exame_nacional_ensino_medio.jpg",
-   "credito": "Foto: Bruna Araújo/MEC"
-  },
-  {
-   "id": "tambaqui-sem-espinha",
-   "titulo": "Embrapa avança para criar tambaqui sem espinhas",
-   "resumo": "Com edição genética, pesquisadores desligaram o gene das espinhas em Y do peixe amazônico. Os resultados são preliminares e os primeiros filhotes devem vir em 2027. Filé sem espinha seria mais seguro para crianças e idosos.",
-   "categoria": "ciencia",
-   "regiao": "Palmas (TO)",
-   "data": "2026-11-17",
-   "fonte": "Embrapa",
-   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/150191864/embrapa-usa-edicao-genica-para-desenvolver-tambaqui-sem-espinhas-intermusculares",
-   "pais": "Brasil",
-   "lat": -10.18,
-   "lon": -48.33,
-   "i18n": {
-    "es": {
-     "titulo": "Embrapa avanza hacia un tambaquí sin espinas",
-     "resumo": "Con edición genética, investigadores desactivaron el gen de las espinas en Y de este pez amazónico. Los resultados son preliminares y las primeras crías llegarían en 2027. Un filete sin espinas sería más seguro para niños y mayores.",
-     "regiao": "Palmas (TO)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil moves toward a boneless tambaqui fish",
-     "resumo": "Using gene editing, researchers switched off the gene behind the Amazon fish's Y-shaped bones. Results are preliminary, with first offspring due in 2027. Boneless fillets would be safer for children and older people.",
-     "regiao": "Palmas (TO)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.embrapa.br/documents/d/portal/261117_tambaquisemespinha_aliny_melo_abstract",
-   "credito": "Foto: Aliny Melo/Embrapa"
-  },
-  {
-   "id": "earthshot-2026",
-   "titulo": "Prêmio Earthshot celebra soluções para salvar o planeta",
-   "resumo": "Entre os vencedores estão a dinamarquesa Ørsted, que trocou o petróleo por mais de 11 GW de energia eólica no mar, a campanha PFAS-Free France, com 140 mil apoiadores, o Butão e um projeto de proteção do oceano em Niue.",
-   "categoria": "meio-ambiente",
-   "regiao": "Mumbai",
-   "data": "2026-11-17",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/17/change-is-possible-danish-offshore-wind-giant-wins-earthshot-prize-after-quitting-oil-and-",
-   "pais": "Índia",
-   "lat": 19.08,
-   "lon": 72.88,
-   "i18n": {
-    "es": {
-     "titulo": "El premio Earthshot celebra soluciones para salvar el planeta",
-     "resumo": "Entre los ganadores están la danesa Ørsted, que cambió el petróleo por más de 11 GW de eólica marina, la campaña PFAS-Free France, con 140.000 apoyos, Bután y un proyecto de protección del océano en Niue.",
-     "regiao": "Mumbai",
-     "pais": "India"
-    },
-    "en": {
-     "titulo": "Earthshot Prize celebrates solutions to repair the planet",
-     "resumo": "Winners include Denmark's Ørsted, which swapped oil for over 11 GW of offshore wind, the PFAS-Free France campaign with 140,000 supporters, Bhutan and an ocean-protection effort in Niue.",
-     "regiao": "Mumbai",
-     "pais": "India"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/99/61/98/1200x675_cmsv2_74cb5de3-86e1-5566-b6ba-9613e1cad656-9996198.jpg",
-   "credito": "Foto: The Earthshot Prize"
-  },
-  {
-   "id": "barreira-riachuelo",
-   "titulo": "Barreira flutuante segura o lixo antes que chegue ao Rio da Prata",
-   "resumo": "Uma barreira de 250 metros instalada no Riachuelo, em Buenos Aires, deve reter de 75% a 80% do lixo que flutua no rio, segundo a prefeitura.",
-   "categoria": "meio-ambiente",
-   "regiao": "Buenos Aires",
-   "data": "2026-11-16",
-   "fonte": "La Nación",
-   "url": "https://www.lanacion.com.ar/sociedad/instalaron-una-llave-de-paso-para-impedir-que-la-basura-llegue-al-rio-de-la-plata-nid16112026/",
-   "pais": "Argentina",
-   "lat": -34.66,
-   "lon": -58.37,
-   "i18n": {
-    "es": {
-     "titulo": "Una barrera flotante frena la basura antes de que llegue al Río de la Plata",
-     "resumo": "Una barrera de 250 metros instalada en el Riachuelo, en Buenos Aires, retendría entre el 75% y el 80% de la basura que flota en el río, según el gobierno porteño.",
-     "regiao": "Buenos Aires",
-     "pais": "Argentina"
-    },
-    "en": {
-     "titulo": "Floating barrier stops litter before it reaches the River Plate",
-     "resumo": "A 250-metre barrier on Buenos Aires' Riachuelo should catch 75–80% of the river's floating waste, according to the city government.",
-     "regiao": "Buenos Aires",
-     "pais": "Argentina"
-    }
-   },
-   "img": "https://www.lanacion.com.ar/resizer/v2/la-barrera-flotante-instalada-por-el-gobierno-J254EPQ47REXRGSYR532IYJX6Y.jpeg",
-   "credito": "Foto: Gobierno de la Ciudad de Buenos Aires"
-  },
-  {
-   "id": "fossil-jardim-australia",
-   "titulo": "Fóssil achado num jardim em 1996 é uma nova espécie de 240 milhões de anos",
-   "resumo": "O jardineiro David King encontrou a pedra ao lavar pedras de uma pedreira e a doou ao Museu Australiano. Agora, o pesquisador Lachlan Hart a identificou como um anfíbio antigo novo para a ciência, o Arenaerpeton supinatus.",
-   "categoria": "ciencia",
-   "regiao": "Nova Gales do Sul",
-   "data": "2026-11-17",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/17/encontro-un-fosil-de-240-millones-de-anos-en-su-jardin-y-recien-ahora-se-conocio-su-especie/",
-   "pais": "Austrália",
-   "lat": -33.0,
-   "lon": 150.0,
-   "i18n": {
-    "es": {
-     "titulo": "Un fósil hallado en un jardín en 1996 es una nueva especie de 240 millones de años",
-     "resumo": "El jardinero David King lo encontró al lavar piedras de una cantera y lo donó al Museo Australiano. Ahora, el investigador Lachlan Hart lo identificó como un anfibio antiguo nuevo para la ciencia, Arenaerpeton supinatus.",
-     "regiao": "Nueva Gales del Sur",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Fossil found in a garden in 1996 is a new 240-million-year-old species",
-     "resumo": "Gardener David King found it while washing quarry stones and gave it to the Australian Museum. Researcher Lachlan Hart has now identified it as an ancient amphibian new to science, Arenaerpeton supinatus.",
-     "regiao": "New South Wales",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/QMTEMAA36BD2PJ6VDSL65ABSLM.png?auth=1a2248ebd1045fe78fd3952f12d48c683b781f5ee748716524e443a8922f72f8&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem: UNSW (Universidade de Nova Gales do Sul)"
-  },
-  {
-   "id": "voyager-dia-luz",
-   "titulo": "Voyager 1 chega a um dia-luz da Terra, 49 anos após o lançamento",
-   "resumo": "Lançada em 1977, a sonda da NASA é o primeiro objeto humano a chegar a cerca de 25,9 bilhões de km de distância: a luz leva um dia inteiro para percorrer o caminho.",
-   "categoria": "ciencia",
-   "regiao": "Espaço interestelar",
-   "data": "2026-11-18",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/salud/ciencia/2026/11/18/la-nave-voyager-1-de-la-nasa-llega-hoy-a-un-dia-luz-de-distancia-de-la-tierra-como-opera-y-cuanta-energia-le-queda/",
-   "pais": "Estados Unidos",
-   "i18n": {
-    "es": {
-     "titulo": "La Voyager 1 llega a un día luz de la Tierra, 49 años después de su lanzamiento",
-     "resumo": "Lanzada en 1977, la sonda de la NASA es el primer objeto humano en alcanzar unos 25.900 millones de km: la luz tarda un día entero en recorrer ese camino.",
-     "regiao": "Espacio interestelar",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Voyager 1 reaches one light-day from Earth, 49 years after launch",
-     "resumo": "Launched in 1977, NASA's probe is the first human-made object to reach about 25.9 billion km away: light takes a full day to make the trip.",
-     "regiao": "Interstellar space",
-     "pais": "USA"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/U2VLA6VUHBF2VAKYRC4DHF5E6Y.jpg?auth=31f0d3fb23be74fb688087f82307eaaaaa864e17391361cadb38ba2c7342128e&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem: NASA"
-  },
-  {
-   "id": "paracanoista-encontrado",
-   "titulo": "Tetracampeão mundial de paracanoagem é encontrado vivo após 20 horas no mar",
-   "resumo": "Mario Queiroz desapareceu durante um treino em Praia Grande. Depois de uma busca com bombeiros, Marinha e amigos, foi achado numa ilha rochosa de São Vicente, consciente, só desidratado e com arranhões.",
-   "categoria": "sociedade",
-   "regiao": "São Vicente (SP)",
-   "data": "2026-11-16",
-   "fonte": "Metrópoles",
-   "url": "https://www.metropoles.com/sao-paulo/tetracampeao-de-canoagem-paralimpica-e-achado-apos-sumir-em-treino-no-mar",
-   "pais": "Brasil",
-   "lat": -23.96,
-   "lon": -46.39,
-   "i18n": {
-    "es": {
-     "titulo": "Encuentran con vida a un tetracampeón mundial de paracanotaje tras 20 horas en el mar",
-     "resumo": "Mario Queiroz desapareció durante un entrenamiento en Praia Grande. Tras una búsqueda con bomberos, la Marina y amigos, lo hallaron en una isla rocosa de São Vicente, consciente, solo deshidratado y con rasguños.",
-     "regiao": "São Vicente (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Four-time para-canoe world champion found alive after 20 hours at sea",
-     "resumo": "Mario Queiroz went missing while training off Praia Grande, Brazil. After a search by firefighters, the Navy and friends, he was found on a rocky island in São Vicente, conscious, just dehydrated and scraped.",
-     "regiao": "São Vicente (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://i.metroimg.com/xcBmngGcfkb5KGw6x80pJqoe4XCj8vffRpgXGLkIl9c/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/paratleta.jpg",
-   "credito": "Foto: reprodução/redes sociais"
-  },
-  {
-   "id": "vagalume-reencontrado",
-   "titulo": "Vaga-lume sumido desde 1983 volta a brilhar nos Estados Unidos",
-   "resumo": "A espécie Pyractomena similis não era registrada havia mais de 40 anos. Nesta primavera, foi vista três vezes, em Virgínia e Delaware, reconhecida pelo pisca-pisca cor de âmbar. Nove vaga-lumes dados como perdidos já foram reencontrados.",
-   "categoria": "animais",
-   "regiao": "Delaware e Virgínia",
-   "data": "2026-11-16",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/a-lost-firefly-species-flashes-back-into-view-in-the-us/",
-   "pais": "Estados Unidos",
-   "lat": 39.8,
-   "lon": -75.6,
-   "i18n": {
-    "es": {
-     "titulo": "Una luciérnaga desaparecida desde 1983 vuelve a brillar en EE. UU.",
-     "resumo": "La especie Pyractomena similis no se registraba desde hacía más de 40 años. Esta primavera fue vista tres veces, en Virginia y Delaware, reconocida por su destello ámbar. Nueve luciérnagas dadas por perdidas ya reaparecieron.",
-     "regiao": "Delaware y Virginia",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Firefly unseen since 1983 flashes back into view in the US",
-     "resumo": "Pyractomena similis hadn't been recorded in over 40 years. This spring it was spotted three times in Virginia and Delaware, identified by its amber flash. Nine 'lost' fireflies have now been found again.",
-     "regiao": "Delaware and Virginia",
-     "pais": "USA"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2021/03/26144116/fireflysync-1.jpeg",
-   "credito": "Foto ilustrativa: Fred Huang/Flickr (CC BY-NC 2.0)"
-  },
-  {
-   "id": "butantan-arboviroses",
-   "titulo": "Butantan cria centro para tratar as dores que a dengue e a chikungunya deixam",
-   "resumo": "O novo Centro de Tecnologia em Arbovírus vai estudar sequelas como dores crônicas nas articulações. Com cinco anos de verba da FAPESP, quer achar novos alvos de tratamento e testar duas vacinas ou remédios, usando tecidos humanos 3D em vez de animais.",
-   "categoria": "saude",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-16",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/butantan-cria-centro-para-combater-sequelas-de-dengue-chikungunya-e-outras-arboviroses/59620",
-   "pais": "Brasil",
-   "lat": -23.57,
-   "lon": -46.72,
-   "i18n": {
-    "es": {
-     "titulo": "El Butantan crea un centro para tratar los dolores que dejan el dengue y la chikungunya",
-     "resumo": "El nuevo Centro de Tecnología en Arbovirus estudiará secuelas como el dolor crónico en las articulaciones. Con cinco años de fondos de FAPESP, busca nuevos blancos terapéuticos y probar dos vacunas o fármacos con tejidos humanos 3D en lugar de animales.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil's Butantan opens a centre to treat lasting pain from dengue and chikungunya",
-     "resumo": "The new Arbovirus Technology Centre will study after-effects such as chronic joint pain. With five years of FAPESP funding, it aims to find new treatment targets and test two vaccines or drugs using 3D human tissue instead of animals.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agencia.fapesp.br/files/post/59620.jpeg",
-   "credito": "Foto: Rafael Porto"
   }
  ]
 }
