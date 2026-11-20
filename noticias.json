@@ -1,6 +1,296 @@
 {
- "atualizado": "2026-11-19",
+ "atualizado": "2026-11-20",
  "noticias": [
+  {
+   "id": "algodao-potiguara",
+   "titulo": "Indígenas Potiguara colhem sua primeira safra de algodão agroecológico",
+   "resumo": "Na Paraíba, famílias da Terra Indígena Potiguara colheram algodão plantado junto com amendoim e feijão, sem químicos. O projeto com a Embrapa deu formação aos agricultores, a associação comprou um trator e as áreas vão crescer no próximo ciclo.",
+   "categoria": "meio-ambiente",
+   "regiao": "Baía da Traição (PB)",
+   "data": "2026-11-19",
+   "fonte": "Embrapa",
+   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/150368662/comunidade-indigena-potiguara-realiza-colheita-de-algodao-agroecologico-na-paraiba",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -6.7,
+   "lon": -34.99,
+   "i18n": {
+    "es": {
+     "titulo": "Indígenas potiguara cosechan su primera cosecha de algodón agroecológico",
+     "resumo": "En Paraíba, familias de la Tierra Indígena Potiguara cosecharon algodón sembrado junto a maní y frijol, sin químicos. El proyecto con Embrapa capacitó a los agricultores, la asociación compró un tractor y las áreas crecerán el próximo ciclo.",
+     "regiao": "Baía da Traição (PB)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Potiguara Indigenous farmers bring in their first agroecological cotton harvest",
+     "resumo": "In Paraíba, Brazil, families in the Potiguara Indigenous Territory harvested cotton grown alongside peanuts and beans, with no chemicals. The Embrapa-backed project trained growers, the association bought a tractor, and plots will expand next season.",
+     "regiao": "Baía da Traição (PB)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.embrapa.br/image/journal/article?img_id=150368451&t=1795164604724",
+   "credito": "Foto: Embrapa"
+  },
+  {
+   "id": "tamandua-volta-chaco",
+   "titulo": "Tamanduá-bandeira volta a reserva na Argentina depois de quase 40 anos",
+   "resumo": "Na Reserva Alma Guaraní, no Chaco, voluntários restauram a mata há mais de uma década. Câmeras flagraram um tamanduá-bandeira, o primeiro desde 1986, circulando justamente nas áreas que se regeneraram sozinhas.",
+   "categoria": "animais",
+   "regiao": "Gran Chaco",
+   "data": "2026-11-19",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/short-article/2026/11/world-anteater-day-rewilding-and-restoration-offer-hope-for-enigmatic-species/",
+   "pais": "Argentina",
+   "destaque": true,
+   "lat": -25.5,
+   "lon": -60.0,
+   "i18n": {
+    "es": {
+     "titulo": "El oso hormiguero gigante vuelve a una reserva argentina tras casi 40 años",
+     "resumo": "En la Reserva Alma Guaraní, en el Chaco, voluntarios restauran el monte hace más de una década. Cámaras registraron un oso hormiguero gigante, el primero desde 1986, moviéndose justo en las zonas que se regeneraron solas.",
+     "regiao": "Gran Chaco",
+     "pais": "Argentina"
+    },
+    "en": {
+     "titulo": "Giant anteater returns to an Argentine reserve after almost 40 years",
+     "resumo": "At the Alma Guaraní reserve in the Chaco, volunteers have been restoring the forest for over a decade. Camera traps caught a giant anteater, the first since 1986, mostly in areas left to regrow naturally.",
+     "regiao": "Gran Chaco",
+     "pais": "Argentina"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/19065110/1920px-Giant_anteater_-_Oso_hormiguero_Myrmecophaga_tridactyla_8697863742-1200x800.jpg",
+   "credito": "Foto: Fernando Flores/Wikimedia Commons (CC BY-SA 2.0)"
+  },
+  {
+   "id": "fungos-polares-ufmg",
+   "titulo": "Fungos do gelo polar podem virar herbicidas naturais",
+   "resumo": "Pesquisadores da UFMG testam fungos tirados do solo congelado da Groenlândia e da Antártida em busca de substâncias que barrem ervas daninhas. O laboratório tem uma coleção com mais de 20 mil linhagens.",
+   "categoria": "ciencia",
+   "regiao": "Belo Horizonte (MG)",
+   "data": "2026-11-18",
+   "fonte": "UFMG",
+   "url": "https://www.ufmg.br/comunicacao/noticias/pesquisa-e-inovacao/fungos-de-solos-congelados-das-regioes-polares-podem-ser-aliados-da-agricultura/",
+   "pais": "Brasil",
+   "lat": -19.87,
+   "lon": -43.97,
+   "i18n": {
+    "es": {
+     "titulo": "Hongos del hielo polar podrían convertirse en herbicidas naturales",
+     "resumo": "Investigadores de la UFMG prueban hongos extraídos del suelo congelado de Groenlandia y la Antártida en busca de sustancias que frenen malezas. El laboratorio tiene una colección de más de 20.000 cepas.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Polar permafrost fungi could become natural herbicides",
+     "resumo": "UFMG researchers are screening fungi from frozen soils in Greenland and Antarctica for compounds that stop weeds. Their lab holds a collection of more than 20,000 strains.",
+     "regiao": "Belo Horizonte (MG)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.ufmg.br//app/uploads/2026/11/Fungos_para_agricultura_Creditos_Julia_Rodrigues_ACS_FAPEMIG-864x445.png",
+   "credito": "Foto: Júlia Rodrigues/ACS Fapemig"
+  },
+  {
+   "id": "acervo-teatro-sp",
+   "titulo": "Acervo com 13 mil itens do teatro paulista é restaurado e aberto ao público",
+   "resumo": "Um projeto de cinco anos limpou, catalogou e liberou o arquivo do antigo Conservatório Dramático e Musical de São Paulo, com 2.036 peças. A consulta é gratuita, na Praça das Artes.",
+   "categoria": "sociedade",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-18",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/cultura/usp-ajuda-a-preservar-a-memoria-do-teatro-paulista/",
+   "pais": "Brasil",
+   "lat": -23.54,
+   "lon": -46.64,
+   "i18n": {
+    "es": {
+     "titulo": "Un archivo de 13.000 piezas del teatro paulista es restaurado y abierto al público",
+     "resumo": "Un proyecto de cinco años limpió, catalogó y abrió el archivo del antiguo Conservatorio Dramático y Musical de São Paulo, con 2.036 obras. La consulta es gratuita, en la Praça das Artes.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "13,000-item São Paulo theatre archive restored and opened to the public",
+     "resumo": "A five-year project cleaned, catalogued and opened the archive of São Paulo's old Drama and Music Conservatory, including 2,036 plays. It's free to consult at Praça das Artes.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261118_conservatorio.jpg",
+   "credito": "Foto: Marcos Santos/USP Imagens"
+  },
+  {
+   "id": "mulheres-empreendedoras-recorde",
+   "titulo": "Brasil bate recorde: 10,3 milhões de mulheres comandam pequenos negócios",
+   "resumo": "O número cresceu 27% em dez anos, contra 11% entre os homens, segundo o Sebrae. Em 2025, as mulheres abriram 42% das novas pequenas empresas do país.",
+   "categoria": "sociedade",
+   "regiao": "Brasil",
+   "data": "2026-11-19",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/economia/2026/11/7541410-brasil-registra-recorde-de-103-mi-de-mulheres-a-frente-de-pequenos-negocios.html",
+   "pais": "Brasil",
+   "i18n": {
+    "es": {
+     "titulo": "Brasil bate récord: 10,3 millones de mujeres dirigen pequeños negocios",
+     "resumo": "La cifra creció un 27% en diez años, frente al 11% entre los hombres, según Sebrae. En 2025, las mujeres abrieron el 42% de las nuevas pequeñas empresas del país.",
+     "regiao": "Brasil",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Record 10.3 million women now run small businesses in Brazil",
+     "resumo": "The number grew 27% in ten years, versus 11% for men, according to Sebrae. In 2025 women opened 42% of the country's new small businesses.",
+     "regiao": "Brazil",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/04/02/675x450/1_whatsapp-image-2026-04-02-at-09-29-57-65790517.jpeg",
+   "credito": "Foto ilustrativa: divulgação/Instituto Conecta Brasil"
+  },
+  {
+   "id": "borneo-terra-indigena",
+   "titulo": "Povos indígenas de Bornéu celebram fim de plantação de dendê em suas terras",
+   "resumo": "Depois de anos de bloqueios, petições e ação na Justiça, os povos Berawan, Penan e Tering conseguiram cancelar uma plantação de 4.400 hectares perto do Parque Nacional de Mulu. Agora fincaram uma pedra para lembrar a vitória.",
+   "categoria": "meio-ambiente",
+   "regiao": "Sarawak (Bornéu)",
+   "data": "2026-11-18",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/borneo-indigenous-groups-turn-land-rights-victory-into-warning-for-future-generations/",
+   "pais": "Malásia",
+   "lat": 4.05,
+   "lon": 114.9,
+   "i18n": {
+    "es": {
+     "titulo": "Pueblos indígenas de Borneo celebran el fin de una plantación de palma en sus tierras",
+     "resumo": "Tras años de bloqueos, peticiones y una demanda, los pueblos Berawan, Penan y Tering lograron cancelar una plantación de 4.400 hectáreas cerca del Parque Nacional Mulu. Ahora colocaron una piedra para recordar la victoria.",
+     "regiao": "Sarawak (Borneo)",
+     "pais": "Malasia"
+    },
+    "en": {
+     "titulo": "Borneo Indigenous groups mark the end of an oil palm plantation on their land",
+     "resumo": "After years of blockades, petitions and a lawsuit, the Berawan, Penan and Tering peoples got a 4,400-hectare plantation near Mulu National Park cancelled. They have now set a memorial stone to mark the win.",
+     "regiao": "Sarawak (Borneo)",
+     "pais": "Malaysia"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/18074935/Komeok-Joe-Willie-Kajan-Ukau-Lupung.jpg",
+   "credito": "Foto: Keruan"
+  },
+  {
+   "id": "alzheimer-ar1001",
+   "titulo": "Comprimido da família do Viagra freia perda de memória no Alzheimer inicial",
+   "resumo": "Num estudo de fase 3, o AR1001 desacelerou em 31% o declínio cognitivo de 604 pessoas com Alzheimer no início que não usavam outros remédios. São dados preliminares, e especialistas pedem mais pesquisa.",
+   "categoria": "saude",
+   "regiao": "Estudo em 13 países",
+   "data": "2026-11-18",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/18/drug-that-mimics-viagra-shows-promise-as-alzheimers-treatment",
+   "pais": "Coreia do Sul",
+   "lat": 37.5,
+   "lon": 127.0,
+   "i18n": {
+    "es": {
+     "titulo": "Una pastilla de la familia del Viagra frena la pérdida de memoria en el Alzheimer inicial",
+     "resumo": "En un estudio de fase 3, AR1001 ralentizó un 31% el deterioro cognitivo de 604 personas con Alzheimer inicial que no tomaban otros fármacos. Son datos preliminares y los expertos piden más investigación.",
+     "regiao": "Estudio en 13 países",
+     "pais": "Corea del Sur"
+    },
+    "en": {
+     "titulo": "Viagra-family pill slows memory loss in early Alzheimer's",
+     "resumo": "In a Phase 3 trial, AR1001 slowed cognitive decline by 31% in 604 people with early Alzheimer's who weren't on other drugs. Results are topline, and experts call for more research.",
+     "regiao": "13-country trial",
+     "pais": "South Korea"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/99/75/68/1200x675_cmsv2_ec9cdd8f-cab7-5510-8c0c-8073db03efdf-9997568.jpg",
+   "credito": "Foto: Business Wire via AP"
+  },
+  {
+   "id": "casa-warumungu",
+   "titulo": "Casa projetada por indígenas para o calor do deserto ganha prêmio na Austrália",
+   "resumo": "A Explain Home, desenhada pelo warumungu Norman Frank Jupurrurla e Serina Morton, tem varandas, ventilação cruzada, cozinha externa e energia solar, para combater a superlotação e o calor extremo. Já se discute um projeto de 20 casas.",
+   "categoria": "sociedade",
+   "regiao": "Tennant Creek",
+   "data": "2026-11-20",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-20/award-winning-remote-house-tennant-creek/107400110",
+   "pais": "Austrália",
+   "lat": -19.65,
+   "lon": 134.19,
+   "i18n": {
+    "es": {
+     "titulo": "Una casa diseñada por indígenas para el calor del desierto gana un premio en Australia",
+     "resumo": "La Explain Home, diseñada por el warumungu Norman Frank Jupurrurla y Serina Morton, tiene galerías, ventilación cruzada, cocina exterior y energía solar para combatir el hacinamiento y el calor extremo. Ya se habla de 20 casas.",
+     "regiao": "Tennant Creek",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Indigenous-designed desert home wins an Australian innovation award",
+     "resumo": "The Explain Home, designed by Warumungu man Norman Frank Jupurrurla and Serina Morton, has verandahs, breezeways, an outdoor kitchen and solar power to tackle overcrowding and extreme heat. A 20-home project is under discussion.",
+     "regiao": "Tennant Creek",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/ca575aeed1a32fd2e11c01ab56eb5549?impolicy=wcms_watermark_news&cropH=1634&cropW=2904&xPos=445&yPos=871&width=862&height=485&imformat=generic",
+   "credito": "Foto: Wilya Janta"
+  },
+  {
+   "id": "viagem-formatura-surpresa",
+   "titulo": "Pais fazem horas extras em segredo e garantem viagem de formatura do filho",
+   "resumo": "Manuel disse que não queria ir à viagem da turma por causa do preço. Os pais trabalharam a mais e pagaram tudo sem contar. A professora deu a notícia na sala, os pais entraram com balões e os colegas o abraçaram.",
+   "categoria": "sociedade",
+   "regiao": "Laguna Paiva (Santa Fe)",
+   "data": "2026-11-19",
+   "fonte": "La Nación",
+   "url": "https://www.lanacion.com.ar/sociedad/sus-padres-no-podian-pagarle-el-viaje-de-egresados-pero-recibio-una-noticia-que-lo-hizo-llorar-de-nid19112026/",
+   "pais": "Argentina",
+   "lat": -31.2,
+   "lon": -60.63,
+   "i18n": {
+    "es": {
+     "titulo": "Padres hacen horas extra en secreto y le pagan el viaje de egresados a su hijo",
+     "resumo": "Manuel dijo que no quería ir al viaje de la clase por el costo. Sus padres trabajaron de más y lo pagaron sin decirle. La maestra le dio la noticia en el aula, sus padres entraron con globos y sus compañeros lo abrazaron.",
+     "regiao": "Laguna Paiva (Santa Fe)",
+     "pais": "Argentina"
+    },
+    "en": {
+     "titulo": "Parents secretly work overtime to pay for their son's school trip",
+     "resumo": "Manuel said he didn't want to go on the class trip because of the cost. His parents worked extra hours and paid it all without telling him. His teacher broke the news in class as his parents walked in with balloons.",
+     "regiao": "Laguna Paiva (Santa Fe)",
+     "pais": "Argentina"
+    }
+   },
+   "img": "https://www.lanacion.com.ar/resizer/v2/una-maestra-sorprendio-a-un-alumno-durante-un-PQ4MEAEWONFTJFEO747XVAZX34.jpg?auth=d1c1be91bdf67bcc287faef34f1cad56f644620d6773a848ee225c3411ce47df&width=1200&height=800&quality=70&smart=true",
+   "credito": "Imagem: reprodução/Instagram"
+  },
+  {
+   "id": "bolsas-mulheres-turquia",
+   "titulo": "Mulheres na Turquia vendem comida típica e pagam bolsas para 132 universitários",
+   "resumo": "Liderado por Hatice Erkan, de 73 anos, o grupo cozinha e vende pratos regionais desde os anos 1990. A renda cobre 90% das bolsas, e mais de mil estudantes já se formaram, inclusive em medicina e direito.",
+   "categoria": "sociedade",
+   "regiao": "Çubuk",
+   "data": "2026-11-19",
+   "fonte": "Estado de Minas",
+   "url": "https://www.em.com.br/internacional/2026/11/7541336-grupo-de-mulheres-na-turquia-usa-a-renda-da-venda-de-comidas-regionais-para-financiar-bolsas-de-estudo-de-132-universitarios.html",
+   "pais": "Turquia",
+   "lat": 40.23,
+   "lon": 32.9,
+   "i18n": {
+    "es": {
+     "titulo": "Mujeres en Turquía venden comida típica y pagan becas a 132 universitarios",
+     "resumo": "Liderado por Hatice Erkan, de 73 años, el grupo cocina y vende platos regionales desde los años 90. Las ventas cubren el 90% de las becas, y más de mil estudiantes ya se graduaron, incluso en medicina y derecho.",
+     "regiao": "Çubuk",
+     "pais": "Turquía"
+    },
+    "en": {
+     "titulo": "Women in Turkey sell home cooking to fund 132 university scholarships",
+     "resumo": "Led by 73-year-old Hatice Erkan, the group has cooked and sold regional dishes since the 1990s. Sales cover 90% of the grants, and over 1,000 students have graduated, including in medicine and law.",
+     "regiao": "Çubuk",
+     "pais": "Turkey"
+    }
+   },
+   "img": "https://midias.em.com.br/_midias/jpg/2026/11/19/7541336-93f1a517741f4010aa75dc0552becb58-68260177.jpg",
+   "credito": "Ilustração gerada por IA (Estado de Minas)"
+  },
   {
    "id": "premio-ciencia-para-todos",
    "titulo": "Alunos de escolas públicas são premiados por invenções que incluem",
@@ -11,7 +301,6 @@
    "fonte": "Agência FAPESP",
    "url": "https://agencia.fapesp.br/premio-ciencia-para-todos-destaca-projetos-de-inclusao-saude-e-sustentabilidade/59653",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -23.55,
    "lon": -46.63,
    "i18n": {
@@ -30,65 +319,6 @@
    },
    "img": "https://agencia.fapesp.br/files/post/59653.jpg",
    "credito": "Foto: Daniel Antônio/Agência FAPESP"
-  },
-  {
-   "id": "xadrez-bodhana-recorde",
-   "titulo": "Menina de 11 anos é a grande mestra de xadrez mais jovem da história",
-   "resumo": "Bodhana Sivanandan conquistou o título de Grande Mestre Feminina ao jogar pela Inglaterra na Olimpíada de Xadrez, com 8 pontos em 11 rodadas. Ela aprendeu sozinha na pandemia e bateu o recorde de Kateryna Lagno, que tinha 12 anos.",
-   "categoria": "sociedade",
-   "regiao": "Londres",
-   "data": "2026-11-17",
-   "fonte": "La Nación / BBC Mundo",
-   "url": "https://www.lanacion.com.ar/sociedad/tiene-11-anos-y-alcanzo-un-record-en-ajedrez-es-la-gran-maestra-femenina-mas-joven-nid17112026/",
-   "pais": "Reino Unido",
-   "destaque": true,
-   "lat": 51.58,
-   "lon": -0.34,
-   "i18n": {
-    "es": {
-     "titulo": "Una niña de 11 años es la gran maestra de ajedrez más joven de la historia",
-     "resumo": "Bodhana Sivanandan obtuvo el título de Gran Maestra Femenina jugando para Inglaterra en la Olimpíada de Ajedrez, con 8 puntos en 11 rondas. Aprendió sola en la pandemia y superó el récord de Kateryna Lagno, que tenía 12.",
-     "regiao": "Londres",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "11-year-old becomes the youngest ever Woman Grandmaster",
-     "resumo": "Bodhana Sivanandan earned the Woman Grandmaster title playing for England at the Chess Olympiad, scoring 8 from 11. She taught herself during lockdown and beat Kateryna Lagno's record, set at 12.",
-     "regiao": "London",
-     "pais": "UK"
-    }
-   },
-   "img": "https://www.lanacion.com.ar/resizer/v2/bodhana-empezo-a-jugar-al-ajedrez-durante-la-VLJ4DHDDXVC43DSFIZ7ZHQBCHM.JPG?auth=0bc553c5e4e1d56531bf305c102f9b7fc7af8a57d39bef862227ad1eab013220&width=1200&height=800&quality=70&smart=true",
-   "credito": "Foto: BBC Mundo"
-  },
-  {
-   "id": "exoesqueleto-ufes",
-   "titulo": "Exoesqueleto criado na Ufes leva reabilitação para dentro de casa",
-   "resumo": "O m-FLEX é vestível e ajuda na recuperação dos movimentos dos braços, permitindo parte do tratamento em casa. O projeto é o único brasileiro entre os 15 finalistas de uma competição na Medica 2026, na Alemanha.",
-   "categoria": "tecnologia",
-   "regiao": "Vitória (ES)",
-   "data": "2026-11-17",
-   "fonte": "CNN Brasil",
-   "url": "https://www.cnnbrasil.com.br/saude/exoesqueleto-portatil-criado-no-es-leva-reabilitacao-para-pacientes-em-casa/",
-   "pais": "Brasil",
-   "lat": -20.32,
-   "lon": -40.34,
-   "i18n": {
-    "es": {
-     "titulo": "Un exoesqueleto creado en Brasil lleva la rehabilitación al hogar",
-     "resumo": "El m-FLEX se viste y ayuda a recuperar los movimientos de los brazos, lo que permite parte del tratamiento en casa. Es el único proyecto brasileño entre los 15 finalistas de una competencia en Medica 2026, en Alemania.",
-     "regiao": "Vitória (ES)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian wearable exoskeleton brings rehab into patients' homes",
-     "resumo": "The m-FLEX, from the Federal University of Espírito Santo, helps patients regain arm movement and lets part of therapy happen at home. It's the only Brazilian entry among 15 finalists in a Medica 2026 competition in Germany.",
-     "regiao": "Vitória (ES)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/ROBO-PARA-VESTIR.png?w=1200&h=630&crop=1",
-   "credito": "Imagem: reprodução/Ufes"
   },
   {
    "id": "pomada-glaucoma-ufmg",
@@ -118,234 +348,6 @@
    },
    "img": "https://www.ufmg.br//app/uploads/2026/11/glaucoma-scaled-e1794835238942-864x445.jpg",
    "credito": "Foto ilustrativa: James Heilman/Wikipedia (CC BY-SA 3.0)"
-  },
-  {
-   "id": "aerodesign-usp",
-   "titulo": "Equipe da USP é vice no AeroDesign com pouso de planador recorde",
-   "resumo": "A equipe da EESC-USP ficou em segundo lugar na classe avançada da competição SAE Brasil AeroDesign e ganhou menção de melhor projeto. Seu planador autônomo bateu o recorde de pouso perto do alvo.",
-   "categoria": "tecnologia",
-   "regiao": "São Carlos (SP)",
-   "data": "2026-11-17",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/universidade/equipe-da-usp-em-sao-carlos-e-destaque-em-competicao-nacional-de-aerodesign/",
-   "pais": "Brasil",
-   "lat": -22.0,
-   "lon": -47.89,
-   "i18n": {
-    "es": {
-     "titulo": "Un equipo de la USP es subcampeón de AeroDesign con un aterrizaje récord",
-     "resumo": "El equipo de la EESC-USP quedó segundo en la clase avanzada de la competencia SAE Brasil AeroDesign y obtuvo mención al mejor proyecto. Su planeador autónomo batió el récord de aterrizaje cerca del objetivo.",
-     "regiao": "São Carlos (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "University of São Paulo team takes second place in AeroDesign with record glider landing",
-     "resumo": "The EESC-USP team placed second in the advanced class of SAE Brasil AeroDesign and won a best-project mention. Its autonomous glider set the competition's landing-accuracy record.",
-     "regiao": "São Carlos (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261117_00_eesc_usp_aerodesign.jpg",
-   "credito": "Foto: arquivo pessoal"
-  },
-  {
-   "id": "forca-nacional-sus-15",
-   "titulo": "Força Nacional do SUS completa 15 anos com 10 milhões de pessoas ajudadas",
-   "resumo": "Criada após as enchentes na serra do Rio em 2011, a equipe fez mais de 170 missões, 80 mil atendimentos diretos e já treinou 20 mil pessoas para emergências, com cerca de 3 mil voluntários.",
-   "categoria": "saude",
-   "regiao": "Brasil",
-   "data": "2026-11-17",
-   "fonte": "Ministério da Saúde",
-   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/forca-nacional-do-sus-completa-15-anos-com-mais-de-10-milhoes-de-pessoas-beneficiadas-em-todo-o-brasil",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "La Fuerza Nacional del SUS cumple 15 años con 10 millones de personas ayudadas",
-     "resumo": "Creada tras las inundaciones en la sierra de Río en 2011, hizo más de 170 misiones y 80.000 atenciones directas, y ya capacitó a 20.000 personas para emergencias, con unos 3.000 voluntarios.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil's SUS emergency health force turns 15, having helped 10 million people",
-     "resumo": "Created after the 2011 Rio mountain floods, it has run 170+ missions and 80,000 direct consultations, and trained 20,000 people for emergencies, with about 3,000 volunteers.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/forca-nacional-do-sus-completa-15-anos-com-mais-de-10-milhoes-de-pessoas-beneficiadas-em-todo-o-brasil/forca-nacional-do-sus-fns-1.jpg/@@images/c3550cf5-272a-4095-90fc-e3ce93713e74.jpeg",
-   "credito": "Foto: divulgação/MS"
-  },
-  {
-   "id": "chinampas-premio",
-   "titulo": "Projeto que salva os jardins flutuantes do México ganha 'Nobel da gastronomia'",
-   "resumo": "Lucio Usobiaga recebeu 100 mil euros pela Arca Tierra, rede com 50 famílias agricultoras que mantém viva a agricultura das chinampas e abastece 60 restaurantes. O lugar é o último refúgio dos axolotes selvagens.",
-   "categoria": "meio-ambiente",
-   "regiao": "Xochimilco (Cidade do México)",
-   "data": "2026-11-18",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/short-article/2026/11/lucio-usobiaga-wins-2026-nobel-prize-of-gastronomy-for-protecting-mexicos-chinampas-ecosystem/",
-   "pais": "México",
-   "lat": 19.26,
-   "lon": -99.1,
-   "i18n": {
-    "es": {
-     "titulo": "Un proyecto que salva los jardines flotantes de México gana el 'Nobel de la gastronomía'",
-     "resumo": "Lucio Usobiaga recibió 100.000 euros por Arca Tierra, red de 50 familias agricultoras que mantiene viva la agricultura de chinampas y abastece a 60 restaurantes. Es el último refugio del ajolote silvestre.",
-     "regiao": "Xochimilco (Ciudad de México)",
-     "pais": "México"
-    },
-    "en": {
-     "titulo": "Project saving Mexico's floating farms wins the 'Nobel of gastronomy'",
-     "resumo": "Lucio Usobiaga won €100,000 for Arca Tierra, a network of 50 farming families keeping Xochimilco's chinampas alive and supplying 60 restaurants. It's the last refuge of wild axolotls.",
-     "regiao": "Xochimilco (Mexico City)",
-     "pais": "Mexico"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/18091426/Lucio-Usobiaga--1200x800.jpg",
-   "credito": "Foto: Pablo Antoli"
-  },
-  {
-   "id": "teste-genetico-infeccoes",
-   "titulo": "Teste genético que acha quase qualquer micróbio já salva vidas em hospitais",
-   "resumo": "O sequenciamento metagenômico identifica todos os micróbios de uma amostra. Num caso, livrou um paciente de um transplante de fígado; em Londres, achou causas que outros exames não viam em 30% dos casos.",
-   "categoria": "saude",
-   "regiao": "São Francisco e Londres",
-   "data": "2026-11-18",
-   "fonte": "La Nación / BBC Mundo",
-   "url": "https://www.lanacion.com.ar/sociedad/el-test-genetico-que-descubrio-el-covid-19-y-que-ahora-salva-vidas-al-detectar-casi-todas-las-nid18112026/",
-   "pais": "Estados Unidos",
-   "lat": 37.76,
-   "lon": -122.46,
-   "i18n": {
-    "es": {
-     "titulo": "Un test genético que detecta casi cualquier microbio ya salva vidas en hospitales",
-     "resumo": "La secuenciación metagenómica identifica todos los microbios de una muestra. En un caso evitó un trasplante de hígado; en Londres halló causas que otros análisis no veían en el 30% de los casos.",
-     "regiao": "San Francisco y Londres",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Genetic test that spots almost any microbe is now saving lives in hospitals",
-     "resumo": "Metagenomic sequencing identifies every microbe in a sample. In one case it spared a patient a liver transplant; in a London pilot it found causes other tests missed in 30% of cases.",
-     "regiao": "San Francisco and London",
-     "pais": "USA"
-    }
-   },
-   "img": "https://www.lanacion.com.ar/resizer/v2/cientos-de-patogenos-pueden-causar-enfermedades-ZXMHBLWQN5AKPIQCPUYBYQTQPI.jpg?auth=8159a53424768bd0143c4099cffde5846c2ba34db16c21c0451f9618e24da6f9&width=1200&height=800&quality=70&smart=true",
-   "credito": "Imagem: Getty Images"
-  },
-  {
-   "id": "oncas-corredores-americas",
-   "titulo": "Mapa de corredores ajuda onças-pintadas a se recuperarem nas Américas",
-   "resumo": "Com GPS de 172 onças em oito países, cientistas mapearam 307 áreas-chave e 176 corredores para a espécie. Em Foz do Iguaçu, a onça Tape'ỹ foi resgatada de um bairro e solta no Parque Nacional do Iguaçu.",
-   "categoria": "animais",
-   "regiao": "Américas (ex.: Foz do Iguaçu)",
-   "data": "2026-11-18",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/study-maps-jaguars-across-the-americas-to-help-their-populations-rebound/",
-   "pais": "Américas",
-   "lat": -25.69,
-   "lon": -54.44,
-   "i18n": {
-    "es": {
-     "titulo": "Un mapa de corredores ayuda a los jaguares a recuperarse en las Américas",
-     "resumo": "Con GPS de 172 jaguares en ocho países, científicos mapearon 307 áreas clave y 176 corredores. En Foz do Iguaçu, el jaguar Tape'ỹ fue rescatado de un barrio y liberado en el Parque Nacional do Iguaçu.",
-     "regiao": "Américas (ej.: Foz do Iguaçu)",
-     "pais": "Américas"
-    },
-    "en": {
-     "titulo": "Corridor map helps jaguars rebound across the Americas",
-     "resumo": "Using GPS data from 172 jaguars in eight countries, scientists mapped 307 core areas and 176 corridors. In Foz do Iguaçu, a jaguar named Tape'ỹ was rescued from a neighbourhood and released in Iguaçu National Park.",
-     "regiao": "The Americas (e.g. Foz do Iguaçu)",
-     "pais": "Americas"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/18090401/Aroeira_1female_jaguar_monitored_by_Oncafari_Brazilian_Pantanal_Lucas_Morgado-1200x800.jpg",
-   "credito": "Foto: Lucas Morgado/Onçafari"
-  },
-  {
-   "id": "inseto-raro-navarino",
-   "titulo": "Inseto raro, talvez nova espécie, é achado ao lado de geleira no fim do mundo",
-   "resumo": "Na Ilha Navarino, perto do Cabo Horn, cientistas encontraram uma mosca-de-pedra que não corresponde a nenhuma espécie conhecida. A descoberta ajuda a entender a vida ao redor de geleiras que estão encolhendo.",
-   "categoria": "ciencia",
-   "regiao": "Ilha Navarino",
-   "data": "2026-11-19",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/19/rare-stonefly-found-beside-vanishing-glacier-on-chiles-navarino-island",
-   "pais": "Chile",
-   "lat": -55.0,
-   "lon": -67.7,
-   "i18n": {
-    "es": {
-     "titulo": "Un insecto raro, quizá nueva especie, es hallado junto a un glaciar en el fin del mundo",
-     "resumo": "En la isla Navarino, cerca del Cabo de Hornos, científicos hallaron una mosca de las piedras que no coincide con ninguna especie conocida. El hallazgo ayuda a entender la vida junto a glaciares que se reducen.",
-     "regiao": "Isla Navarino",
-     "pais": "Chile"
-    },
-    "en": {
-     "titulo": "Rare insect, possibly a new species, found beside a glacier at the end of the world",
-     "resumo": "On Chile's Navarino Island near Cape Horn, scientists found a stonefly that matches no known species. The find sheds light on life around shrinking glaciers.",
-     "regiao": "Navarino Island",
-     "pais": "Chile"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/99/73/79/1200x675_cmsv2_2489be45-28a8-5cf4-bba9-2d0524868dff-9997379.jpg",
-   "credito": "Foto: Javier Rendoll/CHIC"
-  },
-  {
-   "id": "sarampo-eliminado",
-   "titulo": "Brasil segue livre do sarampo, enquanto vizinhos perdem o título",
-   "resumo": "O país mantém o status de eliminação reconhecido pela Opas. Em 2026 foram 70 casos, 99,7% a menos que o pico de 2019, e mais de 16 milhões de doses de vacina foram distribuídas aos estados.",
-   "categoria": "saude",
-   "regiao": "Brasil",
-   "data": "2026-11-17",
-   "fonte": "Ministério da Saúde",
-   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/brasil-mantem-eliminacao-do-sarampo-apos-avanco-da-doenca-em-paises-das-americas",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "Brasil sigue libre de sarampión, mientras otros países pierden el estatus",
-     "resumo": "El país mantiene el estatus de eliminación reconocido por la OPS. En 2026 hubo 70 casos, un 99,7% menos que el pico de 2019, y se distribuyeron más de 16 millones de dosis de vacuna.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazil keeps its measles-free status as others lose theirs",
-     "resumo": "Brazil retains its PAHO-recognised elimination status. It has had 70 cases in 2026, 99.7% fewer than the 2019 peak, and distributed over 16 million vaccine doses to states.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/brasil-mantem-eliminacao-do-sarampo-apos-avanco-da-doenca-em-paises-das-americas/vacinacao-contra-sarampo-foto-sandro-araujo-1.jpg/@@images/9a273642-7d28-4d31-a226-293ac1139324.jpeg",
-   "credito": "Foto: Sandro Araújo/Agência Saúde DF"
-  },
-  {
-   "id": "guardioes-leoes-zimbabue",
-   "titulo": "Guardiões comunitários ajudam vilas do Zimbábue a conviver com leões",
-   "resumo": "Moradores treinados como guardiões avisam quando os leões se aproximam e ajudam a proteger o gado. Nas duas primeiras áreas, os conflitos caíram 98% em cerca de cinco anos; em Mbire e Binga, 53%.",
-   "categoria": "animais",
-   "regiao": "Nyaminyami (Lago Kariba)",
-   "data": "2026-11-17",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/podcast/2026/11/in-zimbabwe-trusted-local-guardians-help-communities-coexist-with-lions/",
-   "pais": "Zimbábue",
-   "lat": -16.5,
-   "lon": 28.7,
-   "i18n": {
-    "es": {
-     "titulo": "Guardianes comunitarios ayudan a aldeas de Zimbabue a convivir con leones",
-     "resumo": "Vecinos formados como guardianes avisan cuando se acercan los leones y ayudan a proteger el ganado. En las dos primeras zonas, los conflictos bajaron un 98% en unos cinco años; en Mbire y Binga, un 53%.",
-     "regiao": "Nyaminyami (lago Kariba)",
-     "pais": "Zimbabue"
-    },
-    "en": {
-     "titulo": "Community guardians help Zimbabwe villages live alongside lions",
-     "resumo": "Local people trained as guardians warn when lions approach and help protect livestock. In the first two wards, conflicts fell 98% in about five years; in Mbire and Binga, by 53%.",
-     "regiao": "Nyaminyami (Lake Kariba)",
-     "pais": "Zimbabwe"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/16040900/Community-Guardians-from-Nyaminyami-posing-with-their-moterbikes-1200x800.jpg",
-   "credito": "Foto: Wildlife Conservation Action"
   }
  ]
 }
