@@ -1,6 +1,298 @@
 {
- "atualizado": "2026-11-20",
+ "atualizado": "2026-11-21",
  "noticias": [
+  {
+   "id": "escola-mare-premio-mundial",
+   "titulo": "Escola pública da Maré vence prêmio de melhor do mundo",
+   "resumo": "A escola GET IV Centenário, no Rio, foi uma das cinco vencedoras do World's Best School Prizes, na categoria superação de adversidades. Os alunos têm 20 minutos por dia para falar do que sentem e usam robótica e impressão 3D para resolver problemas do bairro.",
+   "categoria": "sociedade",
+   "regiao": "Complexo da Maré (Rio de Janeiro)",
+   "data": "2026-11-20",
+   "fonte": "Terra / Estadão",
+   "url": "https://www.terra.com.br/noticias/educacao/como-e-a-escola-que-fica-no-fogo-cruzado-de-faccoes-no-rio-e-venceu-premio-de-melhor-do-mundo,e461be78210b8945a37c7eaee1a89271qx3fhg57.html",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -22.85,
+   "lon": -43.24,
+   "i18n": {
+    "es": {
+     "titulo": "Una escuela pública de la Maré gana un premio a la mejor del mundo",
+     "resumo": "La escuela GET IV Centenário, en Río, fue una de las cinco ganadoras del World's Best School Prizes, en la categoría superación de adversidades. Los alumnos tienen 20 minutos al día para hablar de lo que sienten y usan robótica e impresión 3D para resolver problemas del barrio.",
+     "regiao": "Complexo da Maré (Rio de Janeiro)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Public school in Rio's Maré favela wins a World's Best School Prize",
+     "resumo": "GET IV Centenário was one of five global winners, in the overcoming-adversity category. Pupils get 20 minutes each morning to talk about their feelings and use robotics and 3D printing to solve local problems.",
+     "regiao": "Complexo da Maré (Rio de Janeiro)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/20/295067916-nnjxup7mjfaa5dqqfqxkucdhhi.jpeg",
+   "credito": "Foto: divulgação/Estadão"
+  },
+  {
+   "id": "bug-hunt-australia",
+   "titulo": "Caça a insetos com voluntários acha formiga rara procurada há 50 anos",
+   "resumo": "Na semana Bugs in my Backyard, australianos enviaram quase 30 mil registros de insetos. Entre os achados está a criticamente ameaçada formiga-dinossauro, fotografada no sul do país, e a única foto viva conhecida de um besouro raro.",
+   "categoria": "animais",
+   "regiao": "Austrália",
+   "data": "2026-11-21",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/science/2026-11-21/bug-hunt-week-discoveries-2026/107402342",
+   "pais": "Austrália",
+   "destaque": true,
+   "lat": -25.3,
+   "lon": 133.8,
+   "i18n": {
+    "es": {
+     "titulo": "Una búsqueda de insectos con voluntarios halla una hormiga rara buscada durante 50 años",
+     "resumo": "En la semana Bugs in my Backyard, australianos enviaron casi 30.000 registros de insectos. Entre los hallazgos está la hormiga dinosaurio, en peligro crítico, fotografiada en el sur, y la única foto en vida de un escarabajo raro.",
+     "regiao": "Australia",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Backyard bug hunt finds a rare ant scientists sought for 50 years",
+     "resumo": "During Bugs in my Backyard week, Australians logged almost 30,000 insect sightings. Finds include the critically endangered dinosaur ant, photographed in South Australia, and the only known live photo of a rare beetle.",
+     "regiao": "Australia",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/459f9a0bee268365d5ea2331c77dd939?impolicy=wcms_watermark_news&cropH=1152&cropW=2048&xPos=0&yPos=132&width=862&height=485&imformat=generic",
+   "credito": "Foto: Deb Taylor"
+  },
+  {
+   "id": "bombeiros-ceara-10mil-animais",
+   "titulo": "Bombeiros do Ceará já resgataram mais de 10 mil animais em 2026",
+   "resumo": "De janeiro a outubro foram 10.727 resgates de bichos silvestres e domésticos em risco, a maioria cobras, mas também gatos, iguanas, gambás e cães. Um deles foi um yorkshire tirado de um ralo em Fortaleza e devolvido ao tutor.",
+   "categoria": "animais",
+   "regiao": "Ceará",
+   "data": "2026-11-20",
+   "fonte": "O POVO",
+   "url": "https://www.opovo.com.br/noticias/ceara/2026/11/20/bombeiros-resgatam-mais-de-10-mil-animais-no-ceara-em-2026.html",
+   "pais": "Brasil",
+   "lat": -3.73,
+   "lon": -38.52,
+   "i18n": {
+    "es": {
+     "titulo": "Los bomberos de Ceará ya rescataron más de 10.000 animales en 2026",
+     "resumo": "De enero a octubre hubo 10.727 rescates de animales silvestres y domésticos en riesgo, sobre todo serpientes, pero también gatos, iguanas, zarigüeyas y perros. Uno fue un yorkshire sacado de un desagüe en Fortaleza y devuelto a su tutor.",
+     "regiao": "Ceará",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Ceará firefighters have rescued over 10,000 animals in 2026",
+     "resumo": "From January to October they carried out 10,727 rescues of wild and domestic animals, mostly snakes but also cats, iguanas, opossums and dogs, including a Yorkshire terrier pulled from a drain in Fortaleza.",
+     "regiao": "Ceará",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/20/856x642/1_novo_projeto__27_-43172595.jpg",
+   "credito": "Foto: divulgação/CBMCE"
+  },
+  {
+   "id": "aves-resgatadas-olinda",
+   "titulo": "Operação resgata 76 aves e um timbu de maus-tratos em Olinda",
+   "resumo": "A polícia ambiental tirou os 77 animais silvestres de uma situação de maus-tratos e os levou ao Cetras Tangará, centro de triagem e reabilitação de animais silvestres.",
+   "categoria": "animais",
+   "regiao": "Olinda (PE)",
+   "data": "2026-11-19",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/brasil/cidades/operacao-resgata-77-animais-silvestres-em-situacao-de-maus-tratos-em-olinda,44f7697297dcf6ce3380fdf91db149a6w794k31z.html",
+   "pais": "Brasil",
+   "lat": -8.01,
+   "lon": -34.85,
+   "i18n": {
+    "es": {
+     "titulo": "Un operativo rescata 76 aves y una zarigüeya del maltrato en Olinda",
+     "resumo": "La policía ambiental sacó a los 77 animales silvestres de una situación de maltrato y los llevó al Cetras Tangará, un centro de triaje y rehabilitación de fauna silvestre.",
+     "regiao": "Olinda (PE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Operation rescues 76 birds and an opossum from mistreatment in Olinda, Brazil",
+     "resumo": "Environmental police removed the 77 wild animals from abusive conditions and took them to the Cetras Tangará wildlife triage and rehabilitation centre.",
+     "regiao": "Olinda (PE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/20/1706915248-resgate-de-animais-silvestres-em-olinda.jpg",
+   "credito": "Foto: divulgação/Portal de Prefeitura"
+  },
+  {
+   "id": "medico-abre-caminho-br101",
+   "titulo": "Médico desce da ambulância e abre caminho a pé no trânsito para salvar paciente",
+   "resumo": "Preso num engarrafamento na BR-101, o psiquiatra Johny Barbosa correu entre os carros pedindo passagem. A ambulância chegou ao Hospital da Restauração, no Recife, e a paciente foi internada para continuar o atendimento.",
+   "categoria": "sociedade",
+   "regiao": "Jaboatão dos Guararapes (PE)",
+   "data": "2026-11-19",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/brasil/cidades/medico-desce-de-ambulancia-e-corre-entre-carros-para-abrir-caminho-a-paciente-grave-na-br-101-em-jaboatao,50f1965856318404734450399ffbf21bpjdr5qz8.html",
+   "pais": "Brasil",
+   "lat": -8.13,
+   "lon": -34.92,
+   "i18n": {
+    "es": {
+     "titulo": "Un médico baja de la ambulancia y abre paso a pie en el tráfico para salvar a una paciente",
+     "resumo": "Atascado en la BR-101, el psiquiatra Johny Barbosa corrió entre los autos pidiendo paso. La ambulancia llegó al Hospital da Restauração, en Recife, y la paciente fue internada.",
+     "regiao": "Jaboatão dos Guararapes (PE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Doctor jumps out of ambulance to clear traffic for a critical patient",
+     "resumo": "Stuck in a jam on Brazil's BR-101, psychiatrist Johny Barbosa ran between cars asking drivers to make way. The ambulance reached the hospital in Recife and the patient was admitted.",
+     "regiao": "Jaboatão dos Guararapes (PE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/19/982079470-medico-desce-de-ambulancia-e-corre-entre-carros-na-br-101.jpg",
+   "credito": "Foto: reprodução/redes sociais"
+  },
+  {
+   "id": "titulos-quilombolas",
+   "titulo": "No Dia da Consciência Negra, 91 títulos de terra quilombola desde 2023",
+   "resumo": "O Incra emitiu 91 títulos coletivos e 109 portarias de reconhecimento. Só em Alcântara (MA), a titulação beneficiou cerca de 17 mil pessoas em quase 200 comunidades.",
+   "categoria": "sociedade",
+   "regiao": "Brasil (ex.: Alcântara, MA)",
+   "data": "2026-11-20",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/avancos-na-regularizacao-de-territorios-quilombolas-ganham-destaque-no-dia-da-consciencia-negra",
+   "pais": "Brasil",
+   "lat": -2.4,
+   "lon": -44.4,
+   "i18n": {
+    "es": {
+     "titulo": "En el Día de la Conciencia Negra, 91 títulos de tierra quilombola desde 2023",
+     "resumo": "El Incra emitió 91 títulos colectivos y 109 resoluciones de reconocimiento. Solo en Alcântara (MA), la titulación benefició a unas 17.000 personas en casi 200 comunidades.",
+     "regiao": "Brasil (ej.: Alcântara, MA)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "On Black Consciousness Day, 91 quilombo land titles since 2023",
+     "resumo": "Brazil's land agency has issued 91 collective titles to quilombo communities and 109 recognition orders. In Alcântara alone, titling benefited about 17,000 people in nearly 200 communities.",
+     "regiao": "Brazil (e.g. Alcântara)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/avancos-na-regularizacao-de-territorios-quilombolas-ganham-destaque-no-dia-da-consciencia-negra/@@download/image/20_11.webp",
+   "credito": "Foto: Ricardo Stuckert/PR"
+  },
+  {
+   "id": "besouro-indio-solari",
+   "titulo": "Cientistas argentinos descobrem besouro e o batizam em homenagem ao Indio Solari",
+   "resumo": "O Bothynus indiosolari, um besouro-rinoceronte de 15 a 20 mm, foi encontrado no Chaco e em Misiones. O nome homenageia o músico argentino, morto em junho.",
+   "categoria": "ciencia",
+   "regiao": "Chaco e Misiones",
+   "data": "2026-11-18",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/18/cientificos-argentinos-descubrieron-una-nueva-especie-de-escarabajo-y-la-nombraron-en-honor-al-indio-solari/",
+   "pais": "Argentina",
+   "lat": -26.4,
+   "lon": -60.8,
+   "i18n": {
+    "es": {
+     "titulo": "Científicos argentinos descubren un escarabajo y lo nombran en honor al Indio Solari",
+     "resumo": "Bothynus indiosolari, un escarabajo rinoceronte de 15 a 20 mm, fue hallado en Chaco y Misiones. El nombre homenajea al músico, fallecido en junio.",
+     "regiao": "Chaco y Misiones",
+     "pais": "Argentina"
+    },
+    "en": {
+     "titulo": "Argentine scientists name a new beetle after rock musician Indio Solari",
+     "resumo": "Bothynus indiosolari, a 15–20 mm rhinoceros beetle, was found in Chaco and Misiones. The name honours the Argentine musician, who died in June.",
+     "regiao": "Chaco and Misiones",
+     "pais": "Argentina"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/IZDTGJNRRBFDZNBROP2WSPJWN4.jpg?auth=57e51c26e4fcf45c5c5a8c2f6d68e5b33a7f03fc7d5a90cff57a2b4422287626&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem: Infobae"
+  },
+  {
+   "id": "microrobo-voador-mit",
+   "titulo": "Microrrobô voador do MIT pousa numa flor guiado pelos próprios sensores",
+   "resumo": "Mais leve que um clipe, o robô de quatro asas seguiu um trajeto e pousou num girassol sem as câmeras do laboratório. A ideia é que versões futuras ajudem na polinização e no monitoramento de lavouras.",
+   "categoria": "tecnologia",
+   "regiao": "Cambridge (Massachusetts)",
+   "data": "2026-11-19",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/19/el-mit-crea-el-primer-microrobot-volador-con-sensores-y-computadora-propios-capaz-de-operar-fuera-del-laboratorio/",
+   "pais": "Estados Unidos",
+   "lat": 42.36,
+   "lon": -71.09,
+   "i18n": {
+    "es": {
+     "titulo": "El microrrobot volador del MIT aterriza en una flor guiado por sus propios sensores",
+     "resumo": "Más liviano que un clip, el robot de cuatro alas siguió un recorrido y aterrizó en un girasol sin las cámaras del laboratorio. Versiones futuras podrían ayudar a polinizar y vigilar cultivos.",
+     "regiao": "Cambridge (Massachusetts)",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "MIT's flying microrobot lands on a flower using its own sensors",
+     "resumo": "Lighter than a paperclip, the four-winged robot followed a path and landed on a sunflower without lab cameras. Future versions could help with pollination and crop monitoring.",
+     "regiao": "Cambridge (Massachusetts)",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/KQWLDS25DRE6NHVBZE3SAE66KM.png?auth=67fab1f818c348a68861b01f2ccfcaecd98a5056a4f7174982c7cb9c185ae584&smart=true&width=1200&height=630&quality=85",
+   "credito": "Foto: pesquisadores/MIT News"
+  },
+  {
+   "id": "bateria-vitamina-b12",
+   "titulo": "Vitamina B12 ajuda a criar bateria recarregável mais barata e segura",
+   "resumo": "Pesquisadores espanhóis usaram a vitamina como catalisador numa bateria de zinco-ar, que aguentou até 250 ciclos de carga. Ainda é pesquisa, mas aponta uma alternativa às baterias de lítio.",
+   "categoria": "tecnologia",
+   "regiao": "Córdoba",
+   "data": "2026-11-18",
+   "fonte": "ScienceDaily / Universidade de Córdoba",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm",
+   "pais": "Espanha",
+   "lat": 37.89,
+   "lon": -4.78,
+   "i18n": {
+    "es": {
+     "titulo": "La vitamina B12 ayuda a crear una batería recargable más barata y segura",
+     "resumo": "Investigadores españoles usaron la vitamina como catalizador en una batería de zinc-aire que resistió hasta 250 ciclos de carga. Aún es investigación, pero apunta a una alternativa al litio.",
+     "regiao": "Córdoba",
+     "pais": "España"
+    },
+    "en": {
+     "titulo": "Vitamin B12 helps make a cheaper, safer rechargeable battery",
+     "resumo": "Spanish researchers used the vitamin as a catalyst in a zinc-air battery that lasted up to 250 charge cycles. It's still research, but points to an alternative to lithium-ion.",
+     "regiao": "Córdoba",
+     "pais": "Spain"
+    }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/futuristic-powerful-quantum-battery-technology.webp",
+   "credito": "Ilustração: IA/ScienceDaily"
+  },
+  {
+   "id": "fim-proibicao-casadas-australia",
+   "titulo": "60 anos atrás, mulheres casadas voltaram a poder trabalhar no serviço público australiano",
+   "resumo": "Até 1966, a Austrália proibia o governo de empregar mulheres casadas. Com o fim da regra, o número de servidoras triplicou em três anos. Hoje, as mulheres contam suas histórias e lembram que a luta por igualdade continua.",
+   "categoria": "sociedade",
+   "regiao": "Camberra",
+   "data": "2026-11-21",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-21/60-years-since-ban-married-women-public-service-lifted/107406214",
+   "pais": "Austrália",
+   "lat": -35.28,
+   "lon": 149.13,
+   "i18n": {
+    "es": {
+     "titulo": "Hace 60 años, las mujeres casadas pudieron volver a trabajar en la función pública australiana",
+     "resumo": "Hasta 1966, Australia prohibía al gobierno emplear mujeres casadas. Al terminar la regla, el número de funcionarias se triplicó en tres años. Hoy recuerdan su historia y que la lucha por la igualdad sigue.",
+     "regiao": "Canberra",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "60 years since married women won the right to work in Australia's public service",
+     "resumo": "Until 1966, Australia's government barred married women from its workforce. Once the ban was lifted, the number of women it employed tripled within three years.",
+     "regiao": "Canberra",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/b78092822ec0cf242083c255e32a3af7?impolicy=wcms_watermark_news&cropH=2395&cropW=4258&xPos=0&yPos=197&width=862&height=485&imformat=generic",
+   "credito": "Foto: Niki Burnside/ABC News"
+  },
   {
    "id": "algodao-potiguara",
    "titulo": "Indígenas Potiguara colhem sua primeira safra de algodão agroecológico",
@@ -11,7 +303,6 @@
    "fonte": "Embrapa",
    "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/150368662/comunidade-indigena-potiguara-realiza-colheita-de-algodao-agroecologico-na-paraiba",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -6.7,
    "lon": -34.99,
    "i18n": {
@@ -41,7 +332,6 @@
    "fonte": "Mongabay",
    "url": "https://news.mongabay.com/short-article/2026/11/world-anteater-day-rewilding-and-restoration-offer-hope-for-enigmatic-species/",
    "pais": "Argentina",
-   "destaque": true,
    "lat": -25.5,
    "lon": -60.0,
    "i18n": {
@@ -60,294 +350,6 @@
    },
    "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/19065110/1920px-Giant_anteater_-_Oso_hormiguero_Myrmecophaga_tridactyla_8697863742-1200x800.jpg",
    "credito": "Foto: Fernando Flores/Wikimedia Commons (CC BY-SA 2.0)"
-  },
-  {
-   "id": "fungos-polares-ufmg",
-   "titulo": "Fungos do gelo polar podem virar herbicidas naturais",
-   "resumo": "Pesquisadores da UFMG testam fungos tirados do solo congelado da Groenlândia e da Antártida em busca de substâncias que barrem ervas daninhas. O laboratório tem uma coleção com mais de 20 mil linhagens.",
-   "categoria": "ciencia",
-   "regiao": "Belo Horizonte (MG)",
-   "data": "2026-11-18",
-   "fonte": "UFMG",
-   "url": "https://www.ufmg.br/comunicacao/noticias/pesquisa-e-inovacao/fungos-de-solos-congelados-das-regioes-polares-podem-ser-aliados-da-agricultura/",
-   "pais": "Brasil",
-   "lat": -19.87,
-   "lon": -43.97,
-   "i18n": {
-    "es": {
-     "titulo": "Hongos del hielo polar podrían convertirse en herbicidas naturales",
-     "resumo": "Investigadores de la UFMG prueban hongos extraídos del suelo congelado de Groenlandia y la Antártida en busca de sustancias que frenen malezas. El laboratorio tiene una colección de más de 20.000 cepas.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Polar permafrost fungi could become natural herbicides",
-     "resumo": "UFMG researchers are screening fungi from frozen soils in Greenland and Antarctica for compounds that stop weeds. Their lab holds a collection of more than 20,000 strains.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.ufmg.br//app/uploads/2026/11/Fungos_para_agricultura_Creditos_Julia_Rodrigues_ACS_FAPEMIG-864x445.png",
-   "credito": "Foto: Júlia Rodrigues/ACS Fapemig"
-  },
-  {
-   "id": "acervo-teatro-sp",
-   "titulo": "Acervo com 13 mil itens do teatro paulista é restaurado e aberto ao público",
-   "resumo": "Um projeto de cinco anos limpou, catalogou e liberou o arquivo do antigo Conservatório Dramático e Musical de São Paulo, com 2.036 peças. A consulta é gratuita, na Praça das Artes.",
-   "categoria": "sociedade",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-18",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/cultura/usp-ajuda-a-preservar-a-memoria-do-teatro-paulista/",
-   "pais": "Brasil",
-   "lat": -23.54,
-   "lon": -46.64,
-   "i18n": {
-    "es": {
-     "titulo": "Un archivo de 13.000 piezas del teatro paulista es restaurado y abierto al público",
-     "resumo": "Un proyecto de cinco años limpió, catalogó y abrió el archivo del antiguo Conservatorio Dramático y Musical de São Paulo, con 2.036 obras. La consulta es gratuita, en la Praça das Artes.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "13,000-item São Paulo theatre archive restored and opened to the public",
-     "resumo": "A five-year project cleaned, catalogued and opened the archive of São Paulo's old Drama and Music Conservatory, including 2,036 plays. It's free to consult at Praça das Artes.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261118_conservatorio.jpg",
-   "credito": "Foto: Marcos Santos/USP Imagens"
-  },
-  {
-   "id": "mulheres-empreendedoras-recorde",
-   "titulo": "Brasil bate recorde: 10,3 milhões de mulheres comandam pequenos negócios",
-   "resumo": "O número cresceu 27% em dez anos, contra 11% entre os homens, segundo o Sebrae. Em 2025, as mulheres abriram 42% das novas pequenas empresas do país.",
-   "categoria": "sociedade",
-   "regiao": "Brasil",
-   "data": "2026-11-19",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/economia/2026/11/7541410-brasil-registra-recorde-de-103-mi-de-mulheres-a-frente-de-pequenos-negocios.html",
-   "pais": "Brasil",
-   "i18n": {
-    "es": {
-     "titulo": "Brasil bate récord: 10,3 millones de mujeres dirigen pequeños negocios",
-     "resumo": "La cifra creció un 27% en diez años, frente al 11% entre los hombres, según Sebrae. En 2025, las mujeres abrieron el 42% de las nuevas pequeñas empresas del país.",
-     "regiao": "Brasil",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Record 10.3 million women now run small businesses in Brazil",
-     "resumo": "The number grew 27% in ten years, versus 11% for men, according to Sebrae. In 2025 women opened 42% of the country's new small businesses.",
-     "regiao": "Brazil",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/04/02/675x450/1_whatsapp-image-2026-04-02-at-09-29-57-65790517.jpeg",
-   "credito": "Foto ilustrativa: divulgação/Instituto Conecta Brasil"
-  },
-  {
-   "id": "borneo-terra-indigena",
-   "titulo": "Povos indígenas de Bornéu celebram fim de plantação de dendê em suas terras",
-   "resumo": "Depois de anos de bloqueios, petições e ação na Justiça, os povos Berawan, Penan e Tering conseguiram cancelar uma plantação de 4.400 hectares perto do Parque Nacional de Mulu. Agora fincaram uma pedra para lembrar a vitória.",
-   "categoria": "meio-ambiente",
-   "regiao": "Sarawak (Bornéu)",
-   "data": "2026-11-18",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/borneo-indigenous-groups-turn-land-rights-victory-into-warning-for-future-generations/",
-   "pais": "Malásia",
-   "lat": 4.05,
-   "lon": 114.9,
-   "i18n": {
-    "es": {
-     "titulo": "Pueblos indígenas de Borneo celebran el fin de una plantación de palma en sus tierras",
-     "resumo": "Tras años de bloqueos, peticiones y una demanda, los pueblos Berawan, Penan y Tering lograron cancelar una plantación de 4.400 hectáreas cerca del Parque Nacional Mulu. Ahora colocaron una piedra para recordar la victoria.",
-     "regiao": "Sarawak (Borneo)",
-     "pais": "Malasia"
-    },
-    "en": {
-     "titulo": "Borneo Indigenous groups mark the end of an oil palm plantation on their land",
-     "resumo": "After years of blockades, petitions and a lawsuit, the Berawan, Penan and Tering peoples got a 4,400-hectare plantation near Mulu National Park cancelled. They have now set a memorial stone to mark the win.",
-     "regiao": "Sarawak (Borneo)",
-     "pais": "Malaysia"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/18074935/Komeok-Joe-Willie-Kajan-Ukau-Lupung.jpg",
-   "credito": "Foto: Keruan"
-  },
-  {
-   "id": "alzheimer-ar1001",
-   "titulo": "Comprimido da família do Viagra freia perda de memória no Alzheimer inicial",
-   "resumo": "Num estudo de fase 3, o AR1001 desacelerou em 31% o declínio cognitivo de 604 pessoas com Alzheimer no início que não usavam outros remédios. São dados preliminares, e especialistas pedem mais pesquisa.",
-   "categoria": "saude",
-   "regiao": "Estudo em 13 países",
-   "data": "2026-11-18",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/18/drug-that-mimics-viagra-shows-promise-as-alzheimers-treatment",
-   "pais": "Coreia do Sul",
-   "lat": 37.5,
-   "lon": 127.0,
-   "i18n": {
-    "es": {
-     "titulo": "Una pastilla de la familia del Viagra frena la pérdida de memoria en el Alzheimer inicial",
-     "resumo": "En un estudio de fase 3, AR1001 ralentizó un 31% el deterioro cognitivo de 604 personas con Alzheimer inicial que no tomaban otros fármacos. Son datos preliminares y los expertos piden más investigación.",
-     "regiao": "Estudio en 13 países",
-     "pais": "Corea del Sur"
-    },
-    "en": {
-     "titulo": "Viagra-family pill slows memory loss in early Alzheimer's",
-     "resumo": "In a Phase 3 trial, AR1001 slowed cognitive decline by 31% in 604 people with early Alzheimer's who weren't on other drugs. Results are topline, and experts call for more research.",
-     "regiao": "13-country trial",
-     "pais": "South Korea"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/99/75/68/1200x675_cmsv2_ec9cdd8f-cab7-5510-8c0c-8073db03efdf-9997568.jpg",
-   "credito": "Foto: Business Wire via AP"
-  },
-  {
-   "id": "casa-warumungu",
-   "titulo": "Casa projetada por indígenas para o calor do deserto ganha prêmio na Austrália",
-   "resumo": "A Explain Home, desenhada pelo warumungu Norman Frank Jupurrurla e Serina Morton, tem varandas, ventilação cruzada, cozinha externa e energia solar, para combater a superlotação e o calor extremo. Já se discute um projeto de 20 casas.",
-   "categoria": "sociedade",
-   "regiao": "Tennant Creek",
-   "data": "2026-11-20",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-20/award-winning-remote-house-tennant-creek/107400110",
-   "pais": "Austrália",
-   "lat": -19.65,
-   "lon": 134.19,
-   "i18n": {
-    "es": {
-     "titulo": "Una casa diseñada por indígenas para el calor del desierto gana un premio en Australia",
-     "resumo": "La Explain Home, diseñada por el warumungu Norman Frank Jupurrurla y Serina Morton, tiene galerías, ventilación cruzada, cocina exterior y energía solar para combatir el hacinamiento y el calor extremo. Ya se habla de 20 casas.",
-     "regiao": "Tennant Creek",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Indigenous-designed desert home wins an Australian innovation award",
-     "resumo": "The Explain Home, designed by Warumungu man Norman Frank Jupurrurla and Serina Morton, has verandahs, breezeways, an outdoor kitchen and solar power to tackle overcrowding and extreme heat. A 20-home project is under discussion.",
-     "regiao": "Tennant Creek",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/ca575aeed1a32fd2e11c01ab56eb5549?impolicy=wcms_watermark_news&cropH=1634&cropW=2904&xPos=445&yPos=871&width=862&height=485&imformat=generic",
-   "credito": "Foto: Wilya Janta"
-  },
-  {
-   "id": "viagem-formatura-surpresa",
-   "titulo": "Pais fazem horas extras em segredo e garantem viagem de formatura do filho",
-   "resumo": "Manuel disse que não queria ir à viagem da turma por causa do preço. Os pais trabalharam a mais e pagaram tudo sem contar. A professora deu a notícia na sala, os pais entraram com balões e os colegas o abraçaram.",
-   "categoria": "sociedade",
-   "regiao": "Laguna Paiva (Santa Fe)",
-   "data": "2026-11-19",
-   "fonte": "La Nación",
-   "url": "https://www.lanacion.com.ar/sociedad/sus-padres-no-podian-pagarle-el-viaje-de-egresados-pero-recibio-una-noticia-que-lo-hizo-llorar-de-nid19112026/",
-   "pais": "Argentina",
-   "lat": -31.2,
-   "lon": -60.63,
-   "i18n": {
-    "es": {
-     "titulo": "Padres hacen horas extra en secreto y le pagan el viaje de egresados a su hijo",
-     "resumo": "Manuel dijo que no quería ir al viaje de la clase por el costo. Sus padres trabajaron de más y lo pagaron sin decirle. La maestra le dio la noticia en el aula, sus padres entraron con globos y sus compañeros lo abrazaron.",
-     "regiao": "Laguna Paiva (Santa Fe)",
-     "pais": "Argentina"
-    },
-    "en": {
-     "titulo": "Parents secretly work overtime to pay for their son's school trip",
-     "resumo": "Manuel said he didn't want to go on the class trip because of the cost. His parents worked extra hours and paid it all without telling him. His teacher broke the news in class as his parents walked in with balloons.",
-     "regiao": "Laguna Paiva (Santa Fe)",
-     "pais": "Argentina"
-    }
-   },
-   "img": "https://www.lanacion.com.ar/resizer/v2/una-maestra-sorprendio-a-un-alumno-durante-un-PQ4MEAEWONFTJFEO747XVAZX34.jpg?auth=d1c1be91bdf67bcc287faef34f1cad56f644620d6773a848ee225c3411ce47df&width=1200&height=800&quality=70&smart=true",
-   "credito": "Imagem: reprodução/Instagram"
-  },
-  {
-   "id": "bolsas-mulheres-turquia",
-   "titulo": "Mulheres na Turquia vendem comida típica e pagam bolsas para 132 universitários",
-   "resumo": "Liderado por Hatice Erkan, de 73 anos, o grupo cozinha e vende pratos regionais desde os anos 1990. A renda cobre 90% das bolsas, e mais de mil estudantes já se formaram, inclusive em medicina e direito.",
-   "categoria": "sociedade",
-   "regiao": "Çubuk",
-   "data": "2026-11-19",
-   "fonte": "Estado de Minas",
-   "url": "https://www.em.com.br/internacional/2026/11/7541336-grupo-de-mulheres-na-turquia-usa-a-renda-da-venda-de-comidas-regionais-para-financiar-bolsas-de-estudo-de-132-universitarios.html",
-   "pais": "Turquia",
-   "lat": 40.23,
-   "lon": 32.9,
-   "i18n": {
-    "es": {
-     "titulo": "Mujeres en Turquía venden comida típica y pagan becas a 132 universitarios",
-     "resumo": "Liderado por Hatice Erkan, de 73 años, el grupo cocina y vende platos regionales desde los años 90. Las ventas cubren el 90% de las becas, y más de mil estudiantes ya se graduaron, incluso en medicina y derecho.",
-     "regiao": "Çubuk",
-     "pais": "Turquía"
-    },
-    "en": {
-     "titulo": "Women in Turkey sell home cooking to fund 132 university scholarships",
-     "resumo": "Led by 73-year-old Hatice Erkan, the group has cooked and sold regional dishes since the 1990s. Sales cover 90% of the grants, and over 1,000 students have graduated, including in medicine and law.",
-     "regiao": "Çubuk",
-     "pais": "Turkey"
-    }
-   },
-   "img": "https://midias.em.com.br/_midias/jpg/2026/11/19/7541336-93f1a517741f4010aa75dc0552becb58-68260177.jpg",
-   "credito": "Ilustração gerada por IA (Estado de Minas)"
-  },
-  {
-   "id": "premio-ciencia-para-todos",
-   "titulo": "Alunos de escolas públicas são premiados por invenções que incluem",
-   "resumo": "No Prêmio Ciência para Todos, venceram estudantes que criaram uma órtese para quem tem atrofia nas mãos comer sozinho, uma bengala eletrônica para pessoas surdocegas e um biodigestor contra a pobreza energética, entre outros projetos.",
-   "categoria": "sociedade",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-19",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/premio-ciencia-para-todos-destaca-projetos-de-inclusao-saude-e-sustentabilidade/59653",
-   "pais": "Brasil",
-   "lat": -23.55,
-   "lon": -46.63,
-   "i18n": {
-    "es": {
-     "titulo": "Alumnos de escuelas públicas premiados por inventos que incluyen",
-     "resumo": "En el Premio Ciencia para Todos ganaron estudiantes que crearon una órtesis para que personas con atrofia en las manos coman solas, un bastón electrónico para personas sordociegas y un biodigestor contra la pobreza energética, entre otros.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Public school students win awards for inclusive inventions",
-     "resumo": "Winners of Brazil's Science for All prize include students who built an orthosis that lets people with hand atrophy eat on their own, an electronic cane for deafblind users and a biodigester against energy poverty.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agencia.fapesp.br/files/post/59653.jpg",
-   "credito": "Foto: Daniel Antônio/Agência FAPESP"
-  },
-  {
-   "id": "pomada-glaucoma-ufmg",
-   "titulo": "Pomada noturna pode substituir colírios após cirurgia de glaucoma",
-   "resumo": "Num estudo da UFMG com 66 olhos, 85,4% dos tratados com a pomada controlaram a pressão sem outros remédios, contra 52% com os colírios comuns. Um ensaio maior está em andamento.",
-   "categoria": "saude",
-   "regiao": "Belo Horizonte (MG)",
-   "data": "2026-11-16",
-   "fonte": "UFMG",
-   "url": "https://www.ufmg.br/comunicacao/noticias/pesquisa-e-inovacao/pomada-pode-reduzir-ou-eliminar-uso-de-colirios-apos-cirurgia-de-glaucoma/",
-   "pais": "Brasil",
-   "lat": -19.92,
-   "lon": -43.94,
-   "i18n": {
-    "es": {
-     "titulo": "Una pomada nocturna podría sustituir los colirios tras la cirugía de glaucoma",
-     "resumo": "En un estudio de la UFMG con 66 ojos, el 85,4% de los tratados con la pomada controló la presión sin otros fármacos, frente al 52% con los colirios habituales. Hay un ensayo mayor en curso.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Night-time ointment may replace eye drops after glaucoma surgery",
-     "resumo": "In a UFMG study of 66 eyes, 85.4% treated with the ointment controlled eye pressure without other drugs, versus 52% on standard drops. A larger trial is under way.",
-     "regiao": "Belo Horizonte (MG)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.ufmg.br//app/uploads/2026/11/glaucoma-scaled-e1794835238942-864x445.jpg",
-   "credito": "Foto ilustrativa: James Heilman/Wikipedia (CC BY-SA 3.0)"
   }
  ]
 }
