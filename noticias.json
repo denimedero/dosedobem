@@ -1,6 +1,269 @@
 {
- "atualizado": "2026-11-21",
+ "atualizado": "2026-11-22",
  "noticias": [
+  {
+   "id": "canion-chapada-resgate",
+   "titulo": "Helicóptero resgata duas mulheres ilhadas num cânion da Chapada Diamantina",
+   "resumo": "Presas desde quinta pela cheia do rio na trilha da Cachoeira da Fumacinha, as mulheres, de 48 e 64 anos, foram retiradas de um cânion de 280 metros por um policial que desceu de rapel. As duas saíram em segurança.",
+   "categoria": "sociedade",
+   "regiao": "Ibicoara (BA)",
+   "data": "2026-11-21",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7542148-duas-mulheres-ilhadas-em-canion-sao-resgatadas-na-chapada-diamantina.html",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -13.43,
+   "lon": -41.33,
+   "i18n": {
+    "es": {
+     "titulo": "Un helicóptero rescata a dos mujeres aisladas en un cañón de la Chapada Diamantina",
+     "resumo": "Atrapadas desde el jueves por la crecida del río en el sendero de la Cachoeira da Fumacinha, las mujeres, de 48 y 64 años, fueron sacadas de un cañón de 280 metros por un policía que bajó en rapel. Ambas salieron a salvo.",
+     "regiao": "Ibicoara (BA)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Helicopter rescues two women trapped in a Brazilian canyon",
+     "resumo": "Stranded since Thursday by a flash flood on the Fumacinha waterfall trail, the women, aged 48 and 64, were lifted out of a 280-metre canyon by an officer who rappelled down. Both were brought out safely.",
+     "regiao": "Ibicoara (BA)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/21/675x450/1_whatsapp-image-2026-11-20-at-19-01-15-68273352.jpeg",
+   "credito": "Foto: divulgação/GRAER"
+  },
+  {
+   "id": "pancreas-daraxonrasib",
+   "titulo": "Comprimido diário freia câncer de pâncreas em estudo e anima médicos",
+   "resumo": "Num ensaio com 61 pacientes com câncer de pâncreas avançado, o daraxonrasib com quimioterapia parou o crescimento dos tumores em quase todos. Após um ano, 76,6% estavam vivos, contra 40% a 45% com a quimio comum. Estudos mais longos ainda são necessários.",
+   "categoria": "saude",
+   "regiao": "Nova York / Barcelona",
+   "data": "2026-11-21",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/21/un-medicamento-oral-hizo-desaparecer-tumores-de-pancreas-en-un-ensayo-clinico-es-el-mayor-avance-en-decadas/",
+   "pais": "Estados Unidos",
+   "destaque": true,
+   "lat": 40.76,
+   "lon": -73.96,
+   "i18n": {
+    "es": {
+     "titulo": "Una pastilla diaria frena el cáncer de páncreas en un ensayo y entusiasma a los médicos",
+     "resumo": "En un ensayo con 61 pacientes con cáncer de páncreas avanzado, el daraxonrasib con quimioterapia frenó el crecimiento tumoral en casi todos. Al año, el 76,6% seguía vivo, frente al 40-45% con quimio convencional. Faltan estudios más largos.",
+     "regiao": "Nueva York / Barcelona",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Daily pill halts pancreatic cancer growth in trial",
+     "resumo": "In a trial of 61 patients with advanced pancreatic cancer, daraxonrasib plus chemotherapy stopped tumour growth in almost all of them. At one year, 76.6% were alive, versus 40–45% on standard chemo. Longer studies are needed.",
+     "regiao": "New York / Barcelona",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/567G6C7R2VCQ7F3OVX252HORAI.jpg?auth=667d5eaf37ba45e1c102d4c5585e48730e712c593e98feb2aadc2771913c7721&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem: Memorial Sloan Kettering"
+  },
+  {
+   "id": "cadela-stella-voa",
+   "titulo": "Após mobilização nacional, cadela com câncer consegue voar para fazer radioterapia",
+   "resumo": "Stella, uma golden retriever com tumor no nariz, precisava ir de Recife a São Paulo para o tratamento. Depois de uma campanha que ganhou o país, outra companhia aérea aceitou levá-la na cabine.",
+   "categoria": "animais",
+   "regiao": "Recife → São Paulo",
+   "data": "2026-11-20",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/brasil/cidades/cadela-com-cancer-consegue-voar-para-sao-paulo-apos-gol-suspender-decisao-que-autorizava-embarque,74722a993f1a4488963d895c02d96dd4fb8x8ul6.html",
+   "pais": "Brasil",
+   "lat": -8.05,
+   "lon": -34.88,
+   "i18n": {
+    "es": {
+     "titulo": "Tras una movilización nacional, una perra con cáncer logra volar para hacer radioterapia",
+     "resumo": "Stella, una golden retriever con un tumor nasal, necesitaba ir de Recife a São Paulo para tratarse. Tras una campaña que recorrió el país, otra aerolínea aceptó llevarla en cabina.",
+     "regiao": "Recife → São Paulo",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "After a nationwide campaign, a dog with cancer gets to fly for radiotherapy",
+     "resumo": "Stella, a golden retriever with a nasal tumour, needed to travel from Recife to São Paulo for treatment. After a campaign that swept Brazil, another airline agreed to carry her in the cabin.",
+     "regiao": "Recife → São Paulo",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/20/design-sem-nome-2026-11-20t194013-275-r17aug2glu7q.png",
+   "credito": "Foto: reprodução/X"
+  },
+  {
+   "id": "tartarugas-1-milhao",
+   "titulo": "Voluntários já salvaram 3 mil tartarugas de água doce na Austrália",
+   "resumo": "O projeto 1 Million Turtles reúne cerca de 40 mil registros de cidadãos, protegeu 2.468 ninhos e tirou mais de 3 mil tartarugas de estradas. Pode somar 1 milhão de filhotes nas próximas décadas.",
+   "categoria": "animais",
+   "regiao": "Bacia Murray-Darling",
+   "data": "2026-11-21",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-21/1-million-turtles-conservation-project-closing-in-on-milestone/107398472",
+   "pais": "Austrália",
+   "lat": -34.5,
+   "lon": 143.5,
+   "i18n": {
+    "es": {
+     "titulo": "Voluntarios ya salvaron 3.000 tortugas de agua dulce en Australia",
+     "resumo": "El proyecto 1 Million Turtles suma unos 40.000 registros ciudadanos, protegió 2.468 nidos y sacó a más de 3.000 tortugas de las rutas. Podría sumar un millón de crías en las próximas décadas.",
+     "regiao": "Cuenca Murray-Darling",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Volunteers have saved 3,000 freshwater turtles in Australia",
+     "resumo": "The 1 Million Turtles project has about 40,000 citizen records, protected 2,468 nests and rescued over 3,000 turtles from roads. It could add a million hatchlings in coming decades.",
+     "regiao": "Murray-Darling Basin",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/bcb47c38c0f73f94992947f2444a62a4?impolicy=wcms_watermark_news&cropH=2205&cropW=3921&xPos=628&yPos=882&width=862&height=485&imformat=generic",
+   "credito": "Foto: 1 Million Turtles"
+  },
+  {
+   "id": "ilha-lundy-natureza",
+   "titulo": "Ilha britânica vê aves marinhas passarem de 6 mil para 48 mil",
+   "resumo": "Depois que os ratos foram erradicados de Lundy, as aves voltaram em massa. A primeira zona marinha sem pesca do Reino Unido, criada com os pescadores, encheu de lagostas, que já transbordam para as áreas de pesca vizinhas.",
+   "categoria": "meio-ambiente",
+   "regiao": "Ilha Lundy",
+   "data": "2026-11-21",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
+   "pais": "Reino Unido",
+   "lat": 51.18,
+   "lon": -4.67,
+   "i18n": {
+    "es": {
+     "titulo": "Una isla británica ve pasar sus aves marinas de 6.000 a 48.000",
+     "resumo": "Tras erradicar las ratas de Lundy, las aves volvieron en masa. La primera zona marina sin pesca del Reino Unido, creada con los pescadores, se llenó de langostas que ya se extienden a los caladeros vecinos.",
+     "regiao": "Isla Lundy",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "British island's seabirds rebound from 6,000 to 48,000",
+     "resumo": "After rats were eradicated from Lundy, seabirds came back in force. The UK's first no-take marine zone, created with local fishers, is full of lobsters that now spill into nearby fishing grounds.",
+     "regiao": "Lundy Island",
+     "pais": "UK"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21091238/Mongabay_Thumbnail_LudyIsland_Featured_V2-1200x720.jpg",
+   "credito": "Imagem: Mongabay"
+  },
+  {
+   "id": "campista-grampians",
+   "titulo": "Campista é encontrado vivo após cinco dias perdido em parque australiano",
+   "resumo": "O carro do homem, de 55 anos, atolou e ele saiu a pé atrás de ajuda, deixando um bilhete. Motoristas acharam o carro e um helicóptero da polícia o localizou ao lado de uma fogueira. Ele está no hospital, em observação.",
+   "categoria": "sociedade",
+   "regiao": "Grampians (Victoria)",
+   "data": "2026-11-22",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-22/camper-found-alive-by-police-helicopter-in-the-grampians/107414312",
+   "pais": "Austrália",
+   "lat": -37.15,
+   "lon": 142.35,
+   "i18n": {
+    "es": {
+     "titulo": "Encuentran con vida a un campista tras cinco días perdido en un parque australiano",
+     "resumo": "El auto del hombre, de 55 años, se encajó y salió a pie a buscar ayuda, dejando una nota. Unos conductores hallaron el auto y un helicóptero policial lo ubicó junto a una fogata. Está en observación en el hospital.",
+     "regiao": "Grampians (Victoria)",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Camper found alive after five days lost in Australian national park",
+     "resumo": "The 55-year-old's car got bogged, so he set off on foot for help, leaving a note. Four-wheel drivers found the car and a police helicopter spotted him by a campfire. He's being monitored in hospital.",
+     "regiao": "Grampians (Victoria)",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/94a83baabecc19d7d176b7bcae1b6aad?impolicy=wcms_watermark_news&cropH=768&cropW=1365&xPos=7&yPos=192&width=862&height=485&imformat=generic",
+   "credito": "Foto: Lauren Day/ABC News"
+  },
+  {
+   "id": "tecnologias-assistivas-usp",
+   "titulo": "Universidades paulistas mostram tecnologias para pessoas com deficiência",
+   "resumo": "No Centro Paralímpico, uma mostra reuniu projetos como jogos com IA para alunos neurodivergentes, cadeiras de rodas modulares, exoesqueletos e tradução de Libras. As pesquisas recebem cerca de R$ 10 milhões.",
+   "categoria": "tecnologia",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-19",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/comunicados/mostra-apresenta-pesquisas-em-tecnologias-assistivas-desenvolvidas-pelas-universidades-publicas/",
+   "pais": "Brasil",
+   "lat": -23.55,
+   "lon": -46.63,
+   "i18n": {
+    "es": {
+     "titulo": "Universidades de São Paulo muestran tecnologías para personas con discapacidad",
+     "resumo": "En el Centro Paralímpico, una muestra reunió proyectos como juegos con IA para alumnos neurodivergentes, sillas de ruedas modulares, exoesqueletos y traducción de lengua de señas. Reciben unos R$ 10 millones.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "São Paulo universities showcase technology for people with disabilities",
+     "resumo": "At Brazil's Paralympic Training Centre, a showcase featured AI games for neurodivergent pupils, modular wheelchairs, exoskeletons and sign-language translation, backed by about R$10 million.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261119_tecnologias-assistivas-7.jpg",
+   "credito": "Foto: Marcos Santos/USP Imagens"
+  },
+  {
+   "id": "quilombo-frechal",
+   "titulo": "217 comunidades quilombolas ajudam a cuidar de áreas protegidas do país",
+   "resumo": "No Dia da Consciência Negra, o ICMBio destacou as comunidades que vivem em 53 unidades de conservação. A Resex Quilombo do Frechal, no Maranhão, primeira reserva extrativista quilombola do Brasil, será tombada pelo Iphan.",
+   "categoria": "meio-ambiente",
+   "regiao": "Maranhão",
+   "data": "2026-11-20",
+   "fonte": "ICMBio",
+   "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/dia-da-consciencia-negra-icmbio-destaca-atuacao-na-conservacao-e-valorizacao-dos-territorios-quilombolas",
+   "pais": "Brasil",
+   "lat": -2.9,
+   "lon": -45.4,
+   "i18n": {
+    "es": {
+     "titulo": "217 comunidades quilombolas ayudan a cuidar áreas protegidas de Brasil",
+     "resumo": "En el Día de la Conciencia Negra, el ICMBio destacó a las comunidades que viven en 53 unidades de conservación. La Resex Quilombo do Frechal, en Maranhão, primera reserva extractiva quilombola del país, será declarada patrimonio.",
+     "regiao": "Maranhão",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "217 quilombo communities help care for Brazil's protected areas",
+     "resumo": "On Black Consciousness Day, Brazil's conservation agency highlighted communities living in 53 protected areas. The Frechal reserve in Maranhão, the country's first quilombo extractive reserve, is to be heritage-listed.",
+     "regiao": "Maranhão",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/dia-da-consciencia-negra-icmbio-destaca-atuacao-na-conservacao-e-valorizacao-dos-territorios-quilombolas/CAPA.png/@@images/8d2fc0f3-c7a3-47e0-bde1-b85eccec1309.png",
+   "credito": "Foto: Christine Leidgens/acervo pessoal"
+  },
+  {
+   "id": "carthaginoix-grenoble",
+   "titulo": "Associação abre janela para a cultura árabe em Grenoble",
+   "resumo": "Les Carthagi'Noix, nome que junta Cartago às nozes típicas da cidade, foi lançada com moradores, vereadores e o consulado da Tunísia. Vai promover música, oficinas e encontros entre artistas árabes e locais.",
+   "categoria": "sociedade",
+   "regiao": "Grenoble",
+   "data": "2026-11-19",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/19/from-carthage-to-grenoble-les-carthaginoix-opens-a-window-on-arab-culture-in-france",
+   "pais": "França",
+   "lat": 45.19,
+   "lon": 5.72,
+   "i18n": {
+    "es": {
+     "titulo": "Una asociación abre una ventana a la cultura árabe en Grenoble",
+     "resumo": "Les Carthagi'Noix, nombre que une Cartago con las nueces típicas de la ciudad, se lanzó con vecinos, concejales y el consulado de Túnez. Promoverá música, talleres y encuentros entre artistas árabes y locales.",
+     "regiao": "Grenoble",
+     "pais": "Francia"
+    },
+    "en": {
+     "titulo": "New association opens a window on Arab culture in Grenoble",
+     "resumo": "Les Carthagi'Noix, a name blending Carthage with the city's famous walnuts, launched with residents, councillors and the Tunisian consulate. It will host music, workshops and meetings between Arab and local artists.",
+     "regiao": "Grenoble",
+     "pais": "France"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/99/41/67/1200x675_cmsv2_a5876fdb-9dd5-5773-bf89-6278202b6ba7-9994167.jpg",
+   "credito": "Foto: Euronews"
+  },
   {
    "id": "escola-mare-premio-mundial",
    "titulo": "Escola pública da Maré vence prêmio de melhor do mundo",
@@ -11,7 +274,6 @@
    "fonte": "Terra / Estadão",
    "url": "https://www.terra.com.br/noticias/educacao/como-e-a-escola-que-fica-no-fogo-cruzado-de-faccoes-no-rio-e-venceu-premio-de-melhor-do-mundo,e461be78210b8945a37c7eaee1a89271qx3fhg57.html",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -22.85,
    "lon": -43.24,
    "i18n": {
@@ -30,36 +292,6 @@
    },
    "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/20/295067916-nnjxup7mjfaa5dqqfqxkucdhhi.jpeg",
    "credito": "Foto: divulgação/Estadão"
-  },
-  {
-   "id": "bug-hunt-australia",
-   "titulo": "Caça a insetos com voluntários acha formiga rara procurada há 50 anos",
-   "resumo": "Na semana Bugs in my Backyard, australianos enviaram quase 30 mil registros de insetos. Entre os achados está a criticamente ameaçada formiga-dinossauro, fotografada no sul do país, e a única foto viva conhecida de um besouro raro.",
-   "categoria": "animais",
-   "regiao": "Austrália",
-   "data": "2026-11-21",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/science/2026-11-21/bug-hunt-week-discoveries-2026/107402342",
-   "pais": "Austrália",
-   "destaque": true,
-   "lat": -25.3,
-   "lon": 133.8,
-   "i18n": {
-    "es": {
-     "titulo": "Una búsqueda de insectos con voluntarios halla una hormiga rara buscada durante 50 años",
-     "resumo": "En la semana Bugs in my Backyard, australianos enviaron casi 30.000 registros de insectos. Entre los hallazgos está la hormiga dinosaurio, en peligro crítico, fotografiada en el sur, y la única foto en vida de un escarabajo raro.",
-     "regiao": "Australia",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Backyard bug hunt finds a rare ant scientists sought for 50 years",
-     "resumo": "During Bugs in my Backyard week, Australians logged almost 30,000 insect sightings. Finds include the critically endangered dinosaur ant, photographed in South Australia, and the only known live photo of a rare beetle.",
-     "regiao": "Australia",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/459f9a0bee268365d5ea2331c77dd939?impolicy=wcms_watermark_news&cropH=1152&cropW=2048&xPos=0&yPos=132&width=862&height=485&imformat=generic",
-   "credito": "Foto: Deb Taylor"
   },
   {
    "id": "bombeiros-ceara-10mil-animais",
@@ -91,35 +323,6 @@
    "credito": "Foto: divulgação/CBMCE"
   },
   {
-   "id": "aves-resgatadas-olinda",
-   "titulo": "Operação resgata 76 aves e um timbu de maus-tratos em Olinda",
-   "resumo": "A polícia ambiental tirou os 77 animais silvestres de uma situação de maus-tratos e os levou ao Cetras Tangará, centro de triagem e reabilitação de animais silvestres.",
-   "categoria": "animais",
-   "regiao": "Olinda (PE)",
-   "data": "2026-11-19",
-   "fonte": "Terra",
-   "url": "https://www.terra.com.br/noticias/brasil/cidades/operacao-resgata-77-animais-silvestres-em-situacao-de-maus-tratos-em-olinda,44f7697297dcf6ce3380fdf91db149a6w794k31z.html",
-   "pais": "Brasil",
-   "lat": -8.01,
-   "lon": -34.85,
-   "i18n": {
-    "es": {
-     "titulo": "Un operativo rescata 76 aves y una zarigüeya del maltrato en Olinda",
-     "resumo": "La policía ambiental sacó a los 77 animales silvestres de una situación de maltrato y los llevó al Cetras Tangará, un centro de triaje y rehabilitación de fauna silvestre.",
-     "regiao": "Olinda (PE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Operation rescues 76 birds and an opossum from mistreatment in Olinda, Brazil",
-     "resumo": "Environmental police removed the 77 wild animals from abusive conditions and took them to the Cetras Tangará wildlife triage and rehabilitation centre.",
-     "regiao": "Olinda (PE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/20/1706915248-resgate-de-animais-silvestres-em-olinda.jpg",
-   "credito": "Foto: divulgação/Portal de Prefeitura"
-  },
-  {
    "id": "medico-abre-caminho-br101",
    "titulo": "Médico desce da ambulância e abre caminho a pé no trânsito para salvar paciente",
    "resumo": "Preso num engarrafamento na BR-101, o psiquiatra Johny Barbosa correu entre os carros pedindo passagem. A ambulância chegou ao Hospital da Restauração, no Recife, e a paciente foi internada para continuar o atendimento.",
@@ -147,209 +350,6 @@
    },
    "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/19/982079470-medico-desce-de-ambulancia-e-corre-entre-carros-na-br-101.jpg",
    "credito": "Foto: reprodução/redes sociais"
-  },
-  {
-   "id": "titulos-quilombolas",
-   "titulo": "No Dia da Consciência Negra, 91 títulos de terra quilombola desde 2023",
-   "resumo": "O Incra emitiu 91 títulos coletivos e 109 portarias de reconhecimento. Só em Alcântara (MA), a titulação beneficiou cerca de 17 mil pessoas em quase 200 comunidades.",
-   "categoria": "sociedade",
-   "regiao": "Brasil (ex.: Alcântara, MA)",
-   "data": "2026-11-20",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/avancos-na-regularizacao-de-territorios-quilombolas-ganham-destaque-no-dia-da-consciencia-negra",
-   "pais": "Brasil",
-   "lat": -2.4,
-   "lon": -44.4,
-   "i18n": {
-    "es": {
-     "titulo": "En el Día de la Conciencia Negra, 91 títulos de tierra quilombola desde 2023",
-     "resumo": "El Incra emitió 91 títulos colectivos y 109 resoluciones de reconocimiento. Solo en Alcântara (MA), la titulación benefició a unas 17.000 personas en casi 200 comunidades.",
-     "regiao": "Brasil (ej.: Alcântara, MA)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "On Black Consciousness Day, 91 quilombo land titles since 2023",
-     "resumo": "Brazil's land agency has issued 91 collective titles to quilombo communities and 109 recognition orders. In Alcântara alone, titling benefited about 17,000 people in nearly 200 communities.",
-     "regiao": "Brazil (e.g. Alcântara)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/avancos-na-regularizacao-de-territorios-quilombolas-ganham-destaque-no-dia-da-consciencia-negra/@@download/image/20_11.webp",
-   "credito": "Foto: Ricardo Stuckert/PR"
-  },
-  {
-   "id": "besouro-indio-solari",
-   "titulo": "Cientistas argentinos descobrem besouro e o batizam em homenagem ao Indio Solari",
-   "resumo": "O Bothynus indiosolari, um besouro-rinoceronte de 15 a 20 mm, foi encontrado no Chaco e em Misiones. O nome homenageia o músico argentino, morto em junho.",
-   "categoria": "ciencia",
-   "regiao": "Chaco e Misiones",
-   "data": "2026-11-18",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/18/cientificos-argentinos-descubrieron-una-nueva-especie-de-escarabajo-y-la-nombraron-en-honor-al-indio-solari/",
-   "pais": "Argentina",
-   "lat": -26.4,
-   "lon": -60.8,
-   "i18n": {
-    "es": {
-     "titulo": "Científicos argentinos descubren un escarabajo y lo nombran en honor al Indio Solari",
-     "resumo": "Bothynus indiosolari, un escarabajo rinoceronte de 15 a 20 mm, fue hallado en Chaco y Misiones. El nombre homenajea al músico, fallecido en junio.",
-     "regiao": "Chaco y Misiones",
-     "pais": "Argentina"
-    },
-    "en": {
-     "titulo": "Argentine scientists name a new beetle after rock musician Indio Solari",
-     "resumo": "Bothynus indiosolari, a 15–20 mm rhinoceros beetle, was found in Chaco and Misiones. The name honours the Argentine musician, who died in June.",
-     "regiao": "Chaco and Misiones",
-     "pais": "Argentina"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/IZDTGJNRRBFDZNBROP2WSPJWN4.jpg?auth=57e51c26e4fcf45c5c5a8c2f6d68e5b33a7f03fc7d5a90cff57a2b4422287626&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem: Infobae"
-  },
-  {
-   "id": "microrobo-voador-mit",
-   "titulo": "Microrrobô voador do MIT pousa numa flor guiado pelos próprios sensores",
-   "resumo": "Mais leve que um clipe, o robô de quatro asas seguiu um trajeto e pousou num girassol sem as câmeras do laboratório. A ideia é que versões futuras ajudem na polinização e no monitoramento de lavouras.",
-   "categoria": "tecnologia",
-   "regiao": "Cambridge (Massachusetts)",
-   "data": "2026-11-19",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/19/el-mit-crea-el-primer-microrobot-volador-con-sensores-y-computadora-propios-capaz-de-operar-fuera-del-laboratorio/",
-   "pais": "Estados Unidos",
-   "lat": 42.36,
-   "lon": -71.09,
-   "i18n": {
-    "es": {
-     "titulo": "El microrrobot volador del MIT aterriza en una flor guiado por sus propios sensores",
-     "resumo": "Más liviano que un clip, el robot de cuatro alas siguió un recorrido y aterrizó en un girasol sin las cámaras del laboratorio. Versiones futuras podrían ayudar a polinizar y vigilar cultivos.",
-     "regiao": "Cambridge (Massachusetts)",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "MIT's flying microrobot lands on a flower using its own sensors",
-     "resumo": "Lighter than a paperclip, the four-winged robot followed a path and landed on a sunflower without lab cameras. Future versions could help with pollination and crop monitoring.",
-     "regiao": "Cambridge (Massachusetts)",
-     "pais": "USA"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/KQWLDS25DRE6NHVBZE3SAE66KM.png?auth=67fab1f818c348a68861b01f2ccfcaecd98a5056a4f7174982c7cb9c185ae584&smart=true&width=1200&height=630&quality=85",
-   "credito": "Foto: pesquisadores/MIT News"
-  },
-  {
-   "id": "bateria-vitamina-b12",
-   "titulo": "Vitamina B12 ajuda a criar bateria recarregável mais barata e segura",
-   "resumo": "Pesquisadores espanhóis usaram a vitamina como catalisador numa bateria de zinco-ar, que aguentou até 250 ciclos de carga. Ainda é pesquisa, mas aponta uma alternativa às baterias de lítio.",
-   "categoria": "tecnologia",
-   "regiao": "Córdoba",
-   "data": "2026-11-18",
-   "fonte": "ScienceDaily / Universidade de Córdoba",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm",
-   "pais": "Espanha",
-   "lat": 37.89,
-   "lon": -4.78,
-   "i18n": {
-    "es": {
-     "titulo": "La vitamina B12 ayuda a crear una batería recargable más barata y segura",
-     "resumo": "Investigadores españoles usaron la vitamina como catalizador en una batería de zinc-aire que resistió hasta 250 ciclos de carga. Aún es investigación, pero apunta a una alternativa al litio.",
-     "regiao": "Córdoba",
-     "pais": "España"
-    },
-    "en": {
-     "titulo": "Vitamin B12 helps make a cheaper, safer rechargeable battery",
-     "resumo": "Spanish researchers used the vitamin as a catalyst in a zinc-air battery that lasted up to 250 charge cycles. It's still research, but points to an alternative to lithium-ion.",
-     "regiao": "Córdoba",
-     "pais": "Spain"
-    }
-   },
-   "img": "https://www.sciencedaily.com/images/1920/futuristic-powerful-quantum-battery-technology.webp",
-   "credito": "Ilustração: IA/ScienceDaily"
-  },
-  {
-   "id": "fim-proibicao-casadas-australia",
-   "titulo": "60 anos atrás, mulheres casadas voltaram a poder trabalhar no serviço público australiano",
-   "resumo": "Até 1966, a Austrália proibia o governo de empregar mulheres casadas. Com o fim da regra, o número de servidoras triplicou em três anos. Hoje, as mulheres contam suas histórias e lembram que a luta por igualdade continua.",
-   "categoria": "sociedade",
-   "regiao": "Camberra",
-   "data": "2026-11-21",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-21/60-years-since-ban-married-women-public-service-lifted/107406214",
-   "pais": "Austrália",
-   "lat": -35.28,
-   "lon": 149.13,
-   "i18n": {
-    "es": {
-     "titulo": "Hace 60 años, las mujeres casadas pudieron volver a trabajar en la función pública australiana",
-     "resumo": "Hasta 1966, Australia prohibía al gobierno emplear mujeres casadas. Al terminar la regla, el número de funcionarias se triplicó en tres años. Hoy recuerdan su historia y que la lucha por la igualdad sigue.",
-     "regiao": "Canberra",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "60 years since married women won the right to work in Australia's public service",
-     "resumo": "Until 1966, Australia's government barred married women from its workforce. Once the ban was lifted, the number of women it employed tripled within three years.",
-     "regiao": "Canberra",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/b78092822ec0cf242083c255e32a3af7?impolicy=wcms_watermark_news&cropH=2395&cropW=4258&xPos=0&yPos=197&width=862&height=485&imformat=generic",
-   "credito": "Foto: Niki Burnside/ABC News"
-  },
-  {
-   "id": "algodao-potiguara",
-   "titulo": "Indígenas Potiguara colhem sua primeira safra de algodão agroecológico",
-   "resumo": "Na Paraíba, famílias da Terra Indígena Potiguara colheram algodão plantado junto com amendoim e feijão, sem químicos. O projeto com a Embrapa deu formação aos agricultores, a associação comprou um trator e as áreas vão crescer no próximo ciclo.",
-   "categoria": "meio-ambiente",
-   "regiao": "Baía da Traição (PB)",
-   "data": "2026-11-19",
-   "fonte": "Embrapa",
-   "url": "https://www.embrapa.br/busca-de-noticias/-/noticia/150368662/comunidade-indigena-potiguara-realiza-colheita-de-algodao-agroecologico-na-paraiba",
-   "pais": "Brasil",
-   "lat": -6.7,
-   "lon": -34.99,
-   "i18n": {
-    "es": {
-     "titulo": "Indígenas potiguara cosechan su primera cosecha de algodón agroecológico",
-     "resumo": "En Paraíba, familias de la Tierra Indígena Potiguara cosecharon algodón sembrado junto a maní y frijol, sin químicos. El proyecto con Embrapa capacitó a los agricultores, la asociación compró un tractor y las áreas crecerán el próximo ciclo.",
-     "regiao": "Baía da Traição (PB)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Potiguara Indigenous farmers bring in their first agroecological cotton harvest",
-     "resumo": "In Paraíba, Brazil, families in the Potiguara Indigenous Territory harvested cotton grown alongside peanuts and beans, with no chemicals. The Embrapa-backed project trained growers, the association bought a tractor, and plots will expand next season.",
-     "regiao": "Baía da Traição (PB)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.embrapa.br/image/journal/article?img_id=150368451&t=1795164604724",
-   "credito": "Foto: Embrapa"
-  },
-  {
-   "id": "tamandua-volta-chaco",
-   "titulo": "Tamanduá-bandeira volta a reserva na Argentina depois de quase 40 anos",
-   "resumo": "Na Reserva Alma Guaraní, no Chaco, voluntários restauram a mata há mais de uma década. Câmeras flagraram um tamanduá-bandeira, o primeiro desde 1986, circulando justamente nas áreas que se regeneraram sozinhas.",
-   "categoria": "animais",
-   "regiao": "Gran Chaco",
-   "data": "2026-11-19",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/short-article/2026/11/world-anteater-day-rewilding-and-restoration-offer-hope-for-enigmatic-species/",
-   "pais": "Argentina",
-   "lat": -25.5,
-   "lon": -60.0,
-   "i18n": {
-    "es": {
-     "titulo": "El oso hormiguero gigante vuelve a una reserva argentina tras casi 40 años",
-     "resumo": "En la Reserva Alma Guaraní, en el Chaco, voluntarios restauran el monte hace más de una década. Cámaras registraron un oso hormiguero gigante, el primero desde 1986, moviéndose justo en las zonas que se regeneraron solas.",
-     "regiao": "Gran Chaco",
-     "pais": "Argentina"
-    },
-    "en": {
-     "titulo": "Giant anteater returns to an Argentine reserve after almost 40 years",
-     "resumo": "At the Alma Guaraní reserve in the Chaco, volunteers have been restoring the forest for over a decade. Camera traps caught a giant anteater, the first since 1986, mostly in areas left to regrow naturally.",
-     "regiao": "Gran Chaco",
-     "pais": "Argentina"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/19065110/1920px-Giant_anteater_-_Oso_hormiguero_Myrmecophaga_tridactyla_8697863742-1200x800.jpg",
-   "credito": "Foto: Fernando Flores/Wikimedia Commons (CC BY-SA 2.0)"
   }
  ]
 }
