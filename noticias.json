@@ -1,6 +1,298 @@
 {
- "atualizado": "2026-11-22",
+ "atualizado": "2026-11-23",
  "noticias": [
+  {
+   "id": "roubo-veiculos-cai-22",
+   "titulo": "Roubo de veículos cai 22% e chega ao menor nível desde 2019",
+   "resumo": "De janeiro a outubro de 2026 foram 67.174 roubos de veículos no país, contra 86.112 no mesmo período de 2025. Em relação a 2019, a queda é de 57,7%, e outubro teve o menor número da série. Os dados são do Ministério da Justiça, com informações dos 27 estados.",
+   "categoria": "sociedade",
+   "regiao": "Nacional",
+   "data": "2026-11-20",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/roubo-de-veiculos-cai-22-no-brasil-e-atinge-menor-numero-de-ocorrencias-desde-2019",
+   "pais": "Brasil",
+   "destaque": true,
+   "lat": -15.79,
+   "lon": -47.88,
+   "i18n": {
+    "es": {
+     "titulo": "El robo de vehículos cae un 22% en Brasil y llega a su menor nivel desde 2019",
+     "resumo": "De enero a octubre de 2026 hubo 67.174 robos de vehículos, frente a 86.112 en el mismo período de 2025. Respecto a 2019 la caída es del 57,7%, y octubre fue el más bajo de la serie. Los datos son del Ministerio de Justicia, con información de los 27 estados.",
+     "regiao": "Nacional",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Vehicle robberies in Brazil fall 22% to the lowest level since 2019",
+     "resumo": "From January to October 2026 there were 67,174 vehicle robberies, down from 86,112 in the same period of 2025. Compared with 2019 the drop is 57.7%, and October was the lowest in the series. The data come from the Ministry of Justice, covering all 27 states.",
+     "regiao": "Nationwide",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/roubo-de-veiculos-cai-22-no-brasil-e-atinge-menor-numero-de-ocorrencias-desde-2019/@@download/image/prf_carro.jpg",
+   "credito": "PRF/Divulgação"
+  },
+  {
+   "id": "empreendedores-negros-15mi",
+   "titulo": "Brasil tem 15,8 milhões de empreendedores negros à frente de pequenos negócios",
+   "resumo": "Pessoas negras comandam cerca de 52% das micro e pequenas empresas do país, que somam 96% dos CNPJs ativos e mais da metade dos empregos formais. Entre os microempreendedores individuais, 45% são mulheres. O governo destaca projetos de capacitação e geração de renda.",
+   "categoria": "sociedade",
+   "regiao": "Nacional",
+   "data": "2026-11-20",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/brasil-tem-15-8-milhoes-de-empreendedores-negros-a-frente-de-pequenos-negocios",
+   "pais": "Brasil",
+   "lat": -15.6,
+   "lon": -47.6,
+   "i18n": {
+    "es": {
+     "titulo": "Brasil tiene 15,8 millones de emprendedores negros al frente de pequeños negocios",
+     "resumo": "Las personas negras dirigen cerca del 52% de las micro y pequeñas empresas del país, que suman el 96% de las empresas activas y más de la mitad del empleo formal. El 45% de los microemprendedores individuales son mujeres. El gobierno destaca proyectos de capacitación y generación de ingresos.",
+     "regiao": "Nacional",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazil has 15.8 million Black entrepreneurs running small businesses",
+     "resumo": "Black Brazilians lead about 52% of the country's micro and small businesses, which make up 96% of active companies and more than half of formal jobs. Women are 45% of individual microentrepreneurs. The government highlights training and income projects.",
+     "regiao": "Nationwide",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/brasil-tem-15-8-milhoes-de-empreendedores-negros-a-frente-de-pequenos-negocios/@@download/image/empreendedora_negra.jpeg",
+   "credito": "Divulgação/Secom/PR"
+  },
+  {
+   "id": "servidores-negros-45",
+   "titulo": "Pessoas negras são 45% dos servidores federais contratados desde 2023",
+   "resumo": "A participação de pessoas negras entre os servidores federais ativos subiu de 39,9% em 2022 para 41,1% em outubro de 2026. O avanço é atribuído aos Concursos Nacionais Unificados de 2024 e 2025 e à ampliação da lei de cotas, segundo relatório do Ministério da Gestão.",
+   "categoria": "sociedade",
+   "regiao": "Brasília (DF)",
+   "data": "2026-11-20",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/pessoas-negras-somam-45-dos-servidores-federais-contratados-nos-ultimos-quatro-anos",
+   "pais": "Brasil",
+   "lat": -15.79,
+   "lon": -47.88,
+   "i18n": {
+    "es": {
+     "titulo": "Las personas negras son el 45% de los funcionarios federales contratados desde 2023",
+     "resumo": "La participación de personas negras entre los funcionarios federales activos pasó del 39,9% en 2022 al 41,1% en octubre de 2026. El avance se atribuye a los concursos nacionales unificados de 2024 y 2025 y a la ampliación de la ley de cuotas, según el Ministerio de Gestión.",
+     "regiao": "Brasilia (DF)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Black Brazilians are 45% of federal civil servants hired since 2023",
+     "resumo": "The share of Black people among active federal civil servants rose from 39.9% in 2022 to 41.1% in October 2026. The gain is credited to the 2024 and 2025 national unified exams and the expanded quota law, according to the Ministry of Management.",
+     "regiao": "Brasília (DF)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/pessoas-negras-somam-45-dos-servidores-federais-contratados-nos-ultimos-quatro-anos/@@download/image/servidores_negros.jpeg",
+   "credito": "Yasmin Pintor/ENAP"
+  },
+  {
+   "id": "esgoto-sao-carlos-fotonica",
+   "titulo": "Técnica a laser do agro vai analisar o esgoto de São Carlos",
+   "resumo": "Um novo centro inaugurado no Instituto de Química da USP vai usar fotônica e inteligência artificial para detectar metais tóxicos e contaminantes no esgoto urbano. A parceria reúne Embrapa Instrumentação, USP, UFSCar e o SAAE, com cerca de R$ 10 milhões da Fapesp em cinco anos.",
+   "categoria": "ciencia",
+   "regiao": "São Carlos (SP)",
+   "data": "2026-11-21",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/tecnica-usada-no-agro-vai-analisar-o-esgoto-urbano-de-sao-carlos",
+   "pais": "Brasil",
+   "lat": -22.02,
+   "lon": -47.89,
+   "i18n": {
+    "es": {
+     "titulo": "Una técnica láser del agro analizará las aguas residuales de São Carlos",
+     "resumo": "Un nuevo centro inaugurado en el Instituto de Química de la USP usará fotónica e inteligencia artificial para detectar metales tóxicos y contaminantes en las aguas residuales. Participan Embrapa Instrumentação, USP, UFSCar y el servicio local de agua, con unos 10 millones de reales de la Fapesp en cinco años.",
+     "regiao": "São Carlos (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Laser technique from farming will screen São Carlos sewage",
+     "resumo": "A new centre at the University of São Paulo's chemistry institute will use photonics and artificial intelligence to detect toxic metals and contaminants in city sewage. Partners include Embrapa, USP, UFSCar and the local water utility, with about R$10 million from FAPESP over five years.",
+     "regiao": "São Carlos (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/tecnica-usada-no-agro-vai-analisar-o-esgoto-urbano-de-sao-carlos/@@download/image/ufscar.jpg",
+   "credito": "Victor Otsuka/Embrapa"
+  },
+  {
+   "id": "lontras-kuala-lumpur",
+   "titulo": "Lontras voltam a Kuala Lumpur com a limpeza do rio",
+   "resumo": "Lontras-de-pelo-liso estão cada vez mais presentes no rio Klang, que passou de 'severamente poluído' para 'moderadamente poluído'. Centenas de barreiras de lixo e coletores movidos a energia solar já retiraram dezenas de milhares de toneladas de resíduos. Cerca de 25 lontras vivem numa mata próxima.",
+   "categoria": "meio-ambiente",
+   "regiao": "Kuala Lumpur",
+   "data": "2026-11-23",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/kuala-lumpur-otters-raise-river-clean-up-hopes/",
+   "pais": "Malásia",
+   "destaque": true,
+   "lat": 3.14,
+   "lon": 101.69,
+   "i18n": {
+    "es": {
+     "titulo": "Las nutrias vuelven a Kuala Lumpur gracias a la limpieza del río",
+     "resumo": "Las nutrias lisas se ven cada vez más en el río Klang, que pasó de 'muy contaminado' a 'moderadamente contaminado'. Cientos de barreras de basura y colectores solares ya retiraron decenas de miles de toneladas de residuos. Unas 25 nutrias viven en un bosque cercano.",
+     "regiao": "Kuala Lumpur",
+     "pais": "Malasia"
+    },
+    "en": {
+     "titulo": "Otters return to Kuala Lumpur as its river is cleaned up",
+     "resumo": "Smooth-coated otters are increasingly seen along the Klang River, which improved from 'severely polluted' to 'moderately polluted'. Hundreds of garbage traps and solar-powered interceptors have removed tens of thousands of tonnes of waste. About 25 otters live in a nearby forest.",
+     "regiao": "Kuala Lumpur",
+     "pais": "Malaysia"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/19095539/D3X92TK-Smooth-coated-otters--1200x800.jpg",
+   "credito": "Mohd Rasfan/AFP"
+  },
+  {
+   "id": "coalas-stradbroke",
+   "titulo": "Coalas feridos agora são tratados sem sair da ilha",
+   "resumo": "Antes, coalas doentes de North Stradbroke eram levados ao continente e não podiam voltar, por risco de doenças. Uma nova fundação veterinária criada na ilha oferece cuidado 24 horas. Um filhote resgatado já ganha peso e deve voltar à natureza perto de onde vivia.",
+   "categoria": "animais",
+   "regiao": "Ilha Stradbroke, Queensland",
+   "data": "2026-11-23",
+   "fonte": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-11-23/koala-rehab-centre-on-stradbroke-island-keeps-them-on-island/107399916",
+   "pais": "Austrália",
+   "lat": -27.47,
+   "lon": 153.43,
+   "i18n": {
+    "es": {
+     "titulo": "Los koalas heridos ahora se tratan sin salir de la isla",
+     "resumo": "Antes, los koalas enfermos de North Stradbroke eran llevados al continente y no podían volver, por riesgo de enfermedades. Una nueva fundación veterinaria en la isla ofrece atención las 24 horas. Una cría rescatada ya gana peso y volverá a la naturaleza cerca de su hogar.",
+     "regiao": "Isla Stradbroke, Queensland",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Injured koalas can now be treated without leaving their island",
+     "resumo": "Sick koalas from North Stradbroke Island used to be sent to the mainland and could not return because of disease risk. A new veterinary foundation on the island now offers round-the-clock care. A rescued joey is gaining weight and is expected to go back to the wild near her home.",
+     "regiao": "North Stradbroke Island, Queensland",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/d70455bdae7a968639ba40b29767bf90?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "Kirrin McKechnie/ABC News"
+  },
+  {
+   "id": "madeira-protecao-oceano",
+   "titulo": "Expedição na Madeira mostra que áreas marinhas protegidas funcionam",
+   "resumo": "Em quase 500 mergulhos, cientistas encontraram lapas maiores e mais abundantes e os maiores meros dentro das áreas protegidas. A foca-monge, que quase sumiu nos anos 1980, segue em recuperação. O baixo número de tubarões, porém, preocupa os pesquisadores.",
+   "categoria": "meio-ambiente",
+   "regiao": "Madeira",
+   "data": "2026-11-22",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/22/madeiras-ocean-survey-finds-evidence-protection-works-and-some-worrying-signs",
+   "pais": "Portugal",
+   "lat": 32.65,
+   "lon": -16.91,
+   "i18n": {
+    "es": {
+     "titulo": "Una expedición en Madeira muestra que las áreas marinas protegidas funcionan",
+     "resumo": "En casi 500 inmersiones, los científicos hallaron lapas más grandes y abundantes y los meros más grandes dentro de las zonas protegidas. La foca monje, casi desaparecida en los años 80, sigue recuperándose. El bajo número de tiburones, en cambio, preocupa a los investigadores.",
+     "regiao": "Madeira",
+     "pais": "Portugal"
+    },
+    "en": {
+     "titulo": "Madeira ocean survey finds marine protection works",
+     "resumo": "Across nearly 500 dives, scientists found bigger, more abundant limpets and the largest groupers inside protected areas. The monk seal, which nearly vanished in the 1980s, keeps recovering. The low number of sharks, however, worries the researchers.",
+     "regiao": "Madeira",
+     "pais": "Portugal"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/09/98/75/06/1200x675_cmsv2_4c0438d4-6c00-5f41-b9c9-dc6d0a85886b-9987506.jpg",
+   "credito": "Oceano Azul Foundation/João Amado"
+  },
+  {
+   "id": "tartaruga-jonathan-genoma",
+   "titulo": "Genoma de Jonathan, a tartaruga de 194 anos, revela segredos da longevidade",
+   "resumo": "Cientistas identificaram 287 variantes genéticas ligadas à proteção contra o envelhecimento no animal terrestre vivo mais velho conhecido. Elas envolvem reparo de DNA, inflamação e supressão de câncer, e seu epigenoma se parece com o de tartarugas jovens. Aplicar isso em humanos exige mais pesquisa.",
+   "categoria": "ciencia",
+   "regiao": "Santa Helena",
+   "data": "2026-11-22",
+   "fonte": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261121221130.htm",
+   "pais": "Santa Helena",
+   "lat": -15.95,
+   "lon": -5.72,
+   "i18n": {
+    "es": {
+     "titulo": "El genoma de Jonathan, la tortuga de 194 años, revela secretos de la longevidad",
+     "resumo": "Los científicos identificaron 287 variantes genéticas ligadas a la protección contra el envejecimiento en el animal terrestre vivo más viejo conocido. Involucran reparación del ADN, inflamación y supresión del cáncer, y su epigenoma se parece al de tortugas jóvenes. Aplicarlo en humanos exige más investigación.",
+     "regiao": "Santa Elena",
+     "pais": "Santa Elena"
+    },
+    "en": {
+     "titulo": "Genome of Jonathan, the 194-year-old tortoise, reveals longevity secrets",
+     "resumo": "Scientists identified 287 genetic variants linked to protection against ageing in the oldest known living land animal. They involve DNA repair, inflammation and cancer suppression, and his epigenome resembles that of younger tortoises. Applying this to humans needs more research.",
+     "regiao": "St Helena",
+     "pais": "St Helena"
+    }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/extremely-old-giant-tortoise-named-jonathan.webp",
+   "credito": "St Helena Government"
+  },
+  {
+   "id": "peixe-130-anos",
+   "titulo": "Peixe de rio dos EUA pode viver até 130 anos",
+   "resumo": "Pesquisadores descobriram que o blue sucker, do rio Missouri, vive mais de três vezes o que se pensava, e alguns nasceram no fim do século 19. A idade foi confirmada com datação por radiocarbono. A descoberta ajuda a proteger a espécie, ameaçada em 22 dos 23 estados onde vive.",
+   "categoria": "animais",
+   "regiao": "Montana",
+   "data": "2026-11-23",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/23/descubren-que-una-especie-de-pez-de-rio-puede-vivir-hasta-130-anos-las-claves-del-estudio-en-estados-unidos/",
+   "pais": "Estados Unidos",
+   "lat": 47.5,
+   "lon": -111.3,
+   "i18n": {
+    "es": {
+     "titulo": "Un pez de río de EE. UU. puede vivir hasta 130 años",
+     "resumo": "Investigadores descubrieron que el blue sucker, del río Misuri, vive más del triple de lo que se creía, y algunos nacieron a fines del siglo XIX. La edad se confirmó con datación por radiocarbono. El hallazgo ayuda a proteger la especie, amenazada en 22 de los 23 estados donde vive.",
+     "regiao": "Montana",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "US river fish can live up to 130 years",
+     "resumo": "Researchers found the blue sucker of the Missouri River lives more than three times longer than thought, and some were born in the late 19th century. Ages were confirmed with radiocarbon dating. The finding helps protect a species considered threatened in 22 of the 23 states where it lives.",
+     "regiao": "Montana",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/ADV5KIYANFHQDEZFTSCMBCGRGM.jpg?auth=bff021ee1701d41f00adc670d7620a56d74343dd63cf53f50a2489878afe4e7d&smart=true&width=1200&height=630&quality=85",
+   "credito": "Zach Shattuck"
+  },
+  {
+   "id": "geracoes-memoria-demencia",
+   "titulo": "Novas gerações chegam à velhice com memória melhor",
+   "resumo": "Estudo com cerca de 219 mil pessoas, publicado na Nature Medicine, mostrou que quem nasceu depois de 1950 tem declínio cognitivo mais lento. Os autores ligam isso a um risco de demência cerca de 13% menor a cada década na Europa e nos EUA, provavelmente por melhores condições de vida e educação.",
+   "categoria": "saude",
+   "regiao": "Oslo",
+   "data": "2026-11-20",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/salud/ciencia/2026/11/20/un-estudio-revela-por-que-las-generaciones-que-hoy-llegan-a-la-vejez-tienen-mejor-memoria-y-menor-riesgo-de-demencia/",
+   "pais": "Noruega",
+   "lat": 59.91,
+   "lon": 10.75,
+   "i18n": {
+    "es": {
+     "titulo": "Las nuevas generaciones llegan a la vejez con mejor memoria",
+     "resumo": "Un estudio con unas 219.000 personas, publicado en Nature Medicine, mostró que quienes nacieron después de 1950 tienen un declive cognitivo más lento. Los autores lo vinculan a un riesgo de demencia un 13% menor por década en Europa y EE. UU., probablemente por mejores condiciones de vida y educación.",
+     "regiao": "Oslo",
+     "pais": "Noruega"
+    },
+    "en": {
+     "titulo": "Newer generations reach old age with better memory",
+     "resumo": "A study of about 219,000 people in Nature Medicine found those born after 1950 show slower cognitive decline. The authors link this to roughly 13% lower dementia risk per decade in Europe and the US, likely thanks to better living conditions and education.",
+     "regiao": "Oslo",
+     "pais": "Norway"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/CQSI3MUGFNHFXKVMTDSEEBE3SQ.png?auth=ff8a7b2d9f5ef4c830aa98474a97bad48944607a8baba4f4f73f7f6ce960c43b&smart=true&width=1200&height=630&quality=85",
+   "credito": "Infobae"
+  },
   {
    "id": "canion-chapada-resgate",
    "titulo": "Helicóptero resgata duas mulheres ilhadas num cânion da Chapada Diamantina",
@@ -11,7 +303,6 @@
    "fonte": "Correio Braziliense",
    "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7542148-duas-mulheres-ilhadas-em-canion-sao-resgatadas-na-chapada-diamantina.html",
    "pais": "Brasil",
-   "destaque": true,
    "lat": -13.43,
    "lon": -41.33,
    "i18n": {
@@ -30,268 +321,6 @@
    },
    "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/21/675x450/1_whatsapp-image-2026-11-20-at-19-01-15-68273352.jpeg",
    "credito": "Foto: divulgação/GRAER"
-  },
-  {
-   "id": "pancreas-daraxonrasib",
-   "titulo": "Comprimido diário freia câncer de pâncreas em estudo e anima médicos",
-   "resumo": "Num ensaio com 61 pacientes com câncer de pâncreas avançado, o daraxonrasib com quimioterapia parou o crescimento dos tumores em quase todos. Após um ano, 76,6% estavam vivos, contra 40% a 45% com a quimio comum. Estudos mais longos ainda são necessários.",
-   "categoria": "saude",
-   "regiao": "Nova York / Barcelona",
-   "data": "2026-11-21",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/21/un-medicamento-oral-hizo-desaparecer-tumores-de-pancreas-en-un-ensayo-clinico-es-el-mayor-avance-en-decadas/",
-   "pais": "Estados Unidos",
-   "destaque": true,
-   "lat": 40.76,
-   "lon": -73.96,
-   "i18n": {
-    "es": {
-     "titulo": "Una pastilla diaria frena el cáncer de páncreas en un ensayo y entusiasma a los médicos",
-     "resumo": "En un ensayo con 61 pacientes con cáncer de páncreas avanzado, el daraxonrasib con quimioterapia frenó el crecimiento tumoral en casi todos. Al año, el 76,6% seguía vivo, frente al 40-45% con quimio convencional. Faltan estudios más largos.",
-     "regiao": "Nueva York / Barcelona",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Daily pill halts pancreatic cancer growth in trial",
-     "resumo": "In a trial of 61 patients with advanced pancreatic cancer, daraxonrasib plus chemotherapy stopped tumour growth in almost all of them. At one year, 76.6% were alive, versus 40–45% on standard chemo. Longer studies are needed.",
-     "regiao": "New York / Barcelona",
-     "pais": "USA"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/567G6C7R2VCQ7F3OVX252HORAI.jpg?auth=667d5eaf37ba45e1c102d4c5585e48730e712c593e98feb2aadc2771913c7721&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem: Memorial Sloan Kettering"
-  },
-  {
-   "id": "cadela-stella-voa",
-   "titulo": "Após mobilização nacional, cadela com câncer consegue voar para fazer radioterapia",
-   "resumo": "Stella, uma golden retriever com tumor no nariz, precisava ir de Recife a São Paulo para o tratamento. Depois de uma campanha que ganhou o país, outra companhia aérea aceitou levá-la na cabine.",
-   "categoria": "animais",
-   "regiao": "Recife → São Paulo",
-   "data": "2026-11-20",
-   "fonte": "Terra",
-   "url": "https://www.terra.com.br/noticias/brasil/cidades/cadela-com-cancer-consegue-voar-para-sao-paulo-apos-gol-suspender-decisao-que-autorizava-embarque,74722a993f1a4488963d895c02d96dd4fb8x8ul6.html",
-   "pais": "Brasil",
-   "lat": -8.05,
-   "lon": -34.88,
-   "i18n": {
-    "es": {
-     "titulo": "Tras una movilización nacional, una perra con cáncer logra volar para hacer radioterapia",
-     "resumo": "Stella, una golden retriever con un tumor nasal, necesitaba ir de Recife a São Paulo para tratarse. Tras una campaña que recorrió el país, otra aerolínea aceptó llevarla en cabina.",
-     "regiao": "Recife → São Paulo",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "After a nationwide campaign, a dog with cancer gets to fly for radiotherapy",
-     "resumo": "Stella, a golden retriever with a nasal tumour, needed to travel from Recife to São Paulo for treatment. After a campaign that swept Brazil, another airline agreed to carry her in the cabin.",
-     "regiao": "Recife → São Paulo",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/20/design-sem-nome-2026-11-20t194013-275-r17aug2glu7q.png",
-   "credito": "Foto: reprodução/X"
-  },
-  {
-   "id": "tartarugas-1-milhao",
-   "titulo": "Voluntários já salvaram 3 mil tartarugas de água doce na Austrália",
-   "resumo": "O projeto 1 Million Turtles reúne cerca de 40 mil registros de cidadãos, protegeu 2.468 ninhos e tirou mais de 3 mil tartarugas de estradas. Pode somar 1 milhão de filhotes nas próximas décadas.",
-   "categoria": "animais",
-   "regiao": "Bacia Murray-Darling",
-   "data": "2026-11-21",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-21/1-million-turtles-conservation-project-closing-in-on-milestone/107398472",
-   "pais": "Austrália",
-   "lat": -34.5,
-   "lon": 143.5,
-   "i18n": {
-    "es": {
-     "titulo": "Voluntarios ya salvaron 3.000 tortugas de agua dulce en Australia",
-     "resumo": "El proyecto 1 Million Turtles suma unos 40.000 registros ciudadanos, protegió 2.468 nidos y sacó a más de 3.000 tortugas de las rutas. Podría sumar un millón de crías en las próximas décadas.",
-     "regiao": "Cuenca Murray-Darling",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Volunteers have saved 3,000 freshwater turtles in Australia",
-     "resumo": "The 1 Million Turtles project has about 40,000 citizen records, protected 2,468 nests and rescued over 3,000 turtles from roads. It could add a million hatchlings in coming decades.",
-     "regiao": "Murray-Darling Basin",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/bcb47c38c0f73f94992947f2444a62a4?impolicy=wcms_watermark_news&cropH=2205&cropW=3921&xPos=628&yPos=882&width=862&height=485&imformat=generic",
-   "credito": "Foto: 1 Million Turtles"
-  },
-  {
-   "id": "ilha-lundy-natureza",
-   "titulo": "Ilha britânica vê aves marinhas passarem de 6 mil para 48 mil",
-   "resumo": "Depois que os ratos foram erradicados de Lundy, as aves voltaram em massa. A primeira zona marinha sem pesca do Reino Unido, criada com os pescadores, encheu de lagostas, que já transbordam para as áreas de pesca vizinhas.",
-   "categoria": "meio-ambiente",
-   "regiao": "Ilha Lundy",
-   "data": "2026-11-21",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/video/2026/11/the-british-island-that-made-a-deal-with-nature/",
-   "pais": "Reino Unido",
-   "lat": 51.18,
-   "lon": -4.67,
-   "i18n": {
-    "es": {
-     "titulo": "Una isla británica ve pasar sus aves marinas de 6.000 a 48.000",
-     "resumo": "Tras erradicar las ratas de Lundy, las aves volvieron en masa. La primera zona marina sin pesca del Reino Unido, creada con los pescadores, se llenó de langostas que ya se extienden a los caladeros vecinos.",
-     "regiao": "Isla Lundy",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "British island's seabirds rebound from 6,000 to 48,000",
-     "resumo": "After rats were eradicated from Lundy, seabirds came back in force. The UK's first no-take marine zone, created with local fishers, is full of lobsters that now spill into nearby fishing grounds.",
-     "regiao": "Lundy Island",
-     "pais": "UK"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/21091238/Mongabay_Thumbnail_LudyIsland_Featured_V2-1200x720.jpg",
-   "credito": "Imagem: Mongabay"
-  },
-  {
-   "id": "campista-grampians",
-   "titulo": "Campista é encontrado vivo após cinco dias perdido em parque australiano",
-   "resumo": "O carro do homem, de 55 anos, atolou e ele saiu a pé atrás de ajuda, deixando um bilhete. Motoristas acharam o carro e um helicóptero da polícia o localizou ao lado de uma fogueira. Ele está no hospital, em observação.",
-   "categoria": "sociedade",
-   "regiao": "Grampians (Victoria)",
-   "data": "2026-11-22",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-22/camper-found-alive-by-police-helicopter-in-the-grampians/107414312",
-   "pais": "Austrália",
-   "lat": -37.15,
-   "lon": 142.35,
-   "i18n": {
-    "es": {
-     "titulo": "Encuentran con vida a un campista tras cinco días perdido en un parque australiano",
-     "resumo": "El auto del hombre, de 55 años, se encajó y salió a pie a buscar ayuda, dejando una nota. Unos conductores hallaron el auto y un helicóptero policial lo ubicó junto a una fogata. Está en observación en el hospital.",
-     "regiao": "Grampians (Victoria)",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Camper found alive after five days lost in Australian national park",
-     "resumo": "The 55-year-old's car got bogged, so he set off on foot for help, leaving a note. Four-wheel drivers found the car and a police helicopter spotted him by a campfire. He's being monitored in hospital.",
-     "regiao": "Grampians (Victoria)",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/94a83baabecc19d7d176b7bcae1b6aad?impolicy=wcms_watermark_news&cropH=768&cropW=1365&xPos=7&yPos=192&width=862&height=485&imformat=generic",
-   "credito": "Foto: Lauren Day/ABC News"
-  },
-  {
-   "id": "tecnologias-assistivas-usp",
-   "titulo": "Universidades paulistas mostram tecnologias para pessoas com deficiência",
-   "resumo": "No Centro Paralímpico, uma mostra reuniu projetos como jogos com IA para alunos neurodivergentes, cadeiras de rodas modulares, exoesqueletos e tradução de Libras. As pesquisas recebem cerca de R$ 10 milhões.",
-   "categoria": "tecnologia",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-19",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/comunicados/mostra-apresenta-pesquisas-em-tecnologias-assistivas-desenvolvidas-pelas-universidades-publicas/",
-   "pais": "Brasil",
-   "lat": -23.55,
-   "lon": -46.63,
-   "i18n": {
-    "es": {
-     "titulo": "Universidades de São Paulo muestran tecnologías para personas con discapacidad",
-     "resumo": "En el Centro Paralímpico, una muestra reunió proyectos como juegos con IA para alumnos neurodivergentes, sillas de ruedas modulares, exoesqueletos y traducción de lengua de señas. Reciben unos R$ 10 millones.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "São Paulo universities showcase technology for people with disabilities",
-     "resumo": "At Brazil's Paralympic Training Centre, a showcase featured AI games for neurodivergent pupils, modular wheelchairs, exoskeletons and sign-language translation, backed by about R$10 million.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261119_tecnologias-assistivas-7.jpg",
-   "credito": "Foto: Marcos Santos/USP Imagens"
-  },
-  {
-   "id": "quilombo-frechal",
-   "titulo": "217 comunidades quilombolas ajudam a cuidar de áreas protegidas do país",
-   "resumo": "No Dia da Consciência Negra, o ICMBio destacou as comunidades que vivem em 53 unidades de conservação. A Resex Quilombo do Frechal, no Maranhão, primeira reserva extrativista quilombola do Brasil, será tombada pelo Iphan.",
-   "categoria": "meio-ambiente",
-   "regiao": "Maranhão",
-   "data": "2026-11-20",
-   "fonte": "ICMBio",
-   "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/dia-da-consciencia-negra-icmbio-destaca-atuacao-na-conservacao-e-valorizacao-dos-territorios-quilombolas",
-   "pais": "Brasil",
-   "lat": -2.9,
-   "lon": -45.4,
-   "i18n": {
-    "es": {
-     "titulo": "217 comunidades quilombolas ayudan a cuidar áreas protegidas de Brasil",
-     "resumo": "En el Día de la Conciencia Negra, el ICMBio destacó a las comunidades que viven en 53 unidades de conservación. La Resex Quilombo do Frechal, en Maranhão, primera reserva extractiva quilombola del país, será declarada patrimonio.",
-     "regiao": "Maranhão",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "217 quilombo communities help care for Brazil's protected areas",
-     "resumo": "On Black Consciousness Day, Brazil's conservation agency highlighted communities living in 53 protected areas. The Frechal reserve in Maranhão, the country's first quilombo extractive reserve, is to be heritage-listed.",
-     "regiao": "Maranhão",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/dia-da-consciencia-negra-icmbio-destaca-atuacao-na-conservacao-e-valorizacao-dos-territorios-quilombolas/CAPA.png/@@images/8d2fc0f3-c7a3-47e0-bde1-b85eccec1309.png",
-   "credito": "Foto: Christine Leidgens/acervo pessoal"
-  },
-  {
-   "id": "carthaginoix-grenoble",
-   "titulo": "Associação abre janela para a cultura árabe em Grenoble",
-   "resumo": "Les Carthagi'Noix, nome que junta Cartago às nozes típicas da cidade, foi lançada com moradores, vereadores e o consulado da Tunísia. Vai promover música, oficinas e encontros entre artistas árabes e locais.",
-   "categoria": "sociedade",
-   "regiao": "Grenoble",
-   "data": "2026-11-19",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/19/from-carthage-to-grenoble-les-carthaginoix-opens-a-window-on-arab-culture-in-france",
-   "pais": "França",
-   "lat": 45.19,
-   "lon": 5.72,
-   "i18n": {
-    "es": {
-     "titulo": "Una asociación abre una ventana a la cultura árabe en Grenoble",
-     "resumo": "Les Carthagi'Noix, nombre que une Cartago con las nueces típicas de la ciudad, se lanzó con vecinos, concejales y el consulado de Túnez. Promoverá música, talleres y encuentros entre artistas árabes y locales.",
-     "regiao": "Grenoble",
-     "pais": "Francia"
-    },
-    "en": {
-     "titulo": "New association opens a window on Arab culture in Grenoble",
-     "resumo": "Les Carthagi'Noix, a name blending Carthage with the city's famous walnuts, launched with residents, councillors and the Tunisian consulate. It will host music, workshops and meetings between Arab and local artists.",
-     "regiao": "Grenoble",
-     "pais": "France"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/99/41/67/1200x675_cmsv2_a5876fdb-9dd5-5773-bf89-6278202b6ba7-9994167.jpg",
-   "credito": "Foto: Euronews"
-  },
-  {
-   "id": "escola-mare-premio-mundial",
-   "titulo": "Escola pública da Maré vence prêmio de melhor do mundo",
-   "resumo": "A escola GET IV Centenário, no Rio, foi uma das cinco vencedoras do World's Best School Prizes, na categoria superação de adversidades. Os alunos têm 20 minutos por dia para falar do que sentem e usam robótica e impressão 3D para resolver problemas do bairro.",
-   "categoria": "sociedade",
-   "regiao": "Complexo da Maré (Rio de Janeiro)",
-   "data": "2026-11-20",
-   "fonte": "Terra / Estadão",
-   "url": "https://www.terra.com.br/noticias/educacao/como-e-a-escola-que-fica-no-fogo-cruzado-de-faccoes-no-rio-e-venceu-premio-de-melhor-do-mundo,e461be78210b8945a37c7eaee1a89271qx3fhg57.html",
-   "pais": "Brasil",
-   "lat": -22.85,
-   "lon": -43.24,
-   "i18n": {
-    "es": {
-     "titulo": "Una escuela pública de la Maré gana un premio a la mejor del mundo",
-     "resumo": "La escuela GET IV Centenário, en Río, fue una de las cinco ganadoras del World's Best School Prizes, en la categoría superación de adversidades. Los alumnos tienen 20 minutos al día para hablar de lo que sienten y usan robótica e impresión 3D para resolver problemas del barrio.",
-     "regiao": "Complexo da Maré (Rio de Janeiro)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Public school in Rio's Maré favela wins a World's Best School Prize",
-     "resumo": "GET IV Centenário was one of five global winners, in the overcoming-adversity category. Pupils get 20 minutes each morning to talk about their feelings and use robotics and 3D printing to solve local problems.",
-     "regiao": "Complexo da Maré (Rio de Janeiro)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/20/295067916-nnjxup7mjfaa5dqqfqxkucdhhi.jpeg",
-   "credito": "Foto: divulgação/Estadão"
   },
   {
    "id": "bombeiros-ceara-10mil-animais",
