@@ -1,93 +1,384 @@
 {
- "atualizado": "2026-11-23",
+ "atualizado": "2026-11-24",
  "noticias": [
   {
-   "id": "roubo-veiculos-cai-22",
-   "titulo": "Roubo de veículos cai 22% e chega ao menor nível desde 2019",
-   "resumo": "De janeiro a outubro de 2026 foram 67.174 roubos de veículos no país, contra 86.112 no mesmo período de 2025. Em relação a 2019, a queda é de 57,7%, e outubro teve o menor número da série. Os dados são do Ministério da Justiça, com informações dos 27 estados.",
+   "id": "bebe-engasgado-salvo-pm",
+   "titulo": "Policiais em patrulha salvam bebê engasgado em Águas Claras",
+   "resumo": "Os pais pararam uma viatura da PM na rua pedindo socorro. O bebê de um ano estava desacordado e arroxeado; os policiais fizeram manobras de desengasgo e ele voltou a chorar. Os bombeiros levaram a criança ao hospital por precaução, e o momento foi registrado por câmeras.",
    "categoria": "sociedade",
-   "regiao": "Nacional",
-   "data": "2026-11-20",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/roubo-de-veiculos-cai-22-no-brasil-e-atinge-menor-numero-de-ocorrencias-desde-2019",
+   "regiao": "Águas Claras (DF)",
+   "data": "2026-11-22",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/distrito-federal/bebe-de-um-ano-engasga-e-e-salvo-por-policiais-que-faziam-patrulhamento",
    "pais": "Brasil",
    "destaque": true,
-   "lat": -15.79,
-   "lon": -47.88,
+   "lat": -15.83,
+   "lon": -48.02,
    "i18n": {
     "es": {
-     "titulo": "El robo de vehículos cae un 22% en Brasil y llega a su menor nivel desde 2019",
-     "resumo": "De enero a octubre de 2026 hubo 67.174 robos de vehículos, frente a 86.112 en el mismo período de 2025. Respecto a 2019 la caída es del 57,7%, y octubre fue el más bajo de la serie. Los datos son del Ministerio de Justicia, con información de los 27 estados.",
-     "regiao": "Nacional",
+     "titulo": "Policías en patrulla salvan a un bebé que se atragantó en Brasilia",
+     "resumo": "Los padres detuvieron un patrullero en la calle para pedir ayuda. El bebé de un año estaba inconsciente y morado; los policías hicieron maniobras de desobstrucción y volvió a llorar. Los bomberos lo llevaron al hospital por precaución, y cámaras grabaron el momento.",
+     "regiao": "Águas Claras (DF)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Vehicle robberies in Brazil fall 22% to the lowest level since 2019",
-     "resumo": "From January to October 2026 there were 67,174 vehicle robberies, down from 86,112 in the same period of 2025. Compared with 2019 the drop is 57.7%, and October was the lowest in the series. The data come from the Ministry of Justice, covering all 27 states.",
-     "regiao": "Nationwide",
+     "titulo": "Patrolling police officers save choking baby in Brasília",
+     "resumo": "Parents flagged down a police car in the street. The one-year-old was unconscious and turning blue; officers performed choking-relief manoeuvres and the baby started crying again. Firefighters took the child to hospital as a precaution, and cameras recorded the moment.",
+     "regiao": "Águas Claras (DF)",
      "pais": "Brazil"
     }
    },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/roubo-de-veiculos-cai-22-no-brasil-e-atinge-menor-numero-de-ocorrencias-desde-2019/@@download/image/prf_carro.jpg",
-   "credito": "PRF/Divulgação"
+   "img": "https://i.metroimg.com/WawGzASrJr4Ff4beRS3AWzSk1yOMCuymrPgFb5oXLF8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/crianca-engasgo.jpg",
+   "credito": "PMDF"
   },
   {
-   "id": "empreendedores-negros-15mi",
-   "titulo": "Brasil tem 15,8 milhões de empreendedores negros à frente de pequenos negócios",
-   "resumo": "Pessoas negras comandam cerca de 52% das micro e pequenas empresas do país, que somam 96% dos CNPJs ativos e mais da metade dos empregos formais. Entre os microempreendedores individuais, 45% são mulheres. O governo destaca projetos de capacitação e geração de renda.",
+   "id": "resgate-jardim-botanico-df",
+   "titulo": "Bombeiros e cão farejador encontram homem perdido em mata no DF",
+   "resumo": "O homem desaparecido conseguiu ligar para colegas e enviar sua localização, o que guiou as buscas. Equipes em terra, a aeronave Resgate 08 e o cão Baruk o encontraram a cerca de 180 metros da estrada, consciente e orientado. Ele foi levado a um hospital.",
+   "categoria": "sociedade",
+   "regiao": "Jardim Botânico (DF)",
+   "data": "2026-11-23",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/11/7543137-bombeiros-resgatam-homem-desaparecido-em-mata-no-jardim-botanico.html",
+   "pais": "Brasil",
+   "lat": -15.87,
+   "lon": -47.82,
+   "i18n": {
+    "es": {
+     "titulo": "Bomberos y un perro rastreador hallan a un hombre perdido en un bosque de Brasilia",
+     "resumo": "El hombre desaparecido logró llamar a sus colegas y enviar su ubicación, lo que guió la búsqueda. Equipos en tierra, la aeronave Resgate 08 y el perro Baruk lo encontraron a unos 180 metros de la carretera, consciente y orientado. Fue llevado a un hospital.",
+     "regiao": "Jardim Botánico (DF)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Firefighters and a search dog find a man lost in Brasília woodland",
+     "resumo": "The missing man managed to call colleagues and send his location, which guided the search. Ground teams, the Resgate 08 aircraft and search dog Baruk found him about 180 metres from the road, conscious and alert. He was taken to hospital.",
+     "regiao": "Jardim Botânico (DF)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/23/675x450/1_8119bf98-722c-40dd-bf31-5970604ce8e2-68288078.jpeg",
+   "credito": "Divulgação/CBMDF"
+  },
+  {
+   "id": "pirulito-usp-premio",
+   "titulo": "Pirulito que protege os dentes, criado na USP de Bauru, vence prêmio",
+   "resumo": "A equipe Semeando Sorrisos, da Faculdade de Odontologia de Bauru, ficou em 1º lugar no Prêmio Jovens Inovadores Sicredi. O pirulito não tem açúcar adicionado nem acidez e leva uma proteína que pode proteger contra a erosão dentária. A embalagem é de bagaço de cana e o palito tem sementes nativas para plantar.",
+   "categoria": "ciencia",
+   "regiao": "Bauru (SP)",
+   "data": "2026-11-23",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/universidade/pirulito-funcional-desenvolvido-na-usp-em-bauru-vence-premio-de-jovens-inovadores/",
+   "pais": "Brasil",
+   "lat": -22.32,
+   "lon": -49.06,
+   "i18n": {
+    "es": {
+     "titulo": "Una paleta que protege los dientes, creada en la USP de Bauru, gana un premio",
+     "resumo": "El equipo Semeando Sorrisos, de la Facultad de Odontología de Bauru, ganó el primer lugar del Premio Jóvenes Innovadores Sicredi. La paleta no tiene azúcar añadido ni acidez y lleva una proteína que puede proteger contra la erosión dental. El envase es de bagazo de caña y el palito tiene semillas nativas para plantar.",
+     "regiao": "Bauru (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Tooth-friendly lollipop from a Brazilian university wins innovation prize",
+     "resumo": "The Semeando Sorrisos team from the University of São Paulo's dental school in Bauru took first place in the Sicredi Young Innovators Prize. The lollipop has no added sugar or acidity and contains a protein that may protect against tooth erosion. Its packaging is made from sugarcane bagasse and the stick holds native seeds to plant.",
+     "regiao": "Bauru (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261123_00_equipe_semeando_sorrisos_fob_usp.jpg",
+   "credito": "Arquivo pessoal"
+  },
+  {
+   "id": "feito-pipa-premios",
+   "titulo": "Filme cearense 'Feito Pipa' chega a 24 prêmios internacionais",
+   "resumo": "O longa de Allan Deberton, rodado em Quixadá, foi o favorito do público e da imprensa no 52º Festival de Cinema Ibero-Americano de Huelva, na Espanha. Desde a estreia em Berlim, em fevereiro, já soma 24 prêmios e segue na corrida pelo Oscar 2027.",
+   "categoria": "sociedade",
+   "regiao": "Quixadá (CE)",
+   "data": "2026-11-22",
+   "fonte": "O Povo",
+   "url": "https://www.opovo.com.br/vidaearte/cinema/2026/11/22/filme-cearense-feito-pipa-vence-mais-dois-premios-internacionais-na-corrida-para-o-oscar-2027.html",
+   "pais": "Brasil",
+   "lat": -4.97,
+   "lon": -38.97,
+   "i18n": {
+    "es": {
+     "titulo": "La película cearense 'Feito Pipa' llega a 24 premios internacionales",
+     "resumo": "El largometraje de Allan Deberton, rodado en Quixadá, fue el favorito del público y la prensa en el 52º Festival de Cine Iberoamericano de Huelva, en España. Desde su estreno en Berlín, en febrero, suma 24 premios y sigue en la carrera por el Oscar 2027.",
+     "regiao": "Quixadá (CE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian film 'Feito Pipa' reaches 24 international awards",
+     "resumo": "Allan Deberton's feature, shot in Quixadá in north-east Brazil, was the audience and press favourite at the 52nd Huelva Ibero-American Film Festival in Spain. Since its Berlin premiere in February it has won 24 awards and remains in the race for the 2027 Oscars.",
+     "regiao": "Quixadá (CE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/22/856x642/1_feito_pipa_vence_premiacao_na_espanha-43183003.jpeg",
+   "credito": "Reprodução/Instagram @gugusworldfilm"
+  },
+  {
+   "id": "bolsas-google-brasileiros",
+   "titulo": "Oito brasileiros ganham bolsas de doutorado do Google",
+   "resumo": "Eles estão entre os 148 pesquisadores de 38 países selecionados para o programa de bolsas de doutorado do Google.org, que apoia estudantes em áreas de pesquisa de ponta.",
    "categoria": "sociedade",
    "regiao": "Nacional",
-   "data": "2026-11-20",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/brasil-tem-15-8-milhoes-de-empreendedores-negros-a-frente-de-pequenos-negocios",
+   "data": "2026-11-23",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/euestudante/trabalho-e-formacao/2026/11/7542840-oito-brasileiros-conquistam-bolsas-de-doutorado-em-programa-do-google.html",
    "pais": "Brasil",
-   "lat": -15.6,
-   "lon": -47.6,
+   "lat": -14.2,
+   "lon": -51.9,
    "i18n": {
     "es": {
-     "titulo": "Brasil tiene 15,8 millones de emprendedores negros al frente de pequeños negocios",
-     "resumo": "Las personas negras dirigen cerca del 52% de las micro y pequeñas empresas del país, que suman el 96% de las empresas activas y más de la mitad del empleo formal. El 45% de los microemprendedores individuales son mujeres. El gobierno destaca proyectos de capacitación y generación de ingresos.",
+     "titulo": "Ocho brasileños ganan becas de doctorado de Google",
+     "resumo": "Están entre los 148 investigadores de 38 países seleccionados para el programa de becas de doctorado de Google.org, que apoya a estudiantes en áreas de investigación de punta.",
      "regiao": "Nacional",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Brazil has 15.8 million Black entrepreneurs running small businesses",
-     "resumo": "Black Brazilians lead about 52% of the country's micro and small businesses, which make up 96% of active companies and more than half of formal jobs. Women are 45% of individual microentrepreneurs. The government highlights training and income projects.",
+     "titulo": "Eight Brazilians win Google PhD fellowships",
+     "resumo": "They are among 148 researchers from 38 countries selected for Google.org's PhD fellowship programme, which supports students in cutting-edge research fields.",
      "regiao": "Nationwide",
      "pais": "Brazil"
     }
    },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/brasil-tem-15-8-milhoes-de-empreendedores-negros-a-frente-de-pequenos-negocios/@@download/image/empreendedora_negra.jpeg",
-   "credito": "Divulgação/Secom/PR"
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/23/675x450/1_pexels-yankrukov-8199625-68284454.jpg",
+   "credito": "Imagem ilustrativa: Pexels"
   },
   {
-   "id": "servidores-negros-45",
-   "titulo": "Pessoas negras são 45% dos servidores federais contratados desde 2023",
-   "resumo": "A participação de pessoas negras entre os servidores federais ativos subiu de 39,9% em 2022 para 41,1% em outubro de 2026. O avanço é atribuído aos Concursos Nacionais Unificados de 2024 e 2025 e à ampliação da lei de cotas, segundo relatório do Ministério da Gestão.",
+   "id": "surf-adaptado-finn-banks",
+   "titulo": "Surfista de 16 anos com baixa visão é campeão mundial",
+   "resumo": "O australiano Finn Banks, que nasceu com baixa visão por causa do albinismo, ganhou o ouro na categoria de deficiência visual do Mundial de Surfe Adaptado. Ele marcou 19,57 de 20 pontos na final e era o mais jovem da seleção australiana.",
    "categoria": "sociedade",
-   "regiao": "Brasília (DF)",
-   "data": "2026-11-20",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/pessoas-negras-somam-45-dos-servidores-federais-contratados-nos-ultimos-quatro-anos",
-   "pais": "Brasil",
-   "lat": -15.79,
-   "lon": -47.88,
+   "regiao": "Palm Desert, Califórnia",
+   "data": "2026-11-24",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-24/finn-banks-world-para-surfing-championship-gold/107419884",
+   "pais": "Estados Unidos",
+   "destaque": true,
+   "lat": 33.72,
+   "lon": -116.37,
    "i18n": {
     "es": {
-     "titulo": "Las personas negras son el 45% de los funcionarios federales contratados desde 2023",
-     "resumo": "La participación de personas negras entre los funcionarios federales activos pasó del 39,9% en 2022 al 41,1% en octubre de 2026. El avance se atribuye a los concursos nacionales unificados de 2024 y 2025 y a la ampliación de la ley de cuotas, según el Ministerio de Gestión.",
-     "regiao": "Brasilia (DF)",
-     "pais": "Brasil"
+     "titulo": "Un surfista de 16 años con baja visión es campeón mundial",
+     "resumo": "El australiano Finn Banks, que nació con baja visión por albinismo, ganó el oro en la categoría de discapacidad visual del Mundial de Para Surf. Logró 19,57 de 20 puntos en la final y era el más joven del equipo australiano.",
+     "regiao": "Palm Desert, California",
+     "pais": "Estados Unidos"
     },
     "en": {
-     "titulo": "Black Brazilians are 45% of federal civil servants hired since 2023",
-     "resumo": "The share of Black people among active federal civil servants rose from 39.9% in 2022 to 41.1% in October 2026. The gain is credited to the 2024 and 2025 national unified exams and the expanded quota law, according to the Ministry of Management.",
-     "regiao": "Brasília (DF)",
-     "pais": "Brazil"
+     "titulo": "16-year-old surfer with low vision becomes world champion",
+     "resumo": "Australian Finn Banks, born with low vision due to albinism, won gold in the vision-impairment division at the World Para Surfing Championship. He scored 19.57 out of 20 in the final and was the youngest member of Australia's team.",
+     "regiao": "Palm Desert, California",
+     "pais": "USA"
     }
    },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/pessoas-negras-somam-45-dos-servidores-federais-contratados-nos-ultimos-quatro-anos/@@download/image/servidores_negros.jpeg",
-   "credito": "Yasmin Pintor/ENAP"
+   "img": "https://live-production.wcms.abc-cdn.net.au/febf011300903ebb17c74696eb5c8782?impolicy=wcms_watermark_news&cropH=1688&cropW=3000&xPos=0&yPos=156&width=862&height=485&imformat=generic",
+   "credito": "ISA/Sean Evans"
+  },
+  {
+   "id": "mensagem-gravidade",
+   "titulo": "Físicos enviam a primeira mensagem usando a gravidade",
+   "resumo": "Pesquisadores da Universidade de Queensland transmitiram a palavra 'Gravity' movendo o contrapeso de um elevador, de cerca de 1,8 tonelada. A variação gravitacional foi captada por sensores e a transmissão levou 63 minutos. É uma prova de conceito, ainda longe de uso prático.",
+   "categoria": "ciencia",
+   "regiao": "Brisbane",
+   "data": "2026-11-22",
+   "fonte": "New Atlas",
+   "url": "https://newatlas.com/technology/gravity-unstoppable-messages-first-time/",
+   "pais": "Austrália",
+   "lat": -27.5,
+   "lon": 153.01,
+   "i18n": {
+    "es": {
+     "titulo": "Físicos envían el primer mensaje usando la gravedad",
+     "resumo": "Investigadores de la Universidad de Queensland transmitieron la palabra 'Gravity' moviendo el contrapeso de un ascensor, de unas 1,8 toneladas. Sensores captaron la variación gravitatoria y la transmisión tomó 63 minutos. Es una prueba de concepto, aún lejos de un uso práctico.",
+     "regiao": "Brisbane",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Physicists send the first message using gravity",
+     "resumo": "University of Queensland researchers transmitted the word 'Gravity' by moving a lift counterweight of about 1.8 tonnes. Sensors picked up the gravitational change and the transmission took 63 minutes. It is a proof of concept, still far from practical use.",
+     "regiao": "Brisbane",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://assets.newatlas.com/dims4/default/9c45b54/2147483647/strip/true/crop/2000x1050+0+225/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F82%2F08%2F3d4afebc4db6a14da0d06aee94fe%2Fhand-apple-gravity.jpg&na.image_optimisation=0",
+   "credito": "Ilustração: sharkido/Pexels/Canva"
+  },
+  {
+   "id": "irmas-prespakis",
+   "titulo": "Irmãs fazem história no futebol australiano feminino",
+   "resumo": "Georgie Prespakis ganhou o prêmio de melhor jogadora da liga AFLW de 2026, que sua irmã Maddy já tinha vencido em 2020. Elas são as primeiras irmãs a conquistar o troféu. Em 2020, foi Georgie quem entregou o prêmio à irmã, no quintal de casa, durante a pandemia.",
+   "categoria": "sociedade",
+   "regiao": "Melbourne",
+   "data": "2026-11-24",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-24/georgie-and-maddy-prespakis-first-sisters-to-win-w-award/107418936",
+   "pais": "Austrália",
+   "lat": -37.81,
+   "lon": 144.96,
+   "i18n": {
+    "es": {
+     "titulo": "Dos hermanas hacen historia en el fútbol australiano femenino",
+     "resumo": "Georgie Prespakis ganó el premio a la mejor jugadora de la liga AFLW 2026, que su hermana Maddy ya había ganado en 2020. Son las primeras hermanas en conseguir el trofeo. En 2020, fue Georgie quien le entregó el premio a su hermana, en el patio de casa, durante la pandemia.",
+     "regiao": "Melbourne",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Sisters make history in Australian women's football",
+     "resumo": "Georgie Prespakis won the 2026 AFLW best-and-fairest award, which her sister Maddy won in 2020. They are the first sisters to both win it. In 2020 it was Georgie who handed Maddy the award in their backyard during the pandemic.",
+     "regiao": "Melbourne",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/7f666460beaaee8fba1c61bef9665f3b?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=2&width=862&height=485&imformat=generic",
+   "credito": "Getty: Morgan Hancock"
+  },
+  {
+   "id": "flor-cadaver-polen",
+   "titulo": "Cientistas guardam pólen da flor-cadáver para protegê-la da extinção",
+   "resumo": "Pela primeira vez, pólen da rara flor-cadáver foi armazenado no banco de sementes de Victoria, na Austrália, colhido de uma planta do Jardim Botânico de Geelong. Restam menos de mil dessas flores na natureza, na Indonésia, e cada uma floresce só por dois dias a cada 7 a 10 anos.",
+   "categoria": "meio-ambiente",
+   "regiao": "Geelong, Victoria",
+   "data": "2026-11-22",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-22/behind-the-scenes-scientists-are-working-to-bring-corpse-flowers/107402372",
+   "pais": "Austrália",
+   "lat": -38.15,
+   "lon": 144.36,
+   "i18n": {
+    "es": {
+     "titulo": "Científicos guardan polen de la flor cadáver para protegerla de la extinción",
+     "resumo": "Por primera vez, se almacenó polen de la rara flor cadáver en el banco de semillas de Victoria, en Australia, tomado de una planta del Jardín Botánico de Geelong. Quedan menos de mil de estas flores en la naturaleza, en Indonesia, y cada una florece solo dos días cada 7 a 10 años.",
+     "regiao": "Geelong, Victoria",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Scientists bank corpse flower pollen to guard against extinction",
+     "resumo": "For the first time, pollen from the rare corpse flower has been stored at Victoria's conservation seedbank in Australia, collected from a plant at Geelong Botanic Gardens. Fewer than 1,000 remain in the wild in Indonesia, and each blooms for only two days every 7 to 10 years.",
+     "regiao": "Geelong, Victoria",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/3eb6ba03ab0a793b58710028592da747?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "ABC News: Jonathon Kendall"
+  },
+  {
+   "id": "fazenda-zambia-desperdicio",
+   "titulo": "Fazenda na Zâmbia transforma sobras de refeições de avião em adubo",
+   "resumo": "A Loctaguna Organics, perto de Lusaka, fornece verduras a uma empresa que prepara refeições para companhias aéreas e recebe de volta os restos de comida, que viram composto e ração para porcos. Segundo a fazenda, isso cortou em 35% os custos com lixo e em 45% os gastos com ração.",
+   "categoria": "meio-ambiente",
+   "regiao": "Lusaka",
+   "data": "2026-11-23",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/from-farm-to-airline-plates-a-zambia-farm-closes-its-food-waste-loop/",
+   "pais": "Zâmbia",
+   "lat": -15.42,
+   "lon": 28.28,
+   "i18n": {
+    "es": {
+     "titulo": "Una granja de Zambia convierte las sobras de comidas de avión en abono",
+     "resumo": "Loctaguna Organics, cerca de Lusaka, provee verduras a una empresa de catering aéreo y recibe de vuelta los restos de comida, que se convierten en compost y alimento para cerdos. Según la granja, eso redujo un 35% los costos de basura y un 45% el gasto en alimento animal.",
+     "regiao": "Lusaka",
+     "pais": "Zambia"
+    },
+    "en": {
+     "titulo": "Zambian farm turns airline meal leftovers into compost",
+     "resumo": "Loctaguna Organics, near Lusaka, supplies vegetables to an airline caterer and takes back food waste, which becomes compost and pig feed. The farm says this cut its waste-collection costs by 35% and pig-feed costs by 45%.",
+     "regiao": "Lusaka",
+     "pais": "Zambia"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/23095912/LOCTA11-1200x800.jpg",
+   "credito": "Chisapi Kumbutso/Mongabay"
+  },
+  {
+   "id": "leucemia-origem-50-anos",
+   "titulo": "Leucemia pode começar 50 anos antes do diagnóstico, abrindo caminho para prevenção",
+   "resumo": "Analisando amostras de sangue guardadas por décadas, cientistas de Cambridge e da UCL viram que, em dois terços das mulheres que tiveram leucemia mieloide aguda, a primeira mutação surgiu antes dos 20 anos. A descoberta pode ajudar a detectar e prevenir a doença, mas ainda exige testes clínicos.",
+   "categoria": "saude",
+   "regiao": "Cambridge",
+   "data": "2026-11-23",
+   "fonte": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm",
+   "pais": "Reino Unido",
+   "lat": 52.2,
+   "lon": 0.12,
+   "i18n": {
+    "es": {
+     "titulo": "La leucemia puede empezar 50 años antes del diagnóstico, lo que abre paso a la prevención",
+     "resumo": "Analizando muestras de sangre guardadas durante décadas, científicos de Cambridge y la UCL vieron que, en dos tercios de las mujeres que tuvieron leucemia mieloide aguda, la primera mutación apareció antes de los 20 años. El hallazgo puede ayudar a detectar y prevenir la enfermedad, pero aún requiere ensayos clínicos.",
+     "regiao": "Cambridge",
+     "pais": "Reino Unido"
+    },
+    "en": {
+     "titulo": "Leukaemia can begin 50 years before diagnosis, opening a path to prevention",
+     "resumo": "Using blood samples stored for decades, Cambridge and UCL scientists found that in two-thirds of women who developed acute myeloid leukaemia, the first mutation appeared before age 20. The finding could help detect and prevent the disease, though clinical trials are still needed.",
+     "regiao": "Cambridge",
+     "pais": "UK"
+    }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/cancer-cell-amidst-red-blood-cells.webp",
+   "credito": "Imagem ilustrativa: Shutterstock"
+  },
+  {
+   "id": "lobos-mirtilos",
+   "titulo": "Lobos ajudam mirtilos silvestres a brotar",
+   "resumo": "Sementes de mirtilo que passaram pelo sistema digestivo de lobos germinaram em 96% dos casos, contra 69% das demais, e brotaram mais rápido. O estudo, feito no norte de Minnesota, mostra que os lobos também ajudam a espalhar plantas pela floresta.",
+   "categoria": "animais",
+   "regiao": "Minnesota",
+   "data": "2026-11-23",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/wolves-help-wild-blueberries-grow-us-study-finds/",
+   "pais": "Estados Unidos",
+   "lat": 48.5,
+   "lon": -92.8,
+   "i18n": {
+    "es": {
+     "titulo": "Los lobos ayudan a brotar a los arándanos silvestres",
+     "resumo": "Las semillas de arándano que pasaron por el sistema digestivo de lobos germinaron en un 96% de los casos, frente al 69% de las demás, y brotaron más rápido. El estudio, en el norte de Minnesota, muestra que los lobos también ayudan a dispersar plantas por el bosque.",
+     "regiao": "Minnesota",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Wolves help wild blueberries sprout",
+     "resumo": "Blueberry seeds that passed through wolves germinated 96% of the time, against 69% for other seeds, and sprouted faster. The study in northern Minnesota shows wolves also help spread plants through the forest.",
+     "regiao": "Minnesota",
+     "pais": "USA"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2025/11/24102253/RSGray_wolf_Minnesota_dalliedee_CC_BY-2-1200x800.jpg",
+   "credito": "W Eugene Slowik Jr/dalliedee (CC BY 2.0)"
+  },
+  {
+   "id": "trilha-fardos-feno",
+   "titulo": "Fazendeiros criam trilha de esculturas de feno para reerguer região após incêndios",
+   "resumo": "Vinte e dois agricultores do Upper Murray, na Austrália, montaram esculturas com fardos de feno inspiradas em livros infantis. A trilha quer atrair turistas de volta a uma região atingida por grandes incêndios, e os organizadores esperam repeti-la todo ano.",
+   "categoria": "sociedade",
+   "regiao": "Upper Murray, Victoria",
+   "data": "2026-11-22",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-22/upper-murray-hay-bale-art-trail-fire-flood-recovery/107390424",
+   "pais": "Austrália",
+   "lat": -36.19,
+   "lon": 147.89,
+   "i18n": {
+    "es": {
+     "titulo": "Granjeros crean un sendero de esculturas de heno para reactivar su región tras los incendios",
+     "resumo": "Veintidós agricultores del Upper Murray, en Australia, armaron esculturas con fardos de heno inspiradas en libros infantiles. El sendero busca atraer de nuevo a turistas a una región golpeada por grandes incendios, y los organizadores esperan repetirlo cada año.",
+     "regiao": "Upper Murray, Victoria",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Farmers build a hay-bale art trail to revive a fire-hit region",
+     "resumo": "Twenty-two farmers in Victoria's Upper Murray built hay-bale sculptures themed on children's books. The trail aims to bring tourists back to a region hit by major bushfires, and organisers hope to make it annual.",
+     "regiao": "Upper Murray, Victoria",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/2171bcc3b4223224c01a67bdab5690b7?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+   "credito": "ABC Rural: Annie Brown"
   },
   {
    "id": "esgoto-sao-carlos-fotonica",
@@ -119,266 +410,33 @@
    "credito": "Victor Otsuka/Embrapa"
   },
   {
-   "id": "lontras-kuala-lumpur",
-   "titulo": "Lontras voltam a Kuala Lumpur com a limpeza do rio",
-   "resumo": "Lontras-de-pelo-liso estão cada vez mais presentes no rio Klang, que passou de 'severamente poluído' para 'moderadamente poluído'. Centenas de barreiras de lixo e coletores movidos a energia solar já retiraram dezenas de milhares de toneladas de resíduos. Cerca de 25 lontras vivem numa mata próxima.",
-   "categoria": "meio-ambiente",
-   "regiao": "Kuala Lumpur",
-   "data": "2026-11-23",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/kuala-lumpur-otters-raise-river-clean-up-hopes/",
-   "pais": "Malásia",
-   "destaque": true,
-   "lat": 3.14,
-   "lon": 101.69,
-   "i18n": {
-    "es": {
-     "titulo": "Las nutrias vuelven a Kuala Lumpur gracias a la limpieza del río",
-     "resumo": "Las nutrias lisas se ven cada vez más en el río Klang, que pasó de 'muy contaminado' a 'moderadamente contaminado'. Cientos de barreras de basura y colectores solares ya retiraron decenas de miles de toneladas de residuos. Unas 25 nutrias viven en un bosque cercano.",
-     "regiao": "Kuala Lumpur",
-     "pais": "Malasia"
-    },
-    "en": {
-     "titulo": "Otters return to Kuala Lumpur as its river is cleaned up",
-     "resumo": "Smooth-coated otters are increasingly seen along the Klang River, which improved from 'severely polluted' to 'moderately polluted'. Hundreds of garbage traps and solar-powered interceptors have removed tens of thousands of tonnes of waste. About 25 otters live in a nearby forest.",
-     "regiao": "Kuala Lumpur",
-     "pais": "Malaysia"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/19095539/D3X92TK-Smooth-coated-otters--1200x800.jpg",
-   "credito": "Mohd Rasfan/AFP"
-  },
-  {
-   "id": "coalas-stradbroke",
-   "titulo": "Coalas feridos agora são tratados sem sair da ilha",
-   "resumo": "Antes, coalas doentes de North Stradbroke eram levados ao continente e não podiam voltar, por risco de doenças. Uma nova fundação veterinária criada na ilha oferece cuidado 24 horas. Um filhote resgatado já ganha peso e deve voltar à natureza perto de onde vivia.",
-   "categoria": "animais",
-   "regiao": "Ilha Stradbroke, Queensland",
-   "data": "2026-11-23",
-   "fonte": "ABC News",
-   "url": "https://www.abc.net.au/news/2026-11-23/koala-rehab-centre-on-stradbroke-island-keeps-them-on-island/107399916",
-   "pais": "Austrália",
-   "lat": -27.47,
-   "lon": 153.43,
-   "i18n": {
-    "es": {
-     "titulo": "Los koalas heridos ahora se tratan sin salir de la isla",
-     "resumo": "Antes, los koalas enfermos de North Stradbroke eran llevados al continente y no podían volver, por riesgo de enfermedades. Una nueva fundación veterinaria en la isla ofrece atención las 24 horas. Una cría rescatada ya gana peso y volverá a la naturaleza cerca de su hogar.",
-     "regiao": "Isla Stradbroke, Queensland",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Injured koalas can now be treated without leaving their island",
-     "resumo": "Sick koalas from North Stradbroke Island used to be sent to the mainland and could not return because of disease risk. A new veterinary foundation on the island now offers round-the-clock care. A rescued joey is gaining weight and is expected to go back to the wild near her home.",
-     "regiao": "North Stradbroke Island, Queensland",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/d70455bdae7a968639ba40b29767bf90?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
-   "credito": "Kirrin McKechnie/ABC News"
-  },
-  {
-   "id": "madeira-protecao-oceano",
-   "titulo": "Expedição na Madeira mostra que áreas marinhas protegidas funcionam",
-   "resumo": "Em quase 500 mergulhos, cientistas encontraram lapas maiores e mais abundantes e os maiores meros dentro das áreas protegidas. A foca-monge, que quase sumiu nos anos 1980, segue em recuperação. O baixo número de tubarões, porém, preocupa os pesquisadores.",
-   "categoria": "meio-ambiente",
-   "regiao": "Madeira",
-   "data": "2026-11-22",
-   "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/22/madeiras-ocean-survey-finds-evidence-protection-works-and-some-worrying-signs",
-   "pais": "Portugal",
-   "lat": 32.65,
-   "lon": -16.91,
-   "i18n": {
-    "es": {
-     "titulo": "Una expedición en Madeira muestra que las áreas marinas protegidas funcionan",
-     "resumo": "En casi 500 inmersiones, los científicos hallaron lapas más grandes y abundantes y los meros más grandes dentro de las zonas protegidas. La foca monje, casi desaparecida en los años 80, sigue recuperándose. El bajo número de tiburones, en cambio, preocupa a los investigadores.",
-     "regiao": "Madeira",
-     "pais": "Portugal"
-    },
-    "en": {
-     "titulo": "Madeira ocean survey finds marine protection works",
-     "resumo": "Across nearly 500 dives, scientists found bigger, more abundant limpets and the largest groupers inside protected areas. The monk seal, which nearly vanished in the 1980s, keeps recovering. The low number of sharks, however, worries the researchers.",
-     "regiao": "Madeira",
-     "pais": "Portugal"
-    }
-   },
-   "img": "https://images.euronews.com/articles/stories/09/98/75/06/1200x675_cmsv2_4c0438d4-6c00-5f41-b9c9-dc6d0a85886b-9987506.jpg",
-   "credito": "Oceano Azul Foundation/João Amado"
-  },
-  {
-   "id": "tartaruga-jonathan-genoma",
-   "titulo": "Genoma de Jonathan, a tartaruga de 194 anos, revela segredos da longevidade",
-   "resumo": "Cientistas identificaram 287 variantes genéticas ligadas à proteção contra o envelhecimento no animal terrestre vivo mais velho conhecido. Elas envolvem reparo de DNA, inflamação e supressão de câncer, e seu epigenoma se parece com o de tartarugas jovens. Aplicar isso em humanos exige mais pesquisa.",
-   "categoria": "ciencia",
-   "regiao": "Santa Helena",
-   "data": "2026-11-22",
-   "fonte": "ScienceDaily",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261121221130.htm",
-   "pais": "Santa Helena",
-   "lat": -15.95,
-   "lon": -5.72,
-   "i18n": {
-    "es": {
-     "titulo": "El genoma de Jonathan, la tortuga de 194 años, revela secretos de la longevidad",
-     "resumo": "Los científicos identificaron 287 variantes genéticas ligadas a la protección contra el envejecimiento en el animal terrestre vivo más viejo conocido. Involucran reparación del ADN, inflamación y supresión del cáncer, y su epigenoma se parece al de tortugas jóvenes. Aplicarlo en humanos exige más investigación.",
-     "regiao": "Santa Elena",
-     "pais": "Santa Elena"
-    },
-    "en": {
-     "titulo": "Genome of Jonathan, the 194-year-old tortoise, reveals longevity secrets",
-     "resumo": "Scientists identified 287 genetic variants linked to protection against ageing in the oldest known living land animal. They involve DNA repair, inflammation and cancer suppression, and his epigenome resembles that of younger tortoises. Applying this to humans needs more research.",
-     "regiao": "St Helena",
-     "pais": "St Helena"
-    }
-   },
-   "img": "https://www.sciencedaily.com/images/1920/extremely-old-giant-tortoise-named-jonathan.webp",
-   "credito": "St Helena Government"
-  },
-  {
-   "id": "peixe-130-anos",
-   "titulo": "Peixe de rio dos EUA pode viver até 130 anos",
-   "resumo": "Pesquisadores descobriram que o blue sucker, do rio Missouri, vive mais de três vezes o que se pensava, e alguns nasceram no fim do século 19. A idade foi confirmada com datação por radiocarbono. A descoberta ajuda a proteger a espécie, ameaçada em 22 dos 23 estados onde vive.",
-   "categoria": "animais",
-   "regiao": "Montana",
-   "data": "2026-11-23",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/23/descubren-que-una-especie-de-pez-de-rio-puede-vivir-hasta-130-anos-las-claves-del-estudio-en-estados-unidos/",
-   "pais": "Estados Unidos",
-   "lat": 47.5,
-   "lon": -111.3,
-   "i18n": {
-    "es": {
-     "titulo": "Un pez de río de EE. UU. puede vivir hasta 130 años",
-     "resumo": "Investigadores descubrieron que el blue sucker, del río Misuri, vive más del triple de lo que se creía, y algunos nacieron a fines del siglo XIX. La edad se confirmó con datación por radiocarbono. El hallazgo ayuda a proteger la especie, amenazada en 22 de los 23 estados donde vive.",
-     "regiao": "Montana",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "US river fish can live up to 130 years",
-     "resumo": "Researchers found the blue sucker of the Missouri River lives more than three times longer than thought, and some were born in the late 19th century. Ages were confirmed with radiocarbon dating. The finding helps protect a species considered threatened in 22 of the 23 states where it lives.",
-     "regiao": "Montana",
-     "pais": "USA"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/ADV5KIYANFHQDEZFTSCMBCGRGM.jpg?auth=bff021ee1701d41f00adc670d7620a56d74343dd63cf53f50a2489878afe4e7d&smart=true&width=1200&height=630&quality=85",
-   "credito": "Zach Shattuck"
-  },
-  {
-   "id": "geracoes-memoria-demencia",
-   "titulo": "Novas gerações chegam à velhice com memória melhor",
-   "resumo": "Estudo com cerca de 219 mil pessoas, publicado na Nature Medicine, mostrou que quem nasceu depois de 1950 tem declínio cognitivo mais lento. Os autores ligam isso a um risco de demência cerca de 13% menor a cada década na Europa e nos EUA, provavelmente por melhores condições de vida e educação.",
-   "categoria": "saude",
-   "regiao": "Oslo",
-   "data": "2026-11-20",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/salud/ciencia/2026/11/20/un-estudio-revela-por-que-las-generaciones-que-hoy-llegan-a-la-vejez-tienen-mejor-memoria-y-menor-riesgo-de-demencia/",
-   "pais": "Noruega",
-   "lat": 59.91,
-   "lon": 10.75,
-   "i18n": {
-    "es": {
-     "titulo": "Las nuevas generaciones llegan a la vejez con mejor memoria",
-     "resumo": "Un estudio con unas 219.000 personas, publicado en Nature Medicine, mostró que quienes nacieron después de 1950 tienen un declive cognitivo más lento. Los autores lo vinculan a un riesgo de demencia un 13% menor por década en Europa y EE. UU., probablemente por mejores condiciones de vida y educación.",
-     "regiao": "Oslo",
-     "pais": "Noruega"
-    },
-    "en": {
-     "titulo": "Newer generations reach old age with better memory",
-     "resumo": "A study of about 219,000 people in Nature Medicine found those born after 1950 show slower cognitive decline. The authors link this to roughly 13% lower dementia risk per decade in Europe and the US, likely thanks to better living conditions and education.",
-     "regiao": "Oslo",
-     "pais": "Norway"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/CQSI3MUGFNHFXKVMTDSEEBE3SQ.png?auth=ff8a7b2d9f5ef4c830aa98474a97bad48944607a8baba4f4f73f7f6ce960c43b&smart=true&width=1200&height=630&quality=85",
-   "credito": "Infobae"
-  },
-  {
-   "id": "canion-chapada-resgate",
-   "titulo": "Helicóptero resgata duas mulheres ilhadas num cânion da Chapada Diamantina",
-   "resumo": "Presas desde quinta pela cheia do rio na trilha da Cachoeira da Fumacinha, as mulheres, de 48 e 64 anos, foram retiradas de um cânion de 280 metros por um policial que desceu de rapel. As duas saíram em segurança.",
+   "id": "empreendedores-negros-15mi",
+   "titulo": "Brasil tem 15,8 milhões de empreendedores negros à frente de pequenos negócios",
+   "resumo": "Pessoas negras comandam cerca de 52% das micro e pequenas empresas do país, que somam 96% dos CNPJs ativos e mais da metade dos empregos formais. Entre os microempreendedores individuais, 45% são mulheres. O governo destaca projetos de capacitação e geração de renda.",
    "categoria": "sociedade",
-   "regiao": "Ibicoara (BA)",
-   "data": "2026-11-21",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7542148-duas-mulheres-ilhadas-em-canion-sao-resgatadas-na-chapada-diamantina.html",
-   "pais": "Brasil",
-   "lat": -13.43,
-   "lon": -41.33,
-   "i18n": {
-    "es": {
-     "titulo": "Un helicóptero rescata a dos mujeres aisladas en un cañón de la Chapada Diamantina",
-     "resumo": "Atrapadas desde el jueves por la crecida del río en el sendero de la Cachoeira da Fumacinha, las mujeres, de 48 y 64 años, fueron sacadas de un cañón de 280 metros por un policía que bajó en rapel. Ambas salieron a salvo.",
-     "regiao": "Ibicoara (BA)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Helicopter rescues two women trapped in a Brazilian canyon",
-     "resumo": "Stranded since Thursday by a flash flood on the Fumacinha waterfall trail, the women, aged 48 and 64, were lifted out of a 280-metre canyon by an officer who rappelled down. Both were brought out safely.",
-     "regiao": "Ibicoara (BA)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/21/675x450/1_whatsapp-image-2026-11-20-at-19-01-15-68273352.jpeg",
-   "credito": "Foto: divulgação/GRAER"
-  },
-  {
-   "id": "bombeiros-ceara-10mil-animais",
-   "titulo": "Bombeiros do Ceará já resgataram mais de 10 mil animais em 2026",
-   "resumo": "De janeiro a outubro foram 10.727 resgates de bichos silvestres e domésticos em risco, a maioria cobras, mas também gatos, iguanas, gambás e cães. Um deles foi um yorkshire tirado de um ralo em Fortaleza e devolvido ao tutor.",
-   "categoria": "animais",
-   "regiao": "Ceará",
+   "regiao": "Nacional",
    "data": "2026-11-20",
-   "fonte": "O POVO",
-   "url": "https://www.opovo.com.br/noticias/ceara/2026/11/20/bombeiros-resgatam-mais-de-10-mil-animais-no-ceara-em-2026.html",
+   "fonte": "Agência Gov",
+   "url": "https://agenciagov.ebc.com.br/noticias/202611/brasil-tem-15-8-milhoes-de-empreendedores-negros-a-frente-de-pequenos-negocios",
    "pais": "Brasil",
-   "lat": -3.73,
-   "lon": -38.52,
+   "lat": -15.6,
+   "lon": -47.6,
    "i18n": {
     "es": {
-     "titulo": "Los bomberos de Ceará ya rescataron más de 10.000 animales en 2026",
-     "resumo": "De enero a octubre hubo 10.727 rescates de animales silvestres y domésticos en riesgo, sobre todo serpientes, pero también gatos, iguanas, zarigüeyas y perros. Uno fue un yorkshire sacado de un desagüe en Fortaleza y devuelto a su tutor.",
-     "regiao": "Ceará",
+     "titulo": "Brasil tiene 15,8 millones de emprendedores negros al frente de pequeños negocios",
+     "resumo": "Las personas negras dirigen cerca del 52% de las micro y pequeñas empresas del país, que suman el 96% de las empresas activas y más de la mitad del empleo formal. El 45% de los microemprendedores individuales son mujeres. El gobierno destaca proyectos de capacitación y generación de ingresos.",
+     "regiao": "Nacional",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Ceará firefighters have rescued over 10,000 animals in 2026",
-     "resumo": "From January to October they carried out 10,727 rescues of wild and domestic animals, mostly snakes but also cats, iguanas, opossums and dogs, including a Yorkshire terrier pulled from a drain in Fortaleza.",
-     "regiao": "Ceará",
+     "titulo": "Brazil has 15.8 million Black entrepreneurs running small businesses",
+     "resumo": "Black Brazilians lead about 52% of the country's micro and small businesses, which make up 96% of active companies and more than half of formal jobs. Women are 45% of individual microentrepreneurs. The government highlights training and income projects.",
+     "regiao": "Nationwide",
      "pais": "Brazil"
     }
    },
-   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/20/856x642/1_novo_projeto__27_-43172595.jpg",
-   "credito": "Foto: divulgação/CBMCE"
-  },
-  {
-   "id": "medico-abre-caminho-br101",
-   "titulo": "Médico desce da ambulância e abre caminho a pé no trânsito para salvar paciente",
-   "resumo": "Preso num engarrafamento na BR-101, o psiquiatra Johny Barbosa correu entre os carros pedindo passagem. A ambulância chegou ao Hospital da Restauração, no Recife, e a paciente foi internada para continuar o atendimento.",
-   "categoria": "sociedade",
-   "regiao": "Jaboatão dos Guararapes (PE)",
-   "data": "2026-11-19",
-   "fonte": "Terra",
-   "url": "https://www.terra.com.br/noticias/brasil/cidades/medico-desce-de-ambulancia-e-corre-entre-carros-para-abrir-caminho-a-paciente-grave-na-br-101-em-jaboatao,50f1965856318404734450399ffbf21bpjdr5qz8.html",
-   "pais": "Brasil",
-   "lat": -8.13,
-   "lon": -34.92,
-   "i18n": {
-    "es": {
-     "titulo": "Un médico baja de la ambulancia y abre paso a pie en el tráfico para salvar a una paciente",
-     "resumo": "Atascado en la BR-101, el psiquiatra Johny Barbosa corrió entre los autos pidiendo paso. La ambulancia llegó al Hospital da Restauração, en Recife, y la paciente fue internada.",
-     "regiao": "Jaboatão dos Guararapes (PE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Doctor jumps out of ambulance to clear traffic for a critical patient",
-     "resumo": "Stuck in a jam on Brazil's BR-101, psychiatrist Johny Barbosa ran between cars asking drivers to make way. The ambulance reached the hospital in Recife and the patient was admitted.",
-     "regiao": "Jaboatão dos Guararapes (PE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/19/982079470-medico-desce-de-ambulancia-e-corre-entre-carros-na-br-101.jpg",
-   "credito": "Foto: reprodução/redes sociais"
+   "img": "https://agenciagov.ebc.com.br/noticias/202611/brasil-tem-15-8-milhoes-de-empreendedores-negros-a-frente-de-pequenos-negocios/@@download/image/empreendedora_negra.jpeg",
+   "credito": "Divulgação/Secom/PR"
   }
  ]
 }
