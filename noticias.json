@@ -1,442 +1,380 @@
 {
- "atualizado": "2026-11-24",
+ "atualizado": "2026-11-25",
  "noticias": [
   {
-   "id": "bebe-engasgado-salvo-pm",
-   "titulo": "Policiais em patrulha salvam bebê engasgado em Águas Claras",
-   "resumo": "Os pais pararam uma viatura da PM na rua pedindo socorro. O bebê de um ano estava desacordado e arroxeado; os policiais fizeram manobras de desengasgo e ele voltou a chorar. Os bombeiros levaram a criança ao hospital por precaução, e o momento foi registrado por câmeras.",
-   "categoria": "sociedade",
-   "regiao": "Águas Claras (DF)",
-   "data": "2026-11-22",
-   "fonte": "Metrópoles",
-   "url": "https://www.metropoles.com/distrito-federal/bebe-de-um-ano-engasga-e-e-salvo-por-policiais-que-faziam-patrulhamento",
-   "pais": "Brasil",
-   "destaque": true,
-   "lat": -15.83,
-   "lon": -48.02,
-   "i18n": {
-    "es": {
-     "titulo": "Policías en patrulla salvan a un bebé que se atragantó en Brasilia",
-     "resumo": "Los padres detuvieron un patrullero en la calle para pedir ayuda. El bebé de un año estaba inconsciente y morado; los policías hicieron maniobras de desobstrucción y volvió a llorar. Los bomberos lo llevaron al hospital por precaución, y cámaras grabaron el momento.",
-     "regiao": "Águas Claras (DF)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Patrolling police officers save choking baby in Brasília",
-     "resumo": "Parents flagged down a police car in the street. The one-year-old was unconscious and turning blue; officers performed choking-relief manoeuvres and the baby started crying again. Firefighters took the child to hospital as a precaution, and cameras recorded the moment.",
-     "regiao": "Águas Claras (DF)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://i.metroimg.com/WawGzASrJr4Ff4beRS3AWzSk1yOMCuymrPgFb5oXLF8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/crianca-engasgo.jpg",
-   "credito": "PMDF"
-  },
-  {
-   "id": "resgate-jardim-botanico-df",
-   "titulo": "Bombeiros e cão farejador encontram homem perdido em mata no DF",
-   "resumo": "O homem desaparecido conseguiu ligar para colegas e enviar sua localização, o que guiou as buscas. Equipes em terra, a aeronave Resgate 08 e o cão Baruk o encontraram a cerca de 180 metros da estrada, consciente e orientado. Ele foi levado a um hospital.",
-   "categoria": "sociedade",
-   "regiao": "Jardim Botânico (DF)",
-   "data": "2026-11-23",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/11/7543137-bombeiros-resgatam-homem-desaparecido-em-mata-no-jardim-botanico.html",
-   "pais": "Brasil",
-   "lat": -15.87,
-   "lon": -47.82,
-   "i18n": {
-    "es": {
-     "titulo": "Bomberos y un perro rastreador hallan a un hombre perdido en un bosque de Brasilia",
-     "resumo": "El hombre desaparecido logró llamar a sus colegas y enviar su ubicación, lo que guió la búsqueda. Equipos en tierra, la aeronave Resgate 08 y el perro Baruk lo encontraron a unos 180 metros de la carretera, consciente y orientado. Fue llevado a un hospital.",
-     "regiao": "Jardim Botánico (DF)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Firefighters and a search dog find a man lost in Brasília woodland",
-     "resumo": "The missing man managed to call colleagues and send his location, which guided the search. Ground teams, the Resgate 08 aircraft and search dog Baruk found him about 180 metres from the road, conscious and alert. He was taken to hospital.",
-     "regiao": "Jardim Botânico (DF)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/23/675x450/1_8119bf98-722c-40dd-bf31-5970604ce8e2-68288078.jpeg",
-   "credito": "Divulgação/CBMDF"
-  },
-  {
-   "id": "pirulito-usp-premio",
-   "titulo": "Pirulito que protege os dentes, criado na USP de Bauru, vence prêmio",
-   "resumo": "A equipe Semeando Sorrisos, da Faculdade de Odontologia de Bauru, ficou em 1º lugar no Prêmio Jovens Inovadores Sicredi. O pirulito não tem açúcar adicionado nem acidez e leva uma proteína que pode proteger contra a erosão dentária. A embalagem é de bagaço de cana e o palito tem sementes nativas para plantar.",
-   "categoria": "ciencia",
-   "regiao": "Bauru (SP)",
-   "data": "2026-11-23",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/universidade/pirulito-funcional-desenvolvido-na-usp-em-bauru-vence-premio-de-jovens-inovadores/",
-   "pais": "Brasil",
-   "lat": -22.32,
-   "lon": -49.06,
-   "i18n": {
-    "es": {
-     "titulo": "Una paleta que protege los dientes, creada en la USP de Bauru, gana un premio",
-     "resumo": "El equipo Semeando Sorrisos, de la Facultad de Odontología de Bauru, ganó el primer lugar del Premio Jóvenes Innovadores Sicredi. La paleta no tiene azúcar añadido ni acidez y lleva una proteína que puede proteger contra la erosión dental. El envase es de bagazo de caña y el palito tiene semillas nativas para plantar.",
-     "regiao": "Bauru (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Tooth-friendly lollipop from a Brazilian university wins innovation prize",
-     "resumo": "The Semeando Sorrisos team from the University of São Paulo's dental school in Bauru took first place in the Sicredi Young Innovators Prize. The lollipop has no added sugar or acidity and contains a protein that may protect against tooth erosion. Its packaging is made from sugarcane bagasse and the stick holds native seeds to plant.",
-     "regiao": "Bauru (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261123_00_equipe_semeando_sorrisos_fob_usp.jpg",
-   "credito": "Arquivo pessoal"
-  },
-  {
-   "id": "feito-pipa-premios",
-   "titulo": "Filme cearense 'Feito Pipa' chega a 24 prêmios internacionais",
-   "resumo": "O longa de Allan Deberton, rodado em Quixadá, foi o favorito do público e da imprensa no 52º Festival de Cinema Ibero-Americano de Huelva, na Espanha. Desde a estreia em Berlim, em fevereiro, já soma 24 prêmios e segue na corrida pelo Oscar 2027.",
-   "categoria": "sociedade",
-   "regiao": "Quixadá (CE)",
-   "data": "2026-11-22",
-   "fonte": "O Povo",
-   "url": "https://www.opovo.com.br/vidaearte/cinema/2026/11/22/filme-cearense-feito-pipa-vence-mais-dois-premios-internacionais-na-corrida-para-o-oscar-2027.html",
-   "pais": "Brasil",
-   "lat": -4.97,
-   "lon": -38.97,
-   "i18n": {
-    "es": {
-     "titulo": "La película cearense 'Feito Pipa' llega a 24 premios internacionales",
-     "resumo": "El largometraje de Allan Deberton, rodado en Quixadá, fue el favorito del público y la prensa en el 52º Festival de Cine Iberoamericano de Huelva, en España. Desde su estreno en Berlín, en febrero, suma 24 premios y sigue en la carrera por el Oscar 2027.",
-     "regiao": "Quixadá (CE)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Brazilian film 'Feito Pipa' reaches 24 international awards",
-     "resumo": "Allan Deberton's feature, shot in Quixadá in north-east Brazil, was the audience and press favourite at the 52nd Huelva Ibero-American Film Festival in Spain. Since its Berlin premiere in February it has won 24 awards and remains in the race for the 2027 Oscars.",
-     "regiao": "Quixadá (CE)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/22/856x642/1_feito_pipa_vence_premiacao_na_espanha-43183003.jpeg",
-   "credito": "Reprodução/Instagram @gugusworldfilm"
-  },
-  {
-   "id": "bolsas-google-brasileiros",
-   "titulo": "Oito brasileiros ganham bolsas de doutorado do Google",
-   "resumo": "Eles estão entre os 148 pesquisadores de 38 países selecionados para o programa de bolsas de doutorado do Google.org, que apoia estudantes em áreas de pesquisa de ponta.",
-   "categoria": "sociedade",
-   "regiao": "Nacional",
-   "data": "2026-11-23",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/euestudante/trabalho-e-formacao/2026/11/7542840-oito-brasileiros-conquistam-bolsas-de-doutorado-em-programa-do-google.html",
-   "pais": "Brasil",
-   "lat": -14.2,
-   "lon": -51.9,
-   "i18n": {
-    "es": {
-     "titulo": "Ocho brasileños ganan becas de doctorado de Google",
-     "resumo": "Están entre los 148 investigadores de 38 países seleccionados para el programa de becas de doctorado de Google.org, que apoya a estudiantes en áreas de investigación de punta.",
-     "regiao": "Nacional",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Eight Brazilians win Google PhD fellowships",
-     "resumo": "They are among 148 researchers from 38 countries selected for Google.org's PhD fellowship programme, which supports students in cutting-edge research fields.",
-     "regiao": "Nationwide",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/23/675x450/1_pexels-yankrukov-8199625-68284454.jpg",
-   "credito": "Imagem ilustrativa: Pexels"
-  },
-  {
-   "id": "surf-adaptado-finn-banks",
-   "titulo": "Surfista de 16 anos com baixa visão é campeão mundial",
-   "resumo": "O australiano Finn Banks, que nasceu com baixa visão por causa do albinismo, ganhou o ouro na categoria de deficiência visual do Mundial de Surfe Adaptado. Ele marcou 19,57 de 20 pontos na final e era o mais jovem da seleção australiana.",
-   "categoria": "sociedade",
-   "regiao": "Palm Desert, Califórnia",
-   "data": "2026-11-24",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-24/finn-banks-world-para-surfing-championship-gold/107419884",
-   "pais": "Estados Unidos",
-   "destaque": true,
-   "lat": 33.72,
-   "lon": -116.37,
-   "i18n": {
-    "es": {
-     "titulo": "Un surfista de 16 años con baja visión es campeón mundial",
-     "resumo": "El australiano Finn Banks, que nació con baja visión por albinismo, ganó el oro en la categoría de discapacidad visual del Mundial de Para Surf. Logró 19,57 de 20 puntos en la final y era el más joven del equipo australiano.",
-     "regiao": "Palm Desert, California",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "16-year-old surfer with low vision becomes world champion",
-     "resumo": "Australian Finn Banks, born with low vision due to albinism, won gold in the vision-impairment division at the World Para Surfing Championship. He scored 19.57 out of 20 in the final and was the youngest member of Australia's team.",
-     "regiao": "Palm Desert, California",
-     "pais": "USA"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/febf011300903ebb17c74696eb5c8782?impolicy=wcms_watermark_news&cropH=1688&cropW=3000&xPos=0&yPos=156&width=862&height=485&imformat=generic",
-   "credito": "ISA/Sean Evans"
-  },
-  {
-   "id": "mensagem-gravidade",
-   "titulo": "Físicos enviam a primeira mensagem usando a gravidade",
-   "resumo": "Pesquisadores da Universidade de Queensland transmitiram a palavra 'Gravity' movendo o contrapeso de um elevador, de cerca de 1,8 tonelada. A variação gravitacional foi captada por sensores e a transmissão levou 63 minutos. É uma prova de conceito, ainda longe de uso prático.",
-   "categoria": "ciencia",
-   "regiao": "Brisbane",
-   "data": "2026-11-22",
-   "fonte": "New Atlas",
-   "url": "https://newatlas.com/technology/gravity-unstoppable-messages-first-time/",
-   "pais": "Austrália",
-   "lat": -27.5,
-   "lon": 153.01,
-   "i18n": {
-    "es": {
-     "titulo": "Físicos envían el primer mensaje usando la gravedad",
-     "resumo": "Investigadores de la Universidad de Queensland transmitieron la palabra 'Gravity' moviendo el contrapeso de un ascensor, de unas 1,8 toneladas. Sensores captaron la variación gravitatoria y la transmisión tomó 63 minutos. Es una prueba de concepto, aún lejos de un uso práctico.",
-     "regiao": "Brisbane",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Physicists send the first message using gravity",
-     "resumo": "University of Queensland researchers transmitted the word 'Gravity' by moving a lift counterweight of about 1.8 tonnes. Sensors picked up the gravitational change and the transmission took 63 minutes. It is a proof of concept, still far from practical use.",
-     "regiao": "Brisbane",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://assets.newatlas.com/dims4/default/9c45b54/2147483647/strip/true/crop/2000x1050+0+225/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2F82%2F08%2F3d4afebc4db6a14da0d06aee94fe%2Fhand-apple-gravity.jpg&na.image_optimisation=0",
-   "credito": "Ilustração: sharkido/Pexels/Canva"
-  },
-  {
-   "id": "irmas-prespakis",
-   "titulo": "Irmãs fazem história no futebol australiano feminino",
-   "resumo": "Georgie Prespakis ganhou o prêmio de melhor jogadora da liga AFLW de 2026, que sua irmã Maddy já tinha vencido em 2020. Elas são as primeiras irmãs a conquistar o troféu. Em 2020, foi Georgie quem entregou o prêmio à irmã, no quintal de casa, durante a pandemia.",
-   "categoria": "sociedade",
-   "regiao": "Melbourne",
-   "data": "2026-11-24",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-24/georgie-and-maddy-prespakis-first-sisters-to-win-w-award/107418936",
-   "pais": "Austrália",
-   "lat": -37.81,
-   "lon": 144.96,
-   "i18n": {
-    "es": {
-     "titulo": "Dos hermanas hacen historia en el fútbol australiano femenino",
-     "resumo": "Georgie Prespakis ganó el premio a la mejor jugadora de la liga AFLW 2026, que su hermana Maddy ya había ganado en 2020. Son las primeras hermanas en conseguir el trofeo. En 2020, fue Georgie quien le entregó el premio a su hermana, en el patio de casa, durante la pandemia.",
-     "regiao": "Melbourne",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Sisters make history in Australian women's football",
-     "resumo": "Georgie Prespakis won the 2026 AFLW best-and-fairest award, which her sister Maddy won in 2020. They are the first sisters to both win it. In 2020 it was Georgie who handed Maddy the award in their backyard during the pandemic.",
-     "regiao": "Melbourne",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/7f666460beaaee8fba1c61bef9665f3b?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=2&width=862&height=485&imformat=generic",
-   "credito": "Getty: Morgan Hancock"
-  },
-  {
-   "id": "flor-cadaver-polen",
-   "titulo": "Cientistas guardam pólen da flor-cadáver para protegê-la da extinção",
-   "resumo": "Pela primeira vez, pólen da rara flor-cadáver foi armazenado no banco de sementes de Victoria, na Austrália, colhido de uma planta do Jardim Botânico de Geelong. Restam menos de mil dessas flores na natureza, na Indonésia, e cada uma floresce só por dois dias a cada 7 a 10 anos.",
-   "categoria": "meio-ambiente",
-   "regiao": "Geelong, Victoria",
-   "data": "2026-11-22",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-22/behind-the-scenes-scientists-are-working-to-bring-corpse-flowers/107402372",
-   "pais": "Austrália",
-   "lat": -38.15,
-   "lon": 144.36,
-   "i18n": {
-    "es": {
-     "titulo": "Científicos guardan polen de la flor cadáver para protegerla de la extinción",
-     "resumo": "Por primera vez, se almacenó polen de la rara flor cadáver en el banco de semillas de Victoria, en Australia, tomado de una planta del Jardín Botánico de Geelong. Quedan menos de mil de estas flores en la naturaleza, en Indonesia, y cada una florece solo dos días cada 7 a 10 años.",
-     "regiao": "Geelong, Victoria",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Scientists bank corpse flower pollen to guard against extinction",
-     "resumo": "For the first time, pollen from the rare corpse flower has been stored at Victoria's conservation seedbank in Australia, collected from a plant at Geelong Botanic Gardens. Fewer than 1,000 remain in the wild in Indonesia, and each blooms for only two days every 7 to 10 years.",
-     "regiao": "Geelong, Victoria",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/3eb6ba03ab0a793b58710028592da747?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
-   "credito": "ABC News: Jonathon Kendall"
-  },
-  {
-   "id": "fazenda-zambia-desperdicio",
-   "titulo": "Fazenda na Zâmbia transforma sobras de refeições de avião em adubo",
-   "resumo": "A Loctaguna Organics, perto de Lusaka, fornece verduras a uma empresa que prepara refeições para companhias aéreas e recebe de volta os restos de comida, que viram composto e ração para porcos. Segundo a fazenda, isso cortou em 35% os custos com lixo e em 45% os gastos com ração.",
-   "categoria": "meio-ambiente",
-   "regiao": "Lusaka",
-   "data": "2026-11-23",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/from-farm-to-airline-plates-a-zambia-farm-closes-its-food-waste-loop/",
-   "pais": "Zâmbia",
-   "lat": -15.42,
-   "lon": 28.28,
-   "i18n": {
-    "es": {
-     "titulo": "Una granja de Zambia convierte las sobras de comidas de avión en abono",
-     "resumo": "Loctaguna Organics, cerca de Lusaka, provee verduras a una empresa de catering aéreo y recibe de vuelta los restos de comida, que se convierten en compost y alimento para cerdos. Según la granja, eso redujo un 35% los costos de basura y un 45% el gasto en alimento animal.",
-     "regiao": "Lusaka",
-     "pais": "Zambia"
-    },
-    "en": {
-     "titulo": "Zambian farm turns airline meal leftovers into compost",
-     "resumo": "Loctaguna Organics, near Lusaka, supplies vegetables to an airline caterer and takes back food waste, which becomes compost and pig feed. The farm says this cut its waste-collection costs by 35% and pig-feed costs by 45%.",
-     "regiao": "Lusaka",
-     "pais": "Zambia"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/23095912/LOCTA11-1200x800.jpg",
-   "credito": "Chisapi Kumbutso/Mongabay"
-  },
-  {
-   "id": "leucemia-origem-50-anos",
-   "titulo": "Leucemia pode começar 50 anos antes do diagnóstico, abrindo caminho para prevenção",
-   "resumo": "Analisando amostras de sangue guardadas por décadas, cientistas de Cambridge e da UCL viram que, em dois terços das mulheres que tiveram leucemia mieloide aguda, a primeira mutação surgiu antes dos 20 anos. A descoberta pode ajudar a detectar e prevenir a doença, mas ainda exige testes clínicos.",
+   "id": "dengue-wolbachia-bh",
+   "titulo": "Mosquito com bactéria reduz em 68% as infecções por dengue em BH",
+   "resumo": "Estudo com 5.757 crianças de 6 a 11 anos em Belo Horizonte mostrou que a soltura de mosquitos Aedes aegypti com a bactéria Wolbachia cortou as infecções por dengue em 68,5% e por chikungunya em 73,3%. A pesquisa é liderada pela UFMG, com Fiocruz e o World Mosquito Program.",
    "categoria": "saude",
-   "regiao": "Cambridge",
-   "data": "2026-11-23",
-   "fonte": "ScienceDaily",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm",
-   "pais": "Reino Unido",
-   "lat": 52.2,
-   "lon": 0.12,
-   "i18n": {
-    "es": {
-     "titulo": "La leucemia puede empezar 50 años antes del diagnóstico, lo que abre paso a la prevención",
-     "resumo": "Analizando muestras de sangre guardadas durante décadas, científicos de Cambridge y la UCL vieron que, en dos tercios de las mujeres que tuvieron leucemia mieloide aguda, la primera mutación apareció antes de los 20 años. El hallazgo puede ayudar a detectar y prevenir la enfermedad, pero aún requiere ensayos clínicos.",
-     "regiao": "Cambridge",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "Leukaemia can begin 50 years before diagnosis, opening a path to prevention",
-     "resumo": "Using blood samples stored for decades, Cambridge and UCL scientists found that in two-thirds of women who developed acute myeloid leukaemia, the first mutation appeared before age 20. The finding could help detect and prevent the disease, though clinical trials are still needed.",
-     "regiao": "Cambridge",
-     "pais": "UK"
-    }
-   },
-   "img": "https://www.sciencedaily.com/images/1920/cancer-cell-amidst-red-blood-cells.webp",
-   "credito": "Imagem ilustrativa: Shutterstock"
-  },
-  {
-   "id": "lobos-mirtilos",
-   "titulo": "Lobos ajudam mirtilos silvestres a brotar",
-   "resumo": "Sementes de mirtilo que passaram pelo sistema digestivo de lobos germinaram em 96% dos casos, contra 69% das demais, e brotaram mais rápido. O estudo, feito no norte de Minnesota, mostra que os lobos também ajudam a espalhar plantas pela floresta.",
-   "categoria": "animais",
-   "regiao": "Minnesota",
-   "data": "2026-11-23",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/wolves-help-wild-blueberries-grow-us-study-finds/",
-   "pais": "Estados Unidos",
-   "lat": 48.5,
-   "lon": -92.8,
-   "i18n": {
-    "es": {
-     "titulo": "Los lobos ayudan a brotar a los arándanos silvestres",
-     "resumo": "Las semillas de arándano que pasaron por el sistema digestivo de lobos germinaron en un 96% de los casos, frente al 69% de las demás, y brotaron más rápido. El estudio, en el norte de Minnesota, muestra que los lobos también ayudan a dispersar plantas por el bosque.",
-     "regiao": "Minnesota",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Wolves help wild blueberries sprout",
-     "resumo": "Blueberry seeds that passed through wolves germinated 96% of the time, against 69% for other seeds, and sprouted faster. The study in northern Minnesota shows wolves also help spread plants through the forest.",
-     "regiao": "Minnesota",
-     "pais": "USA"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2025/11/24102253/RSGray_wolf_Minnesota_dalliedee_CC_BY-2-1200x800.jpg",
-   "credito": "W Eugene Slowik Jr/dalliedee (CC BY 2.0)"
-  },
-  {
-   "id": "trilha-fardos-feno",
-   "titulo": "Fazendeiros criam trilha de esculturas de feno para reerguer região após incêndios",
-   "resumo": "Vinte e dois agricultores do Upper Murray, na Austrália, montaram esculturas com fardos de feno inspiradas em livros infantis. A trilha quer atrair turistas de volta a uma região atingida por grandes incêndios, e os organizadores esperam repeti-la todo ano.",
-   "categoria": "sociedade",
-   "regiao": "Upper Murray, Victoria",
+   "regiao": "Belo Horizonte (MG)",
    "data": "2026-11-22",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-22/upper-murray-hay-bale-art-trail-fire-flood-recovery/107390424",
-   "pais": "Austrália",
-   "lat": -36.19,
-   "lon": 147.89,
-   "i18n": {
-    "es": {
-     "titulo": "Granjeros crean un sendero de esculturas de heno para reactivar su región tras los incendios",
-     "resumo": "Veintidós agricultores del Upper Murray, en Australia, armaron esculturas con fardos de heno inspiradas en libros infantiles. El sendero busca atraer de nuevo a turistas a una región golpeada por grandes incendios, y los organizadores esperan repetirlo cada año.",
-     "regiao": "Upper Murray, Victoria",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Farmers build a hay-bale art trail to revive a fire-hit region",
-     "resumo": "Twenty-two farmers in Victoria's Upper Murray built hay-bale sculptures themed on children's books. The trail aims to bring tourists back to a region hit by major bushfires, and organisers hope to make it annual.",
-     "regiao": "Upper Murray, Victoria",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/2171bcc3b4223224c01a67bdab5690b7?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
-   "credito": "ABC Rural: Annie Brown"
-  },
-  {
-   "id": "esgoto-sao-carlos-fotonica",
-   "titulo": "Técnica a laser do agro vai analisar o esgoto de São Carlos",
-   "resumo": "Um novo centro inaugurado no Instituto de Química da USP vai usar fotônica e inteligência artificial para detectar metais tóxicos e contaminantes no esgoto urbano. A parceria reúne Embrapa Instrumentação, USP, UFSCar e o SAAE, com cerca de R$ 10 milhões da Fapesp em cinco anos.",
-   "categoria": "ciencia",
-   "regiao": "São Carlos (SP)",
-   "data": "2026-11-21",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/tecnica-usada-no-agro-vai-analisar-o-esgoto-urbano-de-sao-carlos",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/saude/mosquito-com-bacteria-reduziu-em-68-infeccoes-por-dengue-em-belo-horizonte/",
    "pais": "Brasil",
-   "lat": -22.02,
-   "lon": -47.89,
+   "destaque": true,
+   "lat": -19.92,
+   "lon": -43.94,
    "i18n": {
     "es": {
-     "titulo": "Una técnica láser del agro analizará las aguas residuales de São Carlos",
-     "resumo": "Un nuevo centro inaugurado en el Instituto de Química de la USP usará fotónica e inteligencia artificial para detectar metales tóxicos y contaminantes en las aguas residuales. Participan Embrapa Instrumentação, USP, UFSCar y el servicio local de agua, con unos 10 millones de reales de la Fapesp en cinco años.",
-     "regiao": "São Carlos (SP)",
+     "titulo": "Mosquitos con una bacteria reducen un 68% las infecciones por dengue en Belo Horizonte",
+     "resumo": "Un estudio con 5.757 niños de 6 a 11 años en Belo Horizonte mostró que liberar mosquitos Aedes aegypti con la bacteria Wolbachia redujo las infecciones por dengue un 68,5% y por chikungunya un 73,3%. La investigación la lidera la UFMG, con Fiocruz y el World Mosquito Program.",
+     "regiao": "Belo Horizonte (MG)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Laser technique from farming will screen São Carlos sewage",
-     "resumo": "A new centre at the University of São Paulo's chemistry institute will use photonics and artificial intelligence to detect toxic metals and contaminants in city sewage. Partners include Embrapa, USP, UFSCar and the local water utility, with about R$10 million from FAPESP over five years.",
-     "regiao": "São Carlos (SP)",
+     "titulo": "Bacteria-carrying mosquitoes cut dengue infections by 68% in Brazilian city",
+     "resumo": "A study of 5,757 children aged 6 to 11 in Belo Horizonte found that releasing Aedes aegypti mosquitoes carrying Wolbachia bacteria cut dengue infections by 68.5% and chikungunya by 73.3%. The research is led by UFMG with Fiocruz and the World Mosquito Program.",
+     "regiao": "Belo Horizonte (MG)",
      "pais": "Brazil"
     }
    },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/tecnica-usada-no-agro-vai-analisar-o-esgoto-urbano-de-sao-carlos/@@download/image/ufscar.jpg",
-   "credito": "Victor Otsuka/Embrapa"
+   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Mosquito-tigre-asiatico-ou-Aedes-albopictus-nesta-especie-apenas-as-femeas-picam.jpg?w=1200&h=630&crop=1",
+   "credito": "Imagem ilustrativa: Wikimedia Commons"
   },
   {
-   "id": "empreendedores-negros-15mi",
-   "titulo": "Brasil tem 15,8 milhões de empreendedores negros à frente de pequenos negócios",
-   "resumo": "Pessoas negras comandam cerca de 52% das micro e pequenas empresas do país, que somam 96% dos CNPJs ativos e mais da metade dos empregos formais. Entre os microempreendedores individuais, 45% são mulheres. O governo destaca projetos de capacitação e geração de renda.",
+   "id": "idoso-11-dias-mata-amapa",
+   "titulo": "Idoso com Alzheimer é encontrado vivo após 11 dias perdido na mata",
+   "resumo": "Janarino Ferreira dos Santos, de 74 anos, ex-garimpeiro, foi achado a cerca de 10 km de onde desapareceu no Amapá. Ele sobreviveu comendo frutas, bebendo água de poças e montando abrigos com folhas. Está internado, se recuperando de desidratação.",
    "categoria": "sociedade",
-   "regiao": "Nacional",
-   "data": "2026-11-20",
-   "fonte": "Agência Gov",
-   "url": "https://agenciagov.ebc.com.br/noticias/202611/brasil-tem-15-8-milhoes-de-empreendedores-negros-a-frente-de-pequenos-negocios",
+   "regiao": "Macapá (AP)",
+   "data": "2026-11-23",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/ex-garimpeiro-homem-com-alzheimer-sobrevive-11-dias-perdido-na-mata",
    "pais": "Brasil",
-   "lat": -15.6,
-   "lon": -47.6,
+   "lat": 0.03,
+   "lon": -51.07,
    "i18n": {
     "es": {
-     "titulo": "Brasil tiene 15,8 millones de emprendedores negros al frente de pequeños negocios",
-     "resumo": "Las personas negras dirigen cerca del 52% de las micro y pequeñas empresas del país, que suman el 96% de las empresas activas y más de la mitad del empleo formal. El 45% de los microemprendedores individuales son mujeres. El gobierno destaca proyectos de capacitación y generación de ingresos.",
-     "regiao": "Nacional",
+     "titulo": "Un anciano con Alzheimer es hallado con vida tras 11 días perdido en la selva",
+     "resumo": "Janarino Ferreira dos Santos, de 74 años, ex buscador de oro, fue hallado a unos 10 km de donde desapareció en Amapá. Sobrevivió comiendo frutas, bebiendo agua de charcos y armando refugios con hojas. Está internado, recuperándose de la deshidratación.",
+     "regiao": "Macapá (AP)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Brazil has 15.8 million Black entrepreneurs running small businesses",
-     "resumo": "Black Brazilians lead about 52% of the country's micro and small businesses, which make up 96% of active companies and more than half of formal jobs. Women are 45% of individual microentrepreneurs. The government highlights training and income projects.",
-     "regiao": "Nationwide",
+     "titulo": "Man with Alzheimer's found alive after 11 days lost in the forest",
+     "resumo": "Janarino Ferreira dos Santos, 74, a former gold prospector, was found about 10 km from where he went missing in Amapá, northern Brazil. He survived on fruit and puddle water and built shelters from leaves. He is in hospital recovering from dehydration.",
+     "regiao": "Macapá (AP)",
      "pais": "Brazil"
     }
    },
-   "img": "https://agenciagov.ebc.com.br/noticias/202611/brasil-tem-15-8-milhoes-de-empreendedores-negros-a-frente-de-pequenos-negocios/@@download/image/empreendedora_negra.jpeg",
-   "credito": "Divulgação/Secom/PR"
+   "img": "https://i.metroimg.com/5nFQJ56jps_6T9ogohljtiFg7IqpXOeqRDdA7MyN-po/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/idoso-desaparecido-floresta-3.jpg",
+   "credito": "Material cedido ao Metrópoles"
+  },
+  {
+   "id": "sarampo-sp-encerrado",
+   "titulo": "São Paulo encerra transmissão de sarampo após três meses sem casos",
+   "resumo": "A cadeia de casos importados de sarampo na capital paulista foi declarada encerrada. O Brasil teve 70 casos em 2026, 99,7% menos que em 2019, e mais de 18,5 milhões de doses de vacina foram distribuídas no ano.",
+   "categoria": "saude",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-24",
+   "fonte": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/transmissao-de-casos-importados-de-sarampo-e-encerrada-em-sao-paulo-apos-tres-meses-sem-novos-registros",
+   "pais": "Brasil",
+   "lat": -23.55,
+   "lon": -46.63,
+   "i18n": {
+    "es": {
+     "titulo": "São Paulo cierra la transmisión de sarampión tras tres meses sin casos",
+     "resumo": "La cadena de casos importados de sarampión en la ciudad de São Paulo fue declarada cerrada. Brasil tuvo 70 casos en 2026, un 99,7% menos que en 2019, y se distribuyeron más de 18,5 millones de dosis de vacuna en el año.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "São Paulo ends measles transmission after three months without cases",
+     "resumo": "The chain of imported measles cases in São Paulo city has been declared over. Brazil had 70 cases in 2026, 99.7% fewer than in 2019, and more than 18.5 million vaccine doses were distributed this year.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/transmissao-de-casos-importados-de-sarampo-e-encerrada-em-sao-paulo-apos-tres-meses-sem-novos-registros/sarampo.png/@@images/29a5878a-5f32-413f-bccc-912fe4baf4a4.png",
+   "credito": "Paulo Pinto/Agência Brasil"
+  },
+  {
+   "id": "alunos-monitoram-ar-sp",
+   "titulo": "Alunos do ensino médio viram monitores da poluição do ar em SP",
+   "resumo": "Estudantes de uma Etec no Ipiranga mediram a qualidade do ar por 10 meses e reuniram 2.100 leituras válidas. Eles escreveram uma cartilha com propostas como mais áreas verdes e controle de poeira, e o trabalho foi publicado em revista científica.",
+   "categoria": "meio-ambiente",
+   "regiao": "Ipiranga, São Paulo (SP)",
+   "data": "2026-11-24",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/ciencia-cidada-transforma-alunos-do-ensino-medio-em-monitores-da-poluicao-atmosferica-em-sao-paulo/59659",
+   "pais": "Brasil",
+   "lat": -23.59,
+   "lon": -46.61,
+   "i18n": {
+    "es": {
+     "titulo": "Estudiantes de secundaria se vuelven monitores de la contaminación del aire en São Paulo",
+     "resumo": "Alumnos de una escuela técnica en Ipiranga midieron la calidad del aire durante 10 meses y reunieron 2.100 lecturas válidas. Escribieron una guía con propuestas como más áreas verdes y control del polvo, y el trabajo se publicó en una revista científica.",
+     "regiao": "Ipiranga, São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "High-school students become air-pollution monitors in São Paulo",
+     "resumo": "Students at a technical school in São Paulo measured air quality for 10 months, gathering 2,100 valid readings. They wrote a booklet proposing more green space and dust control, and the work was published in a scientific journal.",
+     "regiao": "Ipiranga, São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59659.jpg",
+   "credito": "Thiago Luiz Salvadêo Santos"
+  },
+  {
+   "id": "ia-estrelas-quasares-usp",
+   "titulo": "IA da USP melhora identificação de estrelas, galáxias e quasares",
+   "resumo": "Pesquisadores do Instituto de Física da USP combinaram 1,5 milhão de objetos simulados com observações reais para treinar um modelo. A precisão para achar quasares distantes subiu de 0,40 para 0,68, ajudando grandes levantamentos do céu como o J-PAS.",
+   "categoria": "ciencia",
+   "regiao": "São Paulo (SP)",
+   "data": "2026-11-24",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/inteligencia-artificial-aprimora-identificacao-de-estrelas-galaxias-e-quasares/59671",
+   "pais": "Brasil",
+   "lat": -23.56,
+   "lon": -46.73,
+   "i18n": {
+    "es": {
+     "titulo": "Una IA de la USP mejora la identificación de estrellas, galaxias y cuásares",
+     "resumo": "Investigadores del Instituto de Física de la USP combinaron 1,5 millones de objetos simulados con observaciones reales para entrenar un modelo. La precisión para hallar cuásares lejanos subió de 0,40 a 0,68, lo que ayuda a grandes relevamientos del cielo como J-PAS.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Brazilian AI improves identification of stars, galaxies and quasars",
+     "resumo": "Researchers at the University of São Paulo combined 1.5 million simulated objects with real observations to train a model. Its accuracy at finding distant quasars rose from 0.40 to 0.68, helping large sky surveys such as J-PAS.",
+     "regiao": "São Paulo (SP)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59671.jpg",
+   "credito": "Shutterstock"
+  },
+  {
+   "id": "quilombola-medicina-ufpe",
+   "titulo": "Justiça garante a quilombola vaga na seleção de Medicina da UFPE",
+   "resumo": "O TRF-5 decidiu por unanimidade que a autodeclaração e a certidão da Fundação Palmares bastam para garantir a inscrição de quilombola do Quilombo Portão do Gelo, de Olinda, na seleção. A UFPE a tinha recusado por falta de um documento do Incra.",
+   "categoria": "sociedade",
+   "regiao": "Recife (PE)",
+   "data": "2026-11-24",
+   "fonte": "Terra",
+   "url": "https://www.terra.com.br/noticias/brasil/cidades/trf-5-garante-participacao-de-quilombola-em-selecao-para-medicina-da-ufpe-pelo-pronera,03e50a5cb473bdba554f886c1f648f40pwgy1d41.html",
+   "pais": "Brasil",
+   "lat": -8.05,
+   "lon": -34.88,
+   "i18n": {
+    "es": {
+     "titulo": "La Justicia garantiza a quilombola un lugar en la selección de Medicina de la UFPE",
+     "resumo": "El tribunal TRF-5 decidió por unanimidad que la autodeclaración y el certificado de la Fundación Palmares bastan para garantizar la inscripción de quilombola del Quilombo Portão do Gelo, de Olinda, en la selección. La UFPE la había rechazado por falta de un documento del Incra.",
+     "regiao": "Recife (PE)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Court secures quilombola applicant's place in medical school selection",
+     "resumo": "A federal appeals court ruled unanimously that self-declaration and a Palmares Foundation certificate are enough to secure an application from the Portão do Gelo quilombo in Olinda to the university's medicine selection. The university had rejected it for lacking another document.",
+     "regiao": "Recife (PE)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/24/570296728-romildo-foto-dividida-67.png",
+   "credito": "Portal de Prefeitura"
+  },
+  {
+   "id": "kiwis-voltam-wellington",
+   "titulo": "Kiwis voltam às colinas de Wellington após mais de 150 anos",
+   "resumo": "Mais de 250 kiwis foram reintroduzidos desde 2022 num projeto liderado por maoris, e a população já passa de 300 aves, incluindo filhotes nascidos na natureza. Com mais de 5.300 armadilhas para predadores, a sobrevivência dos filhotes supera 90%.",
+   "categoria": "animais",
+   "regiao": "Wellington",
+   "data": "2026-11-24",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/short-article/2026/11/kiwi-return-to-wellington-hills-after-150-years-in-maori-led-conservation-milestone/",
+   "pais": "Nova Zelândia",
+   "destaque": true,
+   "lat": -41.29,
+   "lon": 174.78,
+   "i18n": {
+    "es": {
+     "titulo": "Los kiwis vuelven a las colinas de Wellington después de más de 150 años",
+     "resumo": "Desde 2022 se reintrodujeron más de 250 kiwis en un proyecto liderado por maoríes, y la población ya supera las 300 aves, con pollos nacidos en libertad. Gracias a más de 5.300 trampas para depredadores, la supervivencia de los pollos supera el 90%.",
+     "regiao": "Wellington",
+     "pais": "Nueva Zelanda"
+    },
+    "en": {
+     "titulo": "Kiwi return to Wellington's hills after more than 150 years",
+     "resumo": "More than 250 kiwi have been reintroduced since 2022 in a Māori-led project, and the population now exceeds 300 birds, including wild-hatched chicks. With over 5,300 predator traps, chick survival is above 90%.",
+     "regiao": "Wellington",
+     "pais": "New Zealand"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/24111922/Little-spotted_kiwi_Apteryx_owenii_4000-1200x800.jpg",
+   "credito": "Kimberley Collins/Wikimedia Commons (CC BY-SA 4.0)"
+  },
+  {
+   "id": "mulheres-arvores-bolivia",
+   "titulo": "Mulheres indígenas replantam florestas nativas para proteger a água nos Andes",
+   "resumo": "Na Bolívia, um projeto de reflorestamento com a árvore nativa kewiña já plantou quase 500 mil mudas em seis comunidades quéchuas. Um grupo de cerca de 25 mulheres se formou em torno do trabalho, que também trouxe aulas de alfabetização e uma creche.",
+   "categoria": "meio-ambiente",
+   "regiao": "Cochabamba",
+   "data": "2026-11-24",
+   "fonte": "Mongabay",
+   "url": "https://news.mongabay.com/2026/11/in-the-bolivian-andes-indigenous-women-plant-native-trees-to-restore-water-sources/",
+   "pais": "Bolívia",
+   "lat": -17.3,
+   "lon": -66.2,
+   "i18n": {
+    "es": {
+     "titulo": "Mujeres indígenas replantan bosques nativos para proteger el agua en los Andes",
+     "resumo": "En Bolivia, un proyecto de reforestación con el árbol nativo kewiña ya plantó casi 500.000 plantines en seis comunidades quechuas. Un grupo de unas 25 mujeres se formó en torno al trabajo, que también trajo clases de alfabetización y una guardería.",
+     "regiao": "Cochabamba",
+     "pais": "Bolivia"
+    },
+    "en": {
+     "titulo": "Indigenous women replant native forests to protect water in the Andes",
+     "resumo": "In Bolivia, a reforestation project with the native kewiña tree has planted nearly 500,000 seedlings across six Quechua communities. A group of about 25 women formed around the work, which also brought literacy classes and a daycare centre.",
+     "regiao": "Cochabamba",
+     "pais": "Bolivia"
+    }
+   },
+   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/24145917/P1388368-1200x800.jpg",
+   "credito": "Benjamin Swift/Mongabay"
+  },
+  {
+   "id": "golfinhos-amizade-vida-longa",
+   "titulo": "Golfinhos com amizades estáveis vivem mais, mostra estudo",
+   "resumo": "Pesquisadores da Universidade de Queensland analisaram 40 anos de dados sobre cerca de 400 golfinhos selvagens em Shark Bay. Os que mantinham companheiros constantes tendiam a viver mais. O golfinho mais velho conhecido tem 53 anos.",
+   "categoria": "animais",
+   "regiao": "Shark Bay, Austrália Ocidental",
+   "data": "2026-11-25",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-25/queensland-dolphin-friendships-new-research/107421030",
+   "pais": "Austrália",
+   "lat": -25.6,
+   "lon": 113.6,
+   "i18n": {
+    "es": {
+     "titulo": "Los delfines con amistades estables viven más, según un estudio",
+     "resumo": "Investigadores de la Universidad de Queensland analizaron 40 años de datos sobre unos 400 delfines salvajes en Shark Bay. Los que mantenían compañeros constantes tendían a vivir más. El delfín más viejo conocido tiene 53 años.",
+     "regiao": "Shark Bay, Australia Occidental",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Dolphins with stable friendships live longer, study finds",
+     "resumo": "University of Queensland researchers analysed 40 years of data on about 400 wild dolphins in Shark Bay. Those with consistent companions tended to live longer. The oldest known dolphin is 53.",
+     "regiao": "Shark Bay, Western Australia",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/529e4b2fe4f5294d1bea26a5daa36602?impolicy=wcms_watermark_news&cropH=2160&cropW=3840&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "Shark Bay Dolphin Research Project"
+  },
+  {
+   "id": "euclid-quasar-recorde",
+   "titulo": "Telescópio Euclid encontra o quasar mais distante já visto",
+   "resumo": "O quasar foi observado como era 630 milhões de anos após o Big Bang e abriga um buraco negro de cerca de 360 milhões de massas solares, confirmado pelo telescópio Webb. O Euclid já achou 12 quasares tão distantes, mais que dobrando o número conhecido.",
+   "categoria": "ciencia",
+   "regiao": "Espaço",
+   "data": "2026-11-24",
+   "fonte": "ESA",
+   "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years",
+   "pais": "Espaço",
+   "i18n": {
+    "es": {
+     "titulo": "El telescopio Euclid encuentra el cuásar más lejano jamás visto",
+     "resumo": "El cuásar se observó tal como era 630 millones de años después del Big Bang y alberga un agujero negro de unos 360 millones de masas solares, confirmado por el telescopio Webb. Euclid ya halló 12 cuásares tan lejanos, más del doble de los conocidos.",
+     "regiao": "Espacio",
+     "pais": "Espacio"
+    },
+    "en": {
+     "titulo": "Euclid telescope finds the most distant quasar yet",
+     "resumo": "The quasar is seen as it was 630 million years after the Big Bang and hosts a black hole of about 360 million solar masses, confirmed by the Webb telescope. Euclid has now found 12 quasars this far away, more than doubling the known count.",
+     "regiao": "Space",
+     "pais": "Space"
+    }
+   },
+   "img": "https://media.esa.int/global/public/common/image/2026/11/402420/image-thumb__402420__social_share/j1504-6252-euclid-press-master-16bit-jpg.f3fae437.jpg",
+   "credito": "ESA/Euclid"
+  },
+  {
+   "id": "bepicolombo-orbita-mercurio",
+   "titulo": "Sonda BepiColombo entra em órbita de Mercúrio após oito anos de viagem",
+   "resumo": "A missão europeia e japonesa chegou à órbita de Mercúrio mesmo com um problema de software durante a manobra, e a ESA diz que não serão necessárias correções extras. As duas sondas científicas se separam em dezembro, e as observações começam em abril de 2027.",
+   "categoria": "ciencia",
+   "regiao": "Espaço",
+   "data": "2026-11-23",
+   "fonte": "ESA",
+   "url": "https://www.esa.int/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge",
+   "pais": "Espaço",
+   "i18n": {
+    "es": {
+     "titulo": "La sonda BepiColombo entra en órbita de Mercurio tras ocho años de viaje",
+     "resumo": "La misión europea y japonesa alcanzó la órbita de Mercurio pese a un fallo de software durante la maniobra, y la ESA dice que no harán falta correcciones extra. Las dos sondas científicas se separarán en diciembre y las observaciones empiezan en abril de 2027.",
+     "regiao": "Espacio",
+     "pais": "Espacio"
+    },
+    "en": {
+     "titulo": "BepiColombo enters Mercury orbit after an eight-year journey",
+     "resumo": "The European-Japanese mission reached Mercury orbit despite a software problem during the manoeuvre, and ESA says no extra burns are needed. The two science orbiters separate in December, with observations starting in April 2027.",
+     "regiao": "Space",
+     "pais": "Space"
+    }
+   },
+   "img": "https://media.esa.int/global/public/common/image/2026/11/402726/image-thumb__402726__social_share/bepicolombo-mercury-orbit-insertion-020.3b458e55.jpg",
+   "credito": "Ilustração: ESA"
+  },
+  {
+   "id": "gel-querosene-foguetes",
+   "titulo": "Gel de querosene criado no Canadá pode tornar foguetes mais seguros",
+   "resumo": "Pesquisadores da Universidade Concordia engrossaram querosene com lecitina, criando um gel quase sólido em repouso que flui quando pressionado. As amostras ficaram estáveis por mais de um ano. Ainda faltam testes reais de propulsão.",
+   "categoria": "tecnologia",
+   "regiao": "Montreal",
+   "data": "2026-11-24",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/24/un-gel-de-queroseno-desarrollado-en-canada-podria-transformar-la-propulsion-de-cohetes-y-satelites/",
+   "pais": "Canadá",
+   "lat": 45.5,
+   "lon": -73.58,
+   "i18n": {
+    "es": {
+     "titulo": "Un gel de queroseno creado en Canadá podría hacer más seguros los cohetes",
+     "resumo": "Investigadores de la Universidad Concordia espesaron queroseno con lecitina y crearon un gel casi sólido en reposo que fluye al aplicarle fuerza. Las muestras se mantuvieron estables más de un año. Aún faltan pruebas reales de propulsión.",
+     "regiao": "Montreal",
+     "pais": "Canadá"
+    },
+    "en": {
+     "titulo": "Kerosene gel developed in Canada could improve rocket propulsion",
+     "resumo": "Concordia University researchers thickened kerosene with lecithin, creating a gel that is nearly solid at rest but flows under force. Samples stayed stable for more than a year. Real propulsion tests are still needed.",
+     "regiao": "Montreal",
+     "pais": "Canada"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/TCNLZGAWORC2DFZVBSKW7DY3EA.png?auth=f70d3632964f7953a698cc0656e12b51a86a8445d858a73e70a7d4f6183e1099&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem ilustrativa: Infobae"
+  },
+  {
+   "id": "tardigrados-monte-submarino",
+   "titulo": "Cientistas descobrem duas novas espécies de tardígrados no Atlântico",
+   "resumo": "Os minúsculos animais, com menos de 0,2 mm, foram achados num monte submarino perto de Cabo Verde. O topo do monte abrigou 20 tipos de tardígrados, contra só 2 numa área profunda próxima, o que reforça o papel desses montes como oásis de biodiversidade.",
+   "categoria": "animais",
+   "regiao": "Monte submarino Senghor",
+   "data": "2026-11-23",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/23/hallan-dos-nuevas-especies-de-animales-microscopicos-en-una-montana-submarina-frente-a-africa-occidental/",
+   "pais": "Oceano Atlântico",
+   "lat": 15.0,
+   "lon": -22.0,
+   "i18n": {
+    "es": {
+     "titulo": "Científicos descubren dos nuevas especies de tardígrados en el Atlántico",
+     "resumo": "Los diminutos animales, de menos de 0,2 mm, se hallaron en un monte submarino cerca de Cabo Verde. La cima del monte albergó 20 tipos de tardígrados, frente a solo 2 en una zona profunda cercana, lo que refuerza el papel de estos montes como oasis de biodiversidad.",
+     "regiao": "Monte submarino Senghor",
+     "pais": "Océano Atlántico"
+    },
+    "en": {
+     "titulo": "Scientists discover two new tardigrade species in the Atlantic",
+     "resumo": "The tiny animals, under 0.2 mm long, were found on a seamount near Cape Verde. The summit held 20 kinds of tardigrade, against only 2 at a nearby deep site, reinforcing seamounts' role as biodiversity oases.",
+     "regiao": "Senghor Seamount",
+     "pais": "Atlantic Ocean"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/6PJU4PXF4FEGZEVQ6XIUCZ6IHI.png?auth=bb3758bbdd7c832ebf4fe05e80a55167c12f99cf71546f5b0d0804c8eee40340&smart=true&width=1200&height=630&quality=85",
+   "credito": "Estudo publicado em ZooKeys"
   }
  ]
 }
