@@ -1,380 +1,442 @@
 {
- "atualizado": "2026-11-25",
+ "atualizado": "2026-11-26",
  "noticias": [
   {
-   "id": "dengue-wolbachia-bh",
-   "titulo": "Mosquito com bactéria reduz em 68% as infecções por dengue em BH",
-   "resumo": "Estudo com 5.757 crianças de 6 a 11 anos em Belo Horizonte mostrou que a soltura de mosquitos Aedes aegypti com a bactéria Wolbachia cortou as infecções por dengue em 68,5% e por chikungunya em 73,3%. A pesquisa é liderada pela UFMG, com Fiocruz e o World Mosquito Program.",
+   "id": "terapia-cancer-pele-sus",
+   "titulo": "Tratamento de câncer de pele criado na USP é liberado para o SUS",
+   "resumo": "A terapia fotodinâmica desenvolvida no Instituto de Física de São Carlos da USP foi regulamentada para uso na rede pública. Segundo os pesquisadores, o método elimina cerca de 95% dos tumores tratados.",
    "categoria": "saude",
-   "regiao": "Belo Horizonte (MG)",
-   "data": "2026-11-22",
-   "fonte": "CNN Brasil",
-   "url": "https://www.cnnbrasil.com.br/saude/mosquito-com-bacteria-reduziu-em-68-infeccoes-por-dengue-em-belo-horizonte/",
+   "regiao": "São Carlos (SP)",
+   "data": "2026-11-24",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/atualidades/tecnologia-desenvolvida-na-usp-para-tratamento-de-cancer-de-pele-e-regulamentada-para-uso-no-sus/",
    "pais": "Brasil",
    "destaque": true,
-   "lat": -19.92,
-   "lon": -43.94,
+   "lat": -22.01,
+   "lon": -47.89,
    "i18n": {
     "es": {
-     "titulo": "Mosquitos con una bacteria reducen un 68% las infecciones por dengue en Belo Horizonte",
-     "resumo": "Un estudio con 5.757 niños de 6 a 11 años en Belo Horizonte mostró que liberar mosquitos Aedes aegypti con la bacteria Wolbachia redujo las infecciones por dengue un 68,5% y por chikungunya un 73,3%. La investigación la lidera la UFMG, con Fiocruz y el World Mosquito Program.",
-     "regiao": "Belo Horizonte (MG)",
+     "titulo": "Un tratamiento contra el cáncer de piel creado en la USP llega al sistema público de salud",
+     "resumo": "La terapia fotodinámica desarrollada en el Instituto de Física de São Carlos de la USP fue reglamentada para su uso en el sistema público brasileño. Según los investigadores, el método elimina cerca del 95% de los tumores tratados.",
+     "regiao": "São Carlos (SP)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Bacteria-carrying mosquitoes cut dengue infections by 68% in Brazilian city",
-     "resumo": "A study of 5,757 children aged 6 to 11 in Belo Horizonte found that releasing Aedes aegypti mosquitoes carrying Wolbachia bacteria cut dengue infections by 68.5% and chikungunya by 73.3%. The research is led by UFMG with Fiocruz and the World Mosquito Program.",
-     "regiao": "Belo Horizonte (MG)",
+     "titulo": "Skin cancer treatment developed at a Brazilian university approved for public health system",
+     "resumo": "The photodynamic therapy developed at the University of São Paulo's physics institute in São Carlos has been regulated for use in Brazil's public health system. According to the researchers, the method eliminates about 95% of treated tumours.",
+     "regiao": "São Carlos (SP)",
      "pais": "Brazil"
     }
    },
-   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Mosquito-tigre-asiatico-ou-Aedes-albopictus-nesta-especie-apenas-as-femeas-picam.jpg?w=1200&h=630&crop=1",
-   "credito": "Imagem ilustrativa: Wikimedia Commons"
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261116_pele.jpg",
+   "credito": "Imagem ilustrativa: Magnific"
   },
   {
-   "id": "idoso-11-dias-mata-amapa",
-   "titulo": "Idoso com Alzheimer é encontrado vivo após 11 dias perdido na mata",
-   "resumo": "Janarino Ferreira dos Santos, de 74 anos, ex-garimpeiro, foi achado a cerca de 10 km de onde desapareceu no Amapá. Ele sobreviveu comendo frutas, bebendo água de poças e montando abrigos com folhas. Está internado, se recuperando de desidratação.",
-   "categoria": "sociedade",
-   "regiao": "Macapá (AP)",
-   "data": "2026-11-23",
-   "fonte": "Metrópoles",
-   "url": "https://www.metropoles.com/brasil/ex-garimpeiro-homem-com-alzheimer-sobrevive-11-dias-perdido-na-mata",
-   "pais": "Brasil",
-   "lat": 0.03,
-   "lon": -51.07,
-   "i18n": {
-    "es": {
-     "titulo": "Un anciano con Alzheimer es hallado con vida tras 11 días perdido en la selva",
-     "resumo": "Janarino Ferreira dos Santos, de 74 años, ex buscador de oro, fue hallado a unos 10 km de donde desapareció en Amapá. Sobrevivió comiendo frutas, bebiendo agua de charcos y armando refugios con hojas. Está internado, recuperándose de la deshidratación.",
-     "regiao": "Macapá (AP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Man with Alzheimer's found alive after 11 days lost in the forest",
-     "resumo": "Janarino Ferreira dos Santos, 74, a former gold prospector, was found about 10 km from where he went missing in Amapá, northern Brazil. He survived on fruit and puddle water and built shelters from leaves. He is in hospital recovering from dehydration.",
-     "regiao": "Macapá (AP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://i.metroimg.com/5nFQJ56jps_6T9ogohljtiFg7IqpXOeqRDdA7MyN-po/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/idoso-desaparecido-floresta-3.jpg",
-   "credito": "Material cedido ao Metrópoles"
-  },
-  {
-   "id": "sarampo-sp-encerrado",
-   "titulo": "São Paulo encerra transmissão de sarampo após três meses sem casos",
-   "resumo": "A cadeia de casos importados de sarampo na capital paulista foi declarada encerrada. O Brasil teve 70 casos em 2026, 99,7% menos que em 2019, e mais de 18,5 milhões de doses de vacina foram distribuídas no ano.",
+   "id": "transplante-figado-sobrevida",
+   "titulo": "Transplante de fígado salva pacientes com falência de vários órgãos",
+   "resumo": "Estudo internacional com 995 pacientes em 63 centros, incluindo o Hospital das Clínicas da USP, mostrou que, um ano após o transplante, 88% estavam vivos. Entre os casos mais graves que não receberam o órgão, 88% morreram no mesmo período.",
    "categoria": "saude",
    "regiao": "São Paulo (SP)",
-   "data": "2026-11-24",
-   "fonte": "Ministério da Saúde",
-   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/transmissao-de-casos-importados-de-sarampo-e-encerrada-em-sao-paulo-apos-tres-meses-sem-novos-registros",
-   "pais": "Brasil",
-   "lat": -23.55,
-   "lon": -46.63,
-   "i18n": {
-    "es": {
-     "titulo": "São Paulo cierra la transmisión de sarampión tras tres meses sin casos",
-     "resumo": "La cadena de casos importados de sarampión en la ciudad de São Paulo fue declarada cerrada. Brasil tuvo 70 casos en 2026, un 99,7% menos que en 2019, y se distribuyeron más de 18,5 millones de dosis de vacuna en el año.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "São Paulo ends measles transmission after three months without cases",
-     "resumo": "The chain of imported measles cases in São Paulo city has been declared over. Brazil had 70 cases in 2026, 99.7% fewer than in 2019, and more than 18.5 million vaccine doses were distributed this year.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/transmissao-de-casos-importados-de-sarampo-e-encerrada-em-sao-paulo-apos-tres-meses-sem-novos-registros/sarampo.png/@@images/29a5878a-5f32-413f-bccc-912fe4baf4a4.png",
-   "credito": "Paulo Pinto/Agência Brasil"
-  },
-  {
-   "id": "alunos-monitoram-ar-sp",
-   "titulo": "Alunos do ensino médio viram monitores da poluição do ar em SP",
-   "resumo": "Estudantes de uma Etec no Ipiranga mediram a qualidade do ar por 10 meses e reuniram 2.100 leituras válidas. Eles escreveram uma cartilha com propostas como mais áreas verdes e controle de poeira, e o trabalho foi publicado em revista científica.",
-   "categoria": "meio-ambiente",
-   "regiao": "Ipiranga, São Paulo (SP)",
-   "data": "2026-11-24",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/ciencia-cidada-transforma-alunos-do-ensino-medio-em-monitores-da-poluicao-atmosferica-em-sao-paulo/59659",
-   "pais": "Brasil",
-   "lat": -23.59,
-   "lon": -46.61,
-   "i18n": {
-    "es": {
-     "titulo": "Estudiantes de secundaria se vuelven monitores de la contaminación del aire en São Paulo",
-     "resumo": "Alumnos de una escuela técnica en Ipiranga midieron la calidad del aire durante 10 meses y reunieron 2.100 lecturas válidas. Escribieron una guía con propuestas como más áreas verdes y control del polvo, y el trabajo se publicó en una revista científica.",
-     "regiao": "Ipiranga, São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "High-school students become air-pollution monitors in São Paulo",
-     "resumo": "Students at a technical school in São Paulo measured air quality for 10 months, gathering 2,100 valid readings. They wrote a booklet proposing more green space and dust control, and the work was published in a scientific journal.",
-     "regiao": "Ipiranga, São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://agencia.fapesp.br/files/post/59659.jpg",
-   "credito": "Thiago Luiz Salvadêo Santos"
-  },
-  {
-   "id": "ia-estrelas-quasares-usp",
-   "titulo": "IA da USP melhora identificação de estrelas, galáxias e quasares",
-   "resumo": "Pesquisadores do Instituto de Física da USP combinaram 1,5 milhão de objetos simulados com observações reais para treinar um modelo. A precisão para achar quasares distantes subiu de 0,40 para 0,68, ajudando grandes levantamentos do céu como o J-PAS.",
-   "categoria": "ciencia",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-24",
-   "fonte": "Agência FAPESP",
-   "url": "https://agencia.fapesp.br/inteligencia-artificial-aprimora-identificacao-de-estrelas-galaxias-e-quasares/59671",
+   "data": "2026-11-25",
+   "fonte": "Jornal da USP",
+   "url": "https://jornal.usp.br/ciencias/transplante-de-figado-aumenta-sobrevida-de-pacientes-com-falencia-de-multiplos-orgaos/",
    "pais": "Brasil",
    "lat": -23.56,
-   "lon": -46.73,
+   "lon": -46.67,
    "i18n": {
     "es": {
-     "titulo": "Una IA de la USP mejora la identificación de estrellas, galaxias y cuásares",
-     "resumo": "Investigadores del Instituto de Física de la USP combinaron 1,5 millones de objetos simulados con observaciones reales para entrenar un modelo. La precisión para hallar cuásares lejanos subió de 0,40 a 0,68, lo que ayuda a grandes relevamientos del cielo como J-PAS.",
+     "titulo": "El trasplante de hígado salva a pacientes con falla de varios órganos",
+     "resumo": "Un estudio internacional con 995 pacientes en 63 centros, incluido el Hospital das Clínicas de la USP, mostró que un año después del trasplante el 88% seguía con vida. Entre los casos más graves que no recibieron el órgano, el 88% murió en el mismo período.",
      "regiao": "São Paulo (SP)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Brazilian AI improves identification of stars, galaxies and quasars",
-     "resumo": "Researchers at the University of São Paulo combined 1.5 million simulated objects with real observations to train a model. Its accuracy at finding distant quasars rose from 0.40 to 0.68, helping large sky surveys such as J-PAS.",
+     "titulo": "Liver transplants save patients with multiple organ failure",
+     "resumo": "An international study of 995 patients at 63 centres, including the University of São Paulo's teaching hospital, found that 88% were alive a year after transplant. Among the most severe cases who did not receive an organ, 88% died in the same period.",
      "regiao": "São Paulo (SP)",
      "pais": "Brazil"
     }
    },
-   "img": "https://agencia.fapesp.br/files/post/59671.jpg",
-   "credito": "Shutterstock"
+   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261125_transplanterim.jpg",
+   "credito": "Imagem ilustrativa: Stéf -b./Pexels"
   },
   {
-   "id": "quilombola-medicina-ufpe",
-   "titulo": "Justiça garante a quilombola vaga na seleção de Medicina da UFPE",
-   "resumo": "O TRF-5 decidiu por unanimidade que a autodeclaração e a certidão da Fundação Palmares bastam para garantir a inscrição de quilombola do Quilombo Portão do Gelo, de Olinda, na seleção. A UFPE a tinha recusado por falta de um documento do Incra.",
-   "categoria": "sociedade",
-   "regiao": "Recife (PE)",
+   "id": "capivara-resgatada-brasilia",
+   "titulo": "Capivara perdida em estacionamento é resgatada e solta na mata",
+   "resumo": "A capivara foi encontrada andando entre carros no Setor de Rádio e TV Sul, em Brasília. A Polícia Militar Ambiental a capturou sem machucá-la e, sem ferimentos, ela foi solta numa área de mata adequada.",
+   "categoria": "animais",
+   "regiao": "Brasília (DF)",
    "data": "2026-11-24",
-   "fonte": "Terra",
-   "url": "https://www.terra.com.br/noticias/brasil/cidades/trf-5-garante-participacao-de-quilombola-em-selecao-para-medicina-da-ufpe-pelo-pronera,03e50a5cb473bdba554f886c1f648f40pwgy1d41.html",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/11/7543430-capivara-e-resgatada-em-estacionamento-no-setor-de-radio-e-tv-sul.html",
    "pais": "Brasil",
-   "lat": -8.05,
-   "lon": -34.88,
+   "lat": -15.79,
+   "lon": -47.9,
    "i18n": {
     "es": {
-     "titulo": "La Justicia garantiza a quilombola un lugar en la selección de Medicina de la UFPE",
-     "resumo": "El tribunal TRF-5 decidió por unanimidad que la autodeclaración y el certificado de la Fundación Palmares bastan para garantizar la inscripción de quilombola del Quilombo Portão do Gelo, de Olinda, en la selección. La UFPE la había rechazado por falta de un documento del Incra.",
-     "regiao": "Recife (PE)",
+     "titulo": "Rescatan a un carpincho perdido en un estacionamiento y lo liberan en el bosque",
+     "resumo": "El carpincho fue hallado caminando entre autos en un sector de oficinas de Brasilia. La Policía Militar Ambiental lo capturó sin lastimarlo y, sin heridas, fue liberado en una zona boscosa adecuada.",
+     "regiao": "Brasilia (DF)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Court secures quilombola applicant's place in medical school selection",
-     "resumo": "A federal appeals court ruled unanimously that self-declaration and a Palmares Foundation certificate are enough to secure an application from the Portão do Gelo quilombo in Olinda to the university's medicine selection. The university had rejected it for lacking another document.",
-     "regiao": "Recife (PE)",
+     "titulo": "Capybara lost in a car park is rescued and released into the woods",
+     "resumo": "The capybara was found wandering among parked cars in an office district of Brasília. Environmental police caught it without harm and, uninjured, it was released in suitable woodland.",
+     "regiao": "Brasília (DF)",
      "pais": "Brazil"
     }
    },
-   "img": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/11/24/570296728-romildo-foto-dividida-67.png",
-   "credito": "Portal de Prefeitura"
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/24/675x450/1_55671172753-59a7fc6b91-k-68290639.jpg",
+   "credito": "Marcelo Camargo/Agência Brasil"
   },
   {
-   "id": "kiwis-voltam-wellington",
-   "titulo": "Kiwis voltam às colinas de Wellington após mais de 150 anos",
-   "resumo": "Mais de 250 kiwis foram reintroduzidos desde 2022 num projeto liderado por maoris, e a população já passa de 300 aves, incluindo filhotes nascidos na natureza. Com mais de 5.300 armadilhas para predadores, a sobrevivência dos filhotes supera 90%.",
-   "categoria": "animais",
-   "regiao": "Wellington",
-   "data": "2026-11-24",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/short-article/2026/11/kiwi-return-to-wellington-hills-after-150-years-in-maori-led-conservation-milestone/",
-   "pais": "Nova Zelândia",
-   "destaque": true,
-   "lat": -41.29,
-   "lon": 174.78,
-   "i18n": {
-    "es": {
-     "titulo": "Los kiwis vuelven a las colinas de Wellington después de más de 150 años",
-     "resumo": "Desde 2022 se reintrodujeron más de 250 kiwis en un proyecto liderado por maoríes, y la población ya supera las 300 aves, con pollos nacidos en libertad. Gracias a más de 5.300 trampas para depredadores, la supervivencia de los pollos supera el 90%.",
-     "regiao": "Wellington",
-     "pais": "Nueva Zelanda"
-    },
-    "en": {
-     "titulo": "Kiwi return to Wellington's hills after more than 150 years",
-     "resumo": "More than 250 kiwi have been reintroduced since 2022 in a Māori-led project, and the population now exceeds 300 birds, including wild-hatched chicks. With over 5,300 predator traps, chick survival is above 90%.",
-     "regiao": "Wellington",
-     "pais": "New Zealand"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/24111922/Little-spotted_kiwi_Apteryx_owenii_4000-1200x800.jpg",
-   "credito": "Kimberley Collins/Wikimedia Commons (CC BY-SA 4.0)"
-  },
-  {
-   "id": "mulheres-arvores-bolivia",
-   "titulo": "Mulheres indígenas replantam florestas nativas para proteger a água nos Andes",
-   "resumo": "Na Bolívia, um projeto de reflorestamento com a árvore nativa kewiña já plantou quase 500 mil mudas em seis comunidades quéchuas. Um grupo de cerca de 25 mulheres se formou em torno do trabalho, que também trouxe aulas de alfabetização e uma creche.",
-   "categoria": "meio-ambiente",
-   "regiao": "Cochabamba",
-   "data": "2026-11-24",
-   "fonte": "Mongabay",
-   "url": "https://news.mongabay.com/2026/11/in-the-bolivian-andes-indigenous-women-plant-native-trees-to-restore-water-sources/",
-   "pais": "Bolívia",
-   "lat": -17.3,
-   "lon": -66.2,
-   "i18n": {
-    "es": {
-     "titulo": "Mujeres indígenas replantan bosques nativos para proteger el agua en los Andes",
-     "resumo": "En Bolivia, un proyecto de reforestación con el árbol nativo kewiña ya plantó casi 500.000 plantines en seis comunidades quechuas. Un grupo de unas 25 mujeres se formó en torno al trabajo, que también trajo clases de alfabetización y una guardería.",
-     "regiao": "Cochabamba",
-     "pais": "Bolivia"
-    },
-    "en": {
-     "titulo": "Indigenous women replant native forests to protect water in the Andes",
-     "resumo": "In Bolivia, a reforestation project with the native kewiña tree has planted nearly 500,000 seedlings across six Quechua communities. A group of about 25 women formed around the work, which also brought literacy classes and a daycare centre.",
-     "regiao": "Cochabamba",
-     "pais": "Bolivia"
-    }
-   },
-   "img": "https://imgs.mongabay.com/wp-content/uploads/sites/20/2026/11/24145917/P1388368-1200x800.jpg",
-   "credito": "Benjamin Swift/Mongabay"
-  },
-  {
-   "id": "golfinhos-amizade-vida-longa",
-   "titulo": "Golfinhos com amizades estáveis vivem mais, mostra estudo",
-   "resumo": "Pesquisadores da Universidade de Queensland analisaram 40 anos de dados sobre cerca de 400 golfinhos selvagens em Shark Bay. Os que mantinham companheiros constantes tendiam a viver mais. O golfinho mais velho conhecido tem 53 anos.",
-   "categoria": "animais",
-   "regiao": "Shark Bay, Austrália Ocidental",
+   "id": "idoso-resgatado-poco-camocim",
+   "titulo": "Bombeiros resgatam idoso que caiu em poço de 15 metros no Ceará",
+   "resumo": "Um homem de 66 anos caiu num poço seco na zona rural de Camocim. Os bombeiros montaram um sistema de roldanas com tripé e cabos e o retiraram consciente, com ferimentos leves, sem complicações.",
+   "categoria": "sociedade",
+   "regiao": "Camocim (CE)",
    "data": "2026-11-25",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/2026-11-25/queensland-dolphin-friendships-new-research/107421030",
-   "pais": "Austrália",
-   "lat": -25.6,
-   "lon": 113.6,
+   "fonte": "O Povo",
+   "url": "https://www.opovo.com.br/noticias/ceara/2026/11/25/bombeiros-resgatam-idoso-que-caiu-em-poco-de-15m-de-profundidade.html",
+   "pais": "Brasil",
+   "lat": -2.9,
+   "lon": -40.85,
    "i18n": {
     "es": {
-     "titulo": "Los delfines con amistades estables viven más, según un estudio",
-     "resumo": "Investigadores de la Universidad de Queensland analizaron 40 años de datos sobre unos 400 delfines salvajes en Shark Bay. Los que mantenían compañeros constantes tendían a vivir más. El delfín más viejo conocido tiene 53 años.",
-     "regiao": "Shark Bay, Australia Occidental",
-     "pais": "Australia"
+     "titulo": "Bomberos rescatan a un anciano que cayó en un pozo de 15 metros en Ceará",
+     "resumo": "Un hombre de 66 años cayó en un pozo seco en la zona rural de Camocim. Los bomberos armaron un sistema de poleas con trípode y cables y lo sacaron consciente, con heridas leves, sin complicaciones.",
+     "regiao": "Camocim (CE)",
+     "pais": "Brasil"
     },
     "en": {
-     "titulo": "Dolphins with stable friendships live longer, study finds",
-     "resumo": "University of Queensland researchers analysed 40 years of data on about 400 wild dolphins in Shark Bay. Those with consistent companions tended to live longer. The oldest known dolphin is 53.",
-     "regiao": "Shark Bay, Western Australia",
-     "pais": "Australia"
+     "titulo": "Firefighters rescue 66-year-old man from a 15-metre well in Brazil",
+     "resumo": "A 66-year-old man fell into a dry well in rural Camocim, Ceará. Firefighters rigged a pulley system with a tripod and cables and brought him out conscious, with minor injuries and no complications.",
+     "regiao": "Camocim (CE)",
+     "pais": "Brazil"
     }
    },
-   "img": "https://live-production.wcms.abc-cdn.net.au/529e4b2fe4f5294d1bea26a5daa36602?impolicy=wcms_watermark_news&cropH=2160&cropW=3840&xPos=0&yPos=0&width=862&height=485&imformat=generic",
-   "credito": "Shark Bay Dolphin Research Project"
+   "img": "https://www.opovo.com.br/_midias/png/2026/11/25/856x642/1_idoso_resgatado_camocim-43202434.png",
+   "credito": "Reprodução/CBMCE"
   },
   {
-   "id": "euclid-quasar-recorde",
-   "titulo": "Telescópio Euclid encontra o quasar mais distante já visto",
-   "resumo": "O quasar foi observado como era 630 milhões de anos após o Big Bang e abriga um buraco negro de cerca de 360 milhões de massas solares, confirmado pelo telescópio Webb. O Euclid já achou 12 quasares tão distantes, mais que dobrando o número conhecido.",
-   "categoria": "ciencia",
-   "regiao": "Espaço",
+   "id": "mister-m-hospital-sarah",
+   "titulo": "Mister M leva show de mágica a pacientes do Hospital Sarah",
+   "resumo": "O ilusionista Val Valentino, o Mister M, de 70 anos, se apresentou para pacientes do hospital em Brasília. Morando no Brasil desde 2020, ele diz visitar hospitais e instituições infantis com frequência e quer ampliar as visitas em 2027.",
+   "categoria": "sociedade",
+   "regiao": "Brasília (DF)",
    "data": "2026-11-24",
-   "fonte": "ESA",
-   "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years",
-   "pais": "Espaço",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/11/7543786-mister-m-leva-espetaculo-de-magica-a-pacientes-do-hospital-sarah.html",
+   "pais": "Brasil",
+   "lat": -15.8,
+   "lon": -47.89,
    "i18n": {
     "es": {
-     "titulo": "El telescopio Euclid encuentra el cuásar más lejano jamás visto",
-     "resumo": "El cuásar se observó tal como era 630 millones de años después del Big Bang y alberga un agujero negro de unos 360 millones de masas solares, confirmado por el telescopio Webb. Euclid ya halló 12 cuásares tan lejanos, más del doble de los conocidos.",
-     "regiao": "Espacio",
-     "pais": "Espacio"
+     "titulo": "Mister M lleva un show de magia a pacientes del Hospital Sarah",
+     "resumo": "El ilusionista Val Valentino, Mister M, de 70 años, actuó para pacientes del hospital en Brasilia. Vive en Brasil desde 2020, dice que visita hospitales e instituciones infantiles con frecuencia y quiere ampliar las visitas en 2027.",
+     "regiao": "Brasilia (DF)",
+     "pais": "Brasil"
     },
     "en": {
-     "titulo": "Euclid telescope finds the most distant quasar yet",
-     "resumo": "The quasar is seen as it was 630 million years after the Big Bang and hosts a black hole of about 360 million solar masses, confirmed by the Webb telescope. Euclid has now found 12 quasars this far away, more than doubling the known count.",
-     "regiao": "Space",
-     "pais": "Space"
+     "titulo": "Mister M brings a magic show to hospital patients in Brasília",
+     "resumo": "Illusionist Val Valentino, known as Mister M, 70, performed for patients at the Sarah hospital in Brasília. Living in Brazil since 2020, he says he regularly visits hospitals and children's institutions and plans more visits in 2027.",
+     "regiao": "Brasília (DF)",
+     "pais": "Brazil"
     }
    },
-   "img": "https://media.esa.int/global/public/common/image/2026/11/402420/image-thumb__402420__social_share/j1504-6252-euclid-press-master-16bit-jpg.f3fae437.jpg",
-   "credito": "ESA/Euclid"
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/24/675x450/1_img-7895-68295507.jpg",
+   "credito": "Guilherme Cavalcanti/CB/D.A Press"
   },
   {
-   "id": "bepicolombo-orbita-mercurio",
-   "titulo": "Sonda BepiColombo entra em órbita de Mercúrio após oito anos de viagem",
-   "resumo": "A missão europeia e japonesa chegou à órbita de Mercúrio mesmo com um problema de software durante a manobra, e a ESA diz que não serão necessárias correções extras. As duas sondas científicas se separam em dezembro, e as observações começam em abril de 2027.",
-   "categoria": "ciencia",
-   "regiao": "Espaço",
-   "data": "2026-11-23",
-   "fonte": "ESA",
-   "url": "https://www.esa.int/articles/about-us/directorates/operations/bepicolombo-safely-in-mercury-orbit-despite-unexpected-challenge",
-   "pais": "Espaço",
+   "id": "igreja-itapanhoacanga-reaberta",
+   "titulo": "Comunidade mineira celebra reabertura de igreja do século 18",
+   "resumo": "A Igreja São José, em Itapanhoacanga, estava fechada desde 2012 por questões de segurança. Após mais de quatro anos de restauro, foi reinaugurada com seu forro de 12 painéis pintados em 1787 recuperado, para alegria da comunidade.",
+   "categoria": "sociedade",
+   "regiao": "Alvorada de Minas (MG)",
+   "data": "2026-11-24",
+   "fonte": "Estado de Minas",
+   "url": "https://www.em.com.br/gerais/2026/11/7543777-apos-30-anos-de-espera-comunidade-mineira-celebra-reinauguracao-de-igreja.html",
+   "pais": "Brasil",
+   "lat": -18.5,
+   "lon": -43.3,
    "i18n": {
     "es": {
-     "titulo": "La sonda BepiColombo entra en órbita de Mercurio tras ocho años de viaje",
-     "resumo": "La misión europea y japonesa alcanzó la órbita de Mercurio pese a un fallo de software durante la maniobra, y la ESA dice que no harán falta correcciones extra. Las dos sondas científicas se separarán en diciembre y las observaciones empiezan en abril de 2027.",
-     "regiao": "Espacio",
-     "pais": "Espacio"
+     "titulo": "Una comunidad de Minas Gerais celebra la reapertura de una iglesia del siglo XVIII",
+     "resumo": "La Iglesia São José, en Itapanhoacanga, estaba cerrada desde 2012 por motivos de seguridad. Tras más de cuatro años de restauración, fue reinaugurada con su techo de 12 paneles pintados en 1787 recuperado, para alegría de la comunidad.",
+     "regiao": "Alvorada de Minas (MG)",
+     "pais": "Brasil"
     },
     "en": {
-     "titulo": "BepiColombo enters Mercury orbit after an eight-year journey",
-     "resumo": "The European-Japanese mission reached Mercury orbit despite a software problem during the manoeuvre, and ESA says no extra burns are needed. The two science orbiters separate in December, with observations starting in April 2027.",
-     "regiao": "Space",
-     "pais": "Space"
+     "titulo": "Brazilian village celebrates reopening of 18th-century church",
+     "resumo": "The São José church in Itapanhoacanga, Minas Gerais, had been closed since 2012 for safety reasons. After more than four years of restoration it has reopened, with its ceiling of 12 panels painted in 1787 restored, to the community's delight.",
+     "regiao": "Alvorada de Minas (MG)",
+     "pais": "Brazil"
     }
    },
-   "img": "https://media.esa.int/global/public/common/image/2026/11/402726/image-thumb__402726__social_share/bepicolombo-mercury-orbit-insertion-020.3b458e55.jpg",
-   "credito": "Ilustração: ESA"
+   "img": "https://midias.em.com.br/_midias/jpg/2026/11/24/1000x1000/1_whatsapp-image-2026-11-24-at-21-28-20-68295448.jpeg",
+   "credito": "Paola Simões/Divulgação"
   },
   {
-   "id": "gel-querosene-foguetes",
-   "titulo": "Gel de querosene criado no Canadá pode tornar foguetes mais seguros",
-   "resumo": "Pesquisadores da Universidade Concordia engrossaram querosene com lecitina, criando um gel quase sólido em repouso que flui quando pressionado. As amostras ficaram estáveis por mais de um ano. Ainda faltam testes reais de propulsão.",
-   "categoria": "tecnologia",
-   "regiao": "Montreal",
+   "id": "belinha-selecao-sub17",
+   "titulo": "Revelada em projeto social do DF, jovem de 16 anos é convocada para a seleção sub-17",
+   "resumo": "Clara Izabela, a Belinha, começou num projeto social de futebol para meninas em Candangolândia e hoje joga no Corinthians. Ela está entre as 30 atletas chamadas para treinar com a seleção feminina sub-17 em dezembro.",
+   "categoria": "sociedade",
+   "regiao": "Candangolândia (DF)",
+   "data": "2026-11-24",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/esportes/2026/11/7543808-da-base-do-df-a-amarelinha-belinha-e-convocada-para-selecao-sub-17.html",
+   "pais": "Brasil",
+   "lat": -15.85,
+   "lon": -47.96,
+   "i18n": {
+    "es": {
+     "titulo": "Descubierta en un proyecto social, una joven de 16 años es convocada a la selección sub-17 de Brasil",
+     "resumo": "Clara Izabela, Belinha, empezó en un proyecto social de fútbol para chicas en Candangolândia y hoy juega en Corinthians. Está entre las 30 jugadoras convocadas para entrenar con la selección femenina sub-17 en diciembre.",
+     "regiao": "Candangolândia (DF)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Teen from a social project called up to Brazil's U-17 women's squad",
+     "resumo": "Clara Izabela, known as Belinha, 16, started at a girls' football social project in Candangolândia, near Brasília, and now plays for Corinthians. She is among 30 players called to train with Brazil's U-17 women's team in December.",
+     "regiao": "Candangolândia (DF)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/24/675x450/1_3553-68295616.jpg?20261124224341?20261124224341",
+   "credito": "Reprodução/Instagram"
+  },
+  {
+   "id": "tumores-farmacos-existentes",
+   "titulo": "Um em cada cinco cânceres pode ter remédio já existente, aponta estudo",
+   "resumo": "Cientistas da Universidade de Cambridge analisaram os genomas de 17 mil tumores e encontraram alterações tratáveis com drogas já aprovadas em 18,9% dos casos primários e 25,9% dos metastáticos. Metade delas aparece em tipos de câncer em que esses remédios ainda não são usados. Faltam testes clínicos.",
+   "categoria": "saude",
+   "regiao": "Cambridge",
    "data": "2026-11-24",
    "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/24/un-gel-de-queroseno-desarrollado-en-canada-podria-transformar-la-propulsion-de-cohetes-y-satelites/",
-   "pais": "Canadá",
-   "lat": 45.5,
-   "lon": -73.58,
+   "url": "https://www.infobae.com/salud/ciencia/2026/11/24/un-estudio-analizo-17000-tumores-y-encontro-que-uno-de-cada-cinco-canceres-podria-tratarse-con-farmacos-ya-existentes/",
+   "pais": "Reino Unido",
+   "destaque": true,
+   "lat": 52.2,
+   "lon": 0.12,
    "i18n": {
     "es": {
-     "titulo": "Un gel de queroseno creado en Canadá podría hacer más seguros los cohetes",
-     "resumo": "Investigadores de la Universidad Concordia espesaron queroseno con lecitina y crearon un gel casi sólido en reposo que fluye al aplicarle fuerza. Las muestras se mantuvieron estables más de un año. Aún faltan pruebas reales de propulsión.",
-     "regiao": "Montreal",
-     "pais": "Canadá"
+     "titulo": "Uno de cada cinco cánceres podría tratarse con fármacos ya existentes, según un estudio",
+     "resumo": "Científicos de la Universidad de Cambridge analizaron los genomas de 17.000 tumores y hallaron alteraciones tratables con fármacos ya aprobados en el 18,9% de los casos primarios y el 25,9% de los metastásicos. La mitad aparece en tipos de cáncer donde esos fármacos aún no se usan. Faltan ensayos clínicos.",
+     "regiao": "Cambridge",
+     "pais": "Reino Unido"
     },
     "en": {
-     "titulo": "Kerosene gel developed in Canada could improve rocket propulsion",
-     "resumo": "Concordia University researchers thickened kerosene with lecithin, creating a gel that is nearly solid at rest but flows under force. Samples stayed stable for more than a year. Real propulsion tests are still needed.",
-     "regiao": "Montreal",
-     "pais": "Canada"
+     "titulo": "One in five cancers could be treated with existing drugs, study finds",
+     "resumo": "University of Cambridge scientists analysed the genomes of 17,000 tumours and found alterations treatable with approved drugs in 18.9% of primary and 25.9% of metastatic cases. Half occur in cancer types where those drugs are not yet used. Clinical trials are still needed.",
+     "regiao": "Cambridge",
+     "pais": "UK"
     }
    },
-   "img": "https://www.infobae.com/resizer/v2/TCNLZGAWORC2DFZVBSKW7DY3EA.png?auth=f70d3632964f7953a698cc0656e12b51a86a8445d858a73e70a7d4f6183e1099&smart=true&width=1200&height=630&quality=85",
+   "img": "https://www.infobae.com/resizer/v2/7GGZQU5ZDNEEFOD3H5YYBFIG5A.png?auth=4c76ecb8861e93e002ac5a86de93e4da6953b2a33348ebb5df4245bc3b0a5a30&smart=true&width=1200&height=630&quality=85",
    "credito": "Imagem ilustrativa: Infobae"
   },
   {
-   "id": "tardigrados-monte-submarino",
-   "titulo": "Cientistas descobrem duas novas espécies de tardígrados no Atlântico",
-   "resumo": "Os minúsculos animais, com menos de 0,2 mm, foram achados num monte submarino perto de Cabo Verde. O topo do monte abrigou 20 tipos de tardígrados, contra só 2 numa área profunda próxima, o que reforça o papel desses montes como oásis de biodiversidade.",
-   "categoria": "animais",
-   "regiao": "Monte submarino Senghor",
-   "data": "2026-11-23",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/23/hallan-dos-nuevas-especies-de-animales-microscopicos-en-una-montana-submarina-frente-a-africa-occidental/",
-   "pais": "Oceano Atlântico",
-   "lat": 15.0,
-   "lon": -22.0,
+   "id": "premio-ciencia-australia",
+   "titulo": "Oncologista do melanoma e físico dividem maior prêmio de ciência da Austrália",
+   "resumo": "Georgina Long, cujos estudos melhoraram o tratamento do melanoma, e Anthony Thomas, que ajudou a criar um modelo do próton, dividiram o prêmio de 250 mil dólares australianos. É a primeira vez que vencedores de áreas diferentes compartilham a honraria. Segundo a reportagem, a sobrevida no melanoma avançado aumentou dez vezes.",
+   "categoria": "ciencia",
+   "regiao": "Sydney e Adelaide",
+   "data": "2026-11-24",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/science/2026-11-24/2026-prime-minister-prize-for-science/107415808",
+   "pais": "Austrália",
+   "lat": -33.87,
+   "lon": 151.21,
    "i18n": {
     "es": {
-     "titulo": "Científicos descubren dos nuevas especies de tardígrados en el Atlántico",
-     "resumo": "Los diminutos animales, de menos de 0,2 mm, se hallaron en un monte submarino cerca de Cabo Verde. La cima del monte albergó 20 tipos de tardígrados, frente a solo 2 en una zona profunda cercana, lo que refuerza el papel de estos montes como oasis de biodiversidad.",
-     "regiao": "Monte submarino Senghor",
-     "pais": "Océano Atlántico"
+     "titulo": "Una oncóloga del melanoma y un físico comparten el mayor premio de ciencia de Australia",
+     "resumo": "Georgina Long, cuyos estudios mejoraron el tratamiento del melanoma, y Anthony Thomas, que ayudó a crear un modelo del protón, compartieron el premio de 250.000 dólares australianos. Es la primera vez que ganadores de áreas distintas comparten el galardón. Según el reportaje, la supervivencia en el melanoma avanzado se multiplicó por diez.",
+     "regiao": "Sídney y Adelaida",
+     "pais": "Australia"
     },
     "en": {
-     "titulo": "Scientists discover two new tardigrade species in the Atlantic",
-     "resumo": "The tiny animals, under 0.2 mm long, were found on a seamount near Cape Verde. The summit held 20 kinds of tardigrade, against only 2 at a nearby deep site, reinforcing seamounts' role as biodiversity oases.",
-     "regiao": "Senghor Seamount",
-     "pais": "Atlantic Ocean"
+     "titulo": "Melanoma oncologist and physicist share Australia's top science prize",
+     "resumo": "Georgina Long, whose trials improved melanoma treatment, and Anthony Thomas, who helped develop a model of the proton, shared the A$250,000 prize. It is the first time winners from different fields have shared the award. The report says advanced melanoma survival has improved tenfold.",
+     "regiao": "Sydney and Adelaide",
+     "pais": "Australia"
     }
    },
-   "img": "https://www.infobae.com/resizer/v2/6PJU4PXF4FEGZEVQ6XIUCZ6IHI.png?auth=bb3758bbdd7c832ebf4fe05e80a55167c12f99cf71546f5b0d0804c8eee40340&smart=true&width=1200&height=630&quality=85",
-   "credito": "Estudo publicado em ZooKeys"
+   "img": "https://live-production.wcms.abc-cdn.net.au/f7a52e14c23909905b3ded2e2aad6f56?impolicy=wcms_watermark_news&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "Prime Minister's Prize for Science"
+  },
+  {
+   "id": "positron-preso-armadilha",
+   "titulo": "Físicos prendem um único pósitron por meses",
+   "resumo": "Pesquisadores da Universidade Northwestern capturaram uma única partícula de antimatéria, um pósitron, resfriaram-na perto do zero absoluto e a mantiveram presa por meses. O feito permitirá comparar com enorme precisão a antimatéria com a matéria comum.",
+   "categoria": "ciencia",
+   "regiao": "Evanston, Illinois",
+   "data": "2026-11-25",
+   "fonte": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm",
+   "pais": "Estados Unidos",
+   "lat": 42.06,
+   "lon": -87.68,
+   "i18n": {
+    "es": {
+     "titulo": "Físicos atrapan un único positrón durante meses",
+     "resumo": "Investigadores de la Universidad Northwestern capturaron una sola partícula de antimateria, un positrón, la enfriaron cerca del cero absoluto y la mantuvieron atrapada durante meses. El logro permitirá comparar con enorme precisión la antimateria con la materia común.",
+     "regiao": "Evanston, Illinois",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Physicists trap a single positron for months",
+     "resumo": "Northwestern University researchers captured a single particle of antimatter, a positron, cooled it close to absolute zero and held it in a trap for months. The feat will allow highly precise comparisons between antimatter and ordinary matter.",
+     "regiao": "Evanston, Illinois",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.sciencedaily.com/images/1920/particle-trapped-antimatter-physics.webp",
+   "credito": "Ilustração gerada por IA: ScienceDaily"
+  },
+  {
+   "id": "angioplastia-imagem-coracao",
+   "titulo": "Mudança na angioplastia reduz em 32% o risco de novos problemas cardíacos",
+   "resumo": "Estudo com 1.639 pacientes em 20 hospitais da Coreia do Sul mostrou que guiar a angioplastia com imagens de dentro da artéria, e não só por raio-X, reduziu em 32% o risco de novos eventos cardíacos em cinco anos, nos casos de lesões complexas.",
+   "categoria": "saude",
+   "regiao": "Coreia do Sul",
+   "data": "2026-11-24",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/salud/ciencia/2026/11/24/un-estudio-revelo-que-cambio-en-las-angioplastias-puede-reducir-mas-de-30-el-riesgo-de-nuevos-eventos-cardiacos/",
+   "pais": "Coreia do Sul",
+   "lat": 36.5,
+   "lon": 127.8,
+   "i18n": {
+    "es": {
+     "titulo": "Un cambio en la angioplastia reduce un 32% el riesgo de nuevos problemas cardíacos",
+     "resumo": "Un estudio con 1.639 pacientes en 20 hospitales de Corea del Sur mostró que guiar la angioplastia con imágenes desde dentro de la arteria, y no solo con rayos X, redujo un 32% el riesgo de nuevos eventos cardíacos en cinco años, en lesiones complejas.",
+     "regiao": "Corea del Sur",
+     "pais": "Corea del Sur"
+    },
+    "en": {
+     "titulo": "Angioplasty change cuts risk of new heart problems by 32%",
+     "resumo": "A study of 1,639 patients at 20 South Korean hospitals found that guiding angioplasty with imaging from inside the artery, not just X-rays, cut the risk of new cardiac events over five years by 32% in complex lesions.",
+     "regiao": "South Korea",
+     "pais": "South Korea"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/IJSIFGZBHZE2JJMA3RWMLJGK5Y.png?auth=cb023b37b40ad2d15ee045f9716d944d46bc65c09e508cfd5c671f2c162220d5&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem ilustrativa: Infobae"
+  },
+  {
+   "id": "parasita-ajuda-tartaruga",
+   "titulo": "Pequeno parasita pode ajudar a salvar tartaruga ameaçada",
+   "resumo": "Cientistas da Universidade Atlântica da Flórida descobriram que o DNA de um verme que vive em tartarugas-de-pântano revela como suas populações estão divididas, sem precisar capturá-las. A espécie é considerada vulnerável, e o método pode guiar sua proteção.",
+   "categoria": "animais",
+   "regiao": "Flórida",
+   "data": "2026-11-24",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/24/el-diminuto-parasito-que-podria-salvar-a-una-tortuga-amenazada-de-extincion/",
+   "pais": "Estados Unidos",
+   "lat": 27.45,
+   "lon": -80.33,
+   "i18n": {
+    "es": {
+     "titulo": "Un diminuto parásito podría ayudar a salvar a una tortuga amenazada",
+     "resumo": "Científicos de la Universidad Atlántica de Florida descubrieron que el ADN de un gusano que vive en las tortugas de pantano revela cómo se dividen sus poblaciones, sin necesidad de capturarlas. La especie es vulnerable y el método puede guiar su protección.",
+     "regiao": "Florida",
+     "pais": "Estados Unidos"
+    },
+    "en": {
+     "titulo": "Tiny parasite could help save a threatened turtle",
+     "resumo": "Florida Atlantic University scientists found that the DNA of a flatworm living in diamondback terrapins reveals how their populations are divided, without capturing the turtles. The species is listed as vulnerable, and the method could guide its protection.",
+     "regiao": "Florida",
+     "pais": "USA"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/A7UFD7TBRBBLVHISRVUJFIWGEA.png?auth=1ae2a0d0f1e65eeb8ae9bdfb56ef892a80fed2663d91ed26a6c1adda3c6e9ab5&smart=true&width=1200&height=630&quality=85",
+   "credito": "Imagem ilustrativa: Infobae"
+  },
+  {
+   "id": "gaiolas-ue-tribunal",
+   "titulo": "Tribunal europeu obriga UE a definir prazo para proibir gaiolas em fazendas",
+   "resumo": "O Tribunal de Justiça da UE decidiu que a Comissão Europeia deve fixar um novo cronograma para a lei que acaba com gaiolas para animais de criação. A ação veio de uma iniciativa cidadã com quase 1,4 milhão de assinaturas; cerca de 300 milhões de animais ainda vivem engaiolados no bloco.",
+   "categoria": "animais",
+   "regiao": "União Europeia",
+   "data": "2026-11-25",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/25/historic-victory-caged-farm-animals-could-be-banned-in-the-eu-after-landmark-court-ruling",
+   "pais": "Luxemburgo",
+   "lat": 49.61,
+   "lon": 6.13,
+   "i18n": {
+    "es": {
+     "titulo": "Un tribunal europeo obliga a la UE a fijar plazos para prohibir las jaulas en granjas",
+     "resumo": "El Tribunal de Justicia de la UE decidió que la Comisión Europea debe fijar un nuevo calendario para la ley que pone fin a las jaulas para animales de granja. La demanda vino de una iniciativa ciudadana con casi 1,4 millones de firmas; unos 300 millones de animales siguen enjaulados en el bloque.",
+     "regiao": "Unión Europea",
+     "pais": "Luxemburgo"
+    },
+    "en": {
+     "titulo": "EU court orders a timeline for banning cages on farms",
+     "resumo": "The EU Court of Justice ruled that the European Commission must set a new timeline for legislation ending cages for farm animals. The case came from a citizens' initiative with nearly 1.4 million signatures; about 300 million animals are still caged in the bloc.",
+     "regiao": "European Union",
+     "pais": "Luxembourg"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/10/00/77/86/1200x675_cmsv2_ee65323a-f5f5-558c-a8c9-0ce686459e3b-10007786.jpg",
+   "credito": "AP Photo/Rich Pedroncelli"
+  },
+  {
+   "id": "fio-dental-inteligente",
+   "titulo": "Fio dental inteligente mede glicose e sinais de inflamação na gengiva",
+   "resumo": "Pesquisadores de Hong Kong criaram um fio dental que coleta uma gota mínima de fluido da gengiva em cerca de 20 segundos e mede glicose, ácido úrico e outros marcadores em minutos. Os resultados se aproximaram dos exames de sangue. O aparelho ainda está em fase de pesquisa.",
+   "categoria": "tecnologia",
+   "regiao": "Hong Kong",
+   "data": "2026-11-23",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/saude/fio-dental-inteligente-mede-glicose-e-sinais-de-inflamacao-na-gengiva/",
+   "pais": "Hong Kong",
+   "lat": 22.34,
+   "lon": 114.26,
+   "i18n": {
+    "es": {
+     "titulo": "Un hilo dental inteligente mide la glucosa y señales de inflamación en las encías",
+     "resumo": "Investigadores de Hong Kong crearon un hilo dental que recoge una gota mínima de fluido de la encía en unos 20 segundos y mide glucosa, ácido úrico y otros marcadores en minutos. Los resultados se acercaron a los análisis de sangre. El dispositivo aún está en fase de investigación.",
+     "regiao": "Hong Kong",
+     "pais": "Hong Kong"
+    },
+    "en": {
+     "titulo": "Smart dental floss measures glucose and gum inflammation",
+     "resumo": "Hong Kong researchers created a floss that collects a tiny drop of gum fluid in about 20 seconds and measures glucose, uric acid and other markers within minutes. Results closely matched blood tests. The device is still at the research stage.",
+     "regiao": "Hong Kong",
+     "pais": "Hong Kong"
+    }
+   },
+   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/FIO-DENTAL-GLICOSE.png?w=1200&h=630&crop=1",
+   "credito": "Reprodução/HKUST"
+  },
+  {
+   "id": "pescoco-titanossauro-espanha",
+   "titulo": "Pedra misteriosa era o pescoço de um titanossauro gigante",
+   "resumo": "Perto de Isona, na Catalunha, o que parecia uma rocha revelou ser o pescoço de um titanossauro, que pode passar de 18 metros. Um bloco de 18 toneladas foi retirado com guindaste para estudo.",
+   "categoria": "ciencia",
+   "regiao": "Catalunha",
+   "data": "2026-11-25",
+   "fonte": "La Nación",
+   "url": "https://www.lanacion.com.ar/ciencia/creyeron-que-se-trataba-de-una-roca-y-resulto-ser-el-cuello-de-un-titanosaurio-gigante-nid25112026/",
+   "pais": "Espanha",
+   "lat": 42.1,
+   "lon": 1.0,
+   "i18n": {
+    "es": {
+     "titulo": "Una roca misteriosa resultó ser el cuello de un titanosaurio gigante",
+     "resumo": "Cerca de Isona, en Cataluña, lo que parecía una roca resultó ser el cuello de un titanosaurio, que podría superar los 18 metros. Un bloque de 18 toneladas se retiró con una grúa para su estudio.",
+     "regiao": "Cataluña",
+     "pais": "España"
+    },
+    "en": {
+     "titulo": "Mystery rock turns out to be a giant titanosaur's neck",
+     "resumo": "Near Isona in Catalonia, what looked like a rock turned out to be the neck of a titanosaur that may exceed 18 metres. An 18-tonne block was lifted out by crane for study.",
+     "regiao": "Catalonia",
+     "pais": "Spain"
+    }
+   },
+   "img": "https://www.lanacion.com.ar/resizer/v2/descubrieron-en-espana-el-cuello-de-un-RNTSTSRXE5CRZAF5P7CN76M44A.jpg?auth=1fe531f1eac76e9b637240040fc3eba80764f3e61dde4856f82b7847259b6ec9&width=1200&height=800&quality=70&smart=true",
+   "credito": "20minutos"
   }
  ]
 }
