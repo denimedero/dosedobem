@@ -1,442 +1,413 @@
 {
- "atualizado": "2026-11-26",
+ "atualizado": "2026-11-28",
  "noticias": [
   {
-   "id": "terapia-cancer-pele-sus",
-   "titulo": "Tratamento de câncer de pele criado na USP é liberado para o SUS",
-   "resumo": "A terapia fotodinâmica desenvolvida no Instituto de Física de São Carlos da USP foi regulamentada para uso na rede pública. Segundo os pesquisadores, o método elimina cerca de 95% dos tumores tratados.",
-   "categoria": "saude",
-   "regiao": "São Carlos (SP)",
-   "data": "2026-11-24",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/atualidades/tecnologia-desenvolvida-na-usp-para-tratamento-de-cancer-de-pele-e-regulamentada-para-uso-no-sus/",
+   "id": "negros-indigenas-maioria-federais",
+   "titulo": "Negros e indígenas são maioria nas universidades federais pela primeira vez",
+   "resumo": "Segundo o Censo da Educação Superior, estudantes pretos, pardos e indígenas somam 50,1% das matrículas nas federais, cerca de 659 mil pessoas. Em 2013 eram 22,5%. O país também bateu recorde, com 10,6 milhões de universitários.",
+   "categoria": "sociedade",
+   "regiao": "Nacional",
+   "data": "2026-11-27",
+   "fonte": "Correio Braziliense",
+   "url": "https://www.correiobraziliense.com.br/brasil/2026/11/7545230-negros-e-indigenas-sao-maioria-nas-federais-pela-primeira-vez.html",
    "pais": "Brasil",
    "destaque": true,
-   "lat": -22.01,
-   "lon": -47.89,
-   "i18n": {
-    "es": {
-     "titulo": "Un tratamiento contra el cáncer de piel creado en la USP llega al sistema público de salud",
-     "resumo": "La terapia fotodinámica desarrollada en el Instituto de Física de São Carlos de la USP fue reglamentada para su uso en el sistema público brasileño. Según los investigadores, el método elimina cerca del 95% de los tumores tratados.",
-     "regiao": "São Carlos (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Skin cancer treatment developed at a Brazilian university approved for public health system",
-     "resumo": "The photodynamic therapy developed at the University of São Paulo's physics institute in São Carlos has been regulated for use in Brazil's public health system. According to the researchers, the method eliminates about 95% of treated tumours.",
-     "regiao": "São Carlos (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261116_pele.jpg",
-   "credito": "Imagem ilustrativa: Magnific"
-  },
-  {
-   "id": "transplante-figado-sobrevida",
-   "titulo": "Transplante de fígado salva pacientes com falência de vários órgãos",
-   "resumo": "Estudo internacional com 995 pacientes em 63 centros, incluindo o Hospital das Clínicas da USP, mostrou que, um ano após o transplante, 88% estavam vivos. Entre os casos mais graves que não receberam o órgão, 88% morreram no mesmo período.",
-   "categoria": "saude",
-   "regiao": "São Paulo (SP)",
-   "data": "2026-11-25",
-   "fonte": "Jornal da USP",
-   "url": "https://jornal.usp.br/ciencias/transplante-de-figado-aumenta-sobrevida-de-pacientes-com-falencia-de-multiplos-orgaos/",
-   "pais": "Brasil",
-   "lat": -23.56,
-   "lon": -46.67,
-   "i18n": {
-    "es": {
-     "titulo": "El trasplante de hígado salva a pacientes con falla de varios órganos",
-     "resumo": "Un estudio internacional con 995 pacientes en 63 centros, incluido el Hospital das Clínicas de la USP, mostró que un año después del trasplante el 88% seguía con vida. Entre los casos más graves que no recibieron el órgano, el 88% murió en el mismo período.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brasil"
-    },
-    "en": {
-     "titulo": "Liver transplants save patients with multiple organ failure",
-     "resumo": "An international study of 995 patients at 63 centres, including the University of São Paulo's teaching hospital, found that 88% were alive a year after transplant. Among the most severe cases who did not receive an organ, 88% died in the same period.",
-     "regiao": "São Paulo (SP)",
-     "pais": "Brazil"
-    }
-   },
-   "img": "https://jornal.usp.br/wp-content/uploads/2026/11/20261125_transplanterim.jpg",
-   "credito": "Imagem ilustrativa: Stéf -b./Pexels"
-  },
-  {
-   "id": "capivara-resgatada-brasilia",
-   "titulo": "Capivara perdida em estacionamento é resgatada e solta na mata",
-   "resumo": "A capivara foi encontrada andando entre carros no Setor de Rádio e TV Sul, em Brasília. A Polícia Militar Ambiental a capturou sem machucá-la e, sem ferimentos, ela foi solta numa área de mata adequada.",
-   "categoria": "animais",
-   "regiao": "Brasília (DF)",
-   "data": "2026-11-24",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/11/7543430-capivara-e-resgatada-em-estacionamento-no-setor-de-radio-e-tv-sul.html",
-   "pais": "Brasil",
    "lat": -15.79,
-   "lon": -47.9,
+   "lon": -47.88,
    "i18n": {
     "es": {
-     "titulo": "Rescatan a un carpincho perdido en un estacionamiento y lo liberan en el bosque",
-     "resumo": "El carpincho fue hallado caminando entre autos en un sector de oficinas de Brasilia. La Policía Militar Ambiental lo capturó sin lastimarlo y, sin heridas, fue liberado en una zona boscosa adecuada.",
-     "regiao": "Brasilia (DF)",
+     "titulo": "Por primera vez, negros e indígenas son mayoría en las universidades federales de Brasil",
+     "resumo": "Según el Censo de la Educación Superior, los estudiantes negros, pardos e indígenas suman el 50,1% de las matrículas en las universidades federales, unas 659.000 personas. En 2013 eran el 22,5%. El país también batió un récord, con 10,6 millones de universitarios.",
+     "regiao": "Nacional",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Capybara lost in a car park is rescued and released into the woods",
-     "resumo": "The capybara was found wandering among parked cars in an office district of Brasília. Environmental police caught it without harm and, uninjured, it was released in suitable woodland.",
-     "regiao": "Brasília (DF)",
+     "titulo": "Black and Indigenous students are a majority at Brazil's federal universities for the first time",
+     "resumo": "According to the higher-education census, Black, mixed-race and Indigenous students make up 50.1% of federal university enrolment, about 659,000 people, up from 22.5% in 2013. Brazil also reached a record 10.6 million university students.",
+     "regiao": "Nationwide",
      "pais": "Brazil"
     }
    },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/24/675x450/1_55671172753-59a7fc6b91-k-68290639.jpg",
-   "credito": "Marcelo Camargo/Agência Brasil"
+   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/26/675x450/1_unb-cotas-2-68313677.webp",
+   "credito": "Marcello Casal Jr./Agência Brasil"
   },
   {
-   "id": "idoso-resgatado-poco-camocim",
-   "titulo": "Bombeiros resgatam idoso que caiu em poço de 15 metros no Ceará",
-   "resumo": "Um homem de 66 anos caiu num poço seco na zona rural de Camocim. Os bombeiros montaram um sistema de roldanas com tripé e cabos e o retiraram consciente, com ferimentos leves, sem complicações.",
+   "id": "desemprego-minima-historica",
+   "titulo": "Desemprego cai para 5,1% e iguala o menor nível da história",
+   "resumo": "A taxa de desocupação no trimestre encerrado em outubro recuou de 5,3% para 5,1%, segundo o IBGE, igualando o recorde de baixa da série iniciada em 2012.",
    "categoria": "sociedade",
-   "regiao": "Camocim (CE)",
-   "data": "2026-11-25",
-   "fonte": "O Povo",
-   "url": "https://www.opovo.com.br/noticias/ceara/2026/11/25/bombeiros-resgatam-idoso-que-caiu-em-poco-de-15m-de-profundidade.html",
+   "regiao": "Nacional",
+   "data": "2026-11-27",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/brasil/desemprego-recua-para-51-no-trimestre-e-iguala-minima-historica",
    "pais": "Brasil",
-   "lat": -2.9,
-   "lon": -40.85,
+   "lat": -15.5,
+   "lon": -47.5,
    "i18n": {
     "es": {
-     "titulo": "Bomberos rescatan a un anciano que cayó en un pozo de 15 metros en Ceará",
-     "resumo": "Un hombre de 66 años cayó en un pozo seco en la zona rural de Camocim. Los bomberos armaron un sistema de poleas con trípode y cables y lo sacaron consciente, con heridas leves, sin complicaciones.",
-     "regiao": "Camocim (CE)",
+     "titulo": "El desempleo en Brasil baja al 5,1% e iguala su mínimo histórico",
+     "resumo": "La tasa de desocupación en el trimestre cerrado en octubre bajó del 5,3% al 5,1%, según el IBGE, e igualó el mínimo de la serie iniciada en 2012.",
+     "regiao": "Nacional",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Firefighters rescue 66-year-old man from a 15-metre well in Brazil",
-     "resumo": "A 66-year-old man fell into a dry well in rural Camocim, Ceará. Firefighters rigged a pulley system with a tripod and cables and brought him out conscious, with minor injuries and no complications.",
-     "regiao": "Camocim (CE)",
+     "titulo": "Brazil's unemployment falls to 5.1%, matching its record low",
+     "resumo": "Unemployment in the quarter to October fell from 5.3% to 5.1%, according to the statistics agency IBGE, matching the lowest level since the series began in 2012.",
+     "regiao": "Nationwide",
      "pais": "Brazil"
     }
    },
-   "img": "https://www.opovo.com.br/_midias/png/2026/11/25/856x642/1_idoso_resgatado_camocim-43202434.png",
-   "credito": "Reprodução/CBMCE"
+   "img": "https://i.metroimg.com/hw4WOMcagRBXDgBps2BibH9SCakVZtTlEHhrDkQKSd8/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/08/300915RF_carteira-de-trabalho010.jpg",
+   "credito": "Rafaela Felicciano/Metrópoles"
   },
   {
-   "id": "mister-m-hospital-sarah",
-   "titulo": "Mister M leva show de mágica a pacientes do Hospital Sarah",
-   "resumo": "O ilusionista Val Valentino, o Mister M, de 70 anos, se apresentou para pacientes do hospital em Brasília. Morando no Brasil desde 2020, ele diz visitar hospitais e instituições infantis com frequência e quer ampliar as visitas em 2027.",
+   "id": "agua-solar-aldeia-xingu",
+   "titulo": "Aldeia no Xingu ganha água tratada com bomba movida a energia solar",
+   "resumo": "A aldeia Aribaru, do povo Juruna, sem energia elétrica, tirava água direto do rio Xingu. Agora uma bomba solar abastece um reservatório de 15 mil litros que atende 19 famílias.",
    "categoria": "sociedade",
-   "regiao": "Brasília (DF)",
-   "data": "2026-11-24",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/11/7543786-mister-m-leva-espetaculo-de-magica-a-pacientes-do-hospital-sarah.html",
+   "regiao": "São José do Xingu (MT)",
+   "data": "2026-11-26",
+   "fonte": "Ministério da Saúde",
+   "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/ministerio-da-saude-inaugura-sistema-de-abastecimento-de-agua-movido-a-energia-solar-em-aldeia-do-xingu",
    "pais": "Brasil",
-   "lat": -15.8,
-   "lon": -47.89,
+   "lat": -10.8,
+   "lon": -52.7,
    "i18n": {
     "es": {
-     "titulo": "Mister M lleva un show de magia a pacientes del Hospital Sarah",
-     "resumo": "El ilusionista Val Valentino, Mister M, de 70 años, actuó para pacientes del hospital en Brasilia. Vive en Brasil desde 2020, dice que visita hospitales e instituciones infantiles con frecuencia y quiere ampliar las visitas en 2027.",
-     "regiao": "Brasilia (DF)",
+     "titulo": "Una aldea del Xingu recibe agua tratada con una bomba solar",
+     "resumo": "La aldea Aribaru, del pueblo juruna, sin red eléctrica, sacaba el agua directamente del río Xingu. Ahora una bomba solar llena un depósito de 15.000 litros que abastece a 19 familias.",
+     "regiao": "São José do Xingu (MT)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Mister M brings a magic show to hospital patients in Brasília",
-     "resumo": "Illusionist Val Valentino, known as Mister M, 70, performed for patients at the Sarah hospital in Brasília. Living in Brazil since 2020, he says he regularly visits hospitals and children's institutions and plans more visits in 2027.",
-     "regiao": "Brasília (DF)",
+     "titulo": "Amazon village gets clean water from a solar-powered pump",
+     "resumo": "Aribaru village, home to the Juruna people and off the power grid, used to draw water straight from the Xingu river. A solar pump now fills a 15,000-litre tank serving 19 families.",
+     "regiao": "São José do Xingu (MT)",
      "pais": "Brazil"
     }
    },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/24/675x450/1_img-7895-68295507.jpg",
-   "credito": "Guilherme Cavalcanti/CB/D.A Press"
+   "img": "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/ministerio-da-saude-inaugura-sistema-de-abastecimento-de-agua-movido-a-energia-solar-em-aldeia-do-xingu/saude-indigena-sesai-agua-e-energia-solar.jpg/@@images/17730dc6-1d16-42c3-b653-157947d9f8a7.jpeg",
+   "credito": "DSEI-KMT"
   },
   {
-   "id": "igreja-itapanhoacanga-reaberta",
-   "titulo": "Comunidade mineira celebra reabertura de igreja do século 18",
-   "resumo": "A Igreja São José, em Itapanhoacanga, estava fechada desde 2012 por questões de segurança. Após mais de quatro anos de restauro, foi reinaugurada com seu forro de 12 painéis pintados em 1787 recuperado, para alegria da comunidade.",
+   "id": "cameras-ecossistemas-secos",
+   "titulo": "Câmeras baratas acompanham a vida do Cerrado e da Caatinga com mais precisão",
+   "resumo": "Pesquisadores validaram no Brasil e em Angola um método com câmeras automáticas de baixo custo que registra, de forma contínua, quando as plantas brotam e perdem folhas. Na Caatinga, as câmeras flagraram o verde voltando logo após uma única chuva.",
+   "categoria": "meio-ambiente",
+   "regiao": "Cerrado e Caatinga",
+   "data": "2026-11-26",
+   "fonte": "Agência FAPESP",
+   "url": "https://agencia.fapesp.br/cameras-monitoram-ecossistemas-tropicais-secos-com-mais-precisao/59692",
+   "pais": "Brasil",
+   "lat": -9.39,
+   "lon": -40.5,
+   "i18n": {
+    "es": {
+     "titulo": "Cámaras baratas siguen la vida del Cerrado y la Caatinga con más precisión",
+     "resumo": "Investigadores validaron en Brasil y Angola un método con cámaras automáticas de bajo costo que registra de forma continua cuándo las plantas brotan y pierden hojas. En la Caatinga, las cámaras captaron el verde volviendo tras una sola lluvia.",
+     "regiao": "Cerrado y Caatinga",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "Low-cost cameras track Brazil's dry ecosystems more precisely",
+     "resumo": "Researchers validated in Brazil and Angola a method using cheap automatic cameras that continuously record when plants leaf out and shed. In the Caatinga, cameras caught the landscape greening right after a single rainfall.",
+     "regiao": "Cerrado and Caatinga",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://agencia.fapesp.br/files/post/59692.jpg",
+   "credito": "Projeto PhenoChange/Divulgação"
+  },
+  {
+   "id": "baralho-danca-inclusao-bh",
+   "titulo": "Baralho de dança criado com alunos autistas promove inclusão nas escolas de BH",
+   "resumo": "O projeto Jogos de Danças Diversas lançou um baralho feito com estudantes autistas e não autistas, com cartas traduzidas para Libras e vídeos gratuitos. O material foi pensado para ser usado nas escolas.",
    "categoria": "sociedade",
-   "regiao": "Alvorada de Minas (MG)",
-   "data": "2026-11-24",
+   "regiao": "Belo Horizonte (MG)",
+   "data": "2026-11-27",
    "fonte": "Estado de Minas",
-   "url": "https://www.em.com.br/gerais/2026/11/7543777-apos-30-anos-de-espera-comunidade-mineira-celebra-reinauguracao-de-igreja.html",
+   "url": "https://www.em.com.br/diversidade/2026/11/7545315-projeto-jogos-de-dancas-diversas-lanca-baralho-focado-em-inclusao-escolar.html",
    "pais": "Brasil",
-   "lat": -18.5,
-   "lon": -43.3,
+   "lat": -19.98,
+   "lon": -44.03,
    "i18n": {
     "es": {
-     "titulo": "Una comunidad de Minas Gerais celebra la reapertura de una iglesia del siglo XVIII",
-     "resumo": "La Iglesia São José, en Itapanhoacanga, estaba cerrada desde 2012 por motivos de seguridad. Tras más de cuatro años de restauración, fue reinaugurada con su techo de 12 paneles pintados en 1787 recuperado, para alegría de la comunidad.",
-     "regiao": "Alvorada de Minas (MG)",
+     "titulo": "Una baraja de danza creada con alumnos autistas promueve la inclusión en escuelas de Belo Horizonte",
+     "resumo": "El proyecto Jogos de Danças Diversas lanzó una baraja hecha con estudiantes autistas y no autistas, con cartas traducidas a lengua de señas y videos gratuitos. El material está pensado para las escuelas.",
+     "regiao": "Belo Horizonte (MG)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Brazilian village celebrates reopening of 18th-century church",
-     "resumo": "The São José church in Itapanhoacanga, Minas Gerais, had been closed since 2012 for safety reasons. After more than four years of restoration it has reopened, with its ceiling of 12 panels painted in 1787 restored, to the community's delight.",
-     "regiao": "Alvorada de Minas (MG)",
+     "titulo": "Dance card deck made with autistic students promotes school inclusion in Brazil",
+     "resumo": "The Jogos de Danças Diversas project launched a card deck created with autistic and non-autistic students, with cards translated into Brazilian Sign Language and free videos. It is designed for use in schools.",
+     "regiao": "Belo Horizonte (MG)",
      "pais": "Brazil"
     }
    },
-   "img": "https://midias.em.com.br/_midias/jpg/2026/11/24/1000x1000/1_whatsapp-image-2026-11-24-at-21-28-20-68295448.jpeg",
-   "credito": "Paola Simões/Divulgação"
+   "img": "https://midias.em.com.br/_midias/jpg/2026/11/27/1600x900/1_7545315-446b8c841c014a00a6849d2095e58a9b-68314045.jpg?20261127082432?20261127082432",
+   "credito": "Divulgação/Gilberto Goulart"
   },
   {
-   "id": "belinha-selecao-sub17",
-   "titulo": "Revelada em projeto social do DF, jovem de 16 anos é convocada para a seleção sub-17",
-   "resumo": "Clara Izabela, a Belinha, começou num projeto social de futebol para meninas em Candangolândia e hoje joga no Corinthians. Ela está entre as 30 atletas chamadas para treinar com a seleção feminina sub-17 em dezembro.",
-   "categoria": "sociedade",
-   "regiao": "Candangolândia (DF)",
-   "data": "2026-11-24",
-   "fonte": "Correio Braziliense",
-   "url": "https://www.correiobraziliense.com.br/esportes/2026/11/7543808-da-base-do-df-a-amarelinha-belinha-e-convocada-para-selecao-sub-17.html",
+   "id": "serra-araca-especies-novas",
+   "titulo": "Expedição acha dezenas de possíveis novas espécies em montanhas da Amazônia",
+   "resumo": "Dezesseis cientistas passaram 19 dias na Serra do Aracá e encontraram anfíbios, lagartos e plantas que podem ser inéditos para a ciência. Cerca de 10 das 18 espécies de anfíbios registradas podem ser novas.",
+   "categoria": "animais",
+   "regiao": "Serra do Aracá (AM)",
+   "data": "2026-11-26",
+   "fonte": "O Povo (BBC)",
+   "url": "https://www.opovo.com.br/agencia/bbc/2026/11/26/cientistas-encontram-dezenas-de-especies-potencialmente-novas-em-montanhas-da-amazonia.html",
    "pais": "Brasil",
-   "lat": -15.85,
-   "lon": -47.96,
+   "lat": 0.9,
+   "lon": -63.4,
    "i18n": {
     "es": {
-     "titulo": "Descubierta en un proyecto social, una joven de 16 años es convocada a la selección sub-17 de Brasil",
-     "resumo": "Clara Izabela, Belinha, empezó en un proyecto social de fútbol para chicas en Candangolândia y hoy juega en Corinthians. Está entre las 30 jugadoras convocadas para entrenar con la selección femenina sub-17 en diciembre.",
-     "regiao": "Candangolândia (DF)",
+     "titulo": "Una expedición halla decenas de posibles especies nuevas en montañas de la Amazonia",
+     "resumo": "Dieciséis científicos pasaron 19 días en la Serra do Aracá y encontraron anfibios, lagartos y plantas que podrían ser nuevos para la ciencia. Unas 10 de las 18 especies de anfibios registradas podrían ser nuevas.",
+     "regiao": "Serra do Aracá (AM)",
      "pais": "Brasil"
     },
     "en": {
-     "titulo": "Teen from a social project called up to Brazil's U-17 women's squad",
-     "resumo": "Clara Izabela, known as Belinha, 16, started at a girls' football social project in Candangolândia, near Brasília, and now plays for Corinthians. She is among 30 players called to train with Brazil's U-17 women's team in December.",
-     "regiao": "Candangolândia (DF)",
+     "titulo": "Expedition finds dozens of potentially new species in Amazon mountains",
+     "resumo": "Sixteen scientists spent 19 days in Brazil's Serra do Aracá and found amphibians, lizards and plants that may be new to science. About 10 of the 18 amphibian species recorded could be new.",
+     "regiao": "Serra do Aracá (AM)",
      "pais": "Brazil"
     }
    },
-   "img": "https://midias.correiobraziliense.com.br/_midias/jpg/2026/11/24/675x450/1_3553-68295616.jpg?20261124224341?20261124224341",
-   "credito": "Reprodução/Instagram"
+   "img": "https://www.opovo.com.br/_midias/jpg/2026/11/26/856x642/1_77915b80_e754_11f1_88dc_f746e0cde621-43213693.jpg",
+   "credito": "André Dib/Agência FAPESP"
   },
   {
-   "id": "tumores-farmacos-existentes",
-   "titulo": "Um em cada cinco cânceres pode ter remédio já existente, aponta estudo",
-   "resumo": "Cientistas da Universidade de Cambridge analisaram os genomas de 17 mil tumores e encontraram alterações tratáveis com drogas já aprovadas em 18,9% dos casos primários e 25,9% dos metastáticos. Metade delas aparece em tipos de câncer em que esses remédios ainda não são usados. Faltam testes clínicos.",
-   "categoria": "saude",
-   "regiao": "Cambridge",
-   "data": "2026-11-24",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/salud/ciencia/2026/11/24/un-estudio-analizo-17000-tumores-y-encontro-que-uno-de-cada-cinco-canceres-podria-tratarse-con-farmacos-ya-existentes/",
-   "pais": "Reino Unido",
-   "destaque": true,
-   "lat": 52.2,
-   "lon": 0.12,
-   "i18n": {
-    "es": {
-     "titulo": "Uno de cada cinco cánceres podría tratarse con fármacos ya existentes, según un estudio",
-     "resumo": "Científicos de la Universidad de Cambridge analizaron los genomas de 17.000 tumores y hallaron alteraciones tratables con fármacos ya aprobados en el 18,9% de los casos primarios y el 25,9% de los metastásicos. La mitad aparece en tipos de cáncer donde esos fármacos aún no se usan. Faltan ensayos clínicos.",
-     "regiao": "Cambridge",
-     "pais": "Reino Unido"
-    },
-    "en": {
-     "titulo": "One in five cancers could be treated with existing drugs, study finds",
-     "resumo": "University of Cambridge scientists analysed the genomes of 17,000 tumours and found alterations treatable with approved drugs in 18.9% of primary and 25.9% of metastatic cases. Half occur in cancer types where those drugs are not yet used. Clinical trials are still needed.",
-     "regiao": "Cambridge",
-     "pais": "UK"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/7GGZQU5ZDNEEFOD3H5YYBFIG5A.png?auth=4c76ecb8861e93e002ac5a86de93e4da6953b2a33348ebb5df4245bc3b0a5a30&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem ilustrativa: Infobae"
-  },
-  {
-   "id": "premio-ciencia-australia",
-   "titulo": "Oncologista do melanoma e físico dividem maior prêmio de ciência da Austrália",
-   "resumo": "Georgina Long, cujos estudos melhoraram o tratamento do melanoma, e Anthony Thomas, que ajudou a criar um modelo do próton, dividiram o prêmio de 250 mil dólares australianos. É a primeira vez que vencedores de áreas diferentes compartilham a honraria. Segundo a reportagem, a sobrevida no melanoma avançado aumentou dez vezes.",
-   "categoria": "ciencia",
-   "regiao": "Sydney e Adelaide",
-   "data": "2026-11-24",
-   "fonte": "ABC News (Austrália)",
-   "url": "https://www.abc.net.au/news/science/2026-11-24/2026-prime-minister-prize-for-science/107415808",
-   "pais": "Austrália",
-   "lat": -33.87,
-   "lon": 151.21,
-   "i18n": {
-    "es": {
-     "titulo": "Una oncóloga del melanoma y un físico comparten el mayor premio de ciencia de Australia",
-     "resumo": "Georgina Long, cuyos estudios mejoraron el tratamiento del melanoma, y Anthony Thomas, que ayudó a crear un modelo del protón, compartieron el premio de 250.000 dólares australianos. Es la primera vez que ganadores de áreas distintas comparten el galardón. Según el reportaje, la supervivencia en el melanoma avanzado se multiplicó por diez.",
-     "regiao": "Sídney y Adelaida",
-     "pais": "Australia"
-    },
-    "en": {
-     "titulo": "Melanoma oncologist and physicist share Australia's top science prize",
-     "resumo": "Georgina Long, whose trials improved melanoma treatment, and Anthony Thomas, who helped develop a model of the proton, shared the A$250,000 prize. It is the first time winners from different fields have shared the award. The report says advanced melanoma survival has improved tenfold.",
-     "regiao": "Sydney and Adelaide",
-     "pais": "Australia"
-    }
-   },
-   "img": "https://live-production.wcms.abc-cdn.net.au/f7a52e14c23909905b3ded2e2aad6f56?impolicy=wcms_watermark_news&cropH=450&cropW=800&xPos=0&yPos=0&width=862&height=485&imformat=generic",
-   "credito": "Prime Minister's Prize for Science"
-  },
-  {
-   "id": "positron-preso-armadilha",
-   "titulo": "Físicos prendem um único pósitron por meses",
-   "resumo": "Pesquisadores da Universidade Northwestern capturaram uma única partícula de antimatéria, um pósitron, resfriaram-na perto do zero absoluto e a mantiveram presa por meses. O feito permitirá comparar com enorme precisão a antimatéria com a matéria comum.",
-   "categoria": "ciencia",
-   "regiao": "Evanston, Illinois",
-   "data": "2026-11-25",
-   "fonte": "ScienceDaily",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm",
+   "id": "beija-flor-recorde-migracao",
+   "titulo": "Beija-flor voa 6.500 km em 38 dias e bate recorde de migração",
+   "resumo": "Um beija-flor-ruivo macho viajou do Alabama ao Alasca, a mais longa migração já registrada para esse grupo de aves. Pesquisadores da Universidade de Memphis acompanharam o voo com um minúsculo rastreador movido a energia solar.",
+   "categoria": "animais",
+   "regiao": "Alabama ao Alasca",
+   "data": "2026-11-27",
+   "fonte": "Metrópoles",
+   "url": "https://www.metropoles.com/ciencia/38-dias-beija-flor-viaja-65-mil-km-e-bate-recorde-de-viagem-mais-longa",
    "pais": "Estados Unidos",
-   "lat": 42.06,
-   "lon": -87.68,
+   "lat": 47.0,
+   "lon": -118.0,
    "i18n": {
     "es": {
-     "titulo": "Físicos atrapan un único positrón durante meses",
-     "resumo": "Investigadores de la Universidad Northwestern capturaron una sola partícula de antimateria, un positrón, la enfriaron cerca del cero absoluto y la mantuvieron atrapada durante meses. El logro permitirá comparar con enorme precisión la antimateria con la materia común.",
-     "regiao": "Evanston, Illinois",
+     "titulo": "Un colibrí vuela 6.500 km en 38 días y bate un récord de migración",
+     "resumo": "Un colibrí rufo macho viajó de Alabama a Alaska, la migración más larga registrada para este grupo de aves. Investigadores de la Universidad de Memphis siguieron el vuelo con un diminuto rastreador solar.",
+     "regiao": "De Alabama a Alaska",
      "pais": "Estados Unidos"
     },
     "en": {
-     "titulo": "Physicists trap a single positron for months",
-     "resumo": "Northwestern University researchers captured a single particle of antimatter, a positron, cooled it close to absolute zero and held it in a trap for months. The feat will allow highly precise comparisons between antimatter and ordinary matter.",
-     "regiao": "Evanston, Illinois",
+     "titulo": "Hummingbird flies 6,500 km in 38 days, setting a migration record",
+     "resumo": "A male rufous hummingbird flew from Alabama to Alaska, the longest migration recorded for this group of birds. University of Memphis researchers tracked the flight with a tiny solar-powered tag.",
+     "regiao": "Alabama to Alaska",
      "pais": "USA"
     }
    },
-   "img": "https://www.sciencedaily.com/images/1920/particle-trapped-antimatter-physics.webp",
-   "credito": "Ilustração gerada por IA: ScienceDaily"
+   "img": "https://i.metroimg.com/tLev1tr0idzJTsKx2pSw55cr90T1pt8pgrn8hSelOwM/rs:fill:1200:800:1/g:no/q:85/f:webp/plain/https://images.metroimg.com/2026/11/beija-flor-recorde.jpg",
+   "credito": "Rhodes et al., Ecology and Evolution, 2026"
   },
   {
-   "id": "angioplastia-imagem-coracao",
-   "titulo": "Mudança na angioplastia reduz em 32% o risco de novos problemas cardíacos",
-   "resumo": "Estudo com 1.639 pacientes em 20 hospitais da Coreia do Sul mostrou que guiar a angioplastia com imagens de dentro da artéria, e não só por raio-X, reduziu em 32% o risco de novos eventos cardíacos em cinco anos, nos casos de lesões complexas.",
-   "categoria": "saude",
-   "regiao": "Coreia do Sul",
-   "data": "2026-11-24",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/salud/ciencia/2026/11/24/un-estudio-revelo-que-cambio-en-las-angioplastias-puede-reducir-mas-de-30-el-riesgo-de-nuevos-eventos-cardiacos/",
-   "pais": "Coreia do Sul",
-   "lat": 36.5,
-   "lon": 127.8,
-   "i18n": {
-    "es": {
-     "titulo": "Un cambio en la angioplastia reduce un 32% el riesgo de nuevos problemas cardíacos",
-     "resumo": "Un estudio con 1.639 pacientes en 20 hospitales de Corea del Sur mostró que guiar la angioplastia con imágenes desde dentro de la arteria, y no solo con rayos X, redujo un 32% el riesgo de nuevos eventos cardíacos en cinco años, en lesiones complejas.",
-     "regiao": "Corea del Sur",
-     "pais": "Corea del Sur"
-    },
-    "en": {
-     "titulo": "Angioplasty change cuts risk of new heart problems by 32%",
-     "resumo": "A study of 1,639 patients at 20 South Korean hospitals found that guiding angioplasty with imaging from inside the artery, not just X-rays, cut the risk of new cardiac events over five years by 32% in complex lesions.",
-     "regiao": "South Korea",
-     "pais": "South Korea"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/IJSIFGZBHZE2JJMA3RWMLJGK5Y.png?auth=cb023b37b40ad2d15ee045f9716d944d46bc65c09e508cfd5c671f2c162220d5&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem ilustrativa: Infobae"
-  },
-  {
-   "id": "parasita-ajuda-tartaruga",
-   "titulo": "Pequeno parasita pode ajudar a salvar tartaruga ameaçada",
-   "resumo": "Cientistas da Universidade Atlântica da Flórida descobriram que o DNA de um verme que vive em tartarugas-de-pântano revela como suas populações estão divididas, sem precisar capturá-las. A espécie é considerada vulnerável, e o método pode guiar sua proteção.",
+   "id": "pontes-preguicas-costa-rica",
+   "titulo": "Voluntários criam pontes de corda para preguiças na Costa Rica",
+   "resumo": "Como preguiças não conseguem pular entre árvores, uma fundação já instalou cerca de 410 pontes de corda sobre estradas e construções. Câmeras registraram mais de 22 mil travessias de animais silvestres, não só de preguiças.",
    "categoria": "animais",
-   "regiao": "Flórida",
-   "data": "2026-11-24",
-   "fonte": "Infobae",
-   "url": "https://www.infobae.com/america/ciencia-america/2026/11/24/el-diminuto-parasito-que-podria-salvar-a-una-tortuga-amenazada-de-extincion/",
-   "pais": "Estados Unidos",
-   "lat": 27.45,
-   "lon": -80.33,
-   "i18n": {
-    "es": {
-     "titulo": "Un diminuto parásito podría ayudar a salvar a una tortuga amenazada",
-     "resumo": "Científicos de la Universidad Atlántica de Florida descubrieron que el ADN de un gusano que vive en las tortugas de pantano revela cómo se dividen sus poblaciones, sin necesidad de capturarlas. La especie es vulnerable y el método puede guiar su protección.",
-     "regiao": "Florida",
-     "pais": "Estados Unidos"
-    },
-    "en": {
-     "titulo": "Tiny parasite could help save a threatened turtle",
-     "resumo": "Florida Atlantic University scientists found that the DNA of a flatworm living in diamondback terrapins reveals how their populations are divided, without capturing the turtles. The species is listed as vulnerable, and the method could guide its protection.",
-     "regiao": "Florida",
-     "pais": "USA"
-    }
-   },
-   "img": "https://www.infobae.com/resizer/v2/A7UFD7TBRBBLVHISRVUJFIWGEA.png?auth=1ae2a0d0f1e65eeb8ae9bdfb56ef892a80fed2663d91ed26a6c1adda3c6e9ab5&smart=true&width=1200&height=630&quality=85",
-   "credito": "Imagem ilustrativa: Infobae"
-  },
-  {
-   "id": "gaiolas-ue-tribunal",
-   "titulo": "Tribunal europeu obriga UE a definir prazo para proibir gaiolas em fazendas",
-   "resumo": "O Tribunal de Justiça da UE decidiu que a Comissão Europeia deve fixar um novo cronograma para a lei que acaba com gaiolas para animais de criação. A ação veio de uma iniciativa cidadã com quase 1,4 milhão de assinaturas; cerca de 300 milhões de animais ainda vivem engaiolados no bloco.",
-   "categoria": "animais",
-   "regiao": "União Europeia",
+   "regiao": "Puerto Viejo de Talamanca",
    "data": "2026-11-25",
    "fonte": "Euronews",
-   "url": "https://www.euronews.com/2026/11/25/historic-victory-caged-farm-animals-could-be-banned-in-the-eu-after-landmark-court-ruling",
-   "pais": "Luxemburgo",
-   "lat": 49.61,
-   "lon": 6.13,
+   "url": "https://www.euronews.com/2026/11/25/sloths-cant-jump-between-trees-these-volunteers-are-creating-lifeline-bridges",
+   "pais": "Costa Rica",
+   "destaque": true,
+   "lat": 9.66,
+   "lon": -82.75,
    "i18n": {
     "es": {
-     "titulo": "Un tribunal europeo obliga a la UE a fijar plazos para prohibir las jaulas en granjas",
-     "resumo": "El Tribunal de Justicia de la UE decidió que la Comisión Europea debe fijar un nuevo calendario para la ley que pone fin a las jaulas para animales de granja. La demanda vino de una iniciativa ciudadana con casi 1,4 millones de firmas; unos 300 millones de animales siguen enjaulados en el bloque.",
-     "regiao": "Unión Europea",
-     "pais": "Luxemburgo"
+     "titulo": "Voluntarios crean puentes de cuerda para perezosos en Costa Rica",
+     "resumo": "Como los perezosos no pueden saltar entre árboles, una fundación ya instaló unos 410 puentes de cuerda sobre carreteras y construcciones. Las cámaras registraron más de 22.000 cruces de animales silvestres, no solo de perezosos.",
+     "regiao": "Puerto Viejo de Talamanca",
+     "pais": "Costa Rica"
     },
     "en": {
-     "titulo": "EU court orders a timeline for banning cages on farms",
-     "resumo": "The EU Court of Justice ruled that the European Commission must set a new timeline for legislation ending cages for farm animals. The case came from a citizens' initiative with nearly 1.4 million signatures; about 300 million animals are still caged in the bloc.",
-     "regiao": "European Union",
-     "pais": "Luxembourg"
+     "titulo": "Volunteers build rope bridges for sloths in Costa Rica",
+     "resumo": "Since sloths can't jump between trees, a foundation has installed about 410 rope bridges over roads and buildings. Cameras have logged more than 22,000 wildlife crossings, not only by sloths.",
+     "regiao": "Puerto Viejo de Talamanca",
+     "pais": "Costa Rica"
     }
    },
-   "img": "https://images.euronews.com/articles/stories/10/00/77/86/1200x675_cmsv2_ee65323a-f5f5-558c-a8c9-0ce686459e3b-10007786.jpg",
-   "credito": "AP Photo/Rich Pedroncelli"
+   "img": "https://images.euronews.com/articles/stories/10/00/82/31/1200x675_cmsv2_5d6bdfff-3091-5818-b0d8-edab00038a30-10008231.jpg",
+   "credito": "AP Photo/Ivan Valencia"
   },
   {
-   "id": "fio-dental-inteligente",
-   "titulo": "Fio dental inteligente mede glicose e sinais de inflamação na gengiva",
-   "resumo": "Pesquisadores de Hong Kong criaram um fio dental que coleta uma gota mínima de fluido da gengiva em cerca de 20 segundos e mede glicose, ácido úrico e outros marcadores em minutos. Os resultados se aproximaram dos exames de sangue. O aparelho ainda está em fase de pesquisa.",
-   "categoria": "tecnologia",
-   "regiao": "Hong Kong",
-   "data": "2026-11-23",
-   "fonte": "CNN Brasil",
-   "url": "https://www.cnnbrasil.com.br/saude/fio-dental-inteligente-mede-glicose-e-sinais-de-inflamacao-na-gengiva/",
-   "pais": "Hong Kong",
-   "lat": 22.34,
-   "lon": 114.26,
+   "id": "cadela-eba-orcas",
+   "titulo": "Cadela farejadora ajuda a proteger orcas ameaçadas",
+   "resumo": "Eba, uma cadela resgatada de 11 anos, foi treinada para encontrar fezes de orcas no mar entre os EUA e o Canadá. As amostras, junto com gotas coletadas por drones, ajudam cientistas a montar perfis de saúde de cada animal de uma população ameaçada.",
+   "categoria": "animais",
+   "regiao": "Mar de Salish",
+   "data": "2026-11-27",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/27/meet-eba-the-11-year-old-poop-sniffing-dog-helping-to-protect-endangered-orcas",
+   "pais": "Estados Unidos",
+   "lat": 48.2,
+   "lon": -122.8,
    "i18n": {
     "es": {
-     "titulo": "Un hilo dental inteligente mide la glucosa y señales de inflamación en las encías",
-     "resumo": "Investigadores de Hong Kong crearon un hilo dental que recoge una gota mínima de fluido de la encía en unos 20 segundos y mide glucosa, ácido úrico y otros marcadores en minutos. Los resultados se acercaron a los análisis de sangre. El dispositivo aún está en fase de investigación.",
-     "regiao": "Hong Kong",
-     "pais": "Hong Kong"
+     "titulo": "Una perra rastreadora ayuda a proteger orcas amenazadas",
+     "resumo": "Eba, una perra rescatada de 11 años, fue entrenada para encontrar heces de orcas en el mar entre EE. UU. y Canadá. Las muestras, junto con gotas recogidas por drones, ayudan a los científicos a elaborar perfiles de salud de cada animal de una población amenazada.",
+     "regiao": "Mar de Salish",
+     "pais": "Estados Unidos"
     },
     "en": {
-     "titulo": "Smart dental floss measures glucose and gum inflammation",
-     "resumo": "Hong Kong researchers created a floss that collects a tiny drop of gum fluid in about 20 seconds and measures glucose, uric acid and other markers within minutes. Results closely matched blood tests. The device is still at the research stage.",
-     "regiao": "Hong Kong",
-     "pais": "Hong Kong"
+     "titulo": "Sniffer dog helps protect endangered orcas",
+     "resumo": "Eba, an 11-year-old rescue dog, is trained to find orca droppings in the sea between the US and Canada. The samples, along with spout droplets collected by drones, help scientists build health profiles of each animal in an endangered population.",
+     "regiao": "Salish Sea",
+     "pais": "USA"
     }
    },
-   "img": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/11/FIO-DENTAL-GLICOSE.png?w=1200&h=630&crop=1",
-   "credito": "Reprodução/HKUST"
+   "img": "https://images.euronews.com/articles/stories/10/01/12/61/1200x675_cmsv2_c3e07b2b-b577-5a92-8bd3-b931af28a312-10011261.jpg",
+   "credito": "AP Photo"
   },
   {
-   "id": "pescoco-titanossauro-espanha",
-   "titulo": "Pedra misteriosa era o pescoço de um titanossauro gigante",
-   "resumo": "Perto de Isona, na Catalunha, o que parecia uma rocha revelou ser o pescoço de um titanossauro, que pode passar de 18 metros. Um bloco de 18 toneladas foi retirado com guindaste para estudo.",
-   "categoria": "ciencia",
-   "regiao": "Catalunha",
-   "data": "2026-11-25",
+   "id": "cirurgia-robotica-remota-argentina",
+   "titulo": "Argentina faz primeira cirurgia robótica com médico operando de outro país",
+   "resumo": "No Hospital Italiano de Buenos Aires, um cirurgião em São Paulo controlou o robô em tempo real para operar uma paciente de 34 anos que concluiu tratamento contra o câncer. O procedimento preservou a chance de ela engravidar e teve resultado bem-sucedido.",
+   "categoria": "saude",
+   "regiao": "Buenos Aires",
+   "data": "2026-11-27",
    "fonte": "La Nación",
-   "url": "https://www.lanacion.com.ar/ciencia/creyeron-que-se-trataba-de-una-roca-y-resulto-ser-el-cuello-de-un-titanosaurio-gigante-nid25112026/",
-   "pais": "Espanha",
-   "lat": 42.1,
-   "lon": 1.0,
+   "url": "https://www.lanacion.com.ar/sociedad/hito-nacional-un-medico-opero-desde-el-exterior-a-una-paciente-oncologica-en-buenos-aires-y-el-nid27112026/",
+   "pais": "Argentina",
+   "lat": -34.61,
+   "lon": -58.41,
    "i18n": {
     "es": {
-     "titulo": "Una roca misteriosa resultó ser el cuello de un titanosaurio gigante",
-     "resumo": "Cerca de Isona, en Cataluña, lo que parecía una roca resultó ser el cuello de un titanosaurio, que podría superar los 18 metros. Un bloque de 18 toneladas se retiró con una grúa para su estudio.",
-     "regiao": "Cataluña",
-     "pais": "España"
+     "titulo": "Argentina realiza su primera cirugía robótica con un médico operando desde otro país",
+     "resumo": "En el Hospital Italiano de Buenos Aires, un cirujano en São Paulo controló el robot en tiempo real para operar a una paciente de 34 años que terminó un tratamiento oncológico. El procedimiento preservó su posibilidad de embarazo y fue exitoso.",
+     "regiao": "Buenos Aires",
+     "pais": "Argentina"
     },
     "en": {
-     "titulo": "Mystery rock turns out to be a giant titanosaur's neck",
-     "resumo": "Near Isona in Catalonia, what looked like a rock turned out to be the neck of a titanosaur that may exceed 18 metres. An 18-tonne block was lifted out by crane for study.",
-     "regiao": "Catalonia",
-     "pais": "Spain"
+     "titulo": "Argentina performs its first robotic surgery with a surgeon operating from abroad",
+     "resumo": "At Buenos Aires' Hospital Italiano, a surgeon in São Paulo controlled the robot in real time to operate on a 34-year-old patient who had finished cancer treatment. The procedure preserved her chance of pregnancy and was successful.",
+     "regiao": "Buenos Aires",
+     "pais": "Argentina"
     }
    },
-   "img": "https://www.lanacion.com.ar/resizer/v2/descubrieron-en-espana-el-cuello-de-un-RNTSTSRXE5CRZAF5P7CN76M44A.jpg?auth=1fe531f1eac76e9b637240040fc3eba80764f3e61dde4856f82b7847259b6ec9&width=1200&height=800&quality=70&smart=true",
-   "credito": "20minutos"
+   "img": "https://www.lanacion.com.ar/resizer/v2/el-hospital-italiano-realizo-una-cirugia-robotica-RYQYQDLDKVFY7ESTESU77Z4HBI.jpg?auth=9d672420c821dd9da9815e1c1a17e176ba3361ad22c55c70686f1e848ffe662b&width=1200&height=800&quality=70&smart=true",
+   "credito": "La Nación"
+  },
+  {
+   "id": "psiquiatras-ucranianos-treinamento",
+   "titulo": "Profissionais de saúde mental da Ucrânia se formam em trauma na Austrália",
+   "resumo": "Oito ucranianos, entre psiquiatras e assistentes sociais, concluíram um treinamento em trauma com bolsas que cobrem viagem e estadia. Uma moradora local arrecadou 22 mil dólares australianos numa rifa para kits de primeiros socorros que eles levarão para casa.",
+   "categoria": "saude",
+   "regiao": "Coledale, Nova Gales do Sul",
+   "data": "2026-11-28",
+   "fonte": "ABC News (Austrália)",
+   "url": "https://www.abc.net.au/news/2026-11-28/ukrainian-doctors-receive-trauma-training/107412258",
+   "pais": "Austrália",
+   "lat": -34.36,
+   "lon": 150.92,
+   "i18n": {
+    "es": {
+     "titulo": "Profesionales de salud mental de Ucrania se forman en trauma en Australia",
+     "resumo": "Ocho ucranianos, entre psiquiatras y trabajadores sociales, completaron una formación en trauma con becas que cubren viaje y estadía. Una vecina recaudó 22.000 dólares australianos con una rifa para botiquines que llevarán a casa.",
+     "regiao": "Coledale, Nueva Gales del Sur",
+     "pais": "Australia"
+    },
+    "en": {
+     "titulo": "Ukrainian mental-health workers complete trauma training in Australia",
+     "resumo": "Eight Ukrainians, including psychiatrists and social workers, completed trauma training on scholarships covering travel and living costs. A local resident raised A$22,000 in a raffle for first-aid kits they will take home.",
+     "regiao": "Coledale, New South Wales",
+     "pais": "Australia"
+    }
+   },
+   "img": "https://live-production.wcms.abc-cdn.net.au/090d9fbd3938cfdc9b3e242d903827fe?impolicy=wcms_watermark_news&cropH=1152&cropW=2048&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+   "credito": "ABC Illawarra: Sarah Moss"
+  },
+  {
+   "id": "pulsar-algoritmo-rapido",
+   "titulo": "Novo algoritmo acha em minutos estrela que escapou de buscas gigantes",
+   "resumo": "Cientistas do Instituto Weizmann criaram um método que encontrou um pulsar que gira mais de 260 vezes por segundo usando pouco computador, depois que uma busca anterior falhou mesmo com o equivalente a 600 anos de processamento. O método já é usado para achar outros pulsares.",
+   "categoria": "ciencia",
+   "regiao": "Rehovot",
+   "data": "2026-11-25",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/25/un-faro-cosmico-escondido-el-hallazgo-que-cambia-la-forma-de-explorar-el-universo/",
+   "pais": "Israel",
+   "lat": 31.9,
+   "lon": 34.8,
+   "i18n": {
+    "es": {
+     "titulo": "Un nuevo algoritmo halla en minutos una estrella que escapó a búsquedas gigantes",
+     "resumo": "Científicos del Instituto Weizmann crearon un método que encontró un púlsar que gira más de 260 veces por segundo con poca computación, después de que una búsqueda previa fallara pese al equivalente a 600 años de procesamiento. El método ya se usa para hallar otros púlsares.",
+     "regiao": "Rehovot",
+     "pais": "Israel"
+    },
+    "en": {
+     "titulo": "New algorithm finds in minutes a star that eluded huge searches",
+     "resumo": "Weizmann Institute scientists created a method that found a pulsar spinning more than 260 times a second using little computing power, after an earlier search failed despite the equivalent of 600 years of processing. The method is already finding more pulsars.",
+     "regiao": "Rehovot",
+     "pais": "Israel"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/WRU5FYEVLNGVVJRHGNR6EVHMG4.jpeg?auth=d25b5f4a5f6bbc5f3448da59c387397f711e68f00043ba31434ba80d9804ca36&smart=true&width=1200&height=630&quality=85",
+   "credito": "B. Knispel/Max Planck; NASA/DOE Fermi LAT"
+  },
+  {
+   "id": "anfibio-siphonops-maria",
+   "titulo": "Nova espécie de anfíbio brasileiro homenageia mulher que replantou a Floresta da Tijuca",
+   "resumo": "A cobra-cega Siphonops maria, da Serra dos Órgãos, foi descrita como espécie nova. O nome homenageia uma mulher escravizada que, com outras dez pessoas, plantou mais de 100 mil árvores na Floresta da Tijuca no século 19, e as brasileiras chamadas Maria.",
+   "categoria": "animais",
+   "regiao": "Serra dos Órgãos (RJ)",
+   "data": "2026-11-25",
+   "fonte": "Infobae",
+   "url": "https://www.infobae.com/america/ciencia-america/2026/11/25/una-nueva-especie-de-anfibio-en-brasil-fue-bautizada-maria-la-historia-detras-del-nombre/",
+   "pais": "Brasil",
+   "lat": -22.45,
+   "lon": -43.0,
+   "i18n": {
+    "es": {
+     "titulo": "Una nueva especie de anfibio brasileño homenajea a una mujer que replantó el bosque de Tijuca",
+     "resumo": "La cecilia Siphonops maria, de la Serra dos Órgãos, fue descrita como especie nueva. El nombre homenajea a una mujer esclavizada que, con otras diez personas, plantó más de 100.000 árboles en el bosque de Tijuca en el siglo XIX, y a las brasileñas llamadas María.",
+     "regiao": "Serra dos Órgãos (RJ)",
+     "pais": "Brasil"
+    },
+    "en": {
+     "titulo": "New Brazilian amphibian honours woman who replanted the Tijuca Forest",
+     "resumo": "The caecilian Siphonops maria, from the Serra dos Órgãos, has been described as a new species. Its name honours an enslaved woman who, with ten others, planted more than 100,000 trees in Rio's Tijuca Forest in the 19th century, and Brazilian women named Maria.",
+     "regiao": "Serra dos Órgãos (RJ)",
+     "pais": "Brazil"
+    }
+   },
+   "img": "https://www.infobae.com/resizer/v2/GETT7P3QHJAIHDOTJDFRPBTCCY.jpg?auth=48509121df58beeeaeb70704d0166ac1e4681c05f7ae647bb55c7ba038ecdd51&smart=true&width=1200&height=630&quality=85",
+   "credito": "Miguel Relvas Ugalde"
+  },
+  {
+   "id": "prevencao-hiv-zambia",
+   "titulo": "Injeção barata contra o HIV, aplicada duas vezes por ano, chega à Zâmbia",
+   "resumo": "Chegaram as primeiras doses da versão genérica do lenacapavir, que previne o HIV com duas injeções anuais. O custo previsto é de cerca de 40 dólares por pessoa ao ano, e o remédio deve chegar a cerca de 120 países.",
+   "categoria": "saude",
+   "regiao": "Zâmbia",
+   "data": "2026-11-26",
+   "fonte": "Euronews",
+   "url": "https://www.euronews.com/2026/11/26/cheaper-generic-hiv-prevention-drug-arrives-in-zambia",
+   "pais": "Zâmbia",
+   "lat": -13.1,
+   "lon": 27.8,
+   "i18n": {
+    "es": {
+     "titulo": "Una inyección barata contra el VIH, aplicada dos veces al año, llega a Zambia",
+     "resumo": "Llegaron las primeras dosis de la versión genérica del lenacapavir, que previene el VIH con dos inyecciones anuales. El costo previsto es de unos 40 dólares por persona al año, y el fármaco debería llegar a unos 120 países.",
+     "regiao": "Zambia",
+     "pais": "Zambia"
+    },
+    "en": {
+     "titulo": "Cheap twice-yearly HIV prevention shot arrives in Zambia",
+     "resumo": "The first doses of generic lenacapavir, which prevents HIV with two injections a year, have arrived. The expected cost is about $40 per person per year, and the drug should reach around 120 countries.",
+     "regiao": "Zambia",
+     "pais": "Zambia"
+    }
+   },
+   "img": "https://images.euronews.com/articles/stories/10/00/92/57/1200x675_cmsv2_6c851979-57f6-5556-876f-dc29c0dc7dd4-10009257.jpg",
+   "credito": "Hajarah Nalwadda/AP Photo"
   }
  ]
 }
